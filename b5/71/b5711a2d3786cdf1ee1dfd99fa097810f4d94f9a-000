@@ -1,0 +1,7 @@
+// 12 October 2026: publish only the existing project's verified cloud metadata.
+import {createAssetsService} from '/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/scripts/AssetsService.mjs'
+import {createAssetsCloudPublisher} from '/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/scripts/AssetsCloudPublisher.mjs'
+import {createAssetsCloudGitWriter} from '/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/scripts/AssetsCloudGitWriter.mjs'
+const gitWriter=createAssetsCloudGitWriter({repositoryPath:'/Users/zenray/Library/Application Support/ZenRayAssets/repositories/matthieuhuguet_zenray-data',remoteUrl:'https://github.com/matthieuhuguet/zenray-data.git',branch:'main'})
+const service=await createAssetsService({publishCloud:createAssetsCloudPublisher({gitWriter})})
+try{await service.publishProject('zenray-japanese');console.log(JSON.stringify({projectId:'zenray-japanese',published:true}))}finally{await service.close()}

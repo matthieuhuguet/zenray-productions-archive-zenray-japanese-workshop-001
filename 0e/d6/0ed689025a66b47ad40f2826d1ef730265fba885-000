@@ -1,0 +1,13 @@
+// 12 October 2026: inspect stack locations only; never inspect credential values.
+import { readFile,writeFile } from 'node:fs/promises'
+const root='/Users/zenray/.claude/tmp/tmp-zenray-japanese'
+const target=JSON.parse(await readFile(`${root}/verification/AssetsInspector.json`,'utf8'))[0]
+const ws=new WebSocket(target.webSocketDebuggerUrl)
+let stack=[]
+await new Promise((resolve,reject)=>{
+ ws.onopen=()=>{ws.send(JSON.stringify({id:1,method:'Debugger.enable'}));ws.send(JSON.stringify({id:2,method:'Debugger.pause'}))}
+ ws.onmessage=event=>{const data=JSON.parse(event.data);if(data.method==='Debugger.paused'){stack=data.params.callFrames.map(f=>({functionName:f.functionName,url:f.url,location:f.location}));ws.send(JSON.stringify({id:3,method:'Debugger.resume'}))} if(data.id===3){ws.send(JSON.stringify({id:4,method:'Debugger.disable'}));resolve()}}
+ ws.onerror=reject
+ setTimeout(()=>reject(new Error('Inspector timed out')),8000).unref()
+})
+ws.close();await writeFile(`${root}/verification/AssetsStack.json`,JSON.stringify(stack,null,2));console.log(JSON.stringify(stack))

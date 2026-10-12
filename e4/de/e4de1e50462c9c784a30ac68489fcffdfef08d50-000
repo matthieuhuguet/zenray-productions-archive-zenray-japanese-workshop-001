@@ -1,0 +1,9 @@
+// 12 October 2026: read-only timing of the live registry's snapshot calculation.
+import { readFile } from 'node:fs/promises'
+import { AssetsService } from '/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/scripts/AssetsService.mjs'
+const base='/Users/zenray/Library/Application Support/ZenRayAssets'
+const config=JSON.parse(await readFile('/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/scripts/AssetsConfig.json','utf8'))
+const service=new AssetsService(config,{sleepInhibitor:null})
+const registry=JSON.parse(await readFile(`${base}/Projects.json`,'utf8'))
+for(const project of registry.projects){service.projects.set(project.id,project);try{service.states.set(project.id,JSON.parse(await readFile(`${base}/Project-${project.id}.json`,'utf8')))}catch{service.states.set(project.id,{backups:{},restorations:{}})}}
+for(const project of registry.projects){const started=performance.now();const snapshot=service.snapshot(project.id);console.log(JSON.stringify({id:project.id,ms:Math.round(performance.now()-started),count:snapshot.files.length,audits:snapshot.sceneReferences.length}))}

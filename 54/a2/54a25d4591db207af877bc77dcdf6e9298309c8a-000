@@ -1,0 +1,11 @@
+// 12 October 2026, 15:00 CEST: register only admitted Japanese production paths.
+import { requestAssets } from '/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/scripts/Assets/BridgeClient.mjs'
+const projectId = 'zenray-japanese'
+const snapshot = await requestAssets({ action: 'status', projectId })
+
+const current = snapshot.project
+if (!current?.sources) throw new Error('Project source definition unavailable')
+const sources = current.sources.filter(s => s.id !== 'japanese-corpus')
+sources.push({ id: 'japanese-corpus', namespace: 'memory', localPath: '/Users/zenray/.claude/Memory1/Japanese', include: ['Japanese1.md','Japanese2.md','Japanese3.md','DrillTracker.md','CLAUDE.md','Lessons','Scripts','Corpus','Site','_system','AnimeSubs'], keep: true })
+const result = await requestAssets({ action: 'start', id: projectId, project: { id: current.id, name: current.name, category: current.category, folder: current.folder, sources }, sessionId: '01a1301b-f199-7773-863c-b2a78d50b909' })
+console.log(JSON.stringify(result.setup))

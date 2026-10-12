@@ -1,0 +1,8 @@
+// 12 October 2026 18:35 CEST: render the actual view in a dedicated isolated verification page.
+import React from 'react'
+import {createRoot} from 'react-dom/client'
+import '../src/fonts.css'
+import ZenRayJapanese from '../src/learn/ZenRayJapanese.jsx'
+document.body.style.margin='0'
+document.body.style.background='var(--g9-bg)'
+createRoot(document.getElementById('fixture')).render(<ZenRayJapanese />)

@@ -1,0 +1,37 @@
+#!/usr/bin/env python3
+# 12 October 2026: bounded Wikidata import with CC0 provenance and explicit editorial limits.
+import argparse
+import hashlib
+import json
+import urllib.parse
+import urllib.request
+from pathlib import Path
+
+root=Path(__file__).resolve().parents[1]
+parser=argparse.ArgumentParser();parser.add_argument('--limit',type=int,default=2000)
+args=parser.parse_args()
+if not 1<=args.limit<=10000: raise ValueError('Choose a bounded limit from 1 to 10000')
+query='''SELECT ?item ?itemLabel ?itemDescription ?jpLabel WHERE {
+  ?item wdt:P17 wd:Q17 .
+  OPTIONAL { ?item rdfs:label ?jpLabel . FILTER(LANG(?jpLabel)="ja") }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "fr,en" . }
+} LIMIT '''+str(args.limit)
+url='https://query.wikidata.org/sparql?'+urllib.parse.urlencode({'query':query,'format':'json'})
+request=urllib.request.Request(url,headers={'Accept':'application/sparql-results+json','User-Agent':'ZenRayJapanese/1.0 corpus research (local educational dataset)'})
+with urllib.request.urlopen(request,timeout=25) as response: raw=response.read()
+data=json.loads(raw)
+folder=root/'research/japan';folder.mkdir(parents=True,exist_ok=True)
+records=[]
+for item in data['results']['bindings']:
+    uri=item['item']['value'];qid=uri.rsplit('/',1)[-1]
+    label=item.get('itemLabel',{}).get('value',qid)
+    jp=item.get('jpLabel',{}).get('value','')
+    description=item.get('itemDescription',{}).get('value','')
+    records.append({'id':'japan-wikidata-'+qid,'title':label,'aliases':[a for a in [jp,qid] if a],
+                    'domain':'geography','level':'culture','explanationFr':description or 'Entité répertoriée dans Wikidata avec le pays Japon. Définition française absente ; consulter la source.',
+                    'examples':[],'prerequisites':[],'status':'community-source-imported','claimType':'structured-reference',
+                    'scopeNote':'Le rattachement au Japon ne prouve ni une importance culturelle ni une validation gouvernementale. Pas de leçon ni de comportement collectif déduit.',
+                    'sources':[{'url':'https://www.wikidata.org/wiki/'+qid,'title':label,'publisher':'Wikidata contributors','checkedAt':'12 October 2026','license':'CC0 1.0','reuse':'Structured labels and descriptions, no media or article text.'}],
+                    'original':item})
+(folder/'JapanEntityRecords.json').write_text(json.dumps({'records':records,'schemaVersion':1,'sourceQuery':query,'sourceSha256':hashlib.sha256(raw).hexdigest(),'checkedAt':'12 October 2026'},ensure_ascii=False,indent=2)+'\n')
+print(json.dumps({'records':len(records),'sourceSha256':hashlib.sha256(raw).hexdigest()}))

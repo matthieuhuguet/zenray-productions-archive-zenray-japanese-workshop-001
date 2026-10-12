@@ -1,0 +1,21 @@
+// 12 October 2026: authenticate with the existing local credential without printing it.
+import { readFile, writeFile } from 'node:fs/promises'
+import { createCorpusClient } from '/Users/zenray/.codex/worktrees/japanese-progress/src/learn/japaneseCorpusModel.js'
+const root = '/Users/zenray/.claude/tmp/tmp-zenray-japanese'
+const credentialSource = await readFile('/Users/zenray/.claude/Memory1/AGENTS.md', 'utf8')
+const secret = credentialSource.match(/Mot de passe maître du drive ZenRayProgress\s*=\s*`([^`]+)`/)?.[1]
+if (!secret) throw new Error('Existing site credential is unavailable')
+const readJson = async path => {
+  const response = await fetch(`https://zenray-progress.pages.dev/api/page?action=read&raw=1&path=${encodeURIComponent(path)}`, { headers: { 'x-zr-auth': secret }, signal: AbortSignal.timeout(20000) })
+  const result = await response.json()
+  if (!response.ok || result.error || result.missing || typeof result.markdown !== 'string') throw new Error(`Live read failed: ${response.status}, ${result.error || 'missing'}`)
+  return JSON.parse(result.markdown)
+}
+const client = createCorpusClient(readJson)
+const catalogue = await client.getCatalogue()
+const kanji = await client.search('日', { domain: 'kanji' })
+const conditional = await client.getRecord('grammar-condition-ba')
+if (!kanji.some(record => record.id === 'kanji-065e5') || !conditional.examples?.length) throw new Error('Real records were not served')
+const report = { checkedAt: '12 October 2026', release: catalogue.release, counts: catalogue.counts, cards: catalogue.cards.length, kanjiIds: kanji.map(record => record.id), lessonId: conditional.id, authenticatedProduction: true }
+await writeFile(`${root}/verification/ProductionDataReport.json`, JSON.stringify(report, null, 2))
+console.log(JSON.stringify(report))

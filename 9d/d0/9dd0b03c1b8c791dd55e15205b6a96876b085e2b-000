@@ -1,0 +1,84 @@
+#!/usr/bin/env python3
+# Fetch public datasets with provenance, 12 October 2026 14:44 Europe/Paris.
+import argparse, bz2, concurrent.futures, hashlib, json, tarfile, urllib.request, zipfile
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent / "research" / "datasets"
+RELEASES = {"dictionary": "https://api.github.com/repos/scriptin/jmdict-simplified/releases/latest", "strokes": "https://api.github.com/repos/KanjiVG/kanjivg/releases/latest"}
+HEADERS = {"User-Agent": "ZenRayJapanese-dataset-research"}
+
+def load_url(url):
+    with urllib.request.urlopen(urllib.request.Request(url, headers=HEADERS), timeout=90) as response:
+        return response.read()
+
+def fetch(item):
+    destination = ROOT / item["filename"]
+    if not destination.exists():
+        temporary = destination.with_suffix(destination.suffix + ".part")
+        temporary.write_bytes(load_url(item["url"]))
+        temporary.replace(destination)
+    data = destination.read_bytes()
+    return dict(item, bytes=len(data), sha256=hashlib.sha256(data).hexdigest(), path=str(destination), retrievedDate="12 October 2026")
+
+def prepare(items):
+    # Preserve producer schemas and author attribution, 12 October 2026 14:44 Europe/Paris.
+    counts = {}
+    for archive in [ROOT/item["filename"] for item in items if item["filename"].endswith(".tgz")]:
+        with tarfile.open(archive) as source:
+            for member in source:
+                if member.name.endswith(".json"):
+                    data = json.load(source.extractfile(member))
+                    destination = ROOT / Path(member.name).name
+                    destination.write_text(json.dumps(data, ensure_ascii=False, separators=(",", ":")))
+                    counts[destination.name] = len(data.get("words", data.get("characters", [])))
+    lookup = {}
+    for language in ["jpn", "fra"]:
+        count = 0
+        with bz2.open(ROOT / f"{language}_sentences_detailed.tsv.bz2", "rt") as source:
+            for line in source:
+                row = line.rstrip("\n").split("\t")
+                lookup[int(row[0])] = {"id": row[0], "language": row[1], "text": row[2], "author": row[3], "createdAt": row[4], "modifiedAt": row[5], "url": f"https://tatoeba.org/en/sentences/show/{row[0]}"}
+                count += 1
+        counts[f"{language}Sentences"] = count
+    pair_count = missing_count = 0
+    with (ROOT / "tatoeba-jpn-fra.jsonl").open("w") as output, bz2.open(ROOT / "jpn-fra_links.tsv.bz2", "rt") as links:
+        for line in links:
+            left, right = map(int, line.split())
+            if left not in lookup or right not in lookup:
+                missing_count += 1
+                continue
+            record = {"id": f"tatoeba:{left}:{right}", "japanese": lookup[left], "french": lookup[right], "license": "CC-BY-2.0-FR", "sourceId": "tatoeba", "reviewStatus": "community-unreviewed", "retrievedDate": "12 October 2026"}
+            output.write(json.dumps(record, ensure_ascii=False, separators=(",", ":")) + "\n")
+            pair_count += 1
+    counts["directJapaneseFrenchPairs"] = pair_count
+    counts["linksMissingSentence"] = missing_count
+    strokes = ROOT / "strokes"
+    strokes.mkdir(exist_ok=True)
+    with zipfile.ZipFile(next(ROOT/item["filename"] for item in items if item["sourceId"]=="kanjivg")) as source:
+        names = [name for name in source.namelist() if name.endswith(".svg")]
+        for name in names:
+            (strokes / Path(name).name).write_bytes(source.read(name))
+        counts["strokeDiagrams"] = len(names)
+    (ROOT / "counts.json").write_text(json.dumps(counts, indent=2) + "\n")
+    print(json.dumps(counts))
+
+def main():
+    ROOT.mkdir(parents=True, exist_ok=True)
+    releases = {key: json.loads(load_url(url)) for key, url in RELEASES.items()}
+    items = []
+    for prefix in ["jmdict-all-", "jmdict-fre-", "kanjidic2-all-"]:
+        asset = next(item for item in releases["dictionary"]["assets"] if item["name"].startswith(prefix) and item["name"].endswith(".tgz"))
+        items.append({"filename": asset["name"], "url": asset["browser_download_url"], "sourceId": "edrdg", "license": "CC-BY-SA-4.0", "version": releases["dictionary"]["tag_name"]})
+    asset = next(item for item in releases["strokes"]["assets"] if item["name"].endswith("-main.zip"))
+    items.append({"filename": asset["name"], "url": asset["browser_download_url"], "sourceId": "kanjivg", "license": "CC-BY-SA-3.0", "version": releases["strokes"]["tag_name"]})
+    for language, filename in [("jpn", "jpn_sentences_detailed.tsv.bz2"), ("fra", "fra_sentences_detailed.tsv.bz2"), ("jpn", "jpn-fra_links.tsv.bz2")]:
+        items.append({"filename": filename, "url": f"https://downloads.tatoeba.org/exports/per_language/{language}/{filename}", "sourceId": "tatoeba", "license": "CC-BY-2.0-FR", "version": "weekly-10-October-2026"})
+    with concurrent.futures.ThreadPoolExecutor(max_workers=6) as pool:
+        results = list(pool.map(fetch, items))
+    (ROOT / "downloads.json").write_text(json.dumps(results, ensure_ascii=False, indent=2) + "\n")
+    prepare(results)
+    for item in results:
+        print(item["filename"], item["bytes"], item["sha256"])
+
+if __name__ == "__main__":
+    main()

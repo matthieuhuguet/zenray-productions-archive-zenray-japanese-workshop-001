@@ -1,0 +1,41 @@
+#!/usr/bin/env python3
+# 12 October 2026, 15:00 CEST: exercise positive and negative corpus gates.
+import importlib.util
+import unittest
+from pathlib import Path
+
+spec = importlib.util.spec_from_file_location('corpus',Path(__file__).with_name('Corpus.py'))
+corpus = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(corpus)
+
+class CorpusContract(unittest.TestCase):
+    def setUp(self):
+        self.record = {'id':'conditional-ba','title':'ば','domain':'grammar','level':'N4','explanationFr':'Condition générale.',
+                       'sources':[{'url':'https://www.coelang.tufs.ac.jp/mt/ja/'}],
+                       'examples':[{'ja':'雨が降れば、行きません。','reading':'あめがふれば、いきません。','fr':"S'il pleut, je n'y vais pas."}]}
+        self.config = {'lesson':{'minutes':15,'pauseMinutes':2,'maxDrills':3,'mode':'oral','script':'reading'}}
+    def test_verified_record_passes(self):
+        self.assertEqual(corpus.validate([self.record]),{'conditional-ba'})
+    def test_missing_source_fails(self):
+        with self.assertRaises(ValueError): corpus.validate([{**self.record,'sources':[]}])
+    def test_duplicate_id_fails(self):
+        with self.assertRaises(ValueError): corpus.validate([self.record,self.record])
+    def test_unknown_level_fails(self):
+        with self.assertRaises(ValueError): corpus.validate([{**self.record,'level':'officialN1'}])
+    def test_kanas_keep_voicing(self):
+        self.assertNotEqual(corpus.normalized('が'),corpus.normalized('か'))
+        self.assertEqual(corpus.normalized('ÉCOLE cœur'),'ecole coeur')
+    def test_lesson_uses_reading_and_hides_answers(self):
+        lesson = corpus.cook_lesson(self.record,self.config)
+        before = lesson.split('## ③ DRILL')[0]
+        self.assertIn('あめがふれば',before)
+        self.assertNotIn('雨が降れば',before)
+        self.assertIn('<details>',lesson)
+        self.assertIn('aucun acquis supposé',lesson)
+        self.assertIn('Sources',lesson)
+    def test_reference_without_examples_is_refused(self):
+        with self.assertRaises(ValueError): corpus.cook_lesson({**self.record,'examples':[]},self.config)
+    def test_oversized_drill_is_refused(self):
+        with self.assertRaises(ValueError): corpus.cook_lesson(self.record,self.config,{'maxDrills':50})
+
+if __name__ == '__main__': unittest.main()

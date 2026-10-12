@@ -1,0 +1,66 @@
+// 12 October 2026 18:30 CEST: headless-only functional and responsive checks using real local data.
+import { chromium } from '/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/node_modules/playwright/index.mjs'
+import { readFile, writeFile } from 'node:fs/promises'
+import assert from 'node:assert/strict'
+const output='/Users/zenray/.claude/tmp/tmp-zenray-japanese/verification'
+const browser=await chromium.launch({headless:true,executablePath:"/Users/zenray/Library/Caches/ms-playwright/chromium_headless_shell-1234/chrome-headless-shell-mac-arm64/chrome-headless-shell"})
+const page=await browser.newPage({viewport:{width:1440,height:1100}})
+page.setDefaultTimeout(10000)
+const requests=[], errors=[], report={checkedAt:'12 October 2026',surface:'Actual ZenRayJapanese component in isolated headless Chromium; real local corpus fixtures; not production authentication proof',checks:[]}
+page.on('pageerror',error=>errors.push(error.message))
+await page.route('**/api/page?**', async route=>{
+ const path=new URL(route.request().url()).searchParams.get('path')
+ requests.push(path)
+ try {
+  assert(path?.startsWith('Memory/Japanese/'))
+  const markdown=await readFile('/Users/zenray/.claude/Memory1/'+path.replace(/^Memory\//,''),'utf8')
+  await route.fulfill({status:200,contentType:'application/json',body:JSON.stringify({markdown})})
+ } catch { await route.fulfill({status:404,contentType:'application/json',body:JSON.stringify({missing:true})}) }
+})
+try {
+ await page.goto('http://127.0.0.1:5174/scripts/JapaneseBrowserFixture.html',{waitUntil:'networkidle'})
+ await page.getByRole('button',{name:'Corpus',exact:true}).click()
+ await page.getByRole('heading',{name:'Corpus et leçons à la demande'}).waitFor()
+ await page.getByLabel('Niveau',{exact:true}).selectOption('N4')
+ await page.getByRole('button',{name:/ば : relation conditionnelle/}).click()
+ await page.getByRole('button',{name:'Ajouter à la leçon'}).click()
+ await page.getByRole('button',{name:'Préparer la leçon'}).click()
+ const lesson=page.locator('.jpc-lesson')
+ await lesson.getByRole('heading',{name:'Drill',exact:true}).waitFor()
+ assert.equal(await lesson.locator('table thead th').count(),2)
+ const answers=lesson.locator('details').filter({has:page.locator('summary',{hasText:'Réponse de référence'})})
+ assert((await answers.count())<=3)
+ assert.equal(await lesson.locator('details[open]').count(),0)
+ assert(await lesson.getByText('ORAL : n’écris PAS, dis à voix haute.').isVisible())
+ report.checks.push({name:'Corpus > N4 > ば > lesson',passed:true,tableColumns:2,drills:await answers.count(),script:await page.getByLabel('Écriture').inputValue(),retetstDetails:await lesson.locator('details').count()-await answers.count()})
+ assert((await page.locator('.jpc-detail a[href^="https://"]').count())>0)
+ report.checks.push({name:'Source links and rights metadata',passed:true,sourceLinks:await page.locator('.jpc-detail a').count()})
+ for(const [width,height,theme] of [[1440,1100,'light'],[1440,1100,'dark'],[375,900,'light'],[375,900,'dark']]){
+  await page.setViewportSize({width,height})
+  await page.evaluate(dark=>document.documentElement.classList.toggle('zr-dark',dark),theme==='dark')
+  await page.screenshot({path:`${output}/Japanese-${width}-${theme}.png`,fullPage:true})
+  await page.locator(".jpc-cooker").screenshot({path:`${output}/Japanese-lesson-${width}-${theme}.png`})
+  const geometry=await page.evaluate(()=>({width:innerWidth,scrollWidth:document.documentElement.scrollWidth,bodyWidth:document.body.scrollWidth}))
+  report.checks.push({name:`Horizontal overflow ${width} ${theme}`,passed:geometry.scrollWidth<=width,...geometry})
+ }
+ await page.getByLabel('Domaine',{exact:true}).selectOption('kanji')
+ await page.getByLabel('Niveau',{exact:true}).selectOption('unclassified')
+ await page.getByRole('textbox',{name:'Question ou mot'}).fill('日')
+ await page.getByRole('button',{name:'Rechercher',exact:true}).click()
+ await page.getByRole('button',{name:'日 Kanji · Non classé'}).click()
+ await page.locator('.jpc-stroke img').waitFor()
+ await page.waitForFunction(()=>document.querySelector('.jpc-stroke img')?.naturalWidth>0)
+ report.checks.push({name:'Exact kanji search and actual SVG image loading',passed:true})
+ await page.screenshot({path:`${output}/Japanese-kanji-mobile-dark.png`,fullPage:true})
+ report.catalogueRequests=requests.filter(path=>path==='Memory/Japanese/Site/corpus/catalogue.json').length
+ report.requestCount=requests.length
+ report.pageErrors=errors
+ report.passed=report.checks.every(check=>check.passed)&&errors.length===0
+ await writeFile(`${output}/JapaneseBrowserReport.json`,JSON.stringify(report,null,2)+'\n')
+ console.log(JSON.stringify(report))
+} catch(error){
+ report.error=error.message;report.pageErrors=errors;report.requestCount=requests.length;report.passed=false
+ await page.screenshot({path:`${output}/Japanese-failure.png`,fullPage:true}).catch(()=>{})
+ await writeFile(`${output}/JapaneseBrowserReport.json`,JSON.stringify(report,null,2)+'\n')
+ console.log(JSON.stringify(report));process.exitCode=1
+} finally{await browser.close()}

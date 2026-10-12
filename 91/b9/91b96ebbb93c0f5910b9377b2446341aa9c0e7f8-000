@@ -1,0 +1,408 @@
+[
+  {
+    "url": "https://ainu-upopoy.go.jp/ainu-culture/",
+    "status": 200,
+    "title": "アイヌ文化について – ウポポイ（民族共生象徴空間） NATIONAL AINU MUSEUM and PARK",
+    "finalUrl": "https://ainu-upopoy.go.jp/ainu-culture/"
+  },
+  {
+    "url": "https://ainu-upopoy.go.jp/en/about/",
+    "status": 200,
+    "title": "About Upopoy – Upopoy National Ainu Museum and Park",
+    "finalUrl": "https://ainu-upopoy.go.jp/en/about/"
+  },
+  {
+    "url": "https://ds.data.jma.go.jp/gmd/cpd/longfcst/en/tourist.html",
+    "status": 200,
+    "title": "Japan Meteorological Agency | General Information on Climate of Japan",
+    "finalUrl": "https://ds.data.jma.go.jp/gmd/cpd/longfcst/en/tourist.html"
+  },
+  {
+    "url": "https://ich.unesco.org/en/RL/washoku-traditional-dietary-cultures-of-the-japanese-notably-for-the-celebration-of-new-year-00869",
+    "status": 200,
+    "title": "Washoku, traditional dietary cultures of the Japanese, notably for the celebration of New Year - UNESCO Intangible Cultural Heritage",
+    "finalUrl": "https://ich.unesco.org/en/RL/washoku-traditional-dietary-cultures-of-the-japanese-notably-for-the-celebration-of-new-year-00869"
+  },
+  {
+    "url": "https://imabi.org/%E3%82%8F%E3%81%91%E3%81%A0/",
+    "status": 200,
+    "title": "わけだ – IMABI 今日",
+    "finalUrl": "https://imabi.org/%E3%82%8F%E3%81%91%E3%81%A0/"
+  },
+  {
+    "url": "https://imabi.org/%EF%BD%9E%E3%81%96%E3%82%8B%E3%82%92%E5%BE%97%E3%81%AA%E3%81%84-%E3%82%84%E3%82%80%E3%82%92%E5%BE%97%E3%81%AA%E3%81%84/",
+    "status": 200,
+    "title": "～ざるを得ない & やむを得ない – IMABI 今日",
+    "finalUrl": "https://imabi.org/%EF%BD%9E%E3%81%96%E3%82%8B%E3%82%92%E5%BE%97%E3%81%AA%E3%81%84-%E3%82%84%E3%82%80%E3%82%92%E5%BE%97%E3%81%AA%E3%81%84/"
+  },
+  {
+    "url": "https://imabi.org/combination-particles-with-%E3%82%82%E3%81%AE/",
+    "status": 200,
+    "title": "Combination Particles with もの – IMABI 今日",
+    "finalUrl": "https://imabi.org/combination-particles-with-%E3%82%82%E3%81%AE/"
+  },
+  {
+    "url": "https://imabi.org/considering-%E3%82%8F%E3%82%8A%E3%81%AB%EF%BC%88%E3%81%AF%EF%BC%89-%E3%81%AB%E3%81%97%E3%81%A6%E3%81%AF/",
+    "status": 200,
+    "title": "Considering…: わりに（は） & にしては – IMABI 今日",
+    "finalUrl": "https://imabi.org/considering-%E3%82%8F%E3%82%8A%E3%81%AB%EF%BC%88%E3%81%AF%EF%BC%89-%E3%81%AB%E3%81%97%E3%81%A6%E3%81%AF/"
+  },
+  {
+    "url": "https://imabi.org/defining-parameter/",
+    "status": 200,
+    "title": "Defining Parameter – IMABI 今日",
+    "finalUrl": "https://imabi.org/defining-parameter/"
+  },
+  {
+    "url": "https://imabi.org/potential-iv/",
+    "status": 200,
+    "title": "Potential IV – IMABI 今日",
+    "finalUrl": "https://imabi.org/potential-iv/"
+  },
+  {
+    "url": "https://imabi.org/the-particles-%E3%81%A9%E3%82%82-%E3%81%A0%E3%81%AE/",
+    "status": 200,
+    "title": "The Particles ども, とも, & たりとも – IMABI 今日",
+    "finalUrl": "https://imabi.org/the-particles-%E3%81%A9%E3%82%82-%E3%81%A0%E3%81%AE/"
+  },
+  {
+    "url": "https://jreastfaq.jreast.co.jp/faq/show/1090?site_domain=default",
+    "error": "<urlopen error timed out>",
+    "status": null
+  },
+  {
+    "url": "https://pubmed.ncbi.nlm.nih.gov/16507066/",
+    "status": 203,
+    "title": "pubmed.ncbi.nlm.nih.gov",
+    "finalUrl": "https://pubmed.ncbi.nlm.nih.gov/16507066/"
+  },
+  {
+    "url": "https://www.bunka.go.jp/seisaku/bunkashingikai/kokugo/hokoku/pdf/keigo_tosin.pdf",
+    "status": 200,
+    "title": "",
+    "finalUrl": "https://www.bunka.go.jp/seisaku/bunkashingikai/kokugo/hokoku/pdf/keigo_tosin.pdf"
+  },
+  {
+    "url": "https://www.bunka.go.jp/seisaku/kokugo_nihongo/kokugo_shisaku/keigo/chapter1/detail.html",
+    "status": 200,
+    "title": "第一話「敬語の心得」理解度チェックの解答 | 文化庁",
+    "finalUrl": "https://www.bunka.go.jp/seisaku/kokugo_nihongo/kokugo_shisaku/keigo/chapter1/detail.html"
+  },
+  {
+    "url": "https://www.city.kyoto.lg.jp/sogo/page/0000251137.html",
+    "status": 200,
+    "title": "京都市：ごみを 出すときの ルール",
+    "finalUrl": "https://www.city.kyoto.lg.jp/sogo/page/0000251137.html"
+  },
+  {
+    "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/001.html",
+    "status": 200,
+    "title": "日本語 文法 Nです／Nではありません：解説",
+    "finalUrl": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/001.html"
+  },
+  {
+    "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/002.html",
+    "status": 200,
+    "title": "日本語 文法 NはNです：解説",
+    "finalUrl": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/002.html"
+  },
+  {
+    "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/005.html",
+    "status": 200,
+    "title": "日本語 文法 Nがあります／います：解説",
+    "finalUrl": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/005.html"
+  },
+  {
+    "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/017.html",
+    "status": 200,
+    "title": "日本語 文法 助数詞：解説",
+    "finalUrl": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/017.html"
+  },
+  {
+    "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/023.html",
+    "status": 200,
+    "title": "日本語 文法 Vます／Vません：解説",
+    "finalUrl": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/023.html"
+  },
+  {
+    "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/030.html",
+    "status": 200,
+    "title": "日本語 文法 Aいです／Aくありません／Aくないです：解説",
+    "finalUrl": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/030.html"
+  },
+  {
+    "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/038.html",
+    "status": 200,
+    "title": "日本語 文法 普通形の体系：解説",
+    "finalUrl": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/038.html"
+  },
+  {
+    "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/039.html",
+    "status": 200,
+    "title": "日本語 文法 動詞の３種類：解説",
+    "finalUrl": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/039.html"
+  },
+  {
+    "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/043.html",
+    "status": 200,
+    "title": "日本語 文法 Vて（て形）：解説",
+    "finalUrl": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/043.html"
+  },
+  {
+    "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/044.html",
+    "status": 200,
+    "title": "日本語 文法 Vています（進行）／Vていません：解説",
+    "finalUrl": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/044.html"
+  },
+  {
+    "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/045.html",
+    "status": 200,
+    "title": "日本語 文法 Vています（状態）：解説",
+    "finalUrl": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/045.html"
+  },
+  {
+    "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/046.html",
+    "status": 200,
+    "title": "日本語 文法 Vてあります：解説",
+    "finalUrl": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/046.html"
+  },
+  {
+    "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/053.html",
+    "status": 200,
+    "title": "日本語 文法 格助詞：解説",
+    "finalUrl": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/053.html"
+  },
+  {
+    "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/058.html",
+    "status": 200,
+    "title": "日本語 文法 Vてもいいです：解説",
+    "finalUrl": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/058.html"
+  },
+  {
+    "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/059.html",
+    "status": 200,
+    "title": "日本語 文法 Vてはいけません／Vてはだめです：解説",
+    "finalUrl": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/059.html"
+  },
+  {
+    "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/060.html",
+    "status": 200,
+    "title": "日本語 文法 Vないでください：解説",
+    "finalUrl": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/060.html"
+  },
+  {
+    "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/065.html",
+    "status": 200,
+    "title": "日本語 文法 意志形：解説",
+    "finalUrl": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/065.html"
+  },
+  {
+    "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/067.html",
+    "status": 200,
+    "title": "日本語 文法 Vたいです／Vたくありません：解説",
+    "finalUrl": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/067.html"
+  },
+  {
+    "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/074.html",
+    "status": 200,
+    "title": "日本語 文法 可能形：解説",
+    "finalUrl": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/074.html"
+  },
+  {
+    "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/079.html",
+    "status": 200,
+    "title": "日本語 文法 V＋N：解説",
+    "finalUrl": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/079.html"
+  },
+  {
+    "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/080.html",
+    "status": 200,
+    "title": "日本語 文法 Vこと・Vの：解説",
+    "finalUrl": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/080.html"
+  },
+  {
+    "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/081.html",
+    "status": 200,
+    "title": "日本語 文法 理由：解説",
+    "finalUrl": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/081.html"
+  },
+  {
+    "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/082.html",
+    "status": 200,
+    "title": "日本語 文法 逆接：解説",
+    "finalUrl": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/082.html"
+  },
+  {
+    "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/083.html",
+    "status": 200,
+    "title": "日本語 文法 条件：解説",
+    "finalUrl": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/083.html"
+  },
+  {
+    "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/084.html",
+    "status": 200,
+    "title": "日本語 文法 譲歩：解説",
+    "finalUrl": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/084.html"
+  },
+  {
+    "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/085.html",
+    "status": 200,
+    "title": "日本語 文法 やりもらい：解説",
+    "finalUrl": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/085.html"
+  },
+  {
+    "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/086.html",
+    "status": 200,
+    "title": "日本語 文法 Vてあげます：解説",
+    "finalUrl": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/086.html"
+  },
+  {
+    "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/087.html",
+    "status": 200,
+    "title": "日本語 文法 Vていきます／Vてきます：解説",
+    "finalUrl": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/087.html"
+  },
+  {
+    "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/088.html",
+    "status": 200,
+    "title": "日本語 文法 Vておきます／Vてみます：解説",
+    "finalUrl": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/088.html"
+  },
+  {
+    "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/092.html",
+    "status": 200,
+    "title": "日本語 文法 敬語：解説",
+    "finalUrl": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/092.html"
+  },
+  {
+    "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/095.html",
+    "status": 200,
+    "title": "日本語 文法 副助詞：解説",
+    "finalUrl": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/095.html"
+  },
+  {
+    "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/096.html",
+    "status": 200,
+    "title": "日本語 文法 終助詞：解説",
+    "finalUrl": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/096.html"
+  },
+  {
+    "url": "https://www.data.jma.go.jp/eqev/data/en/tsunami/tsunami_warning.html",
+    "status": 200,
+    "title": "Japan Meteorological Agency｜Tsunami Warning/Advisory",
+    "finalUrl": "https://www.data.jma.go.jp/eqev/data/en/tsunami/tsunami_warning.html"
+  },
+  {
+    "url": "https://www.irodori.jpf.go.jp/assets/data/resources/Grammar_Worksheets_Answer.pdf",
+    "status": 200,
+    "title": "",
+    "finalUrl": "https://www.irodori.jpf.go.jp/assets/data/resources/Grammar_Worksheets_Answer.pdf"
+  },
+  {
+    "url": "https://www.japan.travel/en/faq/",
+    "status": 200,
+    "title": "Travel Japan - Office national du tourisme japonais（Official Site)",
+    "finalUrl": "https://www.japan.travel/fr/fr/"
+  },
+  {
+    "url": "https://www.japan.travel/en/guide/august/",
+    "status": 200,
+    "title": "Le Japon en août | Guide | Travel Japan, Office national du tourisme japonais",
+    "finalUrl": "https://www.japan.travel/fr/guide/august/"
+  },
+  {
+    "url": "https://www.japan.travel/en/guide/how-to-best-enjoy-onsen/",
+    "status": 200,
+    "title": "Comment apprécier au mieux les onsen au Japon | Guide | Travel Japan - Office national du tourisme japonais (site officiel)",
+    "finalUrl": "https://www.japan.travel/fr/guide/how-to-best-enjoy-onsen/"
+  },
+  {
+    "url": "https://www.japan.travel/en/guide/japanese-manners-dos-and-donts/",
+    "status": 200,
+    "title": "Les us et coutumes au Japon : ce qu'il faut faire et ne pas faire",
+    "finalUrl": "https://www.japan.travel/fr/guide/japanese-manners-dos-and-donts/"
+  },
+  {
+    "url": "https://www.japan.travel/en/guide/shrine-and-temple-traditions/",
+    "status": 200,
+    "title": "Traditions : sanctuaires et temples | Guide | Travel Japan - Office national du tourisme japonais (site officiel)",
+    "finalUrl": "https://www.japan.travel/fr/guide/shrine-and-temple-traditions/"
+  },
+  {
+    "url": "https://www.japan.travel/en/plan/custom-manners/",
+    "status": 200,
+    "title": "Us et coutumes | Voyage au Japon | JNTO",
+    "finalUrl": "https://www.japan.travel/fr/plan/custom-manners/"
+  },
+  {
+    "url": "https://www.japan.travel/en/responsible-travel-guide/features/overview-japanese-history/",
+    "status": 200,
+    "title": "Travel Japan - Office national du tourisme japonais（Official Site)",
+    "finalUrl": "https://www.japan.travel/fr/fr/"
+  },
+  {
+    "url": "https://www.japan.travel/en/responsible-travel-guide/japanese-customs-and-etiquette/",
+    "status": 200,
+    "title": "Travel Japan - Office national du tourisme japonais（Official Site)",
+    "finalUrl": "https://www.japan.travel/fr/fr/"
+  },
+  {
+    "url": "https://www.jlpt.jp/sp/e/about/levelsummary.html",
+    "status": 200,
+    "title": "N1-N5: Summary of Linguistic Competence Required for Each Level | JLPT Japanese-Language Proficiency Test",
+    "finalUrl": "https://www.jlpt.jp/sp/e/about/levelsummary.html"
+  },
+  {
+    "url": "https://www.jlpt.jp/sp/e/faq/",
+    "status": 200,
+    "title": "FAQ |JLPT Japanese-Language Proficiency Test",
+    "finalUrl": "https://www.jlpt.jp/sp/e/faq/"
+  },
+  {
+    "url": "https://www.jlpt.jp/tw/reference/pdf/guidebook_s_e.pdf",
+    "status": 200,
+    "title": "",
+    "finalUrl": "https://www.jlpt.jp/tw/reference/pdf/guidebook_s_e.pdf"
+  },
+  {
+    "url": "https://www.jma.go.jp/jma/kishou/know/yougo_hp/kisetsu.html",
+    "status": 200,
+    "title": "季節現象 | 気象庁",
+    "finalUrl": "https://www.jma.go.jp/jma/kishou/know/yougo_hp/kisetsu.html"
+  },
+  {
+    "url": "https://www.jpf.go.jp/j/project/japanese/teach/tsushin/grammar/200906.html",
+    "status": 200,
+    "title": "国際交流基金 - 日本語教育通信 文法を楽しく 「とたん（に）」と「や否や」",
+    "finalUrl": "https://www.jpf.go.jp/j/project/japanese/teach/tsushin/grammar/200906.html"
+  },
+  {
+    "url": "https://www.mlcjapanese.co.jp/img/omotte_n1_answer.pdf",
+    "status": 200,
+    "title": "",
+    "finalUrl": "https://www.mlcjapanese.co.jp/img/omotte_n1_answer.pdf"
+  },
+  {
+    "url": "https://www.mlcjapanese.co.jp/n1_04_07.html",
+    "status": 200,
+    "title": "JLPT N1の文法 grammar: ～を余儀なくされる。～を余儀なくさせる。 | MLC Japanese Language School in Tokyo",
+    "finalUrl": "https://www.mlcjapanese.co.jp/n1_04_07.html"
+  },
+  {
+    "url": "https://www.mlcjapanese.co.jp/n1_04_11.html",
+    "status": 200,
+    "title": "JLPT N1の文法 grammar: ～までもない。 | MLC Japanese Language School in Tokyo",
+    "finalUrl": "https://www.mlcjapanese.co.jp/n1_04_11.html"
+  },
+  {
+    "url": "https://www.mofa.go.jp/j_info/visit/w_holiday/index.html",
+    "error": "HTTP Error 403: Forbidden",
+    "status": null
+  },
+  {
+    "url": "https://www.stat.go.jp/english/data/handbook/index.html",
+    "status": 200,
+    "title": "Statistics Bureau Home Page/Statistical Handbook of Japan",
+    "finalUrl": "https://www.stat.go.jp/english/data/handbook/index.html"
+  }
+]

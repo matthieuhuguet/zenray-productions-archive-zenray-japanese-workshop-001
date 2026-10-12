@@ -1,0 +1,14 @@
+// 12 October 2026: reuse the Assets engine for a bounded offline recovery pass.
+import {readFile,writeFile} from 'node:fs/promises'
+import {createAssetsService} from '/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/scripts/AssetsService.mjs'
+const root='/Users/zenray/.claude/tmp/tmp-zenray-japanese'
+const config=JSON.parse(await readFile('/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/scripts/AssetsConfig.json','utf8'))
+// 12 October 2026: one project's lots are configurable without changing global service settings.
+const parameters=JSON.parse(await readFile(`${root}/BackupSettings.json`,'utf8'))
+config.storage.batchFiles=parameters.batchFiles;config.storage.batchBytes=parameters.batchBytes
+const service=await createAssetsService({config})
+console.log(JSON.stringify({stage:'initialized',projectId:parameters.projectId}))
+const started=await service.request('archive',{projectId:parameters.projectId})
+console.log(JSON.stringify(started))
+const timer=setInterval(()=>{const job=service.jobs.get(started.jobId);console.log(JSON.stringify({stage:'archive',state:job?.state,progress:job?.progress}))},30000)
+try{await service.queue;const job=service.jobs.get(started.jobId);await writeFile(`${root}/verification/ArchiveJob.json`,JSON.stringify(job,null,2));console.log(JSON.stringify(job));if(job.state!=='done')process.exitCode=1}finally{clearInterval(timer);await service.close()}

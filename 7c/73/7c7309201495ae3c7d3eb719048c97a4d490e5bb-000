@@ -1,0 +1,24 @@
+#!/usr/bin/env python3
+# 12 October 2026: current local bytes must match verified Assets receipts.
+import hashlib,json,concurrent.futures
+from pathlib import Path
+state_root=Path('/Users/zenray/Library/Application Support/ZenRayAssets')
+state=json.loads((state_root/'Project-zenray-japanese.json').read_text())
+files=state['inventory']['localFiles'];receipts=state['backups']
+def check(file):
+    path=Path(file['localPath']);receipt=receipts.get(file['id'])
+    if not path.is_file():return {'id':file['id'],'state':'missing-local'}
+    if not receipt:return {'id':file['id'],'state':'pending'}
+    before=path.stat()
+    hasher=hashlib.sha256()
+    with path.open('rb') as source:
+        for chunk in iter(lambda:source.read(1048576),b''): hasher.update(chunk)
+    after=path.stat()
+    if (before.st_size,before.st_mtime_ns,before.st_ctime_ns)!=(after.st_size,after.st_mtime_ns,after.st_ctime_ns):return {'id':file['id'],'state':'changed'}
+    digest=hasher.hexdigest()
+    return {'id':file['id'],'state':'matched' if receipt.get('sha256')==digest and receipt.get('size')==path.stat().st_size and receipt.get('manifestPath') else 'changed'}
+with concurrent.futures.ThreadPoolExecutor(max_workers=8) as pool: results=list(pool.map(check,files))
+counts={key:sum(item['state']==key for item in results) for key in ['matched','pending','changed','missing-local']}
+report={'checkedAt':'12 October 2026','inventoryCheckedAt':state['inventory']['checkedAt'],'counts':counts,'complete':counts['matched']==len(files),'scope':'Inventoried admitted files only; inventory freshness must be checked separately','pending':[item for item in results if item['state']!='matched']}
+out=Path(__file__).resolve().parents[1]/'verification/CloudReceiptReport.json';out.write_text(json.dumps(report,indent=2))
+print(json.dumps({k:v for k,v in report.items() if k!='pending'}))

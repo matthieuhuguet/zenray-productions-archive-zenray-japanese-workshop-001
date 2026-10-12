@@ -1,0 +1,5 @@
+// 12 October 2026: resume a diagnostic pause and detach the diagnostic session.
+import {readFile} from 'node:fs/promises'
+const target=JSON.parse(await readFile('/Users/zenray/.claude/tmp/tmp-zenray-japanese/verification/AssetsInspector.json','utf8'))[0]
+const ws=new WebSocket(target.webSocketDebuggerUrl)
+await new Promise(resolve=>{ws.onopen=()=>{ws.send(JSON.stringify({id:1,method:'Debugger.resume'}));ws.send(JSON.stringify({id:2,method:'Runtime.runIfWaitingForDebugger'}));ws.send(JSON.stringify({id:3,method:'Runtime.evaluate',params:{expression:"(()=>{let response=null;const server=process._getActiveHandles().find(h=>h.constructor.name==='Server');server.listeners('request')[0]({url:'/api/assets-workspace',method:'GET',headers:{},socket:{remoteAddress:'127.0.0.1'}},{setHeader(){},end(text){response=text}});return response})()",returnByValue:true,awaitPromise:true}}))};ws.onmessage=e=>{const r=JSON.parse(e.data);if(r.id){console.log(JSON.stringify(r));if(r.id===3)resolve()}};setTimeout(resolve,10000).unref()});ws.close()
