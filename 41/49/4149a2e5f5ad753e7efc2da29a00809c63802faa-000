@@ -1,0 +1,26 @@
+[
+  {
+    "filename": "EDRDG.html",
+    "url": "https://www.edrdg.org/edrdg/licence.html",
+    "sha256": "52f60ea9ca68170a2f0663d7dba381ebf1bd57c17a3347dfe21153865c156692",
+    "checkedDate": "12 October 2026"
+  },
+  {
+    "filename": "KanjiVG.html",
+    "url": "https://kanjivg.tagaini.net/",
+    "sha256": "e99a73b52223b099e220f5c4be0206cf895d5626b543605736019f37f6049f99",
+    "checkedDate": "12 October 2026"
+  },
+  {
+    "filename": "Tatoeba.html",
+    "url": "https://tatoeba.org/en/downloads",
+    "sha256": "91f1467b65cb57d3a82c956932077c72c43c98fa8e47eca3233166c51ab7c5ff",
+    "checkedDate": "12 October 2026"
+  },
+  {
+    "filename": "JmdictSimplified.txt",
+    "url": "https://raw.githubusercontent.com/scriptin/jmdict-simplified/master/LICENSE.txt",
+    "sha256": "7abe19ec9bb73b36141b999b861d24ad855e808bafe0f81e84cce28556f6c297",
+    "checkedDate": "12 October 2026"
+  }
+]

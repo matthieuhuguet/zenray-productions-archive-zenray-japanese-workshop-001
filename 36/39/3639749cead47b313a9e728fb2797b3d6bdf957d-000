@@ -1,0 +1,178 @@
+{
+  "checkedDate": "12 October 2026",
+  "sources": [
+    {
+      "id": "jmdict",
+      "title": "JMdict / EDRDG via jmdict-simplified",
+      "url": "https://www.edrdg.org/jmdict/j_jmdict.html",
+      "documentationUrl": "https://www.edrdg.org/wiki/JMdict-EDICT_Dictionary_Project.html",
+      "downloadProvider": "https://github.com/scriptin/jmdict-simplified/releases/latest",
+      "license": "CC-BY-SA-4.0",
+      "licenseUrl": "https://www.edrdg.org/edrdg/licence.html",
+      "attribution": "JMdict: Electronic Dictionary Research and Development Group, James Breen and contributors. JSON conversion: scriptin/jmdict-simplified. French glosses retain their compilers copyright.",
+      "languages": [
+        "ja",
+        "en",
+        "fr"
+      ],
+      "downloaded": true,
+      "entryCount": 218863,
+      "frenchEntryCount": 15336,
+      "refreshDays": 30,
+      "localPath": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/research/datasets/jmdict-all-3.6.2.json",
+      "schema": {
+        "collection": "words",
+        "id": "id",
+        "spellings": "kanji[].text",
+        "readings": "kana[].text",
+        "readingRestrictions": "kana[].appliesToKanji",
+        "senses": "sense[]",
+        "glossLanguage": "sense[].gloss[].lang (fre/eng)",
+        "glossText": "sense[].gloss[].text",
+        "partsOfSpeech": "sense[].partOfSpeech",
+        "senseRestrictions": [
+          "sense[].appliesToKanji",
+          "sense[].appliesToKana"
+        ],
+        "domainTags": "sense[].field",
+        "registerTags": "sense[].misc",
+        "dialectTags": "sense[].dialect",
+        "tagDefinitions": "tags"
+      },
+      "strengths": [
+        "Real broad Japanese lexicon",
+        "French and English glosses",
+        "Register and POS tags",
+        "Stable dictionary IDs"
+      ],
+      "gaps": [
+        "Not a grammar textbook",
+        "French coverage is about 7% of entries",
+        "Senses across languages are not strictly aligned",
+        "Frequency/common labels are heuristic",
+        "No JLPT N1-N5 list"
+      ],
+      "checkedDate": "12 October 2026"
+    },
+    {
+      "id": "kanjidic2",
+      "title": "KANJIDIC2 / EDRDG",
+      "url": "https://www.edrdg.org/wiki/KANJIDIC_Project.html",
+      "downloadProvider": "https://github.com/scriptin/jmdict-simplified/releases/latest",
+      "license": "CC-BY-SA-4.0",
+      "licenseUrl": "https://www.edrdg.org/edrdg/licence.html",
+      "attribution": "KANJIDIC2: Electronic Dictionary Research and Development Group, James Breen and contributors. JSON conversion: scriptin/jmdict-simplified.",
+      "downloaded": true,
+      "entryCount": 13108,
+      "refreshDays": 30,
+      "localPath": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/research/datasets/kanjidic2-all-3.6.2.json",
+      "schema": {
+        "collection": "characters",
+        "character": "literal",
+        "strokeCount": "misc.strokeCounts[0]",
+        "grade": "misc.grade",
+        "frequency": "misc.frequency",
+        "oldJlptLevel": "misc.jlptLevel",
+        "readings": "readingMeaning.groups[].readings[] (type ja_on/ja_kun)",
+        "meanings": "readingMeaning.groups[].meanings[] (lang fr/en)",
+        "radicals": "radicals[]",
+        "nanori": "readingMeaning.nanori"
+      },
+      "strengths": [
+        "13108 standard kanji",
+        "ON/KUN and name readings",
+        "Radical, grade and stroke counts",
+        "French meanings"
+      ],
+      "gaps": [
+        "jlptLevel is pre-2010 1-4 and cannot be shown as modern N1-N5",
+        "No stroke paths",
+        "Many rare characters have incomplete metadata"
+      ],
+      "checkedDate": "12 October 2026"
+    },
+    {
+      "id": "kanjivg",
+      "title": "KanjiVG",
+      "url": "https://kanjivg.tagaini.net/",
+      "downloadProvider": "https://github.com/KanjiVG/kanjivg/releases/latest",
+      "license": "CC-BY-SA-3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "attribution": "KanjiVG, Ulrich Apel and contributors, CC BY-SA 3.0.",
+      "downloaded": true,
+      "entryCount": 6703,
+      "version": "r20260714",
+      "localPath": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/research/datasets/strokes",
+      "schema": {
+        "filename": "lowercase zero-padded Unicode hex plus .svg, e.g. 065e5.svg",
+        "paths": "ordered SVG path elements with id kvg:...-sN",
+        "components": "SVG groups with kvg:element",
+        "radical": "kvg:radical attribute",
+        "strokeNumbers": "text elements"
+      },
+      "strengths": [
+        "Real ordered SVG paths",
+        "Stroke direction and components",
+        "Editable parametric diagram renderer possible"
+      ],
+      "gaps": [
+        "Main download covers 6703 diagrams, not all KANJIDIC kanji",
+        "Handwriting forms differ from print fonts",
+        "No readings or glosses"
+      ],
+      "checkedDate": "12 October 2026"
+    },
+    {
+      "id": "tatoeba",
+      "title": "Tatoeba direct Japanese-French sentence pairs",
+      "url": "https://tatoeba.org/en/downloads",
+      "downloadProvider": "https://downloads.tatoeba.org/exports/per_language/",
+      "license": "CC-BY-2.0-FR",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+      "attribution": "Tatoeba contributors. Preserve author and sentence URLs for both language sides.",
+      "downloaded": true,
+      "entryCount": 43834,
+      "rawLinkCount": 43857,
+      "missingLinkedSentenceCount": 23,
+      "japaneseSentenceCount": 248924,
+      "frenchSentenceCount": 728438,
+      "refreshDays": 7,
+      "localPath": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/research/datasets/tatoeba-jpn-fra.jsonl",
+      "schema": {
+        "sentenceTsv": "id TAB language TAB text TAB username TAB createdAt TAB modifiedAt",
+        "linksTsv": "JapaneseID TAB FrenchID",
+        "normalizedPair": "id, japanese{id,text,author,url,...}, french{id,text,author,url,...}, sourceId, license, reviewStatus"
+      },
+      "strengths": [
+        "Real Japanese and French sentences",
+        "Direct translations preserve context",
+        "Author and source ID provenance",
+        "Large reproducible public exports"
+      ],
+      "gaps": [
+        "Community sentences can contain errors",
+        "No modern JLPT level or sentence audio imported",
+        "23 links reference sentences absent from these exports",
+        "Audio licenses are separate and must be filtered per record"
+      ],
+      "checkedDate": "12 October 2026"
+    },
+    {
+      "id": "jlpt-faq",
+      "title": "Official JLPT FAQ",
+      "url": "https://www.jlpt.jp/e/faq/",
+      "license": "reference-only",
+      "downloaded": false,
+      "authority": "Japan Foundation and JEES",
+      "claims": [
+        "No published modern exhaustive list of vocabulary kanji grammar",
+        "Use official linguistic descriptors and sample questions",
+        "JLPT tests receptive knowledge and understanding, not conversational mastery"
+      ],
+      "gaps": [
+        "Official test PDFs are copyrighted and not bulk copied"
+      ],
+      "checkedDate": "12 October 2026"
+    }
+  ]
+}
