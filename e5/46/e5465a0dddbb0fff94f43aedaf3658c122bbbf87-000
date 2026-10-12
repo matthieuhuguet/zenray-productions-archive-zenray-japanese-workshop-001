@@ -31,6 +31,13 @@ catalogue=corpus.read_json(root/'Site/corpus/catalogue.json')
 assert catalogue['counts']==counts
 release=root/'Site/corpus/releases'/catalogue['release']
 assert sum(len(corpus.read_json(release/'records'/f'{i:03}.json')) for i in range(settings['recordShards']))==sum(counts.values())
+# 12 October 2026: every dictionary kanji, including non-BMP characters, must have a web lookup.
+search_cache={}
+for identifier,title in conn.execute('SELECT id,title FROM records WHERE domain="kanji"'):
+    key=corpus.normalized(title)
+    number=corpus.bucket(key[:2],settings['searchShards'])
+    if number not in search_cache:search_cache[number]=corpus.read_json(release/'search'/f'{number:03}.json')
+    assert identifier in search_cache[number].get(key,[]), f'Kanji omitted from web search: {identifier} {title}'
 for text,domain in [('日本語','dictionary'),('猫','kanji'),('なら','grammar')]:
     hits=corpus.query(settings,text,limit=3,domain=domain)
     assert hits, f'Real search failed: {text}'

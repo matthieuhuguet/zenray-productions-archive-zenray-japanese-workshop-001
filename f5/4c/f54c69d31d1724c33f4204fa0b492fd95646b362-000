@@ -1,0 +1,18 @@
+// 12 October 2026: read actual failed-batch manifests and probe immutable chunk responses.
+import {execFile} from 'node:child_process'
+import {promisify} from 'node:util'
+import {writeFile} from 'node:fs/promises'
+const exec=promisify(execFile)
+const token=(await exec('gh',['auth','token'])).stdout.trim()
+const paths=['Site/corpus/releases/06fb7b8a6f5328ff/strokes/09f9c.svg','Site/corpus/releases/10584b2167976b9d/records/100.json']
+const results=[]
+for(const path of paths){try{
+ const body=JSON.parse((await exec('gh',['api',`repos/matthieuhuguet/zenray-data/contents/pages/ZenRayAssets/zenray-japanese/sources/memory/japanese-corpus/${path}.file.json`],{maxBuffer:2000000})).stdout)
+ const manifest=JSON.parse(Buffer.from(body.content,'base64').toString())
+ const part=manifest.parts?.[0]||manifest
+ const chunk=part.chunks[0]
+ const url=`https://raw.githubusercontent.com/matthieuhuguet/${part.repo}/${part.commit}/${chunk}`
+ const response=await fetch(url,{method:'HEAD',headers:{Authorization:`Bearer ${token}`},signal:AbortSignal.timeout(15000)})
+ const latestUrl=url.replace(part.commit,'1018f97bc5b640e9e1d6bb19c3097be227d46f76'); const latest=await fetch(latestUrl,{method:'HEAD',headers:{Authorization:`Bearer ${token}`},signal:AbortSignal.timeout(15000)}); results.push({latestStatus:latest.status,path,repo:part.repo,commit:part.commit,chunk,status:response.status,size:response.headers.get('content-length')})
+}catch(error){results.push({path,error:error.message.slice(0,200)})}}
+await writeFile('/Users/zenray/.claude/tmp/tmp-zenray-japanese/verification/ChunkProbe.json',JSON.stringify(results,null,2));console.log(JSON.stringify(results))

@@ -1,0 +1,20 @@
+[
+  {
+    "latestStatus": 200,
+    "path": "Site/corpus/releases/06fb7b8a6f5328ff/strokes/09f9c.svg",
+    "repo": "zenray-productions-archive-zenray-japanese-japanese-corpus-008",
+    "commit": "d4bd96d603eb9840c4c77183c70887aad6fe86c0",
+    "chunk": "5a/5d/5a5d20b1be9cd9ddd50612a1abf27e29146c3e69-000",
+    "status": 200,
+    "size": "1952"
+  },
+  {
+    "latestStatus": 200,
+    "path": "Site/corpus/releases/10584b2167976b9d/records/100.json",
+    "repo": "zenray-productions-archive-zenray-japanese-japanese-corpus-008",
+    "commit": "1018f97bc5b640e9e1d6bb19c3097be227d46f76",
+    "chunk": "ee/8f/ee8f5d3120dc893dca4bde28044f8680f11decc7-000",
+    "status": 200,
+    "size": "157122"
+  }
+]

@@ -25,6 +25,11 @@ def tokens(text):
     return set(re.findall(r"[\w]+", normalized(text), re.UNICODE))
 
 
+# 12 October 2026: retain compatibility and supplementary kanji in character searches.
+def is_japanese_character(character):
+    return '\u3040' <= character <= '\u9fff' or '\uf900' <= character <= '\ufaff' or '\U00020000' <= character <= '\U000323af'
+
+
 def bucket(text, count):
     value = 2166136261
     for char in text:
@@ -259,9 +264,9 @@ def build(config):
         record_shards[record['recordShard']].append(record)
         record_tokens = tokens(text)
         # 12 October 2026: character lookup remains possible inside dictionary compounds.
-        record_tokens.update(c for c in record['title'] if '\u4e00' <= c <= '\u9fff')
+        record_tokens.update(c for c in normalized(record['title']) if is_japanese_character(c))
         for token in record_tokens:
-            if len(token) < 2 and not any('\u3040' <= c <= '\u9fff' for c in token):
+            if len(token) < 2 and not any(is_japanese_character(c) for c in token):
                 continue
             search_shards[bucket(token[:2], config['searchShards'])][token].append(record['id'])
         corpus_key = 'japan' if record.get('corpus') == 'japan' else 'language'
