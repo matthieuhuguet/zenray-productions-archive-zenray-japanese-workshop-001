@@ -1,0 +1,522 @@
+[
+  [
+    "nitsuite",
+    "について : prendre pour sujet",
+    "N3",
+    "topic",
+    "Nom + について annonce le sujet d’une question, d’une recherche ou d’un propos. についての relie ce thème à un nom.",
+    "に対して décrit plutôt une orientation vers un objet ou un contraste.",
+    229,
+    [
+      [
+        "日本の歴史について調べています。",
+        "にほんのれきしについてしらべています。",
+        "Je fais des recherches sur l’histoire du Japon."
+      ],
+      [
+        "仕事について話しました。",
+        "しごとについてはなしました。",
+        "Nous avons parlé du travail."
+      ],
+      [
+        "日本語についての本を読みました。",
+        "にほんごについてのほんをよみました。",
+        "J’ai lu un livre sur le japonais."
+      ]
+    ]
+  ],
+  [
+    "nikanshite",
+    "に関して : concernant un domaine",
+    "N2",
+    "topic",
+    "Nom + に関して traite ce qui concerne un domaine ou une question. La tournure est plus construite que について. に関する modifie directement un nom.",
+    "Éviter de la substituer mécaniquement à toutes les questions conversationnelles en について.",
+    229,
+    [
+      [
+        "予約に関して質問があります。",
+        "よやくにかんしてしつもんがあります。",
+        "J’ai une question concernant la réservation."
+      ],
+      [
+        "安全に関する情報を集めました。",
+        "あんぜんにかんするじょうほうをあつめました。",
+        "J’ai rassemblé des informations relatives à la sécurité."
+      ],
+      [
+        "費用に関しては、後で説明します。",
+        "ひようにかんしては、あとでせつめいします。",
+        "Pour ce qui concerne les frais, j’expliquerai ensuite."
+      ]
+    ]
+  ],
+  [
+    "womegutte",
+    "をめぐって : autour d’un enjeu",
+    "N2",
+    "topic",
+    "Nom + をめぐって rassemble des échanges, débats ou difficultés autour d’un enjeu. をめぐる relie cet enjeu à un nom.",
+    "Ce n’est pas le « sur » neutre de toute présentation factuelle.",
+    229,
+    [
+      [
+        "計画をめぐって意見が分かれました。",
+        "けいかくをめぐっていけんがわかれました。",
+        "Les avis ont divergé autour du projet."
+      ],
+      [
+        "予算をめぐる議論が続いています。",
+        "よさんをめぐるぎろんがつづいています。",
+        "Le débat autour du budget se poursuit."
+      ],
+      [
+        "作品の意味をめぐって話し合いました。",
+        "さくひんのいみをめぐってはなしあいました。",
+        "Nous avons discuté de l’interprétation de l’œuvre."
+      ]
+    ]
+  ],
+  [
+    "dakeni",
+    "だけに : une raison qui renforce le résultat",
+    "N2",
+    "cause",
+    "だけに présente un résultat particulièrement compréhensible étant donné la première situation. La conséquence peut être favorable ou regrettable.",
+    "Ne pas confondre ce motif avec la simple limitation en だけ.",
+    230,
+    [
+      [
+        "期待していただけに、残念です。",
+        "きたいしていただけに、ざんねんです。",
+        "C’est d’autant plus décevant que j’avais de grands espoirs."
+      ],
+      [
+        "有名な店だけに、人が多いです。",
+        "ゆうめいなみせだけに、ひとがおおいです。",
+        "Comme on peut s’y attendre d’un magasin célèbre, il y a du monde."
+      ],
+      [
+        "長く練習しただけに、喜びも大きかったです。",
+        "ながくれんしゅうしただけに、よろこびもおおきかったです。",
+        "La joie a été d’autant plus grande que je m’étais longuement entraîné."
+      ]
+    ]
+  ],
+  [
+    "nomi",
+    "のみ : une restriction dans l’écrit",
+    "N2",
+    "restriction",
+    "のみ limite à un élément ou groupe. Il est fréquent dans les annonces et l’écrit construit. Ce registre n’en fait pas automatiquement une forme honorifique.",
+    "だけ est plus courant dans une conversation ordinaire.",
+    262,
+    [
+      [
+        "参加者のみ入れます。",
+        "さんかしゃのみはいれます。",
+        "Seuls les participants peuvent entrer."
+      ],
+      [
+        "現金のみ使えます。",
+        "げんきんのみつかえます。",
+        "Seuls les paiements en espèces sont possibles."
+      ],
+      [
+        "必要な情報のみ保存します。",
+        "ひつようなじょうほうのみほぞんします。",
+        "Nous ne conservons que les informations nécessaires."
+      ]
+    ]
+  ],
+  [
+    "koso",
+    "こそ : mettre précisément en relief",
+    "N3",
+    "focus",
+    "こそ met fortement en relief ce qui le précède: une personne, un moment ou une condition. Certains emplois sont fixés, comme こちらこそ.",
+    "Ce n’est ni une négation restrictive comme しか ni une comparaison de degré.",
+    263,
+    [
+      [
+        "今こそ始めましょう。",
+        "いまこそはじめましょう。",
+        "C’est maintenant qu’il faut commencer."
+      ],
+      [
+        "こちらこそ、ありがとうございます。",
+        "こちらこそ、ありがとうございます。",
+        "C’est moi qui vous remercie."
+      ],
+      [
+        "来年こそ日本に行きたいです。",
+        "らいねんこそにほんにいきたいです。",
+        "L’année prochaine, cette fois, je veux aller au Japon."
+      ]
+    ]
+  ],
+  [
+    "wakedehanai",
+    "わけではない : ne pas conclure cela",
+    "N3",
+    "negation",
+    "わけではない nie une conclusion ou relativise une affirmation. Avec 全部 ou 必ず, il peut refuser une généralisation sans affirmer son contraire.",
+    "わけがない affirme une impossibilité beaucoup plus fortement.",
+    266,
+    [
+      [
+        "全部分かるわけではありません。",
+        "ぜんぶわかるわけではありません。",
+        "Je ne comprends pas absolument tout."
+      ],
+      [
+        "嫌いなわけではありません。",
+        "きらいなわけではありません。",
+        "Ce n’est pas que je n’aime pas cela."
+      ],
+      [
+        "毎日忙しいわけではありません。",
+        "まいにちいそがしいわけではありません。",
+        "Je ne suis pas occupé tous les jours."
+      ]
+    ]
+  ],
+  [
+    "wakeganai",
+    "わけがない : impossible à envisager",
+    "N3",
+    "certainty",
+    "わけがない rejette avec force la possibilité de la situation. Le contexte indique les raisons de ce jugement; il ne constitue pas une preuve objective.",
+    "わけではない refuse une conclusion sans nécessairement déclarer la situation impossible.",
+    266,
+    [
+      [
+        "一日で全部覚えられるわけがありません。",
+        "いちにちでぜんぶおぼえられるわけがありません。",
+        "Il est impossible de tout mémoriser en une journée."
+      ],
+      [
+        "そんな話を信じるわけがありません。",
+        "そんなはなしをしんじるわけがありません。",
+        "Il est hors de question que je croie une telle histoire."
+      ],
+      [
+        "誰も知らないわけがありません。",
+        "だれもしらないわけがありません。",
+        "Il est impossible que personne ne soit au courant."
+      ]
+    ]
+  ],
+  [
+    "wakenihaikanai",
+    "わけにはいかない : une contrainte sociale ou morale",
+    "N2",
+    "obligation",
+    "Verbe neutre + わけにはいかない dit qu’une action serait inadmissible ou impraticable compte tenu des responsabilités. La négation avant わけ peut créer l’obligation de faire.",
+    "できない exprime une incapacité; cette tournure peut concerner une action matériellement possible.",
+    266,
+    [
+      [
+        "約束したので、休むわけにはいきません。",
+        "やくそくしたので、やすむわけにはいきません。",
+        "J’ai promis, je ne peux donc pas me permettre de m’absenter."
+      ],
+      [
+        "ここで諦めるわけにはいきません。",
+        "ここであきらめるわけにはいきません。",
+        "Je ne peux pas me permettre d’abandonner ici."
+      ],
+      [
+        "招待されたので、行かないわけにはいきません。",
+        "しょうたいされたので、いかないわけにはいきません。",
+        "Puisque j’ai été invité, je ne peux pas ne pas y aller."
+      ]
+    ]
+  ],
+  [
+    "nichigainai",
+    "に違いない : forte conviction",
+    "N3",
+    "certainty",
+    "に違いない exprime une conviction forte du locuteur. Il suit notamment la forme neutre et directement les noms dans l’emploi courant.",
+    "À distinguer d’une information reçue en そうだ et d’un résultat attendu en はずだ.",
+    268,
+    [
+      [
+        "彼は疲れているに違いありません。",
+        "かれはつかれているにちがいありません。",
+        "Il doit certainement être fatigué."
+      ],
+      [
+        "これは本物に違いありません。",
+        "これはほんものにちがいありません。",
+        "Cela doit être authentique."
+      ],
+      [
+        "何か理由があるに違いありません。",
+        "なにかりゆうがあるにちがいありません。",
+        "Il doit certainement y avoir une raison."
+      ]
+    ]
+  ],
+  [
+    "nimotozuite",
+    "に基づいて : s’appuyer sur une base",
+    "N2",
+    "basis",
+    "Nom + に基づいて indique la base d’une décision, d’une création ou d’une procédure. に基づく et に基づいた peuvent modifier un nom.",
+    "La base peut être une règle ou une preuve; choisir le terme qui décrit réellement le lien.",
+    269,
+    [
+      [
+        "事実に基づいて説明します。",
+        "じじつにもとづいてせつめいします。",
+        "Je vais expliquer en m’appuyant sur les faits."
+      ],
+      [
+        "規則に基づいて判断しました。",
+        "きそくにもとづいてはんだんしました。",
+        "J’ai jugé en me fondant sur les règles."
+      ],
+      [
+        "経験に基づく意見です。",
+        "けいけんにもとづくいけんです。",
+        "C’est une opinion fondée sur l’expérience."
+      ]
+    ]
+  ],
+  [
+    "wofumaete",
+    "を踏まえて : tenir compte de ce qui précède",
+    "N1",
+    "basis",
+    "Nom + を踏まえて prend un résultat, une expérience ou une situation comme élément dont on tient compte pour la suite.",
+    "に基づいて insiste sur la base; を踏まえて suggère son intégration dans la nouvelle démarche.",
+    269,
+    [
+      [
+        "結果を踏まえて、計画を変えます。",
+        "けっかをふまえて、けいかくをかえます。",
+        "Nous modifierons le plan en tenant compte des résultats."
+      ],
+      [
+        "経験を踏まえて説明しました。",
+        "けいけんをふまえてせつめいしました。",
+        "J’ai expliqué en tenant compte de mon expérience."
+      ],
+      [
+        "皆の意見を踏まえて決めます。",
+        "みんなのいけんをふまえてきめます。",
+        "Nous déciderons en tenant compte des avis de chacun."
+      ]
+    ]
+  ],
+  [
+    "womotoni",
+    "をもとに : utiliser comme matériau ou point de départ",
+    "N2",
+    "basis",
+    "Nom + をもとに présente ce qui sert de matériau ou de point de départ. On peut créer une version nouvelle à partir de cette base.",
+    "Une œuvre inspirée par un témoignage n’est pas forcément une reproduction littérale.",
+    269,
+    [
+      [
+        "写真をもとに絵を描きました。",
+        "しゃしんをもとにえをかきました。",
+        "J’ai peint à partir d’une photographie."
+      ],
+      [
+        "経験をもとに文章を書きました。",
+        "けいけんをもとにぶんしょうをかきました。",
+        "J’ai écrit un texte à partir de mon expérience."
+      ],
+      [
+        "この資料をもとに説明します。",
+        "このしりょうをもとにせつめいします。",
+        "Je vais m’appuyer sur ce document pour expliquer."
+      ]
+    ]
+  ],
+  [
+    "nishitagatte-change",
+    "に従って : évolution corrélée",
+    "N2",
+    "change",
+    "Verbe neutre ou nom + に従って décrit une évolution qui accompagne une autre. Le sens lexical de suivre une consigne constitue un emploi distinct.",
+    "につれて met également en relation des changements; observer ce qui progresse dans les deux propositions.",
+    315,
+    [
+      [
+        "時間がたつに従って、慣れてきました。",
+        "じかんがたつにしたがって、なれてきました。",
+        "À mesure que le temps passait, je m’y suis habitué."
+      ],
+      [
+        "気温が上がるに従って、人が増えました。",
+        "きおんがあがるにしたがって、ひとがふえました。",
+        "Le nombre de personnes a augmenté à mesure que la température montait."
+      ],
+      [
+        "経験を積むに従って、判断が速くなりました。",
+        "けいけんをつむにしたがって、はんだんがはやくなりました。",
+        "Mon jugement est devenu plus rapide à mesure que j’accumulais de l’expérience."
+      ]
+    ]
+  ],
+  [
+    "teirai",
+    "て以来 : depuis un événement",
+    "N2",
+    "time",
+    "Verbe en て + 以来 décrit une situation qui se maintient depuis un événement. Nom + 以来 est possible avec un repère événementiel.",
+    "Une suite instantanée en てから ne suppose pas forcément la continuité propre à 以来.",
+    270,
+    [
+      [
+        "日本に来て以来、毎日歩いています。",
+        "にほんにきていらい、まいにちあるいています。",
+        "Depuis mon arrivée au Japon, je marche chaque jour."
+      ],
+      [
+        "卒業以来、会っていません。",
+        "そつぎょういらい、あっていません。",
+        "Nous ne nous sommes pas revus depuis la fin de nos études."
+      ],
+      [
+        "この本を読んで以来、考えが変わりました。",
+        "このほんをよんでいらい、かんがえがかわりました。",
+        "Depuis la lecture de ce livre, mon point de vue a changé."
+      ]
+    ]
+  ],
+  [
+    "tabini",
+    "たびに : à chaque occurrence",
+    "N3",
+    "time",
+    "Verbe de dictionnaire + たびに, ou nom + のたびに, présente une réponse répétée à un événement.",
+    "ごとに sert aussi à la distribution et aux intervalles; toute occurrence n’est pas une période.",
+    272,
+    [
+      [
+        "この歌を聞くたびに、旅行を思い出します。",
+        "このうたをきくたびに、りょこうをおもいだします。",
+        "Chaque fois que j’entends cette chanson, je repense au voyage."
+      ],
+      [
+        "会うたびに、日本語で話します。",
+        "あうたびに、にほんごではなします。",
+        "Chaque fois que nous nous rencontrons, nous parlons japonais."
+      ],
+      [
+        "旅行のたびに、写真を撮ります。",
+        "りょこうのたびに、しゃしんをとります。",
+        "Je prends des photos à chaque voyage."
+      ]
+    ]
+  ],
+  [
+    "nitotte",
+    "にとって : du point de vue de",
+    "N3",
+    "perspective",
+    "Nom + にとって définit celui pour qui une appréciation est valable. La suite porte généralement un jugement ou une valeur.",
+    "に対して décrit une action tournée vers quelqu’un; にとって situe son importance pour cette personne.",
+    278,
+    [
+      [
+        "私にとって、日本語は大切です。",
+        "わたしにとって、にほんごはたいせつです。",
+        "Pour moi, le japonais est important."
+      ],
+      [
+        "初心者にとって、この本は難しいです。",
+        "しょしんしゃにとって、このほんはむずかしいです。",
+        "Ce livre est difficile pour un débutant."
+      ],
+      [
+        "皆にとって、良い経験でした。",
+        "みんなにとって、よいけいけんでした。",
+        "Cela a été une bonne expérience pour tout le monde."
+      ]
+    ]
+  ],
+  [
+    "toshite",
+    "として : fonction ou statut",
+    "N3",
+    "perspective",
+    "Nom + として annonce le rôle, le statut ou la catégorie dans laquelle on agit ou on présente une chose.",
+    "にとって exprime une évaluation depuis un point de vue, pas le statut de l’acteur.",
+    278,
+    [
+      [
+        "学生として参加しました。",
+        "がくせいとしてさんかしました。",
+        "J’ai participé en tant qu’étudiant."
+      ],
+      [
+        "友達として話します。",
+        "ともだちとしてはなします。",
+        "Je vous parle en tant qu’ami."
+      ],
+      [
+        "記念として写真を残しました。",
+        "きねんとしてしゃしんをのこしました。",
+        "J’ai conservé une photographie comme souvenir."
+      ]
+    ]
+  ],
+  [
+    "wotoshite",
+    "を通して : par une expérience ou un intermédiaire",
+    "N2",
+    "means",
+    "Nom + を通して peut exprimer un intermédiaire, une expérience qui permet un résultat, ou une portée temporelle continue.",
+    "を通じて recoupe plusieurs usages; choisir selon le contexte, sans les opposer artificiellement dans tous les cas.",
+    279,
+    [
+      [
+        "友達を通して知り合いました。",
+        "ともだちをとおしてしりあいました。",
+        "Nous avons fait connaissance par un ami commun."
+      ],
+      [
+        "旅行を通して多くのことを学びました。",
+        "りょこうをとおしておおくのことをまなびました。",
+        "J’ai appris beaucoup de choses grâce au voyage."
+      ],
+      [
+        "一年を通して暖かいです。",
+        "いちねんをとおしてあたたかいです。",
+        "Il fait doux toute l’année."
+      ]
+    ]
+  ],
+  [
+    "niwatatte",
+    "にわたって : une portée étendue",
+    "N2",
+    "extent",
+    "Nom de durée, espace ou ensemble + にわたって souligne l’étendue sur laquelle un événement se déploie. にわたる peut modifier un nom.",
+    "から…にかけて donne souvent une zone ou période aux bornes moins nettes.",
+    280,
+    [
+      [
+        "三日間にわたって話し合いました。",
+        "みっかかんにわたってはなしあいました。",
+        "Nous avons discuté pendant trois jours."
+      ],
+      [
+        "広い地域にわたって雨が降りました。",
+        "ひろいちいきにわたってあめがふりました。",
+        "Il a plu sur une vaste région."
+      ],
+      [
+        "長年にわたる研究です。",
+        "ながねんにわたるけんきゅうです。",
+        "C’est une recherche menée pendant de nombreuses années."
+      ]
+    ]
+  ]
+]

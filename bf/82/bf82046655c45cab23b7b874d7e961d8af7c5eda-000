@@ -1,0 +1,2887 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "12 October 2026",
+  "scope": "120 topic units, 360 candidate questions. Topics are NOT answered cards.",
+  "items": [
+    {
+      "id": "japan-backlog-geography-01",
+      "domain": "geography",
+      "topic": "régions et préfectures",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre régions et préfectures au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour régions et préfectures ?",
+        "Quelles expressions japonaises permettent de parler de régions et préfectures dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Geospatial Information Authority of Japan",
+        "Statistics Bureau of Japan"
+      ]
+    },
+    {
+      "id": "japan-backlog-geography-02",
+      "domain": "geography",
+      "topic": "relief et bassins versants",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre relief et bassins versants au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour relief et bassins versants ?",
+        "Quelles expressions japonaises permettent de parler de relief et bassins versants dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Geospatial Information Authority of Japan",
+        "Statistics Bureau of Japan"
+      ]
+    },
+    {
+      "id": "japan-backlog-geography-03",
+      "domain": "geography",
+      "topic": "îles et archipels",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre îles et archipels au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour îles et archipels ?",
+        "Quelles expressions japonaises permettent de parler de îles et archipels dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Geospatial Information Authority of Japan",
+        "Statistics Bureau of Japan"
+      ]
+    },
+    {
+      "id": "japan-backlog-geography-04",
+      "domain": "geography",
+      "topic": "façades maritimes",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre façades maritimes au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour façades maritimes ?",
+        "Quelles expressions japonaises permettent de parler de façades maritimes dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Geospatial Information Authority of Japan",
+        "Statistics Bureau of Japan"
+      ]
+    },
+    {
+      "id": "japan-backlog-geography-05",
+      "domain": "geography",
+      "topic": "urbanisation et villes",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre urbanisation et villes au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour urbanisation et villes ?",
+        "Quelles expressions japonaises permettent de parler de urbanisation et villes dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Geospatial Information Authority of Japan",
+        "Statistics Bureau of Japan"
+      ]
+    },
+    {
+      "id": "japan-backlog-geography-06",
+      "domain": "geography",
+      "topic": "ruralités",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre ruralités au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour ruralités ?",
+        "Quelles expressions japonaises permettent de parler de ruralités dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Geospatial Information Authority of Japan",
+        "Statistics Bureau of Japan"
+      ]
+    },
+    {
+      "id": "japan-backlog-geography-07",
+      "domain": "geography",
+      "topic": "frontières et débats territoriaux",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre frontières et débats territoriaux au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour frontières et débats territoriaux ?",
+        "Quelles expressions japonaises permettent de parler de frontières et débats territoriaux dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Geospatial Information Authority of Japan",
+        "Statistics Bureau of Japan"
+      ]
+    },
+    {
+      "id": "japan-backlog-geography-08",
+      "domain": "geography",
+      "topic": "cartes et toponymie",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre cartes et toponymie au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour cartes et toponymie ?",
+        "Quelles expressions japonaises permettent de parler de cartes et toponymie dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Geospatial Information Authority of Japan",
+        "Statistics Bureau of Japan"
+      ]
+    },
+    {
+      "id": "japan-backlog-seasons-01",
+      "domain": "seasons",
+      "topic": "climats régionaux",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre climats régionaux au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour climats régionaux ?",
+        "Quelles expressions japonaises permettent de parler de climats régionaux dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Japan Meteorological Agency",
+        "Cabinet Office holiday calendar",
+        "Local festival organizers"
+      ]
+    },
+    {
+      "id": "japan-backlog-seasons-02",
+      "domain": "seasons",
+      "topic": "梅雨 et 秋雨",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre 梅雨 et 秋雨 au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour 梅雨 et 秋雨 ?",
+        "Quelles expressions japonaises permettent de parler de 梅雨 et 秋雨 dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Japan Meteorological Agency",
+        "Cabinet Office holiday calendar",
+        "Local festival organizers"
+      ]
+    },
+    {
+      "id": "japan-backlog-seasons-03",
+      "domain": "seasons",
+      "topic": "floraison et feuillaison",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre floraison et feuillaison au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour floraison et feuillaison ?",
+        "Quelles expressions japonaises permettent de parler de floraison et feuillaison dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Japan Meteorological Agency",
+        "Cabinet Office holiday calendar",
+        "Local festival organizers"
+      ]
+    },
+    {
+      "id": "japan-backlog-seasons-04",
+      "domain": "seasons",
+      "topic": "saisons agricoles",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre saisons agricoles au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour saisons agricoles ?",
+        "Quelles expressions japonaises permettent de parler de saisons agricoles dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Japan Meteorological Agency",
+        "Cabinet Office holiday calendar",
+        "Local festival organizers"
+      ]
+    },
+    {
+      "id": "japan-backlog-seasons-05",
+      "domain": "seasons",
+      "topic": "台風 et neige",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre 台風 et neige au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour 台風 et neige ?",
+        "Quelles expressions japonaises permettent de parler de 台風 et neige dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Japan Meteorological Agency",
+        "Cabinet Office holiday calendar",
+        "Local festival organizers"
+      ]
+    },
+    {
+      "id": "japan-backlog-seasons-06",
+      "domain": "seasons",
+      "topic": "calendrier des jours fériés",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre calendrier des jours fériés au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour calendrier des jours fériés ?",
+        "Quelles expressions japonaises permettent de parler de calendrier des jours fériés dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Japan Meteorological Agency",
+        "Cabinet Office holiday calendar",
+        "Local festival organizers"
+      ]
+    },
+    {
+      "id": "japan-backlog-seasons-07",
+      "domain": "seasons",
+      "topic": "fêtes religieuses locales",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre fêtes religieuses locales au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour fêtes religieuses locales ?",
+        "Quelles expressions japonaises permettent de parler de fêtes religieuses locales dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Japan Meteorological Agency",
+        "Cabinet Office holiday calendar",
+        "Local festival organizers"
+      ]
+    },
+    {
+      "id": "japan-backlog-seasons-08",
+      "domain": "seasons",
+      "topic": "mots saisonniers et haïku",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre mots saisonniers et haïku au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour mots saisonniers et haïku ?",
+        "Quelles expressions japonaises permettent de parler de mots saisonniers et haïku dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Japan Meteorological Agency",
+        "Cabinet Office holiday calendar",
+        "Local festival organizers"
+      ]
+    },
+    {
+      "id": "japan-backlog-history-01",
+      "domain": "history",
+      "topic": "archéologie Jōmon et Yayoi",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre archéologie Jōmon et Yayoi au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour archéologie Jōmon et Yayoi ?",
+        "Quelles expressions japonaises permettent de parler de archéologie Jōmon et Yayoi dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "National Museum of Japanese History",
+        "National Diet Library",
+        "National Archives of Japan",
+        "Peer-reviewed historical research"
+      ]
+    },
+    {
+      "id": "japan-backlog-history-02",
+      "domain": "history",
+      "topic": "Kofun et premiers États",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre Kofun et premiers États au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour Kofun et premiers États ?",
+        "Quelles expressions japonaises permettent de parler de Kofun et premiers États dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "National Museum of Japanese History",
+        "National Diet Library",
+        "National Archives of Japan",
+        "Peer-reviewed historical research"
+      ]
+    },
+    {
+      "id": "japan-backlog-history-03",
+      "domain": "history",
+      "topic": "Nara et Heian",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre Nara et Heian au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour Nara et Heian ?",
+        "Quelles expressions japonaises permettent de parler de Nara et Heian dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "National Museum of Japanese History",
+        "National Diet Library",
+        "National Archives of Japan",
+        "Peer-reviewed historical research"
+      ]
+    },
+    {
+      "id": "japan-backlog-history-04",
+      "domain": "history",
+      "topic": "Kamakura et Muromachi",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre Kamakura et Muromachi au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour Kamakura et Muromachi ?",
+        "Quelles expressions japonaises permettent de parler de Kamakura et Muromachi dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "National Museum of Japanese History",
+        "National Diet Library",
+        "National Archives of Japan",
+        "Peer-reviewed historical research"
+      ]
+    },
+    {
+      "id": "japan-backlog-history-05",
+      "domain": "history",
+      "topic": "Sengoku et Edo",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre Sengoku et Edo au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour Sengoku et Edo ?",
+        "Quelles expressions japonaises permettent de parler de Sengoku et Edo dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "National Museum of Japanese History",
+        "National Diet Library",
+        "National Archives of Japan",
+        "Peer-reviewed historical research"
+      ]
+    },
+    {
+      "id": "japan-backlog-history-06",
+      "domain": "history",
+      "topic": "Meiji et empire",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre Meiji et empire au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour Meiji et empire ?",
+        "Quelles expressions japonaises permettent de parler de Meiji et empire dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "National Museum of Japanese History",
+        "National Diet Library",
+        "National Archives of Japan",
+        "Peer-reviewed historical research"
+      ]
+    },
+    {
+      "id": "japan-backlog-history-07",
+      "domain": "history",
+      "topic": "guerres et mémoire",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre guerres et mémoire au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour guerres et mémoire ?",
+        "Quelles expressions japonaises permettent de parler de guerres et mémoire dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "National Museum of Japanese History",
+        "National Diet Library",
+        "National Archives of Japan",
+        "Peer-reviewed historical research"
+      ]
+    },
+    {
+      "id": "japan-backlog-history-08",
+      "domain": "history",
+      "topic": "après-guerre et périodes contemporaines",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre après-guerre et périodes contemporaines au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour après-guerre et périodes contemporaines ?",
+        "Quelles expressions japonaises permettent de parler de après-guerre et périodes contemporaines dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "National Museum of Japanese History",
+        "National Diet Library",
+        "National Archives of Japan",
+        "Peer-reviewed historical research"
+      ]
+    },
+    {
+      "id": "japan-backlog-religion-01",
+      "domain": "religion",
+      "topic": "shinto et kami",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre shinto et kami au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour shinto et kami ?",
+        "Quelles expressions japonaises permettent de parler de shinto et kami dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Agency for Cultural Affairs",
+        "Named shrine or temple",
+        "Peer-reviewed religious history"
+      ]
+    },
+    {
+      "id": "japan-backlog-religion-02",
+      "domain": "religion",
+      "topic": "bouddhismes japonais",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre bouddhismes japonais au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour bouddhismes japonais ?",
+        "Quelles expressions japonaises permettent de parler de bouddhismes japonais dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Agency for Cultural Affairs",
+        "Named shrine or temple",
+        "Peer-reviewed religious history"
+      ]
+    },
+    {
+      "id": "japan-backlog-religion-03",
+      "domain": "religion",
+      "topic": "syncrétisme et séparation historique",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre syncrétisme et séparation historique au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour syncrétisme et séparation historique ?",
+        "Quelles expressions japonaises permettent de parler de syncrétisme et séparation historique dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Agency for Cultural Affairs",
+        "Named shrine or temple",
+        "Peer-reviewed religious history"
+      ]
+    },
+    {
+      "id": "japan-backlog-religion-04",
+      "domain": "religion",
+      "topic": "christianismes",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre christianismes au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour christianismes ?",
+        "Quelles expressions japonaises permettent de parler de christianismes dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Agency for Cultural Affairs",
+        "Named shrine or temple",
+        "Peer-reviewed religious history"
+      ]
+    },
+    {
+      "id": "japan-backlog-religion-05",
+      "domain": "religion",
+      "topic": "nouvelles religions",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre nouvelles religions au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour nouvelles religions ?",
+        "Quelles expressions japonaises permettent de parler de nouvelles religions dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Agency for Cultural Affairs",
+        "Named shrine or temple",
+        "Peer-reviewed religious history"
+      ]
+    },
+    {
+      "id": "japan-backlog-religion-06",
+      "domain": "religion",
+      "topic": "rites funéraires",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre rites funéraires au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour rites funéraires ?",
+        "Quelles expressions japonaises permettent de parler de rites funéraires dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Agency for Cultural Affairs",
+        "Named shrine or temple",
+        "Peer-reviewed religious history"
+      ]
+    },
+    {
+      "id": "japan-backlog-religion-07",
+      "domain": "religion",
+      "topic": "pèlerinages",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre pèlerinages au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour pèlerinages ?",
+        "Quelles expressions japonaises permettent de parler de pèlerinages dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Agency for Cultural Affairs",
+        "Named shrine or temple",
+        "Peer-reviewed religious history"
+      ]
+    },
+    {
+      "id": "japan-backlog-religion-08",
+      "domain": "religion",
+      "topic": "variations locales et non-pratique",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre variations locales et non-pratique au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour variations locales et non-pratique ?",
+        "Quelles expressions japonaises permettent de parler de variations locales et non-pratique dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Agency for Cultural Affairs",
+        "Named shrine or temple",
+        "Peer-reviewed religious history"
+      ]
+    },
+    {
+      "id": "japan-backlog-food-01",
+      "domain": "food",
+      "topic": "washoku et yōshoku",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre washoku et yōshoku au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour washoku et yōshoku ?",
+        "Quelles expressions japonaises permettent de parler de washoku et yōshoku dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Ministry of Agriculture Forestry and Fisheries",
+        "UNESCO",
+        "Local producer associations"
+      ]
+    },
+    {
+      "id": "japan-backlog-food-02",
+      "domain": "food",
+      "topic": "cuisines régionales",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre cuisines régionales au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour cuisines régionales ?",
+        "Quelles expressions japonaises permettent de parler de cuisines régionales dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Ministry of Agriculture Forestry and Fisheries",
+        "UNESCO",
+        "Local producer associations"
+      ]
+    },
+    {
+      "id": "japan-backlog-food-03",
+      "domain": "food",
+      "topic": "riz et céréales",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre riz et céréales au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour riz et céréales ?",
+        "Quelles expressions japonaises permettent de parler de riz et céréales dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Ministry of Agriculture Forestry and Fisheries",
+        "UNESCO",
+        "Local producer associations"
+      ]
+    },
+    {
+      "id": "japan-backlog-food-04",
+      "domain": "food",
+      "topic": "dashi et fermentations",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre dashi et fermentations au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour dashi et fermentations ?",
+        "Quelles expressions japonaises permettent de parler de dashi et fermentations dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Ministry of Agriculture Forestry and Fisheries",
+        "UNESCO",
+        "Local producer associations"
+      ]
+    },
+    {
+      "id": "japan-backlog-food-05",
+      "domain": "food",
+      "topic": "thé et boissons",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre thé et boissons au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour thé et boissons ?",
+        "Quelles expressions japonaises permettent de parler de thé et boissons dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Ministry of Agriculture Forestry and Fisheries",
+        "UNESCO",
+        "Local producer associations"
+      ]
+    },
+    {
+      "id": "japan-backlog-food-06",
+      "domain": "food",
+      "topic": "étiquette et commande",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre étiquette et commande au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour étiquette et commande ?",
+        "Quelles expressions japonaises permettent de parler de étiquette et commande dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Ministry of Agriculture Forestry and Fisheries",
+        "UNESCO",
+        "Local producer associations"
+      ]
+    },
+    {
+      "id": "japan-backlog-food-07",
+      "domain": "food",
+      "topic": "allergies et informations au restaurant",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre allergies et informations au restaurant au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour allergies et informations au restaurant ?",
+        "Quelles expressions japonaises permettent de parler de allergies et informations au restaurant dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Ministry of Agriculture Forestry and Fisheries",
+        "UNESCO",
+        "Local producer associations"
+      ]
+    },
+    {
+      "id": "japan-backlog-food-08",
+      "domain": "food",
+      "topic": "transmission et histoire alimentaire",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre transmission et histoire alimentaire au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour transmission et histoire alimentaire ?",
+        "Quelles expressions japonaises permettent de parler de transmission et histoire alimentaire dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Ministry of Agriculture Forestry and Fisheries",
+        "UNESCO",
+        "Local producer associations"
+      ]
+    },
+    {
+      "id": "japan-backlog-daily-life-01",
+      "domain": "daily-life",
+      "topic": "logement et entrée",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre logement et entrée au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour logement et entrée ?",
+        "Quelles expressions japonaises permettent de parler de logement et entrée dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Relevant municipal government",
+        "Named service provider"
+      ]
+    },
+    {
+      "id": "japan-backlog-daily-life-02",
+      "domain": "daily-life",
+      "topic": "bains et onsen",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre bains et onsen au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour bains et onsen ?",
+        "Quelles expressions japonaises permettent de parler de bains et onsen dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Relevant municipal government",
+        "Named service provider"
+      ]
+    },
+    {
+      "id": "japan-backlog-daily-life-03",
+      "domain": "daily-life",
+      "topic": "courses et paiements",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre courses et paiements au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour courses et paiements ?",
+        "Quelles expressions japonaises permettent de parler de courses et paiements dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Relevant municipal government",
+        "Named service provider"
+      ]
+    },
+    {
+      "id": "japan-backlog-daily-life-04",
+      "domain": "daily-life",
+      "topic": "déchets locaux",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre déchets locaux au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour déchets locaux ?",
+        "Quelles expressions japonaises permettent de parler de déchets locaux dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Relevant municipal government",
+        "Named service provider"
+      ]
+    },
+    {
+      "id": "japan-backlog-daily-life-05",
+      "domain": "daily-life",
+      "topic": "poste et livraisons",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre poste et livraisons au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour poste et livraisons ?",
+        "Quelles expressions japonaises permettent de parler de poste et livraisons dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Relevant municipal government",
+        "Named service provider"
+      ]
+    },
+    {
+      "id": "japan-backlog-daily-life-06",
+      "domain": "daily-life",
+      "topic": "lessive et voisinage",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre lessive et voisinage au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour lessive et voisinage ?",
+        "Quelles expressions japonaises permettent de parler de lessive et voisinage dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Relevant municipal government",
+        "Named service provider"
+      ]
+    },
+    {
+      "id": "japan-backlog-daily-life-07",
+      "domain": "daily-life",
+      "topic": "services et prises de rendez-vous",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre services et prises de rendez-vous au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour services et prises de rendez-vous ?",
+        "Quelles expressions japonaises permettent de parler de services et prises de rendez-vous dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Relevant municipal government",
+        "Named service provider"
+      ]
+    },
+    {
+      "id": "japan-backlog-daily-life-08",
+      "domain": "daily-life",
+      "topic": "accessibilité",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre accessibilité au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour accessibilité ?",
+        "Quelles expressions japonaises permettent de parler de accessibilité dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Relevant municipal government",
+        "Named service provider"
+      ]
+    },
+    {
+      "id": "japan-backlog-society-01",
+      "domain": "society",
+      "topic": "enquêtes sociales datées",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre enquêtes sociales datées au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour enquêtes sociales datées ?",
+        "Quelles expressions japonaises permettent de parler de enquêtes sociales datées dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Statistics Bureau of Japan",
+        "National Institute of Population and Social Security Research",
+        "Peer-reviewed surveys",
+        "Upopoy and community organizations"
+      ]
+    },
+    {
+      "id": "japan-backlog-society-02",
+      "domain": "society",
+      "topic": "familles et ménages",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre familles et ménages au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour familles et ménages ?",
+        "Quelles expressions japonaises permettent de parler de familles et ménages dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Statistics Bureau of Japan",
+        "National Institute of Population and Social Security Research",
+        "Peer-reviewed surveys",
+        "Upopoy and community organizations"
+      ]
+    },
+    {
+      "id": "japan-backlog-society-03",
+      "domain": "society",
+      "topic": "générations",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre générations au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour générations ?",
+        "Quelles expressions japonaises permettent de parler de générations dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Statistics Bureau of Japan",
+        "National Institute of Population and Social Security Research",
+        "Peer-reviewed surveys",
+        "Upopoy and community organizations"
+      ]
+    },
+    {
+      "id": "japan-backlog-society-04",
+      "domain": "society",
+      "topic": "genre et diversité",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre genre et diversité au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour genre et diversité ?",
+        "Quelles expressions japonaises permettent de parler de genre et diversité dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Statistics Bureau of Japan",
+        "National Institute of Population and Social Security Research",
+        "Peer-reviewed surveys",
+        "Upopoy and community organizations"
+      ]
+    },
+    {
+      "id": "japan-backlog-society-05",
+      "domain": "society",
+      "topic": "migrations et minorités",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre migrations et minorités au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour migrations et minorités ?",
+        "Quelles expressions japonaises permettent de parler de migrations et minorités dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Statistics Bureau of Japan",
+        "National Institute of Population and Social Security Research",
+        "Peer-reviewed surveys",
+        "Upopoy and community organizations"
+      ]
+    },
+    {
+      "id": "japan-backlog-society-06",
+      "domain": "society",
+      "topic": "Aïnous",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre Aïnous au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour Aïnous ?",
+        "Quelles expressions japonaises permettent de parler de Aïnous dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Statistics Bureau of Japan",
+        "National Institute of Population and Social Security Research",
+        "Peer-reviewed surveys",
+        "Upopoy and community organizations"
+      ]
+    },
+    {
+      "id": "japan-backlog-society-07",
+      "domain": "society",
+      "topic": "Ryūkyū et Okinawa",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre Ryūkyū et Okinawa au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour Ryūkyū et Okinawa ?",
+        "Quelles expressions japonaises permettent de parler de Ryūkyū et Okinawa dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Statistics Bureau of Japan",
+        "National Institute of Population and Social Security Research",
+        "Peer-reviewed surveys",
+        "Upopoy and community organizations"
+      ]
+    },
+    {
+      "id": "japan-backlog-society-08",
+      "domain": "society",
+      "topic": "différences urbaines et rurales",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre différences urbaines et rurales au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour différences urbaines et rurales ?",
+        "Quelles expressions japonaises permettent de parler de différences urbaines et rurales dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Statistics Bureau of Japan",
+        "National Institute of Population and Social Security Research",
+        "Peer-reviewed surveys",
+        "Upopoy and community organizations"
+      ]
+    },
+    {
+      "id": "japan-backlog-conversation-01",
+      "domain": "conversation",
+      "topic": "se présenter",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre se présenter au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour se présenter ?",
+        "Quelles expressions japonaises permettent de parler de se présenter dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Japan Foundation context-based teaching materials",
+        "NINJAL corpora with reuse rights",
+        "Observed published survey or interaction study"
+      ]
+    },
+    {
+      "id": "japan-backlog-conversation-02",
+      "domain": "conversation",
+      "topic": "demander une permission",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre demander une permission au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour demander une permission ?",
+        "Quelles expressions japonaises permettent de parler de demander une permission dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Japan Foundation context-based teaching materials",
+        "NINJAL corpora with reuse rights",
+        "Observed published survey or interaction study"
+      ]
+    },
+    {
+      "id": "japan-backlog-conversation-03",
+      "domain": "conversation",
+      "topic": "faire une invitation",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre faire une invitation au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour faire une invitation ?",
+        "Quelles expressions japonaises permettent de parler de faire une invitation dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Japan Foundation context-based teaching materials",
+        "NINJAL corpora with reuse rights",
+        "Observed published survey or interaction study"
+      ]
+    },
+    {
+      "id": "japan-backlog-conversation-04",
+      "domain": "conversation",
+      "topic": "refuser et clarifier",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre refuser et clarifier au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour refuser et clarifier ?",
+        "Quelles expressions japonaises permettent de parler de refuser et clarifier dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Japan Foundation context-based teaching materials",
+        "NINJAL corpora with reuse rights",
+        "Observed published survey or interaction study"
+      ]
+    },
+    {
+      "id": "japan-backlog-conversation-05",
+      "domain": "conversation",
+      "topic": "excuses et remerciements",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre excuses et remerciements au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour excuses et remerciements ?",
+        "Quelles expressions japonaises permettent de parler de excuses et remerciements dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Japan Foundation context-based teaching materials",
+        "NINJAL corpora with reuse rights",
+        "Observed published survey or interaction study"
+      ]
+    },
+    {
+      "id": "japan-backlog-conversation-06",
+      "domain": "conversation",
+      "topic": "cadeaux selon le contexte",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre cadeaux selon le contexte au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour cadeaux selon le contexte ?",
+        "Quelles expressions japonaises permettent de parler de cadeaux selon le contexte dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Japan Foundation context-based teaching materials",
+        "NINJAL corpora with reuse rights",
+        "Observed published survey or interaction study"
+      ]
+    },
+    {
+      "id": "japan-backlog-conversation-07",
+      "domain": "conversation",
+      "topic": "cadres amicaux et professionnels",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre cadres amicaux et professionnels au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour cadres amicaux et professionnels ?",
+        "Quelles expressions japonaises permettent de parler de cadres amicaux et professionnels dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Japan Foundation context-based teaching materials",
+        "NINJAL corpora with reuse rights",
+        "Observed published survey or interaction study"
+      ]
+    },
+    {
+      "id": "japan-backlog-conversation-08",
+      "domain": "conversation",
+      "topic": "indices observables plutôt que pensée supposée",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre indices observables plutôt que pensée supposée au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour indices observables plutôt que pensée supposée ?",
+        "Quelles expressions japonaises permettent de parler de indices observables plutôt que pensée supposée dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Japan Foundation context-based teaching materials",
+        "NINJAL corpora with reuse rights",
+        "Observed published survey or interaction study"
+      ]
+    },
+    {
+      "id": "japan-backlog-arts-01",
+      "domain": "arts",
+      "topic": "architecture",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre architecture au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour architecture ?",
+        "Quelles expressions japonaises permettent de parler de architecture dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Museum catalogues",
+        "Agency for Cultural Affairs",
+        "Artist or institution archives"
+      ]
+    },
+    {
+      "id": "japan-backlog-arts-02",
+      "domain": "arts",
+      "topic": "jardins",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre jardins au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour jardins ?",
+        "Quelles expressions japonaises permettent de parler de jardins dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Museum catalogues",
+        "Agency for Cultural Affairs",
+        "Artist or institution archives"
+      ]
+    },
+    {
+      "id": "japan-backlog-arts-03",
+      "domain": "arts",
+      "topic": "céramiques et laques",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre céramiques et laques au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour céramiques et laques ?",
+        "Quelles expressions japonaises permettent de parler de céramiques et laques dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Museum catalogues",
+        "Agency for Cultural Affairs",
+        "Artist or institution archives"
+      ]
+    },
+    {
+      "id": "japan-backlog-arts-04",
+      "domain": "arts",
+      "topic": "textiles",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre textiles au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour textiles ?",
+        "Quelles expressions japonaises permettent de parler de textiles dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Museum catalogues",
+        "Agency for Cultural Affairs",
+        "Artist or institution archives"
+      ]
+    },
+    {
+      "id": "japan-backlog-arts-05",
+      "domain": "arts",
+      "topic": "arts de scène",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre arts de scène au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour arts de scène ?",
+        "Quelles expressions japonaises permettent de parler de arts de scène dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Museum catalogues",
+        "Agency for Cultural Affairs",
+        "Artist or institution archives"
+      ]
+    },
+    {
+      "id": "japan-backlog-arts-06",
+      "domain": "arts",
+      "topic": "littératures",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre littératures au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour littératures ?",
+        "Quelles expressions japonaises permettent de parler de littératures dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Museum catalogues",
+        "Agency for Cultural Affairs",
+        "Artist or institution archives"
+      ]
+    },
+    {
+      "id": "japan-backlog-arts-07",
+      "domain": "arts",
+      "topic": "photographie et cinéma",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre photographie et cinéma au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour photographie et cinéma ?",
+        "Quelles expressions japonaises permettent de parler de photographie et cinéma dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Museum catalogues",
+        "Agency for Cultural Affairs",
+        "Artist or institution archives"
+      ]
+    },
+    {
+      "id": "japan-backlog-arts-08",
+      "domain": "arts",
+      "topic": "manga animation jeux et industrie",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre manga animation jeux et industrie au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour manga animation jeux et industrie ?",
+        "Quelles expressions japonaises permettent de parler de manga animation jeux et industrie dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Museum catalogues",
+        "Agency for Cultural Affairs",
+        "Artist or institution archives"
+      ]
+    },
+    {
+      "id": "japan-backlog-work-01",
+      "domain": "work",
+      "topic": "secteurs et métiers",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre secteurs et métiers au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour secteurs et métiers ?",
+        "Quelles expressions japonaises permettent de parler de secteurs et métiers dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Ministry of Health Labour and Welfare",
+        "Statistics Bureau of Japan",
+        "Employment contracts or operator publications"
+      ]
+    },
+    {
+      "id": "japan-backlog-work-02",
+      "domain": "work",
+      "topic": "formes d’emploi",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre formes d’emploi au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour formes d’emploi ?",
+        "Quelles expressions japonaises permettent de parler de formes d’emploi dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Ministry of Health Labour and Welfare",
+        "Statistics Bureau of Japan",
+        "Employment contracts or operator publications"
+      ]
+    },
+    {
+      "id": "japan-backlog-work-03",
+      "domain": "work",
+      "topic": "recherche d’emploi",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre recherche d’emploi au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour recherche d’emploi ?",
+        "Quelles expressions japonaises permettent de parler de recherche d’emploi dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Ministry of Health Labour and Welfare",
+        "Statistics Bureau of Japan",
+        "Employment contracts or operator publications"
+      ]
+    },
+    {
+      "id": "japan-backlog-work-04",
+      "domain": "work",
+      "topic": "contrats et protection sociale",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre contrats et protection sociale au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour contrats et protection sociale ?",
+        "Quelles expressions japonaises permettent de parler de contrats et protection sociale dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Ministry of Health Labour and Welfare",
+        "Statistics Bureau of Japan",
+        "Employment contracts or operator publications"
+      ]
+    },
+    {
+      "id": "japan-backlog-work-05",
+      "domain": "work",
+      "topic": "indépendants et entreprises",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre indépendants et entreprises au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour indépendants et entreprises ?",
+        "Quelles expressions japonaises permettent de parler de indépendants et entreprises dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Ministry of Health Labour and Welfare",
+        "Statistics Bureau of Japan",
+        "Employment contracts or operator publications"
+      ]
+    },
+    {
+      "id": "japan-backlog-work-06",
+      "domain": "work",
+      "topic": "espaces de travail",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre espaces de travail au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour espaces de travail ?",
+        "Quelles expressions japonaises permettent de parler de espaces de travail dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Ministry of Health Labour and Welfare",
+        "Statistics Bureau of Japan",
+        "Employment contracts or operator publications"
+      ]
+    },
+    {
+      "id": "japan-backlog-work-07",
+      "domain": "work",
+      "topic": "cultures professionnelles documentées",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre cultures professionnelles documentées au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour cultures professionnelles documentées ?",
+        "Quelles expressions japonaises permettent de parler de cultures professionnelles documentées dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Ministry of Health Labour and Welfare",
+        "Statistics Bureau of Japan",
+        "Employment contracts or operator publications"
+      ]
+    },
+    {
+      "id": "japan-backlog-work-08",
+      "domain": "work",
+      "topic": "économie locale",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre économie locale au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour économie locale ?",
+        "Quelles expressions japonaises permettent de parler de économie locale dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Ministry of Health Labour and Welfare",
+        "Statistics Bureau of Japan",
+        "Employment contracts or operator publications"
+      ]
+    },
+    {
+      "id": "japan-backlog-education-01",
+      "domain": "education",
+      "topic": "système scolaire",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre système scolaire au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour système scolaire ?",
+        "Quelles expressions japonaises permettent de parler de système scolaire dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Ministry of Education Culture Sports Science and Technology",
+        "Named educational institution"
+      ]
+    },
+    {
+      "id": "japan-backlog-education-02",
+      "domain": "education",
+      "topic": "année scolaire",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre année scolaire au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour année scolaire ?",
+        "Quelles expressions japonaises permettent de parler de année scolaire dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Ministry of Education Culture Sports Science and Technology",
+        "Named educational institution"
+      ]
+    },
+    {
+      "id": "japan-backlog-education-03",
+      "domain": "education",
+      "topic": "universités",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre universités au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour universités ?",
+        "Quelles expressions japonaises permettent de parler de universités dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Ministry of Education Culture Sports Science and Technology",
+        "Named educational institution"
+      ]
+    },
+    {
+      "id": "japan-backlog-education-04",
+      "domain": "education",
+      "topic": "formation professionnelle",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre formation professionnelle au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour formation professionnelle ?",
+        "Quelles expressions japonaises permettent de parler de formation professionnelle dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Ministry of Education Culture Sports Science and Technology",
+        "Named educational institution"
+      ]
+    },
+    {
+      "id": "japan-backlog-education-05",
+      "domain": "education",
+      "topic": "bibliothèques",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre bibliothèques au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour bibliothèques ?",
+        "Quelles expressions japonaises permettent de parler de bibliothèques dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Ministry of Education Culture Sports Science and Technology",
+        "Named educational institution"
+      ]
+    },
+    {
+      "id": "japan-backlog-education-06",
+      "domain": "education",
+      "topic": "éducation linguistique",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre éducation linguistique au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour éducation linguistique ?",
+        "Quelles expressions japonaises permettent de parler de éducation linguistique dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Ministry of Education Culture Sports Science and Technology",
+        "Named educational institution"
+      ]
+    },
+    {
+      "id": "japan-backlog-education-07",
+      "domain": "education",
+      "topic": "disparités territoriales",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre disparités territoriales au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour disparités territoriales ?",
+        "Quelles expressions japonaises permettent de parler de disparités territoriales dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Ministry of Education Culture Sports Science and Technology",
+        "Named educational institution"
+      ]
+    },
+    {
+      "id": "japan-backlog-education-08",
+      "domain": "education",
+      "topic": "histoire des institutions",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre histoire des institutions au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour histoire des institutions ?",
+        "Quelles expressions japonaises permettent de parler de histoire des institutions dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Ministry of Education Culture Sports Science and Technology",
+        "Named educational institution"
+      ]
+    },
+    {
+      "id": "japan-backlog-administration-01",
+      "domain": "administration",
+      "topic": "statuts de séjour",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre statuts de séjour au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour statuts de séjour ?",
+        "Quelles expressions japonaises permettent de parler de statuts de séjour dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "MOFA",
+        "Immigration Services Agency",
+        "Competent Japanese embassy or consulate",
+        "Municipal authority"
+      ]
+    },
+    {
+      "id": "japan-backlog-administration-02",
+      "domain": "administration",
+      "topic": "PVT par nationalité",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre PVT par nationalité au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour PVT par nationalité ?",
+        "Quelles expressions japonaises permettent de parler de PVT par nationalité dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "MOFA",
+        "Immigration Services Agency",
+        "Competent Japanese embassy or consulate",
+        "Municipal authority"
+      ]
+    },
+    {
+      "id": "japan-backlog-administration-03",
+      "domain": "administration",
+      "topic": "résidence et déclaration d’adresse",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre résidence et déclaration d’adresse au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour résidence et déclaration d’adresse ?",
+        "Quelles expressions japonaises permettent de parler de résidence et déclaration d’adresse dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "MOFA",
+        "Immigration Services Agency",
+        "Competent Japanese embassy or consulate",
+        "Municipal authority"
+      ]
+    },
+    {
+      "id": "japan-backlog-administration-04",
+      "domain": "administration",
+      "topic": "assurance et pension",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre assurance et pension au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour assurance et pension ?",
+        "Quelles expressions japonaises permettent de parler de assurance et pension dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "MOFA",
+        "Immigration Services Agency",
+        "Competent Japanese embassy or consulate",
+        "Municipal authority"
+      ]
+    },
+    {
+      "id": "japan-backlog-administration-05",
+      "domain": "administration",
+      "topic": "fiscalité",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre fiscalité au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour fiscalité ?",
+        "Quelles expressions japonaises permettent de parler de fiscalité dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "MOFA",
+        "Immigration Services Agency",
+        "Competent Japanese embassy or consulate",
+        "Municipal authority"
+      ]
+    },
+    {
+      "id": "japan-backlog-administration-06",
+      "domain": "administration",
+      "topic": "documents officiels",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre documents officiels au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour documents officiels ?",
+        "Quelles expressions japonaises permettent de parler de documents officiels dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "MOFA",
+        "Immigration Services Agency",
+        "Competent Japanese embassy or consulate",
+        "Municipal authority"
+      ]
+    },
+    {
+      "id": "japan-backlog-administration-07",
+      "domain": "administration",
+      "topic": "droit du travail",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre droit du travail au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour droit du travail ?",
+        "Quelles expressions japonaises permettent de parler de droit du travail dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "MOFA",
+        "Immigration Services Agency",
+        "Competent Japanese embassy or consulate",
+        "Municipal authority"
+      ]
+    },
+    {
+      "id": "japan-backlog-administration-08",
+      "domain": "administration",
+      "topic": "procédures consulaires",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre procédures consulaires au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour procédures consulaires ?",
+        "Quelles expressions japonaises permettent de parler de procédures consulaires dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "MOFA",
+        "Immigration Services Agency",
+        "Competent Japanese embassy or consulate",
+        "Municipal authority"
+      ]
+    },
+    {
+      "id": "japan-backlog-transport-01",
+      "domain": "transport",
+      "topic": "opérateurs ferroviaires",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre opérateurs ferroviaires au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour opérateurs ferroviaires ?",
+        "Quelles expressions japonaises permettent de parler de opérateurs ferroviaires dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Named rail operator",
+        "Municipal transport bureau",
+        "National Police Agency"
+      ]
+    },
+    {
+      "id": "japan-backlog-transport-02",
+      "domain": "transport",
+      "topic": "billets et IC cards",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre billets et IC cards au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour billets et IC cards ?",
+        "Quelles expressions japonaises permettent de parler de billets et IC cards dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Named rail operator",
+        "Municipal transport bureau",
+        "National Police Agency"
+      ]
+    },
+    {
+      "id": "japan-backlog-transport-03",
+      "domain": "transport",
+      "topic": "réservations et bagages",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre réservations et bagages au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour réservations et bagages ?",
+        "Quelles expressions japonaises permettent de parler de réservations et bagages dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Named rail operator",
+        "Municipal transport bureau",
+        "National Police Agency"
+      ]
+    },
+    {
+      "id": "japan-backlog-transport-04",
+      "domain": "transport",
+      "topic": "bus locaux",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre bus locaux au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour bus locaux ?",
+        "Quelles expressions japonaises permettent de parler de bus locaux dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Named rail operator",
+        "Municipal transport bureau",
+        "National Police Agency"
+      ]
+    },
+    {
+      "id": "japan-backlog-transport-05",
+      "domain": "transport",
+      "topic": "vélos et stationnement",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre vélos et stationnement au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour vélos et stationnement ?",
+        "Quelles expressions japonaises permettent de parler de vélos et stationnement dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Named rail operator",
+        "Municipal transport bureau",
+        "National Police Agency"
+      ]
+    },
+    {
+      "id": "japan-backlog-transport-06",
+      "domain": "transport",
+      "topic": "voiture et permis",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre voiture et permis au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour voiture et permis ?",
+        "Quelles expressions japonaises permettent de parler de voiture et permis dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Named rail operator",
+        "Municipal transport bureau",
+        "National Police Agency"
+      ]
+    },
+    {
+      "id": "japan-backlog-transport-07",
+      "domain": "transport",
+      "topic": "navigation en gare",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre navigation en gare au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour navigation en gare ?",
+        "Quelles expressions japonaises permettent de parler de navigation en gare dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Named rail operator",
+        "Municipal transport bureau",
+        "National Police Agency"
+      ]
+    },
+    {
+      "id": "japan-backlog-transport-08",
+      "domain": "transport",
+      "topic": "accessibilité et correspondances",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre accessibilité et correspondances au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour accessibilité et correspondances ?",
+        "Quelles expressions japonaises permettent de parler de accessibilité et correspondances dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Named rail operator",
+        "Municipal transport bureau",
+        "National Police Agency"
+      ]
+    },
+    {
+      "id": "japan-backlog-safety-01",
+      "domain": "safety",
+      "topic": "séismes",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre séismes au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour séismes ?",
+        "Quelles expressions japonaises permettent de parler de séismes dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "JMA",
+        "Municipal emergency management",
+        "Fire and Disaster Management Agency"
+      ]
+    },
+    {
+      "id": "japan-backlog-safety-02",
+      "domain": "safety",
+      "topic": "tsunamis",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre tsunamis au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour tsunamis ?",
+        "Quelles expressions japonaises permettent de parler de tsunamis dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "JMA",
+        "Municipal emergency management",
+        "Fire and Disaster Management Agency"
+      ]
+    },
+    {
+      "id": "japan-backlog-safety-03",
+      "domain": "safety",
+      "topic": "typhons",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre typhons au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour typhons ?",
+        "Quelles expressions japonaises permettent de parler de typhons dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "JMA",
+        "Municipal emergency management",
+        "Fire and Disaster Management Agency"
+      ]
+    },
+    {
+      "id": "japan-backlog-safety-04",
+      "domain": "safety",
+      "topic": "volcans",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre volcans au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour volcans ?",
+        "Quelles expressions japonaises permettent de parler de volcans dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "JMA",
+        "Municipal emergency management",
+        "Fire and Disaster Management Agency"
+      ]
+    },
+    {
+      "id": "japan-backlog-safety-05",
+      "domain": "safety",
+      "topic": "chaleur et neige",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre chaleur et neige au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour chaleur et neige ?",
+        "Quelles expressions japonaises permettent de parler de chaleur et neige dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "JMA",
+        "Municipal emergency management",
+        "Fire and Disaster Management Agency"
+      ]
+    },
+    {
+      "id": "japan-backlog-safety-06",
+      "domain": "safety",
+      "topic": "évacuation locale",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre évacuation locale au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour évacuation locale ?",
+        "Quelles expressions japonaises permettent de parler de évacuation locale dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "JMA",
+        "Municipal emergency management",
+        "Fire and Disaster Management Agency"
+      ]
+    },
+    {
+      "id": "japan-backlog-safety-07",
+      "domain": "safety",
+      "topic": "alertes multilingues",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre alertes multilingues au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour alertes multilingues ?",
+        "Quelles expressions japonaises permettent de parler de alertes multilingues dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "JMA",
+        "Municipal emergency management",
+        "Fire and Disaster Management Agency"
+      ]
+    },
+    {
+      "id": "japan-backlog-safety-08",
+      "domain": "safety",
+      "topic": "services publics et urgences",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre services publics et urgences au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour services publics et urgences ?",
+        "Quelles expressions japonaises permettent de parler de services publics et urgences dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "JMA",
+        "Municipal emergency management",
+        "Fire and Disaster Management Agency"
+      ]
+    },
+    {
+      "id": "japan-backlog-methodology-01",
+      "domain": "methodology",
+      "topic": "fait et interprétation",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre fait et interprétation au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour fait et interprétation ?",
+        "Quelles expressions japonaises permettent de parler de fait et interprétation dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Source publisher terms",
+        "Survey methodology",
+        "Archives metadata"
+      ]
+    },
+    {
+      "id": "japan-backlog-methodology-02",
+      "domain": "methodology",
+      "topic": "enquête et échantillon",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre enquête et échantillon au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour enquête et échantillon ?",
+        "Quelles expressions japonaises permettent de parler de enquête et échantillon dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Source publisher terms",
+        "Survey methodology",
+        "Archives metadata"
+      ]
+    },
+    {
+      "id": "japan-backlog-methodology-03",
+      "domain": "methodology",
+      "topic": "archives et datation",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre archives et datation au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour archives et datation ?",
+        "Quelles expressions japonaises permettent de parler de archives et datation dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Source publisher terms",
+        "Survey methodology",
+        "Archives metadata"
+      ]
+    },
+    {
+      "id": "japan-backlog-methodology-04",
+      "domain": "methodology",
+      "topic": "traduction de sources",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre traduction de sources au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour traduction de sources ?",
+        "Quelles expressions japonaises permettent de parler de traduction de sources dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Source publisher terms",
+        "Survey methodology",
+        "Archives metadata"
+      ]
+    },
+    {
+      "id": "japan-backlog-methodology-05",
+      "domain": "methodology",
+      "topic": "droits de réutilisation",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre droits de réutilisation au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour droits de réutilisation ?",
+        "Quelles expressions japonaises permettent de parler de droits de réutilisation dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Source publisher terms",
+        "Survey methodology",
+        "Archives metadata"
+      ]
+    },
+    {
+      "id": "japan-backlog-methodology-06",
+      "domain": "methodology",
+      "topic": "information périssable",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre information périssable au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour information périssable ?",
+        "Quelles expressions japonaises permettent de parler de information périssable dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Source publisher terms",
+        "Survey methodology",
+        "Archives metadata"
+      ]
+    },
+    {
+      "id": "japan-backlog-methodology-07",
+      "domain": "methodology",
+      "topic": "désaccords historiographiques",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre désaccords historiographiques au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour désaccords historiographiques ?",
+        "Quelles expressions japonaises permettent de parler de désaccords historiographiques dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Source publisher terms",
+        "Survey methodology",
+        "Archives metadata"
+      ]
+    },
+    {
+      "id": "japan-backlog-methodology-08",
+      "domain": "methodology",
+      "topic": "limites de couverture",
+      "status": "research-pending",
+      "createdAt": "12 October 2026",
+      "questionSeeds": [
+        "Quels repères fiables permettent de comprendre limites de couverture au Japon ?",
+        "Quelles différences régionales, historiques ou individuelles faut-il distinguer pour limites de couverture ?",
+        "Quelles expressions japonaises permettent de parler de limites de couverture dans une situation réelle ?"
+      ],
+      "requiredEvidence": [
+        "Source primaire pertinente consultée",
+        "Fait précis lié à une source",
+        "Date et territoire si variables",
+        "Droits des données externes",
+        "Exemples originaux vérifiés"
+      ],
+      "targetSources": [
+        "Source publisher terms",
+        "Survey methodology",
+        "Archives metadata"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "createdAt": "12 October 2026",
+  "cards": 28,
+  "sourceReferences": 19,
+  "backlogTopics": 120,
+  "candidateQuestions": 360,
+  "sourcesActuallyUsed": 18,
+  "nativeReview": "pending",
+  "claimCoverage": "introductory only",
+  "knownSourceCaution": "JNTO history page has claims requiring scholarly cross-check; cards omit disputed prehistoric habitation date and the internally inconsistent Nihon Shoki dating.",
+  "notDone": [
+    "Exhaustive encyclopedia",
+    "Native review",
+    "Legal eligibility advice",
+    "Live weather warnings",
+    "Source redistribution license audit"
+  ]
+}

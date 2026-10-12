@@ -1,0 +1,26 @@
+# UI implementation, 12 October 2026
+
+- Worktree: /Users/zenray/.codex/worktrees/japanese-progress. (12 October 2026)
+- New files: src/learn/JapaneseCorpus.jsx, JapaneseCorpus.css, japaneseCorpusModel.js, JapaneseCorpus.test.jsx, japaneseCorpusModel.test.js. Integration: src/learn/ZenRayJapanese.jsx. (12 October 2026)
+- Catalogue read once per client; immutable release basePath; successful and inflight shard cache only; errors retried, HTTP failures displayed. (12 October 2026)
+- Query normalization NFKC, accents and œ to oe; FNV1a iterates Unicode codepoints; search prefix also uses codepoints. (12 October 2026)
+- Search runs only on submit, applies domain and level before bounded 40 results; catalogue browse has pagination. (12 October 2026)
+- Cooker: one new topic, up to three original examples, two-column examples before explanation, oral and kana defaults, retest two prompts with closed answers, no mastery written. settings.lesson controls recipe. (12 October 2026)
+- Kana cook blocked for an original Japanese example containing Han characters with no provided reading. Imported dictionary/sentence cards remain references without invented exercises. (12 October 2026)
+- KanjiVG SVG loaded as an image Blob, never injected into DOM; attribution and CC BY-SA 3.0 displayed; read failures visible and retryable. (12 October 2026)
+- Tests: ./node_modules/.bin/vitest run src/learn/japaneseCorpusModel.test.js src/learn/JapaneseCorpus.test.jsx. Result: 15 passed, 2 files passed. (12 October 2026)
+- Independent Python hash fixture: 𠮷野 bucket168, word-1002740 bucket0, は bucket158. (12 October 2026)
+- Real local release search: 梅雨 14 results; 日 with kanji filter one result kanji-065e5; は が with grammar filter one result grammar-topic; œuvre and avoir with dictionary filter bounded40 results. (12 October 2026)
+- git diff --check exit0. No commit, deployment or personal browser use performed. Build and runtime production verification remain with root. (12 October 2026)
+
+## Headless browser verification, 12 October 2026
+
+- Browser: installed Chromium headless1234, reused via executablePath; no browser download or personal browser access. (12 October 2026)
+- Actual ZenRayJapanese component with real local catalogue and shard fixtures, isolated Vite5174; no production authentication claim. (12 October 2026)
+- Flow passes: Corpus, N4, ば, add, cook, two-column table, one available original drill, two hidden retest answers, kana default, source link and rights. (12 October 2026)
+- Responsive checks pass:1440px and375px, light and dark themes, document scrollWidth equals viewport width in all four cases. (12 October 2026)
+- Exact 日 lookup with kanji filter loads the actual KanjiVG SVG image. One catalogue request, five total corpus requests, no page JavaScript errors. (12 October 2026)
+- Proven corrections: select aria-labels, H4 default bold replaced by shared350 serif weight, canonical catalogue.lesson.minutes/pauseMinutes/script/mode, explicit missing-stroke text and source trait/radical metadata. (12 October 2026)
+- Unit and UI tests now16 passed across two files. Reproducible runner: /Users/zenray/.claude/tmp/tmp-zenray-japanese/Scripts/VerifyJapaneseBrowser.mjs. (12 October 2026)
+- Reports and images: /Users/zenray/.claude/tmp/tmp-zenray-japanese/verification/JapaneseBrowserReport.json and Japanese-lesson-375-light.png, Japanese-lesson-375-dark.png, plus full desktop/mobile four-theme screenshots. (12 October 2026)
+- Initial harness failures were test setup: Vite case-sensitive HTML proxy mismatch and installed browser revision mismatch; isolated harness fixed without downloading. (12 October 2026)

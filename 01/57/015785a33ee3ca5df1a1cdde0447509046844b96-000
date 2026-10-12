@@ -1,0 +1,424 @@
+[
+  [
+    "kami",
+    "Pourquoi kami n’est-il pas exactement un synonyme de « dieu » ?",
+    "religion",
+    [
+      "kami",
+      "神",
+      "shinto",
+      "nature"
+    ],
+    "Les représentations associées aux kami incluent des lieux et phénomènes naturels, par exemple montagnes, cours d’eau et arbres remarquables. Le shinto réunit des pratiques, institutions et relations à ces présences, plutôt qu’un panthéon comparable en tout point à celui d’une seule tradition occidentale. Traduire par « dieu » peut aider, mais ne suffit pas à décrire chaque usage.",
+    "La fiche décrit des traditions documentées, pas les croyances de chaque personne rencontrée.",
+    [
+      "shinto"
+    ],
+    [
+      "japan-backlog-religion-01"
+    ],
+    []
+  ],
+  [
+    "sacred-objects",
+    "Pourquoi un sanctuaire ne montre-t-il pas forcément une statue au visiteur ?",
+    "religion",
+    [
+      "shinto",
+      "sanctuaire",
+      "miroir",
+      "objets sacrés"
+    ],
+    "Dans le cadre décrit par le Met, des objets tels que miroirs, épées et joyaux peuvent être associés symboliquement aux kami. Les représentations anthropomorphes se développent aussi sous l’influence du bouddhisme, mais les objets ou images du sanctuaire intérieur ne sont pas nécessairement exposés au public. L’absence de statue visible ne signifie donc pas l’absence d’un objet cultuel.",
+    "Les dispositions et accès diffèrent selon le sanctuaire; cette observation historique n’autorise pas à entrer dans les espaces réservés.",
+    [
+      "shinto"
+    ],
+    [
+      "japan-backlog-religion-01",
+      "japan-backlog-religion-03"
+    ],
+    []
+  ],
+  [
+    "zen-chan",
+    "Le zen apparaît-il comme une tradition entièrement isolée au Japon ?",
+    "religion",
+    [
+      "zen",
+      "禅",
+      "Chan",
+      "Chine",
+      "bouddhisme"
+    ],
+    "Le zen s’inscrit dans une transmission bouddhique dont le Chan chinois est un relais majeur. Il prend durablement racine au Japon au XIIIe siècle et intéresse notamment les élites guerrières. Les maîtres et étudiants transmettent aussi littérature, calligraphie et peinture. Son histoire est donc faite de circulations de personnes et de pratiques, pas d’une invention culturelle isolée.",
+    "Les écoles et pratiques du zen sont diverses; cette fiche ne constitue pas un enseignement religieux.",
+    [
+      "zen"
+    ],
+    [
+      "japan-backlog-religion-02"
+    ],
+    []
+  ],
+  [
+    "zen-ink",
+    "Quel lien historique existe entre moines zen et peinture à l’encre ?",
+    "arts",
+    [
+      "zen",
+      "sumi-e",
+      "encre",
+      "calligraphie"
+    ],
+    "Des moines zen participent à la diffusion et à la pratique de la peinture monochrome à l’encre. Les premiers sujets comprennent maîtres et figures religieuses; le répertoire s’élargit ensuite à des plantes, oiseaux, personnages littéraires et paysages. Le lien institutionnel est important, mais une peinture monochrome n’est pas automatiquement une expression religieuse zen.",
+    "Identifier l’auteur, l’époque, le sujet et l’usage de l’œuvre avant d’en déduire une affiliation.",
+    [
+      "zen"
+    ],
+    [
+      "japan-backlog-arts-06",
+      "japan-backlog-religion-02"
+    ],
+    []
+  ],
+  [
+    "ukiyoe-collaboration",
+    "Une estampe ukiyo-e est-elle fabriquée par une seule personne ?",
+    "arts",
+    [
+      "ukiyo-e",
+      "浮世絵",
+      "gravure",
+      "éditeur"
+    ],
+    "La fabrication d’une estampe implique traditionnellement plusieurs métiers: dessinateur, graveur, imprimeur et éditeur. L’éditeur organise souvent l’entreprise commerciale et choisit le thème. Le nom de l’artiste visible sur une image ne raconte donc pas à lui seul le travail du bloc de bois, de l’impression et de la diffusion.",
+    "Cette organisation décrit la production d’estampes, pas tous les objets qualifiés d’ukiyo-e.",
+    [
+      "ukiyoe"
+    ],
+    [
+      "japan-backlog-arts-07",
+      "japan-backlog-work-01"
+    ],
+    []
+  ],
+  [
+    "nishikie",
+    "Pourquoi nishiki-e marque-t-il une étape dans les estampes ?",
+    "arts",
+    [
+      "nishiki-e",
+      "錦絵",
+      "polychromie",
+      "Harunobu"
+    ],
+    "Au XVIIIe siècle, la production d’estampes à nombreuses couleurs se développe grâce à des procédés d’impression coordonnés. Le Met situe en 1765 une étape décisive avec des calendriers commandés par des mécènes d’Edo. Les couleurs imprimées remplacent progressivement, pour ces productions, une partie du travail de coloration manuelle.",
+    "Il existait auparavant des impressions utilisant quelques couleurs; « avant monochrome, après couleur » serait trop simple.",
+    [
+      "ukiyoe"
+    ],
+    [
+      "japan-backlog-arts-07",
+      "japan-backlog-history-05"
+    ],
+    []
+  ],
+  [
+    "emaki-reading",
+    "Comment lit-on un emaki sans le traiter comme un tableau mural ?",
+    "arts",
+    [
+      "emaki",
+      "絵巻",
+      "rouleau",
+      "narration"
+    ],
+    "L’emaki est un rouleau horizontal qui se déroule par portions, de droite à gauche. Le regard découvre successivement textes et images plutôt qu’une surface entière exposée en permanence. Cette manipulation construit un rythme narratif: le support détermine ce que l’on voit à chaque instant et comment les scènes se succèdent.",
+    "Une reproduction numérique montrant tout le rouleau change l’expérience de consultation du support original.",
+    [
+      "handscroll"
+    ],
+    [
+      "japan-backlog-arts-06"
+    ],
+    []
+  ],
+  [
+    "painting-formats",
+    "Un rouleau suspendu et un rouleau narratif ont-ils le même usage ?",
+    "arts",
+    [
+      "kakemono",
+      "emaki",
+      "byobu",
+      "paravent",
+      "format"
+    ],
+    "Le rouleau suspendu s’expose verticalement contre un mur, tandis que le rouleau horizontal se consulte en le déroulant. Les paravents peuvent compartimenter une pièce, et les livres ou albums organisent encore autrement textes et images. Reconnaître le format aide à comprendre la composition, l’échelle et l’usage d’une peinture japonaise.",
+    "Une image recadrée efface parfois le support et donne une impression trompeuse de la composition.",
+    [
+      "handscroll"
+    ],
+    [
+      "japan-backlog-arts-01",
+      "japan-backlog-arts-06"
+    ],
+    []
+  ],
+  [
+    "chanoyu",
+    "Que prépare-t-on dans le chanoyu ?",
+    "food",
+    [
+      "chanoyu",
+      "茶の湯",
+      "matcha",
+      "thé"
+    ],
+    "Le chanoyu met en scène la préparation et la consommation du matcha, thé vert en poudre, selon des procédures codifiées. L’attention porte aussi sur les invités, les gestes, l’espace et les ustensiles choisis par l’hôte. Ce n’est donc pas simplement le service d’une boisson chaude ni un mode d’emploi applicable à tous les thés japonais.",
+    "Les écoles et occasions diffèrent; observer les indications de l’hôte dans une séance réelle.",
+    [
+      "tea"
+    ],
+    [
+      "japan-backlog-food-05",
+      "japan-backlog-conversation-07"
+    ],
+    []
+  ],
+  [
+    "tea-pottery",
+    "Comment des récipients utilitaires deviennent-ils des objets du thé ?",
+    "arts",
+    [
+      "Bizen",
+      "Shigaraki",
+      "céramique",
+      "wabi"
+    ],
+    "Des praticiens du thé reconnaissent dans certains récipients utilitaires des qualités de forme, texture et glaçure naturelle. Des poteries de Bizen ou Shigaraki, à l’origine destinées à d’autres usages, entrent ainsi dans des assemblages du thé. Les ateliers adaptent ensuite leur production à cette demande: la valeur artistique naît aussi d’une sélection et d’un nouvel usage.",
+    "Toute irrégularité ou usure ne fait pas automatiquement d’un objet une œuvre reconnue.",
+    [
+      "tea"
+    ],
+    [
+      "japan-backlog-arts-03",
+      "japan-backlog-food-05"
+    ],
+    []
+  ],
+  [
+    "four-seasons-image",
+    "Comment quatre saisons peuvent-elles figurer dans un même paysage peint ?",
+    "arts",
+    [
+      "saisons",
+      "peinture",
+      "paravent",
+      "printemps",
+      "automne"
+    ],
+    "Une convention picturale peut montrer un même environnement passant progressivement du printemps à l’hiver. Des fleurs, feuillages denses, oiseaux migrateurs, neige ou arbres dénudés servent de repères. La composition associe ainsi des moments différents sur un même support plutôt que de représenter une photographie instantanée d’un lieu.",
+    "Les indices peuvent être subtils; il faut les replacer dans la composition et la tradition de l’œuvre.",
+    [
+      "seasonal-art"
+    ],
+    [
+      "japan-backlog-seasons-08",
+      "japan-backlog-arts-01"
+    ],
+    []
+  ],
+  [
+    "seasonal-literature",
+    "Pourquoi une fleur peinte peut-elle évoquer davantage qu’une plante ?",
+    "arts",
+    [
+      "fleurs",
+      "saisons",
+      "poésie",
+      "Kokinshu",
+      "motifs"
+    ],
+    "Les motifs de fleurs et de saisons entretiennent des liens avec la poésie et les récits. Dans une peinture ou un objet décoratif, un iris, prunier ou chrysanthème peut porter une référence saisonnière et littéraire. Le motif ne se comprend donc pas seulement par la botanique; son assemblage avec d’autres éléments et son contexte comptent.",
+    "Aucune signification fixe ne vaut pour tous les emplois d’une même fleur.",
+    [
+      "seasonal-art"
+    ],
+    [
+      "japan-backlog-seasons-08",
+      "japan-backlog-arts-06"
+    ],
+    []
+  ],
+  [
+    "kabuki-origin",
+    "Pourquoi l’histoire du kabuki mentionne-t-elle Okuni ?",
+    "arts",
+    [
+      "kabuki",
+      "歌舞伎",
+      "Okuni",
+      "Izumo"
+    ],
+    "Le Japan Arts Council rattache les débuts du kabuki à des danses d’Okuni au commencement d’Edo. Son style reprend des manières spectaculaires associées aux kabukimono, personnes remarquées pour leur comportement et apparence inhabituels. La danse se combine ensuite avec théâtre et musique. Le kabuki actuel résulte de transformations successives.",
+    "La tradition interprétative actuelle ne se confond pas avec la forme de ces premières danses.",
+    [
+      "kabuki"
+    ],
+    [
+      "japan-backlog-arts-05",
+      "japan-backlog-history-05"
+    ],
+    []
+  ],
+  [
+    "onnagata",
+    "Que désigne onnagata dans le kabuki ?",
+    "arts",
+    [
+      "onnagata",
+      "女形",
+      "kabuki",
+      "rôles"
+    ],
+    "Un onnagata est un acteur spécialisé dans les rôles féminins du kabuki. Le développement de cette spécialité suit les restrictions historiques visant les interprètes féminines puis les jeunes garçons. Les rôles mobilisent gestes, costumes, maquillage et conventions de jeu transmis par l’entraînement. Il s’agit d’une fonction théâtrale, pas d’une description automatique de la vie personnelle de l’acteur.",
+    "Ne pas déduire identité ou orientation d’une spécialité de scène.",
+    [
+      "kabuki"
+    ],
+    [
+      "japan-backlog-arts-05",
+      "japan-backlog-society-04"
+    ],
+    []
+  ],
+  [
+    "jidai-sewa",
+    "Quelle différence entre jidai-mono et sewa-mono ?",
+    "arts",
+    [
+      "jidai-mono",
+      "時代物",
+      "sewa-mono",
+      "世話物",
+      "kabuki"
+    ],
+    "Les jidai-mono mettent en scène des personnages ou événements situés avant l’époque Edo. Les sewa-mono portent sur la vie et les relations des gens ordinaires de cette époque. Ces catégories organisent le répertoire; elles ne garantissent ni l’exactitude historique d’une pièce ni l’absence de stylisation dans une intrigue quotidienne.",
+    "D’autres distinctions scéniques et musicales complètent cette première classification.",
+    [
+      "kabuki"
+    ],
+    [
+      "japan-backlog-arts-05"
+    ],
+    []
+  ],
+  [
+    "mie",
+    "À quoi sert une pose mie dans le kabuki ?",
+    "arts",
+    [
+      "mie",
+      "見得",
+      "kabuki",
+      "pose"
+    ],
+    "Le mie est un arrêt expressif dans une pose qui concentre l’attention sur l’émotion ou la présence d’un personnage. Des claquements de bois peuvent renforcer ce moment. Son ampleur et sa réalisation varient selon le rôle et le style de jeu: ce n’est pas seulement une immobilité arbitraire au milieu de l’action.",
+    "Le Japan Arts Council compare son effet à une mise en gros plan théâtrale.",
+    [
+      "mie"
+    ],
+    [
+      "japan-backlog-arts-05"
+    ],
+    []
+  ],
+  [
+    "gagaku-three",
+    "Le gagaku est-il seulement une musique instrumentale ?",
+    "arts",
+    [
+      "gagaku",
+      "雅楽",
+      "bugaku",
+      "舞楽",
+      "kangen"
+    ],
+    "L’Agence de la Maison impériale distingue trois formes: kangen, musique instrumentale; bugaku, musique avec danse; kayō, chants et poésie chantée. Le gagaku rassemble aussi des répertoires issus du Japon et de traditions continentales, transmis et adaptés au fil des siècles. Son nom recouvre donc plusieurs modes de représentation.",
+    "Cette distinction porte sur le répertoire décrit par l’institution, pas sur toute musique rituelle du Japon.",
+    [
+      "gagaku"
+    ],
+    [
+      "japan-backlog-arts-05",
+      "japan-backlog-religion-01"
+    ],
+    []
+  ],
+  [
+    "gagaku-instruments",
+    "Quels instruments donnent ses timbres au gagaku ?",
+    "arts",
+    [
+      "sho",
+      "笙",
+      "hichiriki",
+      "篳篥",
+      "biwa",
+      "琵琶"
+    ],
+    "Le gagaku utilise notamment des vents comme le shō, orgue à bouche, le hichiriki et des flûtes; des cordes comme le koto et le biwa; ainsi que tambours et gong. Ces familles instrumentales permettent d’identifier les couches sonores d’un ensemble au lieu de parler d’un seul « son traditionnel japonais ».",
+    "La combinaison effective varie avec la forme et la pièce exécutées.",
+    [
+      "gagaku"
+    ],
+    [
+      "japan-backlog-arts-05"
+    ],
+    []
+  ],
+  [
+    "bunraku-ensemble",
+    "Pourquoi trois métiers sont-ils visibles dans le bunraku ?",
+    "arts",
+    [
+      "bunraku",
+      "文楽",
+      "tayu",
+      "太夫",
+      "shamisen",
+      "三味線"
+    ],
+    "Le bunraku associe narration chantée, accompagnement de shamisen et manipulation de marionnettes. Le tayū fait entendre les différents personnages par la voix et l’intonation, tandis que le musicien et les manipulateurs coordonnent le rythme et l’action. Le public voit donc une coopération entre narration, musique et corps articulé, pas seulement une poupée qui parle.",
+    "Source UNESCO consultée dans son texte indexé; l’ouverture directe présente une protection anti-bot.",
+    [
+      "bunraku"
+    ],
+    [
+      "japan-backlog-arts-05"
+    ],
+    []
+  ],
+  [
+    "bunraku-puppet",
+    "Pourquoi plusieurs personnes manipulent-elles une même marionnette ?",
+    "arts",
+    [
+      "bunraku",
+      "marionnette",
+      "人形",
+      "coordination"
+    ],
+    "Les grandes marionnettes articulées de bunraku sont manipulées par trois personnes visibles du public. Leur coordination permet aux gestes et attitudes de produire une présence expressive cohérente. Les costumes et mécanismes du visage participent aussi à la représentation. La visibilité des manipulateurs appartient au dispositif, plutôt que d’être un défaut à cacher.",
+    "Le dispositif décrit concerne les grandes marionnettes de cette tradition; tous les théâtres de poupées n’utilisent pas ce système.",
+    [
+      "bunraku"
+    ],
+    [
+      "japan-backlog-arts-05"
+    ],
+    []
+  ]
+]

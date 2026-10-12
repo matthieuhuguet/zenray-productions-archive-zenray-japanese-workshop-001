@@ -1,0 +1,1174 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "12 October 2026",
+  "records": [
+    {
+      "id": "japan-regional-climate",
+      "title": "Le Japon a-t-il le même climat partout ?",
+      "domain": "geography",
+      "level": "culture",
+      "aliases": [
+        "climat",
+        "météo",
+        "Hokkaido",
+        "Okinawa"
+      ],
+      "explanationFr": "Le nord et le sud ont des climats différents. La côte de la mer du Japon et la côte pacifique diffèrent aussi ; une moyenne nationale ne décrit pas une ville.",
+      "examples": [
+        {
+          "ja": "北海道と沖縄では、気候が違います。",
+          "reading": "ほっかいどうとおきなわでは、きこうがちがいます。",
+          "fr": "Le climat diffère entre Hokkaidō et Okinawa.",
+          "provenance": "Original pedagogical example, not a source quotation."
+        }
+      ],
+      "prerequisites": [],
+      "sources": [
+        {
+          "url": "https://ds.data.jma.go.jp/gmd/cpd/longfcst/en/tourist.html",
+          "title": "General Information on Climate of Japan",
+          "publisher": "Japan Meteorological Agency",
+          "checkedAt": "12 October 2026",
+          "license": "No blanket redistribution permission established; factual synthesis and original examples only.",
+          "reuse": "Link attribution. No copied article, image, map, or audio."
+        }
+      ],
+      "status": "source-reviewed-draft",
+      "claimType": "fact",
+      "checkedAt": "12 October 2026",
+      "reviewState": {
+        "sourceClaim": "checked",
+        "japaneseExample": "editorial-draft",
+        "nativeReview": "pending"
+      },
+      "scopeNote": "Fiche introductive ; ne prétend pas couvrir tout le thème."
+    },
+    {
+      "id": "japan-japan-winter",
+      "title": "Pourquoi certaines régions japonaises reçoivent-elles beaucoup de neige ?",
+      "domain": "seasons",
+      "level": "culture",
+      "aliases": [
+        "hiver",
+        "neige",
+        "雪"
+      ],
+      "explanationFr": "La JMA signale de fortes chutes de neige sur la façade de la mer du Japon et dans les montagnes. Cela ne signifie pas que toutes les villes japonaises ont des hivers enneigés.",
+      "examples": [
+        {
+          "ja": "冬は雪が多いですか。",
+          "reading": "ふゆはゆきがおおいですか。",
+          "fr": "Y a-t-il beaucoup de neige en hiver ?",
+          "provenance": "Original pedagogical example, not a source quotation."
+        }
+      ],
+      "prerequisites": [],
+      "sources": [
+        {
+          "url": "https://ds.data.jma.go.jp/gmd/cpd/longfcst/en/tourist.html",
+          "title": "General Information on Climate of Japan",
+          "publisher": "Japan Meteorological Agency",
+          "checkedAt": "12 October 2026",
+          "license": "No blanket redistribution permission established; factual synthesis and original examples only.",
+          "reuse": "Link attribution. No copied article, image, map, or audio."
+        }
+      ],
+      "status": "source-reviewed-draft",
+      "claimType": "fact",
+      "checkedAt": "12 October 2026",
+      "reviewState": {
+        "sourceClaim": "checked",
+        "japaneseExample": "editorial-draft",
+        "nativeReview": "pending"
+      },
+      "scopeNote": "Fiche introductive ; ne prétend pas couvrir tout le thème."
+    },
+    {
+      "id": "japan-tsuyu",
+      "title": "Que signifie 梅雨 et quand se produit-il ?",
+      "domain": "seasons",
+      "level": "culture",
+      "aliases": [
+        "梅雨",
+        "つゆ",
+        "ばいう",
+        "saison des pluies"
+      ],
+      "explanationFr": "梅雨 désigne une période de pluies et de temps nuageux entre la fin du printemps et l’été. Seul, le mot se lit habituellement つゆ ; les dates dépendent de la région et de l’année.",
+      "examples": [
+        {
+          "ja": "梅雨はいつ終わりますか。",
+          "reading": "つゆはいつおわりますか。",
+          "fr": "Quand la saison des pluies se termine-t-elle ?",
+          "provenance": "Original pedagogical example, not a source quotation."
+        }
+      ],
+      "prerequisites": [],
+      "sources": [
+        {
+          "url": "https://www.jma.go.jp/jma/kishou/know/yougo_hp/kisetsu.html",
+          "title": "季節現象",
+          "publisher": "Japan Meteorological Agency",
+          "checkedAt": "12 October 2026",
+          "license": "No blanket redistribution permission established; factual synthesis and original examples only.",
+          "reuse": "Link attribution. No copied article, image, map, or audio."
+        }
+      ],
+      "status": "source-reviewed-draft",
+      "claimType": "fact",
+      "checkedAt": "12 October 2026",
+      "reviewState": {
+        "sourceClaim": "checked",
+        "japaneseExample": "editorial-draft",
+        "nativeReview": "pending"
+      },
+      "scopeNote": "Fiche introductive ; ne prétend pas couvrir tout le thème."
+    },
+    {
+      "id": "japan-autumn-rain",
+      "title": "秋雨 désigne-t-il simplement toute pluie d’automne ?",
+      "domain": "seasons",
+      "level": "culture",
+      "aliases": [
+        "秋雨",
+        "あきさめ",
+        "automne"
+      ],
+      "explanationFr": "La JMA emploie 秋雨 pour les pluies automnales, souvent prolongées, approximativement de fin août à octobre avec des différences régionales. Une expression saisonnière ne remplace pas une prévision locale.",
+      "examples": [
+        {
+          "ja": "秋雨の日が続いています。",
+          "reading": "あきさめのひがつづいています。",
+          "fr": "Les journées de pluie automnale se succèdent.",
+          "provenance": "Original pedagogical example, not a source quotation."
+        }
+      ],
+      "prerequisites": [],
+      "sources": [
+        {
+          "url": "https://www.jma.go.jp/jma/kishou/know/yougo_hp/kisetsu.html",
+          "title": "季節現象",
+          "publisher": "Japan Meteorological Agency",
+          "checkedAt": "12 October 2026",
+          "license": "No blanket redistribution permission established; factual synthesis and original examples only.",
+          "reuse": "Link attribution. No copied article, image, map, or audio."
+        }
+      ],
+      "status": "source-reviewed-draft",
+      "claimType": "fact",
+      "checkedAt": "12 October 2026",
+      "reviewState": {
+        "sourceClaim": "checked",
+        "japaneseExample": "editorial-draft",
+        "nativeReview": "pending"
+      },
+      "scopeNote": "Fiche introductive ; ne prétend pas couvrir tout le thème."
+    },
+    {
+      "id": "japan-shrine-temple",
+      "title": "Quelle différence entre 神社 et 寺 ?",
+      "domain": "religion",
+      "level": "culture",
+      "aliases": [
+        "神社",
+        "寺",
+        "sanctuaire",
+        "temple",
+        "shinto",
+        "bouddhisme"
+      ],
+      "explanationFr": "Un 神社 est un sanctuaire shinto ; un 寺 est un temple bouddhiste. Le torii est associé au sanctuaire. Ces repères ne résument pas toute l’histoire des interactions entre les deux traditions.",
+      "examples": [
+        {
+          "ja": "この神社の近くにお寺があります。",
+          "reading": "このじんじゃのちかくにおてらがあります。",
+          "fr": "Un temple se trouve près de ce sanctuaire.",
+          "provenance": "Original pedagogical example, not a source quotation."
+        }
+      ],
+      "prerequisites": [],
+      "sources": [
+        {
+          "url": "https://www.japan.travel/en/guide/shrine-and-temple-traditions/",
+          "title": "Shrine and Temple Traditions",
+          "publisher": "Japan National Tourism Organization",
+          "checkedAt": "12 October 2026",
+          "license": "No blanket redistribution permission established; factual synthesis and original examples only.",
+          "reuse": "Link attribution. No copied article, image, map, or audio."
+        }
+      ],
+      "status": "source-reviewed-draft",
+      "claimType": "fact",
+      "checkedAt": "12 October 2026",
+      "reviewState": {
+        "sourceClaim": "checked",
+        "japaneseExample": "editorial-draft",
+        "nativeReview": "pending"
+      },
+      "scopeNote": "Fiche introductive ; ne prétend pas couvrir tout le thème."
+    },
+    {
+      "id": "japan-shrine-prayer",
+      "title": "Comment se recueillir dans un sanctuaire ?",
+      "domain": "religion",
+      "level": "culture",
+      "aliases": [
+        "prière",
+        "二礼二拍手一礼",
+        "参拝"
+      ],
+      "explanationFr": "Une pratique courante consiste à s’incliner deux fois, frapper deux fois dans ses mains, puis s’incliner une fois. Suivre les indications du sanctuaire, car les rites particuliers peuvent varier.",
+      "examples": [
+        {
+          "ja": "参拝の仕方を教えてください。",
+          "reading": "さんぱいのしかたをおしえてください。",
+          "fr": "Veuillez m’expliquer comment me recueillir.",
+          "provenance": "Original pedagogical example, not a source quotation."
+        }
+      ],
+      "prerequisites": [],
+      "sources": [
+        {
+          "url": "https://www.japan.travel/en/guide/shrine-and-temple-traditions/",
+          "title": "Shrine and Temple Traditions",
+          "publisher": "Japan National Tourism Organization",
+          "checkedAt": "12 October 2026",
+          "license": "No blanket redistribution permission established; factual synthesis and original examples only.",
+          "reuse": "Link attribution. No copied article, image, map, or audio."
+        }
+      ],
+      "status": "source-reviewed-draft",
+      "claimType": "documented-practice",
+      "checkedAt": "12 October 2026",
+      "reviewState": {
+        "sourceClaim": "checked",
+        "japaneseExample": "editorial-draft",
+        "nativeReview": "pending"
+      },
+      "scopeNote": "Fiche introductive ; ne prétend pas couvrir tout le thème."
+    },
+    {
+      "id": "japan-temple-prayer",
+      "title": "Faut-il frapper dans ses mains dans un temple bouddhiste ?",
+      "domain": "religion",
+      "level": "culture",
+      "aliases": [
+        "寺",
+        "合掌",
+        "prier temple"
+      ],
+      "explanationFr": "Le guide JNTO décrit une prière silencieuse, mains jointes, sans claquement de mains dans les temples. Le comportement attendu et les zones accessibles restent propres au lieu.",
+      "examples": [
+        {
+          "ja": "ここで手を合わせてもいいですか。",
+          "reading": "ここでてをあわせてもいいですか。",
+          "fr": "Puis-je joindre les mains ici ?",
+          "provenance": "Original pedagogical example, not a source quotation."
+        }
+      ],
+      "prerequisites": [],
+      "sources": [
+        {
+          "url": "https://www.japan.travel/en/guide/shrine-and-temple-traditions/",
+          "title": "Shrine and Temple Traditions",
+          "publisher": "Japan National Tourism Organization",
+          "checkedAt": "12 October 2026",
+          "license": "No blanket redistribution permission established; factual synthesis and original examples only.",
+          "reuse": "Link attribution. No copied article, image, map, or audio."
+        }
+      ],
+      "status": "source-reviewed-draft",
+      "claimType": "documented-practice",
+      "checkedAt": "12 October 2026",
+      "reviewState": {
+        "sourceClaim": "checked",
+        "japaneseExample": "editorial-draft",
+        "nativeReview": "pending"
+      },
+      "scopeNote": "Fiche introductive ; ne prétend pas couvrir tout le thème."
+    },
+    {
+      "id": "japan-religious-photo",
+      "title": "Peut-on photographier librement un temple ou un sanctuaire ?",
+      "domain": "religion",
+      "level": "culture",
+      "aliases": [
+        "photo",
+        "写真",
+        "撮影禁止"
+      ],
+      "explanationFr": "Certains bâtiments interdisent les photos. Vérifier les panneaux et demander avant de photographier. L’accès public d’un site religieux ne vaut pas permission de photographier chaque espace ou chaque personne.",
+      "examples": [
+        {
+          "ja": "写真を撮ってもいいですか。",
+          "reading": "しゃしんをとってもいいですか。",
+          "fr": "Puis-je prendre une photo ?",
+          "provenance": "Original pedagogical example, not a source quotation."
+        }
+      ],
+      "prerequisites": [],
+      "sources": [
+        {
+          "url": "https://www.japan.travel/en/guide/shrine-and-temple-traditions/",
+          "title": "Shrine and Temple Traditions",
+          "publisher": "Japan National Tourism Organization",
+          "checkedAt": "12 October 2026",
+          "license": "No blanket redistribution permission established; factual synthesis and original examples only.",
+          "reuse": "Link attribution. No copied article, image, map, or audio."
+        }
+      ],
+      "status": "source-reviewed-draft",
+      "claimType": "documented-practice",
+      "checkedAt": "12 October 2026",
+      "reviewState": {
+        "sourceClaim": "checked",
+        "japaneseExample": "editorial-draft",
+        "nativeReview": "pending"
+      },
+      "scopeNote": "Fiche introductive ; ne prétend pas couvrir tout le thème."
+    },
+    {
+      "id": "japan-onsen-wash",
+      "title": "Comment préparer son entrée dans un onsen ?",
+      "domain": "daily-life",
+      "level": "culture",
+      "aliases": [
+        "温泉",
+        "onsen",
+        "bain"
+      ],
+      "explanationFr": "Dans un bain collectif, se laver et se rincer avant d’entrer dans l’eau commune. Le guide conseille de garder serviette et cheveux hors de l’eau ; suivre aussi les instructions de l’établissement.",
+      "examples": [
+        {
+          "ja": "お風呂に入る前に、体を洗います。",
+          "reading": "おふろにはいるまえに、からだをあらいます。",
+          "fr": "Je me lave avant d’entrer dans le bain.",
+          "provenance": "Original pedagogical example, not a source quotation."
+        }
+      ],
+      "prerequisites": [],
+      "sources": [
+        {
+          "url": "https://www.japan.travel/en/guide/how-to-best-enjoy-onsen/",
+          "title": "How to Best Enjoy Japan’s Onsen",
+          "publisher": "Japan National Tourism Organization",
+          "checkedAt": "12 October 2026",
+          "license": "No blanket redistribution permission established; factual synthesis and original examples only.",
+          "reuse": "Link attribution. No copied article, image, map, or audio."
+        }
+      ],
+      "status": "source-reviewed-draft",
+      "claimType": "documented-practice",
+      "checkedAt": "12 October 2026",
+      "reviewState": {
+        "sourceClaim": "checked",
+        "japaneseExample": "editorial-draft",
+        "nativeReview": "pending"
+      },
+      "scopeNote": "Fiche introductive ; ne prétend pas couvrir tout le thème."
+    },
+    {
+      "id": "japan-onsen-tattoo",
+      "title": "Un tatouage empêche-t-il toujours d’entrer dans un onsen ?",
+      "domain": "daily-life",
+      "level": "culture",
+      "aliases": [
+        "tatouage",
+        "タトゥー",
+        "貸切風呂"
+      ],
+      "explanationFr": "Les politiques varient selon les établissements. Certains acceptent les tatouages, d’autres demandent une couverture ou proposent un bain privé. Demander à l’établissement avant la visite ; aucune réponse nationale uniforme ne suffit.",
+      "examples": [
+        {
+          "ja": "タトゥーがあっても入れますか。",
+          "reading": "たとぅーがあってもはいれますか。",
+          "fr": "Puis-je entrer même avec un tatouage ?",
+          "provenance": "Original pedagogical example, not a source quotation."
+        }
+      ],
+      "prerequisites": [],
+      "sources": [
+        {
+          "url": "https://www.japan.travel/en/guide/how-to-best-enjoy-onsen/",
+          "title": "How to Best Enjoy Japan’s Onsen",
+          "publisher": "Japan National Tourism Organization",
+          "checkedAt": "12 October 2026",
+          "license": "No blanket redistribution permission established; factual synthesis and original examples only.",
+          "reuse": "Link attribution. No copied article, image, map, or audio."
+        }
+      ],
+      "status": "source-reviewed-draft",
+      "claimType": "variable-policy",
+      "checkedAt": "12 October 2026",
+      "reviewState": {
+        "sourceClaim": "checked",
+        "japaneseExample": "editorial-draft",
+        "nativeReview": "pending"
+      },
+      "scopeNote": "Fiche introductive ; ne prétend pas couvrir tout le thème.",
+      "freshness": {
+        "checkedAt": "12 October 2026",
+        "recheckBeforeUse": true,
+        "liveStateProvided": false
+      }
+    },
+    {
+      "id": "japan-tipping",
+      "title": "Faut-il laisser un pourboire au Japon ?",
+      "domain": "daily-life",
+      "level": "culture",
+      "aliases": [
+        "pourboire",
+        "チップ",
+        "restaurant"
+      ],
+      "explanationFr": "Le JNTO indique que le pourboire n’est pas habituel dans les services courants. Les situations particulières demandent une vérification ; remercier verbalement reste possible sans transformer cette pratique en jugement sur les personnes.",
+      "examples": [
+        {
+          "ja": "ありがとうございました。",
+          "reading": "ありがとうございました。",
+          "fr": "Merci pour votre service.",
+          "provenance": "Original pedagogical example, not a source quotation."
+        }
+      ],
+      "prerequisites": [],
+      "sources": [
+        {
+          "url": "https://www.japan.travel/en/responsible-travel-guide/japanese-customs-and-etiquette/",
+          "title": "Japanese Customs and Etiquette",
+          "publisher": "Japan National Tourism Organization",
+          "checkedAt": "12 October 2026",
+          "license": "No blanket redistribution permission established; factual synthesis and original examples only.",
+          "reuse": "Link attribution. No copied article, image, map, or audio."
+        }
+      ],
+      "status": "source-reviewed-draft",
+      "claimType": "documented-practice",
+      "checkedAt": "12 October 2026",
+      "reviewState": {
+        "sourceClaim": "checked",
+        "japaneseExample": "editorial-draft",
+        "nativeReview": "pending"
+      },
+      "scopeNote": "Fiche introductive ; ne prétend pas couvrir tout le thème."
+    },
+    {
+      "id": "japan-oshibori",
+      "title": "À quoi sert la petite serviette au restaurant ?",
+      "domain": "food",
+      "level": "culture",
+      "aliases": [
+        "おしぼり",
+        "oshibori",
+        "serviette"
+      ],
+      "explanationFr": "L’おしぼり sert à nettoyer les mains avant le repas. Le guide JNTO recommande de le replier après usage et de le remettre sur le plateau ou sur le côté.",
+      "examples": [
+        {
+          "ja": "おしぼりをもう一ついただけますか。",
+          "reading": "おしぼりをもうひとついただけますか。",
+          "fr": "Puis-je avoir une autre petite serviette ?",
+          "provenance": "Original pedagogical example, not a source quotation."
+        }
+      ],
+      "prerequisites": [],
+      "sources": [
+        {
+          "url": "https://www.japan.travel/en/responsible-travel-guide/japanese-customs-and-etiquette/",
+          "title": "Japanese Customs and Etiquette",
+          "publisher": "Japan National Tourism Organization",
+          "checkedAt": "12 October 2026",
+          "license": "No blanket redistribution permission established; factual synthesis and original examples only.",
+          "reuse": "Link attribution. No copied article, image, map, or audio."
+        }
+      ],
+      "status": "source-reviewed-draft",
+      "claimType": "documented-practice",
+      "checkedAt": "12 October 2026",
+      "reviewState": {
+        "sourceClaim": "checked",
+        "japaneseExample": "editorial-draft",
+        "nativeReview": "pending"
+      },
+      "scopeNote": "Fiche introductive ; ne prétend pas couvrir tout le thème."
+    },
+    {
+      "id": "japan-meal-phrases",
+      "title": "Que dire avant et après un repas ?",
+      "domain": "food",
+      "level": "culture",
+      "aliases": [
+        "いただきます",
+        "ごちそうさまでした",
+        "repas"
+      ],
+      "explanationFr": "いただきます se dit avant de manger ; ごちそうさまでした remercie après le repas. Ces formules constituent une pratique documentée, sans prouver que toutes les personnes les utilisent dans chaque situation.",
+      "examples": [
+        {
+          "ja": "ごちそうさまでした。おいしかったです。",
+          "reading": "ごちそうさまでした。おいしかったです。",
+          "fr": "Merci pour le repas. C’était délicieux.",
+          "provenance": "Original pedagogical example, not a source quotation."
+        }
+      ],
+      "prerequisites": [],
+      "sources": [
+        {
+          "url": "https://www.japan.travel/en/guide/japanese-manners-dos-and-donts/",
+          "title": "Japanese Manners Do’s and Don’ts",
+          "publisher": "Japan National Tourism Organization",
+          "checkedAt": "12 October 2026",
+          "license": "No blanket redistribution permission established; factual synthesis and original examples only.",
+          "reuse": "Link attribution. No copied article, image, map, or audio."
+        }
+      ],
+      "status": "source-reviewed-draft",
+      "claimType": "documented-practice",
+      "checkedAt": "12 October 2026",
+      "reviewState": {
+        "sourceClaim": "checked",
+        "japaneseExample": "editorial-draft",
+        "nativeReview": "pending"
+      },
+      "scopeNote": "Fiche introductive ; ne prétend pas couvrir tout le thème."
+    },
+    {
+      "id": "japan-noodle-slurp",
+      "title": "Dois-je aspirer bruyamment les nouilles ?",
+      "domain": "food",
+      "level": "culture",
+      "aliases": [
+        "ramen",
+        "soba",
+        "udon",
+        "nouilles"
+      ],
+      "explanationFr": "Le guide JNTO décrit l’aspiration des nouilles comme une pratique acceptée. Il précise qu’il n’est pas nécessaire de l’imiter ; l’observation d’une coutume ne crée pas une obligation individuelle.",
+      "examples": [
+        {
+          "ja": "このそばはおいしいですね。",
+          "reading": "このそばはおいしいですね。",
+          "fr": "Ces soba sont délicieux, n’est-ce pas ?",
+          "provenance": "Original pedagogical example, not a source quotation."
+        }
+      ],
+      "prerequisites": [],
+      "sources": [
+        {
+          "url": "https://www.japan.travel/en/guide/japanese-manners-dos-and-donts/",
+          "title": "Japanese Manners Do’s and Don’ts",
+          "publisher": "Japan National Tourism Organization",
+          "checkedAt": "12 October 2026",
+          "license": "No blanket redistribution permission established; factual synthesis and original examples only.",
+          "reuse": "Link attribution. No copied article, image, map, or audio."
+        }
+      ],
+      "status": "source-reviewed-draft",
+      "claimType": "documented-practice",
+      "checkedAt": "12 October 2026",
+      "reviewState": {
+        "sourceClaim": "checked",
+        "japaneseExample": "editorial-draft",
+        "nativeReview": "pending"
+      },
+      "scopeNote": "Fiche introductive ; ne prétend pas couvrir tout le thème."
+    },
+    {
+      "id": "japan-shoes-home",
+      "title": "Quand enlever ses chaussures ?",
+      "domain": "daily-life",
+      "level": "culture",
+      "aliases": [
+        "靴",
+        "玄関",
+        "chaussures",
+        "entrée"
+      ],
+      "explanationFr": "Dans de nombreux logements, on enlève ses chaussures à l’entrée. Certains restaurants et lieux religieux ont la même règle. Les panneaux et l’indication de l’hôte précisent ce qui est attendu sur place.",
+      "examples": [
+        {
+          "ja": "ここで靴を脱ぎますか。",
+          "reading": "ここでくつをぬぎますか。",
+          "fr": "Dois-je enlever mes chaussures ici ?",
+          "provenance": "Original pedagogical example, not a source quotation."
+        }
+      ],
+      "prerequisites": [],
+      "sources": [
+        {
+          "url": "https://www.japan.travel/en/guide/japanese-manners-dos-and-donts/",
+          "title": "Japanese Manners Do’s and Don’ts",
+          "publisher": "Japan National Tourism Organization",
+          "checkedAt": "12 October 2026",
+          "license": "No blanket redistribution permission established; factual synthesis and original examples only.",
+          "reuse": "Link attribution. No copied article, image, map, or audio."
+        }
+      ],
+      "status": "source-reviewed-draft",
+      "claimType": "documented-practice",
+      "checkedAt": "12 October 2026",
+      "reviewState": {
+        "sourceClaim": "checked",
+        "japaneseExample": "editorial-draft",
+        "nativeReview": "pending"
+      },
+      "scopeNote": "Fiche introductive ; ne prétend pas couvrir tout le thème."
+    },
+    {
+      "id": "japan-ryokan-yukata",
+      "title": "Puis-je sortir avec le yukata fourni par un ryokan ?",
+      "domain": "daily-life",
+      "level": "culture",
+      "aliases": [
+        "浴衣",
+        "旅館",
+        "yukata",
+        "ryokan"
+      ],
+      "explanationFr": "Le JNTO indique que le yukata et les chaussons peuvent ou non être portés à l’extérieur selon le ryokan. La bonne information vient de l’établissement, et non d’une règle universelle.",
+      "examples": [
+        {
+          "ja": "浴衣で外に出てもいいですか。",
+          "reading": "ゆかたでそとにでてもいいですか。",
+          "fr": "Puis-je sortir en yukata ?",
+          "provenance": "Original pedagogical example, not a source quotation."
+        }
+      ],
+      "prerequisites": [],
+      "sources": [
+        {
+          "url": "https://www.japan.travel/en/plan/custom-manners/",
+          "title": "Custom and Manners",
+          "publisher": "Japan National Tourism Organization",
+          "checkedAt": "12 October 2026",
+          "license": "No blanket redistribution permission established; factual synthesis and original examples only.",
+          "reuse": "Link attribution. No copied article, image, map, or audio."
+        }
+      ],
+      "status": "source-reviewed-draft",
+      "claimType": "variable-policy",
+      "checkedAt": "12 October 2026",
+      "reviewState": {
+        "sourceClaim": "checked",
+        "japaneseExample": "editorial-draft",
+        "nativeReview": "pending"
+      },
+      "scopeNote": "Fiche introductive ; ne prétend pas couvrir tout le thème.",
+      "freshness": {
+        "checkedAt": "12 October 2026",
+        "recheckBeforeUse": true,
+        "liveStateProvided": false
+      }
+    },
+    {
+      "id": "japan-train-phone",
+      "title": "Puis-je téléphoner dans un train JR East ?",
+      "domain": "transport",
+      "level": "culture",
+      "aliases": [
+        "train",
+        "携帯電話",
+        "マナーモード"
+      ],
+      "explanationFr": "JR East demande le mode silencieux et de s’abstenir d’appels. Près des sièges prioritaires, l’opérateur demande d’éteindre le téléphone lorsque le train est bondé. Vérifier l’opérateur et les annonces actuelles.",
+      "examples": [
+        {
+          "ja": "電車を降りてから電話します。",
+          "reading": "でんしゃをおりてからでんわします。",
+          "fr": "Je téléphonerai après être descendu du train.",
+          "provenance": "Original pedagogical example, not a source quotation."
+        }
+      ],
+      "prerequisites": [],
+      "sources": [
+        {
+          "url": "https://jreastfaq.jreast.co.jp/faq/show/1090?site_domain=default",
+          "title": "車内での携帯電話の利用マナーについて",
+          "publisher": "East Japan Railway Company",
+          "checkedAt": "12 October 2026",
+          "license": "No blanket redistribution permission established; factual synthesis and original examples only.",
+          "reuse": "Link attribution. No copied article, image, map, or audio."
+        }
+      ],
+      "status": "source-reviewed-draft",
+      "claimType": "operator-policy",
+      "checkedAt": "12 October 2026",
+      "reviewState": {
+        "sourceClaim": "checked",
+        "japaneseExample": "editorial-draft",
+        "nativeReview": "pending"
+      },
+      "scopeNote": "Fiche introductive ; ne prétend pas couvrir tout le thème.",
+      "freshness": {
+        "checkedAt": "12 October 2026",
+        "recheckBeforeUse": true,
+        "liveStateProvided": false
+      }
+    },
+    {
+      "id": "japan-garbage-local",
+      "title": "Existe-t-il une seule règle nationale pour les déchets ?",
+      "domain": "daily-life",
+      "level": "culture",
+      "aliases": [
+        "ごみ",
+        "déchets",
+        "tri",
+        "recyclage",
+        "Kyoto"
+      ],
+      "explanationFr": "À Kyoto, les guides municipaux expliquent le tri et les jours de collecte. Les immeubles desservis par une entreprise privée peuvent avoir d’autres règles. Vérifier la commune, l’adresse et le gestionnaire.",
+      "examples": [
+        {
+          "ja": "ごみは何曜日に出しますか。",
+          "reading": "ごみはなんようびにだしますか。",
+          "fr": "Quel jour sort-on les déchets ?",
+          "provenance": "Original pedagogical example, not a source quotation."
+        }
+      ],
+      "prerequisites": [],
+      "sources": [
+        {
+          "url": "https://www.city.kyoto.lg.jp/sogo/page/0000251137.html",
+          "title": "ごみを出すときのルール",
+          "publisher": "City of Kyoto",
+          "checkedAt": "12 October 2026",
+          "license": "No blanket redistribution permission established; factual synthesis and original examples only.",
+          "reuse": "Link attribution. No copied article, image, map, or audio."
+        }
+      ],
+      "status": "source-reviewed-draft",
+      "claimType": "municipal-policy",
+      "checkedAt": "12 October 2026",
+      "reviewState": {
+        "sourceClaim": "checked",
+        "japaneseExample": "editorial-draft",
+        "nativeReview": "pending"
+      },
+      "scopeNote": "Fiche introductive ; ne prétend pas couvrir tout le thème.",
+      "freshness": {
+        "checkedAt": "12 October 2026",
+        "recheckBeforeUse": true,
+        "liveStateProvided": false
+      }
+    },
+    {
+      "id": "japan-washoku-heritage",
+      "title": "Que reconnaît l’inscription UNESCO du washoku ?",
+      "domain": "food",
+      "level": "culture",
+      "aliases": [
+        "和食",
+        "UNESCO",
+        "patrimoine"
+      ],
+      "explanationFr": "L’UNESCO inscrit le washoku en 2013 comme pratique sociale et ensemble de savoirs liés à l’alimentation, notamment au Nouvel An. L’inscription concerne une transmission culturelle, pas une certification de chaque restaurant.",
+      "examples": [
+        {
+          "ja": "和食の文化について知りたいです。",
+          "reading": "わしょくのぶんかについてしりたいです。",
+          "fr": "Je souhaite connaître la culture du washoku.",
+          "provenance": "Original pedagogical example, not a source quotation."
+        }
+      ],
+      "prerequisites": [],
+      "sources": [
+        {
+          "url": "https://ich.unesco.org/en/RL/washoku-traditional-dietary-cultures-of-the-japanese-notably-for-the-celebration-of-new-year-00869",
+          "title": "Washoku, traditional dietary cultures of the Japanese, notably for the celebration of New Year",
+          "publisher": "UNESCO",
+          "checkedAt": "12 October 2026",
+          "license": "No blanket redistribution permission established; factual synthesis and original examples only.",
+          "reuse": "Link attribution. No copied article, image, map, or audio."
+        }
+      ],
+      "status": "source-reviewed-draft",
+      "claimType": "fact",
+      "checkedAt": "12 October 2026",
+      "reviewState": {
+        "sourceClaim": "checked",
+        "japaneseExample": "editorial-draft",
+        "nativeReview": "pending"
+      },
+      "scopeNote": "Fiche introductive ; ne prétend pas couvrir tout le thème."
+    },
+    {
+      "id": "japan-ainu-diversity",
+      "title": "Pourquoi inclure les Aïnous dans une encyclopédie du Japon ?",
+      "domain": "society",
+      "level": "culture",
+      "aliases": [
+        "アイヌ",
+        "Aïnous",
+        "diversité",
+        "北海道"
+      ],
+      "explanationFr": "Upopoy présente les Aïnous comme peuple autochtone du nord de l’archipel, notamment de Hokkaidō, avec une langue et des traditions propres. Le Japon ne se décrit donc pas comme une culture unique.",
+      "examples": [
+        {
+          "ja": "アイヌの歴史と文化を学びたいです。",
+          "reading": "あいぬのれきしとぶんかをまなびたいです。",
+          "fr": "Je souhaite apprendre l’histoire et la culture aïnoues.",
+          "provenance": "Original pedagogical example, not a source quotation."
+        }
+      ],
+      "prerequisites": [],
+      "sources": [
+        {
+          "url": "https://ainu-upopoy.go.jp/ainu-culture/",
+          "title": "アイヌ文化について",
+          "publisher": "Upopoy National Ainu Museum and Park",
+          "checkedAt": "12 October 2026",
+          "license": "No blanket redistribution permission established; factual synthesis and original examples only.",
+          "reuse": "Link attribution. No copied article, image, map, or audio."
+        }
+      ],
+      "status": "source-reviewed-draft",
+      "claimType": "fact",
+      "checkedAt": "12 October 2026",
+      "reviewState": {
+        "sourceClaim": "checked",
+        "japaneseExample": "editorial-draft",
+        "nativeReview": "pending"
+      },
+      "scopeNote": "Fiche introductive ; ne prétend pas couvrir tout le thème."
+    },
+    {
+      "id": "japan-upopoy",
+      "title": "Qu’est-ce qu’Upopoy ?",
+      "domain": "society",
+      "level": "culture",
+      "aliases": [
+        "ウポポイ",
+        "musée",
+        "Ainu"
+      ],
+      "explanationFr": "Upopoy est un centre national consacré à la connaissance et à la transmission de l’histoire et de la culture aïnoues. Il ouvre au public le 12 juillet 2020, selon sa chronologie officielle.",
+      "examples": [
+        {
+          "ja": "ウポポイには何がありますか。",
+          "reading": "うぽぽいにはなにがありますか。",
+          "fr": "Que trouve-t-on à Upopoy ?",
+          "provenance": "Original pedagogical example, not a source quotation."
+        }
+      ],
+      "prerequisites": [],
+      "sources": [
+        {
+          "url": "https://ainu-upopoy.go.jp/en/about/",
+          "title": "About Upopoy",
+          "publisher": "Upopoy National Ainu Museum and Park",
+          "checkedAt": "12 October 2026",
+          "license": "No blanket redistribution permission established; factual synthesis and original examples only.",
+          "reuse": "Link attribution. No copied article, image, map, or audio."
+        }
+      ],
+      "status": "source-reviewed-draft",
+      "claimType": "fact",
+      "checkedAt": "12 October 2026",
+      "reviewState": {
+        "sourceClaim": "checked",
+        "japaneseExample": "editorial-draft",
+        "nativeReview": "pending"
+      },
+      "scopeNote": "Fiche introductive ; ne prétend pas couvrir tout le thème."
+    },
+    {
+      "id": "japan-nara-kyoto-capitals",
+      "title": "Quand les anciennes capitales Nara et Kyoto se développent-elles ?",
+      "domain": "history",
+      "level": "culture",
+      "aliases": [
+        "奈良",
+        "京都",
+        "平城京",
+        "平安京"
+      ],
+      "explanationFr": "Heijōkyō est établie en 710 près de Nara. La cour se déplace à Nagaokakyō en 784, puis à Heiankyō, l’actuelle Kyoto, en 794. Ces dates sont des repères politiques, non des débuts absolus de peuplement.",
+      "examples": [
+        {
+          "ja": "京都の歴史を調べています。",
+          "reading": "きょうとのれきしをしらべています。",
+          "fr": "Je me renseigne sur l’histoire de Kyoto.",
+          "provenance": "Original pedagogical example, not a source quotation."
+        }
+      ],
+      "prerequisites": [],
+      "sources": [
+        {
+          "url": "https://www.japan.travel/en/responsible-travel-guide/features/overview-japanese-history/",
+          "title": "An Overview of Japanese History",
+          "publisher": "Japan National Tourism Organization",
+          "checkedAt": "12 October 2026",
+          "license": "No blanket redistribution permission established; factual synthesis and original examples only.",
+          "reuse": "Link attribution. No copied article, image, map, or audio."
+        }
+      ],
+      "status": "source-reviewed-draft",
+      "claimType": "historical-fact",
+      "checkedAt": "12 October 2026",
+      "reviewState": {
+        "sourceClaim": "checked",
+        "japaneseExample": "editorial-draft",
+        "nativeReview": "pending"
+      },
+      "scopeNote": "Fiche introductive ; ne prétend pas couvrir tout le thème."
+    },
+    {
+      "id": "japan-myth-history",
+      "title": "Un récit impérial ancien est-il une preuve historique directe ?",
+      "domain": "history",
+      "level": "culture",
+      "aliases": [
+        "神武",
+        "mythe",
+        "histoire",
+        "神話"
+      ],
+      "explanationFr": "Le JNTO présente Jimmu comme un premier empereur mythologique. Un récit de fondation se distingue d’un fait daté établi par plusieurs preuves ; une tradition culturelle ne devient pas automatiquement une chronologie vérifiée.",
+      "examples": [
+        {
+          "ja": "これは神話ですか、歴史的な事実ですか。",
+          "reading": "これはしんわですか、れきしてきなじじつですか。",
+          "fr": "Est-ce un mythe ou un fait historique ?",
+          "provenance": "Original pedagogical example, not a source quotation."
+        }
+      ],
+      "prerequisites": [],
+      "sources": [
+        {
+          "url": "https://www.japan.travel/en/responsible-travel-guide/features/overview-japanese-history/",
+          "title": "An Overview of Japanese History",
+          "publisher": "Japan National Tourism Organization",
+          "checkedAt": "12 October 2026",
+          "license": "No blanket redistribution permission established; factual synthesis and original examples only.",
+          "reuse": "Link attribution. No copied article, image, map, or audio."
+        }
+      ],
+      "status": "source-reviewed-draft",
+      "claimType": "evidence-distinction",
+      "checkedAt": "12 October 2026",
+      "reviewState": {
+        "sourceClaim": "checked",
+        "japaneseExample": "editorial-draft",
+        "nativeReview": "pending"
+      },
+      "scopeNote": "Fiche introductive ; ne prétend pas couvrir tout le thème."
+    },
+    {
+      "id": "japan-golden-week",
+      "title": "Pourquoi la Golden Week modifie-t-elle les déplacements ?",
+      "domain": "seasons",
+      "level": "culture",
+      "aliases": [
+        "ゴールデンウィーク",
+        "vacances",
+        "jours fériés"
+      ],
+      "explanationFr": "Une série de jours fériés entre fin avril et début mai crée une période de forte demande de déplacements. Vérifier le calendrier de l’année et les horaires des établissements ; les prix ne sont pas constants.",
+      "examples": [
+        {
+          "ja": "ゴールデンウィークは混みますか。",
+          "reading": "ごーるでんうぃーくはこみますか。",
+          "fr": "Y a-t-il du monde pendant la Golden Week ?",
+          "provenance": "Original pedagogical example, not a source quotation."
+        }
+      ],
+      "prerequisites": [],
+      "sources": [
+        {
+          "url": "https://www.japan.travel/en/faq/",
+          "title": "Frequently Asked Questions",
+          "publisher": "Japan National Tourism Organization",
+          "checkedAt": "12 October 2026",
+          "license": "No blanket redistribution permission established; factual synthesis and original examples only.",
+          "reuse": "Link attribution. No copied article, image, map, or audio."
+        }
+      ],
+      "status": "source-reviewed-draft",
+      "claimType": "seasonal-practice",
+      "checkedAt": "12 October 2026",
+      "reviewState": {
+        "sourceClaim": "checked",
+        "japaneseExample": "editorial-draft",
+        "nativeReview": "pending"
+      },
+      "scopeNote": "Fiche introductive ; ne prétend pas couvrir tout le thème."
+    },
+    {
+      "id": "japan-obon",
+      "title": "Que représente Obon ?",
+      "domain": "seasons",
+      "level": "culture",
+      "aliases": [
+        "お盆",
+        "Obon",
+        "ancêtres",
+        "août"
+      ],
+      "explanationFr": "Obon est associé à des retrouvailles familiales et au souvenir des défunts. Le guide JNTO décrit couramment une période de mi-août ; les dates et les pratiques restent régionales, familiales et religieuses.",
+      "examples": [
+        {
+          "ja": "お盆には何をしますか。",
+          "reading": "おぼんにはなにをしますか。",
+          "fr": "Que faites-vous pendant Obon ?",
+          "provenance": "Original pedagogical example, not a source quotation."
+        }
+      ],
+      "prerequisites": [],
+      "sources": [
+        {
+          "url": "https://www.japan.travel/en/guide/august/",
+          "title": "Japan in August",
+          "publisher": "Japan National Tourism Organization",
+          "checkedAt": "12 October 2026",
+          "license": "No blanket redistribution permission established; factual synthesis and original examples only.",
+          "reuse": "Link attribution. No copied article, image, map, or audio."
+        }
+      ],
+      "status": "source-reviewed-draft",
+      "claimType": "documented-practice",
+      "checkedAt": "12 October 2026",
+      "reviewState": {
+        "sourceClaim": "checked",
+        "japaneseExample": "editorial-draft",
+        "nativeReview": "pending"
+      },
+      "scopeNote": "Fiche introductive ; ne prétend pas couvrir tout le thème."
+    },
+    {
+      "id": "japan-working-holiday",
+      "title": "Où vérifier les règles du PVT japonais ?",
+      "domain": "administration",
+      "level": "culture",
+      "aliases": [
+        "PVT",
+        "ワーキングホリデー",
+        "visa",
+        "France"
+      ],
+      "explanationFr": "Le MOFA présente le PVT comme un séjour de vacances avec travail accessoire. Les conditions et démarches dépendent de la nationalité ; la page consulaire applicable doit être vérifiée avant toute décision.",
+      "examples": [
+        {
+          "ja": "ビザの条件を確認したいです。",
+          "reading": "びざのじょうけんをかくにんしたいです。",
+          "fr": "Je souhaite vérifier les conditions du visa.",
+          "provenance": "Original pedagogical example, not a source quotation."
+        }
+      ],
+      "prerequisites": [],
+      "sources": [
+        {
+          "url": "https://www.mofa.go.jp/j_info/visit/w_holiday/index.html",
+          "title": "The Working Holiday Programmes in Japan",
+          "publisher": "Ministry of Foreign Affairs of Japan",
+          "checkedAt": "12 October 2026",
+          "license": "No blanket redistribution permission established; factual synthesis and original examples only.",
+          "reuse": "Link attribution. No copied article, image, map, or audio."
+        }
+      ],
+      "status": "source-reviewed-draft",
+      "claimType": "time-sensitive-information",
+      "checkedAt": "12 October 2026",
+      "reviewState": {
+        "sourceClaim": "checked",
+        "japaneseExample": "editorial-draft",
+        "nativeReview": "pending"
+      },
+      "scopeNote": "Fiche introductive ; ne prétend pas couvrir tout le thème.",
+      "freshness": {
+        "checkedAt": "12 October 2026",
+        "recheckBeforeUse": true,
+        "liveStateProvided": false
+      }
+    },
+    {
+      "id": "japan-social-evidence",
+      "title": "Comment répondre à une question sur ce que pensent les Japonais ?",
+      "domain": "society",
+      "level": "culture",
+      "aliases": [
+        "mentalité",
+        "comportement",
+        "sondage",
+        "société"
+      ],
+      "explanationFr": "Pour une affirmation collective, chercher une enquête datée, son échantillon et la question posée. Le Statistics Bureau fournit des données descriptives ; celles-ci ne permettent pas de deviner l’avis ou l’intention d’une personne.",
+      "examples": [
+        {
+          "ja": "人によって考え方が違います。",
+          "reading": "ひとによってかんがえかたがちがいます。",
+          "fr": "Les façons de penser diffèrent selon les personnes.",
+          "provenance": "Original pedagogical example, not a source quotation."
+        }
+      ],
+      "prerequisites": [],
+      "sources": [
+        {
+          "url": "https://www.stat.go.jp/english/data/handbook/index.html",
+          "title": "Statistical Handbook of Japan 2026",
+          "publisher": "Statistics Bureau of Japan",
+          "checkedAt": "12 October 2026",
+          "license": "No blanket redistribution permission established; factual synthesis and original examples only.",
+          "reuse": "Link attribution. No copied article, image, map, or audio."
+        }
+      ],
+      "status": "source-reviewed-draft",
+      "claimType": "editorial-method",
+      "checkedAt": "12 October 2026",
+      "reviewState": {
+        "sourceClaim": "checked",
+        "japaneseExample": "editorial-draft",
+        "nativeReview": "pending"
+      },
+      "scopeNote": "Fiche introductive ; ne prétend pas couvrir tout le thème."
+    },
+    {
+      "id": "japan-tsunami-information",
+      "title": "Où consulter une alerte officielle de tsunami ?",
+      "domain": "safety",
+      "level": "culture",
+      "aliases": [
+        "津波",
+        "警報",
+        "alerte",
+        "tsunami"
+      ],
+      "explanationFr": "La JMA publie des alertes et avis par régions avec des estimations de hauteur et d’arrivée. Cette fiche décrit le service, sans constituer une alerte actuelle ; consulter les informations officielles et les consignes locales en direct.",
+      "examples": [
+        {
+          "ja": "避難場所はどこですか。",
+          "reading": "ひなんばしょはどこですか。",
+          "fr": "Où se trouve le lieu d’évacuation ?",
+          "provenance": "Original pedagogical example, not a source quotation."
+        }
+      ],
+      "prerequisites": [],
+      "sources": [
+        {
+          "url": "https://www.data.jma.go.jp/eqev/data/en/tsunami/tsunami_warning.html",
+          "title": "Tsunami Warning/Advisory",
+          "publisher": "Japan Meteorological Agency",
+          "checkedAt": "12 October 2026",
+          "license": "No blanket redistribution permission established; factual synthesis and original examples only.",
+          "reuse": "Link attribution. No copied article, image, map, or audio."
+        }
+      ],
+      "status": "source-reviewed-draft",
+      "claimType": "time-sensitive-information",
+      "checkedAt": "12 October 2026",
+      "reviewState": {
+        "sourceClaim": "checked",
+        "japaneseExample": "editorial-draft",
+        "nativeReview": "pending"
+      },
+      "scopeNote": "Fiche introductive ; ne prétend pas couvrir tout le thème.",
+      "freshness": {
+        "checkedAt": "12 October 2026",
+        "recheckBeforeUse": true,
+        "liveStateProvided": false
+      }
+    }
+  ],
+  "coverage": "28 introductory source-reviewed drafts; no exhaustive Japan encyclopedia claim."
+}

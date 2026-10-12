@@ -1,0 +1,2220 @@
+{
+  "schemaVersion": 1,
+  "title": "Original Japanese language research records",
+  "createdAt": "12 October 2026",
+  "scope": "Concrete sample corpus across N5-N1 plus methodology and pragmatics; deliberately not claimed exhaustive.",
+  "records": [
+    {
+      "id": "grammar-copula",
+      "title": "です et la phrase nominale",
+      "domain": "grammar",
+      "level": "N5",
+      "levelBasis": "Editorial estimate, not an official JLPT item allocation",
+      "aliases": [
+        "desu",
+        "copule"
+      ],
+      "explanationFr": "Un nom suivi de です forme un énoncé poli. Pour le nier, employer ではありません ou une variante adaptée au registre. です ne traduit pas tous les emplois français de « être ».",
+      "examples": [
+        {
+          "ja": "フランス人です。",
+          "reading": "ふらんすじんです。",
+          "fr": "Je suis français.",
+          "origin": "Original example composed for this research; not a copied source example"
+        }
+      ],
+      "prerequisites": [],
+      "sources": [
+        {
+          "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/001.html",
+          "title": "TUFS Japanese grammar: Nです／Nではありません",
+          "publisher": "Tokyo University of Foreign Studies",
+          "checkedAt": "12 October 2026",
+          "license": "No open license verified",
+          "reuse": "Copyright retained by publisher. Link and original paraphrase only; no full lesson, illustration or audio copied."
+        }
+      ],
+      "status": "reviewed",
+      "reviewScope": "Source checked and original editorial review; no native-speaker validation or learner mastery claimed",
+      "frenchLearnerTrap": "Ne pas ajouter です à un verbe déjà terminé par ます.",
+      "contrastFr": "",
+      "oralPromptFr": "Dis ta nationalité, puis ce que tu ne fais pas comme métier.",
+      "createdAt": "12 October 2026",
+      "learnerState": "not-assessed"
+    },
+    {
+      "id": "grammar-topic",
+      "title": "は et が : thème et information",
+      "domain": "grammar",
+      "level": "N5",
+      "levelBasis": "Editorial estimate, not an official JLPT item allocation",
+      "aliases": [
+        "wa",
+        "ga",
+        "thème",
+        "sujet"
+      ],
+      "explanationFr": "は pose ce dont on parle, avec un possible contraste; が marque notamment le sujet et peut identifier la personne recherchée. Le choix dépend de la question et du contexte, pas d’une traduction mot à mot.",
+      "examples": [
+        {
+          "ja": "わたしが予約しました。",
+          "reading": "わたしがよやくしました。",
+          "fr": "C’est moi qui ai réservé.",
+          "origin": "Original example composed for this research; not a copied source example"
+        }
+      ],
+      "prerequisites": [
+        "grammar-copula"
+      ],
+      "sources": [
+        {
+          "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/002.html",
+          "title": "TUFS Japanese grammar: NはNです",
+          "publisher": "Tokyo University of Foreign Studies",
+          "checkedAt": "12 October 2026",
+          "license": "No open license verified",
+          "reuse": "Copyright retained by publisher. Link and original paraphrase only; no full lesson, illustration or audio copied."
+        }
+      ],
+      "status": "reviewed",
+      "reviewScope": "Source checked and original editorial review; no native-speaker validation or learner mastery claimed",
+      "frenchLearnerTrap": "は se prononce わ comme particule.",
+      "contrastFr": "",
+      "oralPromptFr": "Réponds à « Qui a réservé ? » en insistant sur toi.",
+      "createdAt": "12 October 2026",
+      "learnerState": "not-assessed"
+    },
+    {
+      "id": "grammar-existence",
+      "title": "ある et いる",
+      "domain": "grammar",
+      "level": "N5",
+      "levelBasis": "Editorial estimate, not an official JLPT item allocation",
+      "aliases": [
+        "arimasu",
+        "imasu"
+      ],
+      "explanationFr": "ある décrit en général l’existence des choses; いる celle des personnes et des animaux mobiles. Une plante relève normalement de ある. Les usages animés par le point de vue demandent une étude séparée.",
+      "examples": [
+        {
+          "ja": "庭に木があります。",
+          "reading": "にわにきがあります。",
+          "fr": "Il y a un arbre dans le jardin.",
+          "origin": "Original example composed for this research; not a copied source example"
+        }
+      ],
+      "prerequisites": [
+        "grammar-topic"
+      ],
+      "sources": [
+        {
+          "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/005.html",
+          "title": "TUFS Japanese grammar: Nがあります／います",
+          "publisher": "Tokyo University of Foreign Studies",
+          "checkedAt": "12 October 2026",
+          "license": "No open license verified",
+          "reuse": "Copyright retained by publisher. Link and original paraphrase only; no full lesson, illustration or audio copied."
+        }
+      ],
+      "status": "reviewed",
+      "reviewScope": "Source checked and original editorial review; no native-speaker validation or learner mastery claimed",
+      "frenchLearnerTrap": "La distinction n’est pas simplement vivant contre non vivant.",
+      "contrastFr": "",
+      "oralPromptFr": "Décris un arbre et un chat dans le jardin.",
+      "createdAt": "12 October 2026",
+      "learnerState": "not-assessed"
+    },
+    {
+      "id": "grammar-counters",
+      "title": "Compter avec des classificateurs",
+      "domain": "grammar",
+      "level": "N5",
+      "levelBasis": "Editorial estimate, not an official JLPT item allocation",
+      "aliases": [
+        "compteurs",
+        "助数詞"
+      ],
+      "explanationFr": "Le nombre se combine avec un classificateur lié à ce que l’on compte. Apprendre la lecture entière: 三本 se lit さんぼん. Pour commencer, つ permet de compter beaucoup d’objets, jusqu’à dix.",
+      "examples": [
+        {
+          "ja": "お茶を二杯ください。",
+          "reading": "おちゃをにはいください。",
+          "fr": "Deux tasses de thé, s’il vous plaît.",
+          "origin": "Original example composed for this research; not a copied source example"
+        }
+      ],
+      "prerequisites": [
+        "grammar-copula"
+      ],
+      "sources": [
+        {
+          "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/017.html",
+          "title": "TUFS Japanese grammar: 助数詞",
+          "publisher": "Tokyo University of Foreign Studies",
+          "checkedAt": "12 October 2026",
+          "license": "No open license verified",
+          "reuse": "Copyright retained by publisher. Link and original paraphrase only; no full lesson, illustration or audio copied."
+        }
+      ],
+      "status": "reviewed",
+      "reviewScope": "Source checked and original editorial review; no native-speaker validation or learner mastery claimed",
+      "frenchLearnerTrap": "Ne pas prévoir une lecture identique de 本 ou 杯 après tous les nombres.",
+      "contrastFr": "",
+      "oralPromptFr": "Commande deux boissons puis trois petits objets.",
+      "createdAt": "12 October 2026",
+      "learnerState": "not-assessed"
+    },
+    {
+      "id": "grammar-polite-nonpast",
+      "title": "ます : habitudes et avenir",
+      "domain": "grammar",
+      "level": "N5",
+      "levelBasis": "Editorial estimate, not an official JLPT item allocation",
+      "aliases": [
+        "masu",
+        "non-passé"
+      ],
+      "explanationFr": "La forme polie non passée couvre notamment l’habitude et le futur selon le contexte. Pour une action en cours, on utilise souvent ている. La négation polie est ません.",
+      "examples": [
+        {
+          "ja": "明日、京都に行きます。",
+          "reading": "あした、きょうとにいきます。",
+          "fr": "Demain, je vais à Kyoto.",
+          "origin": "Original example composed for this research; not a copied source example"
+        }
+      ],
+      "prerequisites": [
+        "grammar-topic"
+      ],
+      "sources": [
+        {
+          "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/023.html",
+          "title": "TUFS Japanese grammar: Vます／Vません",
+          "publisher": "Tokyo University of Foreign Studies",
+          "checkedAt": "12 October 2026",
+          "license": "No open license verified",
+          "reuse": "Copyright retained by publisher. Link and original paraphrase only; no full lesson, illustration or audio copied."
+        }
+      ],
+      "status": "reviewed",
+      "reviewScope": "Source checked and original editorial review; no native-speaker validation or learner mastery claimed",
+      "frenchLearnerTrap": "Un présent français n’entraîne pas une forme japonaise unique.",
+      "contrastFr": "",
+      "oralPromptFr": "Dis où tu vas demain et ce que tu fais chaque jour.",
+      "createdAt": "12 October 2026",
+      "learnerState": "not-assessed"
+    },
+    {
+      "id": "grammar-i-adjectives",
+      "title": "Les adjectifs en い se transforment",
+      "domain": "grammar",
+      "level": "N5",
+      "levelBasis": "Editorial estimate, not an official JLPT item allocation",
+      "aliases": [
+        "adjectifs i",
+        "kunai"
+      ],
+      "explanationFr": "Un adjectif en い se nie en remplaçant い par くない. Il peut se terminer par です pour la politesse. いい possède la base よい dans ses transformations: よくない.",
+      "examples": [
+        {
+          "ja": "この料理は辛くないです。",
+          "reading": "このりょうりはからくないです。",
+          "fr": "Ce plat n’est pas piquant.",
+          "origin": "Original example composed for this research; not a copied source example"
+        }
+      ],
+      "prerequisites": [
+        "grammar-copula"
+      ],
+      "sources": [
+        {
+          "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/030.html",
+          "title": "TUFS Japanese grammar: Aいです／Aくありません／Aくないです",
+          "publisher": "Tokyo University of Foreign Studies",
+          "checkedAt": "12 October 2026",
+          "license": "No open license verified",
+          "reuse": "Copyright retained by publisher. Link and original paraphrase only; no full lesson, illustration or audio copied."
+        }
+      ],
+      "status": "reviewed",
+      "reviewScope": "Source checked and original editorial review; no native-speaker validation or learner mastery claimed",
+      "frenchLearnerTrap": "Ne pas dire 辛いじゃない pour une négation neutre ordinaire.",
+      "contrastFr": "",
+      "oralPromptFr": "Dis que ton plat n’est pas piquant.",
+      "createdAt": "12 October 2026",
+      "learnerState": "not-assessed"
+    },
+    {
+      "id": "grammar-verb-groups",
+      "title": "Trois familles de verbes",
+      "domain": "grammar",
+      "level": "N5",
+      "levelBasis": "Editorial estimate, not an official JLPT item allocation",
+      "aliases": [
+        "godan",
+        "ichidan",
+        "irréguliers"
+      ],
+      "explanationFr": "Les godan changent leur dernière syllabe; les ichidan enlèvent る avant plusieurs terminaisons; する et 来る sont irréguliers. Une terminaison en る ne suffit pas à identifier la famille: 帰る est godan.",
+      "examples": [
+        {
+          "ja": "毎晩、家に帰ります。",
+          "reading": "まいばん、いえにかえります。",
+          "fr": "Chaque soir, je rentre chez moi.",
+          "origin": "Original example composed for this research; not a copied source example"
+        }
+      ],
+      "prerequisites": [
+        "grammar-polite-nonpast"
+      ],
+      "sources": [
+        {
+          "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/039.html",
+          "title": "TUFS Japanese grammar: 動詞の３種類",
+          "publisher": "Tokyo University of Foreign Studies",
+          "checkedAt": "12 October 2026",
+          "license": "No open license verified",
+          "reuse": "Copyright retained by publisher. Link and original paraphrase only; no full lesson, illustration or audio copied."
+        }
+      ],
+      "status": "reviewed",
+      "reviewScope": "Source checked and original editorial review; no native-speaker validation or learner mastery claimed",
+      "frenchLearnerTrap": "覚える et 帰る ne suivent pas la même transformation.",
+      "contrastFr": "",
+      "oralPromptFr": "Transforme 食べる, 帰る, する et 来る en forme polie.",
+      "createdAt": "12 October 2026",
+      "learnerState": "not-assessed"
+    },
+    {
+      "id": "grammar-te-form",
+      "title": "La forme て, point de raccord",
+      "domain": "grammar",
+      "level": "N5",
+      "levelBasis": "Editorial estimate, not an official JLPT item allocation",
+      "aliases": [
+        "forme te",
+        "te-form"
+      ],
+      "explanationFr": "La forme て permet d’enchaîner une action ou d’ajouter une construction. Godan: う・つ・る → って; む・ぶ・ぬ → んで; く → いて; ぐ → いで; す → して. 行く donne 行って.",
+      "examples": [
+        {
+          "ja": "少し待ってください。",
+          "reading": "すこしまってください。",
+          "fr": "Attendez un peu, s’il vous plaît.",
+          "origin": "Original example composed for this research; not a copied source example"
+        }
+      ],
+      "prerequisites": [
+        "grammar-verb-groups"
+      ],
+      "sources": [
+        {
+          "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/043.html",
+          "title": "TUFS Japanese grammar: Vて（て形）",
+          "publisher": "Tokyo University of Foreign Studies",
+          "checkedAt": "12 October 2026",
+          "license": "No open license verified",
+          "reuse": "Copyright retained by publisher. Link and original paraphrase only; no full lesson, illustration or audio copied."
+        },
+        {
+          "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/038.html",
+          "title": "TUFS Japanese grammar: 普通形の体系",
+          "publisher": "Tokyo University of Foreign Studies",
+          "checkedAt": "12 October 2026",
+          "license": "No open license verified",
+          "reuse": "Copyright retained by publisher. Link and original paraphrase only; no full lesson, illustration or audio copied."
+        }
+      ],
+      "status": "reviewed",
+      "reviewScope": "Source checked and original editorial review; no native-speaker validation or learner mastery claimed",
+      "frenchLearnerTrap": "",
+      "contrastFr": "",
+      "oralPromptFr": "Transforme 待つ, 飲む, 書く et 行く en forme て.",
+      "createdAt": "12 October 2026",
+      "learnerState": "not-assessed"
+    },
+    {
+      "id": "grammar-progressive",
+      "title": "ている : action en cours",
+      "domain": "grammar",
+      "level": "N5",
+      "levelBasis": "Editorial estimate, not an official JLPT item allocation",
+      "aliases": [
+        "te iru",
+        "progressif"
+      ],
+      "explanationFr": "Avec une action observable dans sa durée, ている décrit son déroulement. Le temps et la politesse portent sur いる: 読んでいます, 読んでいました.",
+      "examples": [
+        {
+          "ja": "今、音楽を聞いています。",
+          "reading": "いま、おんがくをきいています。",
+          "fr": "En ce moment, j’écoute de la musique.",
+          "origin": "Original example composed for this research; not a copied source example"
+        }
+      ],
+      "prerequisites": [
+        "grammar-te-form"
+      ],
+      "sources": [
+        {
+          "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/044.html",
+          "title": "TUFS Japanese grammar: Vています（進行）",
+          "publisher": "Tokyo University of Foreign Studies",
+          "checkedAt": "12 October 2026",
+          "license": "No open license verified",
+          "reuse": "Copyright retained by publisher. Link and original paraphrase only; no full lesson, illustration or audio copied."
+        }
+      ],
+      "status": "reviewed",
+      "reviewScope": "Source checked and original editorial review; no native-speaker validation or learner mastery claimed",
+      "frenchLearnerTrap": "",
+      "contrastFr": "",
+      "oralPromptFr": "Dis ce que tu es en train de faire.",
+      "createdAt": "12 October 2026",
+      "learnerState": "not-assessed"
+    },
+    {
+      "id": "grammar-result-state",
+      "title": "ている : résultat qui reste",
+      "domain": "grammar",
+      "level": "N4",
+      "levelBasis": "Editorial estimate, not an official JLPT item allocation",
+      "aliases": [
+        "état résultant",
+        "shitte iru"
+      ],
+      "explanationFr": "Avec un changement ponctuel, ている décrit souvent l’état qui en résulte: une porte ouverte ou une personne déjà arrivée. 知っている signifie savoir; sa négation ordinaire est 知らない.",
+      "examples": [
+        {
+          "ja": "ドアが閉まっています。",
+          "reading": "どあがしまっています。",
+          "fr": "La porte est fermée.",
+          "origin": "Original example composed for this research; not a copied source example"
+        }
+      ],
+      "prerequisites": [
+        "grammar-progressive"
+      ],
+      "sources": [
+        {
+          "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/045.html",
+          "title": "TUFS Japanese grammar: Vています（状態）",
+          "publisher": "Tokyo University of Foreign Studies",
+          "checkedAt": "12 October 2026",
+          "license": "No open license verified",
+          "reuse": "Copyright retained by publisher. Link and original paraphrase only; no full lesson, illustration or audio copied."
+        }
+      ],
+      "status": "reviewed",
+      "reviewScope": "Source checked and original editorial review; no native-speaker validation or learner mastery claimed",
+      "frenchLearnerTrap": "閉まっている ne signifie pas nécessairement « est en train de se fermer ».",
+      "contrastFr": "",
+      "oralPromptFr": "Décris une porte déjà fermée, puis dis que tu ne sais pas.",
+      "createdAt": "12 October 2026",
+      "learnerState": "not-assessed"
+    },
+    {
+      "id": "grammar-prepared-state",
+      "title": "てある : état préparé intentionnellement",
+      "domain": "grammar",
+      "level": "N4",
+      "levelBasis": "Editorial estimate, not an official JLPT item allocation",
+      "aliases": [
+        "te aru"
+      ],
+      "explanationFr": "Avec un verbe transitif, てある met en avant le résultat d’une action intentionnelle. L’objet devenu état peut prendre が; une préparation accomplie peut aussi garder を selon la construction.",
+      "examples": [
+        {
+          "ja": "机に資料が置いてあります。",
+          "reading": "つくえにしりょうがおいてあります。",
+          "fr": "Les documents sont disposés sur le bureau.",
+          "origin": "Original example composed for this research; not a copied source example"
+        }
+      ],
+      "prerequisites": [
+        "grammar-result-state"
+      ],
+      "sources": [
+        {
+          "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/046.html",
+          "title": "TUFS Japanese grammar: Vてあります",
+          "publisher": "Tokyo University of Foreign Studies",
+          "checkedAt": "12 October 2026",
+          "license": "No open license verified",
+          "reuse": "Copyright retained by publisher. Link and original paraphrase only; no full lesson, illustration or audio copied."
+        }
+      ],
+      "status": "reviewed",
+      "reviewScope": "Source checked and original editorial review; no native-speaker validation or learner mastery claimed",
+      "frenchLearnerTrap": "",
+      "contrastFr": "置いてある laisse entendre une préparation; 置いている décrit un autre cadrage.",
+      "oralPromptFr": "Dis que les documents ont été disposés pour la réunion.",
+      "createdAt": "12 October 2026",
+      "learnerState": "not-assessed"
+    },
+    {
+      "id": "grammar-case-particles",
+      "title": "に, で et を : les rôles",
+      "domain": "grammar",
+      "level": "N5",
+      "levelBasis": "Editorial estimate, not an official JLPT item allocation",
+      "aliases": [
+        "ni",
+        "de",
+        "wo",
+        "particules"
+      ],
+      "explanationFr": "Les particules suivent le groupe nominal. に peut marquer un lieu d’existence, une destination ou un destinataire; で le lieu d’une action ou un moyen; を un objet et parfois un trajet.",
+      "examples": [
+        {
+          "ja": "図書館で本を読みます。",
+          "reading": "としょかんでほんをよみます。",
+          "fr": "Je lis un livre à la bibliothèque.",
+          "origin": "Original example composed for this research; not a copied source example"
+        }
+      ],
+      "prerequisites": [
+        "grammar-topic"
+      ],
+      "sources": [
+        {
+          "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/053.html",
+          "title": "TUFS Japanese grammar: 格助詞",
+          "publisher": "Tokyo University of Foreign Studies",
+          "checkedAt": "12 October 2026",
+          "license": "No open license verified",
+          "reuse": "Copyright retained by publisher. Link and original paraphrase only; no full lesson, illustration or audio copied."
+        }
+      ],
+      "status": "reviewed",
+      "reviewScope": "Source checked and original editorial review; no native-speaker validation or learner mastery claimed",
+      "frenchLearnerTrap": "Le français « à » ne correspond pas toujours à に.",
+      "contrastFr": "",
+      "oralPromptFr": "Dis que tu lis à la bibliothèque, puis que le livre y est.",
+      "createdAt": "12 October 2026",
+      "learnerState": "not-assessed"
+    },
+    {
+      "id": "grammar-permission",
+      "title": "てもいい : demander la permission",
+      "domain": "grammar",
+      "level": "N5",
+      "levelBasis": "Editorial estimate, not an official JLPT item allocation",
+      "aliases": [
+        "temo ii"
+      ],
+      "explanationFr": "て + もいい permet d’accorder ou demander une permission. Ajouter ですか pour la demande polie. L’autorité et la relation influencent la façon de refuser.",
+      "examples": [
+        {
+          "ja": "ここに座ってもいいですか。",
+          "reading": "ここにすわってもいいですか。",
+          "fr": "Puis-je m’asseoir ici ?",
+          "origin": "Original example composed for this research; not a copied source example"
+        }
+      ],
+      "prerequisites": [
+        "grammar-te-form"
+      ],
+      "sources": [
+        {
+          "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/058.html",
+          "title": "TUFS Japanese grammar: Vてもいいです",
+          "publisher": "Tokyo University of Foreign Studies",
+          "checkedAt": "12 October 2026",
+          "license": "No open license verified",
+          "reuse": "Copyright retained by publisher. Link and original paraphrase only; no full lesson, illustration or audio copied."
+        }
+      ],
+      "status": "reviewed",
+      "reviewScope": "Source checked and original editorial review; no native-speaker validation or learner mastery claimed",
+      "frenchLearnerTrap": "",
+      "contrastFr": "",
+      "oralPromptFr": "Demande la permission de t’asseoir.",
+      "createdAt": "12 October 2026",
+      "learnerState": "not-assessed"
+    },
+    {
+      "id": "grammar-prohibition",
+      "title": "てはいけない : une interdiction",
+      "domain": "grammar",
+      "level": "N5",
+      "levelBasis": "Editorial estimate, not an official JLPT item allocation",
+      "aliases": [
+        "te wa ikenai",
+        "cha dame"
+      ],
+      "explanationFr": "てはいけない exprime qu’une action n’est pas autorisée. La forme adressée directement à quelqu’un peut être forte. À l’oral, ては peut devenir ちゃ; では devient じゃ.",
+      "examples": [
+        {
+          "ja": "ここで写真を撮ってはいけません。",
+          "reading": "ここでしゃしんをとってはいけません。",
+          "fr": "Il est interdit de prendre des photos ici.",
+          "origin": "Original example composed for this research; not a copied source example"
+        }
+      ],
+      "prerequisites": [
+        "grammar-te-form"
+      ],
+      "sources": [
+        {
+          "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/059.html",
+          "title": "TUFS Japanese grammar: Vてはいけません",
+          "publisher": "Tokyo University of Foreign Studies",
+          "checkedAt": "12 October 2026",
+          "license": "No open license verified",
+          "reuse": "Copyright retained by publisher. Link and original paraphrase only; no full lesson, illustration or audio copied."
+        }
+      ],
+      "status": "reviewed",
+      "reviewScope": "Source checked and original editorial review; no native-speaker validation or learner mastery claimed",
+      "frenchLearnerTrap": "",
+      "contrastFr": "",
+      "oralPromptFr": "Explique une interdiction affichée dans un musée.",
+      "createdAt": "12 October 2026",
+      "learnerState": "not-assessed"
+    },
+    {
+      "id": "grammar-negative-request",
+      "title": "ないでください : ne pas faire",
+      "domain": "grammar",
+      "level": "N5",
+      "levelBasis": "Editorial estimate, not an official JLPT item allocation",
+      "aliases": [
+        "naide kudasai"
+      ],
+      "explanationFr": "La forme négative en ない suivie de でください demande de ne pas effectuer une action. Selon le contexte, elle sert à donner une consigne ou à protéger l’interlocuteur.",
+      "examples": [
+        {
+          "ja": "無理をしないでください。",
+          "reading": "むりをしないでください。",
+          "fr": "Ne vous surmenez pas.",
+          "origin": "Original example composed for this research; not a copied source example"
+        }
+      ],
+      "prerequisites": [
+        "grammar-verb-groups"
+      ],
+      "sources": [
+        {
+          "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/060.html",
+          "title": "TUFS Japanese grammar: Vないでください",
+          "publisher": "Tokyo University of Foreign Studies",
+          "checkedAt": "12 October 2026",
+          "license": "No open license verified",
+          "reuse": "Copyright retained by publisher. Link and original paraphrase only; no full lesson, illustration or audio copied."
+        }
+      ],
+      "status": "reviewed",
+      "reviewScope": "Source checked and original editorial review; no native-speaker validation or learner mastery claimed",
+      "frenchLearnerTrap": "",
+      "contrastFr": "",
+      "oralPromptFr": "Demande à quelqu’un de ne pas se surmener.",
+      "createdAt": "12 October 2026",
+      "learnerState": "not-assessed"
+    },
+    {
+      "id": "grammar-volitional",
+      "title": "よう et おう : proposer ou décider",
+      "domain": "grammar",
+      "level": "N4",
+      "levelBasis": "Editorial estimate, not an official JLPT item allocation",
+      "aliases": [
+        "volitif",
+        "you",
+        "ou"
+      ],
+      "explanationFr": "Ichidan: remplacer る par よう. Godan: passer à la ligne en お puis ajouter う. する → しよう; 来る → こよう. Le contexte sépare la proposition collective d’une résolution personnelle.",
+      "examples": [
+        {
+          "ja": "一緒に散歩しよう。",
+          "reading": "いっしょにさんぽしよう。",
+          "fr": "Allons nous promener ensemble.",
+          "origin": "Original example composed for this research; not a copied source example"
+        }
+      ],
+      "prerequisites": [
+        "grammar-verb-groups"
+      ],
+      "sources": [
+        {
+          "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/065.html",
+          "title": "TUFS Japanese grammar: 意志形",
+          "publisher": "Tokyo University of Foreign Studies",
+          "checkedAt": "12 October 2026",
+          "license": "No open license verified",
+          "reuse": "Copyright retained by publisher. Link and original paraphrase only; no full lesson, illustration or audio copied."
+        }
+      ],
+      "status": "reviewed",
+      "reviewScope": "Source checked and original editorial review; no native-speaker validation or learner mastery claimed",
+      "frenchLearnerTrap": "ましょう n’est pas un futur de remplacement pour tout « je vais ».",
+      "contrastFr": "",
+      "oralPromptFr": "Propose une promenade à un ami.",
+      "createdAt": "12 October 2026",
+      "learnerState": "not-assessed"
+    },
+    {
+      "id": "grammar-desire",
+      "title": "たい : vouloir effectuer une action",
+      "domain": "grammar",
+      "level": "N5",
+      "levelBasis": "Editorial estimate, not an official JLPT item allocation",
+      "aliases": [
+        "tai",
+        "désir"
+      ],
+      "explanationFr": "La base de ます suivie de たい exprime principalement le désir du locuteur. たい se transforme comme un adjectif en い. Pour les désirs d’un tiers, on distingue citation, observation et inférence.",
+      "examples": [
+        {
+          "ja": "日本語で話したいです。",
+          "reading": "にほんごではなしたいです。",
+          "fr": "Je veux parler en japonais.",
+          "origin": "Original example composed for this research; not a copied source example"
+        }
+      ],
+      "prerequisites": [
+        "grammar-polite-nonpast"
+      ],
+      "sources": [
+        {
+          "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/067.html",
+          "title": "TUFS Japanese grammar: Vたいです",
+          "publisher": "Tokyo University of Foreign Studies",
+          "checkedAt": "12 October 2026",
+          "license": "No open license verified",
+          "reuse": "Copyright retained by publisher. Link and original paraphrase only; no full lesson, illustration or audio copied."
+        }
+      ],
+      "status": "reviewed",
+      "reviewScope": "Source checked and original editorial review; no native-speaker validation or learner mastery claimed",
+      "frenchLearnerTrap": "Ne pas affirmer automatiquement l’état intérieur d’autrui avec たい.",
+      "contrastFr": "",
+      "oralPromptFr": "Dis ce que tu veux faire en japonais.",
+      "createdAt": "12 October 2026",
+      "learnerState": "not-assessed"
+    },
+    {
+      "id": "grammar-potential",
+      "title": "La forme potentielle",
+      "domain": "grammar",
+      "level": "N4",
+      "levelBasis": "Editorial estimate, not an official JLPT item allocation",
+      "aliases": [
+        "potentiel",
+        "reru",
+        "rareru"
+      ],
+      "explanationFr": "Godan: dernière syllabe en え + る; ichidan: enlever る et ajouter られる; する → できる; 来る → こられる. が est courant pour l’objet de capacité, mais を demeure possible dans certains usages.",
+      "examples": [
+        {
+          "ja": "この漢字が読めます。",
+          "reading": "このかんじがよめます。",
+          "fr": "Je peux lire ce kanji.",
+          "origin": "Original example composed for this research; not a copied source example"
+        }
+      ],
+      "prerequisites": [
+        "grammar-verb-groups"
+      ],
+      "sources": [
+        {
+          "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/074.html",
+          "title": "TUFS Japanese grammar: 可能形",
+          "publisher": "Tokyo University of Foreign Studies",
+          "checkedAt": "12 October 2026",
+          "license": "No open license verified",
+          "reuse": "Copyright retained by publisher. Link and original paraphrase only; no full lesson, illustration or audio copied."
+        },
+        {
+          "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/053.html",
+          "title": "TUFS Japanese grammar: 格助詞",
+          "publisher": "Tokyo University of Foreign Studies",
+          "checkedAt": "12 October 2026",
+          "license": "No open license verified",
+          "reuse": "Copyright retained by publisher. Link and original paraphrase only; no full lesson, illustration or audio copied."
+        }
+      ],
+      "status": "reviewed",
+      "reviewScope": "Source checked and original editorial review; no native-speaker validation or learner mastery claimed",
+      "frenchLearnerTrap": "La règle « を devient toujours が » est trop absolue.",
+      "contrastFr": "",
+      "oralPromptFr": "Dis que tu peux lire ce kanji, puis que tu ne peux pas venir demain.",
+      "createdAt": "12 October 2026",
+      "learnerState": "not-assessed"
+    },
+    {
+      "id": "grammar-relative-clause",
+      "title": "Décrire un nom par une proposition",
+      "domain": "grammar",
+      "level": "N4",
+      "levelBasis": "Editorial estimate, not an official JLPT item allocation",
+      "aliases": [
+        "relative",
+        "modification nominale"
+      ],
+      "explanationFr": "La proposition se place devant le nom, sans pronom relatif équivalent à « qui » ou « que ». Son verbe prend une forme neutre. Repérer le nom final pour comprendre ce que tout le bloc décrit.",
+      "examples": [
+        {
+          "ja": "昨日買った本を読んでいます。",
+          "reading": "きのうかったほんをよんでいます。",
+          "fr": "Je lis le livre que j’ai acheté hier.",
+          "origin": "Original example composed for this research; not a copied source example"
+        }
+      ],
+      "prerequisites": [
+        "grammar-verb-groups",
+        "grammar-progressive"
+      ],
+      "sources": [
+        {
+          "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/079.html",
+          "title": "TUFS Japanese grammar: V＋N",
+          "publisher": "Tokyo University of Foreign Studies",
+          "checkedAt": "12 October 2026",
+          "license": "No open license verified",
+          "reuse": "Copyright retained by publisher. Link and original paraphrase only; no full lesson, illustration or audio copied."
+        }
+      ],
+      "status": "reviewed",
+      "reviewScope": "Source checked and original editorial review; no native-speaker validation or learner mastery claimed",
+      "frenchLearnerTrap": "L’ordre français du nom et de sa description est inversé.",
+      "contrastFr": "",
+      "oralPromptFr": "Dis « le livre que j’ai acheté hier ».",
+      "createdAt": "12 October 2026",
+      "learnerState": "not-assessed"
+    },
+    {
+      "id": "grammar-nominalization",
+      "title": "こと et の : transformer une action en groupe nominal",
+      "domain": "grammar",
+      "level": "N4",
+      "levelBasis": "Editorial estimate, not an official JLPT item allocation",
+      "aliases": [
+        "nominalisation",
+        "koto",
+        "no"
+      ],
+      "explanationFr": "こと et の peuvent rendre une proposition utilisable comme nom. Ils ne sont pas interchangeables partout: の est fréquent avec perception ou attente; plusieurs constructions fixent こと.",
+      "examples": [
+        {
+          "ja": "日本語を話すのが好きです。",
+          "reading": "にほんごをはなすのがすきです。",
+          "fr": "J’aime parler japonais.",
+          "origin": "Original example composed for this research; not a copied source example"
+        }
+      ],
+      "prerequisites": [
+        "grammar-relative-clause"
+      ],
+      "sources": [
+        {
+          "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/080.html",
+          "title": "TUFS Japanese grammar: Vこと・Vの",
+          "publisher": "Tokyo University of Foreign Studies",
+          "checkedAt": "12 October 2026",
+          "license": "No open license verified",
+          "reuse": "Copyright retained by publisher. Link and original paraphrase only; no full lesson, illustration or audio copied."
+        }
+      ],
+      "status": "reviewed",
+      "reviewScope": "Source checked and original editorial review; no native-speaker validation or learner mastery claimed",
+      "frenchLearnerTrap": "",
+      "contrastFr": "",
+      "oralPromptFr": "Dis que tu aimes parler japonais.",
+      "createdAt": "12 October 2026",
+      "learnerState": "not-assessed"
+    },
+    {
+      "id": "grammar-cause",
+      "title": "から et ので : donner une raison",
+      "domain": "grammar",
+      "level": "N5",
+      "levelBasis": "Editorial estimate, not an official JLPT item allocation",
+      "aliases": [
+        "kara",
+        "node"
+      ],
+      "explanationFr": "から et ので relient une raison à son résultat. ので présente souvent l’explication avec moins d’insistance personnelle. Après un nom ou un adjectif en な, employer なので.",
+      "examples": [
+        {
+          "ja": "明日は休みなので、散歩します。",
+          "reading": "あしたはやすみなので、さんぽします。",
+          "fr": "Comme demain est un jour de repos, je me promène.",
+          "origin": "Original example composed for this research; not a copied source example"
+        }
+      ],
+      "prerequisites": [
+        "grammar-copula"
+      ],
+      "sources": [
+        {
+          "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/081.html",
+          "title": "TUFS Japanese grammar: 理由",
+          "publisher": "Tokyo University of Foreign Studies",
+          "checkedAt": "12 October 2026",
+          "license": "No open license verified",
+          "reuse": "Copyright retained by publisher. Link and original paraphrase only; no full lesson, illustration or audio copied."
+        }
+      ],
+      "status": "reviewed",
+      "reviewScope": "Source checked and original editorial review; no native-speaker validation or learner mastery claimed",
+      "frenchLearnerTrap": "",
+      "contrastFr": "",
+      "oralPromptFr": "Explique ton programme de demain par une raison.",
+      "createdAt": "12 October 2026",
+      "learnerState": "not-assessed"
+    },
+    {
+      "id": "grammar-concession-noni",
+      "title": "のに et けれど : constater un décalage",
+      "domain": "grammar",
+      "level": "N4",
+      "levelBasis": "Editorial estimate, not an official JLPT item allocation",
+      "aliases": [
+        "noni",
+        "kedo"
+      ],
+      "explanationFr": "のに associe un fait à un résultat contraire à l’attente, souvent avec surprise ou regret. けれど introduit une opposition plus souple. Les demandes et intentions en seconde proposition demandent un choix attentif.",
+      "examples": [
+        {
+          "ja": "練習したのに、間違えました。",
+          "reading": "れんしゅうしたのに、まちがえました。",
+          "fr": "Bien que je me sois entraîné, je me suis trompé.",
+          "origin": "Original example composed for this research; not a copied source example"
+        }
+      ],
+      "prerequisites": [
+        "grammar-verb-groups"
+      ],
+      "sources": [
+        {
+          "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/082.html",
+          "title": "TUFS Japanese grammar: 逆接",
+          "publisher": "Tokyo University of Foreign Studies",
+          "checkedAt": "12 October 2026",
+          "license": "No open license verified",
+          "reuse": "Copyright retained by publisher. Link and original paraphrase only; no full lesson, illustration or audio copied."
+        }
+      ],
+      "status": "reviewed",
+      "reviewScope": "Source checked and original editorial review; no native-speaker validation or learner mastery claimed",
+      "frenchLearnerTrap": "",
+      "contrastFr": "",
+      "oralPromptFr": "Exprime une surprise malgré un entraînement.",
+      "createdAt": "12 October 2026",
+      "learnerState": "not-assessed"
+    },
+    {
+      "id": "grammar-condition-to",
+      "title": "と : conséquence habituelle",
+      "domain": "grammar",
+      "level": "N4",
+      "levelBasis": "Editorial estimate, not an official JLPT item allocation",
+      "aliases": [
+        "conditionnel to"
+      ],
+      "explanationFr": "と relie un déclencheur à un résultat régulier ou automatiquement constaté. Une demande ou une décision volontaire dans la suite nécessite souvent une autre construction.",
+      "examples": [
+        {
+          "ja": "このボタンを押すと、音が出ます。",
+          "reading": "このぼたんをおすと、おとがでます。",
+          "fr": "Quand on appuie sur ce bouton, un son est émis.",
+          "origin": "Original example composed for this research; not a copied source example"
+        }
+      ],
+      "prerequisites": [
+        "grammar-verb-groups"
+      ],
+      "sources": [
+        {
+          "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/083.html",
+          "title": "TUFS Japanese grammar: 条件",
+          "publisher": "Tokyo University of Foreign Studies",
+          "checkedAt": "12 October 2026",
+          "license": "No open license verified",
+          "reuse": "Copyright retained by publisher. Link and original paraphrase only; no full lesson, illustration or audio copied."
+        }
+      ],
+      "status": "reviewed",
+      "reviewScope": "Source checked and original editorial review; no native-speaker validation or learner mastery claimed",
+      "frenchLearnerTrap": "",
+      "contrastFr": "",
+      "oralPromptFr": "Explique le fonctionnement d’un bouton.",
+      "createdAt": "12 October 2026",
+      "learnerState": "not-assessed"
+    },
+    {
+      "id": "grammar-condition-tara",
+      "title": "たら : une fois la condition réalisée",
+      "domain": "grammar",
+      "level": "N4",
+      "levelBasis": "Editorial estimate, not an official JLPT item allocation",
+      "aliases": [
+        "tara"
+      ],
+      "explanationFr": "La forme passée suivie de ら pose une condition, souvent ponctuelle, ou un repère après lequel faire autre chose. La suite peut contenir une invitation ou une demande.",
+      "examples": [
+        {
+          "ja": "駅に着いたら、電話してください。",
+          "reading": "えきについたら、でんわしてください。",
+          "fr": "Appelez-moi quand vous serez arrivé à la gare.",
+          "origin": "Original example composed for this research; not a copied source example"
+        }
+      ],
+      "prerequisites": [
+        "grammar-te-form"
+      ],
+      "sources": [
+        {
+          "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/083.html",
+          "title": "TUFS Japanese grammar: 条件",
+          "publisher": "Tokyo University of Foreign Studies",
+          "checkedAt": "12 October 2026",
+          "license": "No open license verified",
+          "reuse": "Copyright retained by publisher. Link and original paraphrase only; no full lesson, illustration or audio copied."
+        }
+      ],
+      "status": "reviewed",
+      "reviewScope": "Source checked and original editorial review; no native-speaker validation or learner mastery claimed",
+      "frenchLearnerTrap": "",
+      "contrastFr": "",
+      "oralPromptFr": "Demande un appel après l’arrivée à la gare.",
+      "createdAt": "12 October 2026",
+      "learnerState": "not-assessed"
+    },
+    {
+      "id": "grammar-condition-ba",
+      "title": "ば : relation conditionnelle",
+      "domain": "grammar",
+      "level": "N4",
+      "levelBasis": "Editorial estimate, not an official JLPT item allocation",
+      "aliases": [
+        "ba",
+        "kereba"
+      ],
+      "explanationFr": "Godan: ligne en え + ば; ichidan: enlever る puis れば. する → すれば, 来る → くれば. Les adjectifs en い prennent ければ. L’emploi dépend aussi de la volonté et de la temporalité.",
+      "examples": [
+        {
+          "ja": "時間があれば、参加します。",
+          "reading": "じかんがあれば、さんかします。",
+          "fr": "Si j’ai le temps, je participerai.",
+          "origin": "Original example composed for this research; not a copied source example"
+        }
+      ],
+      "prerequisites": [
+        "grammar-verb-groups"
+      ],
+      "sources": [
+        {
+          "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/083.html",
+          "title": "TUFS Japanese grammar: 条件",
+          "publisher": "Tokyo University of Foreign Studies",
+          "checkedAt": "12 October 2026",
+          "license": "No open license verified",
+          "reuse": "Copyright retained by publisher. Link and original paraphrase only; no full lesson, illustration or audio copied."
+        }
+      ],
+      "status": "reviewed",
+      "reviewScope": "Source checked and original editorial review; no native-speaker validation or learner mastery claimed",
+      "frenchLearnerTrap": "",
+      "contrastFr": "",
+      "oralPromptFr": "Explique ce que tu fais si tu as le temps.",
+      "createdAt": "12 October 2026",
+      "learnerState": "not-assessed"
+    },
+    {
+      "id": "grammar-condition-nara",
+      "title": "なら : partir de ce dont on parle",
+      "domain": "grammar",
+      "level": "N4",
+      "levelBasis": "Editorial estimate, not an official JLPT item allocation",
+      "aliases": [
+        "nara"
+      ],
+      "explanationFr": "なら prend comme prémisse une information, une hypothèse ou le projet évoqué. Il permet notamment de donner un conseil avant la réalisation de cette prémisse.",
+      "examples": [
+        {
+          "ja": "京都に行くなら、早く予約したほうがいいです。",
+          "reading": "きょうとにいくなら、はやくよやくしたほうがいいです。",
+          "fr": "Si vous comptez aller à Kyoto, mieux vaut réserver tôt.",
+          "origin": "Original example composed for this research; not a copied source example"
+        }
+      ],
+      "prerequisites": [
+        "grammar-verb-groups"
+      ],
+      "sources": [
+        {
+          "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/083.html",
+          "title": "TUFS Japanese grammar: 条件",
+          "publisher": "Tokyo University of Foreign Studies",
+          "checkedAt": "12 October 2026",
+          "license": "No open license verified",
+          "reuse": "Copyright retained by publisher. Link and original paraphrase only; no full lesson, illustration or audio copied."
+        }
+      ],
+      "status": "reviewed",
+      "reviewScope": "Source checked and original editorial review; no native-speaker validation or learner mastery claimed",
+      "frenchLearnerTrap": "",
+      "contrastFr": "",
+      "oralPromptFr": "Conseille une réservation à quelqu’un qui envisage Kyoto.",
+      "createdAt": "12 October 2026",
+      "learnerState": "not-assessed"
+    },
+    {
+      "id": "grammar-concessive-temo",
+      "title": "ても : même si",
+      "domain": "grammar",
+      "level": "N4",
+      "levelBasis": "Editorial estimate, not an official JLPT item allocation",
+      "aliases": [
+        "temo",
+        "même si"
+      ],
+      "explanationFr": "ても indique que la seconde proposition reste valable malgré la première. Pour les noms et adjectifs en な, on emploie でも. Les mots interrogatifs permettent d’élargir: 誰が来ても.",
+      "examples": [
+        {
+          "ja": "雨が降っても、行きます。",
+          "reading": "あめがふっても、いきます。",
+          "fr": "Même s’il pleut, j’y vais.",
+          "origin": "Original example composed for this research; not a copied source example"
+        }
+      ],
+      "prerequisites": [
+        "grammar-te-form"
+      ],
+      "sources": [
+        {
+          "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/084.html",
+          "title": "TUFS Japanese grammar: 譲歩",
+          "publisher": "Tokyo University of Foreign Studies",
+          "checkedAt": "12 October 2026",
+          "license": "No open license verified",
+          "reuse": "Copyright retained by publisher. Link and original paraphrase only; no full lesson, illustration or audio copied."
+        }
+      ],
+      "status": "reviewed",
+      "reviewScope": "Source checked and original editorial review; no native-speaker validation or learner mastery claimed",
+      "frenchLearnerTrap": "",
+      "contrastFr": "",
+      "oralPromptFr": "Dis que tu y vas même s’il pleut.",
+      "createdAt": "12 October 2026",
+      "learnerState": "not-assessed"
+    },
+    {
+      "id": "grammar-giving",
+      "title": "あげる, くれる et もらう",
+      "domain": "grammar",
+      "level": "N4",
+      "levelBasis": "Editorial estimate, not an official JLPT item allocation",
+      "aliases": [
+        "ageru",
+        "kureru",
+        "morau"
+      ],
+      "explanationFr": "あげる regarde le don vers autrui; くれる le don reçu par moi ou mon cercle; もらう présente le bénéficiaire comme sujet. Même événement, point de vue différent.",
+      "examples": [
+        {
+          "ja": "友達が写真をくれました。",
+          "reading": "ともだちがしゃしんをくれました。",
+          "fr": "Un ami m’a donné une photo.",
+          "origin": "Original example composed for this research; not a copied source example"
+        }
+      ],
+      "prerequisites": [
+        "grammar-case-particles"
+      ],
+      "sources": [
+        {
+          "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/085.html",
+          "title": "TUFS Japanese grammar: やりもらい",
+          "publisher": "Tokyo University of Foreign Studies",
+          "checkedAt": "12 October 2026",
+          "license": "No open license verified",
+          "reuse": "Copyright retained by publisher. Link and original paraphrase only; no full lesson, illustration or audio copied."
+        }
+      ],
+      "status": "reviewed",
+      "reviewScope": "Source checked and original editorial review; no native-speaker validation or learner mastery claimed",
+      "frenchLearnerTrap": "",
+      "contrastFr": "",
+      "oralPromptFr": "Décris un cadeau reçu en commençant par ton ami, puis par toi.",
+      "createdAt": "12 October 2026",
+      "learnerState": "not-assessed"
+    },
+    {
+      "id": "grammar-benefactive",
+      "title": "てくれる et てもらう : bénéficier d’une action",
+      "domain": "grammar",
+      "level": "N4",
+      "levelBasis": "Editorial estimate, not an official JLPT item allocation",
+      "aliases": [
+        "te kureru",
+        "te morau"
+      ],
+      "explanationFr": "Après て, les verbes de don décrivent un service ou un bénéfice. てくれる regarde l’acteur; てもらう regarde celui qui reçoit le service. てあげる peut sembler faire sentir une dette si mal employé.",
+      "examples": [
+        {
+          "ja": "友達が手伝ってくれました。",
+          "reading": "ともだちがてつだってくれました。",
+          "fr": "Un ami m’a aidé.",
+          "origin": "Original example composed for this research; not a copied source example"
+        }
+      ],
+      "prerequisites": [
+        "grammar-giving",
+        "grammar-te-form"
+      ],
+      "sources": [
+        {
+          "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/086.html",
+          "title": "TUFS Japanese grammar: Vてあげます",
+          "publisher": "Tokyo University of Foreign Studies",
+          "checkedAt": "12 October 2026",
+          "license": "No open license verified",
+          "reuse": "Copyright retained by publisher. Link and original paraphrase only; no full lesson, illustration or audio copied."
+        }
+      ],
+      "status": "reviewed",
+      "reviewScope": "Source checked and original editorial review; no native-speaker validation or learner mastery claimed",
+      "frenchLearnerTrap": "",
+      "contrastFr": "",
+      "oralPromptFr": "Remercie un ami qui t’a aidé.",
+      "createdAt": "12 October 2026",
+      "learnerState": "not-assessed"
+    },
+    {
+      "id": "grammar-direction-change",
+      "title": "てくる et ていく : direction et évolution",
+      "domain": "grammar",
+      "level": "N4",
+      "levelBasis": "Editorial estimate, not an official JLPT item allocation",
+      "aliases": [
+        "te kuru",
+        "te iku"
+      ],
+      "explanationFr": "くる et いく situent un mouvement par rapport au point de vue. Après て, ils peuvent aussi cadrer une évolution venant jusqu’au présent ou se prolongeant à partir de maintenant.",
+      "examples": [
+        {
+          "ja": "日本語が少し分かってきました。",
+          "reading": "にほんごがすこしわかってきました。",
+          "fr": "Je commence à comprendre un peu le japonais.",
+          "origin": "Original example composed for this research; not a copied source example"
+        }
+      ],
+      "prerequisites": [
+        "grammar-te-form"
+      ],
+      "sources": [
+        {
+          "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/087.html",
+          "title": "TUFS Japanese grammar: Vていきます／Vてきます",
+          "publisher": "Tokyo University of Foreign Studies",
+          "checkedAt": "12 October 2026",
+          "license": "No open license verified",
+          "reuse": "Copyright retained by publisher. Link and original paraphrase only; no full lesson, illustration or audio copied."
+        }
+      ],
+      "status": "reviewed",
+      "reviewScope": "Source checked and original editorial review; no native-speaker validation or learner mastery claimed",
+      "frenchLearnerTrap": "",
+      "contrastFr": "",
+      "oralPromptFr": "Décris une compréhension qui progresse jusqu’à maintenant.",
+      "createdAt": "12 October 2026",
+      "learnerState": "not-assessed"
+    },
+    {
+      "id": "grammar-preparation",
+      "title": "ておく : préparer à l’avance",
+      "domain": "grammar",
+      "level": "N4",
+      "levelBasis": "Editorial estimate, not an official JLPT item allocation",
+      "aliases": [
+        "te oku"
+      ],
+      "explanationFr": "ておく présente une action faite en prévision d’un usage futur. L’objectif, même implicite, compte. À l’oral familier, ておく peut se contracter en とく.",
+      "examples": [
+        {
+          "ja": "明日の資料を読んでおきます。",
+          "reading": "あしたのしりょうをよんでおきます。",
+          "fr": "Je lis les documents de demain à l’avance.",
+          "origin": "Original example composed for this research; not a copied source example"
+        }
+      ],
+      "prerequisites": [
+        "grammar-te-form"
+      ],
+      "sources": [
+        {
+          "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/088.html",
+          "title": "TUFS Japanese grammar: Vておきます／Vてみます",
+          "publisher": "Tokyo University of Foreign Studies",
+          "checkedAt": "12 October 2026",
+          "license": "No open license verified",
+          "reuse": "Copyright retained by publisher. Link and original paraphrase only; no full lesson, illustration or audio copied."
+        }
+      ],
+      "status": "reviewed",
+      "reviewScope": "Source checked and original editorial review; no native-speaker validation or learner mastery claimed",
+      "frenchLearnerTrap": "",
+      "contrastFr": "",
+      "oralPromptFr": "Dis ce que tu prépares pour demain.",
+      "createdAt": "12 October 2026",
+      "learnerState": "not-assessed"
+    },
+    {
+      "id": "grammar-trying",
+      "title": "てみる : essayer en faisant",
+      "domain": "grammar",
+      "level": "N4",
+      "levelBasis": "Editorial estimate, not an official JLPT item allocation",
+      "aliases": [
+        "te miru"
+      ],
+      "explanationFr": "てみる consiste à effectuer une action pour voir son résultat. Il diffère d’une tentative qui n’aboutit pas, souvent exprimée par la forme volitive + とする.",
+      "examples": [
+        {
+          "ja": "この靴を履いてみてもいいですか。",
+          "reading": "このくつをはいてみてもいいですか。",
+          "fr": "Puis-je essayer ces chaussures ?",
+          "origin": "Original example composed for this research; not a copied source example"
+        }
+      ],
+      "prerequisites": [
+        "grammar-te-form",
+        "grammar-permission"
+      ],
+      "sources": [
+        {
+          "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/088.html",
+          "title": "TUFS Japanese grammar: Vておきます／Vてみます",
+          "publisher": "Tokyo University of Foreign Studies",
+          "checkedAt": "12 October 2026",
+          "license": "No open license verified",
+          "reuse": "Copyright retained by publisher. Link and original paraphrase only; no full lesson, illustration or audio copied."
+        }
+      ],
+      "status": "reviewed",
+      "reviewScope": "Source checked and original editorial review; no native-speaker validation or learner mastery claimed",
+      "frenchLearnerTrap": "",
+      "contrastFr": "",
+      "oralPromptFr": "Demande à essayer des chaussures.",
+      "createdAt": "12 October 2026",
+      "learnerState": "not-assessed"
+    },
+    {
+      "id": "grammar-only",
+      "title": "だけ et しかない : limiter",
+      "domain": "grammar",
+      "level": "N4",
+      "levelBasis": "Editorial estimate, not an official JLPT item allocation",
+      "aliases": [
+        "dake",
+        "shika"
+      ],
+      "explanationFr": "だけ limite directement. しか exige une négation et présente ce qui reste comme seule possibilité. Le choix peut ajouter une impression de manque, selon le contexte.",
+      "examples": [
+        {
+          "ja": "千円しかありません。",
+          "reading": "せんえんしかありません。",
+          "fr": "Je n’ai que mille yens.",
+          "origin": "Original example composed for this research; not a copied source example"
+        }
+      ],
+      "prerequisites": [
+        "grammar-polite-nonpast"
+      ],
+      "sources": [
+        {
+          "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/095.html",
+          "title": "TUFS Japanese grammar: 副助詞",
+          "publisher": "Tokyo University of Foreign Studies",
+          "checkedAt": "12 October 2026",
+          "license": "No open license verified",
+          "reuse": "Copyright retained by publisher. Link and original paraphrase only; no full lesson, illustration or audio copied."
+        }
+      ],
+      "status": "reviewed",
+      "reviewScope": "Source checked and original editorial review; no native-speaker validation or learner mastery claimed",
+      "frenchLearnerTrap": "",
+      "contrastFr": "",
+      "oralPromptFr": "Dis que tu n’as que mille yens.",
+      "createdAt": "12 October 2026",
+      "learnerState": "not-assessed"
+    },
+    {
+      "id": "grammar-final-particles",
+      "title": "よ et ね : relation à l’interlocuteur",
+      "domain": "grammar",
+      "level": "N5",
+      "levelBasis": "Editorial estimate, not an official JLPT item allocation",
+      "aliases": [
+        "yo",
+        "ne",
+        "aizuchi"
+      ],
+      "explanationFr": "よ présente notamment une information à l’attention de l’autre; ね recherche ou marque un partage, une confirmation ou une appréciation. L’intonation et la relation changent l’effet.",
+      "examples": [
+        {
+          "ja": "この店は静かですね。",
+          "reading": "このみせはしずかですね。",
+          "fr": "Cet endroit est calme, n’est-ce pas ?",
+          "origin": "Original example composed for this research; not a copied source example"
+        }
+      ],
+      "prerequisites": [
+        "grammar-copula"
+      ],
+      "sources": [
+        {
+          "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/096.html",
+          "title": "TUFS Japanese grammar: 終助詞",
+          "publisher": "Tokyo University of Foreign Studies",
+          "checkedAt": "12 October 2026",
+          "license": "No open license verified",
+          "reuse": "Copyright retained by publisher. Link and original paraphrase only; no full lesson, illustration or audio copied."
+        }
+      ],
+      "status": "reviewed",
+      "reviewScope": "Source checked and original editorial review; no native-speaker validation or learner mastery claimed",
+      "frenchLearnerTrap": "Ce ne sont pas de simples décorations de fin de phrase.",
+      "contrastFr": "",
+      "oralPromptFr": "Partage une observation sur un endroit calme.",
+      "createdAt": "12 October 2026",
+      "learnerState": "not-assessed"
+    },
+    {
+      "id": "grammar-honorific",
+      "title": "敬語 : qui parle de qui à qui ?",
+      "domain": "grammar",
+      "level": "N3",
+      "levelBasis": "Editorial estimate, not an official JLPT item allocation",
+      "aliases": [
+        "keigo",
+        "sonkeigo",
+        "kenjougo"
+      ],
+      "explanationFr": "Distinguer la politesse envers l’auditeur, l’élévation de la personne décrite et l’abaissement de sa propre action envers autrui. Le groupe interne ou externe à la situation influence le choix.",
+      "examples": [
+        {
+          "ja": "先生はもういらっしゃいました。",
+          "reading": "せんせいはもういらっしゃいました。",
+          "fr": "Le professeur est déjà arrivé.",
+          "origin": "Original example composed for this research; not a copied source example"
+        }
+      ],
+      "prerequisites": [
+        "grammar-polite-nonpast"
+      ],
+      "sources": [
+        {
+          "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/092.html",
+          "title": "TUFS Japanese grammar: 敬語",
+          "publisher": "Tokyo University of Foreign Studies",
+          "checkedAt": "12 October 2026",
+          "license": "No open license verified",
+          "reuse": "Copyright retained by publisher. Link and original paraphrase only; no full lesson, illustration or audio copied."
+        }
+      ],
+      "status": "reviewed",
+      "reviewScope": "Source checked and original editorial review; no native-speaker validation or learner mastery claimed",
+      "frenchLearnerTrap": "",
+      "contrastFr": "",
+      "oralPromptFr": "Annonce poliment l’arrivée d’un professeur.",
+      "createdAt": "12 October 2026",
+      "learnerState": "not-assessed"
+    },
+    {
+      "id": "grammar-wake",
+      "title": "わけだ : une conclusion qui s’explique",
+      "domain": "grammar",
+      "level": "N3",
+      "levelBasis": "Editorial estimate, not an official JLPT item allocation",
+      "aliases": [
+        "wake da"
+      ],
+      "explanationFr": "わけだ relie un fait à une explication logique: après avoir appris une information, on comprend pourquoi une situation observée existe. Il se distingue d’une simple prédiction très probable en はずだ.",
+      "examples": [
+        {
+          "ja": "十年住んでいるんですね。日本語が上手なわけです。",
+          "reading": "じゅうねんすんでいるんですね。にほんごがじょうずなわけです。",
+          "fr": "Vous y vivez depuis dix ans. Cela explique votre bon japonais.",
+          "origin": "Original example composed for this research; not a copied source example"
+        }
+      ],
+      "prerequisites": [
+        "grammar-result-state"
+      ],
+      "sources": [
+        {
+          "url": "https://imabi.org/%E3%82%8F%E3%81%91%E3%81%A0/",
+          "title": "わけだ",
+          "publisher": "Seth Coonrod, IMABI",
+          "checkedAt": "12 October 2026",
+          "license": "No open license verified",
+          "reuse": "Copyright retained by publisher. Link and original paraphrase only; no full lesson, illustration or audio copied."
+        }
+      ],
+      "status": "reviewed",
+      "reviewScope": "Source checked and original editorial review; no native-speaker validation or learner mastery claimed",
+      "frenchLearnerTrap": "",
+      "contrastFr": "",
+      "oralPromptFr": "Explique pourquoi quelqu’un parle bien après dix ans sur place.",
+      "createdAt": "12 October 2026",
+      "learnerState": "not-assessed"
+    },
+    {
+      "id": "grammar-wari",
+      "title": "わりに : résultat inattendu par rapport au degré",
+      "domain": "grammar",
+      "level": "N3",
+      "levelBasis": "Editorial estimate, not an official JLPT item allocation",
+      "aliases": [
+        "wari ni"
+      ],
+      "explanationFr": "わりに compare un résultat à ce que l’on attend d’un état ou d’une caractéristique. Après un nom, employer のわりに. La comparaison peut porter sur une qualité générale.",
+      "examples": [
+        {
+          "ja": "この部屋は広いわりに、家賃が安いです。",
+          "reading": "このへやはひろいわりに、やちんがやすいです。",
+          "fr": "Le loyer est bas pour une pièce aussi grande.",
+          "origin": "Original example composed for this research; not a copied source example"
+        }
+      ],
+      "prerequisites": [
+        "grammar-i-adjectives"
+      ],
+      "sources": [
+        {
+          "url": "https://imabi.org/considering-%E3%82%8F%E3%82%8A%E3%81%AB%EF%BC%88%E3%81%AF%EF%BC%89-%E3%81%AB%E3%81%97%E3%81%A6%E3%81%AF/",
+          "title": "Considering: わりに（は） & にしては",
+          "publisher": "Seth Coonrod, IMABI",
+          "checkedAt": "12 October 2026",
+          "license": "No open license verified",
+          "reuse": "Copyright retained by publisher. Link and original paraphrase only; no full lesson, illustration or audio copied."
+        }
+      ],
+      "status": "reviewed",
+      "reviewScope": "Source checked and original editorial review; no native-speaker validation or learner mastery claimed",
+      "frenchLearnerTrap": "",
+      "contrastFr": "",
+      "oralPromptFr": "Compare une grande pièce à son loyer étonnamment bas.",
+      "createdAt": "12 October 2026",
+      "learnerState": "not-assessed"
+    },
+    {
+      "id": "grammar-nishitewa",
+      "title": "にしては : compte tenu d’un repère concret",
+      "domain": "grammar",
+      "level": "N3",
+      "levelBasis": "Editorial estimate, not an official JLPT item allocation",
+      "aliases": [
+        "ni shite wa"
+      ],
+      "explanationFr": "にしては confronte une personne, un montant ou une situation bien définie à une attente. Il ne suit pas directement un adjectif en い pour exprimer son degré; comparer alors avec わりに.",
+      "examples": [
+        {
+          "ja": "初めてにしては、上手にできました。",
+          "reading": "はじめてにしては、じょうずにできました。",
+          "fr": "Pour une première fois, c’est bien réussi.",
+          "origin": "Original example composed for this research; not a copied source example"
+        }
+      ],
+      "prerequisites": [
+        "grammar-wari"
+      ],
+      "sources": [
+        {
+          "url": "https://imabi.org/considering-%E3%82%8F%E3%82%8A%E3%81%AB%EF%BC%88%E3%81%AF%EF%BC%89-%E3%81%AB%E3%81%97%E3%81%A6%E3%81%AF/",
+          "title": "Considering: わりに（は） & にしては",
+          "publisher": "Seth Coonrod, IMABI",
+          "checkedAt": "12 October 2026",
+          "license": "No open license verified",
+          "reuse": "Copyright retained by publisher. Link and original paraphrase only; no full lesson, illustration or audio copied."
+        }
+      ],
+      "status": "reviewed",
+      "reviewScope": "Source checked and original editorial review; no native-speaker validation or learner mastery claimed",
+      "frenchLearnerTrap": "",
+      "contrastFr": "",
+      "oralPromptFr": "Commente une première tentative réussie.",
+      "createdAt": "12 October 2026",
+      "learnerState": "not-assessed"
+    },
+    {
+      "id": "grammar-monono",
+      "title": "ものの : concéder sans résultat attendu",
+      "domain": "grammar",
+      "level": "N2",
+      "levelBasis": "Editorial estimate, not an official JLPT item allocation",
+      "aliases": [
+        "mono no"
+      ],
+      "explanationFr": "ものの reconnaît la première proposition tout en présentant une suite qui déçoit ou limite l’attente. Il est fréquent dans l’écrit et le discours construit.",
+      "examples": [
+        {
+          "ja": "予約したものの、まだ確認のメールが来ません。",
+          "reading": "よやくしたものの、まだかくにんのめーるがきません。",
+          "fr": "Bien que j’aie réservé, je n’ai toujours pas reçu de confirmation.",
+          "origin": "Original example composed for this research; not a copied source example"
+        }
+      ],
+      "prerequisites": [
+        "grammar-concession-noni"
+      ],
+      "sources": [
+        {
+          "url": "https://imabi.org/combination-particles-with-%E3%82%82%E3%81%AE/",
+          "title": "Combination Particles with もの",
+          "publisher": "Seth Coonrod, IMABI",
+          "checkedAt": "12 October 2026",
+          "license": "No open license verified",
+          "reuse": "Copyright retained by publisher. Link and original paraphrase only; no full lesson, illustration or audio copied."
+        }
+      ],
+      "status": "reviewed",
+      "reviewScope": "Source checked and original editorial review; no native-speaker validation or learner mastery claimed",
+      "frenchLearnerTrap": "",
+      "contrastFr": "",
+      "oralPromptFr": "Explique une réservation sans confirmation.",
+      "createdAt": "12 October 2026",
+      "learnerState": "not-assessed"
+    },
+    {
+      "id": "grammar-kaneru",
+      "title": "かねる : difficulté ou refus retenu",
+      "domain": "grammar",
+      "level": "N2",
+      "levelBasis": "Editorial estimate, not an official JLPT item allocation",
+      "aliases": [
+        "kaneru"
+      ],
+      "explanationFr": "Base de ます + かねる exprime une impossibilité ou une réticence selon le cas. Il sert souvent à refuser poliment dans un contexte formel; son emploi n’est pas identique à toute incapacité physique.",
+      "examples": [
+        {
+          "ja": "その質問には答えかねます。",
+          "reading": "そのしつもんにはこたえかねます。",
+          "fr": "Je ne suis pas en mesure de répondre à cette question.",
+          "origin": "Original example composed for this research; not a copied source example"
+        }
+      ],
+      "prerequisites": [
+        "grammar-potential"
+      ],
+      "sources": [
+        {
+          "url": "https://imabi.org/potential-iv/",
+          "title": "Potential IV",
+          "publisher": "Seth Coonrod, IMABI",
+          "checkedAt": "12 October 2026",
+          "license": "No open license verified",
+          "reuse": "Copyright retained by publisher. Link and original paraphrase only; no full lesson, illustration or audio copied."
+        }
+      ],
+      "status": "reviewed",
+      "reviewScope": "Source checked and original editorial review; no native-speaker validation or learner mastery claimed",
+      "frenchLearnerTrap": "",
+      "contrastFr": "",
+      "oralPromptFr": "Refuse poliment de répondre à une question.",
+      "createdAt": "12 October 2026",
+      "learnerState": "not-assessed"
+    },
+    {
+      "id": "grammar-kanenai",
+      "title": "かねない : un risque réel",
+      "domain": "grammar",
+      "level": "N2",
+      "levelBasis": "Editorial estimate, not an official JLPT item allocation",
+      "aliases": [
+        "kanenai"
+      ],
+      "explanationFr": "Base de ます + かねない envisage que quelque chose puisse se produire, surtout une conséquence regrettable. Malgré ない, l’ensemble exprime une possibilité, et non son absence.",
+      "examples": [
+        {
+          "ja": "このままでは、データが消えかねません。",
+          "reading": "このままでは、でーたがきえかねません。",
+          "fr": "À ce rythme, les données risquent de disparaître.",
+          "origin": "Original example composed for this research; not a copied source example"
+        }
+      ],
+      "prerequisites": [
+        "grammar-kaneru"
+      ],
+      "sources": [
+        {
+          "url": "https://imabi.org/potential-iv/",
+          "title": "Potential IV",
+          "publisher": "Seth Coonrod, IMABI",
+          "checkedAt": "12 October 2026",
+          "license": "No open license verified",
+          "reuse": "Copyright retained by publisher. Link and original paraphrase only; no full lesson, illustration or audio copied."
+        }
+      ],
+      "status": "reviewed",
+      "reviewScope": "Source checked and original editorial review; no native-speaker validation or learner mastery claimed",
+      "frenchLearnerTrap": "Ne pas traduire par « ne peut pas ».",
+      "contrastFr": "",
+      "oralPromptFr": "Signale un risque de perte des données.",
+      "createdAt": "12 October 2026",
+      "learnerState": "not-assessed"
+    },
+    {
+      "id": "grammar-zaru",
+      "title": "ざるを得ない : ne pas avoir le choix",
+      "domain": "grammar",
+      "level": "N2",
+      "levelBasis": "Editorial estimate, not an official JLPT item allocation",
+      "aliases": [
+        "zaru o enai"
+      ],
+      "explanationFr": "La base négative sans ない + ざるを得ない indique une nécessité imposée malgré la préférence du sujet. する donne せざるを得ない. La formulation est plus soutenue que しかない.",
+      "examples": [
+        {
+          "ja": "予定を変更せざるを得ません。",
+          "reading": "よていをへんこうせざるをえません。",
+          "fr": "Nous sommes contraints de modifier le programme.",
+          "origin": "Original example composed for this research; not a copied source example"
+        }
+      ],
+      "prerequisites": [
+        "grammar-verb-groups",
+        "grammar-only"
+      ],
+      "sources": [
+        {
+          "url": "https://imabi.org/%EF%BD%9E%E3%81%96%E3%82%8B%E3%82%92%E5%BE%97%E3%81%AA%E3%81%84-%E3%82%84%E3%82%80%E3%82%92%E5%BE%97%E3%81%AA%E3%81%84/",
+          "title": "～ざるを得ない & やむを得ない",
+          "publisher": "Seth Coonrod, IMABI",
+          "checkedAt": "12 October 2026",
+          "license": "No open license verified",
+          "reuse": "Copyright retained by publisher. Link and original paraphrase only; no full lesson, illustration or audio copied."
+        }
+      ],
+      "status": "reviewed",
+      "reviewScope": "Source checked and original editorial review; no native-speaker validation or learner mastery claimed",
+      "frenchLearnerTrap": "",
+      "contrastFr": "",
+      "oralPromptFr": "Annonce un changement imposé par les circonstances.",
+      "createdAt": "12 October 2026",
+      "learnerState": "not-assessed"
+    },
+    {
+      "id": "grammar-totan",
+      "title": "たとたんに : au moment même où",
+      "domain": "grammar",
+      "level": "N2",
+      "levelBasis": "Editorial estimate, not an official JLPT item allocation",
+      "aliases": [
+        "totan ni"
+      ],
+      "explanationFr": "La forme passée + とたんに souligne une succession immédiate, souvent une conséquence soudaine. Comparer や否や, plus écrit et pouvant évoquer une action prête à se déclencher.",
+      "examples": [
+        {
+          "ja": "ドアを開けたとたんに、風が入ってきました。",
+          "reading": "どあをあけたとたんに、かぜがはいってきました。",
+          "fr": "Au moment où j’ai ouvert la porte, le vent est entré.",
+          "origin": "Original example composed for this research; not a copied source example"
+        }
+      ],
+      "prerequisites": [
+        "grammar-te-form"
+      ],
+      "sources": [
+        {
+          "url": "https://www.jpf.go.jp/j/project/japanese/teach/tsushin/grammar/200906.html",
+          "title": "文法を楽しく: とたん（に）とや否や",
+          "publisher": "The Japan Foundation",
+          "checkedAt": "12 October 2026",
+          "license": "No open license verified",
+          "reuse": "Copyright retained by publisher. Link and original paraphrase only; no full lesson, illustration or audio copied."
+        }
+      ],
+      "status": "reviewed",
+      "reviewScope": "Source checked and original editorial review; no native-speaker validation or learner mastery claimed",
+      "frenchLearnerTrap": "",
+      "contrastFr": "",
+      "oralPromptFr": "Raconte un vent soudain après l’ouverture d’une porte.",
+      "createdAt": "12 October 2026",
+      "learnerState": "not-assessed"
+    },
+    {
+      "id": "grammar-yainaya",
+      "title": "や否や : à peine une action survenue",
+      "domain": "grammar",
+      "level": "N1",
+      "levelBasis": "Editorial estimate, not an official JLPT item allocation",
+      "aliases": [
+        "ya inaya"
+      ],
+      "explanationFr": "Verbe de dictionnaire + や否や décrit une succession immédiate dans un registre surtout écrit. Il peut donner l’impression que la suite attendait le déclencheur. Ne pas réduire la nuance à un simple すぐ.",
+      "examples": [
+        {
+          "ja": "知らせを聞くや否や、彼は出発しました。",
+          "reading": "しらせをきくやいなや、かれはしゅっぱつしました。",
+          "fr": "À peine a-t-il entendu la nouvelle qu’il est parti.",
+          "origin": "Original example composed for this research; not a copied source example"
+        }
+      ],
+      "prerequisites": [
+        "grammar-totan"
+      ],
+      "sources": [
+        {
+          "url": "https://www.jpf.go.jp/j/project/japanese/teach/tsushin/grammar/200906.html",
+          "title": "文法を楽しく: とたん（に）とや否や",
+          "publisher": "The Japan Foundation",
+          "checkedAt": "12 October 2026",
+          "license": "No open license verified",
+          "reuse": "Copyright retained by publisher. Link and original paraphrase only; no full lesson, illustration or audio copied."
+        }
+      ],
+      "status": "reviewed",
+      "reviewScope": "Source checked and original editorial review; no native-speaker validation or learner mastery claimed",
+      "frenchLearnerTrap": "",
+      "contrastFr": "",
+      "oralPromptFr": "Raconte un départ immédiat après une nouvelle.",
+      "createdAt": "12 October 2026",
+      "learnerState": "not-assessed"
+    },
+    {
+      "id": "grammar-toiedomo",
+      "title": "といえども : même une exception apparente",
+      "domain": "grammar",
+      "level": "N1",
+      "levelBasis": "Editorial estimate, not an official JLPT item allocation",
+      "aliases": [
+        "to iedomo"
+      ],
+      "explanationFr": "といえども concède un statut ou un fait sans lui permettre d’annuler ce qui suit. Sa couleur est soutenue et parfois ancienne; dans une conversation ordinaire, une paraphrase plus simple peut convenir.",
+      "examples": [
+        {
+          "ja": "専門家といえども、間違えることはあります。",
+          "reading": "せんもんかといえども、まちがえることはあります。",
+          "fr": "Même un spécialiste peut se tromper.",
+          "origin": "Original example composed for this research; not a copied source example"
+        }
+      ],
+      "prerequisites": [
+        "grammar-concessive-temo"
+      ],
+      "sources": [
+        {
+          "url": "https://imabi.org/the-particles-%E3%81%A9%E3%82%82-%E3%81%A0%E3%81%AE/",
+          "title": "The Particles ども, とも, & たりとも",
+          "publisher": "Seth Coonrod, IMABI",
+          "checkedAt": "12 October 2026",
+          "license": "No open license verified",
+          "reuse": "Copyright retained by publisher. Link and original paraphrase only; no full lesson, illustration or audio copied."
+        }
+      ],
+      "status": "reviewed",
+      "reviewScope": "Source checked and original editorial review; no native-speaker validation or learner mastery claimed",
+      "frenchLearnerTrap": "",
+      "contrastFr": "",
+      "oralPromptFr": "Reconnais que même un expert peut se tromper.",
+      "createdAt": "12 October 2026",
+      "learnerState": "not-assessed"
+    },
+    {
+      "id": "grammar-itaru",
+      "title": "に至るまで : étendre jusqu’au détail",
+      "domain": "grammar",
+      "level": "N1",
+      "levelBasis": "Editorial estimate, not an official JLPT item allocation",
+      "aliases": [
+        "ni itaru made"
+      ],
+      "explanationFr": "Nom + に至るまで porte la portée d’un ensemble jusqu’à une borne ou un détail remarquable. Le registre est construit; il ne remplace pas mécaniquement tous les emplois de まで.",
+      "examples": [
+        {
+          "ja": "道具から小さな部品に至るまで、すべて確認しました。",
+          "reading": "どうぐからちいさなぶひんにいたるまで、すべてかくにんしました。",
+          "fr": "Nous avons tout vérifié, des outils aux petites pièces.",
+          "origin": "Original example composed for this research; not a copied source example"
+        }
+      ],
+      "prerequisites": [
+        "grammar-case-particles"
+      ],
+      "sources": [
+        {
+          "url": "https://imabi.org/defining-parameter/",
+          "title": "Defining Parameter",
+          "publisher": "Seth Coonrod, IMABI",
+          "checkedAt": "12 October 2026",
+          "license": "No open license verified",
+          "reuse": "Copyright retained by publisher. Link and original paraphrase only; no full lesson, illustration or audio copied."
+        }
+      ],
+      "status": "reviewed",
+      "reviewScope": "Source checked and original editorial review; no native-speaker validation or learner mastery claimed",
+      "frenchLearnerTrap": "",
+      "contrastFr": "",
+      "oralPromptFr": "Décris un contrôle qui va jusqu’aux petites pièces.",
+      "createdAt": "12 October 2026",
+      "learnerState": "not-assessed"
+    },
+    {
+      "id": "grammar-yoginaku",
+      "title": "を余儀なくされる : contrainte subie",
+      "domain": "grammar",
+      "level": "N1",
+      "levelBasis": "Editorial estimate, not an official JLPT item allocation",
+      "aliases": [
+        "o yoginaku sareru"
+      ],
+      "explanationFr": "Nom d’action + を余儀なくされる présente une action imposée par des circonstances. La personne ou l’organisation touchée est le sujet; la cause de la contrainte se formule à part.",
+      "examples": [
+        {
+          "ja": "大雨のため、旅行の中止を余儀なくされました。",
+          "reading": "おおあめのため、りょこうのちゅうしをよぎなくされました。",
+          "fr": "Les fortes pluies nous ont contraints à annuler le voyage.",
+          "origin": "Original example composed for this research; not a copied source example"
+        }
+      ],
+      "prerequisites": [
+        "grammar-zaru"
+      ],
+      "sources": [
+        {
+          "url": "https://www.mlcjapanese.co.jp/n1_04_07.html",
+          "title": "JLPT N1: を余儀なくされる",
+          "publisher": "MLC Meguro Language Center",
+          "checkedAt": "12 October 2026",
+          "license": "No open license verified",
+          "reuse": "Copyright retained by publisher. Link and original paraphrase only; no full lesson, illustration or audio copied."
+        }
+      ],
+      "status": "reviewed",
+      "reviewScope": "Source checked and original editorial review; no native-speaker validation or learner mastery claimed",
+      "frenchLearnerTrap": "",
+      "contrastFr": "",
+      "oralPromptFr": "Annonce une annulation imposée par de fortes pluies.",
+      "createdAt": "12 October 2026",
+      "learnerState": "not-assessed"
+    },
+    {
+      "id": "grammar-mademonai",
+      "title": "までもない : inutile d’aller jusque-là",
+      "domain": "grammar",
+      "level": "N1",
+      "levelBasis": "Editorial estimate, not an official JLPT item allocation",
+      "aliases": [
+        "made mo nai"
+      ],
+      "explanationFr": "Verbe de dictionnaire + までもない indique que l’action n’est pas nécessaire. 言うまでもない et 言うまでもなく servent à présenter une évidence, selon leur place dans la phrase.",
+      "examples": [
+        {
+          "ja": "もう分かりました。説明するまでもありません。",
+          "reading": "もうわかりました。せつめいするまでもありません。",
+          "fr": "J’ai compris. Il n’est pas nécessaire d’expliquer.",
+          "origin": "Original example composed for this research; not a copied source example"
+        }
+      ],
+      "prerequisites": [
+        "grammar-verb-groups"
+      ],
+      "sources": [
+        {
+          "url": "https://www.mlcjapanese.co.jp/n1_04_11.html",
+          "title": "JLPT N1: までもない",
+          "publisher": "MLC Meguro Language Center",
+          "checkedAt": "12 October 2026",
+          "license": "No open license verified",
+          "reuse": "Copyright retained by publisher. Link and original paraphrase only; no full lesson, illustration or audio copied."
+        }
+      ],
+      "status": "reviewed",
+      "reviewScope": "Source checked and original editorial review; no native-speaker validation or learner mastery claimed",
+      "frenchLearnerTrap": "",
+      "contrastFr": "",
+      "oralPromptFr": "Dis qu’une explication supplémentaire n’est pas nécessaire.",
+      "createdAt": "12 October 2026",
+      "learnerState": "not-assessed"
+    },
+    {
+      "id": "grammar-womotte-means",
+      "title": "をもって : moyen dans un registre formel",
+      "domain": "grammar",
+      "level": "N1",
+      "levelBasis": "Editorial estimate, not an official JLPT item allocation",
+      "aliases": [
+        "wo motte",
+        "moyen formel"
+      ],
+      "explanationFr": "Nom + をもって présente un moyen, un fondement ou une ressource dans une formulation officielle. Ne pas en faire le remplacement courant de で pour les transports, le téléphone ou les objets ordinaires.",
+      "examples": [
+        {
+          "ja": "書面をもって結果を通知します。",
+          "reading": "しょめんをもってけっかをつうちします。",
+          "fr": "Nous communiquerons le résultat par écrit.",
+          "origin": "Original example composed for this research; not a copied source example"
+        }
+      ],
+      "prerequisites": [
+        "grammar-case-particles"
+      ],
+      "sources": [
+        {
+          "url": "https://www.mlcjapanese.co.jp/img/omotte_n1_answer.pdf",
+          "title": "N1: をもって, answer notes",
+          "publisher": "MLC Meguro Language Center",
+          "checkedAt": "12 October 2026",
+          "license": "No open license verified",
+          "reuse": "Copyright retained by publisher. Link and original paraphrase only; no full lesson, illustration or audio copied."
+        }
+      ],
+      "status": "reviewed",
+      "reviewScope": "Source checked and original editorial review; no native-speaker validation or learner mastery claimed",
+      "frenchLearnerTrap": "",
+      "contrastFr": "",
+      "oralPromptFr": "Annonce une notification officielle par écrit.",
+      "createdAt": "12 October 2026",
+      "learnerState": "not-assessed"
+    },
+    {
+      "id": "method-can-do",
+      "title": "Apprendre avec un résultat concret",
+      "domain": "methodology",
+      "level": "all",
+      "levelBasis": "Cross-level capability or beyond-JLPT domain",
+      "aliases": [
+        "Can-do",
+        "tâche"
+      ],
+      "explanationFr": "Définir ce que l’on veut réussir dans une situation: obtenir un billet, expliquer un retard, relancer une discussion. La grammaire sert cet acte; une leçon réussie finit par une réalisation observable.",
+      "examples": [
+        {
+          "ja": "もう一度、ゆっくりお願いします。",
+          "reading": "もういちど、ゆっくりおねがいします。",
+          "fr": "Encore une fois, lentement, s’il vous plaît.",
+          "origin": "Original example composed for this research; not a copied source example"
+        }
+      ],
+      "prerequisites": [],
+      "sources": [
+        {
+          "url": "https://www.irodori.jpf.go.jp/assets/data/resources/Grammar_Worksheets_Answer.pdf",
+          "title": "How to Use Grammar Worksheets",
+          "publisher": "The Japan Foundation",
+          "checkedAt": "12 October 2026",
+          "license": "No open license verified",
+          "reuse": "Copyright retained by publisher. Link and original paraphrase only; no full lesson, illustration or audio copied."
+        }
+      ],
+      "status": "reviewed",
+      "reviewScope": "Source checked and original editorial review; no native-speaker validation or learner mastery claimed",
+      "frenchLearnerTrap": "",
+      "contrastFr": "",
+      "oralPromptFr": "Obtiens une répétition plus lente dans un échange simulé.",
+      "createdAt": "12 October 2026",
+      "learnerState": "not-assessed"
+    },
+    {
+      "id": "method-retrieval",
+      "title": "Rappeler sans regarder, puis corriger",
+      "domain": "methodology",
+      "level": "all",
+      "levelBasis": "Cross-level capability or beyond-JLPT domain",
+      "aliases": [
+        "récupération active",
+        "retest"
+      ],
+      "explanationFr": "Une restitution avant de revoir la réponse révèle les oublis. Une expérience sur des textes montre un bénéfice des tests différés; l’application au japonais est une décision pédagogique, non la preuve d’un calendrier magique.",
+      "examples": [
+        {
+          "ja": "昨日、何をしましたか。",
+          "reading": "きのう、なにをしましたか。",
+          "fr": "Qu’avez-vous fait hier ?",
+          "origin": "Original example composed for this research; not a copied source example"
+        }
+      ],
+      "prerequisites": [],
+      "sources": [
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/16507066/",
+          "title": "Test-enhanced learning: taking memory tests improves long-term retention",
+          "publisher": "Roediger & Karpicke, Psychological Science, 2006",
+          "checkedAt": "12 October 2026",
+          "license": "No open license verified",
+          "reuse": "Copyright retained by publisher. Link and original paraphrase only; no full lesson, illustration or audio copied."
+        }
+      ],
+      "status": "reviewed",
+      "reviewScope": "Source checked and original editorial review; no native-speaker validation or learner mastery claimed",
+      "frenchLearnerTrap": "",
+      "contrastFr": "",
+      "oralPromptFr": "Sans modèle, dis trois actions d’hier; regarde ensuite la correction.",
+      "createdAt": "12 October 2026",
+      "learnerState": "not-assessed"
+    },
+    {
+      "id": "method-jlpt-scope",
+      "title": "N1 reste un niveau de compréhension évaluée",
+      "domain": "curriculum",
+      "level": "all",
+      "levelBasis": "Cross-level capability or beyond-JLPT domain",
+      "aliases": [
+        "limites JLPT",
+        "lecture",
+        "écoute"
+      ],
+      "explanationFr": "Les niveaux officiels décrivent surtout lecture et écoute. N1 inclut textes complexes et discours à vitesse naturelle. Le diplôme ne mesure pas directement toute l’aisance orale, l’écriture ni une spécialité professionnelle.",
+      "examples": [
+        {
+          "ja": "この文章の結論は何ですか。",
+          "reading": "このぶんしょうのけつろんはなんですか。",
+          "fr": "Quelle est la conclusion de ce texte ?",
+          "origin": "Original example composed for this research; not a copied source example"
+        }
+      ],
+      "prerequisites": [],
+      "sources": [
+        {
+          "url": "https://www.jlpt.jp/sp/e/about/levelsummary.html",
+          "title": "N1-N5: Summary of Linguistic Competence Required for Each Level",
+          "publisher": "The Japan Foundation and JEES",
+          "checkedAt": "12 October 2026",
+          "license": "No open license verified",
+          "reuse": "Copyright retained by publisher. Link and original paraphrase only; no full lesson, illustration or audio copied."
+        },
+        {
+          "url": "https://www.jlpt.jp/sp/e/faq/",
+          "title": "JLPT FAQ",
+          "publisher": "The Japan Foundation and JEES",
+          "checkedAt": "12 October 2026",
+          "license": "No open license verified",
+          "reuse": "Copyright retained by publisher. Link and original paraphrase only; no full lesson, illustration or audio copied."
+        }
+      ],
+      "status": "reviewed",
+      "reviewScope": "Source checked and original editorial review; no native-speaker validation or learner mastery claimed",
+      "frenchLearnerTrap": "",
+      "contrastFr": "",
+      "oralPromptFr": "Sépare une réussite de lecture d’une réussite de conversation.",
+      "createdAt": "12 October 2026",
+      "learnerState": "not-assessed"
+    },
+    {
+      "id": "method-no-official-list",
+      "title": "Les listes N5 à N1 sont des repères éditoriaux",
+      "domain": "curriculum",
+      "level": "all",
+      "levelBasis": "Cross-level capability or beyond-JLPT domain",
+      "aliases": [
+        "couverture",
+        "niveau estimé"
+      ],
+      "explanationFr": "Le JLPT actuel ne publie pas de liste exhaustive officielle de grammaire, vocabulaire ou kanji. Un corpus peut classer des notions par difficulté, mais doit annoncer que cette allocation est estimée et garder ses lacunes visibles.",
+      "examples": [],
+      "prerequisites": [],
+      "sources": [
+        {
+          "url": "https://www.jlpt.jp/tw/reference/pdf/guidebook_s_e.pdf",
+          "title": "New JLPT Guidebook, FAQ about Test Content Specifications",
+          "publisher": "The Japan Foundation and JEES",
+          "checkedAt": "12 October 2026",
+          "license": "No open license verified",
+          "reuse": "Copyright retained by publisher. Link and original paraphrase only; no full lesson, illustration or audio copied."
+        }
+      ],
+      "status": "reviewed",
+      "reviewScope": "Source checked and original editorial review; no native-speaker validation or learner mastery claimed",
+      "frenchLearnerTrap": "",
+      "contrastFr": "",
+      "oralPromptFr": "",
+      "createdAt": "12 October 2026",
+      "learnerState": "not-assessed"
+    },
+    {
+      "id": "beyond-keigo-five",
+      "title": "Au-delà du raccourci « trois keigo »",
+      "domain": "pragmatics",
+      "level": "beyond-N1",
+      "levelBasis": "Cross-level capability or beyond-JLPT domain",
+      "aliases": [
+        "keigo cinq catégories",
+        "humilité I",
+        "humilité II"
+      ],
+      "explanationFr": "Les directives officielles distinguent 尊敬語, 謙譲語I, 謙譲語II (丁重語), 丁寧語 et 美化語. Apprendre qui est honoré et envers qui l’action est présentée avant de mémoriser une formule.",
+      "examples": [
+        {
+          "ja": "明日、伺います。",
+          "reading": "あした、うかがいます。",
+          "fr": "Je viendrai vous rendre visite demain.",
+          "origin": "Original example composed for this research; not a copied source example"
+        }
+      ],
+      "prerequisites": [
+        "grammar-honorific"
+      ],
+      "sources": [
+        {
+          "url": "https://www.bunka.go.jp/seisaku/bunkashingikai/kokugo/hokoku/pdf/keigo_tosin.pdf",
+          "title": "敬語の指針",
+          "publisher": "Agency for Cultural Affairs, Council for Cultural Affairs",
+          "checkedAt": "12 October 2026",
+          "license": "No open license verified",
+          "reuse": "Copyright retained by publisher. Link and original paraphrase only; no full lesson, illustration or audio copied."
+        }
+      ],
+      "status": "reviewed",
+      "reviewScope": "Source checked and original editorial review; no native-speaker validation or learner mastery claimed",
+      "frenchLearnerTrap": "",
+      "contrastFr": "",
+      "oralPromptFr": "Identifie la personne respectée dans une visite annoncée avec 伺う.",
+      "createdAt": "12 October 2026",
+      "learnerState": "not-assessed"
+    },
+    {
+      "id": "beyond-register-choice",
+      "title": "Choisir son registre selon la relation",
+      "domain": "pragmatics",
+      "level": "beyond-N1",
+      "levelBasis": "Cross-level capability or beyond-JLPT domain",
+      "aliases": [
+        "relation",
+        "registre",
+        "pragmatique"
+      ],
+      "explanationFr": "Les directives sur le keigo placent le respect mutuel et le choix lié à la situation au centre. Le registre dépend des personnes et de la scène; il ne se réduit pas à augmenter mécaniquement la longueur des phrases.",
+      "examples": [
+        {
+          "ja": "少しお時間をいただけますか。",
+          "reading": "すこしおじかんをいただけますか。",
+          "fr": "Pourriez-vous m’accorder un peu de temps ?",
+          "origin": "Original example composed for this research; not a copied source example"
+        }
+      ],
+      "prerequisites": [
+        "grammar-honorific"
+      ],
+      "sources": [
+        {
+          "url": "https://www.bunka.go.jp/seisaku/kokugo_nihongo/kokugo_shisaku/keigo/chapter1/detail.html",
+          "title": "敬語の心得: understanding check",
+          "publisher": "Agency for Cultural Affairs",
+          "checkedAt": "12 October 2026",
+          "license": "No open license verified",
+          "reuse": "Copyright retained by publisher. Link and original paraphrase only; no full lesson, illustration or audio copied."
+        }
+      ],
+      "status": "reviewed",
+      "reviewScope": "Source checked and original editorial review; no native-speaker validation or learner mastery claimed",
+      "frenchLearnerTrap": "",
+      "contrastFr": "",
+      "oralPromptFr": "Demande du temps à un collègue proche puis à un client.",
+      "createdAt": "12 October 2026",
+      "learnerState": "not-assessed"
+    }
+  ],
+  "coverageGaps": [
+    "No exhaustive N1 grammar curriculum proven.",
+    "No complete vocabulary or kanji corpus supplied.",
+    "No learner mastery asserted.",
+    "Examples have editorial review but no native-speaker recording or independent validation.",
+    "No French-speaker comparative phonetics experiment performed.",
+    "Reading, writing and listening need authentic source tasks beyond these example sentences."
+  ]
+}

@@ -1,0 +1,822 @@
+{
+  "createdAt": "12 October 2026",
+  "sourceCount": 102,
+  "sources": [
+    {
+      "index": 114,
+      "url": "https://imabi.org/whenever-%e6%af%8e%ef%bd%9e-%ef%bd%9e%e6%af%8e%e3%81%ab-%ef%bd%9e%e3%81%8a%e3%81%8d%e3%81%ab/",
+      "title": "第108課: 毎～, ～ごとに, & ～おきに",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 115,
+      "url": "https://imabi.org/might-%e3%81%8b%e3%82%82%e3%81%97%e3%82%8c%e3%81%aa%e3%81%84/",
+      "title": "Might: かもしれない",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 119,
+      "url": "https://imabi.org/the-auxiliary-verb-%ef%bd%9e%e3%81%8c%e3%82%8b/",
+      "title": "The Auxiliary Verb ～がる",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 123,
+      "url": "https://imabi.org/expressions-with-%e3%81%93%e3%81%a8/",
+      "title": "Expressions with こと",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 124,
+      "url": "https://imabi.org/the-scope-marker-%ef%bd%9e%e3%81%ae%e3%81%a0/",
+      "title": "The Scope Marker ～のだ",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 126,
+      "url": "https://imabi.org/the-particle-%e3%81%aa%e3%81%8c%e3%82%89-i-simultaneous-action/",
+      "title": "The Particle ながら",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 131,
+      "url": "https://imabi.org/easy-i-%ef%bd%9e%e3%82%84%e3%81%99%e3%81%84/",
+      "title": "Easy I: ～やすい",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 132,
+      "url": "https://imabi.org/difficult-i-%ef%bd%9e%e3%81%ab%e3%81%8f%e3%81%84/",
+      "title": "Difficult I: ～にくい",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 133,
+      "url": "https://imabi.org/too-%ef%bd%9e%e3%81%99%e3%81%8e%e3%82%8b/",
+      "title": "Too: ～すぎる",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 134,
+      "url": "https://imabi.org/the-verbs-%e7%b6%9a%e3%81%8f-%ef%bc%86-%e7%b6%9a%e3%81%91%e3%82%8b/",
+      "title": "Continue: ～続ける",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 144,
+      "url": "https://imabi.org/must/",
+      "title": "Must",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 149,
+      "url": "https://imabi.org/best-that/",
+      "title": "Best That: ～方 Patterns & ～に越したことはない",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 150,
+      "url": "https://imabi.org/%ef%bd%9e%e3%81%a6%e3%81%97%e3%81%be%e3%81%86/",
+      "title": "～てしまう",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 152,
+      "url": "https://imabi.org/%ef%bd%9e%e3%81%9f%e3%82%81%e3%81%ab-i-in-order-to/",
+      "title": "～ために I: In Order To",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 153,
+      "url": "https://imabi.org/due-to/",
+      "title": "～ために II: Due To",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 154,
+      "url": "https://imabi.org/so-that/",
+      "title": "～ように: So That",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 155,
+      "url": "https://imabi.org/%ef%bd%9e%e3%81%a8%e3%81%8a%e3%82%8a%e3%81%ab/",
+      "title": "～とおりに",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 157,
+      "url": "https://imabi.org/similarity/",
+      "title": "～ようだ & ～みたいだ",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 158,
+      "url": "https://imabi.org/%ef%bd%9e%e3%82%88%e3%81%86%e3%81%ab%e3%81%aa%e3%82%8b-%ef%bd%9e%e3%82%88%e3%81%86%e3%81%ab%e3%81%99%e3%82%8b/",
+      "title": "第152課: ～ようになる & ～ようにする",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 159,
+      "url": "https://imabi.org/the-auxiliary-%ef%bd%9e%e3%82%89%e3%81%97%e3%81%84/",
+      "title": "The Auxiliary ～らしい",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 160,
+      "url": "https://imabi.org/the-suffix-%ef%bd%9e%e3%81%a3%e3%81%bd%e3%81%84/",
+      "title": "第154課: The Suffix ～っぽい",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 161,
+      "url": "https://imabi.org/seem-%ef%bd%9e%e3%81%9d%e3%81%86%e3%81%a0/",
+      "title": "Seem: ～そうだ",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 162,
+      "url": "https://imabi.org/hearsay/",
+      "title": "Hearsay: ～そうだ",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 166,
+      "url": "https://imabi.org/the-passive/",
+      "title": "The Passive I",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 169,
+      "url": "https://imabi.org/the-causative-i-%ef%bd%9e%e3%81%95%e3%81%9b%e3%82%8b-%ef%bd%9e%e3%81%9b%e3%82%8b/",
+      "title": "The Causative I",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 170,
+      "url": "https://imabi.org/causative-passive/",
+      "title": "The Causative-Passive",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 173,
+      "url": "https://imabi.org/the-particle-%e3%81%a8%e3%81%8b/",
+      "title": "第167課: The Particle とか",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 175,
+      "url": "https://imabi.org/the-particles-%e3%81%bb%e3%81%a9-%e3%81%8f%e3%82%89%e3%81%84/",
+      "title": "The Particles ほど & くらい",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 178,
+      "url": "https://imabi.org/during-throughout/",
+      "title": "～中: During/Throughout",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 179,
+      "url": "https://imabi.org/try-ii/",
+      "title": "Try II: ～ようにする & ～ようとする",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 197,
+      "url": "https://imabi.org/citation-ii-%ef%bd%9e%e3%81%a8%e3%81%84%e3%81%86-%ef%bd%9e%e3%81%a8%e3%81%84%e3%81%86%e3%81%93%e3%81%a8-%ef%bd%9e%e3%81%a8%e3%81%84%e3%81%86%e3%82%82%e3%81%ae/",
+      "title": "～という, ということ, & というもの",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 199,
+      "url": "https://imabi.org/criticizing-%e3%81%8f%e3%81%9b%e3%81%ab%e3%83%bb%e3%81%8f%e3%81%9b%e3%81%97%e3%81%a6/",
+      "title": "第193課: Criticizing: くせに & くせして",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 200,
+      "url": "https://imabi.org/fix-error-%ef%bd%9e%e5%bf%98%e3%82%8c%e3%82%8b-%ef%bd%9e%e7%9b%b4%e3%81%99-%e9%96%93%e9%81%95%e3%81%88%e3%82%8b-%ef%bd%9e%e8%aa%a4%e3%82%8b/",
+      "title": "Fix/Error: ～忘れる, ～直す, ～間違える, & ～誤る",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 201,
+      "url": "https://imabi.org/used-to-together/",
+      "title": "Used to, Together, Completely: ～慣れる, ～合う・合わせる, & ～切る",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 204,
+      "url": "https://imabi.org/adjective-nominalization/",
+      "title": "Adjective Nominalization I: ～さ & ～み",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 206,
+      "url": "https://imabi.org/the-affix-%ef%bd%9e%e3%82%81/",
+      "title": "The Affix ～め",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 217,
+      "url": "https://imabi.org/the-adverbs-%e3%81%9b%e3%81%a3%e3%81%8b%e3%81%8f-%e3%82%8f%e3%81%96%e3%82%8f%e3%81%96/",
+      "title": "せっかく & わざわざ",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 229,
+      "url": "https://imabi.org/about-2/",
+      "title": "About: ～について, ～に関して, & ～をめぐって",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 230,
+      "url": "https://imabi.org/%e3%81%a0%e3%81%91%e3%81%ab%e3%83%bb%e3%81%a0%e3%81%91%ef%bc%88%e3%81%ae%e3%81%93%e3%81%a8%e3%81%af%ef%bc%89%e3%81%82%e3%81%a3%e3%81%a6/",
+      "title": "Given That: ～だけに・だけ（のことは）あって",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 241,
+      "url": "https://imabi.org/planning-%ef%bd%9e%e3%81%a4%e3%82%82%e3%82%8a%e3%81%a0/",
+      "title": "第???課: Planning: ～つもりだ",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 242,
+      "url": "https://imabi.org/planning-obligation/",
+      "title": "第235課: Should: ～はずだ",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 243,
+      "url": "https://imabi.org/obligation-%ef%bd%9e%e3%81%b9%e3%81%8d%e3%81%a0/",
+      "title": "第???課: Obligation: ～べきだ",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 245,
+      "url": "https://imabi.org/the-auxiliary-verb-%ef%bd%9e%e3%81%9a-i/",
+      "title": "The Auxiliary Verb ～ず I",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 258,
+      "url": "https://imabi.org/%e9%80%a3%e7%94%a8%e4%b8%ad%e6%ad%a2%e5%bd%a2/",
+      "title": "連用中止形",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 262,
+      "url": "https://imabi.org/the-particle-%e3%81%ae%e3%81%bf/",
+      "title": "The Particle のみ",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 263,
+      "url": "https://imabi.org/the-particle-%e3%81%93%e3%81%9d/",
+      "title": "The Particle こそ",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 266,
+      "url": "https://imabi.org/%e3%82%8f%e3%81%91%e3%81%a7%e3%81%af%e3%81%aa%e3%81%84-%e3%82%8f%e3%81%91%e3%81%8c%e3%81%aa%e3%81%84-%e3%82%8f%e3%81%91%e3%81%ab%e3%81%af%e3%81%84%e3%81%8b%e3%81%aa%e3%81%84/",
+      "title": "わけではない, わけがない, & わけにはいかない",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 268,
+      "url": "https://imabi.org/no-doubt-that/",
+      "title": "No Doubt that: ～に違いない & ～に相違ない",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 269,
+      "url": "https://imabi.org/based-on/",
+      "title": "Based on: ～に基づいて, ～を踏まえて, ～をもとにして, ～に沿って, ～に即して, & ～に則って",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 270,
+      "url": "https://imabi.org/after-ii/",
+      "title": "Since: ～てからというもの（は） , ～て以来, & ～てこのかた",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 271,
+      "url": "https://imabi.org/circumstance-%e5%a0%b4%e5%90%88-%ef%bd%9e%e3%81%ab%e5%82%99%e3%81%88%e3%81%a6/",
+      "title": "Circumstance: 場合 & ～に備えて",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 272,
+      "url": "https://imabi.org/whenever-ii-%ef%bd%9e%e5%ba%a6%e3%81%ab-%ef%bd%9e%e9%83%bd%e5%ba%a6%e3%80%80-%ef%bd%9e%e3%81%ab%e3%81%a4%e3%81%91/",
+      "title": "Whenever II: ～度, ～都度, & ～につけ",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 275,
+      "url": "https://imabi.org/%ef%bd%9e%e3%81%ab%e5%af%be%e3%81%97%e3%81%a6/",
+      "title": "～に対して",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 278,
+      "url": "https://imabi.org/standpoint-%e3%81%a8%e3%81%97%e3%81%a6%ef%bc%88%e3%81%af%ef%bc%89-vs-%e3%81%ab%e3%81%a8%e3%81%a3%e3%81%a6%ef%bc%88%e3%81%af%ef%bc%89/",
+      "title": "Standpoint: ～として & ～にとって",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 279,
+      "url": "https://imabi.org/through-%e3%82%92%e9%80%9a%e3%81%98%e3%81%a6-%e3%82%92%e9%80%9a%e3%81%97%e3%81%a6/",
+      "title": "Through: ～を通して & ～を通じて",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 280,
+      "url": "https://imabi.org/span-%ef%bd%9e%e3%81%ab%e3%81%8b%e3%81%91%e3%81%a6-%e3%81%ab%e3%82%8f%e3%81%9f%e3%81%a3%e3%81%a6/",
+      "title": "Span: ～にかけて & ～にわたって",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 281,
+      "url": "https://imabi.org/%ef%bd%9e%e3%81%ab%e3%82%88%e3%81%a3%e3%81%a6/",
+      "title": "～によって",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 287,
+      "url": "https://imabi.org/the-particles-%e3%81%95%e3%81%88-%e3%81%99%e3%82%89-%e3%81%a0%e3%81%ab/",
+      "title": "The Particle さえ, すら, & だに",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 288,
+      "url": "https://imabi.org/%ef%bd%9e%e3%81%ab%e3%81%8a%e3%81%84%e3%81%a6%e3%83%bb%e3%81%ab%e3%81%8a%e3%81%91%e3%82%8b/",
+      "title": "～において・における",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 289,
+      "url": "https://imabi.org/negative-patterns/",
+      "title": "More Negative Patterns: ～ないことには, ～なし・なき,　～なしで（は）,　～なしに（は）, ～なくして（は）, ～ことなく, いとわない, & 甲斐もなく",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 290,
+      "url": "https://imabi.org/exception/",
+      "title": "Exception: ～をのぞいて, ～をおいて, & ～ならでは",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 291,
+      "url": "https://imabi.org/cant-help-i/",
+      "title": "Can’t Help I: ～ないではいられない",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 292,
+      "url": "https://imabi.org/cant-help-ii/",
+      "title": "Can’t Help II: ～てならない, ～てやまない, ～てしかたがない, ～にたえない, & ～にたまらない",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 293,
+      "url": "https://imabi.org/cant-help-iii/",
+      "title": "Can’t Help III: ～ないではすまない, ～ないではおかない, ～を余儀なく[される・させる], & ～を禁じ得ない",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 295,
+      "url": "https://imabi.org/difficult-ii-%ef%bd%9e%e3%81%8c%e3%81%9f%e3%81%84-%ef%bd%9e%e3%81%a5%e3%82%89%e3%81%84/",
+      "title": "Difficult II: ～がたい & ～づらい",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 299,
+      "url": "https://imabi.org/limit/",
+      "title": "Limit: ～限り, ～を限りに, ～限りでは, ～に限って, ～に限らない, & ～とは限らない",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 300,
+      "url": "https://imabi.org/addition/",
+      "title": "Addition: ～に加えて, ～にとどまらず, ～もさることながら, ～はおろか・もちろん・もとより, & ～ともあれ",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 302,
+      "url": "https://imabi.org/negative-volition-%ef%bd%9e%e3%81%be%e3%81%84/",
+      "title": "Negative Volition: ～まい",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 304,
+      "url": "https://imabi.org/whether-no-matter-or-v1-%ef%bd%9e%ef%bc%88%e3%82%88%ef%bc%89%e3%81%86%ef%bd%9b%e3%81%8c%e3%83%bb%e3%81%a8%ef%bd%9dv1%ef%bc%8b%ef%bd%9e%e3%81%be%e3%81%84%ef%bd%9b%e3%81%8c%e3%83%bb%e3%81%a8/",
+      "title": "第296課: Whether/No Matter… Or…: V1 ～（よ）う｛が・と｝V1＋～まい｛が・と｝",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 305,
+      "url": "https://imabi.org/%ef%bd%9e%ef%bc%88%e3%82%88%ef%bc%89%e3%81%86%e3%81%ab%e3%82%82-%ef%bd%9e%ef%bc%88%e3%82%88%ef%bc%89%e3%81%86%e3%82%82%e3%81%ae%e3%81%aa%e3%82%89/",
+      "title": "第297課: ～（よ）うにも & ～（よ）うものなら",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 309,
+      "url": "https://imabi.org/as-soon-as/",
+      "title": "As soon as: ～や（いなや）, ～なり, ～途端（に）, & ～次第",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 310,
+      "url": "https://imabi.org/combination-particles-with-%e3%81%a8%e3%81%93%e3%82%8d/",
+      "title": "Combination Particles with ところ",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 312,
+      "url": "https://imabi.org/circumstance/",
+      "title": "Circumstance: まま, 思いきや, & もと",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 313,
+      "url": "https://imabi.org/result/",
+      "title": "Result: ～結果, ～うえで, ～挙句, ～すえに, & ～始末だ",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 314,
+      "url": "https://imabi.org/compare-contrast/",
+      "title": "Compare & Contrast: ～に比べて, ～に引き換え, ～にもまして, & ～ないまでも",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 315,
+      "url": "https://imabi.org/as-change/",
+      "title": "As (change): ～につれて, ～に従って, ～に伴って, ～とともに, ～に応じて, & ～に応えて",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 319,
+      "url": "https://imabi.org/combination-particles-with-%e3%81%b0%e3%81%8b%e3%82%8a/",
+      "title": "Combination Particles with ばかり",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 320,
+      "url": "https://imabi.org/the-particles-%e3%81%a3%e3%81%a6-%e3%81%9f%e3%81%a3%e3%81%a6-%e3%81%a0%e3%81%a3%e3%81%a6/",
+      "title": "The Particles って, たって, & だって",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 329,
+      "url": "https://imabi.org/%e8%be%bc%e3%82%80/",
+      "title": "込む",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 331,
+      "url": "https://imabi.org/potential-iii/",
+      "title": "Potential III",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 332,
+      "url": "https://imabi.org/the-particle-%e3%81%a9%e3%81%93%e3%82%8d/",
+      "title": "The Particle どころ",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 333,
+      "url": "https://imabi.org/%e3%81%a8-combination-particles-i-%e3%81%a8%e3%81%aa%e3%81%8f-%e3%81%a8%e3%81%af/",
+      "title": "と Combination Particles I",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 334,
+      "url": "https://imabi.org/%e3%81%a8-combination-particles-ii/",
+      "title": "と Combination Particles II",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 335,
+      "url": "https://imabi.org/when-it-comes-to-i%e3%81%a8%e3%81%84%e3%81%86%e3%81%a8-%e3%81%a8%e3%81%84%e3%81%88%e3%81%b0-%e3%81%a8%e3%81%84%e3%81%a3%e3%81%9f%e3%82%89/",
+      "title": "”When it Comes to…” I: というと, といえば, & といったら",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 336,
+      "url": "https://imabi.org/when-it-comes-to-ii-when-it-comes-to-ii%e3%81%a8%e3%81%aa%e3%82%8b%e3%81%a8-%e3%81%a8%e3%81%aa%e3%81%a3%e3%81%9f%e3%82%89-%e3%81%a8%e3%81%aa%e3%82%8c%e3%81%b0/",
+      "title": "“When it Comes to…” II: となると, となったら, & となれば",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 338,
+      "url": "https://imabi.org/whether-it-be-or-%ef%bd%9e%e3%81%a8%e3%81%84%e3%81%84-%ef%bd%9e%e3%81%a8%e3%81%84%e3%82%8f%e3%81%9a/",
+      "title": "Whether it be…or…:といい & といわず",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 340,
+      "url": "https://imabi.org/%e3%81%a8-combination-particles-iv/",
+      "title": "と Combination Particles IV",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 343,
+      "url": "https://imabi.org/disregard-i/",
+      "title": "Disregard I: にもかかわらず，にかかわらず， & を問わず",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 344,
+      "url": "https://imabi.org/disregard-ii/",
+      "title": "Disregard II: によらず & （の）いかん｛にかかわらず・を問わず・によらず｝",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 345,
+      "url": "https://imabi.org/disregard-iii/",
+      "title": "Disregard III: をものともせず（に）, ｛を・も｝顧みず（に）, & を押して・押し切って",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 346,
+      "url": "https://imabi.org/disregard-iv/",
+      "title": "Disregard IV: ｛に・も｝構わず, をよそに, & にもめげず（に）",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 347,
+      "url": "https://imabi.org/occasion/",
+      "title": "Occasion: ～うえで, ～際に, ～折に, ～に際して, ～に当たって, ～に先立って, ～を前に（して), ～を控えて, ～に臨んで, & ～に面して",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 348,
+      "url": "https://imabi.org/worth-and-extent/",
+      "title": "Worth and Extent: ～に足る, ～に依存,　～に値する, & ～に及ぶ",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 353,
+      "url": "https://imabi.org/simultaneous-action-ii-the-particle-%e3%81%a4%e3%81%a4-vs-%e3%81%aa%e3%81%8c%e3%82%89/",
+      "title": "Simultaneous Action II: The Particle つつ (VS ながら)",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 354,
+      "url": "https://imabi.org/the-verb-%e6%8a%9c%e3%81%8f/",
+      "title": "抜く: ～ぬきで（は）, ～ぬきに（は）, ～ぬきで, ～ぬきにして（は）, & ～ぬきの",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 355,
+      "url": "https://imabi.org/fault-%ef%bd%9e%e3%81%9b%e3%81%84%e3%81%a7-%ef%bd%9e%e3%81%ab%e3%81%8b%e3%81%93%e3%81%a4%e3%81%91%e3%81%a6/",
+      "title": "Fault: ～せいで & ～に託けて",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 357,
+      "url": "https://imabi.org/advanced-%ef%bd%9e%e3%81%b9%e3%81%8d-phrases%ef%bd%9e%e3%81%b9%e3%81%8f%e3%82%82%e3%81%aa%e3%81%84-%ef%bd%9e%e3%81%b9%e3%81%8b%e3%82%89%e3%81%9a%e3%83%bb%e3%81%96%e3%82%8b-%ef%bd%9e%e3%81%b9/",
+      "title": "第350課: Phrases Made w/ the Bases of: ～べくもない、～べからず・ざる, ～べく, ～べくして, & ～べし",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 359,
+      "url": "https://imabi.org/rather/",
+      "title": "Rather: むしろ, かえって, ～ましだ",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 360,
+      "url": "https://imabi.org/opposite-%e9%80%86%e3%81%ab-%e5%8f%8d%e5%af%be%e3%81%ab-%e5%8f%8d%e9%9d%a2-%e4%b8%80%e6%96%b9%ef%bc%88%e3%81%a7%ef%bc%89/",
+      "title": "Opposite: 逆に, 反対に, 反面, & 一方で",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 367,
+      "url": "https://imabi.org/tendency/",
+      "title": "Tendency: 嫌いがある, が早いか, が最後, & そばから",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 368,
+      "url": "https://imabi.org/incidental/",
+      "title": "Incidental: ～がてら, ～かたわら, ～かたがた, ～ついでに",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    },
+    {
+      "index": 377,
+      "url": "https://imabi.org/the-particles-%e3%82%84%e3%82%89-%e3%81%aa%e3%82%8a-%e3%81%8d%e3%82%8a/",
+      "title": "The Particles やら, なり, & きり",
+      "status": 200,
+      "error": null,
+      "availability": "fetched"
+    }
+  ]
+}

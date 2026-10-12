@@ -1,0 +1,35 @@
+#!/usr/bin/env python3
+# Original source-based Japan cards, 12 October 2026; no learner mastery or encyclopedic completeness claimed.
+import json
+from pathlib import Path
+ROOT = Path(__file__).resolve().parent.parent
+DATE = '12 October 2026'
+
+def build():
+    registry = json.loads((ROOT / 'JapanAdvancedSources.json').read_text())
+    records = []
+    for path in sorted(ROOT.glob('JapanAdvancedChunk*.json')):
+        for identifier, title, domain, aliases, explanation, scope, source_ids, backlog_refs, examples in json.loads(path.read_text()):
+            sources = [registry[key] for key in source_ids]
+            records.append({'id':'japan-adv-'+identifier,'title':title,'domain':domain,'level':'culture',
+                'aliases':aliases,'explanationFr':explanation,'scopeNote':scope,'prerequisites':[],
+                'sources':sources,'backlogRefs':backlog_refs,'status':'source-reviewed-draft',
+                'claimType':'fact','checkedAt':DATE,'reviewState':{'sourceClaim':'checked','japaneseExample':'editorial-draft' if examples else 'not-applicable','nativeReview':'pending'},
+                'examples':[{'ja':e[0],'reading':e[1],'fr':e[2],'provenance':'Original pedagogical example; independent native review pending.'} for e in examples]})
+    assert len({r['id'] for r in records}) == len(records)
+    assert all(r['sources'] and r['explanationFr'] for r in records)
+    seed_ids = {r['id'] for r in json.loads((ROOT/'JapanCards.json').read_text())['records']}
+    assert not seed_ids & {r['id'] for r in records}
+    payload={'schemaVersion':1,'createdAt':DATE,'scope':'Incremental original factual cards, not a completed encyclopedia','records':records}
+    text=json.dumps(payload,ensure_ascii=False,indent=2)+'\n'
+    assert '\u2014' not in text and '\u2013' not in text
+    (ROOT/'JapanAdvancedRecords.json').write_text(text)
+    lines=['# Japan factual expansion, '+DATE,'','Every card answers a concrete question from consulted institutional sources. Coverage remains partial; examples are original drafts. ('+DATE+')','']
+    for r in records:
+        lines += ['## '+r['title']+' ('+DATE+')','',r['explanationFr']+' ('+DATE+')','',r['scopeNote']+' ('+DATE+')','']
+        for e in r['examples']:lines += [e['ja']+' ('+e['reading']+') : '+e['fr']+' ('+DATE+')','']
+        lines += ['Sources : '+', '.join('['+s['title']+']('+s['url']+')' for s in r['sources'])+'. ('+DATE+')','']
+    (ROOT/'JapanAdvancedResearch.md').write_text('\n'.join(lines))
+    print(json.dumps({'cards':len(records),'sources':len(set(s['url'] for r in records for s in r['sources'])),'path':str(ROOT/'JapanAdvancedRecords.json')}))
+
+if __name__=='__main__':build()

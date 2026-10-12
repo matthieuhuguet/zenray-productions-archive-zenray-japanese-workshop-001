@@ -1,0 +1,522 @@
+[
+  [
+    "mai",
+    "まい : intention négative ou prévision négative",
+    "N2",
+    "intention",
+    "まい peut exprimer une décision de ne pas faire, ou une estimation négative. Godan: dictionnaire + まい; les autres familles ont des variantes à apprendre.",
+    "Le contexte et le sujet distinguent la résolution personnelle de « probablement pas ».",
+    302,
+    [
+      [
+        "もう同じ間違いはするまいと思いました。",
+        "もうおなじまちがいはするまいとおもいました。",
+        "J’ai décidé de ne plus refaire la même erreur."
+      ],
+      [
+        "今日は誰も来るまい。",
+        "きょうはだれもくるまい。",
+        "Probablement personne ne viendra aujourd’hui."
+      ],
+      [
+        "二度と忘れるまいと思います。",
+        "にどとわすれるまいとおもいます。",
+        "Je suis décidé à ne plus jamais oublier."
+      ]
+    ]
+  ],
+  [
+    "younimo",
+    "ようにも : même en le voulant",
+    "N1",
+    "condition",
+    "Forme volitive + にも introduit une action que l’on souhaiterait réaliser mais qu’un obstacle rend impossible. La suite explique souvent cet obstacle.",
+    "Ce n’est pas une simple hésitation ni le potentiel positif d’une action.",
+    305,
+    [
+      [
+        "帰ろうにも、電車がありません。",
+        "かえろうにも、でんしゃがありません。",
+        "Même si je voulais rentrer, il n’y a pas de train."
+      ],
+      [
+        "連絡しようにも、電話番号が分かりません。",
+        "れんらくしようにも、でんわばんごうがわかりません。",
+        "Même si je voulais le contacter, je ne connais pas son numéro."
+      ],
+      [
+        "読もうにも、文字が小さすぎます。",
+        "よもうにも、もじがちいさすぎます。",
+        "Même si je voulais lire, les caractères sont trop petits."
+      ]
+    ]
+  ],
+  [
+    "youmononara",
+    "ようものなら : une hypothèse lourde de conséquences",
+    "N1",
+    "condition",
+    "Forme volitive + ものなら envisage une action dont les conséquences seraient importantes, souvent défavorables. La tournure souligne le risque de la réaliser.",
+    "ようにも décrit une impossibilité; ようものなら développe une conséquence si l’action était tentée.",
+    305,
+    [
+      [
+        "ここで失敗しようものなら、皆に迷惑がかかります。",
+        "ここでしっぱいしようものなら、みんなにめいわくがかかります。",
+        "Si nous devions échouer ici, cela causerait du tort à tout le monde."
+      ],
+      [
+        "予約を忘れようものなら、入れません。",
+        "よやくをわすれようものなら、はいれません。",
+        "Si l’on avait le malheur d’oublier de réserver, on ne pourrait pas entrer."
+      ],
+      [
+        "秘密を話そうものなら、信用を失います。",
+        "ひみつをはなそうものなら、しんようをうしないます。",
+        "Si l’on allait révéler le secret, on perdrait la confiance des autres."
+      ]
+    ]
+  ],
+  [
+    "shidai",
+    "次第 : dès que l’étape est atteinte",
+    "N2",
+    "time",
+    "Base de ます + 次第 annonce une action prévue dès qu’une étape sera accomplie. Cette tournure est courante dans les annonces formelles.",
+    "次第で exprime la dépendance à une condition; ce n’est pas le même raccord.",
+    309,
+    [
+      [
+        "分かり次第、連絡します。",
+        "わかりしだい、れんらくします。",
+        "Je vous contacterai dès que je saurai."
+      ],
+      [
+        "準備ができ次第、始めます。",
+        "じゅんびができしだい、はじめます。",
+        "Nous commencerons dès que les préparatifs seront terminés."
+      ],
+      [
+        "届き次第、確認してください。",
+        "とどきしだい、かくにんしてください。",
+        "Vérifiez dès que cela arrivera."
+      ]
+    ]
+  ],
+  [
+    "nari-immediate",
+    "なり : une action immédiatement suivie",
+    "N1",
+    "time",
+    "Verbe de dictionnaire + なり décrit une action aussitôt suivie d’une autre, souvent avec le même acteur. C’est une forme narrative construite.",
+    "La valeur de proposition en なり…なり est un emploi distinct.",
+    309,
+    [
+      [
+        "彼は部屋に入るなり、窓を開けました。",
+        "かれはへやにはいるなり、まどをあけました。",
+        "Il a ouvert la fenêtre dès qu’il est entré dans la pièce."
+      ],
+      [
+        "母は電話を切るなり、出かけました。",
+        "はははでんわをきるなり、でかけました。",
+        "Ma mère est sortie aussitôt après avoir raccroché."
+      ],
+      [
+        "子供は写真を見るなり、笑い出しました。",
+        "こどもはしゃしんをみるなり、わらいだしました。",
+        "L’enfant a éclaté de rire dès qu’il a vu la photographie."
+      ]
+    ]
+  ],
+  [
+    "to-omoikiya",
+    "と思いきや : une attente démentie",
+    "N1",
+    "concession",
+    "と思いきや présente une supposition qui est immédiatement contredite par la situation constatée. La suite raconte la surprise.",
+    "Contrairement à une simple opinion en と思う, le démenti fait partie de la construction.",
+    312,
+    [
+      [
+        "店は閉まったと思いきや、まだ開いていました。",
+        "みせはしまったとおもいきや、まだあいていました。",
+        "Je pensais le magasin fermé, mais il était encore ouvert."
+      ],
+      [
+        "簡単だと思いきや、意外に難しかったです。",
+        "かんたんだとおもいきや、いがいにむずかしかったです。",
+        "Je pensais cela facile, mais c’était étonnamment difficile."
+      ],
+      [
+        "終わったと思いきや、次の問題が出ました。",
+        "おわったとおもいきや、つぎのもんだいがでました。",
+        "Je croyais avoir terminé, mais une autre question est apparue."
+      ]
+    ]
+  ],
+  [
+    "ageku",
+    "あげく : issue après un parcours difficile",
+    "N2",
+    "result",
+    "Verbe passé + あげく ou nom + のあげく présente un résultat au terme d’un parcours prolongé, souvent pénible. Le résultat est fréquemment regrettable.",
+    "末に peut exposer une issue plus neutre, y compris heureuse.",
+    313,
+    [
+      [
+        "長く迷ったあげく、買いませんでした。",
+        "ながくまよったあげく、かいませんでした。",
+        "Après une longue hésitation, je n’ai finalement rien acheté."
+      ],
+      [
+        "議論したあげく、何も決まりませんでした。",
+        "ぎろんしたあげく、なにもきまりませんでした。",
+        "Après toutes ces discussions, rien n’a été décidé."
+      ],
+      [
+        "無理をしたあげく、体を壊しました。",
+        "むりをしたあげく、からだをこわしました。",
+        "À force d’en faire trop, j’ai fini par tomber malade."
+      ]
+    ]
+  ],
+  [
+    "sueni",
+    "末に : résultat au terme d’un processus",
+    "N2",
+    "result",
+    "Verbe passé + 末に ou nom + の末に situe un résultat après un processus, une réflexion ou un effort.",
+    "あげく souligne volontiers une issue défavorable; 末に n’impose pas ce jugement.",
+    313,
+    [
+      [
+        "考えた末に、参加すると決めました。",
+        "かんがえたすえに、さんかするときめました。",
+        "Après réflexion, j’ai décidé de participer."
+      ],
+      [
+        "長い努力の末に、完成しました。",
+        "ながいどりょくのすえに、かんせいしました。",
+        "Cela a été achevé au terme d’un long effort."
+      ],
+      [
+        "話し合いの末に、計画が決まりました。",
+        "はなしあいのすえに、けいかくがきまりました。",
+        "Le plan a été arrêté après discussion."
+      ]
+    ]
+  ],
+  [
+    "shimatsuda",
+    "始末だ : une mauvaise issue que l’on déplore",
+    "N1",
+    "result",
+    "Verbe neutre + 始末だ décrit une issue regrettable et porte le jugement du locuteur sur une dégradation.",
+    "結果 est plus neutre; 始末だ implique une appréciation négative.",
+    313,
+    [
+      [
+        "準備不足で、道具まで忘れる始末でした。",
+        "じゅんびぶそくで、どうぐまでわすれるしまつでした。",
+        "J’étais si mal préparé que j’ai même fini par oublier les outils."
+      ],
+      [
+        "練習を休み続けて、基本も忘れる始末です。",
+        "れんしゅうをやすみつづけて、きほんもわすれるしまつです。",
+        "À force de manquer les entraînements, j’en suis même à oublier les bases."
+      ],
+      [
+        "説明を読まず、同じ質問を繰り返す始末です。",
+        "せつめいをよまず、おなじしつもんをくりかえすしまつです。",
+        "Faute de lire l’explication, il finit par répéter la même question."
+      ]
+    ]
+  ],
+  [
+    "nimokakawarazu",
+    "にもかかわらず : malgré un fait",
+    "N2",
+    "concession",
+    "にもかかわらず relie un fait à une suite contraire à ce qu’il faisait attendre. Nom + にもかかわらず; avec un prédicat, utiliser sa forme neutre adaptée.",
+    "にかかわらず, sans も, peut exprimer que le résultat ne dépend pas du critère.",
+    343,
+    [
+      [
+        "雨にもかかわらず、多くの人が来ました。",
+        "あめにもかかわらず、おおくのひとがきました。",
+        "Beaucoup de gens sont venus malgré la pluie."
+      ],
+      [
+        "忙しいにもかかわらず、手伝ってくれました。",
+        "いそがしいにもかかわらず、てつだってくれました。",
+        "Il m’a aidé malgré son emploi du temps chargé."
+      ],
+      [
+        "練習したにもかかわらず、失敗しました。",
+        "れんしゅうしたにもかかわらず、しっぱいしました。",
+        "J’ai échoué malgré l’entraînement."
+      ]
+    ]
+  ],
+  [
+    "nikakawarazu",
+    "にかかわらず : indépendamment du critère",
+    "N2",
+    "independence",
+    "Nom + にかかわらず indique que le critère ne change pas la validité de la suite. Les paires opposées permettent aussi de montrer les cas possibles.",
+    "Malgré un événement accompli demande généralement にもかかわらず.",
+    343,
+    [
+      [
+        "年齢にかかわらず、参加できます。",
+        "ねんれいにかかわらず、さんかできます。",
+        "On peut participer quel que soit son âge."
+      ],
+      [
+        "経験の有無にかかわらず、応募できます。",
+        "けいけんのうむにかかわらず、おうぼできます。",
+        "On peut postuler avec ou sans expérience."
+      ],
+      [
+        "天候にかかわらず、予定通り行います。",
+        "てんこうにかかわらず、よていどおりおこないます。",
+        "Cela se déroulera comme prévu, quelle que soit la météo."
+      ]
+    ]
+  ],
+  [
+    "wo-towazu",
+    "を問わず : sans distinction de",
+    "N2",
+    "independence",
+    "Nom + を問わず neutralise une distinction de catégorie: âge, nationalité, genre ou autre classification pertinente.",
+    "Ce n’est pas le « malgré » qui confronte deux faits.",
+    343,
+    [
+      [
+        "国籍を問わず、参加できます。",
+        "こくせきをとわず、さんかできます。",
+        "On peut participer quelle que soit sa nationalité."
+      ],
+      [
+        "昼夜を問わず、利用できます。",
+        "ちゅうやをとわず、りようできます。",
+        "Le service est disponible de jour comme de nuit."
+      ],
+      [
+        "年齢を問わず、多くの人に読まれています。",
+        "ねんれいをとわず、おおくのひとによまれています。",
+        "Le livre est lu par beaucoup de personnes de tous âges."
+      ]
+    ]
+  ],
+  [
+    "ikan-ni",
+    "いかんにかかわらず : quel que soit le contenu ou résultat",
+    "N1",
+    "independence",
+    "Nom + のいかんにかかわらず annonce que la suite ne dépend pas de la nature ou du résultat de ce nom. La formulation est administrative ou très construite.",
+    "Une conversation ordinaire préfère souvent une tournure plus simple en にかかわらず.",
+    344,
+    [
+      [
+        "結果のいかんにかかわらず、報告してください。",
+        "けっかのいかんにかかわらず、ほうこくしてください。",
+        "Communiquez le résultat quel qu’il soit."
+      ],
+      [
+        "理由のいかんにかかわらず、変更はできません。",
+        "りゆうのいかんにかかわらず、へんこうはできません。",
+        "Aucun changement n’est possible, quelle qu’en soit la raison."
+      ],
+      [
+        "成否のいかんにかかわらず、記録を残します。",
+        "せいひのいかんにかかわらず、きろくをのこします。",
+        "Nous conserverons une trace, qu’il y ait réussite ou échec."
+      ]
+    ]
+  ],
+  [
+    "womonotomosezu",
+    "をものともせず : surmonter sans se laisser arrêter",
+    "N1",
+    "adversity",
+    "Nom d’obstacle + をものともせず décrit quelqu’un que cet obstacle ne décourage ou n’arrête pas. Le ton valorise souvent sa détermination.",
+    "をよそに peut décrire l’indifférence à l’attente des autres, sans admiration.",
+    345,
+    [
+      [
+        "彼は困難をものともせず、研究を続けました。",
+        "かれはこんなんをものともせず、けんきゅうをつづけました。",
+        "Il a poursuivi ses recherches sans se laisser arrêter par les difficultés."
+      ],
+      [
+        "雨をものともせず、選手は走りました。",
+        "あめをものともせず、せんしゅははしりました。",
+        "Les athlètes ont couru sans se laisser arrêter par la pluie."
+      ],
+      [
+        "批判をものともせず、作品を発表しました。",
+        "ひはんをものともせず、さくひんをはっぴょうしました。",
+        "Il a présenté son œuvre sans se laisser arrêter par les critiques."
+      ]
+    ]
+  ],
+  [
+    "woyosoni",
+    "をよそに : à l’écart de l’attente ou souci d’autrui",
+    "N1",
+    "adversity",
+    "Nom + をよそに décrit une conduite qui se poursuit en laissant de côté les attentes, inquiétudes ou circonstances évoquées. Le locuteur peut la juger déplacée.",
+    "をものともせず met souvent en valeur une résistance à un obstacle.",
+    346,
+    [
+      [
+        "皆の心配をよそに、彼は出発しました。",
+        "みんなのしんぱいをよそに、かれはしゅっぱつしました。",
+        "Il est parti sans tenir compte de l’inquiétude générale."
+      ],
+      [
+        "周囲の期待をよそに、彼女は別の道を選びました。",
+        "しゅういのきたいをよそに、かのじょはべつのみちをえらびました。",
+        "Elle a choisi une autre voie malgré les attentes de son entourage."
+      ],
+      [
+        "騒ぎをよそに、猫は眠っていました。",
+        "さわぎをよそに、ねこはねむっていました。",
+        "Le chat dormait sans se soucier de l’agitation."
+      ]
+    ]
+  ],
+  [
+    "nisakidatte",
+    "に先立って : avant une étape formelle",
+    "N1",
+    "time",
+    "Nom d’événement + に先立って situe une action préparatoire avant cet événement. に先立つ permet de modifier un nom.",
+    "Ce registre ne remplace pas tous les « avant » quotidiens en 前に.",
+    347,
+    [
+      [
+        "会議に先立って、資料を送りました。",
+        "かいぎにさきだって、しりょうをおくりました。",
+        "J’ai envoyé les documents avant la réunion."
+      ],
+      [
+        "公開に先立って、説明会を開きます。",
+        "こうかいにさきだって、せつめいかいをひらきます。",
+        "Nous organiserons une présentation avant la publication."
+      ],
+      [
+        "出発に先立って、予定を確認しました。",
+        "しゅっぱつにさきだって、よていをかくにんしました。",
+        "Nous avons vérifié le programme avant le départ."
+      ]
+    ]
+  ],
+  [
+    "nisaishite",
+    "に際して : à l’occasion d’une étape",
+    "N2",
+    "occasion",
+    "Nom d’événement ou verbe de dictionnaire + に際して situe une conduite à l’occasion d’une étape particulière. La tournure est formelle.",
+    "際に peut se lire comme « au moment de »; に際して souligne volontiers l’occasion marquante.",
+    347,
+    [
+      [
+        "出発に際して、皆に挨拶しました。",
+        "しゅっぱつにさいして、みんなにあいさつしました。",
+        "À l’occasion du départ, j’ai salué tout le monde."
+      ],
+      [
+        "申請するに際して、説明を読んでください。",
+        "しんせいするにさいして、せつめいをよんでください。",
+        "Au moment de déposer votre demande, lisez les explications."
+      ],
+      [
+        "開店に際して、お礼を申し上げます。",
+        "かいてんにさいして、おれいをもうしあげます。",
+        "À l’occasion de l’ouverture du magasin, nous vous adressons nos remerciements."
+      ]
+    ]
+  ],
+  [
+    "niataru",
+    "に当たって : se préparer à entreprendre",
+    "N2",
+    "occasion",
+    "Nom ou verbe de dictionnaire + に当たって introduit une précaution ou démarche à l’occasion d’un projet que l’on entreprend.",
+    "La situation est généralement importante pour celui qui agit; ce n’est pas un simple repère horaire.",
+    347,
+    [
+      [
+        "日本に行くに当たって、必要な書類を確認しました。",
+        "にほんにいくにあたって、ひつようなしょるいをかくにんしました。",
+        "En préparant mon départ au Japon, j’ai vérifié les documents nécessaires."
+      ],
+      [
+        "計画を始めるに当たって、目的を決めました。",
+        "けいかくをはじめるにあたって、もくてきをきめました。",
+        "Avant d’entreprendre le projet, j’ai fixé son objectif."
+      ],
+      [
+        "参加するに当たって、規則を読んでください。",
+        "さんかするにあたって、きそくをよんでください。",
+        "Pour participer, prenez connaissance des règles."
+      ]
+    ]
+  ],
+  [
+    "nitaru",
+    "に足る : suffisamment valable pour",
+    "N1",
+    "evaluation",
+    "Verbe de dictionnaire + に足る juge qu’une chose mérite ou permet l’action évoquée. Certains noms d’action sont aussi possibles. Le registre est soutenu.",
+    "Il ne s’agit pas uniquement de compter une quantité suffisante avec 足りる.",
+    348,
+    [
+      [
+        "信頼に足る人です。",
+        "しんらいにたるひとです。",
+        "C’est une personne digne de confiance."
+      ],
+      [
+        "読むに足る記事です。",
+        "よむにたるきじです。",
+        "C’est un article qui mérite d’être lu."
+      ],
+      [
+        "検討に足る提案だと思います。",
+        "けんとうにたるていあんだとおもいます。",
+        "Je pense que cette proposition mérite examen."
+      ]
+    ]
+  ],
+  [
+    "beku",
+    "べく : dans l’intention de réaliser",
+    "N1",
+    "purpose",
+    "Verbe de dictionnaire + べく annonce un objectif dans un registre écrit ou formel. する peut devenir すべく. La suite exprime une démarche vers ce but.",
+    "ように et ために sont plus ordinaires; ne pas interpréter べく comme une obligation identique à べきだ.",
+    357,
+    [
+      [
+        "問題を解決すべく、話し合いました。",
+        "もんだいをかいけつすべく、はなしあいました。",
+        "Nous avons discuté afin de résoudre le problème."
+      ],
+      [
+        "技術を学ぶべく、日本に来ました。",
+        "ぎじゅつをまなぶべく、にほんにきました。",
+        "Je suis venu au Japon dans le but d’apprendre ce savoir-faire."
+      ],
+      [
+        "事実を確認すべく、調査を始めました。",
+        "じじつをかくにんすべく、ちょうさをはじめました。",
+        "Nous avons commencé une enquête afin de vérifier les faits."
+      ]
+    ]
+  ]
+]

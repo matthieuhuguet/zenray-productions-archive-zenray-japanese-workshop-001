@@ -1,0 +1,27 @@
+{
+  "checkedAt": "12 October 2026",
+  "records": 108,
+  "examples": 324,
+  "sourceUrls": 70,
+  "families": 40,
+  "dimensions": 8,
+  "levels": {
+    "N4": 16,
+    "N3": 34,
+    "N2": 33,
+    "N1": 25
+  },
+  "idsUnique": true,
+  "idsDisjointFromSeed": true,
+  "threeExamplesEveryRecord": true,
+  "allRecordsEditorialDraft": true,
+  "allLearnerStatesNotAssessed": true,
+  "allUsedSourcesFetched": true,
+  "prerequisiteIdsResolvedAgainstSeedOrAdvanced": true,
+  "sha256": "59c7ec569c1d7650330431747959f48b40bc12e6bf2c58a97ae9e35cbe93912b",
+  "notVerified": [
+    "Native naturalness of all sentences",
+    "Learner mastery",
+    "Exhaustive grammar coverage"
+  ]
+}

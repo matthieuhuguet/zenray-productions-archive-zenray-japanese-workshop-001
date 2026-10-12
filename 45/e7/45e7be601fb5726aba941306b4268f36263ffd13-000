@@ -1,0 +1,245 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "12 October 2026",
+  "classificationStatus": "Editorial taxonomy; not an official JLPT syllabus",
+  "sourcePrinciple": "Individual source pages establish grammatical observations; the local taxonomy organizes them. JLPT difficulty tags are editorial estimates.",
+  "sources": [
+    {
+      "url": "https://imabi.org/table-of-contents-%E7%9B%AE%E6%AC%A1/",
+      "title": "IMABI author curriculum taxonomy",
+      "publisher": "Seth Coonrod"
+    },
+    {
+      "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/steplist.html",
+      "title": "TUFS Japanese grammar modules",
+      "publisher": "Tokyo University of Foreign Studies"
+    },
+    {
+      "url": "https://www.jlpt.jp/tw/reference/pdf/guidebook_s_e.pdf",
+      "title": "JLPT scope and no official exhaustive item lists",
+      "publisher": "The Japan Foundation and JEES"
+    }
+  ],
+  "dimensions": [
+    {
+      "id": "predicate-and-voice",
+      "titleFr": "Prédicat et rôles",
+      "families": [
+        "voice",
+        "verb-compounds",
+        "word-formation"
+      ],
+      "recordIds": [
+        "adv-yasui",
+        "adv-nikui",
+        "adv-tsuzukeru",
+        "adv-rashii-typical",
+        "adv-passive-direct",
+        "adv-causative",
+        "adv-causative-passive",
+        "adv-naosu",
+        "adv-wasure",
+        "adv-kiru",
+        "adv-au",
+        "adv-adjective-sa",
+        "adv-me"
+      ]
+    },
+    {
+      "id": "aspect-and-time",
+      "titleFr": "Déroulement et temps",
+      "families": [
+        "aspect",
+        "time",
+        "simultaneity",
+        "incidental"
+      ],
+      "recordIds": [
+        "adv-koto-ga-aru",
+        "adv-nagara",
+        "adv-chuu-juu",
+        "adv-teirai",
+        "adv-tabini",
+        "adv-wo-kagirini",
+        "adv-shidai",
+        "adv-nari-immediate",
+        "adv-nisakidatte",
+        "adv-gatera",
+        "adv-katawara",
+        "adv-tsuideni",
+        "adv-ga-hayaika",
+        "adv-sobakara"
+      ]
+    },
+    {
+      "id": "evidence-and-certainty",
+      "titleFr": "Source d’information et certitude",
+      "families": [
+        "certainty",
+        "evidence"
+      ],
+      "recordIds": [
+        "adv-kamoshirenai",
+        "adv-rashii-inference",
+        "adv-souda-appearance",
+        "adv-souda-hearsay",
+        "adv-hazuda",
+        "adv-wakeganai",
+        "adv-nichigainai",
+        "adv-kagiridewa"
+      ]
+    },
+    {
+      "id": "conditions-and-negation",
+      "titleFr": "Conditions et négation",
+      "families": [
+        "condition",
+        "negation",
+        "restriction",
+        "exception",
+        "independence"
+      ],
+      "recordIds": [
+        "adv-zuni",
+        "adv-nomi",
+        "adv-wakedehanai",
+        "adv-naikotoniha",
+        "adv-kotonaku",
+        "adv-nashi",
+        "adv-nara-dewa",
+        "adv-wo-oite",
+        "adv-kagiri-condition",
+        "adv-toha-kagiranai",
+        "adv-younimo",
+        "adv-youmononara",
+        "adv-nikakawarazu",
+        "adv-wo-towazu",
+        "adv-ikan-ni"
+      ]
+    },
+    {
+      "id": "aim-and-obligation",
+      "titleFr": "Objectif et conduite",
+      "families": [
+        "intention",
+        "attempt",
+        "purpose",
+        "obligation",
+        "advice"
+      ],
+      "recordIds": [
+        "adv-nakerebanaranai",
+        "adv-hoga-ii",
+        "adv-nikoshitakotohanai",
+        "adv-youni-purpose",
+        "adv-youtosuru",
+        "adv-tsumori",
+        "adv-bekida",
+        "adv-wakenihaikanai",
+        "adv-zuniha-sumanai",
+        "adv-mai",
+        "adv-beku"
+      ]
+    },
+    {
+      "id": "links-and-argument",
+      "titleFr": "Liens logiques et argumentation",
+      "families": [
+        "cause",
+        "result",
+        "concession",
+        "basis",
+        "means",
+        "extent",
+        "change",
+        "addition",
+        "degree"
+      ],
+      "recordIds": [
+        "adv-tameni-cause",
+        "adv-youninaru",
+        "adv-younisuru",
+        "adv-hodo-negative",
+        "adv-kuseni",
+        "adv-dakeni",
+        "adv-nimotozuite",
+        "adv-wofumaete",
+        "adv-womotoni",
+        "adv-nishitagatte-change",
+        "adv-wotoshite",
+        "adv-niwatatte",
+        "adv-nikuwaete",
+        "adv-nitodomarazu",
+        "adv-wa-oroka",
+        "adv-to-omoikiya",
+        "adv-ageku",
+        "adv-sueni",
+        "adv-shimatsuda",
+        "adv-nimokakawarazu",
+        "adv-tsutsu",
+        "adv-tsutsuaru"
+      ]
+    },
+    {
+      "id": "discourse-and-perspective",
+      "titleFr": "Organisation du propos et point de vue",
+      "families": [
+        "topic",
+        "perspective",
+        "quotation",
+        "discourse",
+        "focus",
+        "listing"
+      ],
+      "recordIds": [
+        "adv-garu",
+        "adv-noda",
+        "adv-toka",
+        "adv-toiu",
+        "adv-sekkaku",
+        "adv-wazawaza",
+        "adv-nitsuite",
+        "adv-nikanshite",
+        "adv-womegutte",
+        "adv-koso",
+        "adv-nitotte",
+        "adv-toshite"
+      ]
+    },
+    {
+      "id": "affect-and-evaluation",
+      "titleFr": "Affect et appréciation",
+      "families": [
+        "emotion",
+        "difficulty",
+        "adversity",
+        "occasion",
+        "evaluation",
+        "tendency"
+      ],
+      "recordIds": [
+        "adv-zuniha-irarenai",
+        "adv-te-naranai",
+        "adv-te-tamaranai",
+        "adv-te-yamanai",
+        "adv-wo-kinjienai",
+        "adv-gatai",
+        "adv-zurai",
+        "adv-womonotomosezu",
+        "adv-woyosoni",
+        "adv-nisaishite",
+        "adv-niataru",
+        "adv-nitaru",
+        "adv-kirai-ga-aru"
+      ]
+    }
+  ],
+  "remainingGaps": [
+    "No exhaustive official N5-N1 item catalogue exists in the JLPT public specification.",
+    "108 draft points do not cover every advanced construction.",
+    "Independent native review of explanations and all 324 examples remains pending.",
+    "Indirect passive, lexical transitivity pairs, spoken contractions, dialect and prosody need separate expansion.",
+    "Authentic sustained listening, reading, spontaneous interaction and writing are not proven by these sentence examples.",
+    "No learner mastery is established; all learner states remain not-assessed."
+  ]
+}

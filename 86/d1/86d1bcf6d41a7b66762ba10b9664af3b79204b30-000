@@ -1,0 +1,154 @@
+{
+  "climate": {
+    "url": "https://ds.data.jma.go.jp/gmd/cpd/longfcst/en/tourist.html",
+    "title": "General Information on Climate of Japan",
+    "publisher": "Japan Meteorological Agency",
+    "checkedAt": "12 October 2026",
+    "license": "No blanket redistribution permission established; factual synthesis and original examples only.",
+    "reuse": "Link attribution. No copied article, image, map, or audio."
+  },
+  "seasons": {
+    "url": "https://www.jma.go.jp/jma/kishou/know/yougo_hp/kisetsu.html",
+    "title": "季節現象",
+    "publisher": "Japan Meteorological Agency",
+    "checkedAt": "12 October 2026",
+    "license": "No blanket redistribution permission established; factual synthesis and original examples only.",
+    "reuse": "Link attribution. No copied article, image, map, or audio."
+  },
+  "religion": {
+    "url": "https://www.japan.travel/en/guide/shrine-and-temple-traditions/",
+    "title": "Shrine and Temple Traditions",
+    "publisher": "Japan National Tourism Organization",
+    "checkedAt": "12 October 2026",
+    "license": "No blanket redistribution permission established; factual synthesis and original examples only.",
+    "reuse": "Link attribution. No copied article, image, map, or audio."
+  },
+  "onsen": {
+    "url": "https://www.japan.travel/en/guide/how-to-best-enjoy-onsen/",
+    "title": "How to Best Enjoy Japan’s Onsen",
+    "publisher": "Japan National Tourism Organization",
+    "checkedAt": "12 October 2026",
+    "license": "No blanket redistribution permission established; factual synthesis and original examples only.",
+    "reuse": "Link attribution. No copied article, image, map, or audio."
+  },
+  "history": {
+    "url": "https://www.japan.travel/en/responsible-travel-guide/features/overview-japanese-history/",
+    "title": "An Overview of Japanese History",
+    "publisher": "Japan National Tourism Organization",
+    "checkedAt": "12 October 2026",
+    "license": "No blanket redistribution permission established; factual synthesis and original examples only.",
+    "reuse": "Link attribution. No copied article, image, map, or audio."
+  },
+  "customs": {
+    "url": "https://www.japan.travel/en/guide/japanese-manners-dos-and-donts/",
+    "title": "Japanese Manners Do’s and Don’ts",
+    "publisher": "Japan National Tourism Organization",
+    "checkedAt": "12 October 2026",
+    "license": "No blanket redistribution permission established; factual synthesis and original examples only.",
+    "reuse": "Link attribution. No copied article, image, map, or audio."
+  },
+  "customs2": {
+    "url": "https://www.japan.travel/en/responsible-travel-guide/japanese-customs-and-etiquette/",
+    "title": "Japanese Customs and Etiquette",
+    "publisher": "Japan National Tourism Organization",
+    "checkedAt": "12 October 2026",
+    "license": "No blanket redistribution permission established; factual synthesis and original examples only.",
+    "reuse": "Link attribution. No copied article, image, map, or audio."
+  },
+  "ryokan": {
+    "url": "https://www.japan.travel/en/plan/custom-manners/",
+    "title": "Custom and Manners",
+    "publisher": "Japan National Tourism Organization",
+    "checkedAt": "12 October 2026",
+    "license": "No blanket redistribution permission established; factual synthesis and original examples only.",
+    "reuse": "Link attribution. No copied article, image, map, or audio."
+  },
+  "rail": {
+    "url": "https://jreastfaq.jreast.co.jp/faq/show/1090?site_domain=default",
+    "title": "車内での携帯電話の利用マナーについて",
+    "publisher": "East Japan Railway Company",
+    "checkedAt": "12 October 2026",
+    "license": "No blanket redistribution permission established; factual synthesis and original examples only.",
+    "reuse": "Link attribution. No copied article, image, map, or audio."
+  },
+  "garbage": {
+    "url": "https://www.city.kyoto.lg.jp/sogo/page/0000251137.html",
+    "title": "ごみを出すときのルール",
+    "publisher": "City of Kyoto",
+    "checkedAt": "12 October 2026",
+    "license": "No blanket redistribution permission established; factual synthesis and original examples only.",
+    "reuse": "Link attribution. No copied article, image, map, or audio."
+  },
+  "washoku": {
+    "url": "https://ich.unesco.org/en/RL/washoku-traditional-dietary-cultures-of-the-japanese-notably-for-the-celebration-of-new-year-00869",
+    "title": "Washoku, traditional dietary cultures of the Japanese, notably for the celebration of New Year",
+    "publisher": "UNESCO",
+    "checkedAt": "12 October 2026",
+    "license": "No blanket redistribution permission established; factual synthesis and original examples only.",
+    "reuse": "Link attribution. No copied article, image, map, or audio."
+  },
+  "ainu": {
+    "url": "https://ainu-upopoy.go.jp/ainu-culture/",
+    "title": "アイヌ文化について",
+    "publisher": "Upopoy National Ainu Museum and Park",
+    "checkedAt": "12 October 2026",
+    "license": "No blanket redistribution permission established; factual synthesis and original examples only.",
+    "reuse": "Link attribution. No copied article, image, map, or audio."
+  },
+  "upopoy": {
+    "url": "https://ainu-upopoy.go.jp/en/about/",
+    "title": "About Upopoy",
+    "publisher": "Upopoy National Ainu Museum and Park",
+    "checkedAt": "12 October 2026",
+    "license": "No blanket redistribution permission established; factual synthesis and original examples only.",
+    "reuse": "Link attribution. No copied article, image, map, or audio."
+  },
+  "holiday": {
+    "url": "https://www.japan.travel/en/faq/",
+    "title": "Frequently Asked Questions",
+    "publisher": "Japan National Tourism Organization",
+    "checkedAt": "12 October 2026",
+    "license": "No blanket redistribution permission established; factual synthesis and original examples only.",
+    "reuse": "Link attribution. No copied article, image, map, or audio."
+  },
+  "bon": {
+    "url": "https://www.japan.travel/en/guide/august/",
+    "title": "Japan in August",
+    "publisher": "Japan National Tourism Organization",
+    "checkedAt": "12 October 2026",
+    "license": "No blanket redistribution permission established; factual synthesis and original examples only.",
+    "reuse": "Link attribution. No copied article, image, map, or audio."
+  },
+  "visa": {
+    "url": "https://www.mofa.go.jp/j_info/visit/w_holiday/index.html",
+    "title": "The Working Holiday Programmes in Japan",
+    "publisher": "Ministry of Foreign Affairs of Japan",
+    "checkedAt": "12 October 2026",
+    "license": "No blanket redistribution permission established; factual synthesis and original examples only.",
+    "reuse": "Link attribution. No copied article, image, map, or audio."
+  },
+  "stat": {
+    "url": "https://www.stat.go.jp/english/data/handbook/index.html",
+    "title": "Statistical Handbook of Japan 2026",
+    "publisher": "Statistics Bureau of Japan",
+    "checkedAt": "12 October 2026",
+    "license": "No blanket redistribution permission established; factual synthesis and original examples only.",
+    "reuse": "Link attribution. No copied article, image, map, or audio."
+  },
+  "warning": {
+    "url": "https://www.data.jma.go.jp/eqev/data/en/tsunami/tsunami_warning.html",
+    "title": "Tsunami Warning/Advisory",
+    "publisher": "Japan Meteorological Agency",
+    "checkedAt": "12 October 2026",
+    "license": "No blanket redistribution permission established; factual synthesis and original examples only.",
+    "reuse": "Link attribution. No copied article, image, map, or audio."
+  },
+  "disaster": {
+    "url": "https://www.jma.go.jp/jma/kishou/books/eqtsunami_guidance/eqtsunami_guidance_en.pdf",
+    "title": "Protect yourself from earthquakes and tsunamis",
+    "publisher": "Japan Meteorological Agency",
+    "checkedAt": "12 October 2026",
+    "license": "No blanket redistribution permission established; factual synthesis and original examples only.",
+    "reuse": "Link attribution. No copied article, image, map, or audio."
+  }
+}

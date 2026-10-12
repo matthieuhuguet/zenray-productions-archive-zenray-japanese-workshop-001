@@ -1,0 +1,74 @@
+#!/usr/bin/env python3
+# Original research records with explicit review limits, 12 October 2026 17:25 Europe/Paris.
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+DATE = '12 October 2026'
+SOURCE_INDEX = json.loads((ROOT / 'SourceIndex.json').read_text())
+SOURCE_EVIDENCE = {r['index']: r for r in json.loads((ROOT / 'AdvancedSourceEvidence.json').read_text())}
+FOUNDATION_IDS = {'grammar-copula', 'grammar-verb-groups', 'grammar-te-form', 'grammar-case-particles', 'grammar-relative-clause', 'grammar-nominalization', 'grammar-result-state', 'grammar-potential', 'grammar-volitional'}
+
+def prerequisites(identifier, family):
+    if identifier == 'causative-passive':
+        return ['adv-causative', 'adv-passive-direct']
+    if identifier in ['younimo', 'youmononara', 'youtosuru', 'mai']:
+        return ['grammar-volitional', 'grammar-verb-groups']
+    if family in ['voice', 'verb-compounds', 'attempt', 'intention']:
+        return ['grammar-verb-groups']
+    if family in ['emotion', 'simultaneity']:
+        return ['grammar-te-form', 'grammar-verb-groups']
+    if family in ['certainty', 'evidence', 'quotation', 'concession', 'condition', 'time', 'result', 'obligation', 'purpose', 'change']:
+        return ['grammar-relative-clause', 'grammar-verb-groups']
+    if family in ['basis', 'means', 'extent', 'independence', 'adversity', 'occasion', 'topic', 'perspective', 'restriction', 'exception', 'addition', 'focus']:
+        return ['grammar-case-particles', 'grammar-copula']
+    return ['grammar-verb-groups', 'grammar-copula']
+
+def build():
+    rows = []
+    for chunk in sorted(ROOT.glob('AdvancedChunk*.json')):
+        rows.extend(json.loads(chunk.read_text()))
+    records = []
+    for identifier, title, level, family, explanation, contrast, index, examples in rows:
+        source = SOURCE_INDEX[index]
+        evidence = SOURCE_EVIDENCE.get(index, {})
+        record = {'id': 'adv-' + identifier, 'title': title, 'domain': 'grammar', 'level': level,
+            'levelBasis': 'Editorial difficulty estimate; not an official JLPT item assignment',
+            'taxonomy': family, 'aliases': [identifier, title.split(' : ')[0]],
+            'explanationFr': explanation, 'contrastFr': contrast,
+            'examples': [{'ja': e[0], 'reading': e[1], 'fr': e[2], 'origin': 'Original example, independent native review pending'} for e in examples],
+            'prerequisites': prerequisites(identifier, family), 'sources': [{'url': source['url'], 'title': source['title'],
+                'publisher': 'Seth Coonrod, original IMABI curriculum author', 'checkedAt': DATE,
+                'availability': 'fetched' if evidence.get('status') == 200 else 'temporarily-unavailable',
+                'verification': 'Source fetched; pedagogical source alignment reviewed editorially; no native review claimed' if evidence.get('status') == 200 else 'URL from author table of contents; page unavailable during check',
+                'license': 'Copyright retained by author; no open license verified',
+                'reuse': 'Original paraphrase and examples; source lessons, recordings and illustrations not reproduced'}],
+            'status': 'editorial-draft', 'reviewScope': 'Editorial linguistic review only; native-speaker review and learner testing pending',
+            'createdAt': DATE, 'learnerState': 'not-assessed',
+            'oralPromptsFr': [e[2] for e in examples]}
+        records.append(record)
+    assert len({r['id'] for r in records}) == len(records)
+    assert all(dep in FOUNDATION_IDS or dep in {r['id'] for r in records} for r in records for dep in r['prerequisites'])
+    assert all(len(r['examples']) >= 3 for r in records)
+    assert all(all(e[k] for k in ['ja','reading','fr']) for r in records for e in r['examples'])
+    payload = {'schemaVersion': 1, 'createdAt': DATE, 'scope': 'Incremental non-exhaustive advanced grammar corpus',
+        'reviewPolicy': 'Levels estimated; editorial-draft; no learner mastery or native validation claimed', 'records': records}
+    text = json.dumps(payload, ensure_ascii=False, indent=2) + '\n'
+    assert '\u2014' not in text and '\u2013' not in text
+    (ROOT / 'LanguageAdvancedRecords.json').write_text(text)
+    report = {'createdAt': DATE, 'sourceCount': len(SOURCE_EVIDENCE),
+        'sources': [{'index': r['index'], 'url': r['url'], 'title': r['title'],
+            'status': r.get('status'), 'error': r.get('latestError', r.get('error')),
+            'availability': 'fetched' if r.get('status') == 200 else 'temporarily-unavailable'} for r in SOURCE_EVIDENCE.values()]}
+    (ROOT / 'SourceAvailability.json').write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n')
+    lines = ['# Advanced Japanese research, '+DATE, '', 'Editorial drafts. Levels are estimated; independent native review is pending. No exhaustive coverage or learner mastery is claimed. ('+DATE+')', '']
+    for record in records:
+        lines += ['## '+record['title']+' ('+record['level']+', '+DATE+')', '', record['explanationFr']+' ('+DATE+')', '', record['contrastFr']+' ('+DATE+')', '']
+        for e in record['examples']:
+            lines += [e['ja']+' ('+e['reading']+') : '+e['fr']+' ('+DATE+')', '']
+        lines += ['Source : ['+record['sources'][0]['title']+']('+record['sources'][0]['url']+'). État : '+record['sources'][0]['availability']+'. ('+DATE+')', '']
+    (ROOT / 'LanguageAdvancedResearch.md').write_text('\n'.join(lines))
+    print(json.dumps({'records':len(records),'examples':sum(len(r['examples']) for r in records),'output':str(ROOT/'LanguageAdvancedRecords.json')}))
+
+if __name__ == '__main__':
+    build()

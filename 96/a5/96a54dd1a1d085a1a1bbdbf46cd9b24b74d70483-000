@@ -1,0 +1,12 @@
+[ {
+  "description": "node.js instance",
+  "devtoolsFrontendUrl": "devtools://devtools/bundled/js_app.html?experiments=true&v8only=true&ws=127.0.0.1:9229/65a4ac16-2170-493a-b595-85e3ad29df01",
+  "devtoolsFrontendUrlCompat": "devtools://devtools/bundled/inspector.html?experiments=true&v8only=true&ws=127.0.0.1:9229/65a4ac16-2170-493a-b595-85e3ad29df01",
+  "faviconUrl": "https://nodejs.org/static/images/favicons/favicon.ico",
+  "id": "65a4ac16-2170-493a-b595-85e3ad29df01",
+  "title": "/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/scripts/local-server.mjs",
+  "type": "node",
+  "url": "file:///Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/scripts/local-server.mjs",
+  "webSocketDebuggerUrl": "ws://127.0.0.1:9229/65a4ac16-2170-493a-b595-85e3ad29df01"
+} ]
+

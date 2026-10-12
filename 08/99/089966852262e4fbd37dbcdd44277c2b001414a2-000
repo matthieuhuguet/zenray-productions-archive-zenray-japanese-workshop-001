@@ -1,0 +1,522 @@
+[
+  [
+    "kamoshirenai",
+    "かもしれない : une possibilité",
+    "N4",
+    "certainty",
+    "Forme neutre + かもしれない envisage une possibilité sans l’affirmer. Après un nom ou adjectif en な, ne pas conserver だ. La forme courte かも est familière.",
+    "だろう traduit généralement une estimation plus affirmée, sans correspondance numérique fixe.",
+    115,
+    [
+      [
+        "明日は雨かもしれません。",
+        "あしたはあめかもしれません。",
+        "Il pleuvra peut-être demain."
+      ],
+      [
+        "店はもう閉まったかもしれません。",
+        "みせはもうしまったかもしれません。",
+        "Le magasin a peut-être déjà fermé."
+      ],
+      [
+        "この方法のほうが簡単かもしれません。",
+        "このほうほうのほうがかんたんかもしれません。",
+        "Cette méthode est peut-être plus simple."
+      ]
+    ]
+  ],
+  [
+    "garu",
+    "がる : manifester une sensation",
+    "N3",
+    "perspective",
+    "がる décrit les signes extérieurs d’un sentiment ou désir. Pour beaucoup d’adjectifs, enlever い puis ajouter がる; たい devient たがる. L’état observé est souvent en がっている.",
+    "Différencier l’expérience intérieure du locuteur de l’observation d’une autre personne.",
+    119,
+    [
+      [
+        "弟は犬を怖がっています。",
+        "おとうとはいぬをこわがっています。",
+        "Mon petit frère a peur des chiens."
+      ],
+      [
+        "友達は日本に行きたがっています。",
+        "ともだちはにほんにいきたがっています。",
+        "Mon ami manifeste l’envie d’aller au Japon."
+      ],
+      [
+        "子供が寒がっています。",
+        "こどもがさむがっています。",
+        "L’enfant semble avoir froid."
+      ]
+    ]
+  ],
+  [
+    "koto-ga-aru",
+    "ことがある : une expérience passée",
+    "N4",
+    "aspect",
+    "Verbe passé neutre + ことがある décrit une expérience. Verbe non passé + ことがある peut décrire ce qui arrive parfois; le contexte et la forme du verbe font la différence.",
+    "行ったことがある décrit une expérience; 行くことがある peut décrire une occurrence occasionnelle.",
+    123,
+    [
+      [
+        "京都に行ったことがあります。",
+        "きょうとにいったことがあります。",
+        "Je suis déjà allé à Kyoto."
+      ],
+      [
+        "この料理を食べたことがあります。",
+        "このりょうりをたべたことがあります。",
+        "J’ai déjà mangé ce plat."
+      ],
+      [
+        "休日も働くことがあります。",
+        "きゅうじつもはたらくことがあります。",
+        "Il m’arrive aussi de travailler les jours de repos."
+      ]
+    ]
+  ],
+  [
+    "noda",
+    "のだ et んだ : relier à un contexte",
+    "N4",
+    "discourse",
+    "のだ ou んだ présente un fait comme explication ou comme information liée à ce qui se joue dans l’échange. Après un nom et un adjectif en な, utiliser なのだ.",
+    "Ajouter んです partout peut rendre le discours insistant; un énoncé neutre n’appelle pas automatiquement une explication.",
+    124,
+    [
+      [
+        "今日は休みなんです。",
+        "きょうはやすみなんです。",
+        "C’est que je suis en congé aujourd’hui."
+      ],
+      [
+        "道が分からないんです。",
+        "みちがわからないんです。",
+        "En fait, je ne connais pas le chemin."
+      ],
+      [
+        "どうして日本語を勉強しているんですか。",
+        "どうしてにほんごをべんきょうしているんですか。",
+        "Pourquoi étudiez-vous le japonais ?"
+      ]
+    ]
+  ],
+  [
+    "nagara",
+    "ながら : deux actions du même acteur",
+    "N4",
+    "simultaneity",
+    "Base de ます + ながら relie deux actions simultanées du même acteur. L’action finale constitue généralement l’activité principale.",
+    "Pour deux sujets différents ou une période englobante, étudier 間 plutôt que réutiliser ながら.",
+    126,
+    [
+      [
+        "音楽を聞きながら歩きます。",
+        "おんがくをききながらあるきます。",
+        "Je marche en écoutant de la musique."
+      ],
+      [
+        "地図を見ながら道を探しました。",
+        "ちずをみながらみちをさがしました。",
+        "J’ai cherché le chemin en regardant la carte."
+      ],
+      [
+        "話しながら食べないでください。",
+        "はなしながらたべないでください。",
+        "Ne mangez pas en parlant."
+      ]
+    ]
+  ],
+  [
+    "yasui",
+    "やすい : facilité et tendance",
+    "N4",
+    "verb-compounds",
+    "Base de ます + やすい décrit ce qui est facile à faire, ou une chose qui arrive facilement. L’ensemble se transforme comme un adjectif en い.",
+    "壊れやすい décrit une fragilité, pas une facilité volontaire de casser.",
+    131,
+    [
+      [
+        "この本は読みやすいです。",
+        "このほんはよみやすいです。",
+        "Ce livre est facile à lire."
+      ],
+      [
+        "この靴は歩きやすいです。",
+        "このくつはあるきやすいです。",
+        "Ces chaussures sont agréables pour marcher."
+      ],
+      [
+        "このコップは割れやすいです。",
+        "このこっぷはわれやすいです。",
+        "Ce verre se casse facilement."
+      ]
+    ]
+  ],
+  [
+    "nikui",
+    "にくい : difficulté liée à l’action",
+    "N4",
+    "verb-compounds",
+    "Base de ます + にくい exprime une difficulté à effectuer une action ou une faible propension à se produire. L’ensemble est un adjectif en い.",
+    "À comparer avec づらい lorsque la gêne éprouvée par la personne compte particulièrement.",
+    132,
+    [
+      [
+        "この文字は読みにくいです。",
+        "このもじはよみにくいです。",
+        "Cette écriture est difficile à lire."
+      ],
+      [
+        "この道は歩きにくいです。",
+        "このみちはあるきにくいです。",
+        "Ce chemin est difficile à parcourir à pied."
+      ],
+      [
+        "この布は破れにくいです。",
+        "このぬのはやぶれにくいです。",
+        "Ce tissu se déchire difficilement."
+      ]
+    ]
+  ],
+  [
+    "tsuzukeru",
+    "続ける : poursuivre une activité",
+    "N3",
+    "verb-compounds",
+    "Base de ます + 続ける exprime la poursuite d’une action. La forme 続く est intransitive; 続ける place l’activité dans ce que l’acteur maintient.",
+    "Continuer un événement et poursuivre une action ne conduisent pas toujours au même verbe.",
+    134,
+    [
+      [
+        "毎日、日本語を学び続けています。",
+        "まいにち、にほんごをまなびつづけています。",
+        "Je continue à apprendre le japonais chaque jour."
+      ],
+      [
+        "彼は一時間話し続けました。",
+        "かれはいちじかんはなしつづけました。",
+        "Il a parlé sans interruption pendant une heure."
+      ],
+      [
+        "雨が降り続いています。",
+        "あめがふりつづいています。",
+        "La pluie continue de tomber."
+      ]
+    ]
+  ],
+  [
+    "nakerebanaranai",
+    "なければならない : une obligation",
+    "N4",
+    "obligation",
+    "Forme négative sans い + ければならない exprime une nécessité. なくてはいけない est une autre construction courante. À l’oral, certaines formes se contractent.",
+    "La double négation produit ici une obligation; ne pas l’interpréter comme une interdiction.",
+    144,
+    [
+      [
+        "明日、早く起きなければなりません。",
+        "あした、はやくおきなければなりません。",
+        "Je dois me lever tôt demain."
+      ],
+      [
+        "予約を確認しなくてはいけません。",
+        "よやくをかくにんしなくてはいけません。",
+        "Il faut vérifier la réservation."
+      ],
+      [
+        "もう帰らなきゃ。",
+        "もうかえらなきゃ。",
+        "Il faut que je rentre maintenant."
+      ]
+    ]
+  ],
+  [
+    "hoga-ii",
+    "ほうがいい : donner un conseil",
+    "N4",
+    "advice",
+    "Verbe passé neutre + ほうがいい conseille généralement une action. Pour conseiller de s’abstenir: forme négative + ほうがいい. La relation et le ton peuvent rendre le conseil pressant.",
+    "Le passé grammatical de たほうがいい ne signifie pas que l’action conseillée a déjà eu lieu.",
+    149,
+    [
+      [
+        "早く予約したほうがいいです。",
+        "はやくよやくしたほうがいいです。",
+        "Vous feriez mieux de réserver tôt."
+      ],
+      [
+        "今日は無理をしないほうがいいです。",
+        "きょうはむりをしないほうがいいです。",
+        "Mieux vaut ne pas forcer aujourd’hui."
+      ],
+      [
+        "先生に聞いたほうがいいと思います。",
+        "せんせいにきいたほうがいいとおもいます。",
+        "Je pense qu’il vaudrait mieux demander au professeur."
+      ]
+    ]
+  ],
+  [
+    "nikoshitakotohanai",
+    "に越したことはない : le choix le plus sûr",
+    "N2",
+    "advice",
+    "Verbe neutre + に越したことはない exprime ce qu’il vaut mieux faire si possible. Ce n’est pas nécessairement une obligation absolue; le contexte garde une marge.",
+    "ほうがいい est un conseil courant; に越したことはない insiste sur la préférence prudente.",
+    149,
+    [
+      [
+        "準備は早いに越したことはありません。",
+        "じゅんびははやいにこしたことはありません。",
+        "Pour les préparatifs, mieux vaut s’y prendre tôt."
+      ],
+      [
+        "確認するに越したことはありません。",
+        "かくにんするにこしたことはありません。",
+        "Mieux vaut vérifier."
+      ],
+      [
+        "荷物は少ないに越したことはありません。",
+        "にもつはすくないにこしたことはありません。",
+        "Mieux vaut avoir peu de bagages."
+      ]
+    ]
+  ],
+  [
+    "tameni-cause",
+    "ために : une cause dans un récit construit",
+    "N3",
+    "cause",
+    "Une proposition ou un nom + のために peut exprimer la cause d’un résultat. C’est fréquent dans les annonces et récits formels. Le sens de but doit être distingué par le contexte.",
+    "雨のため décrit une cause; 日本に行くため peut exprimer un objectif.",
+    153,
+    [
+      [
+        "雨のため、試合は中止です。",
+        "あめのため、しあいはちゅうしです。",
+        "Le match est annulé à cause de la pluie."
+      ],
+      [
+        "道が混んでいたため、遅れました。",
+        "みちがこんでいたため、おくれました。",
+        "J’ai été retardé parce que la route était encombrée."
+      ],
+      [
+        "電車が止まったため、歩いて帰りました。",
+        "でんしゃがとまったため、あるいてかえりました。",
+        "Le train étant arrêté, je suis rentré à pied."
+      ]
+    ]
+  ],
+  [
+    "youni-purpose",
+    "ように : permettre un résultat",
+    "N4",
+    "purpose",
+    "Verbe neutre + ように présente un état visé, notamment avec capacité ou négation. Il peut s’agir de faire en sorte que quelque chose soit possible, ou qu’un problème ne se produise pas.",
+    "ために présente souvent une action voulue comme but; ように convient à un résultat ou une capacité à obtenir.",
+    154,
+    [
+      [
+        "聞こえるように、大きな声で話してください。",
+        "きこえるように、おおきなこえではなしてください。",
+        "Parlez fort pour que l’on puisse vous entendre."
+      ],
+      [
+        "忘れないように、メモしました。",
+        "わすれないように、めもしました。",
+        "J’ai pris une note pour ne pas oublier."
+      ],
+      [
+        "日本語が話せるように、練習しています。",
+        "にほんごがはなせるように、れんしゅうしています。",
+        "Je m’entraîne pour pouvoir parler japonais."
+      ]
+    ]
+  ],
+  [
+    "youninaru",
+    "ようになる : changement de capacité ou d’habitude",
+    "N4",
+    "change",
+    "Verbe neutre ou potentiel + ようになる décrit une évolution vers un comportement ou une capacité. Pour une disparition, distinguer なくなる des constructions focalisées en ないようになる.",
+    "ようにする présente plutôt une démarche volontaire pour installer un comportement.",
+    158,
+    [
+      [
+        "簡単な新聞が読めるようになりました。",
+        "かんたんなしんぶんがよめるようになりました。",
+        "Je suis désormais capable de lire un journal simple."
+      ],
+      [
+        "毎朝歩くようになりました。",
+        "まいあさあるくようになりました。",
+        "J’ai pris l’habitude de marcher chaque matin."
+      ],
+      [
+        "少しずつ分かるようになりました。",
+        "すこしずつわかるようになりました。",
+        "J’ai commencé à comprendre progressivement."
+      ]
+    ]
+  ],
+  [
+    "younisuru",
+    "ようにする : s’efforcer de maintenir un comportement",
+    "N4",
+    "change",
+    "Verbe neutre + ようにする décrit un effort ou une organisation pour qu’un comportement se réalise. ようにしている exprime souvent une habitude que l’on entretient.",
+    "ようとする est une tentative ponctuelle; ようにする peut installer une conduite régulière.",
+    158,
+    [
+      [
+        "毎日、日本語で話すようにしています。",
+        "まいにち、にほんごではなすようにしています。",
+        "Je m’efforce de parler japonais chaque jour."
+      ],
+      [
+        "遅れないようにしてください。",
+        "おくれないようにしてください。",
+        "Veillez à ne pas être en retard."
+      ],
+      [
+        "夜は早く寝るようにしています。",
+        "よるははやくねるようにしています。",
+        "Je fais en sorte de me coucher tôt le soir."
+      ]
+    ]
+  ],
+  [
+    "rashii-inference",
+    "らしい : une information dont on infère",
+    "N3",
+    "evidence",
+    "らしい indique que des indices ou des informations conduisent à une appréciation. Il suit le verbe ou l’adjectif neutre, et directement le nom dans cet emploi.",
+    "Le même らしい peut aussi exprimer une qualité typique; séparer les deux fonctions.",
+    159,
+    [
+      [
+        "あの店は人気があるらしいです。",
+        "あのみせはにんきがあるらしいです。",
+        "Il paraît que ce magasin est populaire."
+      ],
+      [
+        "明日は晴れるらしいです。",
+        "あしたははれるらしいです。",
+        "Il semble qu’il fera beau demain."
+      ],
+      [
+        "先生は今日は休みらしいです。",
+        "せんせいはきょうはやすみらしいです。",
+        "Le professeur serait absent aujourd’hui."
+      ]
+    ]
+  ],
+  [
+    "rashii-typical",
+    "らしい : conforme à ce qui caractérise",
+    "N3",
+    "word-formation",
+    "Nom + らしい peut décrire une caractéristique attendue ou typique de ce nom. Cet emploi se conjugue comme un adjectif en い et forme aussi らしさ.",
+    "日本らしい exprime un caractère typique; 日本人らしい peut aussi signifier « semble japonais » suivant le contexte.",
+    159,
+    [
+      [
+        "春らしい天気ですね。",
+        "はるらしいてんきですね。",
+        "C’est un temps bien printanier."
+      ],
+      [
+        "自分らしく話してください。",
+        "じぶんらしくはなしてください。",
+        "Exprimez-vous à votre manière."
+      ],
+      [
+        "この町らしい景色です。",
+        "このまちらしいけしきです。",
+        "Ce paysage est caractéristique de cette ville."
+      ]
+    ]
+  ],
+  [
+    "souda-appearance",
+    "そうだ : une apparence perceptible",
+    "N4",
+    "evidence",
+    "Base de ます + そうだ annonce une apparence ou une imminence. Un adjectif en い perd い; un adjectif en な se rattache sans な. いい donne よさそう.",
+    "おいしそう signifie « semble bon »; おいしいそう rapporte une information reçue.",
+    161,
+    [
+      [
+        "この料理はおいしそうです。",
+        "このりょうりはおいしそうです。",
+        "Ce plat a l’air bon."
+      ],
+      [
+        "雨が降りそうです。",
+        "あめがふりそうです。",
+        "Il semble qu’il va pleuvoir."
+      ],
+      [
+        "この方法はよさそうです。",
+        "このほうほうはよさそうです。",
+        "Cette méthode semble bonne."
+      ]
+    ]
+  ],
+  [
+    "souda-hearsay",
+    "そうだ : rapporter une information",
+    "N4",
+    "evidence",
+    "Forme neutre complète + そうだ rapporte une information entendue ou lue. Contrairement à l’apparence, on conserve la terminaison de l’adjectif et だ après un nom.",
+    "寒いそうだ rapporte « il fait froid »; 寒そうだ décrit l’impression de froid.",
+    162,
+    [
+      [
+        "明日は雨だそうです。",
+        "あしたはあめだそうです。",
+        "D’après ce que l’on dit, il pleuvra demain."
+      ],
+      [
+        "この店は安いそうです。",
+        "このみせはやすいそうです。",
+        "On m’a dit que ce magasin est bon marché."
+      ],
+      [
+        "先生はもう来たそうです。",
+        "せんせいはもうきたそうです。",
+        "Il paraît que le professeur est déjà arrivé."
+      ]
+    ]
+  ],
+  [
+    "passive-direct",
+    "れる et られる : le passif",
+    "N4",
+    "voice",
+    "Godan: base en あ + れる, avec う → わ; ichidan: enlever る + られる. する → される; 来る → こられる. Le sujet est celui qui subit ou reçoit l’action.",
+    "られる peut aussi être potentiel ou honorifique; la situation et les rôles désambiguïsent.",
+    166,
+    [
+      [
+        "先生に褒められました。",
+        "せんせいにほめられました。",
+        "J’ai été félicité par le professeur."
+      ],
+      [
+        "この本は多くの人に読まれています。",
+        "このほんはおおくのひとによまれています。",
+        "Ce livre est lu par beaucoup de gens."
+      ],
+      [
+        "友達に誘われました。",
+        "ともだちにさそわれました。",
+        "Un ami m’a invité."
+      ]
+    ]
+  ]
+]

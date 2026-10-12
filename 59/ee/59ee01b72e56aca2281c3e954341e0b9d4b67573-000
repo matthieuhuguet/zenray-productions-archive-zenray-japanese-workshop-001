@@ -1,0 +1,522 @@
+[
+  [
+    "causative",
+    "せる et させる : faire ou laisser faire",
+    "N4",
+    "voice",
+    "Godan: base en あ + せる; ichidan: enlever る + させる. する → させる; 来る → こさせる. Le contexte distingue contrainte, permission et déclenchement.",
+    "Ne pas employer 作る pour traduire « faire faire ». Les particules de la personne causée dépendent aussi du verbe.",
+    169,
+    [
+      [
+        "先生は学生に作文を書かせました。",
+        "せんせいはがくせいにさくぶんをかかせました。",
+        "Le professeur a fait écrire une rédaction aux élèves."
+      ],
+      [
+        "子供を外で遊ばせました。",
+        "こどもをそとであそばせました。",
+        "J’ai laissé l’enfant jouer dehors."
+      ],
+      [
+        "その話は皆を笑わせました。",
+        "そのはなしはみんなをわらわせました。",
+        "Cette histoire a fait rire tout le monde."
+      ]
+    ]
+  ],
+  [
+    "causative-passive",
+    "させられる : être amené ou forcé à faire",
+    "N3",
+    "voice",
+    "On combine le causatif puis le passif. 読む → 読ませられる, avec la variante fréquente 読まされる. La personne affectée est le sujet.",
+    "La version courte n’est pas librement formable avec tous les verbes; éviter de généraliser sa construction.",
+    170,
+    [
+      [
+        "長い文章を読まされました。",
+        "ながいぶんしょうをよまされました。",
+        "On m’a fait lire un long texte."
+      ],
+      [
+        "一時間待たされました。",
+        "いちじかんまたされました。",
+        "On m’a fait attendre une heure."
+      ],
+      [
+        "毎日練習させられました。",
+        "まいにちれんしゅうさせられました。",
+        "On m’a contraint à m’entraîner chaque jour."
+      ]
+    ]
+  ],
+  [
+    "toka",
+    "とか : une liste ouverte",
+    "N3",
+    "listing",
+    "とか propose des exemples sans épuiser la liste. Dans d’autres emplois, il relaie une information ou rend l’affirmation moins précise.",
+    "と ferme davantage une énumération; とか conserve souvent un caractère illustratif ou incertain.",
+    173,
+    [
+      [
+        "週末は読書とか散歩とかをします。",
+        "しゅうまつはどくしょとかさんぽとかをします。",
+        "Le week-end, je lis, je me promène et je fais d’autres choses de ce genre."
+      ],
+      [
+        "お茶とか水とかがあります。",
+        "おちゃとかみずとかがあります。",
+        "Il y a du thé, de l’eau et d’autres boissons."
+      ],
+      [
+        "先生は来週来るとか聞きました。",
+        "せんせいはらいしゅうくるとかききました。",
+        "J’ai entendu quelque chose comme quoi le professeur viendrait la semaine prochaine."
+      ]
+    ]
+  ],
+  [
+    "hodo-negative",
+    "ほど avec négation : pas autant",
+    "N3",
+    "degree",
+    "AはBほど + négation indique que A n’atteint pas le degré de B. ほど peut aussi indiquer un degré ou une approximation dans d’autres constructions.",
+    "Distinguer comparaison négative et simple quantité approximative.",
+    175,
+    [
+      [
+        "この町は東京ほど大きくありません。",
+        "このまちはとうきょうほどおおきくありません。",
+        "Cette ville n’est pas aussi grande que Tokyo."
+      ],
+      [
+        "今日は昨日ほど寒くないです。",
+        "きょうはきのうほどさむくないです。",
+        "Il ne fait pas aussi froid qu’hier."
+      ],
+      [
+        "この本は前の本ほど難しくありません。",
+        "このほんはまえのほんほどむずかしくありません。",
+        "Ce livre n’est pas aussi difficile que le précédent."
+      ]
+    ]
+  ],
+  [
+    "chuu-juu",
+    "中 : activité en cours ou portée entière",
+    "N3",
+    "aspect",
+    "中 se lit notamment ちゅう pour une activité en cours et じゅう pour une portée entière. Les combinaisons de temps doivent être apprises avec leur lecture usuelle.",
+    "会議中 et 一日中 diffèrent à la fois par lecture et sens.",
+    178,
+    [
+      [
+        "今、会議中です。",
+        "いま、かいぎちゅうです。",
+        "Je suis en réunion en ce moment."
+      ],
+      [
+        "一日中、雨が降っていました。",
+        "いちにちじゅう、あめがふっていました。",
+        "Il a plu toute la journée."
+      ],
+      [
+        "世界中の人が参加しています。",
+        "せかいじゅうのひとがさんかしています。",
+        "Des gens du monde entier participent."
+      ]
+    ]
+  ],
+  [
+    "youtosuru",
+    "ようとする : tenter ou être sur le point",
+    "N3",
+    "attempt",
+    "Forme volitive + とする présente une tentative, une intention engagée ou l’imminence d’un événement. L’action n’est pas forcément accomplie.",
+    "てみる effectue un essai pour voir; ようとする cadre le mouvement vers une réalisation.",
+    179,
+    [
+      [
+        "ドアを開けようとしました。",
+        "どあをあけようとしました。",
+        "J’ai tenté d’ouvrir la porte."
+      ],
+      [
+        "電車が出発しようとしています。",
+        "でんしゃがしゅっぱつしようとしています。",
+        "Le train est sur le point de partir."
+      ],
+      [
+        "話そうとしたら、電話が鳴りました。",
+        "はなそうとしたら、でんわがなりました。",
+        "Alors que j’allais parler, le téléphone a sonné."
+      ]
+    ]
+  ],
+  [
+    "toiu",
+    "という : nommer et expliciter un contenu",
+    "N3",
+    "quotation",
+    "という peut rattacher un nom à son appellation ou à un contenu formulé. Il permet de préciser ce que désigne un groupe nominal.",
+    "Ne pas traiter toutes ses occurrences comme le verbe littéral « dire ».",
+    197,
+    [
+      [
+        "京都という町に行きました。",
+        "きょうとというまちにいきました。",
+        "Je suis allé dans une ville appelée Kyoto."
+      ],
+      [
+        "電車が止まるという知らせが来ました。",
+        "でんしゃがとまるというしらせがきました。",
+        "Nous avons reçu une annonce disant que le train allait s’arrêter."
+      ],
+      [
+        "友達に会うという約束があります。",
+        "ともだちにあうというやくそくがあります。",
+        "J’ai promis de retrouver un ami."
+      ]
+    ]
+  ],
+  [
+    "kuseni",
+    "くせに : un reproche dans la concession",
+    "N3",
+    "concession",
+    "くせに souligne une contradiction avec une teinte de reproche, mépris ou autocritique. Nom + のくせに; adjectif en な + なくせに.",
+    "のに peut exprimer une surprise sans la charge de reproche propre à くせに.",
+    199,
+    [
+      [
+        "知っているくせに、教えてくれません。",
+        "しっているくせに、おしえてくれません。",
+        "Il le sait, pourtant il refuse de me le dire."
+      ],
+      [
+        "忙しいと言うくせに、ずっと遊んでいます。",
+        "いそがしいというくせに、ずっとあそんでいます。",
+        "Il dit qu’il est occupé, mais il passe son temps à jouer."
+      ],
+      [
+        "初心者のくせに、無理をしました。",
+        "しょしんしゃのくせに、むりをしました。",
+        "Alors que je suis débutant, j’ai voulu en faire trop."
+      ]
+    ]
+  ],
+  [
+    "naosu",
+    "直す : refaire pour corriger",
+    "N3",
+    "verb-compounds",
+    "Base de ます + 直す signifie refaire une action en la corrigeant ou en la reprenant. La nuance dépend du verbe composé.",
+    "もう一度 exprime une répétition; 直す peut préciser l’intention de réparation.",
+    200,
+    [
+      [
+        "説明を読み直しました。",
+        "せつめいをよみなおしました。",
+        "J’ai relu l’explication."
+      ],
+      [
+        "名前を書き直してください。",
+        "なまえをかきなおしてください。",
+        "Réécrivez le nom correctement."
+      ],
+      [
+        "計画を考え直します。",
+        "けいかくをかんがえなおします。",
+        "Je vais reconsidérer le plan."
+      ]
+    ]
+  ],
+  [
+    "wasure",
+    "忘れる : oublier d’effectuer une action",
+    "N3",
+    "verb-compounds",
+    "Base de ます + 忘れる indique une action oubliée. Une construction en のを忘れる est également possible. Le verbe et le contexte précisent ce qui n’a pas été réalisé.",
+    "Ne pas confondre avec oublier que l’action a déjà été réalisée.",
+    200,
+    [
+      [
+        "メールを送り忘れました。",
+        "めーるをおくりわすれました。",
+        "J’ai oublié d’envoyer le courriel."
+      ],
+      [
+        "鍵を持っていくのを忘れました。",
+        "かぎをもっていくのをわすれました。",
+        "J’ai oublié d’emporter la clé."
+      ],
+      [
+        "名前を書き忘れないでください。",
+        "なまえをかきわすれないでください。",
+        "N’oubliez pas d’écrire votre nom."
+      ]
+    ]
+  ],
+  [
+    "kiru",
+    "切る : terminer complètement",
+    "N3",
+    "verb-compounds",
+    "Base de ます + 切る peut exprimer l’accomplissement total. La forme potentielle 切れる, notamment négative, précise la capacité de tout accomplir.",
+    "Le sens lexical de couper ne suffit pas à interpréter 読み切る.",
+    201,
+    [
+      [
+        "この本を読み切りました。",
+        "このほんをよみきりました。",
+        "J’ai lu ce livre jusqu’au bout."
+      ],
+      [
+        "全部は食べ切れません。",
+        "ぜんぶはたべきれません。",
+        "Je ne peux pas tout manger."
+      ],
+      [
+        "最後まで走り切りました。",
+        "さいごまではしりきりました。",
+        "J’ai couru jusqu’au bout."
+      ]
+    ]
+  ],
+  [
+    "au",
+    "合う : réciprocité entre participants",
+    "N3",
+    "verb-compounds",
+    "Base de ます + 合う décrit souvent une action mutuelle. Les participants agissent l’un envers l’autre ou ensemble selon le verbe.",
+    "Une action simplement simultanée n’est pas automatiquement réciproque.",
+    201,
+    [
+      [
+        "友達と助け合います。",
+        "ともだちとたすけあいます。",
+        "Mes amis et moi nous entraidons."
+      ],
+      [
+        "皆で話し合いました。",
+        "みんなではなしあいました。",
+        "Nous en avons discuté ensemble."
+      ],
+      [
+        "二人は見つめ合っていました。",
+        "ふたりはみつめあっていました。",
+        "Les deux personnes se regardaient dans les yeux."
+      ]
+    ]
+  ],
+  [
+    "adjective-sa",
+    "さ : faire d’une qualité un nom",
+    "N3",
+    "word-formation",
+    "Enlever い d’un adjectif en い, ou な d’un adjectif en な, puis ajouter さ. Le nom exprime une qualité ou son degré.",
+    "み n’est pas librement productif avec tous les adjectifs; il faut apprendre ses mots attestés.",
+    204,
+    [
+      [
+        "この部屋の広さに驚きました。",
+        "このへやのひろさにおどろきました。",
+        "La taille de cette pièce m’a surpris."
+      ],
+      [
+        "静かさが好きです。",
+        "しずかさがすきです。",
+        "J’aime le calme."
+      ],
+      [
+        "日本語の面白さが分かってきました。",
+        "にほんごのおもしろさがわかってきました。",
+        "Je commence à comprendre ce qui fait l’intérêt du japonais."
+      ]
+    ]
+  ],
+  [
+    "me",
+    "め : un degré légèrement orienté",
+    "N3",
+    "word-formation",
+    "Après certaines bases adjectivales, め indique un degré un peu plus marqué dans la direction choisie: 早め, 大きめ. Les mots attestés guident l’usage.",
+    "早め peut être une précaution relative, alors que 早すぎる décrit un excès.",
+    206,
+    [
+      [
+        "少し早めに来てください。",
+        "すこしはやめにきてください。",
+        "Venez un peu en avance."
+      ],
+      [
+        "大きめの靴を選びました。",
+        "おおきめのくつをえらびました。",
+        "J’ai choisi des chaussures un peu grandes."
+      ],
+      [
+        "今日は短めに話します。",
+        "きょうはみじかめにはなします。",
+        "Aujourd’hui, je vais parler assez brièvement."
+      ]
+    ]
+  ],
+  [
+    "sekkaku",
+    "せっかく : donner de la valeur à une occasion",
+    "N3",
+    "discourse",
+    "せっかく souligne une occasion précieuse ou un effort dont on souhaite tirer profit. Avec のに, il peut exprimer le regret de perdre cet avantage.",
+    "わざわざ met davantage l’accent sur le détour ou l’effort intentionnel.",
+    217,
+    [
+      [
+        "せっかく来たので、少し見ていきます。",
+        "せっかくきたので、すこしみていきます。",
+        "Puisque je suis venu jusqu’ici, je vais regarder un peu."
+      ],
+      [
+        "せっかく予約したのに、行けなくなりました。",
+        "せっかくよやくしたのに、いけなくなりました。",
+        "J’avais fait l’effort de réserver, mais je ne peux finalement plus y aller."
+      ],
+      [
+        "せっかくの休日を楽しみたいです。",
+        "せっかくのきゅうじつをたのしみたいです。",
+        "Je veux profiter de ce précieux jour de repos."
+      ]
+    ]
+  ],
+  [
+    "wazawaza",
+    "わざわざ : faire un effort exprès",
+    "N3",
+    "discourse",
+    "わざわざ insiste sur une action entreprise spécialement, malgré le détour ou l’effort nécessaire. Il peut exprimer gratitude, surprise ou critique selon le contexte.",
+    "せっかく valorise l’occasion; わざわざ souligne le geste effectué exprès.",
+    217,
+    [
+      [
+        "わざわざ来てくれて、ありがとう。",
+        "わざわざきてくれて、ありがとう。",
+        "Merci d’avoir fait le déplacement exprès."
+      ],
+      [
+        "わざわざ店に行って確認しました。",
+        "わざわざみせにいってかくにんしました。",
+        "Je me suis déplacé exprès au magasin pour vérifier."
+      ],
+      [
+        "わざわざ言わなくても分かります。",
+        "わざわざいわなくてもわかります。",
+        "Je comprends sans qu’il soit nécessaire de le préciser exprès."
+      ]
+    ]
+  ],
+  [
+    "tsumori",
+    "つもり : une intention ou une représentation",
+    "N4",
+    "intention",
+    "Verbe neutre + つもり exprime un projet; forme passée ou nom + のつもり peut décrire ce que l’on pense avoir fait ou être.",
+    "Une intention ne constitue pas une décision collective déjà arrêtée.",
+    241,
+    [
+      [
+        "来年、日本に行くつもりです。",
+        "らいねん、にほんにいくつもりです。",
+        "J’ai l’intention d’aller au Japon l’an prochain."
+      ],
+      [
+        "今日は買わないつもりです。",
+        "きょうはかわないつもりです。",
+        "J’ai l’intention de ne rien acheter aujourd’hui."
+      ],
+      [
+        "説明したつもりでした。",
+        "せつめいしたつもりでした。",
+        "Je pensais l’avoir expliqué."
+      ]
+    ]
+  ],
+  [
+    "hazuda",
+    "はずだ : ce que les informations font attendre",
+    "N3",
+    "certainty",
+    "はずだ présente un résultat attendu à partir d’un raisonnement ou d’informations. Nom + のはず; adjectif en な + なはず. Ce n’est pas une garantie.",
+    "わけだ explique une conclusion reconnue; はずだ cadre ce qui devrait être le cas.",
+    242,
+    [
+      [
+        "電車はもう着いたはずです。",
+        "でんしゃはもうついたはずです。",
+        "Le train devrait déjà être arrivé."
+      ],
+      [
+        "今日は休みのはずです。",
+        "きょうはやすみのはずです。",
+        "Aujourd’hui devrait être un jour de fermeture."
+      ],
+      [
+        "この方法ならできるはずです。",
+        "このほうほうならできるはずです。",
+        "Avec cette méthode, cela devrait être possible."
+      ]
+    ]
+  ],
+  [
+    "bekida",
+    "べきだ : un devoir ou jugement normatif",
+    "N3",
+    "obligation",
+    "Verbe de dictionnaire + べきだ exprime ce qu’il convient de faire. するべき et すべき sont possibles. La négation ordinaire est べきではない.",
+    "Une prescription morale ou pratique n’est pas identique à une nécessité extérieure en なければならない.",
+    243,
+    [
+      [
+        "まず事実を確認すべきです。",
+        "まずじじつをかくにんすべきです。",
+        "Il faut d’abord vérifier les faits."
+      ],
+      [
+        "相手の話を聞くべきです。",
+        "あいてのはなしをきくべきです。",
+        "On devrait écouter l’autre personne."
+      ],
+      [
+        "ここで諦めるべきではありません。",
+        "ここであきらめるべきではありません。",
+        "Il ne faut pas abandonner ici."
+      ]
+    ]
+  ],
+  [
+    "zuni",
+    "ずに : sans effectuer une action",
+    "N3",
+    "negation",
+    "Base négative sans ない + ずに signifie sans faire. する donne せずに. Il s’agit d’une forme issue de la négation ancienne, toujours utilisée.",
+    "ないで est souvent plus conversationnel; ずに apparaît volontiers dans un propos construit.",
+    245,
+    [
+      [
+        "何も言わずに帰りました。",
+        "なにもいわずにかえりました。",
+        "Je suis parti sans rien dire."
+      ],
+      [
+        "辞書を使わずに読みました。",
+        "じしょをつかわずによみました。",
+        "J’ai lu sans utiliser de dictionnaire."
+      ],
+      [
+        "予約せずに行きました。",
+        "よやくせずにいきました。",
+        "J’y suis allé sans réserver."
+      ]
+    ]
+  ]
+]

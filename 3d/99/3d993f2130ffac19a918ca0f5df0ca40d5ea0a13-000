@@ -1,0 +1,94 @@
+// 12 October 2026 17:40 CEST: cross-language hashes, shard failures and meaningful lesson limits.
+import { describe, expect, it, vi } from 'vitest'
+import { CORPUS_CONFIG, normalizeCorpusText, corpusTokens, corpusBucket, searchBucket, createCorpusClient, createLatestRequest, cookCorpusLesson } from './japaneseCorpusModel.js'
+
+const original = { id: 'grammar-test', title: 'テスト', domain: 'grammar', level: 'N4', explanationFr: 'Un exemple.', status: 'reviewed', examples: [{ ja: '雨が降ります。', reading: 'あめがふります。', fr: 'Il pleut.', origin: 'Original example' }], sources: [{ title: 'Source', url: 'https://example.org/source', license: 'Rights retained' }] }
+const head = { schemaVersion: 1, basePath: 'release/frozen', recordShards: 256, searchShards: 256, cards: [original] }
+const shardPath = (kind, bucket) => `${head.basePath}/${kind}/${String(bucket).padStart(3, '0')}.json`
+
+describe('corpus model', () => {
+  it('normalizes width, accents and French ligature consistently with the Python compiler', () => {
+    expect(normalizeCorpusText('Œuvre ÉTÉ ＡＢＣ ｶﾅ')).toBe('oeuvre ete abc カナ')
+    expect(corpusTokens('は / が, école école')).toEqual(['は', 'が', 'ecole'])
+  })
+  it('hashes Unicode codepoints, including a supplementary kanji, against independent Python fixtures', () => {
+    expect(corpusBucket('𠮷野')).toBe(168)
+    expect(corpusBucket('word-1002740')).toBe(0)
+    expect(corpusBucket('は')).toBe(158)
+    expect(searchBucket('𠮷野さん')).toBe(168)
+  })
+  it('uses immutable release shards, intersects query tokens and ranks curated exact entries', async () => {
+    const dictionary = { id: 'word-1', title: 'は', aliases: [], domain: 'dictionary' }
+    const files = new Map([[CORPUS_CONFIG.cataloguePath, head],
+      [shardPath('search', searchBucket('は')), { 'は': [original.id, dictionary.id], 'はな': ['other'] }],
+      [shardPath('search', searchBucket('が')), { 'が': [original.id] }],
+      [shardPath('records', corpusBucket(original.id)), [original]],
+    ])
+    const read = vi.fn(async (path) => files.get(path))
+    const client = createCorpusClient(read)
+    expect((await client.search('は が')).map((record) => record.id)).toEqual([original.id])
+    expect(await client.getCatalogue()).toBe(head)
+    expect(read.mock.calls.filter(([path]) => path === CORPUS_CONFIG.cataloguePath)).toHaveLength(1)
+    expect(read.mock.calls.every(([path]) => path === CORPUS_CONFIG.cataloguePath || path.startsWith(head.basePath))).toBe(true)
+  })
+  it('deduplicates simultaneous loads but retries failures rather than caching them', async () => {
+    const read = vi.fn().mockRejectedValueOnce(new Error('network')).mockResolvedValue(head)
+    const client = createCorpusClient(read)
+    const first = await Promise.allSettled([client.getCatalogue(), client.getCatalogue()])
+    expect(first.every((result) => result.status === 'rejected')).toBe(true)
+    expect(read).toHaveBeenCalledTimes(1)
+    expect(await client.getCatalogue()).toBe(head)
+    expect(read).toHaveBeenCalledTimes(2)
+  })
+  it('rejects malformed catalogue data and permits the next correct attempt', async () => {
+    const read = vi.fn().mockResolvedValueOnce({ missing: true }).mockResolvedValue(head)
+    const client = createCorpusClient(read)
+    await expect(client.getCatalogue()).rejects.toThrow('invalides')
+    expect(await client.getCatalogue()).toBe(head)
+  })
+  it('rejects a record missing from an otherwise valid shard', async () => {
+    const client = createCorpusClient(async (path) => path === CORPUS_CONFIG.cataloguePath ? head : [])
+    await expect(client.getRecord('missing')).rejects.toThrow('fiche manque')
+  })
+  it('applies the requested domain before the 40-result boundary', async () => {
+    const kanji = { id: 'kanji-065e5', title: '日', domain: 'kanji', level: 'unclassified' }
+    const manyWords = Array.from({ length: 45 }, (_, index) => `word-${index}`)
+    const client = createCorpusClient(async (path) => {
+      if (path === CORPUS_CONFIG.cataloguePath) return head
+      if (path.includes('/search/')) return { '日': [...manyWords, kanji.id] }
+      return [kanji]
+    })
+    expect(await client.search('日', { domain: 'kanji' })).toEqual([kanji])
+  })
+  it('invalidates earlier request tickets when newer actions or navigation occur', () => {
+    const gate = createLatestRequest()
+    const old = gate.start(); const current = gate.start()
+    expect(gate.isCurrent(old)).toBe(false)
+    expect(gate.isCurrent(current)).toBe(true)
+    gate.cancel(); expect(gate.isCurrent(current)).toBe(false)
+  })
+  it('limits local lessons to one new topic and three original exercises with examples before explanation', () => {
+    const records = Array.from({ length: 5 }, (_, index) => ({ ...original, id: `grammar-${index}`, examples: Array.from({ length: 5 }, () => original.examples[0]) }))
+    const result = cookCorpusLesson(records, { script: 'kana', activity: 'oral', learner: { retestItems: [{ fr: 'Hier ?', ja: '昨日。' }] } })
+    expect(result.exercises).toHaveLength(3)
+    expect(result.records).toHaveLength(1)
+    expect(result.exercises[0].answer).toBe('あめがふります。')
+    expect(result.retestItems).toHaveLength(1)
+    expect(result.markdown).toContain('15 minutes, puis 2 minutes')
+    expect(result.markdown).toContain('https://example.org/source')
+    expect(result.markdown).toContain('aucun acquis enregistré')
+    expect(result.markdown.indexOf('| Japonais et lecture |')).toBeLessThan(result.markdown.indexOf('Un exemple.'))
+    expect(result.markdown).toContain('n’écris PAS, dis à voix haute')
+  })
+  it('does not manufacture dictionary or imported sentence exercises', () => {
+    const result = cookCorpusLesson([{ ...original, status: 'source-imported', domain: 'sentence' }])
+    expect(result.exercises).toEqual([])
+    expect(result.referenceOnly).toBe(true)
+    expect(result.markdown).toContain('Référence uniquement')
+  })
+  it('blocks kana cooking when a Han character has no supplied reading', () => {
+    const noReading = { ...original, examples: [{ ...original.examples[0], reading: '' }] }
+    expect(() => cookCorpusLesson([noReading], { script: 'kana' })).toThrow('lecture en kana manque')
+    expect(cookCorpusLesson([noReading], { script: 'mixed' }).exercises[0].answer).toBe('雨が降ります。')
+  })
+})

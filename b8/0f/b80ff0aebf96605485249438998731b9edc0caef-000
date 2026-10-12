@@ -1,0 +1,210 @@
+[
+  [
+    "gatera",
+    "がてら : profiter d’un déplacement",
+    "N1",
+    "incidental",
+    "Nom d’activité ou base de ます + がてら associe une activité à une autre effectuée à cette occasion, souvent dans un déplacement.",
+    "ながら indique la simultanéité; がてら permet deux objectifs dans la même sortie.",
+    368,
+    [
+      [
+        "散歩がてら、店に寄りました。",
+        "さんぽがてら、みせによりました。",
+        "Au cours d’une promenade, je suis passé au magasin."
+      ],
+      [
+        "買い物がてら、友達に会いました。",
+        "かいものがてら、ともだちにあいました。",
+        "J’ai profité des courses pour voir un ami."
+      ],
+      [
+        "見学がてら、挨拶に行きました。",
+        "けんがくがてら、あいさつにいきました。",
+        "J’ai profité d’une visite pour aller saluer les personnes présentes."
+      ]
+    ]
+  ],
+  [
+    "katawara",
+    "かたわら : mener deux activités dans la durée",
+    "N1",
+    "incidental",
+    "Verbe de dictionnaire ou nom + のかたわら décrit une activité menée parallèlement à une occupation principale, souvent sur une durée importante.",
+    "Ce n’est pas la simultanéité ponctuelle de manger en parlant.",
+    368,
+    [
+      [
+        "働くかたわら、日本語を学んでいます。",
+        "はたらくかたわら、にほんごをまなんでいます。",
+        "J’étudie le japonais en parallèle de mon travail."
+      ],
+      [
+        "研究のかたわら、記事を書いています。",
+        "けんきゅうのかたわら、きじをかいています。",
+        "Je rédige des articles en parallèle de mes recherches."
+      ],
+      [
+        "彼は会社で働くかたわら、作品を制作しています。",
+        "かれはかいしゃではたらくかたわら、さくひんをせいさくしています。",
+        "Il crée des œuvres en parallèle de son emploi dans une entreprise."
+      ]
+    ]
+  ],
+  [
+    "tsuideni",
+    "ついでに : une action supplémentaire à l’occasion",
+    "N3",
+    "incidental",
+    "Verbe neutre ou passé + ついでに, nom + のついでに, ajoute une action accomplie à l’occasion d’une autre. L’action secondaire profite de la première.",
+    "Contrairement à かたわら, la situation peut être ponctuelle.",
+    368,
+    [
+      [
+        "買い物のついでに、本を返しました。",
+        "かいもののついでに、ほんをかえしました。",
+        "J’ai profité des courses pour rendre le livre."
+      ],
+      [
+        "駅に行くついでに、手紙を出します。",
+        "えきにいくついでに、てがみをだします。",
+        "En allant à la gare, j’en profiterai pour poster la lettre."
+      ],
+      [
+        "掃除したついでに、窓も開けました。",
+        "そうじしたついでに、まどもあけました。",
+        "En faisant le ménage, j’en ai aussi profité pour ouvrir la fenêtre."
+      ]
+    ]
+  ],
+  [
+    "tsutsu",
+    "つつ : simultanéité ou contradiction reconnue",
+    "N2",
+    "concession",
+    "Base de ます + つつ exprime une simultanéité dans un registre construit. つつも peut reconnaître une action ou un fait auquel la suite s’oppose.",
+    "ながら recoupe une partie des usages, mais toutes les combinaisons ne sont pas identiques.",
+    353,
+    [
+      [
+        "地図を見つつ、道を確認しました。",
+        "ちずをみつつ、みちをかくにんしました。",
+        "J’ai vérifié le chemin en regardant la carte."
+      ],
+      [
+        "悪いと知りつつ、黙っていました。",
+        "わるいとしりつつ、だまっていました。",
+        "Tout en sachant que c’était mal, je gardais le silence."
+      ],
+      [
+        "迷いつつも、参加すると決めました。",
+        "まよいつつも、さんかするときめました。",
+        "Malgré mon hésitation, j’ai décidé de participer."
+      ]
+    ]
+  ],
+  [
+    "tsutsuaru",
+    "つつある : un changement en cours",
+    "N2",
+    "change",
+    "Base de ます + つつある décrit une évolution en cours dans un registre construit. Choisir une action ou transformation dont le développement peut être observé.",
+    "ている est plus général; つつある met en avant une progression.",
+    353,
+    [
+      [
+        "状況は変わりつつあります。",
+        "じょうきょうはかわりつつあります。",
+        "La situation est en train de changer."
+      ],
+      [
+        "日本語への理解が深まりつつあります。",
+        "にほんごへのりかいがふかまりつつあります。",
+        "Ma compréhension du japonais s’approfondit progressivement."
+      ],
+      [
+        "町の人口は増えつつあります。",
+        "まちのじんこうはふえつつあります。",
+        "La population de la ville est en cours d’augmentation."
+      ]
+    ]
+  ],
+  [
+    "ga-hayaika",
+    "が早いか : succession presque immédiate",
+    "N1",
+    "time",
+    "Verbe de dictionnaire + が早いか décrit une action suivie presque aussitôt d’une autre. Le registre est surtout narratif; la rapidité fait partie de l’effet.",
+    "次第 annonce souvent une conduite prévue; が早いか raconte un enchaînement vif.",
+    367,
+    [
+      [
+        "彼は合図を聞くが早いか、走り出しました。",
+        "かれはあいずをきくがはやいか、はしりだしました。",
+        "À peine avait-il entendu le signal qu’il s’est mis à courir."
+      ],
+      [
+        "子供はドアが開くが早いか、外へ出ました。",
+        "こどもはどあがあくがはやいか、そとへでました。",
+        "Dès que la porte s’est ouverte, l’enfant est sorti."
+      ],
+      [
+        "彼女は電話が鳴るが早いか、受話器を取りました。",
+        "かのじょはでんわがなるがはやいか、じゅわきをとりました。",
+        "À peine le téléphone a-t-il sonné qu’elle a décroché."
+      ]
+    ]
+  ],
+  [
+    "sobakara",
+    "そばから : l’action aussitôt défaite ou répétée",
+    "N1",
+    "time",
+    "Verbe neutre ou passé + そばから décrit ce qui se produit immédiatement après une action, souvent en la rendant vaine. La répétition ou contrariété compte.",
+    "Ce n’est pas une simple succession ponctuelle heureuse.",
+    367,
+    [
+      [
+        "覚えたそばから忘れてしまいます。",
+        "おぼえたそばからわすれてしまいます。",
+        "J’oublie aussitôt ce que je viens d’apprendre."
+      ],
+      [
+        "片付けるそばから、子供が散らかします。",
+        "かたづけるそばから、こどもがちらかします。",
+        "À peine ai-je rangé que l’enfant remet du désordre."
+      ],
+      [
+        "直したそばから、別の問題が出ます。",
+        "なおしたそばから、べつのもんだいがでます。",
+        "À peine une réparation faite, un autre problème apparaît."
+      ]
+    ]
+  ],
+  [
+    "kirai-ga-aru",
+    "きらいがある : une tendance critiquée",
+    "N1",
+    "tendency",
+    "Verbe neutre ou nom + のきらいがある décrit une tendance que le locuteur juge défavorable. きらい n’exprime pas ici une simple préférence personnelle.",
+    "傾向がある peut être plus neutre; cette tournure porte une appréciation critique.",
+    367,
+    [
+      [
+        "彼は急いで決めるきらいがあります。",
+        "かれはいそいできめるきらいがあります。",
+        "Il a tendance à décider trop vite."
+      ],
+      [
+        "一人で抱え込むきらいがあります。",
+        "ひとりでかかえこむきらいがあります。",
+        "Il a tendance à tout porter seul."
+      ],
+      [
+        "説明が長くなるきらいがあります。",
+        "せつめいがながくなるきらいがあります。",
+        "Les explications ont tendance à devenir trop longues."
+      ]
+    ]
+  ]
+]

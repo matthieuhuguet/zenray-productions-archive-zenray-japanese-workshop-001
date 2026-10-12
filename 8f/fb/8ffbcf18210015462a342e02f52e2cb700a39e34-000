@@ -1,0 +1,455 @@
+[
+  [
+    "jomon-name",
+    "Pourquoi appelle-t-on cette culture Jōmon ?",
+    "history",
+    [
+      "Jomon",
+      "Jōmon",
+      "縄文",
+      "poterie"
+    ],
+    "Le nom Jōmon renvoie aux empreintes de cordes qui décorent de nombreuses poteries de cette longue période. Les récipients sont modelés à la main, sans tour de potier. Le terme désigne une catégorie archéologique étendue, avec plusieurs phases et des variations régionales, plutôt qu’un peuple homogène dont on connaîtrait précisément la langue.",
+    "Les limites chronologiques varient selon les sites et les méthodes de datation; ne pas transformer le titre daté d’un ancien essai en frontière universelle.",
+    [
+      "jomon-met"
+    ],
+    [
+      "japan-backlog-history-01"
+    ],
+    [
+      [
+        "縄文土器には、縄の模様があります。",
+        "じょうもんどきには、なわのもようがあります。",
+        "Les poteries Jōmon portent des motifs de cordes."
+      ]
+    ]
+  ],
+  [
+    "jomon-settled",
+    "Une société peut-elle être sédentaire sans agriculture ?",
+    "history",
+    [
+      "sédentarité",
+      "chasseurs-cueilleurs",
+      "Jomon",
+      "Hokkaido",
+      "Tohoku"
+    ],
+    "Les 17 sites Jōmon du nord du Japon inscrits à l’UNESCO documentent des communautés sédentaires de chasseurs, pêcheurs et cueilleurs. Elles exploitent des ressources locales diversifiées et construisent des habitats et lieux rituels durables. Cette série montre que la sédentarité ne dépend pas partout du passage à une économie agricole.",
+    "Il s’agit de la série archéologique du sud d’Hokkaidō et du nord du Tōhoku, pas d’un modèle identique pour tout l’archipel.",
+    [
+      "jomon-unesco"
+    ],
+    [
+      "japan-backlog-history-01",
+      "japan-backlog-geography-06"
+    ],
+    []
+  ],
+  [
+    "dogu",
+    "Que peut-on dire prudemment des figurines dogū ?",
+    "history",
+    [
+      "dogu",
+      "dogū",
+      "土偶",
+      "figurines",
+      "archéologie"
+    ],
+    "Les dogū sont des figurines d’argile associées à la culture Jōmon. L’UNESCO les situe parmi les manifestations matérielles des pratiques spirituelles, aux côtés de dépôts, sépultures et cercles de pierres. Leur forme renseigne sur des traditions visuelles; elle ne suffit pas à reconstruire un récit religieux complet ou une fonction unique pour tous les objets.",
+    "Séparer l’objet retrouvé, son contexte de fouille et les interprétations de son usage.",
+    [
+      "jomon-unesco"
+    ],
+    [
+      "japan-backlog-history-01",
+      "japan-backlog-religion-08"
+    ],
+    [
+      [
+        "これは土偶です。",
+        "これはどぐうです。",
+        "C’est une figurine dogū."
+      ]
+    ]
+  ],
+  [
+    "yayoi-rice",
+    "Qu’est-ce qui change avec les communautés Yayoi ?",
+    "history",
+    [
+      "Yayoi",
+      "弥生",
+      "riziculture",
+      "continent"
+    ],
+    "La riziculture en rizière joue un rôle majeur dans le développement des communautés Yayoi, d’abord dans l’ouest de l’archipel puis plus à l’est et au nord. Les échanges avec le continent apportent aussi des techniques métallurgiques. La transformation conserve des éléments antérieurs tout en créant de nouvelles formes d’habitat, d’objets et d’organisation sociale.",
+    "La diffusion est progressive; une date nationale unique ne décrit pas tous les territoires.",
+    [
+      "yayoi"
+    ],
+    [
+      "japan-backlog-history-01",
+      "japan-backlog-food-03"
+    ],
+    []
+  ],
+  [
+    "dotaku",
+    "Les cloches dōtaku servent-elles seulement à faire du bruit ?",
+    "history",
+    [
+      "dotaku",
+      "dōtaku",
+      "銅鐸",
+      "bronze",
+      "Yayoi"
+    ],
+    "Les dōtaku sont des objets de bronze de la période Yayoi que les musées classent parmi les instruments rituels. Leur décoration comporte des motifs géométriques et parfois des animaux ou scènes de la vie quotidienne. Leur intérêt historique tient donc aussi à la métallurgie, aux usages rituels et aux images gravées, au-delà de la forme de cloche.",
+    "Une interprétation précise doit s’appuyer sur l’objet et son contexte archéologique.",
+    [
+      "yayoi"
+    ],
+    [
+      "japan-backlog-history-01",
+      "japan-backlog-arts-03"
+    ],
+    [
+      [
+        "銅鐸は青銅で作られています。",
+        "どうたくはせいどうでつくられています。",
+        "Les dōtaku sont fabriqués en bronze."
+      ]
+    ]
+  ],
+  [
+    "kofun-forms",
+    "Tous les kofun ont-ils la forme d’un trou de serrure ?",
+    "history",
+    [
+      "kofun",
+      "古墳",
+      "Mozu",
+      "Furuichi",
+      "Osaka"
+    ],
+    "Non. L’ensemble de Mozu-Furuichi comprend des tertres en trou de serrure mais aussi des formes circulaires, carrées et apparentées à une coquille. Les dimensions, fossés, terrasses et objets associés matérialisent des différences de rang dans les élites de cette époque. Un kofun est un tertre funéraire, pas le nom d’une forme géométrique unique.",
+    "L’ensemble UNESCO représente une sélection de 49 tertres dans la région d’Osaka.",
+    [
+      "kofun"
+    ],
+    [
+      "japan-backlog-history-02"
+    ],
+    []
+  ],
+  [
+    "haniwa",
+    "Que représentent les haniwa autour des tertres funéraires ?",
+    "history",
+    [
+      "haniwa",
+      "埴輪",
+      "kofun",
+      "terre cuite"
+    ],
+    "Les haniwa sont des éléments de terre cuite disposés sur les tertres, parfois en rangées. Ils peuvent être cylindriques ou représenter des maisons, objets, animaux et personnes. Les exemplaires de Mozu-Furuichi renseignent à la fois sur l’aménagement rituel des tombes et sur les formes matérielles visibles dans cette société.",
+    "Les objets figurés ne constituent pas un inventaire complet de la vie de toute la population.",
+    [
+      "kofun"
+    ],
+    [
+      "japan-backlog-history-02",
+      "japan-backlog-arts-03"
+    ],
+    [
+      [
+        "埴輪には、馬の形をしたものもあります。",
+        "はにわには、うまのかたちをしたものもあります。",
+        "Certains haniwa ont la forme d’un cheval."
+      ]
+    ]
+  ],
+  [
+    "asuka-imports",
+    "Pourquoi Asuka ne se résume-t-il pas à l’arrivée d’une religion ?",
+    "history",
+    [
+      "Asuka",
+      "飛鳥",
+      "bouddhisme",
+      "écriture",
+      "Corée",
+      "Chine"
+    ],
+    "L’introduction du bouddhisme s’inscrit dans un ensemble d’échanges avec la Chine et la péninsule coréenne. Le Met relie cette période à la diffusion de l’écrit chinois, de la rédaction de l’histoire, des monnaies et de la normalisation des poids et mesures. Ces outils participent à la construction d’un gouvernement centralisé.",
+    "Le récit institutionnel d’introduction du bouddhisme ne signifie pas qu’aucune connaissance de la religion n’existait auparavant.",
+    [
+      "asuka"
+    ],
+    [
+      "japan-backlog-history-03",
+      "japan-backlog-religion-02"
+    ],
+    []
+  ],
+  [
+    "nara-permanent",
+    "Pourquoi la fixation d’une capitale transforme-t-elle le gouvernement ancien ?",
+    "history",
+    [
+      "Nara",
+      "奈良",
+      "capitale",
+      "administration"
+    ],
+    "Avant le VIIIe siècle, les changements de règne s’accompagnent régulièrement de nouveaux palais et déplacements de la cour. L’organisation d’une administration plus complexe, inspirée de modèles continentaux, renforce le besoin d’une capitale durable. Nara représente ce passage à un centre politique organisé, avec des fonctions administratives et religieuses.",
+    "Cette fiche explique un mécanisme institutionnel; elle ne remplace pas la chronologie détaillée des différentes capitales.",
+    [
+      "asuka"
+    ],
+    [
+      "japan-backlog-history-03",
+      "japan-backlog-education-08"
+    ],
+    []
+  ],
+  [
+    "fujiwara",
+    "Comment les Fujiwara exercent-ils une influence à la cour de Heian ?",
+    "history",
+    [
+      "Fujiwara",
+      "藤原",
+      "Heian",
+      "régence"
+    ],
+    "La famille aristocratique Fujiwara renforce son influence par des alliances matrimoniales avec la famille impériale et par l’exercice de régences. Elle joue aussi un rôle important dans le patronage des arts et de la littérature de cour. Comprendre cette articulation entre famille, fonction politique et mécénat aide à situer la culture de Heian.",
+    "Ce cadre concerne la cour et ses élites; il ne décrit pas toute la vie sociale de l’époque.",
+    [
+      "heian"
+    ],
+    [
+      "japan-backlog-history-03"
+    ],
+    []
+  ],
+  [
+    "heian-kana",
+    "Pourquoi les kana comptent-ils dans la littérature de Heian ?",
+    "history",
+    [
+      "kana",
+      "かな",
+      "Heian",
+      "waka",
+      "nikki",
+      "monogatari"
+    ],
+    "Le développement des kana facilite l’écriture du japonais et accompagne l’essor de poèmes waka, récits monogatari et journaux nikki. Cela ne supprime pas les caractères chinois ni les échanges continentaux. La culture écrite de Heian combine des pratiques héritées et des formes qui permettent d’exprimer plus directement la langue japonaise.",
+    "Il s’agit d’un développement historique de pratiques d’écriture, pas d’une invention instantanée d’un alphabet complet.",
+    [
+      "heian"
+    ],
+    [
+      "japan-backlog-history-03",
+      "japan-backlog-arts-06"
+    ],
+    []
+  ],
+  [
+    "yamatoe-context",
+    "Que distingue historiquement yamato-e de kara-e ?",
+    "arts",
+    [
+      "yamato-e",
+      "大和絵",
+      "kara-e",
+      "唐絵",
+      "Heian"
+    ],
+    "Dans le contexte de Heian, yamato-e désigne notamment la peinture de scènes du Japon et de sa littérature, tandis que kara-e renvoie à des thèmes ou modèles chinois. Les catégories ne se réduisent pas à une opposition éternelle entre deux styles formels. Le Met souligne le petit nombre de peintures anciennes conservées, qui limite la comparaison des débuts.",
+    "Il faut préciser l’époque et le sujet de l’œuvre au lieu d’appliquer une étiquette nationale à toute peinture.",
+    [
+      "heian"
+    ],
+    [
+      "japan-backlog-arts-06",
+      "japan-backlog-history-03"
+    ],
+    []
+  ],
+  [
+    "bakufu",
+    "Pourquoi voit-on un empereur et un shogun dans la même histoire ?",
+    "history",
+    [
+      "bakufu",
+      "幕府",
+      "shogun",
+      "将軍",
+      "Kamakura"
+    ],
+    "Le gouvernement guerrier de Kamakura déplace une grande part du pouvoir politique vers une base militaire, tandis que la cour impériale demeure à Kyoto. Le terme bakufu désigne ce gouvernement des chefs militaires ou de leurs régents. La coexistence de ces institutions explique pourquoi une chronologie peut mentionner simultanément empereur, shogun et cour.",
+    "Le partage réel du pouvoir varie avec les périodes; la formule ne doit pas effacer ces changements.",
+    [
+      "kamakura"
+    ],
+    [
+      "japan-backlog-history-04"
+    ],
+    []
+  ],
+  [
+    "nanbokucho",
+    "Que signifie la période des cours du Nord et du Sud ?",
+    "history",
+    [
+      "Nanbokucho",
+      "Nanbokuchō",
+      "南北朝",
+      "Yoshino"
+    ],
+    "Au XIVe siècle, la lutte politique conduit à la coexistence de deux cours impériales rivales: l’une soutenue par Ashikaga Takauji à Kyoto, l’autre liée à Go-Daigo à Yoshino. Le terme Nanbokuchō renvoie à cette division entre Nord et Sud. Les œuvres et documents de cette période se situent dans ce conflit institutionnel.",
+    "Le nom désigne une situation historique précise; il ne signifie pas une séparation géographique permanente du Japon.",
+    [
+      "kamakura"
+    ],
+    [
+      "japan-backlog-history-04"
+    ],
+    []
+  ],
+  [
+    "muromachi-name",
+    "Pourquoi une période porte-t-elle le nom Muromachi ?",
+    "history",
+    [
+      "Muromachi",
+      "室町",
+      "Ashikaga",
+      "足利",
+      "Kyoto"
+    ],
+    "Muromachi est le quartier de Kyoto où se trouve le siège du gouvernement des shoguns Ashikaga. Le nom de la période vient de ce centre politique. Les seigneurs provinciaux conservent cependant une puissance importante, ce qui limite le contrôle du gouvernement central et contribue aux rivalités qui marquent la fin de la période.",
+    "Le nom d’un siège politique ne prouve pas une autorité identique sur toutes les provinces.",
+    [
+      "muromachi"
+    ],
+    [
+      "japan-backlog-history-04"
+    ],
+    []
+  ],
+  [
+    "onin-sengoku",
+    "Quel lien existe entre la guerre d’Ōnin et Sengoku ?",
+    "history",
+    [
+      "Onin",
+      "Ōnin",
+      "応仁",
+      "Sengoku",
+      "戦国"
+    ],
+    "La guerre d’Ōnin, de 1467 à 1477, dévaste Kyoto et affaiblit le pouvoir du shogunat. Le Met situe ensuite une longue séquence de conflits entre pouvoirs provinciaux dans ce qu’on appelle Sengoku. Le mot décrit une fragmentation politique et des rivalités guerrières, plutôt qu’une seule guerre continue menée par les mêmes camps.",
+    "Les limites de Sengoku peuvent différer selon la question et la périodisation retenue.",
+    [
+      "muromachi"
+    ],
+    [
+      "japan-backlog-history-05"
+    ],
+    []
+  ],
+  [
+    "unifiers",
+    "Pourquoi Nobunaga, Hideyoshi et Ieyasu sont-ils souvent associés ?",
+    "history",
+    [
+      "Nobunaga",
+      "信長",
+      "Hideyoshi",
+      "秀吉",
+      "Ieyasu",
+      "家康"
+    ],
+    "Ces trois chefs occupent des étapes successives du processus de réunification après les conflits du XVIe siècle. Nobunaga prend le contrôle de Kyoto et écarte le dernier shogun Ashikaga; Hideyoshi poursuit l’unification; Ieyasu consolide ensuite un nouvel ordre politique. Les associer permet de comprendre une succession de pouvoirs, sans les confondre.",
+    "Les campagnes, violences et institutions de chacun demandent des fiches distinctes.",
+    [
+      "momoyama"
+    ],
+    [
+      "japan-backlog-history-05"
+    ],
+    []
+  ],
+  [
+    "momoyama-two-aesthetics",
+    "L’art Momoyama est-il uniquement somptueux ?",
+    "arts",
+    [
+      "Momoyama",
+      "桃山",
+      "or",
+      "thé",
+      "châteaux"
+    ],
+    "Le patronage des élites militaires soutient à la fois un décor monumental utilisant largement l’or et une esthétique de simplicité dans le cadre du thé. Les grandes résidences affirment le pouvoir, tandis que certains espaces et ustensiles du thé valorisent des formes rustiques et irrégulières. Ces orientations coexistent dans la même époque.",
+    "Ce contraste documenté ne doit pas devenir une règle sur le goût de tous les Japonais.",
+    [
+      "momoyama"
+    ],
+    [
+      "japan-backlog-arts-01",
+      "japan-backlog-food-05"
+    ],
+    []
+  ],
+  [
+    "edo-openings",
+    "Le Japon d’Edo n’échange-t-il plus du tout avec l’extérieur ?",
+    "history",
+    [
+      "Edo",
+      "江戸",
+      "Nagasaki",
+      "commerce",
+      "sakoku"
+    ],
+    "Les restrictions de la période Edo n’équivalent pas à une absence totale d’échanges. Le Met mentionne notamment le commerce contrôlé avec des marchands chinois et néerlandais à Nagasaki. Ces circulations contribuent au développement de la porcelaine et à la transmission de pratiques artistiques chinoises. Il faut donc distinguer limitation politique et fermeture absolue.",
+    "Cette fiche décrit un canal documenté; les échanges par les autres frontières et intermédiaires demandent leur propre recherche.",
+    [
+      "edo"
+    ],
+    [
+      "japan-backlog-history-05",
+      "japan-backlog-arts-03"
+    ],
+    []
+  ],
+  [
+    "edo-patrons",
+    "Pourquoi les villes comptent-elles autant dans les arts d’Edo ?",
+    "arts",
+    [
+      "Edo",
+      "Kyoto",
+      "artisans",
+      "marchands",
+      "ukiyo-e"
+    ],
+    "Les artisans et marchands urbains participent fortement à la demande et à la création d’objets, images et spectacles. Dans Kyoto et Edo, des références anciennes sont reprises, transformées et parfois parodiées. Les arts de l’époque ne sont donc pas seulement un prolongement du patronage guerrier ou impérial. Les clientèles et formes de diffusion comptent aussi.",
+    "Cela n’efface pas le mécénat des élites ni les contraintes sociales de l’époque.",
+    [
+      "edo"
+    ],
+    [
+      "japan-backlog-arts-05",
+      "japan-backlog-history-05"
+    ],
+    []
+  ]
+]

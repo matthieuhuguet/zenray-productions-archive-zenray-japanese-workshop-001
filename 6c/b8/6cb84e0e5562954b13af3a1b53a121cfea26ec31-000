@@ -1,0 +1,7 @@
+{
+  "checkedAt": "12 October 2026",
+  "entryScript": "/assets/index-CwIcoo-C.js",
+  "expected": "/assets/index-CwIcoo-C.js",
+  "matches": true,
+  "elapsedAfterDeployMinutes": ">10"
+}

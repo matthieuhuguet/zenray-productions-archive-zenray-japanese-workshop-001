@@ -1,0 +1,55 @@
+{
+  "checkedAt": "12 October 2026",
+  "surface": "Actual ZenRayJapanese component in isolated headless Chromium; real local corpus fixtures; not production authentication proof",
+  "checks": [
+    {
+      "name": "Corpus > N4 > ば > lesson",
+      "passed": true,
+      "tableColumns": 2,
+      "drills": 1,
+      "script": "kana",
+      "retetstDetails": 2
+    },
+    {
+      "name": "Source links and rights metadata",
+      "passed": true,
+      "sourceLinks": 1
+    },
+    {
+      "name": "Horizontal overflow 1440 light",
+      "passed": true,
+      "width": 1440,
+      "scrollWidth": 1440,
+      "bodyWidth": 1440
+    },
+    {
+      "name": "Horizontal overflow 1440 dark",
+      "passed": true,
+      "width": 1440,
+      "scrollWidth": 1440,
+      "bodyWidth": 1440
+    },
+    {
+      "name": "Horizontal overflow 375 light",
+      "passed": true,
+      "width": 375,
+      "scrollWidth": 375,
+      "bodyWidth": 375
+    },
+    {
+      "name": "Horizontal overflow 375 dark",
+      "passed": true,
+      "width": 375,
+      "scrollWidth": 375,
+      "bodyWidth": 375
+    },
+    {
+      "name": "Exact kanji search and actual SVG image loading",
+      "passed": true
+    }
+  ],
+  "catalogueRequests": 1,
+  "requestCount": 5,
+  "pageErrors": [],
+  "passed": true
+}

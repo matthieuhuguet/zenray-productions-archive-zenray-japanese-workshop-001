@@ -1,0 +1,522 @@
+[
+  [
+    "naikotoniha",
+    "ないことには : une condition indispensable",
+    "N2",
+    "condition",
+    "Forme négative + ことには présente ce qui doit se réaliser avant qu’un résultat soit possible. La suite décrit souvent une impossibilité tant que la condition manque.",
+    "Le focus porte sur l’obstacle initial, pas seulement une hypothèse neutre.",
+    289,
+    [
+      [
+        "見ないことには、分かりません。",
+        "みないことには、わかりません。",
+        "Je ne peux pas savoir sans avoir regardé."
+      ],
+      [
+        "練習しないことには、上達できません。",
+        "れんしゅうしないことには、じょうたつできません。",
+        "On ne peut pas progresser sans s’entraîner."
+      ],
+      [
+        "予定が決まらないことには、予約できません。",
+        "よていがきまらないことには、よやくできません。",
+        "On ne peut pas réserver tant que le programme n’est pas arrêté."
+      ]
+    ]
+  ],
+  [
+    "kotonaku",
+    "ことなく : sans effectuer",
+    "N2",
+    "negation",
+    "Verbe de dictionnaire + ことなく décrit l’absence d’une action au cours d’une autre. La tournure est surtout construite ou écrite.",
+    "ないで et ずに sont souvent plus naturels dans l’échange quotidien.",
+    289,
+    [
+      [
+        "休むことなく働きました。",
+        "やすむことなくはたらきました。",
+        "J’ai travaillé sans prendre de repos."
+      ],
+      [
+        "誰にも相談することなく決めました。",
+        "だれにもそうだんすることなくきめました。",
+        "J’ai décidé sans consulter personne."
+      ],
+      [
+        "迷うことなく答えました。",
+        "まようことなくこたえました。",
+        "J’ai répondu sans hésiter."
+      ]
+    ]
+  ],
+  [
+    "nashi",
+    "なしに : sans un élément nécessaire ou habituel",
+    "N2",
+    "negation",
+    "Nom + なしに ou なしで exprime l’absence d’un élément. Avec は, la suite peut insister sur l’impossibilité d’agir sans lui.",
+    "Différencier la chose absente d’une action non réalisée en ことなく.",
+    289,
+    [
+      [
+        "予約なしで入れますか。",
+        "よやくなしではいれますか。",
+        "Peut-on entrer sans réservation ?"
+      ],
+      [
+        "説明なしには分かりません。",
+        "せつめいなしにはわかりません。",
+        "Je ne peux pas comprendre sans explication."
+      ],
+      [
+        "道具なしで作りました。",
+        "どうぐなしでつくりました。",
+        "Je l’ai fabriqué sans outils."
+      ]
+    ]
+  ],
+  [
+    "nara-dewa",
+    "ならでは : une qualité propre à",
+    "N1",
+    "exception",
+    "Nom + ならでは valorise ce qui est caractéristique d’une personne, d’un lieu ou d’une compétence. ならではの introduit le nom de cette qualité.",
+    "とは限らない nie une généralité; ならでは met en valeur une singularité.",
+    290,
+    [
+      [
+        "京都ならではの景色です。",
+        "きょうとならではのけしきです。",
+        "C’est un paysage propre à Kyoto."
+      ],
+      [
+        "職人ならではの技術です。",
+        "しょくにんならではのぎじゅつです。",
+        "C’est un savoir-faire propre à un artisan."
+      ],
+      [
+        "この店ならではの料理を食べました。",
+        "このみせならではのりょうりをたべました。",
+        "J’ai goûté une spécialité propre à ce restaurant."
+      ]
+    ]
+  ],
+  [
+    "wo-oite",
+    "をおいて : aucun autre que",
+    "N1",
+    "exception",
+    "Nom + をおいて suivi d’une négation présente un candidat irremplaçable. Le registre souligne l’exclusivité de la personne ou solution.",
+    "Il ne s’agit pas ici du simple verbe 置く appliqué à un objet.",
+    290,
+    [
+      [
+        "この仕事は彼をおいて頼める人がいません。",
+        "このしごとはかれをおいてたのめるひとがいません。",
+        "Pour ce travail, personne d’autre que lui ne peut être sollicité."
+      ],
+      [
+        "今をおいて機会はありません。",
+        "いまをおいてきかいはありません。",
+        "Il n’y a pas d’autre occasion que maintenant."
+      ],
+      [
+        "この問題には対話をおいて解決の道はありません。",
+        "このもんだいにはたいわをおいてかいけつのみちはありません。",
+        "Pour ce problème, il n’existe pas d’autre solution que le dialogue."
+      ]
+    ]
+  ],
+  [
+    "zuniha-irarenai",
+    "ずにはいられない : un élan impossible à retenir",
+    "N2",
+    "emotion",
+    "Base négative + ずにはいられない décrit une impulsion qu’on ne parvient pas à retenir. する → せずにはいられない. La variante ないではいられない est possible.",
+    "Différencier l’élan intérieur d’une obligation imposée en なければならない.",
+    291,
+    [
+      [
+        "その話を聞いて、笑わずにはいられませんでした。",
+        "そのはなしをきいて、わらわずにはいられませんでした。",
+        "En entendant cette histoire, je n’ai pas pu m’empêcher de rire."
+      ],
+      [
+        "彼のことが心配で、電話せずにはいられませんでした。",
+        "かれのことがしんぱいで、でんわせずにはいられませんでした。",
+        "J’étais inquiet pour lui et n’ai pas pu m’empêcher d’appeler."
+      ],
+      [
+        "この写真を見ると、昔を思い出さずにはいられません。",
+        "このしゃしんをみると、むかしをおもいださずにはいられません。",
+        "Quand je vois cette photographie, je ne peux m’empêcher de penser au passé."
+      ]
+    ]
+  ],
+  [
+    "te-naranai",
+    "てならない : un sentiment insistant",
+    "N2",
+    "emotion",
+    "てならない intensifie un sentiment ou une impression spontanée qui persiste. Il ne se rattache pas librement à toute action volontaire.",
+    "てはいけない exprime une interdiction; てならない ici décrit ce qui s’impose à l’esprit.",
+    292,
+    [
+      [
+        "結果が気になってなりません。",
+        "けっかがきになってなりません。",
+        "Je ne peux m’empêcher de penser au résultat."
+      ],
+      [
+        "その話が不思議でなりません。",
+        "そのはなしがふしぎでなりません。",
+        "Cette histoire me paraît vraiment étrange."
+      ],
+      [
+        "友達に会いたくてなりません。",
+        "ともだちにあいたくてなりません。",
+        "J’ai une envie irrépressible de voir mon ami."
+      ]
+    ]
+  ],
+  [
+    "te-tamaranai",
+    "てたまらない : une intensité difficile à supporter",
+    "N3",
+    "emotion",
+    "Forme en て + たまらない marque une sensation ou un désir très intense. Les adjectifs en な prennent でたまらない.",
+    "L’intensité peut être agréable ou pénible; ce n’est pas une impossibilité matérielle générale.",
+    292,
+    [
+      [
+        "今日は暑くてたまりません。",
+        "きょうはあつくてたまりません。",
+        "La chaleur est insupportable aujourd’hui."
+      ],
+      [
+        "眠くてたまりません。",
+        "ねむくてたまりません。",
+        "Je suis terriblement somnolent."
+      ],
+      [
+        "嬉しくてたまりません。",
+        "うれしくてたまりません。",
+        "Je suis débordant de joie."
+      ]
+    ]
+  ],
+  [
+    "te-yamanai",
+    "てやまない : une aspiration qui dure",
+    "N1",
+    "emotion",
+    "Verbe en て + やまない exprime un sentiment soutenu, par exemple une espérance ou un respect durable. La tournure est formelle.",
+    "Ne pas l’étendre à n’importe quelle activité continue; elle accompagne surtout certains sentiments.",
+    292,
+    [
+      [
+        "皆さんの成功を願ってやみません。",
+        "みなさんのせいこうをねがってやみません。",
+        "Je souhaite ardemment votre réussite."
+      ],
+      [
+        "彼を尊敬してやみません。",
+        "かれをそんけいしてやみません。",
+        "Je lui porte un respect profond et durable."
+      ],
+      [
+        "平和を望んでやみません。",
+        "へいわをのぞんでやみません。",
+        "Je souhaite inlassablement la paix."
+      ]
+    ]
+  ],
+  [
+    "zuniha-sumanai",
+    "ずにはすまない : impossible d’éviter une conséquence",
+    "N1",
+    "obligation",
+    "ずにはすまない exprime une action ou conséquence qui ne peut être évitée compte tenu de la situation, souvent sociale. する donne せずにはすまない.",
+    "ずにはいられない concerne davantage l’impulsion intérieure.",
+    293,
+    [
+      [
+        "迷惑をかけたので、謝らずにはすみません。",
+        "めいわくをかけたので、あやまらずにはすみません。",
+        "J’ai causé du tort, je ne peux donc pas me dispenser de présenter mes excuses."
+      ],
+      [
+        "規則を破れば、罰を受けずにはすまないでしょう。",
+        "きそくをやぶれば、ばつをうけずにはすまないでしょう。",
+        "Si l’on enfreint la règle, on n’échappera probablement pas à la sanction."
+      ],
+      [
+        "間違いがあれば、訂正せずにはすみません。",
+        "まちがいがあれば、ていせいせずにはすみません。",
+        "S’il y a une erreur, une correction sera inévitable."
+      ]
+    ]
+  ],
+  [
+    "wo-kinjienai",
+    "を禁じ得ない : ne pas pouvoir retenir un sentiment",
+    "N1",
+    "emotion",
+    "Nom de sentiment + を禁じ得ない exprime une émotion qu’on ne peut retenir. C’est une tournure formelle; 得ない se lit えない.",
+    "Elle ne décrit pas l’interdiction extérieure de ressentir.",
+    293,
+    [
+      [
+        "その話に驚きを禁じ得ません。",
+        "そのはなしにおどろきをきんじえません。",
+        "Je ne peux retenir ma surprise devant cette histoire."
+      ],
+      [
+        "彼の努力に感動を禁じ得ません。",
+        "かれのどりょくにかんどうをきんじえません。",
+        "Je ne peux retenir mon émotion devant ses efforts."
+      ],
+      [
+        "この結果には失望を禁じ得ません。",
+        "このけっかにはしつぼうをきんじえません。",
+        "Je ne peux retenir ma déception devant ce résultat."
+      ]
+    ]
+  ],
+  [
+    "gatai",
+    "がたい : difficile à admettre ou réaliser",
+    "N2",
+    "difficulty",
+    "Base de ます + がたい décrit souvent une difficulté mentale ou émotionnelle, avec des verbes comme croire, comprendre, pardonner. Les combinaisons sont limitées.",
+    "にくい peut concerner une difficulté matérielle; がたい ne s’ajoute pas librement à tout verbe.",
+    295,
+    [
+      [
+        "その説明は理解しがたいです。",
+        "そのせつめいはりかいしがたいです。",
+        "Cette explication est difficile à comprendre."
+      ],
+      [
+        "信じがたい話です。",
+        "しんじがたいはなしです。",
+        "C’est une histoire difficile à croire."
+      ],
+      [
+        "忘れがたい経験でした。",
+        "わすれがたいけいけんでした。",
+        "Cela a été une expérience inoubliable."
+      ]
+    ]
+  ],
+  [
+    "zurai",
+    "づらい : une action pénible pour celui qui la fait",
+    "N3",
+    "difficulty",
+    "Base de ます + づらい décrit une difficulté ressentie, matérielle ou psychologique. La personne éprouve une gêne à réaliser l’action.",
+    "にくい peut décrire une propriété de l’objet; づらい met volontiers la gêne vécue au premier plan.",
+    295,
+    [
+      [
+        "この靴では歩きづらいです。",
+        "このくつではあるきづらいです。",
+        "Il est pénible de marcher avec ces chaussures."
+      ],
+      [
+        "この話は言いづらいです。",
+        "このはなしはいいづらいです。",
+        "C’est difficile pour moi de parler de cela."
+      ],
+      [
+        "人が多くて通りづらいです。",
+        "ひとがおおくてとおりづらいです。",
+        "Il est difficile de passer parce qu’il y a du monde."
+      ]
+    ]
+  ],
+  [
+    "kagiri-condition",
+    "限り : tant que la condition tient",
+    "N2",
+    "condition",
+    "Forme neutre + 限り définit la portée d’une condition. On rencontre notamment adjectif en な + な限り et nom + である限り.",
+    "を限りに marque une borne terminale, pas la même relation conditionnelle.",
+    299,
+    [
+      [
+        "元気な限り、続けます。",
+        "げんきなかぎり、つづけます。",
+        "Je continuerai tant que je serai en forme."
+      ],
+      [
+        "ここにいる限り、手伝います。",
+        "ここにいるかぎり、てつだいます。",
+        "Tant que je suis ici, je vous aiderai."
+      ],
+      [
+        "必要である限り、練習します。",
+        "ひつようであるかぎり、れんしゅうします。",
+        "Je m’entraînerai aussi longtemps que ce sera nécessaire."
+      ]
+    ]
+  ],
+  [
+    "kagiridewa",
+    "限りでは : dans la limite de ce que je sais",
+    "N2",
+    "evidence",
+    "Verbe neutre + 限りでは borne une affirmation au savoir, à l’observation ou à l’enquête effectuée. La tournure garde visible la limite de l’information.",
+    "L’absence observée dans une enquête limitée ne prouve pas une absence universelle.",
+    299,
+    [
+      [
+        "私が知る限りでは、問題はありません。",
+        "わたしがしるかぎりでは、もんだいはありません。",
+        "À ma connaissance, il n’y a pas de problème."
+      ],
+      [
+        "調べた限りでは、店は開いています。",
+        "しらべたかぎりでは、みせはあいています。",
+        "D’après ce que j’ai vérifié, le magasin est ouvert."
+      ],
+      [
+        "見た限りでは、壊れていません。",
+        "みたかぎりでは、こわれていません。",
+        "D’après ce que j’ai pu voir, ce n’est pas cassé."
+      ]
+    ]
+  ],
+  [
+    "toha-kagiranai",
+    "とは限らない : ce n’est pas toujours le cas",
+    "N2",
+    "negation",
+    "Forme neutre + とは限らない refuse qu’une affirmation soit nécessairement ou toujours vraie. 必ずしも peut renforcer cette lecture partielle.",
+    "わけがない rejette la possibilité; とは限らない refuse une certitude générale.",
+    299,
+    [
+      [
+        "高いものが良いとは限りません。",
+        "たかいものがよいとはかぎりません。",
+        "Ce qui est cher n’est pas nécessairement bon."
+      ],
+      [
+        "毎日晴れるとは限りません。",
+        "まいにちはれるとはかぎりません。",
+        "Il ne fait pas forcément beau chaque jour."
+      ],
+      [
+        "日本語が読めても、話せるとは限りません。",
+        "にほんごがよめても、はなせるとはかぎりません。",
+        "Même si l’on lit le japonais, on ne le parle pas forcément."
+      ]
+    ]
+  ],
+  [
+    "wo-kagirini",
+    "を限りに : une borne qui termine",
+    "N1",
+    "time",
+    "Nom de date, moment ou événement + を限りに indique la fin de ce qui se poursuit jusque-là.",
+    "に限って exprime une restriction ou un cas particulier; ne pas les intervertir.",
+    299,
+    [
+      [
+        "今月を限りに、店を閉めます。",
+        "こんげつをかぎりに、みせをしめます。",
+        "Le magasin fermera définitivement à la fin de ce mois."
+      ],
+      [
+        "今日を限りに、この方法をやめます。",
+        "きょうをかぎりに、このほうほうをやめます。",
+        "À compter d’aujourd’hui, j’abandonne cette méthode."
+      ],
+      [
+        "今回を限りに、参加をやめます。",
+        "こんかいをかぎりに、さんかをやめます。",
+        "Cette participation sera ma dernière."
+      ]
+    ]
+  ],
+  [
+    "nikuwaete",
+    "に加えて : ajouter un autre élément",
+    "N2",
+    "addition",
+    "Nom + に加えて ajoute un élément à celui déjà mentionné. La suite signale souvent aussi l’addition par も.",
+    "L’usage n’est pas limité aux résultats défavorables.",
+    300,
+    [
+      [
+        "日本語に加えて、英語も学んでいます。",
+        "にほんごにくわえて、えいごもまなんでいます。",
+        "J’apprends l’anglais en plus du japonais."
+      ],
+      [
+        "雨に加えて、風も強いです。",
+        "あめにくわえて、かぜもつよいです。",
+        "En plus de la pluie, le vent est fort."
+      ],
+      [
+        "経験に加えて、知識も必要です。",
+        "けいけんにくわえて、ちしきもひつようです。",
+        "Il faut des connaissances en plus de l’expérience."
+      ]
+    ]
+  ],
+  [
+    "nitodomarazu",
+    "にとどまらず : dépasser une première portée",
+    "N1",
+    "addition",
+    "Nom + にとどまらず indique qu’un effet ou une activité ne se limite pas à la première portée et s’étend plus loin.",
+    "に加えて ajoute; にとどまらず souligne le dépassement de la limite initiale.",
+    300,
+    [
+      [
+        "この問題は一つの町にとどまらず、全国に広がっています。",
+        "このもんだいはひとつのまちにとどまらず、ぜんこくにひろがっています。",
+        "Ce problème ne se limite pas à une ville et s’étend à tout le pays."
+      ],
+      [
+        "彼は絵画にとどまらず、音楽も制作しています。",
+        "かれはかいがにとどまらず、おんがくもせいさくしています。",
+        "Il ne se limite pas à la peinture et crée aussi de la musique."
+      ],
+      [
+        "学びは教室にとどまらず、日常にも続きます。",
+        "まなびはきょうしつにとどまらず、にちじょうにもつづきます。",
+        "L’apprentissage ne se limite pas à la classe et se poursuit au quotidien."
+      ]
+    ]
+  ],
+  [
+    "wa-oroka",
+    "はおろか : même le niveau moindre manque",
+    "N1",
+    "addition",
+    "AはおろかBも décrit notamment qu’un élément A est hors de portée et que même B, moins exigeant, manque. La gradation est essentielle.",
+    "はもちろん ajoute sans nécessairement créer cette insuffisance graduée.",
+    300,
+    [
+      [
+        "長い文章はおろか、短い文も読めませんでした。",
+        "ながいぶんしょうはおろか、みじかいぶんもよめませんでした。",
+        "Je ne pouvais même pas lire une courte phrase, encore moins un long texte."
+      ],
+      [
+        "旅行はおろか、外出する時間もありません。",
+        "りょこうはおろか、がいしゅつするじかんもありません。",
+        "Je n’ai même pas le temps de sortir, encore moins de voyager."
+      ],
+      [
+        "漢字はおろか、ひらがなも書けませんでした。",
+        "かんじはおろか、ひらがなもかけませんでした。",
+        "Je ne savais même pas écrire les hiragana, encore moins les kanji."
+      ]
+    ]
+  ]
+]

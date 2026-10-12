@@ -1,0 +1,34 @@
+{
+  "checkedAt": "12 October 2026",
+  "initialFetch": {
+    "attempted": 102,
+    "successful": 84,
+    "temporarilyUnavailable": 18,
+    "http429Indices": [
+      133,
+      150,
+      152,
+      155,
+      157,
+      160,
+      199,
+      271,
+      287,
+      310,
+      312,
+      313,
+      334,
+      335,
+      336,
+      338,
+      347,
+      353
+    ]
+  },
+  "boundedSlowerFetch": {
+    "attempted": 102,
+    "successful": 102,
+    "remainingErrors": []
+  },
+  "policy": "A failed fetch is transient. Two bounded observations only; no indefinite crawl. Source availability does not prove linguistic correctness."
+}

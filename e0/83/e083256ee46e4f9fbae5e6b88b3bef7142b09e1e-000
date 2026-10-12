@@ -1,0 +1,25 @@
+{
+  "id": "4615ea74-d423-46b6-9943-32bd7bc776d7",
+  "projectId": "zenray-japanese",
+  "type": "archive",
+  "state": "error",
+  "createdAt": "2026-10-12T20:44:36.574Z",
+  "error": "Source changed since inventory",
+  "startedAt": "2026-10-12T20:44:36.581Z",
+  "sourceConflictCount": 0,
+  "progress": {
+    "zr": 1,
+    "ev": "done",
+    "chunked": 2000,
+    "images": 0,
+    "videos": 0,
+    "media": 0,
+    "unchanged": 0,
+    "reused": 0,
+    "restored": 0,
+    "skipped": [],
+    "verifyKo": 0,
+    "sourceId": "workshop"
+  },
+  "finishedAt": "2026-10-12T20:46:35.031Z"
+}

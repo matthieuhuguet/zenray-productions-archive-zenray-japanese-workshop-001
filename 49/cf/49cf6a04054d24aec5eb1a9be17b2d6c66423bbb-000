@@ -1,0 +1,326 @@
+{
+  "jomon-met": {
+    "url": "https://www.metmuseum.org/essays/jomon-culture-ca-10500-ca-300-b-c",
+    "title": "Jomon Culture",
+    "publisher": "The Metropolitan Museum of Art, Department of Asian Art",
+    "checkedAt": "12 October 2026",
+    "availability": "consulted",
+    "license": "No blanket reuse permission inferred. UNESCO property descriptions display CC-BY-SA IGO3.0; other material requires separate review.",
+    "reuse": "Original factual synthesis and link attribution only. No article, image, map or audio copied."
+  },
+  "jomon-unesco": {
+    "url": "https://whc.unesco.org/en/list/1632/",
+    "title": "Jomon Prehistoric Sites in Northern Japan",
+    "publisher": "UNESCO World Heritage Centre",
+    "checkedAt": "12 October 2026",
+    "availability": "consulted",
+    "license": "No blanket reuse permission inferred. UNESCO property descriptions display CC-BY-SA IGO3.0; other material requires separate review.",
+    "reuse": "Original factual synthesis and link attribution only. No article, image, map or audio copied."
+  },
+  "yayoi": {
+    "url": "https://www.metmuseum.org/ko/essays/yayoi-culture-ca-4th-century-b-c-3rd-century-a-d",
+    "title": "Yayoi Culture",
+    "publisher": "The Metropolitan Museum of Art, Department of Asian Art",
+    "checkedAt": "12 October 2026",
+    "availability": "consulted",
+    "license": "No blanket reuse permission inferred. UNESCO property descriptions display CC-BY-SA IGO3.0; other material requires separate review.",
+    "reuse": "Original factual synthesis and link attribution only. No article, image, map or audio copied."
+  },
+  "kofun": {
+    "url": "https://whc.unesco.org/en/list/1593/",
+    "title": "Mozu-Furuichi Kofun Group",
+    "publisher": "UNESCO World Heritage Centre",
+    "checkedAt": "12 October 2026",
+    "availability": "consulted",
+    "license": "No blanket reuse permission inferred. UNESCO property descriptions display CC-BY-SA IGO3.0; other material requires separate review.",
+    "reuse": "Original factual synthesis and link attribution only. No article, image, map or audio copied."
+  },
+  "asuka": {
+    "url": "https://www.metmuseum.org/de/essays/asuka-and-nara-periods-538-794",
+    "title": "Asuka and Nara Periods",
+    "publisher": "The Metropolitan Museum of Art, Department of Asian Art",
+    "checkedAt": "12 October 2026",
+    "availability": "consulted",
+    "license": "No blanket reuse permission inferred. UNESCO property descriptions display CC-BY-SA IGO3.0; other material requires separate review.",
+    "reuse": "Original factual synthesis and link attribution only. No article, image, map or audio copied."
+  },
+  "heian": {
+    "url": "https://www.metmuseum.org/essays/heian-period-794-1185",
+    "title": "Heian Period",
+    "publisher": "The Metropolitan Museum of Art, Department of Asian Art",
+    "checkedAt": "12 October 2026",
+    "availability": "consulted",
+    "license": "No blanket reuse permission inferred. UNESCO property descriptions display CC-BY-SA IGO3.0; other material requires separate review.",
+    "reuse": "Original factual synthesis and link attribution only. No article, image, map or audio copied."
+  },
+  "kamakura": {
+    "url": "https://www.metmuseum.org/essays/kamakura-and-nanbokucho-periods-1185-1392",
+    "title": "Kamakura and Nanbokucho Periods",
+    "publisher": "The Metropolitan Museum of Art, Department of Asian Art",
+    "checkedAt": "12 October 2026",
+    "availability": "consulted",
+    "license": "No blanket reuse permission inferred. UNESCO property descriptions display CC-BY-SA IGO3.0; other material requires separate review.",
+    "reuse": "Original factual synthesis and link attribution only. No article, image, map or audio copied."
+  },
+  "muromachi": {
+    "url": "https://www.metmuseum.org/essays/muromachi-period-1392-1573",
+    "title": "Muromachi Period",
+    "publisher": "The Metropolitan Museum of Art, Department of Asian Art",
+    "checkedAt": "12 October 2026",
+    "availability": "consulted",
+    "license": "No blanket reuse permission inferred. UNESCO property descriptions display CC-BY-SA IGO3.0; other material requires separate review.",
+    "reuse": "Original factual synthesis and link attribution only. No article, image, map or audio copied."
+  },
+  "momoyama": {
+    "url": "https://www.metmuseum.org/essays/momoyama-period-1573-1615",
+    "title": "Momoyama Period",
+    "publisher": "The Metropolitan Museum of Art, Department of Asian Art",
+    "checkedAt": "12 October 2026",
+    "availability": "consulted",
+    "license": "No blanket reuse permission inferred. UNESCO property descriptions display CC-BY-SA IGO3.0; other material requires separate review.",
+    "reuse": "Original factual synthesis and link attribution only. No article, image, map or audio copied."
+  },
+  "edo": {
+    "url": "https://www.metmuseum.org/essays/art-of-the-edo-period-1615-1868",
+    "title": "Art of the Edo Period",
+    "publisher": "The Metropolitan Museum of Art, Department of Asian Art",
+    "checkedAt": "12 October 2026",
+    "availability": "consulted",
+    "license": "No blanket reuse permission inferred. UNESCO property descriptions display CC-BY-SA IGO3.0; other material requires separate review.",
+    "reuse": "Original factual synthesis and link attribution only. No article, image, map or audio copied."
+  },
+  "shinto": {
+    "url": "https://www.metmuseum.org/essays/shinto",
+    "title": "Shinto",
+    "publisher": "The Metropolitan Museum of Art, Department of Asian Art",
+    "checkedAt": "12 October 2026",
+    "availability": "consulted",
+    "license": "No blanket reuse permission inferred. UNESCO property descriptions display CC-BY-SA IGO3.0; other material requires separate review.",
+    "reuse": "Original factual synthesis and link attribution only. No article, image, map or audio copied."
+  },
+  "zen": {
+    "url": "https://www.metmuseum.org/essays/zen-buddhism",
+    "title": "Zen Buddhism",
+    "publisher": "The Metropolitan Museum of Art, Department of Asian Art",
+    "checkedAt": "12 October 2026",
+    "availability": "consulted",
+    "license": "No blanket reuse permission inferred. UNESCO property descriptions display CC-BY-SA IGO3.0; other material requires separate review.",
+    "reuse": "Original factual synthesis and link attribution only. No article, image, map or audio copied."
+  },
+  "ukiyoe": {
+    "url": "https://www.metmuseum.org/essays/woodblock-prints-in-the-ukiyo-e-style",
+    "title": "Woodblock Prints in the Ukiyo-e Style",
+    "publisher": "The Metropolitan Museum of Art, Department of Asian Art",
+    "checkedAt": "12 October 2026",
+    "availability": "consulted",
+    "license": "No blanket reuse permission inferred. UNESCO property descriptions display CC-BY-SA IGO3.0; other material requires separate review.",
+    "reuse": "Original factual synthesis and link attribution only. No article, image, map or audio copied."
+  },
+  "handscroll": {
+    "url": "https://www.metmuseum.org/essays/japanese-illustrated-handscrolls",
+    "title": "Japanese Illustrated Handscrolls",
+    "publisher": "The Metropolitan Museum of Art, Masako Watanabe",
+    "checkedAt": "12 October 2026",
+    "availability": "consulted",
+    "license": "No blanket reuse permission inferred. UNESCO property descriptions display CC-BY-SA IGO3.0; other material requires separate review.",
+    "reuse": "Original factual synthesis and link attribution only. No article, image, map or audio copied."
+  },
+  "tea": {
+    "url": "https://www.metmuseum.org/essays/the-japanese-tea-ceremony",
+    "title": "The Japanese Tea Ceremony",
+    "publisher": "The Metropolitan Museum of Art, Anna Willmann",
+    "checkedAt": "12 October 2026",
+    "availability": "consulted",
+    "license": "No blanket redistribution license inferred.",
+    "reuse": "Original factual synthesis with attribution; no copied lesson, image, recording or article."
+  },
+  "seasonal-art": {
+    "url": "https://www.metmuseum.org/essays/seasonal-imagery-in-japanese-art",
+    "title": "Seasonal Imagery in Japanese Art",
+    "publisher": "The Metropolitan Museum of Art, Department of Asian Art",
+    "checkedAt": "12 October 2026",
+    "availability": "consulted",
+    "license": "No blanket redistribution license inferred.",
+    "reuse": "Original factual synthesis with attribution; no copied lesson, image, recording or article."
+  },
+  "kabuki": {
+    "url": "https://www2.ntj.jac.go.jp/unesco/kabuki/en/feature/feature1.html",
+    "title": "Features of Kabuki",
+    "publisher": "Japan Arts Council",
+    "checkedAt": "12 October 2026",
+    "availability": "consulted",
+    "license": "No blanket redistribution license inferred.",
+    "reuse": "Original factual synthesis with attribution; no copied lesson, image, recording or article."
+  },
+  "mie": {
+    "url": "https://www2.ntj.jac.go.jp/unesco/kabuki/en/production/performance5.html",
+    "title": "Mie: theatrical pose",
+    "publisher": "Japan Arts Council",
+    "checkedAt": "12 October 2026",
+    "availability": "consulted",
+    "license": "No blanket redistribution license inferred.",
+    "reuse": "Original factual synthesis with attribution; no copied lesson, image, recording or article."
+  },
+  "gagaku": {
+    "url": "https://www.kunaicho.go.jp/en/learn/culture/gagaku.html",
+    "title": "Gagaku: Imperial Court Music and Dance",
+    "publisher": "Imperial Household Agency",
+    "checkedAt": "12 October 2026",
+    "availability": "consulted",
+    "license": "No blanket redistribution license inferred.",
+    "reuse": "Original factual synthesis with attribution; no copied lesson, image, recording or article."
+  },
+  "bunraku": {
+    "url": "https://ich.unesco.org/en/RL/bunraku-00064",
+    "title": "Ningyo Johruri Bunraku puppet theatre",
+    "publisher": "UNESCO Intangible Cultural Heritage",
+    "checkedAt": "12 October 2026",
+    "availability": "indexed-text-consulted; live page presents anti-bot challenge",
+    "license": "No blanket redistribution license inferred.",
+    "reuse": "Original factual synthesis with attribution; no copied lesson, image, recording or article."
+  },
+  "shirakami": {
+    "url": "https://whc.unesco.org/en/list/663/",
+    "title": "Shirakami-Sanchi",
+    "publisher": "UNESCO World Heritage Centre",
+    "checkedAt": "12 October 2026",
+    "availability": "consulted",
+    "license": "Property descriptions display CC-BY-SA IGO 3.0. Photographs, maps and nomination files have separate rights.",
+    "reuse": "Original factual synthesis and attribution; no copied description, image, map or audio."
+  },
+  "yakushima": {
+    "url": "https://whc.unesco.org/en/list/662/",
+    "title": "Yakushima",
+    "publisher": "UNESCO World Heritage Centre",
+    "checkedAt": "12 October 2026",
+    "availability": "consulted",
+    "license": "Property descriptions display CC-BY-SA IGO 3.0. Photographs, maps and nomination files have separate rights.",
+    "reuse": "Original factual synthesis and attribution; no copied description, image, map or audio."
+  },
+  "shiretoko": {
+    "url": "https://whc.unesco.org/en/list/1193/",
+    "title": "Shiretoko",
+    "publisher": "UNESCO World Heritage Centre",
+    "checkedAt": "12 October 2026",
+    "availability": "consulted",
+    "license": "Property descriptions display CC-BY-SA IGO 3.0. Photographs, maps and nomination files have separate rights.",
+    "reuse": "Original factual synthesis and attribution; no copied description, image, map or audio."
+  },
+  "ogasawara": {
+    "url": "https://whc.unesco.org/en/list/1362/",
+    "title": "Ogasawara Islands",
+    "publisher": "UNESCO World Heritage Centre",
+    "checkedAt": "12 October 2026",
+    "availability": "consulted",
+    "license": "Property descriptions display CC-BY-SA IGO 3.0. Photographs, maps and nomination files have separate rights.",
+    "reuse": "Original factual synthesis and attribution; no copied description, image, map or audio."
+  },
+  "amami": {
+    "url": "https://whc.unesco.org/en/list/1574/",
+    "title": "Amami-Oshima, Tokunoshima, Northern Okinawa and Iriomote",
+    "publisher": "UNESCO World Heritage Centre",
+    "checkedAt": "12 October 2026",
+    "availability": "consulted",
+    "license": "Property descriptions display CC-BY-SA IGO 3.0. Photographs, maps and nomination files have separate rights.",
+    "reuse": "Original factual synthesis and attribution; no copied description, image, map or audio."
+  },
+  "ryukyu": {
+    "url": "https://whc.unesco.org/en/list/972/",
+    "title": "Gusuku Sites and Kingdom of Ryukyu",
+    "publisher": "UNESCO World Heritage Centre",
+    "checkedAt": "12 October 2026",
+    "availability": "consulted",
+    "license": "Property descriptions display CC-BY-SA IGO 3.0. Photographs, maps and nomination files have separate rights.",
+    "reuse": "Original factual synthesis and attribution; no copied description, image, map or audio."
+  },
+  "kii": {
+    "url": "https://whc.unesco.org/en/list/1142/",
+    "title": "Sacred Sites and Pilgrimage Routes in Kii",
+    "publisher": "UNESCO World Heritage Centre",
+    "checkedAt": "12 October 2026",
+    "availability": "consulted",
+    "license": "Property descriptions display CC-BY-SA IGO 3.0. Photographs, maps and nomination files have separate rights.",
+    "reuse": "Original factual synthesis and attribution; no copied description, image, map or audio."
+  },
+  "fuji": {
+    "url": "https://whc.unesco.org/en/list/1418/",
+    "title": "Fujisan, sacred place and artistic inspiration",
+    "publisher": "UNESCO World Heritage Centre",
+    "checkedAt": "12 October 2026",
+    "availability": "consulted",
+    "license": "Property descriptions display CC-BY-SA IGO 3.0. Photographs, maps and nomination files have separate rights.",
+    "reuse": "Original factual synthesis and attribution; no copied description, image, map or audio."
+  },
+  "shirakawa": {
+    "url": "https://whc.unesco.org/en/list/734/",
+    "title": "Historic Villages of Shirakawa-go and Gokayama",
+    "publisher": "UNESCO World Heritage Centre",
+    "checkedAt": "12 October 2026",
+    "availability": "consulted",
+    "license": "Property descriptions display CC-BY-SA IGO 3.0. Photographs, maps and nomination files have separate rights.",
+    "reuse": "Original factual synthesis and attribution; no copied description, image, map or audio."
+  },
+  "hiroshima": {
+    "url": "https://whc.unesco.org/en/list/775/",
+    "title": "Hiroshima Peace Memorial",
+    "publisher": "UNESCO World Heritage Centre",
+    "checkedAt": "12 October 2026",
+    "availability": "consulted",
+    "license": "Property descriptions display CC-BY-SA IGO 3.0. Photographs, maps and nomination files have separate rights.",
+    "reuse": "Original factual synthesis and attribution; no copied description, image, map or audio."
+  },
+  "hiraizumi": {
+    "url": "https://whc.unesco.org/en/list/1277/",
+    "title": "Hiraizumi: Buddhist Pure Land sites",
+    "publisher": "UNESCO World Heritage Centre",
+    "checkedAt": "12 October 2026",
+    "availability": "consulted",
+    "license": "Property descriptions display CC-BY-SA IGO 3.0. Photographs, maps and nomination files have separate rights.",
+    "reuse": "Original factual synthesis and attribution; no copied description, image, map or audio."
+  },
+  "meiji-industry": {
+    "url": "https://whc.unesco.org/en/list/1484/",
+    "title": "Sites of Japan Meiji Industrial Revolution",
+    "publisher": "UNESCO World Heritage Centre",
+    "checkedAt": "12 October 2026",
+    "availability": "consulted",
+    "license": "Property descriptions display CC-BY-SA IGO 3.0. Photographs, maps and nomination files have separate rights.",
+    "reuse": "Original factual synthesis and attribution; no copied description, image, map or audio."
+  },
+  "tomioka": {
+    "url": "https://whc.unesco.org/en/list/1449/",
+    "title": "Tomioka Silk Mill and Related Sites",
+    "publisher": "UNESCO World Heritage Centre",
+    "checkedAt": "12 October 2026",
+    "availability": "consulted",
+    "license": "Property descriptions display CC-BY-SA IGO 3.0. Photographs, maps and nomination files have separate rights.",
+    "reuse": "Original factual synthesis and attribution; no copied description, image, map or audio."
+  },
+  "horyuji": {
+    "url": "https://whc.unesco.org/en/list/660/",
+    "title": "Buddhist Monuments in Horyu-ji Area",
+    "publisher": "UNESCO World Heritage Centre",
+    "checkedAt": "12 October 2026",
+    "availability": "consulted",
+    "license": "Property descriptions display CC-BY-SA IGO 3.0. Photographs, maps and nomination files have separate rights.",
+    "reuse": "Original factual synthesis and attribution; no copied description, image, map or audio."
+  },
+  "iwami": {
+    "url": "https://whc.unesco.org/en/list/1246/",
+    "title": "Iwami Ginzan Silver Mine",
+    "publisher": "UNESCO World Heritage Centre",
+    "checkedAt": "12 October 2026",
+    "availability": "consulted",
+    "license": "Property descriptions display CC-BY-SA IGO 3.0. Photographs, maps and nomination files have separate rights.",
+    "reuse": "Original factual synthesis and attribution; no copied description, image, map or audio."
+  },
+  "hidden-christians": {
+    "url": "https://whc.unesco.org/en/list/1495/",
+    "title": "Hidden Christian Sites in Nagasaki",
+    "publisher": "UNESCO World Heritage Centre",
+    "checkedAt": "12 October 2026",
+    "availability": "consulted",
+    "license": "Property descriptions display CC-BY-SA IGO 3.0. Photographs, maps and nomination files have separate rights.",
+    "reuse": "Original factual synthesis and attribution; no copied description, image, map or audio."
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "projectId": "zenray-japanese",
+  "memoryRoot": "/Users/zenray/.claude/Memory1/Japanese",
+  "researchRoot": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/research",
+  "recordShards": 256,
+  "searchShards": 256,
+  "resultLimit": 40,
+  "lesson": {
+    "minutes": 15,
+    "pauseMinutes": 2,
+    "maxNewItems": 1,
+    "maxDrills": 3,
+    "language": "fr",
+    "script": "reading",
+    "mode": "oral",
+    "level": "N4"
+  },
+  "learner": {
+    "history": "/Users/zenray/.claude/Memory1/Japanese/Japanese1.md",
+    "tracker": "/Users/zenray/.claude/Memory1/Japanese/DrillTracker.md",
+    "retestSource": "/Users/zenray/.claude/Memory1/Japanese/Scripts/drills/oral-01-trous-reels.json",
+    "retestCount": 2,
+    "nextRecordId": "grammar-condition-ba",
+    "nextBasis": "Japanese1.md L111: next ba then nara; no new mastery inferred"
+  },
+  "maxMarkdownBytes": 94371840,
+  "datasets": {
+    "dictionary": "jmdict-all-3.6.2.json",
+    "kanji": "kanjidic2-all-3.6.2.json",
+    "sentences": "tatoeba-jpn-fra.jsonl",
+    "strokes": "strokes"
+  }
+}
