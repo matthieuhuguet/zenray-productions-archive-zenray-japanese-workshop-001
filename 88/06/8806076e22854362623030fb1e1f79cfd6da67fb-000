@@ -1,0 +1,79 @@
+[
+  {
+    "filename": "jmdict-all-3.6.2+20261005200550.json.tgz",
+    "url": "https://github.com/scriptin/jmdict-simplified/releases/download/3.6.2%2B20261005200550/jmdict-all-3.6.2%2B20261005200550.json.tgz",
+    "sourceId": "edrdg",
+    "license": "CC-BY-SA-4.0",
+    "version": "3.6.2+20261005200550",
+    "bytes": 25102361,
+    "sha256": "305e2b2e101a344addbfe5e22c3c46c0afec3997117243caf7491a9804bab232",
+    "path": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/research/datasets/jmdict-all-3.6.2+20261005200550.json.tgz",
+    "retrievedDate": "12 October 2026"
+  },
+  {
+    "filename": "jmdict-fre-3.6.2+20261005200550.json.tgz",
+    "url": "https://github.com/scriptin/jmdict-simplified/releases/download/3.6.2%2B20261005200550/jmdict-fre-3.6.2%2B20261005200550.json.tgz",
+    "sourceId": "edrdg",
+    "license": "CC-BY-SA-4.0",
+    "version": "3.6.2+20261005200550",
+    "bytes": 650712,
+    "sha256": "8483660ee625011035ac355ab7a02ab36db2a9bde818bf642d3e0cd1e6f3884a",
+    "path": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/research/datasets/jmdict-fre-3.6.2+20261005200550.json.tgz",
+    "retrievedDate": "12 October 2026"
+  },
+  {
+    "filename": "kanjidic2-all-3.6.2+20261005200550.json.tgz",
+    "url": "https://github.com/scriptin/jmdict-simplified/releases/download/3.6.2%2B20261005200550/kanjidic2-all-3.6.2%2B20261005200550.json.tgz",
+    "sourceId": "edrdg",
+    "license": "CC-BY-SA-4.0",
+    "version": "3.6.2+20261005200550",
+    "bytes": 1552919,
+    "sha256": "b7266f4e8071468218bffbf0c39211fc86f7a8ebe82bc1826507369c66df0495",
+    "path": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/research/datasets/kanjidic2-all-3.6.2+20261005200550.json.tgz",
+    "retrievedDate": "12 October 2026"
+  },
+  {
+    "filename": "kanjivg-20260714-main.zip",
+    "url": "https://github.com/KanjiVG/kanjivg/releases/download/r20260714/kanjivg-20260714-main.zip",
+    "sourceId": "kanjivg",
+    "license": "CC-BY-SA-3.0",
+    "version": "r20260714",
+    "bytes": 12650667,
+    "sha256": "b5df6cd2bc249dd49b8041eb99e38ba9f8dc6b9ea57962a80084b4a315d1a7fc",
+    "path": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/research/datasets/kanjivg-20260714-main.zip",
+    "retrievedDate": "12 October 2026"
+  },
+  {
+    "filename": "jpn_sentences_detailed.tsv.bz2",
+    "url": "https://downloads.tatoeba.org/exports/per_language/jpn/jpn_sentences_detailed.tsv.bz2",
+    "sourceId": "tatoeba",
+    "license": "CC-BY-2.0-FR",
+    "version": "weekly-10-October-2026",
+    "bytes": 4462276,
+    "sha256": "f597d8f76473181f7fae482481030a31565fb427d64d2def8595218d128c6981",
+    "path": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/research/datasets/jpn_sentences_detailed.tsv.bz2",
+    "retrievedDate": "12 October 2026"
+  },
+  {
+    "filename": "fra_sentences_detailed.tsv.bz2",
+    "url": "https://downloads.tatoeba.org/exports/per_language/fra/fra_sentences_detailed.tsv.bz2",
+    "sourceId": "tatoeba",
+    "license": "CC-BY-2.0-FR",
+    "version": "weekly-10-October-2026",
+    "bytes": 14852486,
+    "sha256": "2bf950813a1cc579b9951f9ba02371ead56d51869b44c486596da14cf317947e",
+    "path": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/research/datasets/fra_sentences_detailed.tsv.bz2",
+    "retrievedDate": "12 October 2026"
+  },
+  {
+    "filename": "jpn-fra_links.tsv.bz2",
+    "url": "https://downloads.tatoeba.org/exports/per_language/jpn/jpn-fra_links.tsv.bz2",
+    "sourceId": "tatoeba",
+    "license": "CC-BY-2.0-FR",
+    "version": "weekly-10-October-2026",
+    "bytes": 253827,
+    "sha256": "e558aec35536f5ba7faff342561b13e4bffea5d9497b21d29d97d2fd9b7389e2",
+    "path": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/research/datasets/jpn-fra_links.tsv.bz2",
+    "retrievedDate": "12 October 2026"
+  }
+]
