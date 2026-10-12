@@ -1,0 +1,43 @@
+# ZenRay Japanese, architecture (12 October 2026)
+
+Le résultat visé est une base de langue et de Japon interrogeable, dont les fiches permettent de cuire une leçon sans modèle. L'extension à une question absente déclenche une recherche sourcée, suivie d'une nouvelle fiche, jamais une réponse inventée. (12 October 2026)
+
+## Sources et mémoire (12 October 2026)
+
+- Japanese1.md conserve les leçons vécues, l'exposition et les restitutions. Sa jauge ne dépend jamais du nombre de fiches disponibles. Le DrillTracker conserve la révision personnelle. (12 October 2026)
+- Japanese2.md porte les explications, mots, kanji et phrases ; Japanese3.md porte le Japon. Ces fichiers ne suppriment jamais une version publiée. (12 October 2026)
+- Corpus/japanese.sqlite et mapping.json sont des index reconstruisibles, avec identifiants stables et bornes de lignes vers les Markdown. Les restrictions des sens lexicaux restent dans les fiches JSON. (12 October 2026)
+- Les snapshots des producteurs et les recherches originales sont dans research/, avec URL, licences, auteurs, dates et empreintes. Les sens anglais sont signalés ; une traduction française absente n'est jamais inventée. (12 October 2026)
+
+## Définition, paramètres, instance (12 October 2026)
+
+- Définition : Scripts/Corpus.py, son importeur, son indexeur, son assembleur et son vérificateur. (12 October 2026)
+- Paramètres : settings.json pour les chemins, les découpages et la leçon ; les fiches structurées pour la matière. Modes oral/lecture et kana/mixte, durée, nombre de rappels et exercices sont des paramètres. (12 October 2026)
+- Instance : une leçon exportée ; sa disponibilité ne l'inscrit jamais dans les acquis. Elle garde les références et son profil. (12 October 2026)
+- La vue Japanese conserve l'historique et ajoute le corpus : filtres de thème et niveau, recherche lexicale, détails, sources, tracé et préparation de leçon. (12 October 2026)
+
+## Boucle de recherche (12 October 2026)
+
+- Répartir les lacunes en lots langue, Japon et lexicographie ; les agents déposent leurs livrables avant de répondre. Les scripts CPU peuvent traiter les sources publiques en parallèle. (12 October 2026)
+- Pour chaque affirmation : vérifier une source primaire, rédiger une synthèse originale, préciser le contexte, les exemples et les limites, relier les prérequis par identifiant. (12 October 2026)
+- Importer avec validation des identités et sources ; cuire un nouvel index ; publier une release immuable puis son catalogue, afin qu'une ancienne page lise un ensemble cohérent. (12 October 2026)
+- Vérifier la recherche réelle et un refus volontaire, puis sauvegarder progressivement par Assets. Les sources admises sont parcourues récursivement ; job en file, empreinte locale et octets cloud constituent trois preuves différentes. (12 October 2026)
+- L'agent garde la tâche ouverte tant que la couverture demandée ou la visibilité web n'est pas prouvée. Un catalogue de questions sans réponse n'est pas un corpus complet. (12 October 2026)
+
+## Contrats et limites (12 October 2026)
+
+- Les niveaux N5 à N1 des items sont des estimations éditoriales. Le JLPT ne publie pas de liste exhaustive moderne ; les listes historiques quatre niveaux ne sont pas recodées en N1 à N5. (12 October 2026)
+- Les sources JMdict/KANJIDIC2 restent CC BY-SA 4.0, KanjiVG reste CC BY-SA 3.0, les phrases Tatoeba conservent leurs auteurs et CC BY 2.0 FR. Le code et les synthèses originales sont distincts de ces droits. (12 October 2026)
+- Les exemples originaux et les traductions communautaires restent signalés selon leur état de relecture. Une comparaison automatique ne prouve pas le naturel d'une phrase. (12 October 2026)
+- Les interprétations sociales restent contextualisées ; aucune pensée n'est attribuée à tous les Japonais. Les règles administratives ou saisonnières portent une date et une limite de fraîcheur. (12 October 2026)
+
+## Transposition des workflows existants (12 October 2026)
+
+- Height apporte la bibliothèque indexée, l'observation avant construction, l'ajout mesuré par étape et le refus du résultat non vérifié. Motion Design apporte les paramètres séparés, les instances figées et la cuisson déterministe. Une corrélation d'image ne prouve pas une explication linguistique. (12 October 2026)
+
+## Verified use and continuation (12 October 2026)
+
+- Run Scripts/Workflow.py from the canonical workshop to verify and prepare lessons; run it again without changes to retain identical Markdown hashes and the same immutable release. (12 October 2026)
+- The final served release is d43d4c0ed0759284 with 276056 records and 194 prepared lessons. Scripts/VerifyLive.mjs checks authenticated production reads without printing credentials. (12 October 2026)
+- Scripts/VerifyBackup.py compares current inventoried bytes with Assets SHA256 and size receipts; its report is deliberately incomplete while pending files remain. Refresh inventory before using it as full coverage evidence. (12 October 2026)
+- Every new research record must cite a consulted source, indicate editorial and native review separately and keep coverage gaps visible. An unknown question remains unknown until researched. (12 October 2026)

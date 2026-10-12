@@ -45,3 +45,9 @@
 
 - This deliverable proves real downloaded corpus size and parser-ready retrieval paths, not Japanese N1 mastery, complete modern N1 coverage, cloud backup completion or live website integration. Those require separate end-to-end evidence. (12 October 2026)
 - Dataset licensing is based on checked producer pages, not a blanket license for arbitrary Japanese websites. `sources.json` preserves terms per source and `licenses/` saves checked notices where retrieval succeeded. (12 October 2026)
+
+## Attribution française précisée (12 October 2026)
+
+- Correction de la mention globale CC BY-SA 4.0 : la notice EDRDG précise qu'elle porte sur les composantes japonaises et anglaises de JMdict ; les traductions françaises conservent le copyright de leurs compilateurs. Ne pas présenter ce seul label comme une licence uniforme du français. (12 October 2026)
+- La documentation primaire WWWJDIC identifie Jean-Marc Desperrier et les contributeurs du projet d'internationalisation JMdict comme sources du dictionnaire japonais-français. Source : https://www.edrdg.org/wwwjdic/wwwjdicinf.html, section Japanese-Other Language Dictionary Files, vérifiée ce jour. (12 October 2026)
+- Les autorisations et attributions de données importées restent distinctes du code original et des fiches de synthèse ZenRay. La consultation documentaire ne signifie pas une propriété exclusive des sources. (12 October 2026)

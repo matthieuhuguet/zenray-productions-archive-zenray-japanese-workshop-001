@@ -1,0 +1,21 @@
+{
+  "date": "12 October 2026",
+  "definition": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/Scripts/Corpus.py",
+  "parameters": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/settings.json",
+  "run": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/Scripts/Workflow.py",
+  "site": "https://zenray-progress.pages.dev",
+  "projectId": "zenray-japanese",
+  "personalHistoryPreserved": true,
+  "records": 276056,
+  "preparedLessons": 194,
+  "grammarPoints": 157,
+  "japanCards": 88,
+  "coverageClaim": "Sourced expandable corpus through N1 and beyond, not an exhaustive encyclopedia",
+  "proofs": [
+    "verification/ProductionDataReport.json",
+    "verification/RepeatBuildReport.json",
+    "verification/JapaneseBrowserReport.json",
+    "verification/CloudReceiptReport.json"
+  ],
+  "cloudComplete": false
+}
