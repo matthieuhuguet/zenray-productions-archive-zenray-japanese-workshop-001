@@ -1,0 +1,47 @@
+# Japanese datasets, research and retrieval (12 October 2026)
+
+## Deliverables verified (12 October 2026)
+
+| Dataset | Measured contents | Date |
+|---|---|---|
+| JMdict multilingual | 218863 dictionary entries, including 15336 with French glosses | 12 October 2026 |
+| KANJIDIC2 | 13108 characters | 12 October 2026 |
+| KanjiVG main release | 6703 SVG stroke diagrams | 12 October 2026 |
+| Tatoeba Japanese | 248924 sentences with authors and source IDs | 12 October 2026 |
+| Tatoeba French | 728438 sentences with authors and source IDs | 12 October 2026 |
+| Direct Japanese-French pairs | 43834 complete pairs; 23 links skipped because one endpoint is absent | 12 October 2026 |
+
+- Original compressed files, unpacked producer JSON, ordered stroke SVGs and normalized sentence pairs are in this folder; `downloads.json` records exact URLs, byte sizes and SHA256. (12 October 2026)
+- Reproduce: `python3 /Users/zenray/.claude/tmp/tmp-zenray-japanese/Scripts/FetchOpenDatasets.py`. It reads the producers current release APIs, downloads bounded sources, prepares JSON/JSONL/SVG, and records counts. (12 October 2026)
+- Dictionary version fetched: `3.6.2+20261005200550`; dictionary content dates remain in their JSON headers. Stroke version `r20260714`; Tatoeba weekly files dated 10 October 2026. These are source versions, distinct from collection date. (12 October 2026)
+
+## Primary sources and reuse (12 October 2026)
+
+- [EDRDG license](https://www.edrdg.org/edrdg/licence.html), verified current CC BY-SA 4.0. Preserve attribution and license references; distributed data adaptations retain share-alike. Its update clause requires a regular update procedure, and specifies monthly for web dictionary services. Software can be proprietary; existing data cannot be rebranded as owned exclusively by ZenRay. French gloss authors retain their own copyright. (12 October 2026)
+- [Producer JSON conversion](https://github.com/scriptin/jmdict-simplified) distributes the converted dictionary under the source terms and publishes weekly archives. This is actual lexicographic data, with stable IDs and self-contained sense fields, rather than generated prose. (12 October 2026)
+- [KanjiVG](https://kanjivg.tagaini.net/) is Ulrich Apel and contributors, CC BY-SA 3.0. Stroke SVGs preserve path order and component labels. Use original vectors and derive diagrams; preserve attribution and indicate modifications. (12 October 2026)
+- [Tatoeba official downloads](https://tatoeba.org/en/downloads) licenses sentence exports CC BY 2.0 FR; preserve both authors and original sentence URLs. Audio is licensed separately per contributor; none is downloaded by this research task. Community correctness remains distinct from editorial review. (12 October 2026)
+- [Official JLPT FAQ](https://www.jlpt.jp/e/faq/) says modern exhaustive vocabulary, grammar and kanji lists are not published. Level coverage must be an editorial curriculum with external evidence, rather than a claim of exact official lists. Test materials stay links unless reuse permission is checked. (12 October 2026)
+
+## Parser schema and deterministic assembly (12 October 2026)
+
+- JMdict root `words`; each `id` has arrays `kanji`, `kana`, `sense`. Choose a spelling and a reading compatible with `kana[].appliesToKanji`; preserve `sense[].appliesToKanji` and `appliesToKana` so a gloss is not assigned to the wrong reading. French language code is `fre`, English `eng`. Root `tags` expands abbreviated POS, register, domain and dialect labels. (12 October 2026)
+- French and English senses can be independently split. Do not zip same-position senses across languages as equivalent meanings. A French-first display falls back to clearly labeled English; do not silently machine-translate. (12 October 2026)
+- KANJIDIC2 root `characters`; each has `literal`, `radicals`, `misc` and `readingMeaning`. Japanese readings use `ja_on` and `ja_kun`; French meanings use `fr`, English `en`. `misc.strokeCounts[0]` is accepted count, later alternatives can be miscounts. (12 October 2026)
+- `misc.jlptLevel` is the old pre-2010 four-level system. Preserve it as legacy provenance; never map 1 directly into modern N1 and 2 into modern N2. [KANJIDIC documentation](https://www.edrdg.org/wiki/KANJIDIC_Project.html) explicitly explains the historical field. (12 October 2026)
+- KanjiVG filenames are Unicode lowercase hex padded to five characters, e.g. `065e5.svg`. SVG paths ending in `-s1`, `-s2`, etc. give ordered strokes. `kvg:element` gives components. Some KANJIDIC characters lack a main SVG; report that absence. (12 October 2026)
+- Tatoeba detailed TSV is `id, language, text, username, createdAt, modifiedAt`; direct links join Japanese ID to French ID. `tatoeba-jpn-fra.jsonl` provides one pair per direct link and preserves author attribution and URL on both sides. Missing linked sentences are counted, not invented. (12 October 2026)
+- Import stable IDs and original source payload into SQLite; FTS5 supports French normalized glosses and kana/kanji. Exact kanji and reading lookup must be indexed separately because Japanese text without spaces is poorly represented by default FTS tokenization. Browser publication should use lazy shards plus a compact routing index; full datasets remain in the mapped Assets sources. (12 October 2026)
+- A dictionary lookup can produce a vocabulary lesson, but cannot prove a grammar explanation, natural pragmatic use, learned mastery or cultural generalization. Link each grammar or Japan claim to separately checked sources, and keep personal mastery in Japanese1. (12 October 2026)
+
+## Existing methods read and transferable structure (12 October 2026)
+
+- `/Users/zenray/.claude/Memory1/Japanese/Scripts/build-japanese-index.py` derives lesson ranges, vocab tables and grammar from Japanese1 without inventing counts. Lesson occurrences are not deduplicated by number; continuous line ranges prevent historical lessons from being amputated. New corpus must extend this data path while keeping personal exposure separate from mastery. (12 October 2026)
+- `/Users/zenray/.claude/skills/zenray-learn-japanese/SKILL.md`, L106 template: RETEST, NEUF, DRILL, then explicit closure and pause, two-column teaching tables, oral-first, kana readings, scores measured by restitution. Avoid auto-marking assembled lessons learned. (12 October 2026)
+- Height canonical code is `/Users/zenray/.claude/skills/zenray-houdini/scripts/height/`, with corpus `/Users/zenray/.claude/skills/zenray-houdini/Copernicus2.md` accessed by its router. Section 14.2 records measured scores, independent thresholds, incremental passes, status and a reusable externalized library. Transfer the reference-to-data-to-recipe-to-verification separation; image-correlation thresholds have no linguistic meaning. (12 October 2026)
+- Motion Design `/Users/zenray/.claude/skills/zenray-motion-design/SKILL.md` keeps tokens, timelines, choreography, templates and cooked results distinct, then tests against unchanged thresholds. Transfer declarative lesson parameters, immutable source snapshots, generated outputs, browser checks and failing fixture tests. Do not copy artistic rendering complexity into language retrieval. (12 October 2026)
+
+## Verification boundaries (12 October 2026)
+
+- This deliverable proves real downloaded corpus size and parser-ready retrieval paths, not Japanese N1 mastery, complete modern N1 coverage, cloud backup completion or live website integration. Those require separate end-to-end evidence. (12 October 2026)
+- Dataset licensing is based on checked producer pages, not a blanket license for arbitrary Japanese websites. `sources.json` preserves terms per source and `licenses/` saves checked notices where retrieval succeeded. (12 October 2026)
