@@ -1,0 +1,30 @@
+{
+  "checkedAt": "13 October 2026",
+  "settings": {
+    "fileCount": 44000,
+    "auditedProjects": 8
+  },
+  "measurements": [
+    {
+      "auditedSnapshots": 0,
+      "filesInOtherProject": 44000,
+      "elapsedMs": 0
+    },
+    {
+      "auditedSnapshots": 1,
+      "filesInOtherProject": 44000,
+      "elapsedMs": 125
+    },
+    {
+      "auditedSnapshots": 4,
+      "filesInOtherProject": 44000,
+      "elapsedMs": 333
+    },
+    {
+      "auditedSnapshots": 8,
+      "filesInOtherProject": 44000,
+      "elapsedMs": 562
+    }
+  ],
+  "realStateReadOrWritten": false
+}

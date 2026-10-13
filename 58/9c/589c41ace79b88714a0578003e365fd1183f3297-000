@@ -1,0 +1,218 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "13 October 2026",
+  "reviewerId": "/root/language_review_b",
+  "reviewType": "independent-adversarial-model-review",
+  "complete": true,
+  "scope": "Re-review of six changed language records, their 18 original examples and all fields of the two reviewed retest overlay items.",
+  "humanNativeReview": false,
+  "supersedes": {
+    "report": "LanguageIndependentSecond.json",
+    "recordIds": [
+      "adv-causative",
+      "adv-souda-appearance",
+      "adv-adjective-sa",
+      "adv-kuseni",
+      "adv-to-omoikiya",
+      "adv-zuniha-irarenai"
+    ],
+    "learnerReview": true
+  },
+  "records": [
+    {
+      "id": "adv-causative",
+      "verdict": "approved",
+      "reviewedContentHash": "b259193c186ea03d8b693f7d6b131cc61c673fba8839af6d3aa5c1e56655f185",
+      "previousContentHash": "500d3b2bbf38432a4a1dbc5a86288f63b92f5793bb744c35abe4200ace7e7083",
+      "evidenceUrls": [
+        "https://imabi.org/the-causative-i-%ef%bd%9e%e3%81%95%e3%81%9b%e3%82%8b-%ef%bd%9e%e3%81%9b%e3%82%8b/"
+      ],
+      "findings": [],
+      "resolvedFindings": [
+        "second-causative-u-exception"
+      ],
+      "reviewNotes": "The corrected rule explicitly gives う → わ and 言う → 言わせる; this agrees with the source conjugation table. 書かせる, 遊ばせる and 笑わせる retain valid readings, roles and possible causative/permission meanings.",
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "oralPromptsFr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3
+    },
+    {
+      "id": "adv-souda-appearance",
+      "verdict": "approved",
+      "reviewedContentHash": "9cce97689c03bb42c90fd4d2c91704d6f70bccfb6bfcfb3721609a500c96cd37",
+      "previousContentHash": "72e696ea2e97c1ebd292e0278105a8438dca1c530f5c7e39f1ce38aacd7248a8",
+      "evidenceUrls": [
+        "https://imabi.org/seem-%ef%bd%9e%e3%81%9d%e3%81%86%e3%81%a0/"
+      ],
+      "findings": [],
+      "resolvedFindings": [
+        "second-sou-adjective-exceptions"
+      ],
+      "reviewNotes": "The rule now distinguishes いい → よさそう, adjective ない → なさそう and the lexical false friend かわいそう. The alternative かわいいようだ preserves the adjective instead of generating the pitiable word. It explicitly avoids transferring this rule indiscriminately to verbal negatives. All three examples remain sound.",
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "oralPromptsFr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3
+    },
+    {
+      "id": "adv-adjective-sa",
+      "verdict": "approved",
+      "reviewedContentHash": "6895802fd5ac86f36e1fd71f5fbd451377b6f95070ca2a7e172db43db4c3bd2e",
+      "previousContentHash": "8c6a5a8f7cdd0a79323c94c0abdc684b2fbfa977b062af5b93695dd99fd52b5f",
+      "evidenceUrls": [
+        "https://imabi.org/adjective-nominalization/",
+        "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/030.html"
+      ],
+      "findings": [],
+      "resolvedFindings": [
+        "second-sa-good-stem"
+      ],
+      "reviewNotes": "The corrected rule explicitly uses the よい base and gives よさ, and declares grammar-i-adjectives as a prerequisite. 広さ, 静かさ and 面白さ are valid nominalizations and their French meanings do not require correction.",
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "oralPromptsFr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3
+    },
+    {
+      "id": "adv-kuseni",
+      "verdict": "approved",
+      "reviewedContentHash": "691233a886caaef24f08211c2c470b122fabbf68b7149326db98cd0fa289c1b4",
+      "previousContentHash": "5130df2019393f8912fd76c4259bb09f4ec1703194ecf1f63c29bd5f95845391",
+      "evidenceUrls": [
+        "https://imabi.org/criticizing-%e3%81%8f%e3%81%9b%e3%81%ab%e3%83%bb%e3%81%8f%e3%81%9b%e3%81%97%e3%81%a6/"
+      ],
+      "findings": [],
+      "resolvedFindings": [
+        "second-kuseni-refusal-overtranslation"
+      ],
+      "reviewNotes": "Example 1 and oralPromptFr now say the person does not tell me, without asserting deliberate refusal. This retains the reproach supplied by くせに. The Japanese and kana are unchanged and consistent. The other two examples remain acceptable in their stated reproach/self-reproach scope.",
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "oralPromptsFr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3
+    },
+    {
+      "id": "adv-to-omoikiya",
+      "verdict": "approved",
+      "reviewedContentHash": "d0840a100184fe3ba564e2f447ce518da6fd43bc92a36a72f412513d2357331f",
+      "previousContentHash": "9b4943f309d6f800bfd026d59cd84918c970689f55188da7054ba909a043c58c",
+      "evidenceUrls": [
+        "https://imabi.org/circumstance/"
+      ],
+      "findings": [],
+      "resolvedFindings": [],
+      "reviewNotes": "The rule no longer attributes mandatory immediate temporal succession to the construction. The source explicitly defines contrary-to-expectation meaning; its restaurant price example contrasts an expectation with a bill, rather than requiring two immediately successive actions. All three original examples and readings remain consistent.",
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "oralPromptsFr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3
+    },
+    {
+      "id": "adv-zuniha-irarenai",
+      "verdict": "approved",
+      "reviewedContentHash": "65fd233be6e573361f7c45d96a10735cc06c36906a4b3d633d9dbc84d29f5dec",
+      "previousContentHash": "63fa7cbded264f582c110ae49b9af716bab3b7e1db373ee819014e0582c63541",
+      "evidenceUrls": [
+        "https://imabi.org/cant-help-i/"
+      ],
+      "findings": [],
+      "resolvedFindings": [],
+      "reviewNotes": "Example 1 now explicitly supplies attempted inhibition of laughter, which matches the source sentence note permitting 笑う when attempted restraint is understood. Example 3 uses 話す, a controllable act of speaking, rather than treating spontaneous remembering as universally interchangeable. The worry-induced phone call and all three kana/French pairs are coherent. No native-speaker review is claimed.",
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "oralPromptsFr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3
+    }
+  ],
+  "learnerReview": {
+    "itemsSha256": "653c341877ebf1807a6e2323ef86fe4d515bbd55083455a835cc77e19ab32b42",
+    "verdict": "approved",
+    "evidenceUrls": [
+      "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/001.html",
+      "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/017.html",
+      "https://www.irodori.jpf.go.jp/assets/data/starter/pdf/X_L06.pdf"
+    ],
+    "issues": [],
+    "originalPersonalItemsSha256": "fefa7e23ca2c0a8b512a47736efa75a65bbc33a008fbfea1eabee4fb92881b95",
+    "originalPersonalItemsMatchPreviousReview": true,
+    "resolvedFindings": [
+      "second-retest-takeout-role"
+    ],
+    "items": [
+      {
+        "index": 0,
+        "verdict": "approved",
+        "itemSha256": "5d7327e2d141848116446f05d06e8f914267e40defcf67debc090cb4e3cbe3e9",
+        "evidenceUrls": [
+          "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/017.html",
+          "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/001.html"
+        ],
+        "reviewNotes": "All stored fields checked. 一人です, ひとりです and French one-person wording agree. Role and party-size context explicitly fix the restaurant meaning."
+      },
+      {
+        "index": 1,
+        "verdict": "approved",
+        "itemSha256": "761d39a9bffcaebdffa4ef010e6fc5d5022df2e15103735f5b40b8a6a5201d5a",
+        "evidenceUrls": [
+          "https://www.irodori.jpf.go.jp/assets/data/starter/pdf/X_L06.pdf"
+        ],
+        "reviewNotes": "All stored fields checked. Japan Foundation starter L6 page 15 dialogue 06-02 has the customer answer テイクアウトで. The kana transcription and takeout/eat-in context agree. This replaces only the new-lesson overlay, not the historical personal drill."
+      }
+    ]
+  },
+  "summary": {
+    "records": 6,
+    "examples": 18,
+    "approved": 6,
+    "blocked": 0,
+    "openFindings": 0,
+    "learnerGate": "approved"
+  },
+  "limitations": [
+    "Independent adversarial model re-review found no unresolved issue in these corrected payloads. This is not native human validation or a mathematical guarantee of universal linguistic correctness.",
+    "Hashes approve exactly the reviewed payload; any further change requires a fresh review."
+  ]
+}

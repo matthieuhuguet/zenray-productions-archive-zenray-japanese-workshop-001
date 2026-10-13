@@ -426,8 +426,8 @@
         "tsuzukeru",
         "続ける"
       ],
-      "explanationFr": "Base de ます + 続ける exprime la poursuite d’une action. La forme 続く est intransitive; 続ける place l’activité dans ce que l’acteur maintient.",
-      "contrastFr": "Continuer un événement et poursuivre une action ne conduisent pas toujours au même verbe.",
+      "explanationFr": "Le verbe autonome 続く est intransitif et 続ける transitif. En composition, base de ます + 続ける décrit une action ou un phénomène qui se prolonge, y compris involontairement. Ne pas opposer ces composés sur la seule volonté du sujet.",
+      "contrastFr": "Les verbes autonomes 続く et 続ける et leurs composés ne se distinguent pas uniquement par le caractère volontaire de l’action.",
       "examples": [
         {
           "ja": "毎日、日本語を学び続けています。",
@@ -442,8 +442,8 @@
           "origin": "Original example, independent native review pending"
         },
         {
-          "ja": "雨が降り続いています。",
-          "reading": "あめがふりつづいています。",
+          "ja": "雨が降り続けています。",
+          "reading": "あめがふりつづけています。",
           "fr": "La pluie continue de tomber.",
           "origin": "Original example, independent native review pending"
         }
@@ -1015,8 +1015,8 @@
         "souda-appearance",
         "そうだ"
       ],
-      "explanationFr": "Base de ます + そうだ annonce une apparence ou une imminence. Un adjectif en い perd い; un adjectif en な se rattache sans な. いい donne よさそう.",
-      "contrastFr": "おいしそう signifie « semble bon »; おいしいそう rapporte une information reçue.",
+      "explanationFr": "Base de ます + そうだ annonce une apparence ou une imminence. Un adjectif en い perd い ; un adjectif en な se rattache sans な. いい donne よさそう ; l’adjectif ない donne なさそう. Ces règles ne se transposent pas sans contrôle à toutes les négations verbales.",
+      "contrastFr": "おいしそう signifie « semble bon » ; おいしいそう rapporte une information reçue. かわいそう signifie « qui fait pitié », pas « semble mignon » ; pour ce dernier sens, employer かわいいようだ.",
       "examples": [
         {
           "ja": "この料理はおいしそうです。",
@@ -1191,7 +1191,7 @@
         "causative",
         "せる et させる"
       ],
-      "explanationFr": "Godan: base en あ + せる; ichidan: enlever る + させる. する → させる; 来る → こさせる. Le contexte distingue contrainte, permission et déclenchement.",
+      "explanationFr": "Godan : remplacer la terminaison par la base en あ, avec う → わ, puis ajouter せる (言う → 言わせる). Ichidan : enlever る et ajouter させる. する → させる ; 来る → こさせる. Le contexte distingue contrainte, permission et déclenchement.",
       "contrastFr": "Ne pas employer 作る pour traduire « faire faire ». Les particules de la personne causée dépendent aussi du verbe.",
       "examples": [
         {
@@ -1609,7 +1609,7 @@
         {
           "ja": "知っているくせに、教えてくれません。",
           "reading": "しっているくせに、おしえてくれません。",
-          "fr": "Il le sait, pourtant il refuse de me le dire.",
+          "fr": "Il le sait, pourtant il ne me le dit pas.",
           "origin": "Original example, independent native review pending"
         },
         {
@@ -1646,7 +1646,7 @@
       "createdAt": "12 October 2026",
       "learnerState": "not-assessed",
       "oralPromptsFr": [
-        "Il le sait, pourtant il refuse de me le dire.",
+        "Il le sait, pourtant il ne me le dit pas.",
         "Il dit qu’il est occupé, mais il passe son temps à jouer.",
         "Alors que je suis débutant, j’ai voulu en faire trop."
       ]
@@ -1894,7 +1894,7 @@
         "adjective-sa",
         "さ"
       ],
-      "explanationFr": "Enlever い d’un adjectif en い, ou な d’un adjectif en な, puis ajouter さ. Le nom exprime une qualité ou son degré.",
+      "explanationFr": "Enlever い d’un adjectif en い, ou な d’un adjectif en な, puis ajouter さ. いい utilise la base よい et donne よさ. Le nom exprime une qualité ou son degré.",
       "contrastFr": "み n’est pas librement productif avec tous les adjectifs; il faut apprendre ses mots attestés.",
       "examples": [
         {
@@ -1918,7 +1918,8 @@
       ],
       "prerequisites": [
         "grammar-verb-groups",
-        "grammar-copula"
+        "grammar-copula",
+        "grammar-i-adjectives"
       ],
       "sources": [
         {
@@ -3840,13 +3841,13 @@
         "zuniha-irarenai",
         "ずにはいられない"
       ],
-      "explanationFr": "Base négative + ずにはいられない décrit une impulsion qu’on ne parvient pas à retenir. する → せずにはいられない. La variante ないではいられない est possible.",
+      "explanationFr": "Base négative + ずにはいられない décrit une impulsion qu’on ne parvient pas à retenir malgré une tentative ou une possibilité de retenue. する → せずにはいられない. La variante ないではいられない est possible. Ne pas en faire une substitution automatique pour toute réaction physiologique involontaire.",
       "contrastFr": "Différencier l’élan intérieur d’une obligation imposée en なければならない.",
       "examples": [
         {
-          "ja": "その話を聞いて、笑わずにはいられませんでした。",
-          "reading": "そのはなしをきいて、わらわずにはいられませんでした。",
-          "fr": "En entendant cette histoire, je n’ai pas pu m’empêcher de rire.",
+          "ja": "笑ってはいけないと思っても、その冗談を聞くと、笑わずにはいられません。",
+          "reading": "わらってはいけないとおもっても、そのじょうだんをきくと、わらわずにはいられません。",
+          "fr": "Même si je me dis que je ne dois pas rire, je ne peux pas m’en empêcher quand j’entends cette plaisanterie.",
           "origin": "Original example, independent native review pending"
         },
         {
@@ -3856,9 +3857,9 @@
           "origin": "Original example, independent native review pending"
         },
         {
-          "ja": "この写真を見ると、昔を思い出さずにはいられません。",
-          "reading": "このしゃしんをみると、むかしをおもいださずにはいられません。",
-          "fr": "Quand je vois cette photographie, je ne peux m’empêcher de penser au passé.",
+          "ja": "その場所に行くと、昔のことを話さずにはいられません。",
+          "reading": "そのばしょにいくと、むかしのことをはなさずにはいられません。",
+          "fr": "Quand je vais à cet endroit, je ne peux pas m’empêcher de parler du passé.",
           "origin": "Original example, independent native review pending"
         }
       ],
@@ -3883,9 +3884,9 @@
       "createdAt": "12 October 2026",
       "learnerState": "not-assessed",
       "oralPromptsFr": [
-        "En entendant cette histoire, je n’ai pas pu m’empêcher de rire.",
+        "Même si je me dis que je ne dois pas rire, je ne peux pas m’en empêcher quand j’entends cette plaisanterie.",
         "J’étais inquiet pour lui et n’ai pas pu m’empêcher d’appeler.",
-        "Quand je vois cette photographie, je ne peux m’empêcher de penser au passé."
+        "Quand je vais à cet endroit, je ne peux pas m’empêcher de parler du passé."
       ]
     },
     {
@@ -5020,7 +5021,7 @@
         "to-omoikiya",
         "と思いきや"
       ],
-      "explanationFr": "と思いきや présente une supposition qui est immédiatement contredite par la situation constatée. La suite raconte la surprise.",
+      "explanationFr": "と思いきや présente une supposition démentie de façon inattendue par la situation constatée. La construction ne pose pas, à elle seule, une obligation de succession immédiate.",
       "contrastFr": "Contrairement à une simple opinion en と思う, le démenti fait partie de la construction.",
       "examples": [
         {

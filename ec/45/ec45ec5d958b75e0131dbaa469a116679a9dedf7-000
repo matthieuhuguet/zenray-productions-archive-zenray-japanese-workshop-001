@@ -1,0 +1,1121 @@
+{
+  "checkedAt": "13 October 2026",
+  "nodeVersion": "v26.9.0",
+  "settings": {
+    "iterations": 8,
+    "timeoutMs": 1500,
+    "bodyLimitBytes": 1024
+  },
+  "actualMethod": "AssetsService.prototype.handleHttp",
+  "noRealServiceCreated": true,
+  "noRealAssetsStateWritten": true,
+  "results": [
+    {
+      "mode": "raw",
+      "label": "method-refused",
+      "code": 405,
+      "elapsedMs": 6.6,
+      "bodyCode": "method-refused"
+    },
+    {
+      "mode": "raw",
+      "label": "unsupported-action",
+      "code": 400,
+      "elapsedMs": 3.5,
+      "bodyCode": "workspace-failed"
+    },
+    {
+      "mode": "raw",
+      "label": "status-tiny-fixture",
+      "code": 200,
+      "elapsedMs": 0.76,
+      "bodyCode": null
+    },
+    {
+      "mode": "raw",
+      "label": "method-refused",
+      "code": 405,
+      "elapsedMs": 0.65,
+      "bodyCode": "method-refused"
+    },
+    {
+      "mode": "raw",
+      "label": "unsupported-action",
+      "code": 400,
+      "elapsedMs": 0.86,
+      "bodyCode": "workspace-failed"
+    },
+    {
+      "mode": "raw",
+      "label": "status-tiny-fixture",
+      "code": 200,
+      "elapsedMs": 0.62,
+      "bodyCode": null
+    },
+    {
+      "mode": "raw",
+      "label": "method-refused",
+      "code": 405,
+      "elapsedMs": 0.39,
+      "bodyCode": "method-refused"
+    },
+    {
+      "mode": "raw",
+      "label": "unsupported-action",
+      "code": 400,
+      "elapsedMs": 0.59,
+      "bodyCode": "workspace-failed"
+    },
+    {
+      "mode": "raw",
+      "label": "status-tiny-fixture",
+      "code": 200,
+      "elapsedMs": 2.04,
+      "bodyCode": null
+    },
+    {
+      "mode": "raw",
+      "label": "method-refused",
+      "code": 405,
+      "elapsedMs": 0.7,
+      "bodyCode": "method-refused"
+    },
+    {
+      "mode": "raw",
+      "label": "unsupported-action",
+      "code": 400,
+      "elapsedMs": 0.56,
+      "bodyCode": "workspace-failed"
+    },
+    {
+      "mode": "raw",
+      "label": "status-tiny-fixture",
+      "code": 200,
+      "elapsedMs": 0.38,
+      "bodyCode": null
+    },
+    {
+      "mode": "raw",
+      "label": "method-refused",
+      "code": 405,
+      "elapsedMs": 0.22,
+      "bodyCode": "method-refused"
+    },
+    {
+      "mode": "raw",
+      "label": "unsupported-action",
+      "code": 400,
+      "elapsedMs": 0.74,
+      "bodyCode": "workspace-failed"
+    },
+    {
+      "mode": "raw",
+      "label": "status-tiny-fixture",
+      "code": 200,
+      "elapsedMs": 0.45,
+      "bodyCode": null
+    },
+    {
+      "mode": "raw",
+      "label": "method-refused",
+      "code": 405,
+      "elapsedMs": 0.2,
+      "bodyCode": "method-refused"
+    },
+    {
+      "mode": "raw",
+      "label": "unsupported-action",
+      "code": 400,
+      "elapsedMs": 0.28,
+      "bodyCode": "workspace-failed"
+    },
+    {
+      "mode": "raw",
+      "label": "status-tiny-fixture",
+      "code": 200,
+      "elapsedMs": 0.25,
+      "bodyCode": null
+    },
+    {
+      "mode": "raw",
+      "label": "method-refused",
+      "code": 405,
+      "elapsedMs": 0.18,
+      "bodyCode": "method-refused"
+    },
+    {
+      "mode": "raw",
+      "label": "unsupported-action",
+      "code": 400,
+      "elapsedMs": 0.35,
+      "bodyCode": "workspace-failed"
+    },
+    {
+      "mode": "raw",
+      "label": "status-tiny-fixture",
+      "code": 200,
+      "elapsedMs": 0.56,
+      "bodyCode": null
+    },
+    {
+      "mode": "raw",
+      "label": "method-refused",
+      "code": 405,
+      "elapsedMs": 0.21,
+      "bodyCode": "method-refused"
+    },
+    {
+      "mode": "raw",
+      "label": "unsupported-action",
+      "code": 400,
+      "elapsedMs": 0.35,
+      "bodyCode": "workspace-failed"
+    },
+    {
+      "mode": "raw",
+      "label": "status-tiny-fixture",
+      "code": 200,
+      "elapsedMs": 3.16,
+      "bodyCode": null
+    },
+    {
+      "mode": "raw",
+      "label": "action-required",
+      "code": 400,
+      "elapsedMs": 0.57,
+      "bodyCode": "workspace-failed"
+    },
+    {
+      "mode": "raw",
+      "label": "get-during-blocked-handler",
+      "code": 405,
+      "elapsedMs": 0.82,
+      "bodyCode": "method-refused"
+    },
+    {
+      "mode": "raw",
+      "label": "invalid-during-blocked-handler",
+      "code": 400,
+      "elapsedMs": 0.94,
+      "bodyCode": "workspace-failed"
+    },
+    {
+      "mode": "raw",
+      "label": "deliberately-blocked-request",
+      "code": "timeout-or-abort",
+      "elapsedMs": 1502.08,
+      "bodyCode": null
+    },
+    {
+      "mode": "raw",
+      "trace": [
+        {
+          "method": "GET",
+          "stage": "body-ended",
+          "chunks": 0,
+          "bytes": 0
+        },
+        {
+          "method": "POST",
+          "stage": "response-finished",
+          "chunks": 2,
+          "bytes": 26
+        },
+        {
+          "method": "POST",
+          "stage": "response-finished",
+          "chunks": 2,
+          "bytes": 41
+        },
+        {
+          "method": "GET",
+          "stage": "body-ended",
+          "chunks": 0,
+          "bytes": 0
+        },
+        {
+          "method": "POST",
+          "stage": "response-finished",
+          "chunks": 2,
+          "bytes": 26
+        },
+        {
+          "method": "POST",
+          "stage": "response-finished",
+          "chunks": 2,
+          "bytes": 41
+        },
+        {
+          "method": "GET",
+          "stage": "body-ended",
+          "chunks": 0,
+          "bytes": 0
+        },
+        {
+          "method": "POST",
+          "stage": "response-finished",
+          "chunks": 2,
+          "bytes": 26
+        },
+        {
+          "method": "POST",
+          "stage": "response-finished",
+          "chunks": 2,
+          "bytes": 41
+        },
+        {
+          "method": "GET",
+          "stage": "body-ended",
+          "chunks": 0,
+          "bytes": 0
+        },
+        {
+          "method": "POST",
+          "stage": "response-finished",
+          "chunks": 2,
+          "bytes": 26
+        },
+        {
+          "method": "POST",
+          "stage": "response-finished",
+          "chunks": 2,
+          "bytes": 41
+        },
+        {
+          "method": "GET",
+          "stage": "body-ended",
+          "chunks": 0,
+          "bytes": 0
+        },
+        {
+          "method": "POST",
+          "stage": "response-finished",
+          "chunks": 2,
+          "bytes": 26
+        },
+        {
+          "method": "POST",
+          "stage": "response-finished",
+          "chunks": 2,
+          "bytes": 41
+        },
+        {
+          "method": "GET",
+          "stage": "body-ended",
+          "chunks": 0,
+          "bytes": 0
+        },
+        {
+          "method": "POST",
+          "stage": "response-finished",
+          "chunks": 2,
+          "bytes": 26
+        },
+        {
+          "method": "POST",
+          "stage": "response-finished",
+          "chunks": 2,
+          "bytes": 41
+        },
+        {
+          "method": "GET",
+          "stage": "body-ended",
+          "chunks": 0,
+          "bytes": 0
+        },
+        {
+          "method": "POST",
+          "stage": "response-finished",
+          "chunks": 2,
+          "bytes": 26
+        },
+        {
+          "method": "POST",
+          "stage": "response-finished",
+          "chunks": 2,
+          "bytes": 41
+        },
+        {
+          "method": "GET",
+          "stage": "body-ended",
+          "chunks": 0,
+          "bytes": 0
+        },
+        {
+          "method": "POST",
+          "stage": "response-finished",
+          "chunks": 2,
+          "bytes": 26
+        },
+        {
+          "method": "POST",
+          "stage": "response-finished",
+          "chunks": 2,
+          "bytes": 41
+        },
+        {
+          "method": "POST",
+          "stage": "response-finished",
+          "chunks": 2,
+          "bytes": 2
+        },
+        {
+          "method": "POST",
+          "stage": "body-ended",
+          "chunks": 2,
+          "bytes": 28
+        },
+        {
+          "method": "GET",
+          "stage": "body-ended",
+          "chunks": 0,
+          "bytes": 0
+        },
+        {
+          "method": "POST",
+          "stage": "response-finished",
+          "chunks": 2,
+          "bytes": 26
+        }
+      ]
+    },
+    {
+      "mode": "raw-unobserved",
+      "label": "method-refused",
+      "code": 405,
+      "elapsedMs": 0.93,
+      "bodyCode": "method-refused"
+    },
+    {
+      "mode": "raw-unobserved",
+      "label": "unsupported-action",
+      "code": 400,
+      "elapsedMs": 0.57,
+      "bodyCode": "workspace-failed"
+    },
+    {
+      "mode": "raw-unobserved",
+      "label": "status-tiny-fixture",
+      "code": 200,
+      "elapsedMs": 0.31,
+      "bodyCode": null
+    },
+    {
+      "mode": "raw-unobserved",
+      "label": "method-refused",
+      "code": 405,
+      "elapsedMs": 1.4,
+      "bodyCode": "method-refused"
+    },
+    {
+      "mode": "raw-unobserved",
+      "label": "unsupported-action",
+      "code": 400,
+      "elapsedMs": 0.68,
+      "bodyCode": "workspace-failed"
+    },
+    {
+      "mode": "raw-unobserved",
+      "label": "status-tiny-fixture",
+      "code": 200,
+      "elapsedMs": 0.31,
+      "bodyCode": null
+    },
+    {
+      "mode": "raw-unobserved",
+      "label": "method-refused",
+      "code": 405,
+      "elapsedMs": 0.51,
+      "bodyCode": "method-refused"
+    },
+    {
+      "mode": "raw-unobserved",
+      "label": "unsupported-action",
+      "code": 400,
+      "elapsedMs": 0.46,
+      "bodyCode": "workspace-failed"
+    },
+    {
+      "mode": "raw-unobserved",
+      "label": "status-tiny-fixture",
+      "code": 200,
+      "elapsedMs": 0.28,
+      "bodyCode": null
+    },
+    {
+      "mode": "raw-unobserved",
+      "label": "method-refused",
+      "code": 405,
+      "elapsedMs": 0.78,
+      "bodyCode": "method-refused"
+    },
+    {
+      "mode": "raw-unobserved",
+      "label": "unsupported-action",
+      "code": 400,
+      "elapsedMs": 0.36,
+      "bodyCode": "workspace-failed"
+    },
+    {
+      "mode": "raw-unobserved",
+      "label": "status-tiny-fixture",
+      "code": 200,
+      "elapsedMs": 0.2,
+      "bodyCode": null
+    },
+    {
+      "mode": "raw-unobserved",
+      "label": "method-refused",
+      "code": 405,
+      "elapsedMs": 0.52,
+      "bodyCode": "method-refused"
+    },
+    {
+      "mode": "raw-unobserved",
+      "label": "unsupported-action",
+      "code": 400,
+      "elapsedMs": 0.34,
+      "bodyCode": "workspace-failed"
+    },
+    {
+      "mode": "raw-unobserved",
+      "label": "status-tiny-fixture",
+      "code": 200,
+      "elapsedMs": 0.38,
+      "bodyCode": null
+    },
+    {
+      "mode": "raw-unobserved",
+      "label": "method-refused",
+      "code": 405,
+      "elapsedMs": 0.22,
+      "bodyCode": "method-refused"
+    },
+    {
+      "mode": "raw-unobserved",
+      "label": "unsupported-action",
+      "code": 400,
+      "elapsedMs": 0.33,
+      "bodyCode": "workspace-failed"
+    },
+    {
+      "mode": "raw-unobserved",
+      "label": "status-tiny-fixture",
+      "code": 200,
+      "elapsedMs": 0.85,
+      "bodyCode": null
+    },
+    {
+      "mode": "raw-unobserved",
+      "label": "method-refused",
+      "code": 405,
+      "elapsedMs": 0.71,
+      "bodyCode": "method-refused"
+    },
+    {
+      "mode": "raw-unobserved",
+      "label": "unsupported-action",
+      "code": 400,
+      "elapsedMs": 0.41,
+      "bodyCode": "workspace-failed"
+    },
+    {
+      "mode": "raw-unobserved",
+      "label": "status-tiny-fixture",
+      "code": 200,
+      "elapsedMs": 0.65,
+      "bodyCode": null
+    },
+    {
+      "mode": "raw-unobserved",
+      "label": "method-refused",
+      "code": 405,
+      "elapsedMs": 0.43,
+      "bodyCode": "method-refused"
+    },
+    {
+      "mode": "raw-unobserved",
+      "label": "unsupported-action",
+      "code": 400,
+      "elapsedMs": 0.44,
+      "bodyCode": "workspace-failed"
+    },
+    {
+      "mode": "raw-unobserved",
+      "label": "status-tiny-fixture",
+      "code": 200,
+      "elapsedMs": 0.39,
+      "bodyCode": null
+    },
+    {
+      "mode": "raw-unobserved",
+      "label": "action-required",
+      "code": 400,
+      "elapsedMs": 0.29,
+      "bodyCode": "workspace-failed"
+    },
+    {
+      "mode": "raw-unobserved",
+      "label": "get-during-blocked-handler",
+      "code": 405,
+      "elapsedMs": 0.89,
+      "bodyCode": "method-refused"
+    },
+    {
+      "mode": "raw-unobserved",
+      "label": "invalid-during-blocked-handler",
+      "code": 400,
+      "elapsedMs": 0.5,
+      "bodyCode": "workspace-failed"
+    },
+    {
+      "mode": "raw-unobserved",
+      "label": "deliberately-blocked-request",
+      "code": "timeout-or-abort",
+      "elapsedMs": 1500.62,
+      "bodyCode": null
+    },
+    {
+      "mode": "raw-unobserved",
+      "trace": [
+        {
+          "method": "GET",
+          "stage": "body-ended",
+          "chunks": 0,
+          "bytes": 0
+        },
+        {
+          "method": "POST",
+          "stage": "response-finished",
+          "chunks": 0,
+          "bytes": 0
+        },
+        {
+          "method": "POST",
+          "stage": "response-finished",
+          "chunks": 0,
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "stage": "body-ended",
+          "chunks": 0,
+          "bytes": 0
+        },
+        {
+          "method": "POST",
+          "stage": "response-finished",
+          "chunks": 0,
+          "bytes": 0
+        },
+        {
+          "method": "POST",
+          "stage": "response-finished",
+          "chunks": 0,
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "stage": "body-ended",
+          "chunks": 0,
+          "bytes": 0
+        },
+        {
+          "method": "POST",
+          "stage": "response-finished",
+          "chunks": 0,
+          "bytes": 0
+        },
+        {
+          "method": "POST",
+          "stage": "response-finished",
+          "chunks": 0,
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "stage": "body-ended",
+          "chunks": 0,
+          "bytes": 0
+        },
+        {
+          "method": "POST",
+          "stage": "response-finished",
+          "chunks": 0,
+          "bytes": 0
+        },
+        {
+          "method": "POST",
+          "stage": "response-finished",
+          "chunks": 0,
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "stage": "body-ended",
+          "chunks": 0,
+          "bytes": 0
+        },
+        {
+          "method": "POST",
+          "stage": "response-finished",
+          "chunks": 0,
+          "bytes": 0
+        },
+        {
+          "method": "POST",
+          "stage": "response-finished",
+          "chunks": 0,
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "stage": "body-ended",
+          "chunks": 0,
+          "bytes": 0
+        },
+        {
+          "method": "POST",
+          "stage": "response-finished",
+          "chunks": 0,
+          "bytes": 0
+        },
+        {
+          "method": "POST",
+          "stage": "response-finished",
+          "chunks": 0,
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "stage": "body-ended",
+          "chunks": 0,
+          "bytes": 0
+        },
+        {
+          "method": "POST",
+          "stage": "response-finished",
+          "chunks": 0,
+          "bytes": 0
+        },
+        {
+          "method": "POST",
+          "stage": "response-finished",
+          "chunks": 0,
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "stage": "body-ended",
+          "chunks": 0,
+          "bytes": 0
+        },
+        {
+          "method": "POST",
+          "stage": "response-finished",
+          "chunks": 0,
+          "bytes": 0
+        },
+        {
+          "method": "POST",
+          "stage": "response-finished",
+          "chunks": 0,
+          "bytes": 0
+        },
+        {
+          "method": "POST",
+          "stage": "response-finished",
+          "chunks": 0,
+          "bytes": 0
+        },
+        {
+          "method": "POST",
+          "stage": "body-ended",
+          "chunks": 0,
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "stage": "body-ended",
+          "chunks": 0,
+          "bytes": 0
+        },
+        {
+          "method": "POST",
+          "stage": "response-finished",
+          "chunks": 0,
+          "bytes": 0
+        }
+      ]
+    },
+    {
+      "mode": "preparsed",
+      "label": "method-refused",
+      "code": 405,
+      "elapsedMs": 0.78,
+      "bodyCode": "method-refused"
+    },
+    {
+      "mode": "preparsed",
+      "label": "unsupported-action",
+      "code": 400,
+      "elapsedMs": 0.71,
+      "bodyCode": "workspace-failed"
+    },
+    {
+      "mode": "preparsed",
+      "label": "status-tiny-fixture",
+      "code": 200,
+      "elapsedMs": 0.82,
+      "bodyCode": null
+    },
+    {
+      "mode": "preparsed",
+      "label": "method-refused",
+      "code": 405,
+      "elapsedMs": 0.26,
+      "bodyCode": "method-refused"
+    },
+    {
+      "mode": "preparsed",
+      "label": "unsupported-action",
+      "code": 400,
+      "elapsedMs": 0.64,
+      "bodyCode": "workspace-failed"
+    },
+    {
+      "mode": "preparsed",
+      "label": "status-tiny-fixture",
+      "code": 200,
+      "elapsedMs": 0.46,
+      "bodyCode": null
+    },
+    {
+      "mode": "preparsed",
+      "label": "method-refused",
+      "code": 405,
+      "elapsedMs": 0.21,
+      "bodyCode": "method-refused"
+    },
+    {
+      "mode": "preparsed",
+      "label": "unsupported-action",
+      "code": 400,
+      "elapsedMs": 0.87,
+      "bodyCode": "workspace-failed"
+    },
+    {
+      "mode": "preparsed",
+      "label": "status-tiny-fixture",
+      "code": 200,
+      "elapsedMs": 0.73,
+      "bodyCode": null
+    },
+    {
+      "mode": "preparsed",
+      "label": "method-refused",
+      "code": 405,
+      "elapsedMs": 0.33,
+      "bodyCode": "method-refused"
+    },
+    {
+      "mode": "preparsed",
+      "label": "unsupported-action",
+      "code": 400,
+      "elapsedMs": 0.67,
+      "bodyCode": "workspace-failed"
+    },
+    {
+      "mode": "preparsed",
+      "label": "status-tiny-fixture",
+      "code": 200,
+      "elapsedMs": 0.33,
+      "bodyCode": null
+    },
+    {
+      "mode": "preparsed",
+      "label": "method-refused",
+      "code": 405,
+      "elapsedMs": 0.6,
+      "bodyCode": "method-refused"
+    },
+    {
+      "mode": "preparsed",
+      "label": "unsupported-action",
+      "code": 400,
+      "elapsedMs": 0.73,
+      "bodyCode": "workspace-failed"
+    },
+    {
+      "mode": "preparsed",
+      "label": "status-tiny-fixture",
+      "code": 200,
+      "elapsedMs": 0.36,
+      "bodyCode": null
+    },
+    {
+      "mode": "preparsed",
+      "label": "method-refused",
+      "code": 405,
+      "elapsedMs": 0.3,
+      "bodyCode": "method-refused"
+    },
+    {
+      "mode": "preparsed",
+      "label": "unsupported-action",
+      "code": 400,
+      "elapsedMs": 0.34,
+      "bodyCode": "workspace-failed"
+    },
+    {
+      "mode": "preparsed",
+      "label": "status-tiny-fixture",
+      "code": 200,
+      "elapsedMs": 0.23,
+      "bodyCode": null
+    },
+    {
+      "mode": "preparsed",
+      "label": "method-refused",
+      "code": 405,
+      "elapsedMs": 0.18,
+      "bodyCode": "method-refused"
+    },
+    {
+      "mode": "preparsed",
+      "label": "unsupported-action",
+      "code": 400,
+      "elapsedMs": 0.34,
+      "bodyCode": "workspace-failed"
+    },
+    {
+      "mode": "preparsed",
+      "label": "status-tiny-fixture",
+      "code": 200,
+      "elapsedMs": 0.43,
+      "bodyCode": null
+    },
+    {
+      "mode": "preparsed",
+      "label": "method-refused",
+      "code": 405,
+      "elapsedMs": 0.41,
+      "bodyCode": "method-refused"
+    },
+    {
+      "mode": "preparsed",
+      "label": "unsupported-action",
+      "code": 400,
+      "elapsedMs": 0.55,
+      "bodyCode": "workspace-failed"
+    },
+    {
+      "mode": "preparsed",
+      "label": "status-tiny-fixture",
+      "code": 200,
+      "elapsedMs": 0.3,
+      "bodyCode": null
+    },
+    {
+      "mode": "preparsed",
+      "label": "action-required",
+      "code": 400,
+      "elapsedMs": 0.6,
+      "bodyCode": "workspace-failed"
+    },
+    {
+      "mode": "preparsed",
+      "label": "get-during-blocked-handler",
+      "code": 405,
+      "elapsedMs": 0.7,
+      "bodyCode": "method-refused"
+    },
+    {
+      "mode": "preparsed",
+      "label": "invalid-during-blocked-handler",
+      "code": 400,
+      "elapsedMs": 0.67,
+      "bodyCode": "workspace-failed"
+    },
+    {
+      "mode": "preparsed",
+      "label": "deliberately-blocked-request",
+      "code": "timeout-or-abort",
+      "elapsedMs": 1502.13,
+      "bodyCode": null
+    },
+    {
+      "mode": "preparsed",
+      "trace": [
+        {
+          "method": "GET",
+          "stage": "body-ended",
+          "chunks": 0,
+          "bytes": 0
+        },
+        {
+          "method": "POST",
+          "stage": "response-finished",
+          "chunks": 2,
+          "bytes": 26
+        },
+        {
+          "method": "POST",
+          "stage": "response-finished",
+          "chunks": 2,
+          "bytes": 41
+        },
+        {
+          "method": "GET",
+          "stage": "body-ended",
+          "chunks": 0,
+          "bytes": 0
+        },
+        {
+          "method": "POST",
+          "stage": "response-finished",
+          "chunks": 2,
+          "bytes": 26
+        },
+        {
+          "method": "POST",
+          "stage": "response-finished",
+          "chunks": 2,
+          "bytes": 41
+        },
+        {
+          "method": "GET",
+          "stage": "body-ended",
+          "chunks": 0,
+          "bytes": 0
+        },
+        {
+          "method": "POST",
+          "stage": "response-finished",
+          "chunks": 2,
+          "bytes": 26
+        },
+        {
+          "method": "POST",
+          "stage": "response-finished",
+          "chunks": 2,
+          "bytes": 41
+        },
+        {
+          "method": "GET",
+          "stage": "body-ended",
+          "chunks": 0,
+          "bytes": 0
+        },
+        {
+          "method": "POST",
+          "stage": "response-finished",
+          "chunks": 2,
+          "bytes": 26
+        },
+        {
+          "method": "POST",
+          "stage": "response-finished",
+          "chunks": 2,
+          "bytes": 41
+        },
+        {
+          "method": "GET",
+          "stage": "body-ended",
+          "chunks": 0,
+          "bytes": 0
+        },
+        {
+          "method": "POST",
+          "stage": "response-finished",
+          "chunks": 2,
+          "bytes": 26
+        },
+        {
+          "method": "POST",
+          "stage": "response-finished",
+          "chunks": 2,
+          "bytes": 41
+        },
+        {
+          "method": "GET",
+          "stage": "body-ended",
+          "chunks": 0,
+          "bytes": 0
+        },
+        {
+          "method": "POST",
+          "stage": "response-finished",
+          "chunks": 2,
+          "bytes": 26
+        },
+        {
+          "method": "POST",
+          "stage": "response-finished",
+          "chunks": 2,
+          "bytes": 41
+        },
+        {
+          "method": "GET",
+          "stage": "body-ended",
+          "chunks": 0,
+          "bytes": 0
+        },
+        {
+          "method": "POST",
+          "stage": "response-finished",
+          "chunks": 2,
+          "bytes": 26
+        },
+        {
+          "method": "POST",
+          "stage": "response-finished",
+          "chunks": 2,
+          "bytes": 41
+        },
+        {
+          "method": "GET",
+          "stage": "body-ended",
+          "chunks": 0,
+          "bytes": 0
+        },
+        {
+          "method": "POST",
+          "stage": "response-finished",
+          "chunks": 2,
+          "bytes": 26
+        },
+        {
+          "method": "POST",
+          "stage": "response-finished",
+          "chunks": 2,
+          "bytes": 41
+        },
+        {
+          "method": "POST",
+          "stage": "response-finished",
+          "chunks": 2,
+          "bytes": 2
+        },
+        {
+          "method": "POST",
+          "stage": "body-ended",
+          "chunks": 2,
+          "bytes": 28
+        },
+        {
+          "method": "GET",
+          "stage": "body-ended",
+          "chunks": 0,
+          "bytes": 0
+        },
+        {
+          "method": "POST",
+          "stage": "response-finished",
+          "chunks": 2,
+          "bytes": 26
+        }
+      ]
+    }
+  ]
+}

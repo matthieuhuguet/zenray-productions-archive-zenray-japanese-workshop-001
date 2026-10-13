@@ -1,1 +1,1983 @@
-{"lessons":[{"id":"adv-adjective-sa","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-adjective-sa.md","level":"N3","reviewStatus":"editorial-draft","learned":false},{"id":"adv-ageku","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-ageku.md","level":"N2","reviewStatus":"editorial-draft","learned":false},{"id":"adv-au","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-au.md","level":"N3","reviewStatus":"editorial-draft","learned":false},{"id":"adv-bekida","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-bekida.md","level":"N3","reviewStatus":"editorial-draft","learned":false},{"id":"adv-beku","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-beku.md","level":"N1","reviewStatus":"editorial-draft","learned":false},{"id":"adv-causative","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-causative.md","level":"N4","reviewStatus":"editorial-draft","learned":false},{"id":"adv-causative-passive","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-causative-passive.md","level":"N3","reviewStatus":"editorial-draft","learned":false},{"id":"adv-chuu-juu","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-chuu-juu.md","level":"N3","reviewStatus":"editorial-draft","learned":false},{"id":"adv-dakeni","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-dakeni.md","level":"N2","reviewStatus":"editorial-draft","learned":false},{"id":"adv-ga-hayaika","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-ga-hayaika.md","level":"N1","reviewStatus":"editorial-draft","learned":false},{"id":"adv-garu","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-garu.md","level":"N3","reviewStatus":"editorial-draft","learned":false},{"id":"adv-gatai","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-gatai.md","level":"N2","reviewStatus":"editorial-draft","learned":false},{"id":"adv-gatera","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-gatera.md","level":"N1","reviewStatus":"editorial-draft","learned":false},{"id":"adv-hazuda","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-hazuda.md","level":"N3","reviewStatus":"editorial-draft","learned":false},{"id":"adv-hodo-negative","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-hodo-negative.md","level":"N3","reviewStatus":"editorial-draft","learned":false},{"id":"adv-hoga-ii","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-hoga-ii.md","level":"N4","reviewStatus":"editorial-draft","learned":false},{"id":"adv-ikan-ni","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-ikan-ni.md","level":"N1","reviewStatus":"editorial-draft","learned":false},{"id":"adv-kagiri-condition","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-kagiri-condition.md","level":"N2","reviewStatus":"editorial-draft","learned":false},{"id":"adv-kagiridewa","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-kagiridewa.md","level":"N2","reviewStatus":"editorial-draft","learned":false},{"id":"adv-kamoshirenai","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-kamoshirenai.md","level":"N4","reviewStatus":"editorial-draft","learned":false},{"id":"adv-katawara","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-katawara.md","level":"N1","reviewStatus":"editorial-draft","learned":false},{"id":"adv-kirai-ga-aru","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-kirai-ga-aru.md","level":"N1","reviewStatus":"editorial-draft","learned":false},{"id":"adv-kiru","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-kiru.md","level":"N3","reviewStatus":"editorial-draft","learned":false},{"id":"adv-koso","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-koso.md","level":"N3","reviewStatus":"editorial-draft","learned":false},{"id":"adv-koto-ga-aru","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-koto-ga-aru.md","level":"N4","reviewStatus":"editorial-draft","learned":false},{"id":"adv-kotonaku","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-kotonaku.md","level":"N2","reviewStatus":"editorial-draft","learned":false},{"id":"adv-kuseni","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-kuseni.md","level":"N3","reviewStatus":"editorial-draft","learned":false},{"id":"adv-mai","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-mai.md","level":"N2","reviewStatus":"editorial-draft","learned":false},{"id":"adv-me","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-me.md","level":"N3","reviewStatus":"editorial-draft","learned":false},{"id":"adv-nagara","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-nagara.md","level":"N4","reviewStatus":"editorial-draft","learned":false},{"id":"adv-naikotoniha","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-naikotoniha.md","level":"N2","reviewStatus":"editorial-draft","learned":false},{"id":"adv-nakerebanaranai","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-nakerebanaranai.md","level":"N4","reviewStatus":"editorial-draft","learned":false},{"id":"adv-naosu","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-naosu.md","level":"N3","reviewStatus":"editorial-draft","learned":false},{"id":"adv-nara-dewa","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-nara-dewa.md","level":"N1","reviewStatus":"editorial-draft","learned":false},{"id":"adv-nari-immediate","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-nari-immediate.md","level":"N1","reviewStatus":"editorial-draft","learned":false},{"id":"adv-nashi","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-nashi.md","level":"N2","reviewStatus":"editorial-draft","learned":false},{"id":"adv-niataru","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-niataru.md","level":"N2","reviewStatus":"editorial-draft","learned":false},{"id":"adv-nichigainai","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-nichigainai.md","level":"N3","reviewStatus":"editorial-draft","learned":false},{"id":"adv-nikakawarazu","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-nikakawarazu.md","level":"N2","reviewStatus":"editorial-draft","learned":false},{"id":"adv-nikanshite","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-nikanshite.md","level":"N2","reviewStatus":"editorial-draft","learned":false},{"id":"adv-nikoshitakotohanai","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-nikoshitakotohanai.md","level":"N2","reviewStatus":"editorial-draft","learned":false},{"id":"adv-nikui","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-nikui.md","level":"N4","reviewStatus":"editorial-draft","learned":false},{"id":"adv-nikuwaete","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-nikuwaete.md","level":"N2","reviewStatus":"editorial-draft","learned":false},{"id":"adv-nimokakawarazu","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-nimokakawarazu.md","level":"N2","reviewStatus":"editorial-draft","learned":false},{"id":"adv-nimotozuite","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-nimotozuite.md","level":"N2","reviewStatus":"editorial-draft","learned":false},{"id":"adv-nisaishite","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-nisaishite.md","level":"N2","reviewStatus":"editorial-draft","learned":false},{"id":"adv-nisakidatte","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-nisakidatte.md","level":"N1","reviewStatus":"editorial-draft","learned":false},{"id":"adv-nishitagatte-change","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-nishitagatte-change.md","level":"N2","reviewStatus":"editorial-draft","learned":false},{"id":"adv-nitaru","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-nitaru.md","level":"N1","reviewStatus":"editorial-draft","learned":false},{"id":"adv-nitodomarazu","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-nitodomarazu.md","level":"N1","reviewStatus":"editorial-draft","learned":false},{"id":"adv-nitotte","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-nitotte.md","level":"N3","reviewStatus":"editorial-draft","learned":false},{"id":"adv-nitsuite","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-nitsuite.md","level":"N3","reviewStatus":"editorial-draft","learned":false},{"id":"adv-niwatatte","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-niwatatte.md","level":"N2","reviewStatus":"editorial-draft","learned":false},{"id":"adv-noda","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-noda.md","level":"N4","reviewStatus":"editorial-draft","learned":false},{"id":"adv-nomi","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-nomi.md","level":"N2","reviewStatus":"editorial-draft","learned":false},{"id":"adv-passive-direct","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-passive-direct.md","level":"N4","reviewStatus":"editorial-draft","learned":false},{"id":"adv-rashii-inference","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-rashii-inference.md","level":"N3","reviewStatus":"editorial-draft","learned":false},{"id":"adv-rashii-typical","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-rashii-typical.md","level":"N3","reviewStatus":"editorial-draft","learned":false},{"id":"adv-sekkaku","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-sekkaku.md","level":"N3","reviewStatus":"editorial-draft","learned":false},{"id":"adv-shidai","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-shidai.md","level":"N2","reviewStatus":"editorial-draft","learned":false},{"id":"adv-shimatsuda","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-shimatsuda.md","level":"N1","reviewStatus":"editorial-draft","learned":false},{"id":"adv-sobakara","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-sobakara.md","level":"N1","reviewStatus":"editorial-draft","learned":false},{"id":"adv-souda-appearance","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-souda-appearance.md","level":"N4","reviewStatus":"editorial-draft","learned":false},{"id":"adv-souda-hearsay","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-souda-hearsay.md","level":"N4","reviewStatus":"editorial-draft","learned":false},{"id":"adv-sueni","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-sueni.md","level":"N2","reviewStatus":"editorial-draft","learned":false},{"id":"adv-tabini","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-tabini.md","level":"N3","reviewStatus":"editorial-draft","learned":false},{"id":"adv-tameni-cause","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-tameni-cause.md","level":"N3","reviewStatus":"editorial-draft","learned":false},{"id":"adv-te-naranai","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-te-naranai.md","level":"N2","reviewStatus":"editorial-draft","learned":false},{"id":"adv-te-tamaranai","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-te-tamaranai.md","level":"N3","reviewStatus":"editorial-draft","learned":false},{"id":"adv-te-yamanai","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-te-yamanai.md","level":"N1","reviewStatus":"editorial-draft","learned":false},{"id":"adv-teirai","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-teirai.md","level":"N2","reviewStatus":"editorial-draft","learned":false},{"id":"adv-to-omoikiya","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-to-omoikiya.md","level":"N1","reviewStatus":"editorial-draft","learned":false},{"id":"adv-toha-kagiranai","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-toha-kagiranai.md","level":"N2","reviewStatus":"editorial-draft","learned":false},{"id":"adv-toiu","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-toiu.md","level":"N3","reviewStatus":"editorial-draft","learned":false},{"id":"adv-toka","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-toka.md","level":"N3","reviewStatus":"editorial-draft","learned":false},{"id":"adv-toshite","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-toshite.md","level":"N3","reviewStatus":"editorial-draft","learned":false},{"id":"adv-tsuideni","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-tsuideni.md","level":"N3","reviewStatus":"editorial-draft","learned":false},{"id":"adv-tsumori","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-tsumori.md","level":"N4","reviewStatus":"editorial-draft","learned":false},{"id":"adv-tsutsu","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-tsutsu.md","level":"N2","reviewStatus":"editorial-draft","learned":false},{"id":"adv-tsutsuaru","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-tsutsuaru.md","level":"N2","reviewStatus":"editorial-draft","learned":false},{"id":"adv-tsuzukeru","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-tsuzukeru.md","level":"N3","reviewStatus":"editorial-draft","learned":false},{"id":"adv-wa-oroka","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-wa-oroka.md","level":"N1","reviewStatus":"editorial-draft","learned":false},{"id":"adv-wakedehanai","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-wakedehanai.md","level":"N3","reviewStatus":"editorial-draft","learned":false},{"id":"adv-wakeganai","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-wakeganai.md","level":"N3","reviewStatus":"editorial-draft","learned":false},{"id":"adv-wakenihaikanai","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-wakenihaikanai.md","level":"N2","reviewStatus":"editorial-draft","learned":false},{"id":"adv-wasure","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-wasure.md","level":"N3","reviewStatus":"editorial-draft","learned":false},{"id":"adv-wazawaza","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-wazawaza.md","level":"N3","reviewStatus":"editorial-draft","learned":false},{"id":"adv-wo-kagirini","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-wo-kagirini.md","level":"N1","reviewStatus":"editorial-draft","learned":false},{"id":"adv-wo-kinjienai","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-wo-kinjienai.md","level":"N1","reviewStatus":"editorial-draft","learned":false},{"id":"adv-wo-oite","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-wo-oite.md","level":"N1","reviewStatus":"editorial-draft","learned":false},{"id":"adv-wo-towazu","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-wo-towazu.md","level":"N2","reviewStatus":"editorial-draft","learned":false},{"id":"adv-wofumaete","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-wofumaete.md","level":"N1","reviewStatus":"editorial-draft","learned":false},{"id":"adv-womegutte","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-womegutte.md","level":"N2","reviewStatus":"editorial-draft","learned":false},{"id":"adv-womonotomosezu","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-womonotomosezu.md","level":"N1","reviewStatus":"editorial-draft","learned":false},{"id":"adv-womotoni","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-womotoni.md","level":"N2","reviewStatus":"editorial-draft","learned":false},{"id":"adv-wotoshite","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-wotoshite.md","level":"N2","reviewStatus":"editorial-draft","learned":false},{"id":"adv-woyosoni","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-woyosoni.md","level":"N1","reviewStatus":"editorial-draft","learned":false},{"id":"adv-yasui","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-yasui.md","level":"N4","reviewStatus":"editorial-draft","learned":false},{"id":"adv-youmononara","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-youmononara.md","level":"N1","reviewStatus":"editorial-draft","learned":false},{"id":"adv-youni-purpose","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-youni-purpose.md","level":"N4","reviewStatus":"editorial-draft","learned":false},{"id":"adv-younimo","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-younimo.md","level":"N1","reviewStatus":"editorial-draft","learned":false},{"id":"adv-youninaru","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-youninaru.md","level":"N4","reviewStatus":"editorial-draft","learned":false},{"id":"adv-younisuru","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-younisuru.md","level":"N4","reviewStatus":"editorial-draft","learned":false},{"id":"adv-youtosuru","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-youtosuru.md","level":"N3","reviewStatus":"editorial-draft","learned":false},{"id":"adv-zuni","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-zuni.md","level":"N3","reviewStatus":"editorial-draft","learned":false},{"id":"adv-zuniha-irarenai","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-zuniha-irarenai.md","level":"N2","reviewStatus":"editorial-draft","learned":false},{"id":"adv-zuniha-sumanai","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-zuniha-sumanai.md","level":"N1","reviewStatus":"editorial-draft","learned":false},{"id":"adv-zurai","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-zurai.md","level":"N3","reviewStatus":"editorial-draft","learned":false},{"id":"beyond-keigo-five","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/beyond-keigo-five.md","level":"beyond-N1","reviewStatus":"reviewed","learned":false},{"id":"beyond-register-choice","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/beyond-register-choice.md","level":"beyond-N1","reviewStatus":"reviewed","learned":false},{"id":"grammar-benefactive","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-benefactive.md","level":"N4","reviewStatus":"reviewed","learned":false},{"id":"grammar-case-particles","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-case-particles.md","level":"N5","reviewStatus":"reviewed","learned":false},{"id":"grammar-cause","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-cause.md","level":"N5","reviewStatus":"reviewed","learned":false},{"id":"grammar-concession-noni","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-concession-noni.md","level":"N4","reviewStatus":"reviewed","learned":false},{"id":"grammar-concessive-temo","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-concessive-temo.md","level":"N4","reviewStatus":"reviewed","learned":false},{"id":"grammar-condition-ba","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-condition-ba.md","level":"N4","reviewStatus":"reviewed","learned":false},{"id":"grammar-condition-nara","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-condition-nara.md","level":"N4","reviewStatus":"reviewed","learned":false},{"id":"grammar-condition-tara","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-condition-tara.md","level":"N4","reviewStatus":"reviewed","learned":false},{"id":"grammar-condition-to","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-condition-to.md","level":"N4","reviewStatus":"reviewed","learned":false},{"id":"grammar-copula","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-copula.md","level":"N5","reviewStatus":"reviewed","learned":false},{"id":"grammar-counters","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-counters.md","level":"N5","reviewStatus":"reviewed","learned":false},{"id":"grammar-desire","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-desire.md","level":"N5","reviewStatus":"reviewed","learned":false},{"id":"grammar-direction-change","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-direction-change.md","level":"N4","reviewStatus":"reviewed","learned":false},{"id":"grammar-existence","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-existence.md","level":"N5","reviewStatus":"reviewed","learned":false},{"id":"grammar-final-particles","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-final-particles.md","level":"N5","reviewStatus":"reviewed","learned":false},{"id":"grammar-giving","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-giving.md","level":"N4","reviewStatus":"reviewed","learned":false},{"id":"grammar-honorific","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-honorific.md","level":"N3","reviewStatus":"reviewed","learned":false},{"id":"grammar-i-adjectives","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-i-adjectives.md","level":"N5","reviewStatus":"reviewed","learned":false},{"id":"grammar-itaru","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-itaru.md","level":"N1","reviewStatus":"reviewed","learned":false},{"id":"grammar-kanenai","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-kanenai.md","level":"N2","reviewStatus":"reviewed","learned":false},{"id":"grammar-kaneru","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-kaneru.md","level":"N2","reviewStatus":"reviewed","learned":false},{"id":"grammar-mademonai","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-mademonai.md","level":"N1","reviewStatus":"reviewed","learned":false},{"id":"grammar-monono","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-monono.md","level":"N2","reviewStatus":"reviewed","learned":false},{"id":"grammar-negative-request","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-negative-request.md","level":"N5","reviewStatus":"reviewed","learned":false},{"id":"grammar-nishitewa","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-nishitewa.md","level":"N3","reviewStatus":"reviewed","learned":false},{"id":"grammar-nominalization","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-nominalization.md","level":"N4","reviewStatus":"reviewed","learned":false},{"id":"grammar-only","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-only.md","level":"N4","reviewStatus":"reviewed","learned":false},{"id":"grammar-permission","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-permission.md","level":"N5","reviewStatus":"reviewed","learned":false},{"id":"grammar-polite-nonpast","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-polite-nonpast.md","level":"N5","reviewStatus":"reviewed","learned":false},{"id":"grammar-potential","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-potential.md","level":"N4","reviewStatus":"reviewed","learned":false},{"id":"grammar-preparation","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-preparation.md","level":"N4","reviewStatus":"reviewed","learned":false},{"id":"grammar-prepared-state","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-prepared-state.md","level":"N4","reviewStatus":"reviewed","learned":false},{"id":"grammar-progressive","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-progressive.md","level":"N5","reviewStatus":"reviewed","learned":false},{"id":"grammar-prohibition","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-prohibition.md","level":"N5","reviewStatus":"reviewed","learned":false},{"id":"grammar-relative-clause","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-relative-clause.md","level":"N4","reviewStatus":"reviewed","learned":false},{"id":"grammar-result-state","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-result-state.md","level":"N4","reviewStatus":"reviewed","learned":false},{"id":"grammar-te-form","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-te-form.md","level":"N5","reviewStatus":"reviewed","learned":false},{"id":"grammar-toiedomo","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-toiedomo.md","level":"N1","reviewStatus":"reviewed","learned":false},{"id":"grammar-topic","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-topic.md","level":"N5","reviewStatus":"reviewed","learned":false},{"id":"grammar-totan","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-totan.md","level":"N2","reviewStatus":"reviewed","learned":false},{"id":"grammar-trying","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-trying.md","level":"N4","reviewStatus":"reviewed","learned":false},{"id":"grammar-verb-groups","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-verb-groups.md","level":"N5","reviewStatus":"reviewed","learned":false},{"id":"grammar-volitional","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-volitional.md","level":"N4","reviewStatus":"reviewed","learned":false},{"id":"grammar-wake","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-wake.md","level":"N3","reviewStatus":"reviewed","learned":false},{"id":"grammar-wari","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-wari.md","level":"N3","reviewStatus":"reviewed","learned":false},{"id":"grammar-womotte-means","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-womotte-means.md","level":"N1","reviewStatus":"reviewed","learned":false},{"id":"grammar-yainaya","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-yainaya.md","level":"N1","reviewStatus":"reviewed","learned":false},{"id":"grammar-yoginaku","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-yoginaku.md","level":"N1","reviewStatus":"reviewed","learned":false},{"id":"grammar-zaru","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-zaru.md","level":"N2","reviewStatus":"reviewed","learned":false},{"id":"japan-adv-dogu","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/japan-adv-dogu.md","level":"culture","reviewStatus":"source-reviewed-draft","learned":false},{"id":"japan-adv-dotaku","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/japan-adv-dotaku.md","level":"culture","reviewStatus":"source-reviewed-draft","learned":false},{"id":"japan-adv-haniwa","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/japan-adv-haniwa.md","level":"culture","reviewStatus":"source-reviewed-draft","learned":false},{"id":"japan-adv-jomon-name","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/japan-adv-jomon-name.md","level":"culture","reviewStatus":"source-reviewed-draft","learned":false},{"id":"japan-ainu-diversity","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/japan-ainu-diversity.md","level":"culture","reviewStatus":"source-reviewed-draft","learned":false},{"id":"japan-autumn-rain","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/japan-autumn-rain.md","level":"culture","reviewStatus":"source-reviewed-draft","learned":false},{"id":"japan-garbage-local","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/japan-garbage-local.md","level":"culture","reviewStatus":"source-reviewed-draft","learned":false},{"id":"japan-golden-week","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/japan-golden-week.md","level":"culture","reviewStatus":"source-reviewed-draft","learned":false},{"id":"japan-japan-winter","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/japan-japan-winter.md","level":"culture","reviewStatus":"source-reviewed-draft","learned":false},{"id":"japan-meal-phrases","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/japan-meal-phrases.md","level":"culture","reviewStatus":"source-reviewed-draft","learned":false},{"id":"japan-myth-history","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/japan-myth-history.md","level":"culture","reviewStatus":"source-reviewed-draft","learned":false},{"id":"japan-nara-kyoto-capitals","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/japan-nara-kyoto-capitals.md","level":"culture","reviewStatus":"source-reviewed-draft","learned":false},{"id":"japan-noodle-slurp","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/japan-noodle-slurp.md","level":"culture","reviewStatus":"source-reviewed-draft","learned":false},{"id":"japan-obon","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/japan-obon.md","level":"culture","reviewStatus":"source-reviewed-draft","learned":false},{"id":"japan-onsen-tattoo","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/japan-onsen-tattoo.md","level":"culture","reviewStatus":"source-reviewed-draft","learned":false},{"id":"japan-onsen-wash","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/japan-onsen-wash.md","level":"culture","reviewStatus":"source-reviewed-draft","learned":false},{"id":"japan-oshibori","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/japan-oshibori.md","level":"culture","reviewStatus":"source-reviewed-draft","learned":false},{"id":"japan-regional-climate","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/japan-regional-climate.md","level":"culture","reviewStatus":"source-reviewed-draft","learned":false},{"id":"japan-religious-photo","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/japan-religious-photo.md","level":"culture","reviewStatus":"source-reviewed-draft","learned":false},{"id":"japan-ryokan-yukata","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/japan-ryokan-yukata.md","level":"culture","reviewStatus":"source-reviewed-draft","learned":false},{"id":"japan-shoes-home","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/japan-shoes-home.md","level":"culture","reviewStatus":"source-reviewed-draft","learned":false},{"id":"japan-shrine-prayer","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/japan-shrine-prayer.md","level":"culture","reviewStatus":"source-reviewed-draft","learned":false},{"id":"japan-shrine-temple","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/japan-shrine-temple.md","level":"culture","reviewStatus":"source-reviewed-draft","learned":false},{"id":"japan-social-evidence","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/japan-social-evidence.md","level":"culture","reviewStatus":"source-reviewed-draft","learned":false},{"id":"japan-temple-prayer","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/japan-temple-prayer.md","level":"culture","reviewStatus":"source-reviewed-draft","learned":false},{"id":"japan-tipping","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/japan-tipping.md","level":"culture","reviewStatus":"source-reviewed-draft","learned":false},{"id":"japan-train-phone","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/japan-train-phone.md","level":"culture","reviewStatus":"source-reviewed-draft","learned":false},{"id":"japan-tsunami-information","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/japan-tsunami-information.md","level":"culture","reviewStatus":"source-reviewed-draft","learned":false},{"id":"japan-tsuyu","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/japan-tsuyu.md","level":"culture","reviewStatus":"source-reviewed-draft","learned":false},{"id":"japan-upopoy","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/japan-upopoy.md","level":"culture","reviewStatus":"source-reviewed-draft","learned":false},{"id":"japan-washoku-heritage","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/japan-washoku-heritage.md","level":"culture","reviewStatus":"source-reviewed-draft","learned":false},{"id":"japan-working-holiday","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/japan-working-holiday.md","level":"culture","reviewStatus":"source-reviewed-draft","learned":false},{"id":"method-can-do","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/method-can-do.md","level":"all","reviewStatus":"reviewed","learned":false},{"id":"method-jlpt-scope","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/method-jlpt-scope.md","level":"all","reviewStatus":"reviewed","learned":false},{"id":"method-retrieval","file":"/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/method-retrieval.md","level":"all","reviewStatus":"reviewed","learned":false}],"skipped":[{"id":"japan-adv-amami-iriomote","reason":"No original pedagogical examples; reference remains browsable"},{"id":"japan-adv-asuka-imports","reason":"No original pedagogical examples; reference remains browsable"},{"id":"japan-adv-bakufu","reason":"No original pedagogical examples; reference remains browsable"},{"id":"japan-adv-bunraku-ensemble","reason":"No original pedagogical examples; reference remains browsable"},{"id":"japan-adv-bunraku-puppet","reason":"No original pedagogical examples; reference remains browsable"},{"id":"japan-adv-chanoyu","reason":"No original pedagogical examples; reference remains browsable"},{"id":"japan-adv-edo-openings","reason":"No original pedagogical examples; reference remains browsable"},{"id":"japan-adv-edo-patrons","reason":"No original pedagogical examples; reference remains browsable"},{"id":"japan-adv-emaki-reading","reason":"No original pedagogical examples; reference remains browsable"},{"id":"japan-adv-four-seasons-image","reason":"No original pedagogical examples; reference remains browsable"},{"id":"japan-adv-fuji-cultural","reason":"No original pedagogical examples; reference remains browsable"},{"id":"japan-adv-fuji-surroundings","reason":"No original pedagogical examples; reference remains browsable"},{"id":"japan-adv-fujiwara","reason":"No original pedagogical examples; reference remains browsable"},{"id":"japan-adv-gagaku-instruments","reason":"No original pedagogical examples; reference remains browsable"},{"id":"japan-adv-gagaku-three","reason":"No original pedagogical examples; reference remains browsable"},{"id":"japan-adv-gassho-shape","reason":"No original pedagogical examples; reference remains browsable"},{"id":"japan-adv-gassho-silk","reason":"No original pedagogical examples; reference remains browsable"},{"id":"japan-adv-gusuku","reason":"No original pedagogical examples; reference remains browsable"},{"id":"japan-adv-heian-kana","reason":"No original pedagogical examples; reference remains browsable"},{"id":"japan-adv-hidden-christian-sites","reason":"No original pedagogical examples; reference remains browsable"},{"id":"japan-adv-hiraizumi-gardens","reason":"No original pedagogical examples; reference remains browsable"},{"id":"japan-adv-hiroshima-dome","reason":"No original pedagogical examples; reference remains browsable"},{"id":"japan-adv-horyuji-wood","reason":"No original pedagogical examples; reference remains browsable"},{"id":"japan-adv-iwami-ports","reason":"No original pedagogical examples; reference remains browsable"},{"id":"japan-adv-jidai-sewa","reason":"No original pedagogical examples; reference remains browsable"},{"id":"japan-adv-jomon-settled","reason":"No original pedagogical examples; reference remains browsable"},{"id":"japan-adv-kabuki-origin","reason":"No original pedagogical examples; reference remains browsable"},{"id":"japan-adv-kami","reason":"No original pedagogical examples; reference remains browsable"},{"id":"japan-adv-kii-networks","reason":"No original pedagogical examples; reference remains browsable"},{"id":"japan-adv-kii-syncretism","reason":"No original pedagogical examples; reference remains browsable"},{"id":"japan-adv-kofun-forms","reason":"No original pedagogical examples; reference remains browsable"},{"id":"japan-adv-meiji-industry","reason":"No original pedagogical examples; reference remains browsable"},{"id":"japan-adv-mie","reason":"No original pedagogical examples; reference remains browsable"},{"id":"japan-adv-momoyama-two-aesthetics","reason":"No original pedagogical examples; reference remains browsable"},{"id":"japan-adv-muromachi-name","reason":"No original pedagogical examples; reference remains browsable"},{"id":"japan-adv-nanbokucho","reason":"No original pedagogical examples; reference remains browsable"},{"id":"japan-adv-nara-permanent","reason":"No original pedagogical examples; reference remains browsable"},{"id":"japan-adv-nishikie","reason":"No original pedagogical examples; reference remains browsable"},{"id":"japan-adv-ogasawara","reason":"No original pedagogical examples; reference remains browsable"},{"id":"japan-adv-onin-sengoku","reason":"No original pedagogical examples; reference remains browsable"},{"id":"japan-adv-onnagata","reason":"No original pedagogical examples; reference remains browsable"},{"id":"japan-adv-painting-formats","reason":"No original pedagogical examples; reference remains browsable"},{"id":"japan-adv-ryukyu-kingdom","reason":"No original pedagogical examples; reference remains browsable"},{"id":"japan-adv-sacred-objects","reason":"No original pedagogical examples; reference remains browsable"},{"id":"japan-adv-seasonal-literature","reason":"No original pedagogical examples; reference remains browsable"},{"id":"japan-adv-shirakami","reason":"No original pedagogical examples; reference remains browsable"},{"id":"japan-adv-shiretoko","reason":"No original pedagogical examples; reference remains browsable"},{"id":"japan-adv-tea-pottery","reason":"No original pedagogical examples; reference remains browsable"},{"id":"japan-adv-tomioka-france","reason":"No original pedagogical examples; reference remains browsable"},{"id":"japan-adv-ukiyoe-collaboration","reason":"No original pedagogical examples; reference remains browsable"},{"id":"japan-adv-unifiers","reason":"No original pedagogical examples; reference remains browsable"},{"id":"japan-adv-yakushima","reason":"No original pedagogical examples; reference remains browsable"},{"id":"japan-adv-yamatoe-context","reason":"No original pedagogical examples; reference remains browsable"},{"id":"japan-adv-yayoi-rice","reason":"No original pedagogical examples; reference remains browsable"},{"id":"japan-adv-zen-chan","reason":"No original pedagogical examples; reference remains browsable"},{"id":"japan-adv-zen-ink","reason":"No original pedagogical examples; reference remains browsable"},{"id":"method-no-official-list","reason":"No original pedagogical examples; reference remains browsable"}],"date":"12 October 2026","learnedFromPreparation":false}
+{
+  "lessons": [
+    {
+      "id": "adv-adjective-sa",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-adjective-sa.md",
+      "level": "N3",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "a71c77f0866a93062dd0bb2642208442b2c1b9f8f9c1c849ef839460110aef54",
+      "usable": true
+    },
+    {
+      "id": "adv-ageku",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-ageku.md",
+      "level": "N2",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "7c19e9e08e0fcac9b5dc1ea44f53506e1acc2a3f902b5beeb6909fbab78eaee4",
+      "usable": true
+    },
+    {
+      "id": "adv-au",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-au.md",
+      "level": "N3",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "82d48f13b1084820f4541c49f22dee0cfde1463a8f7d54c0dc5b174362467687",
+      "usable": true
+    },
+    {
+      "id": "adv-bekida",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-bekida.md",
+      "level": "N3",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "d1ae2999ffb7492bca3d01864c2255e87a67d84dbe9175a7478ac5a1e0855b95",
+      "usable": true
+    },
+    {
+      "id": "adv-beku",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-beku.md",
+      "level": "N1",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "8af08c3f6dd832b8e1cd541f8f3836d43cec637c108358c8d3404386a3156e96",
+      "usable": true
+    },
+    {
+      "id": "adv-causative",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-causative.md",
+      "level": "N4",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "db0b8170079aca16f98bc8d027276cf853ccb8a0500615917abf4d7b51315999",
+      "usable": true
+    },
+    {
+      "id": "adv-causative-passive",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-causative-passive.md",
+      "level": "N3",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "571cb1c6a010c956f0568100330391f6b02f57be7f04fd25a101a0f8f9ee73fa",
+      "usable": true
+    },
+    {
+      "id": "adv-chuu-juu",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-chuu-juu.md",
+      "level": "N3",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "994d6832d125f37f6f593837f3c38efcebc55bf5d7c301d6aff5dd80a1ad220c",
+      "usable": true
+    },
+    {
+      "id": "adv-dakeni",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-dakeni.md",
+      "level": "N2",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "2794a97868efde8bad077ccba31ed6dd948364ba41e77a8e296284a04752d219",
+      "usable": true
+    },
+    {
+      "id": "adv-ga-hayaika",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-ga-hayaika.md",
+      "level": "N1",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "6206f81264e9f2c13bfc4dc24c71eec4e258cc3cbac77516c2c91a33ae218c34",
+      "usable": true
+    },
+    {
+      "id": "adv-garu",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-garu.md",
+      "level": "N3",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "7a15a9bb84e01dced336f2283566cf15778896761580e81130f01cd800e4b232",
+      "usable": true
+    },
+    {
+      "id": "adv-gatai",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-gatai.md",
+      "level": "N2",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "b1b5549db5806037032bf146f05483c0b5abb066aad736544934d18b82f110c0",
+      "usable": true
+    },
+    {
+      "id": "adv-gatera",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-gatera.md",
+      "level": "N1",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "dd7717c1b6f95e5fad09976c8a17663ba7a324abbca022930b772049e5bd5d8b",
+      "usable": true
+    },
+    {
+      "id": "adv-hazuda",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-hazuda.md",
+      "level": "N3",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "047b05f89021ad7232593656dac1d611d3179b9f33b69fb885be7fd7c3be6d6f",
+      "usable": true
+    },
+    {
+      "id": "adv-hodo-negative",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-hodo-negative.md",
+      "level": "N3",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "980424bda91104ad5b0b65452834009a8665ed5ccb9d31849b4a24190455d65d",
+      "usable": true
+    },
+    {
+      "id": "adv-hoga-ii",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-hoga-ii.md",
+      "level": "N4",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "275609cfd8d154a37fa5821389188d7b05b994dc05b680e7b572d00e1c4849fe",
+      "usable": true
+    },
+    {
+      "id": "adv-ikan-ni",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-ikan-ni.md",
+      "level": "N1",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "631ecd9068f0b43629db27dcd04e1784641abaca0c4f1875c5a1a43ffb40ff8c",
+      "usable": true
+    },
+    {
+      "id": "adv-kagiri-condition",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-kagiri-condition.md",
+      "level": "N2",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "9f1051832f9dfea7237406709b10398462cd375669ece773bafdcf3753a1bfc6",
+      "usable": true
+    },
+    {
+      "id": "adv-kagiridewa",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-kagiridewa.md",
+      "level": "N2",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "09a84e8c4c978f67b4daac7a994094d6a85eec8e002f8b5e0bd05ee76db2cffe",
+      "usable": true
+    },
+    {
+      "id": "adv-kamoshirenai",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-kamoshirenai.md",
+      "level": "N4",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "f98515d5f13620ad6daee9b36459c23a38123cb58d1f9eb39adc15ac8cb3e588",
+      "usable": true
+    },
+    {
+      "id": "adv-katawara",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-katawara.md",
+      "level": "N1",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "446a6043bfa120619485dac561ec3d2dd05d87568cc300885fb87d033cae3233",
+      "usable": true
+    },
+    {
+      "id": "adv-kirai-ga-aru",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-kirai-ga-aru.md",
+      "level": "N1",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "258b586ab96c8364cc8c2fa434937a3498578c55817d25c1a6de41c6e95ecc2a",
+      "usable": true
+    },
+    {
+      "id": "adv-kiru",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-kiru.md",
+      "level": "N3",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "adcfbfb5bcd210204413812d1a09ef876c7b4696ee72593ffa56048efdaa4620",
+      "usable": true
+    },
+    {
+      "id": "adv-koso",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-koso.md",
+      "level": "N3",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "0e38af71a3c1cc8bec000594fb4d56fb58956952f7cd1f96fce568d20221cf46",
+      "usable": true
+    },
+    {
+      "id": "adv-koto-ga-aru",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-koto-ga-aru.md",
+      "level": "N4",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "e62901d1f4435efff5ff0fb54e9b2dd4004c1a88e3f2e908d27ba85745b0e99e",
+      "usable": true
+    },
+    {
+      "id": "adv-kotonaku",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-kotonaku.md",
+      "level": "N2",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "f037af798a9421591178af473895613ae5af23e97f00d7bf54dd29ce97269df9",
+      "usable": true
+    },
+    {
+      "id": "adv-kuseni",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-kuseni.md",
+      "level": "N3",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "3ca1b38ffae63c5ce5008719b4f8dfdda76c6ba87e033a47c41fc7083d9954dc",
+      "usable": true
+    },
+    {
+      "id": "adv-mai",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-mai.md",
+      "level": "N2",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "4b369eaab798ec7803fa1da2ef5bbc2663d4d2491408ae8bcb7b317b945890be",
+      "usable": true
+    },
+    {
+      "id": "adv-me",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-me.md",
+      "level": "N3",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "acbd03d5555efb0fbcb411962ff9aed8d4e85d2ef7e5103d10fbe83ca3d64659",
+      "usable": true
+    },
+    {
+      "id": "adv-nagara",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-nagara.md",
+      "level": "N4",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "366ad4a8f169b7a26b640f321cc01d4d0d81ad154b9497bbb36cf44ee16b00c1",
+      "usable": true
+    },
+    {
+      "id": "adv-naikotoniha",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-naikotoniha.md",
+      "level": "N2",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "f6f77d049cbf7683a7c018d7e95307cfbbae3f204a54fa08396df0c312604777",
+      "usable": true
+    },
+    {
+      "id": "adv-nakerebanaranai",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-nakerebanaranai.md",
+      "level": "N4",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "b83974ff53ad660a2234ec10de7365977c93010865e75f124722003eedb12373",
+      "usable": true
+    },
+    {
+      "id": "adv-naosu",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-naosu.md",
+      "level": "N3",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "5a29211f683b16ec9e39fc4933813a16439a4cc6bd73f49adfac2b0d97406b15",
+      "usable": true
+    },
+    {
+      "id": "adv-nara-dewa",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-nara-dewa.md",
+      "level": "N1",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "e76b03e0eb666d20c445698b1ff013fee86e26e67949f20b9227496344503de3",
+      "usable": true
+    },
+    {
+      "id": "adv-nari-immediate",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-nari-immediate.md",
+      "level": "N1",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "7c563a3ef74591bbdd4861fedc5e4e6c159d4e8f85681a013da3535fb47c3e25",
+      "usable": true
+    },
+    {
+      "id": "adv-nashi",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-nashi.md",
+      "level": "N2",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "88721b0ebcfa27b79e1d4b5e26faa86b080d81a01cfe5db313cb978db67d57d5",
+      "usable": true
+    },
+    {
+      "id": "adv-niataru",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-niataru.md",
+      "level": "N2",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "04dfb152c5f49e3473d9a67972abe83c360c5d295e09ee806c71dbd418eb4e00",
+      "usable": true
+    },
+    {
+      "id": "adv-nichigainai",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-nichigainai.md",
+      "level": "N3",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "db98f9bcbb868a8bc9f8bdb0b1478fd4497d85578e149d815036db06c0dbab34",
+      "usable": true
+    },
+    {
+      "id": "adv-nikakawarazu",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-nikakawarazu.md",
+      "level": "N2",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "12a9c6c696bf454e04a621c423bb5a0fbdfd5428e55ed1f51d1133a84381fe18",
+      "usable": true
+    },
+    {
+      "id": "adv-nikanshite",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-nikanshite.md",
+      "level": "N2",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "a650b7fb82dd1b538e2224412a24145d4a30aa079ead1baa9b1862fdc73abdd5",
+      "usable": true
+    },
+    {
+      "id": "adv-nikoshitakotohanai",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-nikoshitakotohanai.md",
+      "level": "N2",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "7bb4c79f884889524cba75085d7ae62585011cb1b8266661a1bdbbe8947661f7",
+      "usable": true
+    },
+    {
+      "id": "adv-nikui",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-nikui.md",
+      "level": "N4",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "c0fffccea3f965ad39a029edab334fabdf3921b6da9acbd0b5ba649eb440521c",
+      "usable": true
+    },
+    {
+      "id": "adv-nikuwaete",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-nikuwaete.md",
+      "level": "N2",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "2211b5c7ca51447a2a470dae906309dcab33c7974473f0fc59c8551633639a6d",
+      "usable": true
+    },
+    {
+      "id": "adv-nimokakawarazu",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-nimokakawarazu.md",
+      "level": "N2",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "7bbd810d04d91b797f9fbec7a6d19b49c33d474b8462107fa76a9879be4b0293",
+      "usable": true
+    },
+    {
+      "id": "adv-nimotozuite",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-nimotozuite.md",
+      "level": "N2",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "a86bc4714b937c100a1980d368c13894f94607eb9b2a7f2d1902523f1a435e4a",
+      "usable": true
+    },
+    {
+      "id": "adv-nisaishite",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-nisaishite.md",
+      "level": "N2",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "1fcf00d8bebd42834c5b0f115c821dc4c45f2899b1f3407ffc362c5f0338d86c",
+      "usable": true
+    },
+    {
+      "id": "adv-nisakidatte",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-nisakidatte.md",
+      "level": "N1",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "c19f2738f66c404391f4384fcba9fc4fc1c82a24328e9a39c654d8b1f9dc3e25",
+      "usable": true
+    },
+    {
+      "id": "adv-nishitagatte-change",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-nishitagatte-change.md",
+      "level": "N2",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "7304de8b3739720c46590149414facc447156a7c31b5277aa9deeb82a09b3061",
+      "usable": true
+    },
+    {
+      "id": "adv-nitaru",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-nitaru.md",
+      "level": "N1",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "9e5ee4999c62a3ae74cd3bf382da70f390d3f18e4e661f9121dbb04b1a906b91",
+      "usable": true
+    },
+    {
+      "id": "adv-nitodomarazu",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-nitodomarazu.md",
+      "level": "N1",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "450b3817ecf356f1da1b876f4f331f8949f7bc680d1f49c4bcb6199a95608d02",
+      "usable": true
+    },
+    {
+      "id": "adv-nitotte",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-nitotte.md",
+      "level": "N3",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "75606f9e23837c4b71ba39cd3becba26a034aeeaf33e87b5d72280a5fc7de114",
+      "usable": true
+    },
+    {
+      "id": "adv-nitsuite",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-nitsuite.md",
+      "level": "N3",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "4cc54a50b9e29c6cc100969eb73f01d53a4076d80ad931a23f14cccf567714d9",
+      "usable": true
+    },
+    {
+      "id": "adv-niwatatte",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-niwatatte.md",
+      "level": "N2",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "1c9b5c2a8aa42c0a924bf6fe47b41aa3f4643aa48619a26b7552fe6684e03d39",
+      "usable": true
+    },
+    {
+      "id": "adv-noda",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-noda.md",
+      "level": "N4",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "e7db43037f56b1429a6c861b831389d343378f257260c1da3aedef5cfeb43c74",
+      "usable": true
+    },
+    {
+      "id": "adv-nomi",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-nomi.md",
+      "level": "N2",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "c4a7e5c73849f603bf7a252c5d1314b7a8224cb7547907830d2223326828068b",
+      "usable": true
+    },
+    {
+      "id": "adv-passive-direct",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-passive-direct.md",
+      "level": "N4",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "14b058c342ea8b914182869425e3dd39b5c986a5965aef889d08e109c6a5cc42",
+      "usable": true
+    },
+    {
+      "id": "adv-rashii-inference",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-rashii-inference.md",
+      "level": "N3",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "046875c5bb98e028763e1d3df217f657706748fb7fd90d81108f320623d3353d",
+      "usable": true
+    },
+    {
+      "id": "adv-rashii-typical",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-rashii-typical.md",
+      "level": "N3",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "eccce71ba05578d788a31e882edea14449c9cac5fdaf9fcf6a3c4020489d8065",
+      "usable": true
+    },
+    {
+      "id": "adv-sekkaku",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-sekkaku.md",
+      "level": "N3",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "5a908a549cd3d9339cc3753a70c4ece4e45f37514f6e6470d85d77a9d8babe18",
+      "usable": true
+    },
+    {
+      "id": "adv-shidai",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-shidai.md",
+      "level": "N2",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "d9f8e5f207b6d384ae5cef853aa8c35a2dd7703336b9ca3b6f3bf1a75f3aaa01",
+      "usable": true
+    },
+    {
+      "id": "adv-shimatsuda",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-shimatsuda.md",
+      "level": "N1",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "5ad00d6be5a60590f4f7e57c5970f65900ac23d64d1949b8ecaafb75ca4b1dbc",
+      "usable": true
+    },
+    {
+      "id": "adv-sobakara",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-sobakara.md",
+      "level": "N1",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "2b16ae40aa7c24925bbc38f00197fceaed1c7f6339c3a7b26cc665bdaa284a6f",
+      "usable": true
+    },
+    {
+      "id": "adv-souda-appearance",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-souda-appearance.md",
+      "level": "N4",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "7c0d62569dc15740394b57704dc87f5f926d3902de51b1114a19f23f5f01b570",
+      "usable": true
+    },
+    {
+      "id": "adv-souda-hearsay",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-souda-hearsay.md",
+      "level": "N4",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "4ab86296071c1b81839a5023591db7ff5f9c32f40bbc7204a381858b945fbabd",
+      "usable": true
+    },
+    {
+      "id": "adv-sueni",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-sueni.md",
+      "level": "N2",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "e8cf264a06d1ef2a3dec1f73e2debf0e7f3486c53d13d8f2e67c062efed8d539",
+      "usable": true
+    },
+    {
+      "id": "adv-tabini",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-tabini.md",
+      "level": "N3",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "519a664bf2f53ac4e5b334f64a0071d8509e2e36509ace77c57ddbc3feec3b54",
+      "usable": true
+    },
+    {
+      "id": "adv-tameni-cause",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-tameni-cause.md",
+      "level": "N3",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "c3edea815712be636ec884e2753d77b545fbcf666f507208072d93b6baad04aa",
+      "usable": true
+    },
+    {
+      "id": "adv-te-naranai",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-te-naranai.md",
+      "level": "N2",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "76b406f52d6dd55bf351c1f5719410c9ee285cbc79b7a70971d9a96ff58f35a5",
+      "usable": true
+    },
+    {
+      "id": "adv-te-tamaranai",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-te-tamaranai.md",
+      "level": "N3",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "9ffbf44def81a4c1207666db72d15fa48b8f2eeca1df5de495cda086e9e00841",
+      "usable": true
+    },
+    {
+      "id": "adv-te-yamanai",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-te-yamanai.md",
+      "level": "N1",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "962569cbc1270fd87e989da9efb4a375000508c164c97302e57f00069e6c5fad",
+      "usable": true
+    },
+    {
+      "id": "adv-teirai",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-teirai.md",
+      "level": "N2",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "720193ba9034fc6eacdf83170f3a650f347c46be53fd480772196d090d7a06a7",
+      "usable": true
+    },
+    {
+      "id": "adv-to-omoikiya",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-to-omoikiya.md",
+      "level": "N1",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "93a76c1dbc0530215d6b8e8ccfacfdfbc22056843164aeac02e45c6babdd9aaf",
+      "usable": true
+    },
+    {
+      "id": "adv-toha-kagiranai",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-toha-kagiranai.md",
+      "level": "N2",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "63a68b9415d96fa700521414bb5f0b62c05f34dba2bf49140f45721bba4f0c8c",
+      "usable": true
+    },
+    {
+      "id": "adv-toiu",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-toiu.md",
+      "level": "N3",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "86897b6c33082746cdd861d45a911786febce6ee5c6d78525271feb2a853de89",
+      "usable": true
+    },
+    {
+      "id": "adv-toka",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-toka.md",
+      "level": "N3",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "06a2df31a77b7e635102f5741eb57e50f8b4507c30ce38de80681910911b6ef8",
+      "usable": true
+    },
+    {
+      "id": "adv-toshite",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-toshite.md",
+      "level": "N3",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "23d5c38c87ca78445cbd568d43a33a3a403764c557f381a206ea153eef06c13c",
+      "usable": true
+    },
+    {
+      "id": "adv-tsuideni",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-tsuideni.md",
+      "level": "N3",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "f8ff782e9bb5ce9b2ee1d5c4a3fbee37506c4024276b9c3f9e4d4a10064888df",
+      "usable": true
+    },
+    {
+      "id": "adv-tsumori",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-tsumori.md",
+      "level": "N4",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "1c193af9e8becd4a2842e339d3cfc052b5b7d8323e5082c5063977e430e7a441",
+      "usable": true
+    },
+    {
+      "id": "adv-tsutsu",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-tsutsu.md",
+      "level": "N2",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "6ccf9387caf31a2efe81ae2b8869c621cfebff0ddbaa2bad0757c21f8ee52746",
+      "usable": true
+    },
+    {
+      "id": "adv-tsutsuaru",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-tsutsuaru.md",
+      "level": "N2",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "d8c0f9dc5efd69b8a88ac4e57cc13953d92c9d18c16738685004f7450fcf549f",
+      "usable": true
+    },
+    {
+      "id": "adv-tsuzukeru",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-tsuzukeru.md",
+      "level": "N3",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "385e491a6bb474476096d1dfd7222fe40067337496eaa7afc16653ebe784b32b",
+      "usable": true
+    },
+    {
+      "id": "adv-wa-oroka",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-wa-oroka.md",
+      "level": "N1",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "ce07525f3f55be19a7297e45f5237a44d181e350a1987b33ef0e8357d3e52c4d",
+      "usable": true
+    },
+    {
+      "id": "adv-wakedehanai",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-wakedehanai.md",
+      "level": "N3",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "c9da4af1826c225f1b1f5e43f21e8beeb9034dbf2f01dd9fd9e119af20792fae",
+      "usable": true
+    },
+    {
+      "id": "adv-wakeganai",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-wakeganai.md",
+      "level": "N3",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "8f8fee4597a2d280d076e6d03b0349c46978714bfe42fdfacbe80c1e17c84fa0",
+      "usable": true
+    },
+    {
+      "id": "adv-wakenihaikanai",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-wakenihaikanai.md",
+      "level": "N2",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "8789eeabcf32523f25e38f6e00ff6b831cf994a59ff4c7fbc9e99bac0af90c97",
+      "usable": true
+    },
+    {
+      "id": "adv-wasure",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-wasure.md",
+      "level": "N3",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "2d1882af09a0bdc2d1eb68a30efa5eb4acf7dc33392cfaec657e78dcf9a39b2d",
+      "usable": true
+    },
+    {
+      "id": "adv-wazawaza",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-wazawaza.md",
+      "level": "N3",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "618028f4cab2066e6621c906efbf2804417b108f98e2b3bb0a2add33ea3cc1ca",
+      "usable": true
+    },
+    {
+      "id": "adv-wo-kagirini",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-wo-kagirini.md",
+      "level": "N1",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "da23d01ba3d429ac4d7735baadcc39b800b1b8447c131cab49df74a7b6db6c77",
+      "usable": true
+    },
+    {
+      "id": "adv-wo-kinjienai",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-wo-kinjienai.md",
+      "level": "N1",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "b3250de1a951a4fef46233ea972c29cf73201b2700fd13f590716a8628b8f184",
+      "usable": true
+    },
+    {
+      "id": "adv-wo-oite",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-wo-oite.md",
+      "level": "N1",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "06d31e970dc24dd53db2dc092c3d8358f222d72669a61c970dcc306765b8ba21",
+      "usable": true
+    },
+    {
+      "id": "adv-wo-towazu",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-wo-towazu.md",
+      "level": "N2",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "29cce1805e6f5a713f77c4270d5a6066540154f04ad8e5ec1a7938730b513dd3",
+      "usable": true
+    },
+    {
+      "id": "adv-wofumaete",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-wofumaete.md",
+      "level": "N1",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "80e5c7e715bb23bc61d981845ec86f2a9fba52217b5e5d6812bd57da7ddb6a60",
+      "usable": true
+    },
+    {
+      "id": "adv-womegutte",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-womegutte.md",
+      "level": "N2",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "0a9cb3080178d61fb74414495cd491baadb7b1d3829167d1c3d7fd67d2ca307a",
+      "usable": true
+    },
+    {
+      "id": "adv-womonotomosezu",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-womonotomosezu.md",
+      "level": "N1",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "c1ba4ed2f8d23616f5cb7f0f0d3c69bcf1ae64b783c54aca1ee4171cf075e7b8",
+      "usable": true
+    },
+    {
+      "id": "adv-womotoni",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-womotoni.md",
+      "level": "N2",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "64561a54abfe79a26e86244b194aee6ee82988eb19f882a062d5fcfae91e1495",
+      "usable": true
+    },
+    {
+      "id": "adv-wotoshite",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-wotoshite.md",
+      "level": "N2",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "5d6a7f2e0d05d5ba9e790f4584676429b77bf48112a9a1f558185bb84080d3a7",
+      "usable": true
+    },
+    {
+      "id": "adv-woyosoni",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-woyosoni.md",
+      "level": "N1",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "0f55f86b5d5ece348d7d3d6a827e010aa3f9b9409ce83e7e590d38a32378b580",
+      "usable": true
+    },
+    {
+      "id": "adv-yasui",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-yasui.md",
+      "level": "N4",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "9b1d93bf16100039bcfb21eae910dcb478856dc1867c341a74be0dbcbde801af",
+      "usable": true
+    },
+    {
+      "id": "adv-youmononara",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-youmononara.md",
+      "level": "N1",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "384a2798cd13e1c98e65036ba45619c90003778525aad688edd18b2dcb69eaf1",
+      "usable": true
+    },
+    {
+      "id": "adv-youni-purpose",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-youni-purpose.md",
+      "level": "N4",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "be5056c5b20f3188e72f704cf0bfad9ae52aae1e1f9b2a1e0ec8af71717f7098",
+      "usable": true
+    },
+    {
+      "id": "adv-younimo",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-younimo.md",
+      "level": "N1",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "bc55f3436ec435ec57dcd6991da657b822a81dd3db763d4077f26f2950766421",
+      "usable": true
+    },
+    {
+      "id": "adv-youninaru",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-youninaru.md",
+      "level": "N4",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "ebc72c14e0646b67b05a54ad78a30c62d9f614b8f07eef16d2ce324d304503b7",
+      "usable": true
+    },
+    {
+      "id": "adv-younisuru",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-younisuru.md",
+      "level": "N4",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "5d1cc74c890d1b238d7c70ada793894fc2871fb2e1e7b0a4efd8f0f1a71fae4c",
+      "usable": true
+    },
+    {
+      "id": "adv-youtosuru",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-youtosuru.md",
+      "level": "N3",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "d81ae27779e6ccf1e1866c2fff760ee9a1797fa2ac198bbf94bbffc22ed5b76a",
+      "usable": true
+    },
+    {
+      "id": "adv-zuni",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-zuni.md",
+      "level": "N3",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "d222e43e136a2ec303bf2d6ccce2aea7642e8f601b4d7f06494926b79ddcca84",
+      "usable": true
+    },
+    {
+      "id": "adv-zuniha-irarenai",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-zuniha-irarenai.md",
+      "level": "N2",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "6044dc41cf69a1893b9ae27a3d552b503a0b7077bb4916ab4eff2a50b5ee8462",
+      "usable": true
+    },
+    {
+      "id": "adv-zuniha-sumanai",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-zuniha-sumanai.md",
+      "level": "N1",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "0e5189f3fadea58b82586e27ce52b479ef7f3baf79d4a9674a270382399b5dea",
+      "usable": true
+    },
+    {
+      "id": "adv-zurai",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/adv-zurai.md",
+      "level": "N3",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "78f9ee6cdf37f28711cb77cc03b19d6d32b89520a4d47c2bd4b49547f9ce0267",
+      "usable": true
+    },
+    {
+      "id": "beyond-keigo-five",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/beyond-keigo-five.md",
+      "level": "beyond-N1",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "7ca389f7463dabf995d9c76f7144517b74c1137f45122ab883f796736efa2a6f",
+      "usable": true
+    },
+    {
+      "id": "beyond-register-choice",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/beyond-register-choice.md",
+      "level": "beyond-N1",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "080d6be7456f7ec507a39411800426c2cdfae8f315c6185534b420e844ddffdd",
+      "usable": true
+    },
+    {
+      "id": "grammar-benefactive",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-benefactive.md",
+      "level": "N4",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "019b05d0b82c5518233ca17b6d5e19de6f7af348b50330a5b2dc2510f6b2b067",
+      "usable": true
+    },
+    {
+      "id": "grammar-case-particles",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-case-particles.md",
+      "level": "N5",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "8ff1d6528cd2a0b4081af3ecaca4270ce4efb6bceef4080ba2c7b5c9dc8f84ed",
+      "usable": true
+    },
+    {
+      "id": "grammar-cause",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-cause.md",
+      "level": "N5",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "431be9e42540b51f59201b11cca115bd738cea270c1408bb8c66f250bde0c55b",
+      "usable": true
+    },
+    {
+      "id": "grammar-concession-noni",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-concession-noni.md",
+      "level": "N4",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "0622e222fce27d54b26cd06d14c9ea78594927f723bf0f16cbc88ef3d4a2b421",
+      "usable": true
+    },
+    {
+      "id": "grammar-concessive-temo",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-concessive-temo.md",
+      "level": "N4",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "472b84b44b00142a78e53c149376c07fbfc9d4404691098c9a0676277096250f",
+      "usable": true
+    },
+    {
+      "id": "grammar-condition-ba",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-condition-ba.md",
+      "level": "N4",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "1f8765ecb2bf6a1435866eaae4e4c85a2ef8de5f96e568c5e7d79b87b4f5b24e",
+      "usable": true
+    },
+    {
+      "id": "grammar-condition-nara",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-condition-nara.md",
+      "level": "N4",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "b55c12a03f809db51452dfa65fe67d4bd1868e0419b978686215b25a99cdc7a5",
+      "usable": true
+    },
+    {
+      "id": "grammar-condition-tara",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-condition-tara.md",
+      "level": "N4",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "9515afd1be00b3bd3124de18a3a7b451b49ae8eb66e37bb072eed6a82cd28341",
+      "usable": true
+    },
+    {
+      "id": "grammar-condition-to",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-condition-to.md",
+      "level": "N4",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "6a59ec684f65a3b086a0007cf8dc144a3dd633c53427c3db831ab68668314539",
+      "usable": true
+    },
+    {
+      "id": "grammar-copula",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-copula.md",
+      "level": "N5",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "076f403f98cd0549275a7407509019a6764051f48cec3eb25779cad2adf44f4e",
+      "usable": true
+    },
+    {
+      "id": "grammar-counters",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-counters.md",
+      "level": "N5",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "fd7366502e55eb0e2ecdc8a1df89870d78470397fecdcc56fb51564e44a9cf6a",
+      "usable": true
+    },
+    {
+      "id": "grammar-desire",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-desire.md",
+      "level": "N5",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "366336401e7ef291886c6aea2fee562ada3a4bf518873a2eeff585b3c99dbd1a",
+      "usable": true
+    },
+    {
+      "id": "grammar-direction-change",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-direction-change.md",
+      "level": "N4",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "784cc4f6ecc8c26b4603f56b7644462e76de11392aa877e65b40fc7d62600ab9",
+      "usable": true
+    },
+    {
+      "id": "grammar-existence",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-existence.md",
+      "level": "N5",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "1314956b0ebfdb31ca491023d9070d5d04ae54c4d13531c2c0ed863238afeb89",
+      "usable": true
+    },
+    {
+      "id": "grammar-final-particles",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-final-particles.md",
+      "level": "N5",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "e87ab7282cdf0fb9adca0918a515feb04db30884759ba376b686d91d1e8d0d3d",
+      "usable": true
+    },
+    {
+      "id": "grammar-giving",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-giving.md",
+      "level": "N4",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "48d960da9a72edc64c063420982b23a67b74d75be91b32c209795dd046c2a543",
+      "usable": true
+    },
+    {
+      "id": "grammar-honorific",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-honorific.md",
+      "level": "N3",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "14a85f442312839a5d84114e50f9021bd17a42ada005788b9661b2665b988ed8",
+      "usable": true
+    },
+    {
+      "id": "grammar-i-adjectives",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-i-adjectives.md",
+      "level": "N5",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "ebfd6b3fe212ef90c6193e3bc60e4dbb97484349816262522b473d3e45b98fd3",
+      "usable": true
+    },
+    {
+      "id": "grammar-itaru",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-itaru.md",
+      "level": "N1",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "0709784bbe49a3523fef9948f5cee410cfa1b62f426161368a98816ecffbb1de",
+      "usable": true
+    },
+    {
+      "id": "grammar-kanenai",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-kanenai.md",
+      "level": "N2",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "2964f97d9002f7efadabe2b624d827aa69bafb8ef5359d82514f1f7141c5c797",
+      "usable": true
+    },
+    {
+      "id": "grammar-kaneru",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-kaneru.md",
+      "level": "N2",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "56f7ae81ca23f8da4391e30d0d57f83d5800dc1ae44edef68709c5bc2c217483",
+      "usable": true
+    },
+    {
+      "id": "grammar-mademonai",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-mademonai.md",
+      "level": "N1",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "36e7667a78003ac032216005252be71fd06e01676b01c64520520bc9945b72c0",
+      "usable": true
+    },
+    {
+      "id": "grammar-monono",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-monono.md",
+      "level": "N2",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "56b197ec6443a2ba98b5d899a01c84ee8eae5cf9012e43f14789c45d05609ecf",
+      "usable": true
+    },
+    {
+      "id": "grammar-negative-request",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-negative-request.md",
+      "level": "N5",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "f54aa2c639f00c77c2abb3b6809cfbf162ca4c18d84e443d22e1b22593939c29",
+      "usable": true
+    },
+    {
+      "id": "grammar-nishitewa",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-nishitewa.md",
+      "level": "N3",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "36ffa3526ab946a939d205dc952050c0349234a6fc156439117aad5028b2e2b7",
+      "usable": true
+    },
+    {
+      "id": "grammar-nominalization",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-nominalization.md",
+      "level": "N4",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "840e4cbbb0a879f91e3b235490271ec398b2b5c28b270c7180e83f5079af3917",
+      "usable": true
+    },
+    {
+      "id": "grammar-only",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-only.md",
+      "level": "N4",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "ff854922a06c7d2a2536d02108a68f08b4d3acbbdfc170085603795b9aa1d3e6",
+      "usable": true
+    },
+    {
+      "id": "grammar-permission",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-permission.md",
+      "level": "N5",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "044f179bcb35e66dc4237b48d6075467686eb186ccf1cad0e44e4a5f55e959ec",
+      "usable": true
+    },
+    {
+      "id": "grammar-polite-nonpast",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-polite-nonpast.md",
+      "level": "N5",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "9f758b07d19e902552ffe1e037b2345795829de9941ec645bd53bea1a89cb318",
+      "usable": true
+    },
+    {
+      "id": "grammar-potential",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-potential.md",
+      "level": "N4",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "186f918001819fae3005991c2f94ba1e4e0273bf21528311b6fcd54d5fee34b0",
+      "usable": true
+    },
+    {
+      "id": "grammar-preparation",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-preparation.md",
+      "level": "N4",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "a5bbcf2c858d02f542a67b916aa601d37b69a10c026ac1b22dcb0b8923fbd181",
+      "usable": true
+    },
+    {
+      "id": "grammar-prepared-state",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-prepared-state.md",
+      "level": "N4",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "3629f00becb67a5283d5246c3073416cda9fe58925adab288f8f36be940c0453",
+      "usable": true
+    },
+    {
+      "id": "grammar-progressive",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-progressive.md",
+      "level": "N5",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "e37f1ad796873d4771cac9c5d61a570b631e5ae928809e8cdc1fc18bf73840c0",
+      "usable": true
+    },
+    {
+      "id": "grammar-prohibition",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-prohibition.md",
+      "level": "N5",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "39eb95bb5677cddd40ca6e9b82433fff2a61415a42430ab2500a4586e59d929b",
+      "usable": true
+    },
+    {
+      "id": "grammar-relative-clause",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-relative-clause.md",
+      "level": "N4",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "69428e72e5228aaedcc7a8544d776dcc2b4cbc80bf25ab4f0bf409bfb6abd688",
+      "usable": true
+    },
+    {
+      "id": "grammar-result-state",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-result-state.md",
+      "level": "N4",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "b98e980f4b339d863cf53e6ebadb573ff247f52f048ac5afcb30ed4230169533",
+      "usable": true
+    },
+    {
+      "id": "grammar-te-form",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-te-form.md",
+      "level": "N5",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "31db60d74abae145b77c20edfb6988a394e8eef2f74a778ea602d0e8b41b4777",
+      "usable": true
+    },
+    {
+      "id": "grammar-toiedomo",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-toiedomo.md",
+      "level": "N1",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "7181137fc222ed0b6bde715cae37865f651fef864702c5d273266711589a1fdc",
+      "usable": true
+    },
+    {
+      "id": "grammar-topic",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-topic.md",
+      "level": "N5",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "7cf288ba87efb2dcdae32e638be5c6767fa0879d71de79e122518d872bf29060",
+      "usable": true
+    },
+    {
+      "id": "grammar-totan",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-totan.md",
+      "level": "N2",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "b0a71b65097332614cf5f60b35e99c1e509da5d4228c35b0bada54061d1c8917",
+      "usable": true
+    },
+    {
+      "id": "grammar-trying",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-trying.md",
+      "level": "N4",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "0c437fe523ddf1f8819c454358a076f10da742ce8093c16f6194e9c407dcff17",
+      "usable": true
+    },
+    {
+      "id": "grammar-verb-groups",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-verb-groups.md",
+      "level": "N5",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "e3daa827e7e629fbc650148129b7f2eae5b5415dd386eb42a7f881a9b1f5cc30",
+      "usable": true
+    },
+    {
+      "id": "grammar-volitional",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-volitional.md",
+      "level": "N4",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "965538f56b088e0fef8f8a33fcd894c13ec18e645859aa7a604e6f6cc800afe6",
+      "usable": true
+    },
+    {
+      "id": "grammar-wake",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-wake.md",
+      "level": "N3",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "1c2bba45c3e7e8bdc842842c12794503f9f1ca8c014d094bd96449cf6cf21893",
+      "usable": true
+    },
+    {
+      "id": "grammar-wari",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-wari.md",
+      "level": "N3",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "2406d1abd641109bf2c481ccb6add19221afb780705d8b4be439ac090ad3e6eb",
+      "usable": true
+    },
+    {
+      "id": "grammar-womotte-means",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-womotte-means.md",
+      "level": "N1",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "18e3ac0aa8c9367c6f7638950708e0095df295c16fdf1a911899d1b4f846ec3d",
+      "usable": true
+    },
+    {
+      "id": "grammar-yainaya",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-yainaya.md",
+      "level": "N1",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "3f294c16437b89cd4ec7186ae84f2554b78c8ae978a38efb4a871f8b585023e5",
+      "usable": true
+    },
+    {
+      "id": "grammar-yoginaku",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-yoginaku.md",
+      "level": "N1",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "41920f263175bfc8b2b8a274bb6889e9cdfa728ed21ae55c19ca04227f79765b",
+      "usable": true
+    },
+    {
+      "id": "grammar-zaru",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/grammar-zaru.md",
+      "level": "N2",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "4fb9f1d1c62e034c9d150a61f7d02c7fb561ce8276d698272c6ce647241f15db",
+      "usable": true
+    },
+    {
+      "id": "japan-adv-dogu",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/japan-adv-dogu.md",
+      "level": "culture",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "9f288b99bcd36340c0eadf153c595813e3a4e9773b482b5aaa85982ee9a5d26c",
+      "usable": true
+    },
+    {
+      "id": "japan-adv-dotaku",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/japan-adv-dotaku.md",
+      "level": "culture",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "9fc54c39d4351b2d1bfab8f0f5da535823ea1ec582dd53b7e53b8c66e38fd4b7",
+      "usable": true
+    },
+    {
+      "id": "japan-adv-haniwa",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/japan-adv-haniwa.md",
+      "level": "culture",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "6c90d26985565c067c6677e72c02d2d1695a27bb777024309b530002ecaee0fc",
+      "usable": true
+    },
+    {
+      "id": "japan-adv-jomon-name",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/japan-adv-jomon-name.md",
+      "level": "culture",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "938ab825eeed5356d6bce0a2be1bb8f965b70a9efbac9d18df1a9699d854db26",
+      "usable": true
+    },
+    {
+      "id": "japan-ainu-diversity",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/japan-ainu-diversity.md",
+      "level": "culture",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "7b4dddcab820d9e622c06efc2cd907aa33b0ef67f3b5bc96cce348610324752d",
+      "usable": true
+    },
+    {
+      "id": "japan-autumn-rain",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/japan-autumn-rain.md",
+      "level": "culture",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "1441a2a018c24452d43e6448ef3f817ca1d9c4c60ad59737ce6ffd88947b2a86",
+      "usable": true
+    },
+    {
+      "id": "japan-garbage-local",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/japan-garbage-local.md",
+      "level": "culture",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "9eda6670bdb4e46573e8718c3fa320e1150f749ee09fca522e35eedce31ccd52",
+      "usable": true
+    },
+    {
+      "id": "japan-golden-week",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/japan-golden-week.md",
+      "level": "culture",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "0a6853ddb0353b46ef3944449c9a957718f4eeced57cea1876df59e0204fe1be",
+      "usable": true
+    },
+    {
+      "id": "japan-japan-winter",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/japan-japan-winter.md",
+      "level": "culture",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "6e549e9db86a0ab622955f23ffeeafcffad8fae95af32e0ae1894ad9d3fe9689",
+      "usable": true
+    },
+    {
+      "id": "japan-meal-phrases",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/japan-meal-phrases.md",
+      "level": "culture",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "d44bfabd840e60571adb9fd933de16d804052a147c1109ab75e6bf729d005081",
+      "usable": true
+    },
+    {
+      "id": "japan-myth-history",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/japan-myth-history.md",
+      "level": "culture",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "2b67613be189a008e7dffdfd1041c33b25db5a094bca83ad80bd9384d345e78d",
+      "usable": true
+    },
+    {
+      "id": "japan-nara-kyoto-capitals",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/japan-nara-kyoto-capitals.md",
+      "level": "culture",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "cb15955e3fd83be582566506de67bbc57d4a101b49a0df1f121882967a77a73b",
+      "usable": true
+    },
+    {
+      "id": "japan-noodle-slurp",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/japan-noodle-slurp.md",
+      "level": "culture",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "4b06d75c274e5f757081b070bb82fc25ea3f763a6f4b7d50e3ea24d997b8aa54",
+      "usable": true
+    },
+    {
+      "id": "japan-obon",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/japan-obon.md",
+      "level": "culture",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "fcfb037de025aac0188ecb96e50fb24b0c2e696f6441b2b54a0d3685749c6bac",
+      "usable": true
+    },
+    {
+      "id": "japan-onsen-tattoo",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/japan-onsen-tattoo.md",
+      "level": "culture",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "16aae08180fa95f74574981a05800c4f7df69a5550425b1463c9a17abdeb77cd",
+      "usable": true
+    },
+    {
+      "id": "japan-onsen-wash",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/japan-onsen-wash.md",
+      "level": "culture",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "e68e2b4f53eed20ee72ea6fea623f66e15026fc27cec23c8541d53a9f31cecbd",
+      "usable": true
+    },
+    {
+      "id": "japan-oshibori",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/japan-oshibori.md",
+      "level": "culture",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "0fe3c278d3cffd72c1e24c40551d47283523dfe73e0e2b383e9119f3f07d8c2f",
+      "usable": true
+    },
+    {
+      "id": "japan-regional-climate",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/japan-regional-climate.md",
+      "level": "culture",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "d8549d5ca60951b6f2303d94219a035d76ffe2ae8902b6c2e662543024c7dde1",
+      "usable": true
+    },
+    {
+      "id": "japan-religious-photo",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/japan-religious-photo.md",
+      "level": "culture",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "b6f137114a585533c49e1a0c83967e98062979b584a286f3210aed952ece1bc8",
+      "usable": true
+    },
+    {
+      "id": "japan-ryokan-yukata",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/japan-ryokan-yukata.md",
+      "level": "culture",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "bc38c48f035c4cee715de9802ac0b8faad3e8769ce9376049affaec532a268c3",
+      "usable": true
+    },
+    {
+      "id": "japan-shoes-home",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/japan-shoes-home.md",
+      "level": "culture",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "38b364f49b3d285e83ce69ff43064f65eb22de2a4dc99f97039b92d0bd8019b9",
+      "usable": true
+    },
+    {
+      "id": "japan-shrine-prayer",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/japan-shrine-prayer.md",
+      "level": "culture",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "cb5dddee1ebf56d0341a049284a1571e68d049ba6439dea775f179beb44b8d17",
+      "usable": true
+    },
+    {
+      "id": "japan-shrine-temple",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/japan-shrine-temple.md",
+      "level": "culture",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "d09f0fa51c852411e23028280f697c88011afc0915c80ff6731439a553912c28",
+      "usable": true
+    },
+    {
+      "id": "japan-social-evidence",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/japan-social-evidence.md",
+      "level": "culture",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "45a6853d66a68cce7f282689412ad7deaf137aeef1a26a7b612aa78b70986dd9",
+      "usable": true
+    },
+    {
+      "id": "japan-temple-prayer",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/japan-temple-prayer.md",
+      "level": "culture",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "804f260ca41bd68d839efa0b72421b1e359b376d5d53e81be04af3ace44667ba",
+      "usable": true
+    },
+    {
+      "id": "japan-tipping",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/japan-tipping.md",
+      "level": "culture",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "43f1fc15b58b46c885d370cb31b38a2aa5c57ba288b710d6022fca9a1096aab5",
+      "usable": true
+    },
+    {
+      "id": "japan-train-phone",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/japan-train-phone.md",
+      "level": "culture",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "5637d3e4d0c95c398d4e29a2baa49c45fd2256e9df8f55ee0d21d69b7ddde4c2",
+      "usable": true
+    },
+    {
+      "id": "japan-tsunami-information",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/japan-tsunami-information.md",
+      "level": "culture",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "329a13f136a48cd9877ba0dd2af82a305f394eea0103cdeaa00a1d37fa300dc6",
+      "usable": true
+    },
+    {
+      "id": "japan-tsuyu",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/japan-tsuyu.md",
+      "level": "culture",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "b8d190bd13175f607e78d82aaacbd62c1ce39b3919513fb50ab8a4ebf375ca24",
+      "usable": true
+    },
+    {
+      "id": "japan-upopoy",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/japan-upopoy.md",
+      "level": "culture",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "b9e5dbe105bf419071cd831cfec7dfc85f33268cc2170971cec14ef5de4680c0",
+      "usable": true
+    },
+    {
+      "id": "japan-washoku-heritage",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/japan-washoku-heritage.md",
+      "level": "culture",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "6f9063e270837fe8cdc50146fb07cdc0881944c48f6b8c7f6d8fd31fc9ef50e8",
+      "usable": true
+    },
+    {
+      "id": "japan-working-holiday",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/japan-working-holiday.md",
+      "level": "culture",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "3c699462687a81540971aacd044958bdceb60667f386225c300eb8217f5ae099",
+      "usable": true
+    },
+    {
+      "id": "method-can-do",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/method-can-do.md",
+      "level": "all",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "1601d2a70370b237274c94ba9c2aa2373b73a9d0d00ef7790b266e4861eb7cb2",
+      "usable": true
+    },
+    {
+      "id": "method-jlpt-scope",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/method-jlpt-scope.md",
+      "level": "all",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "4bf0bfcec105399a1bceb4ae7c440dac77556bb172d40f0e2898fd8a874baf49",
+      "usable": true
+    },
+    {
+      "id": "method-retrieval",
+      "file": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/prepared/method-retrieval.md",
+      "level": "all",
+      "reviewStatus": "approved",
+      "learned": false,
+      "validationHash": "f61e178cefdcc0c934fc48f4ff8bb80af95d7d825b59e32c9730b5976f9f5b2c",
+      "usable": true
+    }
+  ],
+  "skipped": [
+    {
+      "id": "japan-adv-amami-iriomote",
+      "reason": "No original pedagogical examples; reference remains browsable"
+    },
+    {
+      "id": "japan-adv-asuka-imports",
+      "reason": "No original pedagogical examples; reference remains browsable"
+    },
+    {
+      "id": "japan-adv-bakufu",
+      "reason": "No original pedagogical examples; reference remains browsable"
+    },
+    {
+      "id": "japan-adv-bunraku-ensemble",
+      "reason": "No original pedagogical examples; reference remains browsable"
+    },
+    {
+      "id": "japan-adv-bunraku-puppet",
+      "reason": "No original pedagogical examples; reference remains browsable"
+    },
+    {
+      "id": "japan-adv-chanoyu",
+      "reason": "No original pedagogical examples; reference remains browsable"
+    },
+    {
+      "id": "japan-adv-edo-openings",
+      "reason": "No original pedagogical examples; reference remains browsable"
+    },
+    {
+      "id": "japan-adv-edo-patrons",
+      "reason": "No original pedagogical examples; reference remains browsable"
+    },
+    {
+      "id": "japan-adv-emaki-reading",
+      "reason": "No original pedagogical examples; reference remains browsable"
+    },
+    {
+      "id": "japan-adv-four-seasons-image",
+      "reason": "No original pedagogical examples; reference remains browsable"
+    },
+    {
+      "id": "japan-adv-fuji-cultural",
+      "reason": "No original pedagogical examples; reference remains browsable"
+    },
+    {
+      "id": "japan-adv-fuji-surroundings",
+      "reason": "No original pedagogical examples; reference remains browsable"
+    },
+    {
+      "id": "japan-adv-fujiwara",
+      "reason": "No original pedagogical examples; reference remains browsable"
+    },
+    {
+      "id": "japan-adv-gagaku-instruments",
+      "reason": "No original pedagogical examples; reference remains browsable"
+    },
+    {
+      "id": "japan-adv-gagaku-three",
+      "reason": "No original pedagogical examples; reference remains browsable"
+    },
+    {
+      "id": "japan-adv-gassho-shape",
+      "reason": "No original pedagogical examples; reference remains browsable"
+    },
+    {
+      "id": "japan-adv-gassho-silk",
+      "reason": "No original pedagogical examples; reference remains browsable"
+    },
+    {
+      "id": "japan-adv-gusuku",
+      "reason": "No original pedagogical examples; reference remains browsable"
+    },
+    {
+      "id": "japan-adv-heian-kana",
+      "reason": "No original pedagogical examples; reference remains browsable"
+    },
+    {
+      "id": "japan-adv-hidden-christian-sites",
+      "reason": "No original pedagogical examples; reference remains browsable"
+    },
+    {
+      "id": "japan-adv-hiraizumi-gardens",
+      "reason": "No original pedagogical examples; reference remains browsable"
+    },
+    {
+      "id": "japan-adv-hiroshima-dome",
+      "reason": "No original pedagogical examples; reference remains browsable"
+    },
+    {
+      "id": "japan-adv-horyuji-wood",
+      "reason": "No original pedagogical examples; reference remains browsable"
+    },
+    {
+      "id": "japan-adv-iwami-ports",
+      "reason": "No original pedagogical examples; reference remains browsable"
+    },
+    {
+      "id": "japan-adv-jidai-sewa",
+      "reason": "No original pedagogical examples; reference remains browsable"
+    },
+    {
+      "id": "japan-adv-jomon-settled",
+      "reason": "No original pedagogical examples; reference remains browsable"
+    },
+    {
+      "id": "japan-adv-kabuki-origin",
+      "reason": "No original pedagogical examples; reference remains browsable"
+    },
+    {
+      "id": "japan-adv-kami",
+      "reason": "No original pedagogical examples; reference remains browsable"
+    },
+    {
+      "id": "japan-adv-kii-networks",
+      "reason": "No original pedagogical examples; reference remains browsable"
+    },
+    {
+      "id": "japan-adv-kii-syncretism",
+      "reason": "No original pedagogical examples; reference remains browsable"
+    },
+    {
+      "id": "japan-adv-kofun-forms",
+      "reason": "No original pedagogical examples; reference remains browsable"
+    },
+    {
+      "id": "japan-adv-meiji-industry",
+      "reason": "No original pedagogical examples; reference remains browsable"
+    },
+    {
+      "id": "japan-adv-mie",
+      "reason": "No original pedagogical examples; reference remains browsable"
+    },
+    {
+      "id": "japan-adv-momoyama-two-aesthetics",
+      "reason": "No original pedagogical examples; reference remains browsable"
+    },
+    {
+      "id": "japan-adv-muromachi-name",
+      "reason": "No original pedagogical examples; reference remains browsable"
+    },
+    {
+      "id": "japan-adv-nanbokucho",
+      "reason": "No original pedagogical examples; reference remains browsable"
+    },
+    {
+      "id": "japan-adv-nara-permanent",
+      "reason": "No original pedagogical examples; reference remains browsable"
+    },
+    {
+      "id": "japan-adv-nishikie",
+      "reason": "No original pedagogical examples; reference remains browsable"
+    },
+    {
+      "id": "japan-adv-ogasawara",
+      "reason": "No original pedagogical examples; reference remains browsable"
+    },
+    {
+      "id": "japan-adv-onin-sengoku",
+      "reason": "No original pedagogical examples; reference remains browsable"
+    },
+    {
+      "id": "japan-adv-onnagata",
+      "reason": "No original pedagogical examples; reference remains browsable"
+    },
+    {
+      "id": "japan-adv-painting-formats",
+      "reason": "No original pedagogical examples; reference remains browsable"
+    },
+    {
+      "id": "japan-adv-ryukyu-kingdom",
+      "reason": "No original pedagogical examples; reference remains browsable"
+    },
+    {
+      "id": "japan-adv-sacred-objects",
+      "reason": "No original pedagogical examples; reference remains browsable"
+    },
+    {
+      "id": "japan-adv-seasonal-literature",
+      "reason": "No original pedagogical examples; reference remains browsable"
+    },
+    {
+      "id": "japan-adv-shirakami",
+      "reason": "No original pedagogical examples; reference remains browsable"
+    },
+    {
+      "id": "japan-adv-shiretoko",
+      "reason": "No original pedagogical examples; reference remains browsable"
+    },
+    {
+      "id": "japan-adv-tea-pottery",
+      "reason": "No original pedagogical examples; reference remains browsable"
+    },
+    {
+      "id": "japan-adv-tomioka-france",
+      "reason": "No original pedagogical examples; reference remains browsable"
+    },
+    {
+      "id": "japan-adv-ukiyoe-collaboration",
+      "reason": "No original pedagogical examples; reference remains browsable"
+    },
+    {
+      "id": "japan-adv-unifiers",
+      "reason": "No original pedagogical examples; reference remains browsable"
+    },
+    {
+      "id": "japan-adv-yakushima",
+      "reason": "No original pedagogical examples; reference remains browsable"
+    },
+    {
+      "id": "japan-adv-yamatoe-context",
+      "reason": "No original pedagogical examples; reference remains browsable"
+    },
+    {
+      "id": "japan-adv-yayoi-rice",
+      "reason": "No original pedagogical examples; reference remains browsable"
+    },
+    {
+      "id": "japan-adv-zen-chan",
+      "reason": "No original pedagogical examples; reference remains browsable"
+    },
+    {
+      "id": "japan-adv-zen-ink",
+      "reason": "No original pedagogical examples; reference remains browsable"
+    },
+    {
+      "id": "method-no-official-list",
+      "reason": "No original pedagogical examples; reference remains browsable"
+    }
+  ],
+  "date": "13 October 2026",
+  "status": "review-gated",
+  "learnedFromPreparation": false
+}

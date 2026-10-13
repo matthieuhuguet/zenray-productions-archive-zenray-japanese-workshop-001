@@ -1,6 +1,6 @@
 {
   "checkedAt": "12 October 2026",
-  "release": "d43d4c0ed0759284",
+  "release": "581fd72346164698",
   "counts": {
     "grammar": 157,
     "methodology": 2,
@@ -25,6 +25,9 @@
   "cards": 251,
   "kanjiIds": [
     "kanji-065e5"
+  ],
+  "rareKanjiIds": [
+    "kanji-2000b"
   ],
   "lessonId": "grammar-condition-ba",
   "authenticatedProduction": true

@@ -1,0 +1,18 @@
+# Read selected primary definitions for adversarial decisions. (13 October 2026, 01:20 Europe/Paris)
+import ast,concurrent.futures,html.parser,json,pathlib,re,urllib.request
+ROOT=pathlib.Path('/Users/zenray/.claude/tmp/tmp-zenray-japanese')
+source=ast.parse((ROOT/'Scripts/ReviewLanguageSources.py').read_text());scope={'html':__import__('html')};exec(compile(ast.Module(body=[n for n in source.body if isinstance(n,ast.ClassDef)],type_ignores=[]),'<Parser>','exec'),scope);Parser=scope['Parser']
+urls=json.loads((ROOT/'review/LanguageSourceContextAudit.json').read_text())['sources']
+requests=[(55,'～やすい'),(63,'The Meanings'),(70,'Adverbial Particle ほど'),(73,'という'),(107,'～次第'),(115,'～に足る'),(116,'～べく'),(109,'～挙句'),(35,'～かねる'),(39,'至る')]
+def read(request):
+ index,heading=request;url=urls[index]['url'];raw=urllib.request.urlopen(url,timeout=18).read().decode('utf-8');parser=Parser();parser.feed(raw[raw.find('<div class="entry-content">'):]);blocks=[(t,re.sub(r'\s+',' ',s).strip()) for t,s in parser.blocks];found=[]
+ for i,(tag,title) in enumerate(blocks):
+  if tag in ('h1','h2','h3','h4') and heading in title:
+   paragraphs=[]
+   for next_tag,text in blocks[i+1:]:
+    if next_tag in ('h1','h2','h3','h4'):break
+    if next_tag=='p' and len(text)>35:paragraphs.append(text)
+   if paragraphs:found.append((title, title+': '+' '.join(' '.join(paragraphs).split()[140:300]).replace(chr(0x2014), ',').replace(chr(0x2013), ',')))
+ return {'sourceIndex':index,'target':heading,'definition':min(found,key=lambda pair:len(pair[0]))[1] if found else 'NO MATCH; do not approve on this read.'}
+with concurrent.futures.ThreadPoolExecutor(max_workers=8) as pool:
+ for result in pool.map(read,requests):print(json.dumps(result,ensure_ascii=False))

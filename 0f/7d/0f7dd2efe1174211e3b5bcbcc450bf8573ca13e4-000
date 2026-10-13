@@ -1,0 +1,29 @@
+// 13 October 2026, 10:06 CEST: restore real archived representatives without changing LOAD or original production sources.
+import {readFile,writeFile,mkdir} from 'node:fs/promises'
+import {createHash} from 'node:crypto'
+import path from 'node:path'
+import {createAssetsService} from '/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/scripts/AssetsService.mjs'
+const root='/Users/zenray/.claude/tmp/tmp-zenray-japanese'
+const settings=JSON.parse(await readFile(`${root}/settings.json`,'utf8'))
+const catalogue=JSON.parse(await readFile(`${settings.memoryRoot}/Site/corpus/catalogue.json`,'utf8'))
+const service=await createAssetsService()
+const ids=['japanese-corpus:Site/corpus/catalogue.json',`japanese-corpus:Site/corpus/releases/${catalogue.release}/strokes/065e5.svg`,'workshop:review/Approvals.json']
+const destination=path.join(process.env.HOME,'Library/Caches/ZenRayJapaneseCloudVerification/restored',catalogue.release)
+const report={date:'13 October 2026',release:catalogue.release,restores:[],originalsRetained:true,loadStateChanged:false}
+try{
+  await mkdir(destination,{recursive:true})
+  for(const id of ids){
+    const backup=service.state(settings.projectId).backups[id]
+    if(!backup)throw new Error(`No receipt for ${id}`)
+    const local=service.state(settings.projectId).inventory.localFiles.find(file=>file.id===id)
+    const current=await readFile(local.localPath)
+    if(createHash('sha256').update(current).digest('hex')!==backup.sha256)throw new Error(`Receipt is stale for ${id}`)
+    const restored=await service.restoreOriginal(backup,path.join(destination,backup.sourceId),{progress:null},new AbortController().signal)
+    const bytes=await readFile(restored)
+    if(!bytes.equals(current))throw new Error(`Restored bytes differ for ${id}`)
+    report.restores.push({id,sha256:backup.sha256,size:bytes.length,matched:true})
+  }
+  report.passed=true
+  if(!process.argv.includes('--no-report'))await writeFile(`${root}/verification/RestoreReport.json`,JSON.stringify(report,null,2)+'\n')
+  console.log(JSON.stringify(report))
+}finally{await service.close()}

@@ -14,6 +14,25 @@ class CorpusContract(unittest.TestCase):
                        'sources':[{'url':'https://www.coelang.tufs.ac.jp/mt/ja/'}],
                        'examples':[{'ja':'雨が降れば、行きません。','reading':'あめがふれば、いきません。','fr':"S'il pleut, je n'y vais pas."}]}
         self.config = {'lesson':{'minutes':15,'pauseMinutes':2,'maxDrills':3,'mode':'oral','script':'reading'}}
+        # 13 October 2026: synthetic approval fixtures test the gate, never approve real lessons.
+        corpus.attach_lesson_validation(self.record, {}, self.record['id'])
+        self.record['lessonValidation'] = {'status':'approved','contentVersion':'1',
+            'contentHash':self.record['lessonContentHash'],'reviewerIds':['synthetic-a','synthetic-b'],
+            'evidenceUrls':['https://example.org/synthetic-fixture'],'unresolvedFindings':[]}
+    def test_unreviewed_lesson_is_refused(self):
+        record = dict(self.record)
+        record.pop('lessonValidation')
+        with self.assertRaises(ValueError): corpus.cook_lesson(record,self.config)
+    def test_changed_content_is_refused(self):
+        with self.assertRaises(ValueError): corpus.cook_lesson({**self.record,'explanationFr':'Changed'},self.config)
+    def test_single_reviewer_is_refused(self):
+        record = {**self.record,'lessonValidation':{**self.record['lessonValidation'],'reviewerIds':['same','same']}}
+        with self.assertRaises(ValueError): corpus.cook_lesson(record,self.config)
+    def test_unresolved_issue_is_refused(self):
+        record = {**self.record,'lessonValidation':{**self.record['lessonValidation'],'unresolvedFindings':['counterexample']}}
+        with self.assertRaises(ValueError): corpus.cook_lesson(record,self.config)
+    def test_explicit_retest_cannot_bypass_review(self):
+        with self.assertRaises(ValueError): corpus.cook_lesson(self.record,self.config,retest=[{'ja':'偽','fr':'faux'}])
     def test_verified_record_passes(self):
         self.assertEqual(corpus.validate([self.record]),{'conditional-ba'})
     def test_missing_source_fails(self):

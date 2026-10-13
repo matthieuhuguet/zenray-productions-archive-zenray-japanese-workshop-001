@@ -1,0 +1,80 @@
+from pathlib import Path
+root=Path('/Users/zenray/.codex/worktrees/japanese-progress/src/learn')
+helper='''// 13 October 2026 00:20 CEST: synthetic approvals are test fixtures only, never corpus data.
+function approveFixture(record) {
+  const content = { ...record, lessonContentVersion: '1' }
+  delete content.lessonValidation; delete content.lessonContentHash
+  const lessonContentHash = createHash('sha256').update(canonicalLessonContent(content)).digest('hex')
+  return { ...content, lessonContentHash, lessonValidation: { status: 'approved', contentVersion: '1', contentHash: lessonContentHash, reviewerIds: ['synthetic-a', 'synthetic-b'], evidenceUrls: ['https://example.org/synthetic-review'], unresolvedFindings: [] } }
+}
+'''
+p=root/'japaneseCorpusModel.test.js'; s=p.read_text()
+s=s.replace("import { describe,", "import { createHash, webcrypto } from 'node:crypto'\nimport { describe,",1)
+s=s.replace('cookCorpusLesson }', 'cookCorpusLesson, canonicalLessonContent, lessonValidationIssue }')
+s=s.replace('const original =',"vi.stubGlobal('crypto', webcrypto)\n"+helper+'const original =')
+s=s.replace("it('limits local lessons to one new topic and three original exercises with examples before explanation', () =>", "it('limits local lessons to one new topic and three original exercises with examples before explanation', async () =>")
+s=s.replace("it('does not manufacture dictionary or imported sentence exercises', () =>", "it('does not manufacture dictionary or imported sentence exercises', async () =>")
+s=s.replace("it('blocks kana cooking when a Han character has no supplied reading', () =>", "it('blocks kana cooking when a Han character has no supplied reading', async () =>")
+s=s.replace("it('uses the canonical catalogue lesson duration parameters', () =>", "it('uses the canonical catalogue lesson duration parameters', async () =>")
+s=s.replace('const result = cookCorpusLesson(records,', 'const result = await cookCorpusLesson(records.map(approveFixture),')
+s=s.replace("learner: { retestItems: [{ fr: 'Hier ?', ja: '昨日。' }] }", "learner: approveFixture({ retestItems: [{ fr: 'Hier ?', ja: '昨日。' }] })")
+s=s.replace("const result = cookCorpusLesson([{ ...original, status: 'source-imported', domain: 'sentence' }])", "const result = await cookCorpusLesson([approveFixture({ ...original, status: 'source-imported', domain: 'sentence' })])")
+s=s.replace("expect(() => cookCorpusLesson([noReading], { script: 'kana' })).toThrow('lecture en kana manque')", "await expect(cookCorpusLesson([approveFixture(noReading)], { script: 'kana' })).rejects.toThrow('lecture en kana manque')")
+s=s.replace("expect(cookCorpusLesson([noReading], { script: 'mixed' }).exercises[0].answer)", "expect((await cookCorpusLesson([approveFixture(noReading)], { script: 'mixed' })).exercises[0].answer)")
+s=s.replace('const result = cookCorpusLesson([original],', 'const result = await cookCorpusLesson([approveFixture(original)],')
+s += '''
+describe('lesson approval gate', () => {
+  it('accepts independently SHA256-hashed content including Unicode and nested keys', async () => {
+    expect(await lessonValidationIssue(approveFixture(original))).toBe('')
+  })
+  it.each([
+    ['absent approval', (record) => ({ ...record, lessonValidation: undefined })],
+    ['changed content', (record) => ({ ...record, explanationFr: 'Changed' })],
+    ['changed examples', (record) => ({ ...record, examples: [{ ja: '変更', fr: 'Changed' }] })],
+    ['changed version', (record) => ({ ...record, lessonContentVersion: '2' })],
+    ['one reviewer', (record) => ({ ...record, lessonValidation: { ...record.lessonValidation, reviewerIds: ['same', 'same'] } })],
+    ['open issue', (record) => ({ ...record, lessonValidation: { ...record.lessonValidation, unresolvedFindings: ['error'] } })],
+    ['unknown issues', (record) => ({ ...record, lessonValidation: { ...record.lessonValidation, unresolvedFindings: undefined } })],
+    ['no evidence', (record) => ({ ...record, lessonValidation: { ...record.lessonValidation, evidenceUrls: [] } })],
+    ['unsafe evidence', (record) => ({ ...record, lessonValidation: { ...record.lessonValidation, evidenceUrls: ['javascript:alert(1)'] } })],
+    ['mismatched hash', (record) => ({ ...record, lessonContentHash: '0'.repeat(64) })],
+  ])('blocks %s', async (_, mutate) => {
+    await expect(cookCorpusLesson([mutate(approveFixture(original))])).rejects.toThrow('Leçon bloquée')
+  })
+  it('validates every input record, including one beyond the cooking limit', async () => {
+    await expect(cookCorpusLesson([approveFixture(original), original])).rejects.toThrow('Leçon bloquée')
+  })
+  it('blocks unapproved or modified retest and permits an empty retest', async () => {
+    const learner = { retestItems: [{ ja: '昨日。', fr: 'Hier.' }] }
+    await expect(cookCorpusLesson([approveFixture(original)], { learner })).rejects.toThrow('Retest')
+    const approved = approveFixture(learner)
+    await expect(cookCorpusLesson([approveFixture(original)], { learner: approved })).resolves.toHaveProperty('retestItems')
+    await expect(cookCorpusLesson([approveFixture(original)], { learner: { ...approved, retestItems: [{ ja: '今日。', fr: 'Hier.' }] } })).rejects.toThrow('Retest')
+    await expect(cookCorpusLesson([approveFixture(original)], { learner: { retestItems: [] } })).resolves.toHaveProperty('markdown')
+  })
+})
+'''
+p.write_text(s)
+p=root/'JapaneseCorpus.test.jsx';s=p.read_text()
+s=s.replace("import React from 'react'", "import React from 'react'\nimport { createHash, webcrypto } from 'node:crypto'\nimport { canonicalLessonContent } from './japaneseCorpusModel.js'")
+s=s.replace('const record =', "Object.defineProperty(globalThis, 'crypto', { value: webcrypto, configurable: true })\n"+helper+'const record = approveFixture(')
+s=s.replace("sources: [] }\nconst catalogue", "sources: [] })\nconst catalogue")
+s=s.replace("learner: { retestItems: [{ fr: 'Que dit-on pour hier ?', ja: '昨日。' }] }", "learner: approveFixture({ retestItems: [{ fr: 'Que dit-on pour hier ?', ja: '昨日。' }] })")
+s=s.replace("    fireEvent.click(screen.getByRole('button', { name: 'Préparer la leçon' }))", "    await waitFor(() => expect(screen.getByRole('button', { name: 'Préparer la leçon' })).toBeEnabled())\n    fireEvent.click(screen.getByRole('button', { name: 'Préparer la leçon' }))")
+s=s.replace("    expect(screen.getByText('Que dit-on pour hier ?'))", "    await screen.findByText('Que dit-on pour hier ?')\n    expect(screen.getByText('Que dit-on pour hier ?'))")
+s += '''
+describe('visible approval blocking', () => {
+  it.each(['record', 'retest', 'changed'])('blocks preparing and downloading for %s', async (kind) => {
+    const blocked = kind === 'record' ? { ...record, lessonValidation: undefined } : kind === 'changed' ? { ...record, explanationFr: 'Changed' } : record
+    const head = { ...catalogue, cards: [blocked], learner: kind === 'retest' ? { retestItems: catalogue.learner.retestItems } : catalogue.learner }
+    render(<JapaneseCorpus client={{ getCatalogue: async () => head }} />)
+    fireEvent.click(await screen.findByText('Une fiche'))
+    fireEvent.click(screen.getByRole('button', { name: 'Ajouter à la leçon' }))
+    await waitFor(() => expect(screen.getByRole('status')).toHaveTextContent('Leçon bloquée'))
+    expect(screen.getByRole('button', { name: 'Préparer la leçon' })).toBeDisabled()
+    expect(screen.queryByRole('button', { name: 'Télécharger la leçon Markdown' })).not.toBeInTheDocument()
+    cleanup()
+  })
+})
+'''
+p.write_text(s)

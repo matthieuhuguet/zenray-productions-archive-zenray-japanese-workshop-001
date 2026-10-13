@@ -19,10 +19,11 @@
   "learner": {
     "history": "/Users/zenray/.claude/Memory1/Japanese/Japanese1.md",
     "tracker": "/Users/zenray/.claude/Memory1/Japanese/DrillTracker.md",
-    "retestSource": "/Users/zenray/.claude/Memory1/Japanese/Scripts/drills/oral-01-trous-reels.json",
+    "retestSource": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/review/RetestOverlay.json",
     "retestCount": 2,
     "nextRecordId": "grammar-condition-ba",
-    "nextBasis": "Japanese1.md L111: next ba then nara; no new mastery inferred"
+    "nextBasis": "Japanese1.md L111: next ba then nara; no new mastery inferred",
+    "retestBasis": "Reviewed overlay of personal drill topics; no original history rewritten"
   },
   "maxMarkdownBytes": 94371840,
   "datasets": {
@@ -30,5 +31,31 @@
     "kanji": "kanjidic2-all-3.6.2.json",
     "sentences": "tatoeba-jpn-fra.jsonl",
     "strokes": "strokes"
+  },
+  "review": {
+    "approvals": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/review/Approvals.json",
+    "minimumReviewers": 2,
+    "reports": [
+      "/Users/zenray/.claude/tmp/tmp-zenray-japanese/review/LanguageAdversarial.json",
+      "/Users/zenray/.claude/tmp/tmp-zenray-japanese/review/LanguageIndependentSecond.json",
+      "/Users/zenray/.claude/tmp/tmp-zenray-japanese/review/LanguageCorrectionsSecond.json",
+      "/Users/zenray/.claude/tmp/tmp-zenray-japanese/review/LanguageContinuationSecond.json",
+      "/Users/zenray/.claude/tmp/tmp-zenray-japanese/review/JapanAdversarial.json",
+      "/Users/zenray/.claude/tmp/tmp-zenray-japanese/review/JapanIndependentSecond.json",
+      "/Users/zenray/.claude/tmp/tmp-zenray-japanese/review/JapanCorrectionsFirst.json",
+      "/Users/zenray/.claude/tmp/tmp-zenray-japanese/review/JapanCorrectionsSecond.json"
+    ]
+  },
+  "buildDate": "13 October 2026",
+  "recordRevisionDates": {
+    "adv-causative": "13 October 2026",
+    "adv-souda-appearance": "13 October 2026",
+    "adv-adjective-sa": "13 October 2026",
+    "adv-kuseni": "13 October 2026",
+    "adv-to-omoikiya": "13 October 2026",
+    "adv-zuniha-irarenai": "13 October 2026",
+    "adv-tsuzukeru": "13 October 2026",
+    "japan-social-evidence": "13 October 2026",
+    "japan-adv-jomon-name": "13 October 2026"
   }
 }

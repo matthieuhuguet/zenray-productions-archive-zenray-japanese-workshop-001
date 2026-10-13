@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "13 October 2026",
+  "reviewerId": "/root/language_review_b",
+  "reviewType": "independent-adversarial-model-review",
+  "complete": true,
+  "scope": "Re-review of the corrected continuation rule and all three example/readings/French/oral-prompt payloads.",
+  "humanNativeReview": false,
+  "supersedes": {
+    "report": "LanguageIndependentSecond.json",
+    "recordIds": [
+      "adv-tsuzukeru"
+    ]
+  },
+  "records": [
+    {
+      "id": "adv-tsuzukeru",
+      "verdict": "approved",
+      "reviewedContentHash": "e958534ea2b3b97edf124120c152000722b08460e4b9d5bbb38aebdb5d3cca95",
+      "previousContentHash": "e2de05a04ce5b22a5dfeec8a992373b8dcec6c6b5463fa010e81a36289280341",
+      "evidenceUrls": [
+        "https://imabi.org/the-verbs-%e7%b6%9a%e3%81%8f-%ef%bc%86-%e7%b6%9a%e3%81%91%e3%82%8b/"
+      ],
+      "findings": [],
+      "reviewNotes": "The standalone intransitive 続く/transitive 続ける distinction is now explicitly separated from the productive compound ending. The primary curriculum section ～続ける VS ～続く expressly allows both transitive/intransitive and volitional/non-volitional verbs before ～続ける. Thus the corrected rule no longer falsely ties this compound to agentive control. All three examples have valid morphology, readings and meanings: 学ぶ → 学び続ける, 話す → 話し続ける, 降る → 降り続ける. 毎日 supports habitual learning, which the source also permits for the compound; 一時間 supports sustained duration; rain demonstrates a non-volitional process. Oral prompts exactly match stored French translations. The source also accepts 降り続く: the prior rain sentence was not itself ungrammatical. Its replacement now directly illustrates the stated productive 続ける rule.",
+      "reviewedFields": [
+        "title",
+        "explanationFr",
+        "contrastFr",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "oralPromptsFr",
+        "prerequisites",
+        "sources"
+      ],
+      "exampleCount": 3,
+      "counterexamplesChecked": [
+        "雨が降り続けています is valid despite non-volition, defeating the old overly agentive explanation.",
+        "毎日学び続ける can express a maintained habit; the ending is not restricted to one literally uninterrupted session.",
+        "降り続く is a valid limited lexical alternative, so the review does not invent an error in the previous Japanese sentence."
+      ]
+    }
+  ],
+  "summary": {
+    "records": 1,
+    "examples": 3,
+    "approved": 1,
+    "blocked": 0,
+    "openFindings": 0
+  },
+  "limitations": [
+    "Independent adversarial model review only; no human native-speaker validation claimed.",
+    "This approval refers exactly to the canonical JSON payload hash."
+  ]
+}

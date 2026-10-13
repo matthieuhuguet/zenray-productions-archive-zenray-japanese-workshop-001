@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "reviewerId": "/root/japan_review_b",
+  "reviewType": "independent-adversarial-model-review",
+  "reviewedAt": "13 October 2026",
+  "scope": "Independent re-review of the two corrected raw records, including Japanese sentence, kana reading, French translation and explicit source attribution.",
+  "previousReviewPath": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/review/JapanIndependentSecond.json",
+  "hashAlgorithm": "SHA256 of UTF8 json.dumps(record,ensure_ascii=False,sort_keys=True,separators=(comma,colon))",
+  "inputs": [
+    {
+      "path": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/research/japan/JapanCards.json",
+      "sha256": "98ec6ac42ebd06180b451f5e407795a064d80ef84595eb38dac00897b94569ab"
+    },
+    {
+      "path": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/research/japan/JapanAdvancedRecords.json",
+      "sha256": "6255da80850cdc9a7e62525caa261228caeafdf969bbb2a9f23b5302ab4c85e7"
+    }
+  ],
+  "records": [
+    {
+      "id": "japan-social-evidence",
+      "verdict": "approved",
+      "reviewedContentHash": "3b92b338573ad8b0ddb18175ff8d826a494154ac5a88cfccf0fabde08d83fcff",
+      "evidenceUrls": [
+        "https://www.stat.go.jp/english/data/handbook/index.html"
+      ],
+      "findings": [],
+      "resolvedFindingIds": [
+        "JPB-002"
+      ],
+      "correctionVerification": "La nouvelle explication attribue explicitement la méthode à une proposition éditoriale originale et cite le Statistics Bureau uniquement pour ses données descriptives. La phrase japonaise, sa lecture et sa traduction restent cohérentes.",
+      "nativeHumanReview": "not-performed"
+    },
+    {
+      "id": "japan-adv-jomon-name",
+      "verdict": "approved",
+      "reviewedContentHash": "0b76b1476883a419e99838b811df434e1a340b572b812f45da04948455c3e563",
+      "evidenceUrls": [
+        "https://www.metmuseum.org/essays/jomon-culture-ca-10500-ca-300-b-c",
+        "https://jomon-japan.jp/learn/jomon-culture"
+      ],
+      "findings": [],
+      "resolvedFindingIds": [
+        "JPB-001"
+      ],
+      "correctionVerification": "Le nouveau japonais emploie ものもあります, qui exprime des membres de la catégorie et ne généralise plus à toutes les poteries. La lecture correspond aux caractères et la traduction « Certaines poteries » conserve cette portée. Les marques de cordes et la diversité archéologique sont documentées ; le site officiel atteste aussi des poteries initiales sans décor.",
+      "nativeHumanReview": "not-performed"
+    }
+  ],
+  "coverage": {
+    "recordsReviewed": 2,
+    "approved": 2,
+    "blocked": 0
+  },
+  "limitations": [
+    "Approval is an independent bounded model review against the previously read primary source contexts. No human or native-speaker validation and no absolute mathematical guarantee are claimed.",
+    "The old report is preserved; its old hashes remain blocked. Approval applies only to these exact corrected raw record hashes."
+  ]
+}

@@ -1,0 +1,23 @@
+// 13 October 2026, 00:00 CEST: repeat the real scene context algorithm on synthetic inventories only.
+import { performance } from 'node:perf_hooks'
+import { writeFile } from 'node:fs/promises'
+import { AssetsService } from '/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/scripts/AssetsService.mjs'
+const settings = { fileCount: 44000, auditedProjects: 8 }
+const service = Object.create(AssetsService.prototype)
+service.projects = new Map()
+service.states = new Map()
+for (let i = 0; i < settings.auditedProjects + 1; i++) {
+  const id = `fixture-${i}`
+  const project = { id, folder: `pages/ZenRayAssets/${id}`, sources: [{ id: 'source', namespace: 'tmp', localPath: '/fixture' }] }
+  const localFiles = i === 0 ? Array.from({ length: settings.fileCount }, (_, j) => ({ id: `source:file${j}.json`, sourceId: 'source', relativePath: `file${j}.json`, localPath: `/fixture/file${j}.json`, changeToken: String(j) })) : []
+  const state = { inventory: { localFiles }, backups: {}, restorations: {}, sceneAudits: i === 0 ? {} : { missing: { changeToken: 'fixture', audit: { sceneSha256: 'fixture' } } } }
+  service.projects.set(id, project); service.states.set(id, state)
+}
+const measurements = []
+for (const count of [0, 1, 4, settings.auditedProjects]) {
+  const started = performance.now()
+  for (let i = 1; i <= count; i++) service.sceneReferenceContexts(`fixture-${i}`)
+  measurements.push({ auditedSnapshots: count, filesInOtherProject: settings.fileCount, elapsedMs: Math.round(performance.now() - started) })
+}
+await writeFile('/Users/zenray/.claude/tmp/tmp-zenray-japanese/review/BridgeSceneContextCost.json', JSON.stringify({ checkedAt: '13 October 2026', settings, measurements, realStateReadOrWritten: false }, null, 2) + '\n')
+console.log(JSON.stringify(measurements))

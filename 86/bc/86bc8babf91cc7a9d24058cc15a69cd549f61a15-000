@@ -1,0 +1,31 @@
+{
+  "date": "13 October 2026",
+  "replacements": {
+    "Godan: base en あ + せる; ichidan: enlever る + させる. する → させる; 来る → こさせる. Le contexte distingue contrainte, permission et déclenchement.": "Godan : remplacer la terminaison par la base en あ, avec う → わ, puis ajouter せる (言う → 言わせる). Ichidan : enlever る et ajouter させる. する → させる ; 来る → こさせる. Le contexte distingue contrainte, permission et déclenchement.",
+    "と思いきや présente une supposition qui est immédiatement contredite par la situation constatée. La suite raconte la surprise.": "と思いきや présente une supposition démentie de façon inattendue par la situation constatée. La construction ne pose pas, à elle seule, une obligation de succession immédiate.",
+    "Base de ます + そうだ annonce une apparence ou une imminence. Un adjectif en い perd い; un adjectif en な se rattache sans な. いい donne よさそう.": "Base de ます + そうだ annonce une apparence ou une imminence. Un adjectif en い perd い ; un adjectif en な se rattache sans な. いい donne よさそう ; l’adjectif ない donne なさそう. Ces règles ne se transposent pas sans contrôle à toutes les négations verbales.",
+    "おいしそう signifie « semble bon »; おいしいそう rapporte une information reçue.": "おいしそう signifie « semble bon » ; おいしいそう rapporte une information reçue. かわいそう signifie « qui fait pitié », pas « semble mignon » ; pour ce dernier sens, employer かわいいようだ.",
+    "Enlever い d’un adjectif en い, ou な d’un adjectif en な, puis ajouter さ. Le nom exprime une qualité ou son degré.": "Enlever い d’un adjectif en い, ou な d’un adjectif en な, puis ajouter さ. いい utilise la base よい et donne よさ. Le nom exprime une qualité ou son degré.",
+    "Il le sait, pourtant il refuse de me le dire.": "Il le sait, pourtant il ne me le dit pas.",
+    "Base négative + ずにはいられない décrit une impulsion qu’on ne parvient pas à retenir. する → せずにはいられない. La variante ないではいられない est possible.": "Base négative + ずにはいられない décrit une impulsion qu’on ne parvient pas à retenir malgré une tentative ou une possibilité de retenue. する → せずにはいられない. La variante ないではいられない est possible. Ne pas en faire une substitution automatique pour toute réaction physiologique involontaire.",
+    "その話を聞いて、笑わずにはいられませんでした。": "笑ってはいけないと思っても、その冗談を聞くと、笑わずにはいられません。",
+    "そのはなしをきいて、わらわずにはいられませんでした。": "わらってはいけないとおもっても、そのじょうだんをきくと、わらわずにはいられません。",
+    "En entendant cette histoire, je n’ai pas pu m’empêcher de rire.": "Même si je me dis que je ne dois pas rire, je ne peux pas m’en empêcher quand j’entends cette plaisanterie.",
+    "この写真を見ると、昔を思い出さずにはいられません。": "その場所に行くと、昔のことを話さずにはいられません。",
+    "このしゃしんをみると、むかしをおもいださずにはいられません。": "そのばしょにいくと、むかしのことをはなさずにはいられません。",
+    "Quand je vois cette photographie, je ne peux m’empêcher de penser au passé.": "Quand je vais à cet endroit, je ne peux pas m’empêcher de parler du passé.",
+    "縄文土器には、縄の模様があります。": "縄文土器には、縄の模様があるものもあります。",
+    "じょうもんどきには、なわのもようがあります。": "じょうもんどきには、なわのもようがあるものもあります。",
+    "Les poteries Jōmon portent des motifs de cordes.": "Certaines poteries Jōmon portent des motifs de cordes.",
+    "Pour une affirmation collective, chercher une enquête datée, son échantillon et la question posée. Le Statistics Bureau fournit des données descriptives ; celles-ci ne permettent pas de deviner l’avis ou l’intention d’une personne.": "Cette fiche propose une méthode éditoriale originale : pour une affirmation collective, chercher une enquête datée, son échantillon et la question posée. La source du Statistics Bureau est citée comme exemple de données descriptives, sans lui attribuer ce conseil méthodologique. Ces données ne permettent pas de deviner l’avis ou l’intention d’une personne.",
+    "Base de ます + 続ける exprime la poursuite d’une action. La forme 続く est intransitive; 続ける place l’activité dans ce que l’acteur maintient.": "Le verbe autonome 続く est intransitif et 続ける transitif. En composition, base de ます + 続ける décrit une action ou un phénomène qui se prolonge, y compris involontairement. Ne pas opposer ces composés sur la seule volonté du sujet.",
+    "Continuer un événement et poursuivre une action ne conduisent pas toujours au même verbe.": "Les verbes autonomes 続く et 続ける et leurs composés ne se distinguent pas uniquement par le caractère volontaire de l’action.",
+    "雨が降り続いています。": "雨が降り続けています。",
+    "あめがふりつづいています。": "あめがふりつづけています。"
+  },
+  "prerequisiteAdditions": {
+    "adv-adjective-sa": [
+      "grammar-i-adjectives"
+    ]
+  }
+}

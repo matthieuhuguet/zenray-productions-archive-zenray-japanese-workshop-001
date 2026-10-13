@@ -6,9 +6,15 @@ const config=JSON.parse(await readFile('/Users/zenray/Create/Build/Productions/G
 // 12 October 2026: one project's lots are configurable without changing global service settings.
 const parameters=JSON.parse(await readFile(`${root}/BackupSettings.json`,'utf8'))
 config.storage.batchFiles=parameters.batchFiles;config.storage.batchBytes=parameters.batchBytes
+// 13 October 2026, 09:29 CEST: this project's exact text/index archives contain no media thumbnails.
+process.env.ZR_INDEX_SKIP_THUMBNAILS='1'
+config.storage.indexProcessTimeoutMs=parameters.indexProcessTimeoutMs || 300000
 const service=await createAssetsService({config})
 console.log(JSON.stringify({stage:'initialized',projectId:parameters.projectId}))
-const started=await service.request('archive',{projectId:parameters.projectId})
+const selectedSource=process.argv.find(argument=>argument.startsWith('--source='))?.slice(9)
+let fileIds
+if(selectedSource){await service.inventory(parameters.projectId);fileIds=service.state(parameters.projectId).inventory.localFiles.filter(file=>file.sourceId===selectedSource).map(file=>file.id);if(!fileIds.length)throw new Error('Unknown or empty source selection')}
+const started=await service.request('archive',{projectId:parameters.projectId,...(fileIds?{fileIds}:{})})
 console.log(JSON.stringify(started))
 const timer=setInterval(()=>{const job=service.jobs.get(started.jobId);console.log(JSON.stringify({stage:'archive',state:job?.state,progress:job?.progress}))},30000)
-try{await service.queue;const job=service.jobs.get(started.jobId);await writeFile(`${root}/verification/ArchiveJob.json`,JSON.stringify(job,null,2));console.log(JSON.stringify(job));if(job.state!=='done')process.exitCode=1}finally{clearInterval(timer);await service.close()}
+try{await service.queue;const job=service.jobs.get(started.jobId);if(!process.argv.includes('--no-report'))await writeFile(`${root}/verification/ArchiveJob.json`,JSON.stringify(job,null,2));console.log(JSON.stringify(job));if(job.state!=='done')process.exitCode=1}finally{clearInterval(timer);await service.close()}

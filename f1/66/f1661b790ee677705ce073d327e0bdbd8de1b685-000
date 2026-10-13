@@ -6,6 +6,7 @@ import json
 import sqlite3
 import subprocess
 import sys
+import tarfile
 from pathlib import Path
 
 workshop=Path(__file__).resolve().parents[1]
@@ -27,9 +28,14 @@ if args.fetch:
     downloads=json.loads((workshop/'research/datasets/downloads.json').read_text())
     for key,prefix in [('dictionary','jmdict-all-'),('kanji','kanjidic2-all-')]:
         filename=next(item['filename'] for item in downloads if item['filename'].startswith(prefix))
-        configuration['datasets'][key]=filename.removesuffix('.tgz')+'.json'
+        with tarfile.open(workshop/'research/datasets'/filename) as archive:
+            members=[Path(member.name).name for member in archive if member.name.endswith('.json')]
+        if len(members)!=1: raise ValueError('Dataset archive must contain exactly one JSON payload')
+        configuration['datasets'][key]=members[0]
     settings_path.write_text(json.dumps(configuration,ensure_ascii=False,indent=2)+'\n')
 run('contract',[sys.executable,str(workshop/'Scripts/TestCorpus.py')])
+run('review-contract',[sys.executable,str(workshop/'Scripts/TestApprovals.py')])
+run('adversarial-approvals',[sys.executable,str(workshop/'Scripts/PrepareApprovals.py'),'--settings',args.settings])
 run('compile',[sys.executable,str(workshop/'Scripts/Corpus.py'),'--settings',args.settings,'build'])
 run('verify',[sys.executable,str(workshop/'Scripts/VerifyCorpus.py'),'--settings',args.settings])
 spec=importlib.util.spec_from_file_location('corpus',workshop/'Scripts/Corpus.py');corpus=importlib.util.module_from_spec(spec);spec.loader.exec_module(corpus)
@@ -48,9 +54,9 @@ for (payload,) in connection.execute('SELECT payload FROM records WHERE domain N
         continue
     destination=workshop/'lessons/prepared'/f"{record['id']}.md"
     corpus.atomic_text(destination,text)
-    lessons.append({'id':record['id'],'file':str(destination),'level':record.get('level'),'reviewStatus':record.get('status'),'learned':False})
+    lessons.append({'id':record['id'],'file':str(destination),'level':record.get('level'),'reviewStatus':record['lessonValidation']['status'],'validationHash':record['lessonContentHash'],'usable':True,'learned':False})
 connection.close()
-corpus.atomic_json(workshop/'lessons/Index.json',{'lessons':lessons,'skipped':skipped,'date':'12 October 2026','learnedFromPreparation':False})
+corpus.atomic_json(workshop/'lessons/Index.json',{'lessons':lessons,'skipped':skipped,'date':'13 October 2026','status':'review-gated','learnedFromPreparation':False})
 print(json.dumps({'stage':'prepare-lessons','state':'done','lessons':len(lessons)}),flush=True)
 if args.archive:
     run('queue-backup',['node','/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/scripts/Assets/Client.mjs','archive',settings['projectId']])

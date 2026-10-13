@@ -14,8 +14,10 @@ const readJson = async path => {
 const client = createCorpusClient(readJson)
 const catalogue = await client.getCatalogue()
 const kanji = await client.search('日', { domain: 'kanji' })
+const rareKanji = await client.search('𠀋', { domain: 'kanji' })
 const conditional = await client.getRecord('grammar-condition-ba')
-if (!kanji.some(record => record.id === 'kanji-065e5') || !conditional.examples?.length) throw new Error('Real records were not served')
-const report = { checkedAt: '12 October 2026', release: catalogue.release, counts: catalogue.counts, cards: catalogue.cards.length, kanjiIds: kanji.map(record => record.id), lessonId: conditional.id, authenticatedProduction: true }
+console.log(JSON.stringify({release:catalogue.release,rareKanjiIds:rareKanji.map(record=>record.id)}))
+if (!kanji.some(record => record.id === 'kanji-065e5') || !conditional.examples?.length || !rareKanji.some(record => record.id === 'kanji-2000b')) throw new Error('Real records were not served')
+const report = { checkedAt: '12 October 2026', release: catalogue.release, counts: catalogue.counts, cards: catalogue.cards.length, kanjiIds: kanji.map(record => record.id), rareKanjiIds: rareKanji.map(record => record.id), lessonId: conditional.id, authenticatedProduction: true }
 await writeFile(`${root}/verification/ProductionDataReport.json`, JSON.stringify(report, null, 2))
 console.log(JSON.stringify(report))

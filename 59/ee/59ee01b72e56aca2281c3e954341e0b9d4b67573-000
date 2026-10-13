@@ -4,7 +4,7 @@
     "せる et させる : faire ou laisser faire",
     "N4",
     "voice",
-    "Godan: base en あ + せる; ichidan: enlever る + させる. する → させる; 来る → こさせる. Le contexte distingue contrainte, permission et déclenchement.",
+    "Godan : remplacer la terminaison par la base en あ, avec う → わ, puis ajouter せる (言う → 言わせる). Ichidan : enlever る et ajouter させる. する → させる ; 来る → こさせる. Le contexte distingue contrainte, permission et déclenchement.",
     "Ne pas employer 作る pour traduire « faire faire ». Les particules de la personne causée dépendent aussi du verbe.",
     169,
     [
@@ -193,7 +193,7 @@
       [
         "知っているくせに、教えてくれません。",
         "しっているくせに、おしえてくれません。",
-        "Il le sait, pourtant il refuse de me le dire."
+        "Il le sait, pourtant il ne me le dit pas."
       ],
       [
         "忙しいと言うくせに、ずっと遊んでいます。",
@@ -316,7 +316,7 @@
     "さ : faire d’une qualité un nom",
     "N3",
     "word-formation",
-    "Enlever い d’un adjectif en い, ou な d’un adjectif en な, puis ajouter さ. Le nom exprime une qualité ou son degré.",
+    "Enlever い d’un adjectif en い, ou な d’un adjectif en な, puis ajouter さ. いい utilise la base よい et donne よさ. Le nom exprime une qualité ou son degré.",
     "み n’est pas librement productif avec tous les adjectifs; il faut apprendre ses mots attestés.",
     204,
     [

@@ -46,13 +46,20 @@ for text,domain in [('日本語','dictionary'),('猫','kanji'),('なら','gramma
     ids={r['id'] for r in corpus.read_json(release/'records'/f"{hits[0]['recordShard']:03}.json")}
     assert hits[0]['id'] in ids
 nara=json.loads(conn.execute('SELECT payload FROM records WHERE id=?',('grammar-condition-nara',)).fetchone()[0])
-lesson=corpus.cook_lesson(nara,settings)
-assert 'Je suis seul' in lesson, 'Personal retest absent'
-assert 'きょうとにいくなら' in lesson
+# 13 October 2026: real unapproved lessons must fail closed; structural checks never approve content.
+try:
+    lesson = corpus.cook_lesson(nara,settings)
+except ValueError as error:
+    assert 'adversarial validation' in str(error)
+else:
+    corpus.require_lesson_validation(nara)
+    assert 'テイクアウトで' in lesson and '一人です' in lesson, 'Reviewed personal retest absent'
+negative_gate = False
 try:
     corpus.cook_lesson({'examples':[]},settings)
-    raise AssertionError('Missing example was accepted')
-except ValueError: pass
-report={'counts':counts,'mappedRecords':len(mappings),'release':catalogue['release'],'realQueries':['日本語','猫','なら'],'lessonRetest':True,'negativeGate':True,'verifiedAt':'12 October 2026'}
+except ValueError:
+    negative_gate = True
+assert negative_gate
+report={'counts':counts,'mappedRecords':len(mappings),'release':catalogue['release'],'realQueries':['日本語','猫','なら'],'lessonValidationGate':True,'negativeGate':True,'verifiedAt':'13 October 2026'}
 corpus.atomic_json(root/'Corpus/verification.json',report)
 print(json.dumps(report,ensure_ascii=False))

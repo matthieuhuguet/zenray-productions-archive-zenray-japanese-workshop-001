@@ -1,0 +1,104 @@
+# Independent adversarial Japan review (13 October 2026)
+
+All 88 cards and 32 Japanese examples are reviewed against54primary contexts.86cards have no unresolved issue identified;2remain blocked. No native or human review and no absolute zero-error guarantee are claimed. (13 October 2026)
+
+## JP-001: japan-adv-jomon-name (13 October 2026)
+Unqualified generic example can be read as covering every Jomon pot, whereas the card correctly narrows the decorated population to numerous examples. Under strict no-unresolved-doubt policy, retain the narrower quantifier in the example. This is an ambiguity risk, not a demonstrated false universal asserted by Japanese grammar. (13 October 2026)
+Evidence: [https://www.metmuseum.org/essays/jomon-culture-ca-10500-ca-300-b-c](https://www.metmuseum.org/essays/jomon-culture-ca-10500-ca-300-b-c). Proposed correction is retained in the JSON report and requires recheck. (13 October 2026)
+
+## JP-002: japan-social-evidence (13 October 2026)
+Advice to inspect survey questions and sample is editorial methodology, not a finding established by the linked handbook landing page. The descriptive Statistics Bureau part is supported. Label the methodological part transparently instead of implying institutional provenance. (13 October 2026)
+Evidence: [https://www.stat.go.jp/english/data/handbook/index.html](https://www.stat.go.jp/english/data/handbook/index.html). Proposed correction is retained in the JSON report and requires recheck. (13 October 2026)
+
+## Per-card verdicts (13 October 2026)
+
+| Record | Verdict | Evidence |
+| :--- | :--- | :--- |
+| japan-regional-climate | approved | Regional north/south and Pacific/Sea of Japan contrast; heavy snowfall locations. (13 October 2026) |
+| japan-japan-winter | approved | Regional north/south and Pacific/Sea of Japan contrast; heavy snowfall locations. (13 October 2026) |
+| japan-tsuyu | approved | Definitions of 梅雨 and 秋雨, standalone reading and regional timing. (13 October 2026) |
+| japan-autumn-rain | approved | Definitions of 梅雨 and 秋雨, standalone reading and regional timing. (13 October 2026) |
+| japan-shrine-temple | approved | Shrine/temple distinction, two bows/two claps/one bow, silent temple prayer and photo restrictions. (13 October 2026) |
+| japan-shrine-prayer | approved | Shrine/temple distinction, two bows/two claps/one bow, silent temple prayer and photo restrictions. (13 October 2026) |
+| japan-temple-prayer | approved | Shrine/temple distinction, two bows/two claps/one bow, silent temple prayer and photo restrictions. (13 October 2026) |
+| japan-religious-photo | approved | Shrine/temple distinction, two bows/two claps/one bow, silent temple prayer and photo restrictions. (13 October 2026) |
+| japan-onsen-wash | approved | Wash/rinse before entry, towels/hair outside water and tattoo policies including small cover sheets. (13 October 2026) |
+| japan-onsen-tattoo | approved | Wash/rinse before entry, towels/hair outside water and tattoo policies including small cover sheets. (13 October 2026) |
+| japan-tipping | approved | Tipping and oshibori use, folding and placing towel beside/tray. (13 October 2026) |
+| japan-oshibori | approved | Tipping and oshibori use, folding and placing towel beside/tray. (13 October 2026) |
+| japan-meal-phrases | approved | Meal expressions, noodle slurping optional, shoes at home and some venues. (13 October 2026) |
+| japan-noodle-slurp | approved | Meal expressions, noodle slurping optional, shoes at home and some venues. (13 October 2026) |
+| japan-shoes-home | approved | Meal expressions, noodle slurping optional, shoes at home and some venues. (13 October 2026) |
+| japan-ryokan-yukata | approved | Ryokan yukata and slippers sometimes permitted outdoors and sometimes not. (13 October 2026) |
+| japan-train-phone | approved | FAQ1090 answers telephone etiquette; crowding restriction introduced in2015. Initially inaccessible short URL, expanded query successfully read. (13 October 2026) |
+| japan-garbage-local | approved | Local collection and separate private collection instructions. (13 October 2026) |
+| japan-washoku-heritage | approved | 2013 inscription, social practice/knowledge and New Year emphasis; search-rendered official page read, direct open challenged. (13 October 2026) |
+| japan-ainu-diversity | approved | Indigenous Ainu northern archipelago/Hokkaido, distinct language and traditions. (13 October 2026) |
+| japan-upopoy | approved | National centre mission and History table opening12July2020. (13 October 2026) |
+| japan-nara-kyoto-capitals | approved | 710/784/794 capital dates and explicit mythological Jimmu. (13 October 2026) |
+| japan-myth-history | approved | 710/784/794 capital dates and explicit mythological Jimmu. (13 October 2026) |
+| japan-golden-week | approved | Golden Week late April/early May high travel demand; dates/price variability. (13 October 2026) |
+| japan-obon | approved | Obon13to16August typical period, ancestors and family gatherings. (13 October 2026) |
+| japan-working-holiday | approved | Holidays primary purpose, employment incidental, nationality-dependent eligibility. (13 October 2026) |
+| japan-social-evidence | blocked | Annual2026 statistical overview; index supports descriptive data, not entire methodological advice. (13 October 2026) |
+| japan-tsunami-information | approved | Warnings by region plus estimated height/arrival. (13 October 2026) |
+| japan-adv-jomon-name | blocked | Cord-marked name, hand manufacture, temporal/regional diversity and unknown ethnicity/language. (13 October 2026) |
+| japan-adv-jomon-settled | approved | 17 northern Jomon sites, pre-agricultural sedentism, dogu and other ritual remains. (13 October 2026) |
+| japan-adv-dogu | approved | 17 northern Jomon sites, pre-agricultural sedentism, dogu and other ritual remains. (13 October 2026) |
+| japan-adv-yayoi-rice | approved | Western to eastern/northern Yayoi spread, wet rice, metalworking and decorated ritual bronze bells. (13 October 2026) |
+| japan-adv-dotaku | approved | Western to eastern/northern Yayoi spread, wet rice, metalworking and decorated ritual bronze bells. (13 October 2026) |
+| japan-adv-kofun-forms | approved | 49 kofun types, rank, moats, haniwa rows/objects/houses/animals/people. (13 October 2026) |
+| japan-adv-haniwa | approved | 49 kofun types, rank, moats, haniwa rows/objects/houses/animals/people. (13 October 2026) |
+| japan-adv-asuka-imports | approved | Continental imports and central administration; capitals move with reigns then Nara710. (13 October 2026) |
+| japan-adv-nara-permanent | approved | Continental imports and central administration; capitals move with reigns then Nara710. (13 October 2026) |
+| japan-adv-fujiwara | approved | Fujiwara marriage/regency/patronage, kana and literary genres; native versus Chinese themes with few early survivors. (13 October 2026) |
+| japan-adv-heian-kana | approved | Fujiwara marriage/regency/patronage, kana and literary genres; native versus Chinese themes with few early survivors. (13 October 2026) |
+| japan-adv-yamatoe-context | approved | Fujiwara marriage/regency/patronage, kana and literary genres; native versus Chinese themes with few early survivors. (13 October 2026) |
+| japan-adv-bakufu | approved | Kamakura government, imperial Kyoto and rival Northern/Southern courts. (13 October 2026) |
+| japan-adv-nanbokucho | approved | Kamakura government, imperial Kyoto and rival Northern/Southern courts. (13 October 2026) |
+| japan-adv-muromachi-name | approved | Muromachi headquarters, provincial power and Onin1467to1477 leading fragmentation. (13 October 2026) |
+| japan-adv-onin-sengoku | approved | Muromachi headquarters, provincial power and Onin1467to1477 leading fragmentation. (13 October 2026) |
+| japan-adv-unifiers | approved | Successive unifiers and coexisting opulent/rustic aesthetics. (13 October 2026) |
+| japan-adv-momoyama-two-aesthetics | approved | Successive unifiers and coexisting opulent/rustic aesthetics. (13 October 2026) |
+| japan-adv-edo-openings | approved | Restricted Chinese/Dutch Nagasaki trade, porcelain and urban merchant/artisan patronage. (13 October 2026) |
+| japan-adv-edo-patrons | approved | Restricted Chinese/Dutch Nagasaki trade, porcelain and urban merchant/artisan patronage. (13 October 2026) |
+| japan-adv-kami | approved | Nature kami, sacred mirror/sword/jewel objects, hidden inner sanctuary images. (13 October 2026) |
+| japan-adv-sacred-objects | approved | Nature kami, sacred mirror/sword/jewel objects, hidden inner sanctuary images. (13 October 2026) |
+| japan-adv-zen-chan | approved | Chan transmission,13thcentury roots, literati/painting transmission and later secular ink subjects. (13 October 2026) |
+| japan-adv-zen-ink | approved | Chan transmission,13thcentury roots, literati/painting transmission and later secular ink subjects. (13 October 2026) |
+| japan-adv-ukiyoe-collaboration | approved | 1765 polychrome calendars and four printmaking trades. (13 October 2026) |
+| japan-adv-nishikie | approved | 1765 polychrome calendars and four printmaking trades. (13 October 2026) |
+| japan-adv-emaki-reading | approved | Formats and handscroll right-to-left segmented consultation. (13 October 2026) |
+| japan-adv-painting-formats | approved | Formats and handscroll right-to-left segmented consultation. (13 October 2026) |
+| japan-adv-chanoyu | approved | Matcha, codified host/guest/utensil interactions, utilitarian pottery revaluation and kiln adaptation. (13 October 2026) |
+| japan-adv-tea-pottery | approved | Matcha, codified host/guest/utensil interactions, utilitarian pottery revaluation and kiln adaptation. (13 October 2026) |
+| japan-adv-four-seasons-image | approved | Literary seasonal imagery and multiple seasons represented in one environment. (13 October 2026) |
+| japan-adv-seasonal-literature | approved | Literary seasonal imagery and multiple seasons represented in one environment. (13 October 2026) |
+| japan-adv-kabuki-origin | approved | Kabuki origins/Okuni, male roles after prohibitions, onnagata practice and jidai/sewa categories; direct curl body read after web errors. (13 October 2026) |
+| japan-adv-onnagata | approved | Kabuki origins/Okuni, male roles after prohibitions, onnagata practice and jidai/sewa categories; direct curl body read after web errors. (13 October 2026) |
+| japan-adv-jidai-sewa | approved | Kabuki origins/Okuni, male roles after prohibitions, onnagata practice and jidai/sewa categories; direct curl body read after web errors. (13 October 2026) |
+| japan-adv-mie | approved | Mie closeup-like emotional pose and variable tsuke clappers/role styles. (13 October 2026) |
+| japan-adv-gagaku-three | approved | Kangen/bugaku/kayo and listed wind/string/percussion instruments. (13 October 2026) |
+| japan-adv-gagaku-instruments | approved | Kangen/bugaku/kayo and listed wind/string/percussion instruments. (13 October 2026) |
+| japan-adv-bunraku-ensemble | approved | Sung narrative, shamisen, tayu roles and three-puppeteer articulated staging; official search body read after direct challenge. (13 October 2026) |
+| japan-adv-bunraku-puppet | approved | Sung narrative, shamisen, tayu roles and three-puppeteer articulated staging; official search body read after direct challenge. (13 October 2026) |
+| japan-adv-shirakami | approved | Siebold beech cool forest, black bear, serow and birds. (13 October 2026) |
+| japan-adv-yakushima | approved | Biogeographic interface, old sugi and warm-temperate forests with altitude gradient. (13 October 2026) |
+| japan-adv-shiretoko | approved | Northeast Hokkaido, land/sea ecosystem and seasonal ice productivity. (13 October 2026) |
+| japan-adv-ogasawara | approved | Endemic island evolution and Asian flora origins with fish/cetaceans/coral. (13 October 2026) |
+| japan-adv-amami-iriomote | approved | Four islands, inscribed uninhabited subtropical forest areas and endemic species. (13 October 2026) |
+| japan-adv-ryukyu-kingdom | approved | Ryukyu elevated castles, social structure, sacred sites and distinct culture from exchange. (13 October 2026) |
+| japan-adv-gusuku | approved | Ryukyu elevated castles, social structure, sacred sites and distinct culture from exchange. (13 October 2026) |
+| japan-adv-kii-networks | approved | Three sacred centres/routes and nature worship/Buddhist fusion. (13 October 2026) |
+| japan-adv-kii-syncretism | approved | Three sacred centres/routes and nature worship/Buddhist fusion. (13 October 2026) |
+| japan-adv-fuji-cultural | approved | 25 sacred/artistic sites, crater/pilgrimage routes and Sengen/oshi/lakes/springs at foot. (13 October 2026) |
+| japan-adv-fuji-surroundings | approved | 25 sacred/artistic sites, crater/pilgrimage routes and Sengen/oshi/lakes/springs at foot. (13 October 2026) |
+| japan-adv-gassho-shape | approved | Steep thatched gassho roofs and mulberry/silkworm economy. (13 October 2026) |
+| japan-adv-gassho-silk | approved | Steep thatched gassho roofs and mulberry/silkworm economy. (13 October 2026) |
+| japan-adv-hiroshima-dome | approved | 6August1945, remaining dome and nuclear disarmament/peace aspiration. (13 October 2026) |
+| japan-adv-hiraizumi-gardens | approved | Pure Land landscape and11th/12thcentury administrative centre. (13 October 2026) |
+| japan-adv-meiji-industry | approved | Iron/steel, shipbuilding/coal,19th/early20thcentury Western technology adaptation. (13 October 2026) |
+| japan-adv-tomioka-france | approved | French machinery/expertise and cocoon farm/egg storage/reeling/teaching chain. (13 October 2026) |
+| japan-adv-iwami-ports | approved | Mining/smelting/refining, routes and coast ports for Korea/China. (13 October 2026) |
+| japan-adv-hidden-christian-sites | approved | Villages/Hara/cathedral and prohibition lifted1873. (13 October 2026) |
+| japan-adv-horyuji-wood | approved | Late7th/early8thcentury wood structures and continental Buddhist adaptation. (13 October 2026) |

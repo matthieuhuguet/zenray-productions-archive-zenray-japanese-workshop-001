@@ -1,0 +1,28 @@
+{
+  "date": "13 October 2026",
+  "source": "/Users/zenray/.claude/Memory1/Japanese/Scripts/drills/oral-01-trous-reels.json",
+  "note": "Reviewed overlay for new corpus lessons; original personal history and drills remain intact.",
+  "items": [
+    {
+      "fr": "Je suis seul (au restaurant, une personne).",
+      "ja": "一人です",
+      "reading": "ひとりです",
+      "role": "customer",
+      "context": "Answering restaurant party size",
+      "sources": [
+        "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/017.html",
+        "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/001.html"
+      ]
+    },
+    {
+      "fr": "C’est à emporter.",
+      "ja": "テイクアウトで",
+      "reading": "ていくあうとで",
+      "role": "customer",
+      "context": "Answering whether to eat in or take out",
+      "sources": [
+        "https://www.irodori.jpf.go.jp/assets/data/starter/pdf/X_L06.pdf"
+      ]
+    }
+  ]
+}

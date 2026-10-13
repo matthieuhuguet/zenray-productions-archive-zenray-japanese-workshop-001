@@ -41,9 +41,9 @@
       },
       "examples": [
         {
-          "ja": "縄文土器には、縄の模様があります。",
-          "reading": "じょうもんどきには、なわのもようがあります。",
-          "fr": "Les poteries Jōmon portent des motifs de cordes.",
+          "ja": "縄文土器には、縄の模様があるものもあります。",
+          "reading": "じょうもんどきには、なわのもようがあるものもあります。",
+          "fr": "Certaines poteries Jōmon portent des motifs de cordes.",
           "provenance": "Original pedagogical example; independent native review pending."
         }
       ]

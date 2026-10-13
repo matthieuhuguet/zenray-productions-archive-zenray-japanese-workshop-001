@@ -1,0 +1,2253 @@
+{
+  "schemaVersion": 1,
+  "reviewerId": "/root/japan_adversarial",
+  "reviewedAt": "13 October 2026",
+  "reviewType": "independent-adversarial-model-review",
+  "scope": "All88sourceJapanrecords and all their original Japanese examples. Not the open lexicon/Tatoeba dataset or personal retests.",
+  "hashAlgorithm": "SHA256 of UTF8 json.dumps(record,ensure_ascii=False,sort_keys=True,separators=(comma,colon))",
+  "inputs": [
+    {
+      "path": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/research/japan/JapanCards.json",
+      "sha256": "385db3e498149915e83b5dad291b6c78dad31da52071dcb37ed0b65b16b676c3"
+    },
+    {
+      "path": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/research/japan/JapanAdvancedRecords.json",
+      "sha256": "ffa82bc9af267eda605d2dae07c05f0330128994a54e51b10aee43420b4a9511"
+    }
+  ],
+  "coverage": {
+    "recordsTotal": 88,
+    "recordsReviewed": 88,
+    "primarySourceURLsAttempted": 54,
+    "primaryContextsRead": 54,
+    "japaneseExamplesReviewed": 32,
+    "approved": 86,
+    "blocked": 2
+  },
+  "limitations": [
+    "Approved means no unresolved issue identified for the bounded present record, not mathematical proof of zero possible errors.",
+    "No human or native-speaker review is claimed. Japanese examples received an independent editorial model check.",
+    "Source accessibility and cited facts were checked13October2026; current instructions/visa rules must be fetched again when acted upon.",
+    "UNESCO ICH direct pages returned challenge bodies, but full official indexed primary content was read; this difference is recorded.",
+    "JR East initial allegation of wrong FAQnumber was retracted after reading FAQ1090direct body. No wrong-URL issue survives."
+  ],
+  "sourceAudits": [
+    {
+      "url": "https://ds.data.jma.go.jp/gmd/cpd/longfcst/en/tourist.html",
+      "checkedAt": "13 October 2026",
+      "evidenceSummary": "Regional north/south and Pacific/Sea of Japan contrast; heavy snowfall locations.",
+      "status": "claim-context-read"
+    },
+    {
+      "url": "https://www.jma.go.jp/jma/kishou/know/yougo_hp/kisetsu.html",
+      "checkedAt": "13 October 2026",
+      "evidenceSummary": "Definitions of 梅雨 and 秋雨, standalone reading and regional timing.",
+      "status": "claim-context-read"
+    },
+    {
+      "url": "https://www.japan.travel/en/guide/shrine-and-temple-traditions/",
+      "checkedAt": "13 October 2026",
+      "evidenceSummary": "Shrine/temple distinction, two bows/two claps/one bow, silent temple prayer and photo restrictions.",
+      "status": "claim-context-read"
+    },
+    {
+      "url": "https://www.japan.travel/en/guide/how-to-best-enjoy-onsen/",
+      "checkedAt": "13 October 2026",
+      "evidenceSummary": "Wash/rinse before entry, towels/hair outside water and tattoo policies including small cover sheets.",
+      "status": "claim-context-read"
+    },
+    {
+      "url": "https://www.japan.travel/en/responsible-travel-guide/japanese-customs-and-etiquette/",
+      "checkedAt": "13 October 2026",
+      "evidenceSummary": "Tipping and oshibori use, folding and placing towel beside/tray.",
+      "status": "claim-context-read"
+    },
+    {
+      "url": "https://www.japan.travel/en/guide/japanese-manners-dos-and-donts/",
+      "checkedAt": "13 October 2026",
+      "evidenceSummary": "Meal expressions, noodle slurping optional, shoes at home and some venues.",
+      "status": "claim-context-read"
+    },
+    {
+      "url": "https://www.japan.travel/en/plan/custom-manners/",
+      "checkedAt": "13 October 2026",
+      "evidenceSummary": "Ryokan yukata and slippers sometimes permitted outdoors and sometimes not.",
+      "status": "claim-context-read"
+    },
+    {
+      "url": "https://jreastfaq.jreast.co.jp/faq/show/1090?site_domain=default",
+      "checkedAt": "13 October 2026",
+      "evidenceSummary": "FAQ1090 answers telephone etiquette; crowding restriction introduced in2015. Initially inaccessible short URL, expanded query successfully read.",
+      "status": "claim-context-read"
+    },
+    {
+      "url": "https://www.city.kyoto.lg.jp/sogo/page/0000251137.html",
+      "checkedAt": "13 October 2026",
+      "evidenceSummary": "Local collection and separate private collection instructions.",
+      "status": "claim-context-read"
+    },
+    {
+      "url": "https://ich.unesco.org/en/RL/washoku-traditional-dietary-cultures-of-the-japanese-notably-for-the-celebration-of-new-year-00869",
+      "checkedAt": "13 October 2026",
+      "evidenceSummary": "2013 inscription, social practice/knowledge and New Year emphasis; search-rendered official page read, direct open challenged.",
+      "status": "claim-context-read"
+    },
+    {
+      "url": "https://ainu-upopoy.go.jp/ainu-culture/",
+      "checkedAt": "13 October 2026",
+      "evidenceSummary": "Indigenous Ainu northern archipelago/Hokkaido, distinct language and traditions.",
+      "status": "claim-context-read"
+    },
+    {
+      "url": "https://ainu-upopoy.go.jp/en/about/",
+      "checkedAt": "13 October 2026",
+      "evidenceSummary": "National centre mission and History table opening12July2020.",
+      "status": "claim-context-read"
+    },
+    {
+      "url": "https://www.japan.travel/en/responsible-travel-guide/features/overview-japanese-history/",
+      "checkedAt": "13 October 2026",
+      "evidenceSummary": "710/784/794 capital dates and explicit mythological Jimmu.",
+      "status": "claim-context-read"
+    },
+    {
+      "url": "https://www.japan.travel/en/faq/",
+      "checkedAt": "13 October 2026",
+      "evidenceSummary": "Golden Week late April/early May high travel demand; dates/price variability.",
+      "status": "claim-context-read"
+    },
+    {
+      "url": "https://www.japan.travel/en/guide/august/",
+      "checkedAt": "13 October 2026",
+      "evidenceSummary": "Obon13to16August typical period, ancestors and family gatherings.",
+      "status": "claim-context-read"
+    },
+    {
+      "url": "https://www.mofa.go.jp/j_info/visit/w_holiday/index.html",
+      "checkedAt": "13 October 2026",
+      "evidenceSummary": "Holidays primary purpose, employment incidental, nationality-dependent eligibility.",
+      "status": "claim-context-read"
+    },
+    {
+      "url": "https://www.stat.go.jp/english/data/handbook/index.html",
+      "checkedAt": "13 October 2026",
+      "evidenceSummary": "Annual2026 statistical overview; index supports descriptive data, not entire methodological advice.",
+      "status": "claim-context-read"
+    },
+    {
+      "url": "https://www.data.jma.go.jp/eqev/data/en/tsunami/tsunami_warning.html",
+      "checkedAt": "13 October 2026",
+      "evidenceSummary": "Warnings by region plus estimated height/arrival.",
+      "status": "claim-context-read"
+    },
+    {
+      "url": "https://www.metmuseum.org/essays/jomon-culture-ca-10500-ca-300-b-c",
+      "checkedAt": "13 October 2026",
+      "evidenceSummary": "Cord-marked name, hand manufacture, temporal/regional diversity and unknown ethnicity/language.",
+      "status": "claim-context-read"
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/1632/",
+      "checkedAt": "13 October 2026",
+      "evidenceSummary": "17 northern Jomon sites, pre-agricultural sedentism, dogu and other ritual remains.",
+      "status": "claim-context-read"
+    },
+    {
+      "url": "https://www.metmuseum.org/ko/essays/yayoi-culture-ca-4th-century-b-c-3rd-century-a-d",
+      "checkedAt": "13 October 2026",
+      "evidenceSummary": "Western to eastern/northern Yayoi spread, wet rice, metalworking and decorated ritual bronze bells.",
+      "status": "claim-context-read"
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/1593/",
+      "checkedAt": "13 October 2026",
+      "evidenceSummary": "49 kofun types, rank, moats, haniwa rows/objects/houses/animals/people.",
+      "status": "claim-context-read"
+    },
+    {
+      "url": "https://www.metmuseum.org/de/essays/asuka-and-nara-periods-538-794",
+      "checkedAt": "13 October 2026",
+      "evidenceSummary": "Continental imports and central administration; capitals move with reigns then Nara710.",
+      "status": "claim-context-read"
+    },
+    {
+      "url": "https://www.metmuseum.org/essays/heian-period-794-1185",
+      "checkedAt": "13 October 2026",
+      "evidenceSummary": "Fujiwara marriage/regency/patronage, kana and literary genres; native versus Chinese themes with few early survivors.",
+      "status": "claim-context-read"
+    },
+    {
+      "url": "https://www.metmuseum.org/essays/kamakura-and-nanbokucho-periods-1185-1392",
+      "checkedAt": "13 October 2026",
+      "evidenceSummary": "Kamakura government, imperial Kyoto and rival Northern/Southern courts.",
+      "status": "claim-context-read"
+    },
+    {
+      "url": "https://www.metmuseum.org/essays/muromachi-period-1392-1573",
+      "checkedAt": "13 October 2026",
+      "evidenceSummary": "Muromachi headquarters, provincial power and Onin1467to1477 leading fragmentation.",
+      "status": "claim-context-read"
+    },
+    {
+      "url": "https://www.metmuseum.org/essays/momoyama-period-1573-1615",
+      "checkedAt": "13 October 2026",
+      "evidenceSummary": "Successive unifiers and coexisting opulent/rustic aesthetics.",
+      "status": "claim-context-read"
+    },
+    {
+      "url": "https://www.metmuseum.org/essays/art-of-the-edo-period-1615-1868",
+      "checkedAt": "13 October 2026",
+      "evidenceSummary": "Restricted Chinese/Dutch Nagasaki trade, porcelain and urban merchant/artisan patronage.",
+      "status": "claim-context-read"
+    },
+    {
+      "url": "https://www.metmuseum.org/essays/shinto",
+      "checkedAt": "13 October 2026",
+      "evidenceSummary": "Nature kami, sacred mirror/sword/jewel objects, hidden inner sanctuary images.",
+      "status": "claim-context-read"
+    },
+    {
+      "url": "https://www.metmuseum.org/essays/zen-buddhism",
+      "checkedAt": "13 October 2026",
+      "evidenceSummary": "Chan transmission,13thcentury roots, literati/painting transmission and later secular ink subjects.",
+      "status": "claim-context-read"
+    },
+    {
+      "url": "https://www.metmuseum.org/essays/woodblock-prints-in-the-ukiyo-e-style",
+      "checkedAt": "13 October 2026",
+      "evidenceSummary": "1765 polychrome calendars and four printmaking trades.",
+      "status": "claim-context-read"
+    },
+    {
+      "url": "https://www.metmuseum.org/essays/japanese-illustrated-handscrolls",
+      "checkedAt": "13 October 2026",
+      "evidenceSummary": "Formats and handscroll right-to-left segmented consultation.",
+      "status": "claim-context-read"
+    },
+    {
+      "url": "https://www.metmuseum.org/essays/the-japanese-tea-ceremony",
+      "checkedAt": "13 October 2026",
+      "evidenceSummary": "Matcha, codified host/guest/utensil interactions, utilitarian pottery revaluation and kiln adaptation.",
+      "status": "claim-context-read"
+    },
+    {
+      "url": "https://www.metmuseum.org/essays/seasonal-imagery-in-japanese-art",
+      "checkedAt": "13 October 2026",
+      "evidenceSummary": "Literary seasonal imagery and multiple seasons represented in one environment.",
+      "status": "claim-context-read"
+    },
+    {
+      "url": "https://www2.ntj.jac.go.jp/unesco/kabuki/en/feature/feature1.html",
+      "checkedAt": "13 October 2026",
+      "evidenceSummary": "Kabuki origins/Okuni, male roles after prohibitions, onnagata practice and jidai/sewa categories; direct curl body read after web errors.",
+      "status": "claim-context-read"
+    },
+    {
+      "url": "https://www2.ntj.jac.go.jp/unesco/kabuki/en/production/performance5.html",
+      "checkedAt": "13 October 2026",
+      "evidenceSummary": "Mie closeup-like emotional pose and variable tsuke clappers/role styles.",
+      "status": "claim-context-read"
+    },
+    {
+      "url": "https://www.kunaicho.go.jp/en/learn/culture/gagaku.html",
+      "checkedAt": "13 October 2026",
+      "evidenceSummary": "Kangen/bugaku/kayo and listed wind/string/percussion instruments.",
+      "status": "claim-context-read"
+    },
+    {
+      "url": "https://ich.unesco.org/en/RL/bunraku-00064",
+      "checkedAt": "13 October 2026",
+      "evidenceSummary": "Sung narrative, shamisen, tayu roles and three-puppeteer articulated staging; official search body read after direct challenge.",
+      "status": "claim-context-read"
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/663/",
+      "checkedAt": "13 October 2026",
+      "evidenceSummary": "Siebold beech cool forest, black bear, serow and birds.",
+      "status": "claim-context-read"
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/662/",
+      "checkedAt": "13 October 2026",
+      "evidenceSummary": "Biogeographic interface, old sugi and warm-temperate forests with altitude gradient.",
+      "status": "claim-context-read"
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/1193/",
+      "checkedAt": "13 October 2026",
+      "evidenceSummary": "Northeast Hokkaido, land/sea ecosystem and seasonal ice productivity.",
+      "status": "claim-context-read"
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/1362/",
+      "checkedAt": "13 October 2026",
+      "evidenceSummary": "Endemic island evolution and Asian flora origins with fish/cetaceans/coral.",
+      "status": "claim-context-read"
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/1574/",
+      "checkedAt": "13 October 2026",
+      "evidenceSummary": "Four islands, inscribed uninhabited subtropical forest areas and endemic species.",
+      "status": "claim-context-read"
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/972/",
+      "checkedAt": "13 October 2026",
+      "evidenceSummary": "Ryukyu elevated castles, social structure, sacred sites and distinct culture from exchange.",
+      "status": "claim-context-read"
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/1142/",
+      "checkedAt": "13 October 2026",
+      "evidenceSummary": "Three sacred centres/routes and nature worship/Buddhist fusion.",
+      "status": "claim-context-read"
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/1418/",
+      "checkedAt": "13 October 2026",
+      "evidenceSummary": "25 sacred/artistic sites, crater/pilgrimage routes and Sengen/oshi/lakes/springs at foot.",
+      "status": "claim-context-read"
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/734/",
+      "checkedAt": "13 October 2026",
+      "evidenceSummary": "Steep thatched gassho roofs and mulberry/silkworm economy.",
+      "status": "claim-context-read"
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/775/",
+      "checkedAt": "13 October 2026",
+      "evidenceSummary": "6August1945, remaining dome and nuclear disarmament/peace aspiration.",
+      "status": "claim-context-read"
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/1277/",
+      "checkedAt": "13 October 2026",
+      "evidenceSummary": "Pure Land landscape and11th/12thcentury administrative centre.",
+      "status": "claim-context-read"
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/1484/",
+      "checkedAt": "13 October 2026",
+      "evidenceSummary": "Iron/steel, shipbuilding/coal,19th/early20thcentury Western technology adaptation.",
+      "status": "claim-context-read"
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/1449/",
+      "checkedAt": "13 October 2026",
+      "evidenceSummary": "French machinery/expertise and cocoon farm/egg storage/reeling/teaching chain.",
+      "status": "claim-context-read"
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/1246/",
+      "checkedAt": "13 October 2026",
+      "evidenceSummary": "Mining/smelting/refining, routes and coast ports for Korea/China.",
+      "status": "claim-context-read"
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/1495/",
+      "checkedAt": "13 October 2026",
+      "evidenceSummary": "Villages/Hara/cathedral and prohibition lifted1873.",
+      "status": "claim-context-read"
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/660/",
+      "checkedAt": "13 October 2026",
+      "evidenceSummary": "Late7th/early8thcentury wood structures and continental Buddhist adaptation.",
+      "status": "claim-context-read"
+    }
+  ],
+  "issues": [
+    {
+      "id": "JP-001",
+      "recordId": "japan-adv-jomon-name",
+      "severity": "medium",
+      "field": "examples[0].ja, examples[0].fr",
+      "status": "open",
+      "claim": "縄文土器には、縄の模様があります。 / Les poteries Jōmon portent des motifs de cordes.",
+      "finding": "Unqualified generic example can be read as covering every Jomon pot, whereas the card correctly narrows the decorated population to numerous examples. Under strict no-unresolved-doubt policy, retain the narrower quantifier in the example. This is an ambiguity risk, not a demonstrated false universal asserted by Japanese grammar.",
+      "sourceURL": "https://www.metmuseum.org/essays/jomon-culture-ca-10500-ca-300-b-c",
+      "evidence": "The Met describes wide cultural diversity and the naming convention. The record itself uses de nombreuses poteries.",
+      "proposedCorrection": {
+        "ja": "縄文土器には、縄の模様があるものがあります。",
+        "reading": "じょうもんどきには、なわのもようがあるものがあります。",
+        "fr": "Certaines poteries Jōmon portent des motifs de cordes."
+      },
+      "requiresRecheck": true
+    },
+    {
+      "id": "JP-002",
+      "recordId": "japan-social-evidence",
+      "severity": "medium",
+      "field": "claimType, sources",
+      "status": "open",
+      "claim": "claimType=fact with Statistical Handbook index as sole support for methodological injunctions.",
+      "finding": "Advice to inspect survey questions and sample is editorial methodology, not a finding established by the linked handbook landing page. The descriptive Statistics Bureau part is supported. Label the methodological part transparently instead of implying institutional provenance.",
+      "sourceURL": "https://www.stat.go.jp/english/data/handbook/index.html",
+      "evidence": "Handbook introduction describes an annual statistical overview and government/principal-source tables; it does not state the complete research method on this card.",
+      "proposedCorrection": {
+        "claimType": "editorial-method",
+        "scopeNote": "Conseil méthodologique éditorial ; la source du Statistics Bureau documente seulement les données descriptives proposées."
+      },
+      "requiresRecheck": true
+    }
+  ],
+  "records": [
+    {
+      "recordId": "japan-regional-climate",
+      "recordSha256": "9e495496a644603fd3e865cb7a65eae5bda9f732a9b6ddebebcaf841d2687cb8",
+      "reviewedAt": "13 October 2026",
+      "verdict": "approved",
+      "checks": {
+        "sourceClaim": "checked-against-primary-context",
+        "datesAndNames": "checked",
+        "socialGeneralization": "bounded-or-not-applicable",
+        "japaneseExamples": "editorial-check-passed",
+        "readingAndTranslation": "editorial-check-passed"
+      },
+      "exampleCount": 1,
+      "sources": [
+        {
+          "url": "https://ds.data.jma.go.jp/gmd/cpd/longfcst/en/tourist.html",
+          "evidenceSummary": "Regional north/south and Pacific/Sea of Japan contrast; heavy snowfall locations."
+        }
+      ],
+      "issueIds": []
+    },
+    {
+      "recordId": "japan-japan-winter",
+      "recordSha256": "ee70d9592a2a52d8d0e8a216b1059842ee7b6669c8b53199400c5927df5875f4",
+      "reviewedAt": "13 October 2026",
+      "verdict": "approved",
+      "checks": {
+        "sourceClaim": "checked-against-primary-context",
+        "datesAndNames": "checked",
+        "socialGeneralization": "bounded-or-not-applicable",
+        "japaneseExamples": "editorial-check-passed",
+        "readingAndTranslation": "editorial-check-passed"
+      },
+      "exampleCount": 1,
+      "sources": [
+        {
+          "url": "https://ds.data.jma.go.jp/gmd/cpd/longfcst/en/tourist.html",
+          "evidenceSummary": "Regional north/south and Pacific/Sea of Japan contrast; heavy snowfall locations."
+        }
+      ],
+      "issueIds": []
+    },
+    {
+      "recordId": "japan-tsuyu",
+      "recordSha256": "18aa3228d46265821db9cd256510fada2202f7823232997464877456ff2d3428",
+      "reviewedAt": "13 October 2026",
+      "verdict": "approved",
+      "checks": {
+        "sourceClaim": "checked-against-primary-context",
+        "datesAndNames": "checked",
+        "socialGeneralization": "bounded-or-not-applicable",
+        "japaneseExamples": "editorial-check-passed",
+        "readingAndTranslation": "editorial-check-passed"
+      },
+      "exampleCount": 1,
+      "sources": [
+        {
+          "url": "https://www.jma.go.jp/jma/kishou/know/yougo_hp/kisetsu.html",
+          "evidenceSummary": "Definitions of 梅雨 and 秋雨, standalone reading and regional timing."
+        }
+      ],
+      "issueIds": []
+    },
+    {
+      "recordId": "japan-autumn-rain",
+      "recordSha256": "255861353c6ce6d30dfac673e6b2454a4dc83871035451083738c925272e61a2",
+      "reviewedAt": "13 October 2026",
+      "verdict": "approved",
+      "checks": {
+        "sourceClaim": "checked-against-primary-context",
+        "datesAndNames": "checked",
+        "socialGeneralization": "bounded-or-not-applicable",
+        "japaneseExamples": "editorial-check-passed",
+        "readingAndTranslation": "editorial-check-passed"
+      },
+      "exampleCount": 1,
+      "sources": [
+        {
+          "url": "https://www.jma.go.jp/jma/kishou/know/yougo_hp/kisetsu.html",
+          "evidenceSummary": "Definitions of 梅雨 and 秋雨, standalone reading and regional timing."
+        }
+      ],
+      "issueIds": []
+    },
+    {
+      "recordId": "japan-shrine-temple",
+      "recordSha256": "e8c3272053f51ba236d76d5af6bb715d182a5cb2308c9a47f5906d2d6f8b766f",
+      "reviewedAt": "13 October 2026",
+      "verdict": "approved",
+      "checks": {
+        "sourceClaim": "checked-against-primary-context",
+        "datesAndNames": "checked",
+        "socialGeneralization": "bounded-or-not-applicable",
+        "japaneseExamples": "editorial-check-passed",
+        "readingAndTranslation": "editorial-check-passed"
+      },
+      "exampleCount": 1,
+      "sources": [
+        {
+          "url": "https://www.japan.travel/en/guide/shrine-and-temple-traditions/",
+          "evidenceSummary": "Shrine/temple distinction, two bows/two claps/one bow, silent temple prayer and photo restrictions."
+        }
+      ],
+      "issueIds": []
+    },
+    {
+      "recordId": "japan-shrine-prayer",
+      "recordSha256": "025f8e32dd7b92659b493144933f0372688797416f6c051b75451185bf7edbf8",
+      "reviewedAt": "13 October 2026",
+      "verdict": "approved",
+      "checks": {
+        "sourceClaim": "checked-against-primary-context",
+        "datesAndNames": "checked",
+        "socialGeneralization": "bounded-or-not-applicable",
+        "japaneseExamples": "editorial-check-passed",
+        "readingAndTranslation": "editorial-check-passed"
+      },
+      "exampleCount": 1,
+      "sources": [
+        {
+          "url": "https://www.japan.travel/en/guide/shrine-and-temple-traditions/",
+          "evidenceSummary": "Shrine/temple distinction, two bows/two claps/one bow, silent temple prayer and photo restrictions."
+        }
+      ],
+      "issueIds": []
+    },
+    {
+      "recordId": "japan-temple-prayer",
+      "recordSha256": "4407af572f6f215dd8713d96a6e3e71a0b21500c8b31cf27e8eca936871d5e89",
+      "reviewedAt": "13 October 2026",
+      "verdict": "approved",
+      "checks": {
+        "sourceClaim": "checked-against-primary-context",
+        "datesAndNames": "checked",
+        "socialGeneralization": "bounded-or-not-applicable",
+        "japaneseExamples": "editorial-check-passed",
+        "readingAndTranslation": "editorial-check-passed"
+      },
+      "exampleCount": 1,
+      "sources": [
+        {
+          "url": "https://www.japan.travel/en/guide/shrine-and-temple-traditions/",
+          "evidenceSummary": "Shrine/temple distinction, two bows/two claps/one bow, silent temple prayer and photo restrictions."
+        }
+      ],
+      "issueIds": []
+    },
+    {
+      "recordId": "japan-religious-photo",
+      "recordSha256": "b3895a6f4817fb81bd571c6a9722cdcb308addcbe91b5cbc5b444d967da696b3",
+      "reviewedAt": "13 October 2026",
+      "verdict": "approved",
+      "checks": {
+        "sourceClaim": "checked-against-primary-context",
+        "datesAndNames": "checked",
+        "socialGeneralization": "bounded-or-not-applicable",
+        "japaneseExamples": "editorial-check-passed",
+        "readingAndTranslation": "editorial-check-passed"
+      },
+      "exampleCount": 1,
+      "sources": [
+        {
+          "url": "https://www.japan.travel/en/guide/shrine-and-temple-traditions/",
+          "evidenceSummary": "Shrine/temple distinction, two bows/two claps/one bow, silent temple prayer and photo restrictions."
+        }
+      ],
+      "issueIds": []
+    },
+    {
+      "recordId": "japan-onsen-wash",
+      "recordSha256": "73a6cddc3c2e6285bb08cc3d7f05e614770300928f67f777812f444cd93dd5a8",
+      "reviewedAt": "13 October 2026",
+      "verdict": "approved",
+      "checks": {
+        "sourceClaim": "checked-against-primary-context",
+        "datesAndNames": "checked",
+        "socialGeneralization": "bounded-or-not-applicable",
+        "japaneseExamples": "editorial-check-passed",
+        "readingAndTranslation": "editorial-check-passed"
+      },
+      "exampleCount": 1,
+      "sources": [
+        {
+          "url": "https://www.japan.travel/en/guide/how-to-best-enjoy-onsen/",
+          "evidenceSummary": "Wash/rinse before entry, towels/hair outside water and tattoo policies including small cover sheets."
+        }
+      ],
+      "issueIds": []
+    },
+    {
+      "recordId": "japan-onsen-tattoo",
+      "recordSha256": "f7a9b2515a283454b502fce6664996d75d837341a7171708c871ac60d999976e",
+      "reviewedAt": "13 October 2026",
+      "verdict": "approved",
+      "checks": {
+        "sourceClaim": "checked-against-primary-context",
+        "datesAndNames": "checked",
+        "socialGeneralization": "bounded-or-not-applicable",
+        "japaneseExamples": "editorial-check-passed",
+        "readingAndTranslation": "editorial-check-passed"
+      },
+      "exampleCount": 1,
+      "sources": [
+        {
+          "url": "https://www.japan.travel/en/guide/how-to-best-enjoy-onsen/",
+          "evidenceSummary": "Wash/rinse before entry, towels/hair outside water and tattoo policies including small cover sheets."
+        }
+      ],
+      "issueIds": []
+    },
+    {
+      "recordId": "japan-tipping",
+      "recordSha256": "1504a7d7c565f5b0d610ee5f2a96cdcc9d2634daa9fd733bacd754ffdd6bebd4",
+      "reviewedAt": "13 October 2026",
+      "verdict": "approved",
+      "checks": {
+        "sourceClaim": "checked-against-primary-context",
+        "datesAndNames": "checked",
+        "socialGeneralization": "bounded-or-not-applicable",
+        "japaneseExamples": "editorial-check-passed",
+        "readingAndTranslation": "editorial-check-passed"
+      },
+      "exampleCount": 1,
+      "sources": [
+        {
+          "url": "https://www.japan.travel/en/responsible-travel-guide/japanese-customs-and-etiquette/",
+          "evidenceSummary": "Tipping and oshibori use, folding and placing towel beside/tray."
+        }
+      ],
+      "issueIds": []
+    },
+    {
+      "recordId": "japan-oshibori",
+      "recordSha256": "6a8656bb3b1ce4cdf079683a6d789f9e90cb3a14df5c4d061c36d5bd1dbab4b0",
+      "reviewedAt": "13 October 2026",
+      "verdict": "approved",
+      "checks": {
+        "sourceClaim": "checked-against-primary-context",
+        "datesAndNames": "checked",
+        "socialGeneralization": "bounded-or-not-applicable",
+        "japaneseExamples": "editorial-check-passed",
+        "readingAndTranslation": "editorial-check-passed"
+      },
+      "exampleCount": 1,
+      "sources": [
+        {
+          "url": "https://www.japan.travel/en/responsible-travel-guide/japanese-customs-and-etiquette/",
+          "evidenceSummary": "Tipping and oshibori use, folding and placing towel beside/tray."
+        }
+      ],
+      "issueIds": []
+    },
+    {
+      "recordId": "japan-meal-phrases",
+      "recordSha256": "d0d42154607ac664ba434e563ae0b77f80d329ed15525f8ee3d2a78504986981",
+      "reviewedAt": "13 October 2026",
+      "verdict": "approved",
+      "checks": {
+        "sourceClaim": "checked-against-primary-context",
+        "datesAndNames": "checked",
+        "socialGeneralization": "bounded-or-not-applicable",
+        "japaneseExamples": "editorial-check-passed",
+        "readingAndTranslation": "editorial-check-passed"
+      },
+      "exampleCount": 1,
+      "sources": [
+        {
+          "url": "https://www.japan.travel/en/guide/japanese-manners-dos-and-donts/",
+          "evidenceSummary": "Meal expressions, noodle slurping optional, shoes at home and some venues."
+        }
+      ],
+      "issueIds": []
+    },
+    {
+      "recordId": "japan-noodle-slurp",
+      "recordSha256": "27ecc8a95c3363d0c94f115300b4e5f5063ea39817bdf6ba50b36e2265d361f8",
+      "reviewedAt": "13 October 2026",
+      "verdict": "approved",
+      "checks": {
+        "sourceClaim": "checked-against-primary-context",
+        "datesAndNames": "checked",
+        "socialGeneralization": "bounded-or-not-applicable",
+        "japaneseExamples": "editorial-check-passed",
+        "readingAndTranslation": "editorial-check-passed"
+      },
+      "exampleCount": 1,
+      "sources": [
+        {
+          "url": "https://www.japan.travel/en/guide/japanese-manners-dos-and-donts/",
+          "evidenceSummary": "Meal expressions, noodle slurping optional, shoes at home and some venues."
+        }
+      ],
+      "issueIds": []
+    },
+    {
+      "recordId": "japan-shoes-home",
+      "recordSha256": "2e098685a94de074ee4b1dd3e39d1cbf254ce06fb5410c8434d3895c062a322f",
+      "reviewedAt": "13 October 2026",
+      "verdict": "approved",
+      "checks": {
+        "sourceClaim": "checked-against-primary-context",
+        "datesAndNames": "checked",
+        "socialGeneralization": "bounded-or-not-applicable",
+        "japaneseExamples": "editorial-check-passed",
+        "readingAndTranslation": "editorial-check-passed"
+      },
+      "exampleCount": 1,
+      "sources": [
+        {
+          "url": "https://www.japan.travel/en/guide/japanese-manners-dos-and-donts/",
+          "evidenceSummary": "Meal expressions, noodle slurping optional, shoes at home and some venues."
+        }
+      ],
+      "issueIds": []
+    },
+    {
+      "recordId": "japan-ryokan-yukata",
+      "recordSha256": "083d2338fa1283f237103a9d9bb8843f73b3c87663f3b3d87351dc2a803dfa90",
+      "reviewedAt": "13 October 2026",
+      "verdict": "approved",
+      "checks": {
+        "sourceClaim": "checked-against-primary-context",
+        "datesAndNames": "checked",
+        "socialGeneralization": "bounded-or-not-applicable",
+        "japaneseExamples": "editorial-check-passed",
+        "readingAndTranslation": "editorial-check-passed"
+      },
+      "exampleCount": 1,
+      "sources": [
+        {
+          "url": "https://www.japan.travel/en/plan/custom-manners/",
+          "evidenceSummary": "Ryokan yukata and slippers sometimes permitted outdoors and sometimes not."
+        }
+      ],
+      "issueIds": []
+    },
+    {
+      "recordId": "japan-train-phone",
+      "recordSha256": "877b25dc97224fc5814c138bb9ab7ddc87229279e0c301c6ec376c4cc4d13165",
+      "reviewedAt": "13 October 2026",
+      "verdict": "approved",
+      "checks": {
+        "sourceClaim": "checked-against-primary-context",
+        "datesAndNames": "checked",
+        "socialGeneralization": "bounded-or-not-applicable",
+        "japaneseExamples": "editorial-check-passed",
+        "readingAndTranslation": "editorial-check-passed"
+      },
+      "exampleCount": 1,
+      "sources": [
+        {
+          "url": "https://jreastfaq.jreast.co.jp/faq/show/1090?site_domain=default",
+          "evidenceSummary": "FAQ1090 answers telephone etiquette; crowding restriction introduced in2015. Initially inaccessible short URL, expanded query successfully read."
+        }
+      ],
+      "issueIds": []
+    },
+    {
+      "recordId": "japan-garbage-local",
+      "recordSha256": "aa691a706cf92967aa8ec05e1cbcfad969a35fecdba90e55917ee8695568e529",
+      "reviewedAt": "13 October 2026",
+      "verdict": "approved",
+      "checks": {
+        "sourceClaim": "checked-against-primary-context",
+        "datesAndNames": "checked",
+        "socialGeneralization": "bounded-or-not-applicable",
+        "japaneseExamples": "editorial-check-passed",
+        "readingAndTranslation": "editorial-check-passed"
+      },
+      "exampleCount": 1,
+      "sources": [
+        {
+          "url": "https://www.city.kyoto.lg.jp/sogo/page/0000251137.html",
+          "evidenceSummary": "Local collection and separate private collection instructions."
+        }
+      ],
+      "issueIds": []
+    },
+    {
+      "recordId": "japan-washoku-heritage",
+      "recordSha256": "6d9afeb77c17464ffd7e064cfbd043bd9a21f3f1e5a4af947e17f84393c2cc06",
+      "reviewedAt": "13 October 2026",
+      "verdict": "approved",
+      "checks": {
+        "sourceClaim": "checked-against-primary-context",
+        "datesAndNames": "checked",
+        "socialGeneralization": "bounded-or-not-applicable",
+        "japaneseExamples": "editorial-check-passed",
+        "readingAndTranslation": "editorial-check-passed"
+      },
+      "exampleCount": 1,
+      "sources": [
+        {
+          "url": "https://ich.unesco.org/en/RL/washoku-traditional-dietary-cultures-of-the-japanese-notably-for-the-celebration-of-new-year-00869",
+          "evidenceSummary": "2013 inscription, social practice/knowledge and New Year emphasis; search-rendered official page read, direct open challenged."
+        }
+      ],
+      "issueIds": []
+    },
+    {
+      "recordId": "japan-ainu-diversity",
+      "recordSha256": "1b172033c21afbd97d5572b2c24be4e5def7eee4c9d08b3640f877f5552060fd",
+      "reviewedAt": "13 October 2026",
+      "verdict": "approved",
+      "checks": {
+        "sourceClaim": "checked-against-primary-context",
+        "datesAndNames": "checked",
+        "socialGeneralization": "bounded-or-not-applicable",
+        "japaneseExamples": "editorial-check-passed",
+        "readingAndTranslation": "editorial-check-passed"
+      },
+      "exampleCount": 1,
+      "sources": [
+        {
+          "url": "https://ainu-upopoy.go.jp/ainu-culture/",
+          "evidenceSummary": "Indigenous Ainu northern archipelago/Hokkaido, distinct language and traditions."
+        }
+      ],
+      "issueIds": []
+    },
+    {
+      "recordId": "japan-upopoy",
+      "recordSha256": "c439d2a96fe85a3ab5fdd3f4e8d4c3c91dbe90c4d60ef2936a4ffeb42184ff7a",
+      "reviewedAt": "13 October 2026",
+      "verdict": "approved",
+      "checks": {
+        "sourceClaim": "checked-against-primary-context",
+        "datesAndNames": "checked",
+        "socialGeneralization": "bounded-or-not-applicable",
+        "japaneseExamples": "editorial-check-passed",
+        "readingAndTranslation": "editorial-check-passed"
+      },
+      "exampleCount": 1,
+      "sources": [
+        {
+          "url": "https://ainu-upopoy.go.jp/en/about/",
+          "evidenceSummary": "National centre mission and History table opening12July2020."
+        }
+      ],
+      "issueIds": []
+    },
+    {
+      "recordId": "japan-nara-kyoto-capitals",
+      "recordSha256": "35f11169b98aea4dd8ee8a2bb40c259f55cf9e12d22b059e2b54f970a53eb45d",
+      "reviewedAt": "13 October 2026",
+      "verdict": "approved",
+      "checks": {
+        "sourceClaim": "checked-against-primary-context",
+        "datesAndNames": "checked",
+        "socialGeneralization": "bounded-or-not-applicable",
+        "japaneseExamples": "editorial-check-passed",
+        "readingAndTranslation": "editorial-check-passed"
+      },
+      "exampleCount": 1,
+      "sources": [
+        {
+          "url": "https://www.japan.travel/en/responsible-travel-guide/features/overview-japanese-history/",
+          "evidenceSummary": "710/784/794 capital dates and explicit mythological Jimmu."
+        }
+      ],
+      "issueIds": []
+    },
+    {
+      "recordId": "japan-myth-history",
+      "recordSha256": "3d655b661c3e081231ec1b2ee25649265493923a97305ed271574d328fa09f27",
+      "reviewedAt": "13 October 2026",
+      "verdict": "approved",
+      "checks": {
+        "sourceClaim": "checked-against-primary-context",
+        "datesAndNames": "checked",
+        "socialGeneralization": "bounded-or-not-applicable",
+        "japaneseExamples": "editorial-check-passed",
+        "readingAndTranslation": "editorial-check-passed"
+      },
+      "exampleCount": 1,
+      "sources": [
+        {
+          "url": "https://www.japan.travel/en/responsible-travel-guide/features/overview-japanese-history/",
+          "evidenceSummary": "710/784/794 capital dates and explicit mythological Jimmu."
+        }
+      ],
+      "issueIds": []
+    },
+    {
+      "recordId": "japan-golden-week",
+      "recordSha256": "5ef161600ee56154a1784341e70d5d483739fa8187399e4f01b10ec467532903",
+      "reviewedAt": "13 October 2026",
+      "verdict": "approved",
+      "checks": {
+        "sourceClaim": "checked-against-primary-context",
+        "datesAndNames": "checked",
+        "socialGeneralization": "bounded-or-not-applicable",
+        "japaneseExamples": "editorial-check-passed",
+        "readingAndTranslation": "editorial-check-passed"
+      },
+      "exampleCount": 1,
+      "sources": [
+        {
+          "url": "https://www.japan.travel/en/faq/",
+          "evidenceSummary": "Golden Week late April/early May high travel demand; dates/price variability."
+        }
+      ],
+      "issueIds": []
+    },
+    {
+      "recordId": "japan-obon",
+      "recordSha256": "e775bc4e37dc7ab4a07f800b93d7f237c2cee91d2952656bdf70554a187ec050",
+      "reviewedAt": "13 October 2026",
+      "verdict": "approved",
+      "checks": {
+        "sourceClaim": "checked-against-primary-context",
+        "datesAndNames": "checked",
+        "socialGeneralization": "bounded-or-not-applicable",
+        "japaneseExamples": "editorial-check-passed",
+        "readingAndTranslation": "editorial-check-passed"
+      },
+      "exampleCount": 1,
+      "sources": [
+        {
+          "url": "https://www.japan.travel/en/guide/august/",
+          "evidenceSummary": "Obon13to16August typical period, ancestors and family gatherings."
+        }
+      ],
+      "issueIds": []
+    },
+    {
+      "recordId": "japan-working-holiday",
+      "recordSha256": "cb388940a51a15e7f5475e9aec7227ea03447a8467426fb8d537abe125103c11",
+      "reviewedAt": "13 October 2026",
+      "verdict": "approved",
+      "checks": {
+        "sourceClaim": "checked-against-primary-context",
+        "datesAndNames": "checked",
+        "socialGeneralization": "bounded-or-not-applicable",
+        "japaneseExamples": "editorial-check-passed",
+        "readingAndTranslation": "editorial-check-passed"
+      },
+      "exampleCount": 1,
+      "sources": [
+        {
+          "url": "https://www.mofa.go.jp/j_info/visit/w_holiday/index.html",
+          "evidenceSummary": "Holidays primary purpose, employment incidental, nationality-dependent eligibility."
+        }
+      ],
+      "issueIds": []
+    },
+    {
+      "recordId": "japan-social-evidence",
+      "recordSha256": "569df153156e5697d98ee575a98c936d872893e19ec6d902e141b2b2cebef139",
+      "reviewedAt": "13 October 2026",
+      "verdict": "blocked",
+      "checks": {
+        "sourceClaim": "supported-with-provenance-issue",
+        "datesAndNames": "checked",
+        "socialGeneralization": "bounded-or-not-applicable",
+        "japaneseExamples": "editorial-check-passed",
+        "readingAndTranslation": "editorial-check-passed"
+      },
+      "exampleCount": 1,
+      "sources": [
+        {
+          "url": "https://www.stat.go.jp/english/data/handbook/index.html",
+          "evidenceSummary": "Annual2026 statistical overview; index supports descriptive data, not entire methodological advice."
+        }
+      ],
+      "issueIds": [
+        "JP-002"
+      ]
+    },
+    {
+      "recordId": "japan-tsunami-information",
+      "recordSha256": "278f243ecacb3e614ce662e6ada18cc1b53f385a2c7e2da6bd65bd7a64a73cc7",
+      "reviewedAt": "13 October 2026",
+      "verdict": "approved",
+      "checks": {
+        "sourceClaim": "checked-against-primary-context",
+        "datesAndNames": "checked",
+        "socialGeneralization": "bounded-or-not-applicable",
+        "japaneseExamples": "editorial-check-passed",
+        "readingAndTranslation": "editorial-check-passed"
+      },
+      "exampleCount": 1,
+      "sources": [
+        {
+          "url": "https://www.data.jma.go.jp/eqev/data/en/tsunami/tsunami_warning.html",
+          "evidenceSummary": "Warnings by region plus estimated height/arrival."
+        }
+      ],
+      "issueIds": []
+    },
+    {
+      "recordId": "japan-adv-jomon-name",
+      "recordSha256": "37173dec9683273abe1dac69d20d6995460d5340a03ada69dfd494bc30f90e0f",
+      "reviewedAt": "13 October 2026",
+      "verdict": "blocked",
+      "checks": {
+        "sourceClaim": "checked-against-primary-context",
+        "datesAndNames": "checked",
+        "socialGeneralization": "bounded-or-not-applicable",
+        "japaneseExamples": "ambiguity-open",
+        "readingAndTranslation": "ambiguity-open"
+      },
+      "exampleCount": 1,
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/essays/jomon-culture-ca-10500-ca-300-b-c",
+          "evidenceSummary": "Cord-marked name, hand manufacture, temporal/regional diversity and unknown ethnicity/language."
+        }
+      ],
+      "issueIds": [
+        "JP-001"
+      ]
+    },
+    {
+      "recordId": "japan-adv-jomon-settled",
+      "recordSha256": "85051bfec8884ff8fc3e458636ca4f2600fe5e56a0cee9c7814f37084295348b",
+      "reviewedAt": "13 October 2026",
+      "verdict": "approved",
+      "checks": {
+        "sourceClaim": "checked-against-primary-context",
+        "datesAndNames": "checked",
+        "socialGeneralization": "bounded-or-not-applicable",
+        "japaneseExamples": "not-applicable",
+        "readingAndTranslation": "not-applicable"
+      },
+      "exampleCount": 0,
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/1632/",
+          "evidenceSummary": "17 northern Jomon sites, pre-agricultural sedentism, dogu and other ritual remains."
+        }
+      ],
+      "issueIds": []
+    },
+    {
+      "recordId": "japan-adv-dogu",
+      "recordSha256": "6169857686be72fa3c8f5fd1da1736a482a82c5061312b7f6be59c25f36aeb7c",
+      "reviewedAt": "13 October 2026",
+      "verdict": "approved",
+      "checks": {
+        "sourceClaim": "checked-against-primary-context",
+        "datesAndNames": "checked",
+        "socialGeneralization": "bounded-or-not-applicable",
+        "japaneseExamples": "editorial-check-passed",
+        "readingAndTranslation": "editorial-check-passed"
+      },
+      "exampleCount": 1,
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/1632/",
+          "evidenceSummary": "17 northern Jomon sites, pre-agricultural sedentism, dogu and other ritual remains."
+        }
+      ],
+      "issueIds": []
+    },
+    {
+      "recordId": "japan-adv-yayoi-rice",
+      "recordSha256": "6335d64f03c5566947374a03f6d8debd64a84882d488e4c157bcc6b112e1c313",
+      "reviewedAt": "13 October 2026",
+      "verdict": "approved",
+      "checks": {
+        "sourceClaim": "checked-against-primary-context",
+        "datesAndNames": "checked",
+        "socialGeneralization": "bounded-or-not-applicable",
+        "japaneseExamples": "not-applicable",
+        "readingAndTranslation": "not-applicable"
+      },
+      "exampleCount": 0,
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/ko/essays/yayoi-culture-ca-4th-century-b-c-3rd-century-a-d",
+          "evidenceSummary": "Western to eastern/northern Yayoi spread, wet rice, metalworking and decorated ritual bronze bells."
+        }
+      ],
+      "issueIds": []
+    },
+    {
+      "recordId": "japan-adv-dotaku",
+      "recordSha256": "000fb09ececb8cff56dc51c674c0a606ddf67c3e6cee9a0a05b820bf65279e7d",
+      "reviewedAt": "13 October 2026",
+      "verdict": "approved",
+      "checks": {
+        "sourceClaim": "checked-against-primary-context",
+        "datesAndNames": "checked",
+        "socialGeneralization": "bounded-or-not-applicable",
+        "japaneseExamples": "editorial-check-passed",
+        "readingAndTranslation": "editorial-check-passed"
+      },
+      "exampleCount": 1,
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/ko/essays/yayoi-culture-ca-4th-century-b-c-3rd-century-a-d",
+          "evidenceSummary": "Western to eastern/northern Yayoi spread, wet rice, metalworking and decorated ritual bronze bells."
+        }
+      ],
+      "issueIds": []
+    },
+    {
+      "recordId": "japan-adv-kofun-forms",
+      "recordSha256": "2fb77f2c1ed7c8fe77f33fabb5c78993c5f441183d3fe60d5bcb1cbf264d4e5c",
+      "reviewedAt": "13 October 2026",
+      "verdict": "approved",
+      "checks": {
+        "sourceClaim": "checked-against-primary-context",
+        "datesAndNames": "checked",
+        "socialGeneralization": "bounded-or-not-applicable",
+        "japaneseExamples": "not-applicable",
+        "readingAndTranslation": "not-applicable"
+      },
+      "exampleCount": 0,
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/1593/",
+          "evidenceSummary": "49 kofun types, rank, moats, haniwa rows/objects/houses/animals/people."
+        }
+      ],
+      "issueIds": []
+    },
+    {
+      "recordId": "japan-adv-haniwa",
+      "recordSha256": "65adea7fba7371b6cb93492337e023216c2c3769439f9c88a2aae8820103faab",
+      "reviewedAt": "13 October 2026",
+      "verdict": "approved",
+      "checks": {
+        "sourceClaim": "checked-against-primary-context",
+        "datesAndNames": "checked",
+        "socialGeneralization": "bounded-or-not-applicable",
+        "japaneseExamples": "editorial-check-passed",
+        "readingAndTranslation": "editorial-check-passed"
+      },
+      "exampleCount": 1,
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/1593/",
+          "evidenceSummary": "49 kofun types, rank, moats, haniwa rows/objects/houses/animals/people."
+        },
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/44442",
+          "evidenceSummary": "Met object catalogue Haniwa Horse head independently supports horse-shaped example beyond UNESCO animal category."
+        }
+      ],
+      "issueIds": []
+    },
+    {
+      "recordId": "japan-adv-asuka-imports",
+      "recordSha256": "d054c53b3a321753107fd3667f91cb60d665abb1c25caac6fefd5f28d3814672",
+      "reviewedAt": "13 October 2026",
+      "verdict": "approved",
+      "checks": {
+        "sourceClaim": "checked-against-primary-context",
+        "datesAndNames": "checked",
+        "socialGeneralization": "bounded-or-not-applicable",
+        "japaneseExamples": "not-applicable",
+        "readingAndTranslation": "not-applicable"
+      },
+      "exampleCount": 0,
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/de/essays/asuka-and-nara-periods-538-794",
+          "evidenceSummary": "Continental imports and central administration; capitals move with reigns then Nara710."
+        }
+      ],
+      "issueIds": []
+    },
+    {
+      "recordId": "japan-adv-nara-permanent",
+      "recordSha256": "748c574c740f40f3260ad53aedbfdfe00a67294ba8312505a6f25388873eee7c",
+      "reviewedAt": "13 October 2026",
+      "verdict": "approved",
+      "checks": {
+        "sourceClaim": "checked-against-primary-context",
+        "datesAndNames": "checked",
+        "socialGeneralization": "bounded-or-not-applicable",
+        "japaneseExamples": "not-applicable",
+        "readingAndTranslation": "not-applicable"
+      },
+      "exampleCount": 0,
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/de/essays/asuka-and-nara-periods-538-794",
+          "evidenceSummary": "Continental imports and central administration; capitals move with reigns then Nara710."
+        }
+      ],
+      "issueIds": []
+    },
+    {
+      "recordId": "japan-adv-fujiwara",
+      "recordSha256": "dfb2fb4451795dfa09c6f7889ba1f02ee4ee7bfbcd9497f8bccd6f00ce776123",
+      "reviewedAt": "13 October 2026",
+      "verdict": "approved",
+      "checks": {
+        "sourceClaim": "checked-against-primary-context",
+        "datesAndNames": "checked",
+        "socialGeneralization": "bounded-or-not-applicable",
+        "japaneseExamples": "not-applicable",
+        "readingAndTranslation": "not-applicable"
+      },
+      "exampleCount": 0,
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/essays/heian-period-794-1185",
+          "evidenceSummary": "Fujiwara marriage/regency/patronage, kana and literary genres; native versus Chinese themes with few early survivors."
+        }
+      ],
+      "issueIds": []
+    },
+    {
+      "recordId": "japan-adv-heian-kana",
+      "recordSha256": "7c923c5dc95cc0f96ce56719fa6d8d6d0b965a6a0ea4db484d311174a26535b3",
+      "reviewedAt": "13 October 2026",
+      "verdict": "approved",
+      "checks": {
+        "sourceClaim": "checked-against-primary-context",
+        "datesAndNames": "checked",
+        "socialGeneralization": "bounded-or-not-applicable",
+        "japaneseExamples": "not-applicable",
+        "readingAndTranslation": "not-applicable"
+      },
+      "exampleCount": 0,
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/essays/heian-period-794-1185",
+          "evidenceSummary": "Fujiwara marriage/regency/patronage, kana and literary genres; native versus Chinese themes with few early survivors."
+        }
+      ],
+      "issueIds": []
+    },
+    {
+      "recordId": "japan-adv-yamatoe-context",
+      "recordSha256": "58ad78034b4214f884ba3c8c6edb690fe104f00b4a90a87de53d491c112660fd",
+      "reviewedAt": "13 October 2026",
+      "verdict": "approved",
+      "checks": {
+        "sourceClaim": "checked-against-primary-context",
+        "datesAndNames": "checked",
+        "socialGeneralization": "bounded-or-not-applicable",
+        "japaneseExamples": "not-applicable",
+        "readingAndTranslation": "not-applicable"
+      },
+      "exampleCount": 0,
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/essays/heian-period-794-1185",
+          "evidenceSummary": "Fujiwara marriage/regency/patronage, kana and literary genres; native versus Chinese themes with few early survivors."
+        }
+      ],
+      "issueIds": []
+    },
+    {
+      "recordId": "japan-adv-bakufu",
+      "recordSha256": "ccc61d181510668a686a43e148727977c02b19e4b9115165a165aad9da9a1d70",
+      "reviewedAt": "13 October 2026",
+      "verdict": "approved",
+      "checks": {
+        "sourceClaim": "checked-against-primary-context",
+        "datesAndNames": "checked",
+        "socialGeneralization": "bounded-or-not-applicable",
+        "japaneseExamples": "not-applicable",
+        "readingAndTranslation": "not-applicable"
+      },
+      "exampleCount": 0,
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/essays/kamakura-and-nanbokucho-periods-1185-1392",
+          "evidenceSummary": "Kamakura government, imperial Kyoto and rival Northern/Southern courts."
+        }
+      ],
+      "issueIds": []
+    },
+    {
+      "recordId": "japan-adv-nanbokucho",
+      "recordSha256": "6dabf6f662391f0e65d9ba735fd64f699574eafe20c3b362ffb866f87113f1d0",
+      "reviewedAt": "13 October 2026",
+      "verdict": "approved",
+      "checks": {
+        "sourceClaim": "checked-against-primary-context",
+        "datesAndNames": "checked",
+        "socialGeneralization": "bounded-or-not-applicable",
+        "japaneseExamples": "not-applicable",
+        "readingAndTranslation": "not-applicable"
+      },
+      "exampleCount": 0,
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/essays/kamakura-and-nanbokucho-periods-1185-1392",
+          "evidenceSummary": "Kamakura government, imperial Kyoto and rival Northern/Southern courts."
+        }
+      ],
+      "issueIds": []
+    },
+    {
+      "recordId": "japan-adv-muromachi-name",
+      "recordSha256": "c1948150b12fe065e57d9aa4a6d1a1f1e3b60c885fac528bdf21909c9ea7d968",
+      "reviewedAt": "13 October 2026",
+      "verdict": "approved",
+      "checks": {
+        "sourceClaim": "checked-against-primary-context",
+        "datesAndNames": "checked",
+        "socialGeneralization": "bounded-or-not-applicable",
+        "japaneseExamples": "not-applicable",
+        "readingAndTranslation": "not-applicable"
+      },
+      "exampleCount": 0,
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/essays/muromachi-period-1392-1573",
+          "evidenceSummary": "Muromachi headquarters, provincial power and Onin1467to1477 leading fragmentation."
+        }
+      ],
+      "issueIds": []
+    },
+    {
+      "recordId": "japan-adv-onin-sengoku",
+      "recordSha256": "c100e345dfbf146dbacdce8bf332cf4703d07f9259f6293920e888db1164a26a",
+      "reviewedAt": "13 October 2026",
+      "verdict": "approved",
+      "checks": {
+        "sourceClaim": "checked-against-primary-context",
+        "datesAndNames": "checked",
+        "socialGeneralization": "bounded-or-not-applicable",
+        "japaneseExamples": "not-applicable",
+        "readingAndTranslation": "not-applicable"
+      },
+      "exampleCount": 0,
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/essays/muromachi-period-1392-1573",
+          "evidenceSummary": "Muromachi headquarters, provincial power and Onin1467to1477 leading fragmentation."
+        }
+      ],
+      "issueIds": []
+    },
+    {
+      "recordId": "japan-adv-unifiers",
+      "recordSha256": "26647cd6e2c792ceb69f325e24538868ea97906969271ce219d5b26ebb820486",
+      "reviewedAt": "13 October 2026",
+      "verdict": "approved",
+      "checks": {
+        "sourceClaim": "checked-against-primary-context",
+        "datesAndNames": "checked",
+        "socialGeneralization": "bounded-or-not-applicable",
+        "japaneseExamples": "not-applicable",
+        "readingAndTranslation": "not-applicable"
+      },
+      "exampleCount": 0,
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/essays/momoyama-period-1573-1615",
+          "evidenceSummary": "Successive unifiers and coexisting opulent/rustic aesthetics."
+        }
+      ],
+      "issueIds": []
+    },
+    {
+      "recordId": "japan-adv-momoyama-two-aesthetics",
+      "recordSha256": "1229b584913b274546819ba29567878cc4967f63cb5b75ac8a94d660f38b1c96",
+      "reviewedAt": "13 October 2026",
+      "verdict": "approved",
+      "checks": {
+        "sourceClaim": "checked-against-primary-context",
+        "datesAndNames": "checked",
+        "socialGeneralization": "bounded-or-not-applicable",
+        "japaneseExamples": "not-applicable",
+        "readingAndTranslation": "not-applicable"
+      },
+      "exampleCount": 0,
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/essays/momoyama-period-1573-1615",
+          "evidenceSummary": "Successive unifiers and coexisting opulent/rustic aesthetics."
+        }
+      ],
+      "issueIds": []
+    },
+    {
+      "recordId": "japan-adv-edo-openings",
+      "recordSha256": "6194f821c992de92215385e9fc08b51ed224b44f48f922d54791995767e3ee96",
+      "reviewedAt": "13 October 2026",
+      "verdict": "approved",
+      "checks": {
+        "sourceClaim": "checked-against-primary-context",
+        "datesAndNames": "checked",
+        "socialGeneralization": "bounded-or-not-applicable",
+        "japaneseExamples": "not-applicable",
+        "readingAndTranslation": "not-applicable"
+      },
+      "exampleCount": 0,
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/essays/art-of-the-edo-period-1615-1868",
+          "evidenceSummary": "Restricted Chinese/Dutch Nagasaki trade, porcelain and urban merchant/artisan patronage."
+        }
+      ],
+      "issueIds": []
+    },
+    {
+      "recordId": "japan-adv-edo-patrons",
+      "recordSha256": "8e17a53e2413036464250f1f2932bbe56b65eb940bafccfb363729f54f30ef4f",
+      "reviewedAt": "13 October 2026",
+      "verdict": "approved",
+      "checks": {
+        "sourceClaim": "checked-against-primary-context",
+        "datesAndNames": "checked",
+        "socialGeneralization": "bounded-or-not-applicable",
+        "japaneseExamples": "not-applicable",
+        "readingAndTranslation": "not-applicable"
+      },
+      "exampleCount": 0,
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/essays/art-of-the-edo-period-1615-1868",
+          "evidenceSummary": "Restricted Chinese/Dutch Nagasaki trade, porcelain and urban merchant/artisan patronage."
+        }
+      ],
+      "issueIds": []
+    },
+    {
+      "recordId": "japan-adv-kami",
+      "recordSha256": "60a978ee2a7ef36c64ccbf3dfd4f487ea5a09805f3cdaefe1f18eefff7f76305",
+      "reviewedAt": "13 October 2026",
+      "verdict": "approved",
+      "checks": {
+        "sourceClaim": "checked-against-primary-context",
+        "datesAndNames": "checked",
+        "socialGeneralization": "bounded-or-not-applicable",
+        "japaneseExamples": "not-applicable",
+        "readingAndTranslation": "not-applicable"
+      },
+      "exampleCount": 0,
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/essays/shinto",
+          "evidenceSummary": "Nature kami, sacred mirror/sword/jewel objects, hidden inner sanctuary images."
+        }
+      ],
+      "issueIds": []
+    },
+    {
+      "recordId": "japan-adv-sacred-objects",
+      "recordSha256": "155d3c06fb0084db19604abb93624e56e650c244be912f3b35806fee8b65ed0a",
+      "reviewedAt": "13 October 2026",
+      "verdict": "approved",
+      "checks": {
+        "sourceClaim": "checked-against-primary-context",
+        "datesAndNames": "checked",
+        "socialGeneralization": "bounded-or-not-applicable",
+        "japaneseExamples": "not-applicable",
+        "readingAndTranslation": "not-applicable"
+      },
+      "exampleCount": 0,
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/essays/shinto",
+          "evidenceSummary": "Nature kami, sacred mirror/sword/jewel objects, hidden inner sanctuary images."
+        }
+      ],
+      "issueIds": []
+    },
+    {
+      "recordId": "japan-adv-zen-chan",
+      "recordSha256": "9d4f2010cdf478b79d33a259a8de9859174b124dada3716f7d7b0fab96416899",
+      "reviewedAt": "13 October 2026",
+      "verdict": "approved",
+      "checks": {
+        "sourceClaim": "checked-against-primary-context",
+        "datesAndNames": "checked",
+        "socialGeneralization": "bounded-or-not-applicable",
+        "japaneseExamples": "not-applicable",
+        "readingAndTranslation": "not-applicable"
+      },
+      "exampleCount": 0,
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/essays/zen-buddhism",
+          "evidenceSummary": "Chan transmission,13thcentury roots, literati/painting transmission and later secular ink subjects."
+        }
+      ],
+      "issueIds": []
+    },
+    {
+      "recordId": "japan-adv-zen-ink",
+      "recordSha256": "00024b6eaf2843aaa8cac2f467408b0685524d0a596f81b579f60181af5368cf",
+      "reviewedAt": "13 October 2026",
+      "verdict": "approved",
+      "checks": {
+        "sourceClaim": "checked-against-primary-context",
+        "datesAndNames": "checked",
+        "socialGeneralization": "bounded-or-not-applicable",
+        "japaneseExamples": "not-applicable",
+        "readingAndTranslation": "not-applicable"
+      },
+      "exampleCount": 0,
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/essays/zen-buddhism",
+          "evidenceSummary": "Chan transmission,13thcentury roots, literati/painting transmission and later secular ink subjects."
+        }
+      ],
+      "issueIds": []
+    },
+    {
+      "recordId": "japan-adv-ukiyoe-collaboration",
+      "recordSha256": "88ade6526ef7867ad03d35ce634dfaebdaccbfa289a51995c5fde7473406e3de",
+      "reviewedAt": "13 October 2026",
+      "verdict": "approved",
+      "checks": {
+        "sourceClaim": "checked-against-primary-context",
+        "datesAndNames": "checked",
+        "socialGeneralization": "bounded-or-not-applicable",
+        "japaneseExamples": "not-applicable",
+        "readingAndTranslation": "not-applicable"
+      },
+      "exampleCount": 0,
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/essays/woodblock-prints-in-the-ukiyo-e-style",
+          "evidenceSummary": "1765 polychrome calendars and four printmaking trades."
+        }
+      ],
+      "issueIds": []
+    },
+    {
+      "recordId": "japan-adv-nishikie",
+      "recordSha256": "9549eb11eaae4de4561c1ae7ec6ebcbf4dc501094b2982c7a4643245b29eed6a",
+      "reviewedAt": "13 October 2026",
+      "verdict": "approved",
+      "checks": {
+        "sourceClaim": "checked-against-primary-context",
+        "datesAndNames": "checked",
+        "socialGeneralization": "bounded-or-not-applicable",
+        "japaneseExamples": "not-applicable",
+        "readingAndTranslation": "not-applicable"
+      },
+      "exampleCount": 0,
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/essays/woodblock-prints-in-the-ukiyo-e-style",
+          "evidenceSummary": "1765 polychrome calendars and four printmaking trades."
+        }
+      ],
+      "issueIds": []
+    },
+    {
+      "recordId": "japan-adv-emaki-reading",
+      "recordSha256": "74b35080141f85f5e81f6a4a807b5786fc405a4f55db5a943a455db0708ecdad",
+      "reviewedAt": "13 October 2026",
+      "verdict": "approved",
+      "checks": {
+        "sourceClaim": "checked-against-primary-context",
+        "datesAndNames": "checked",
+        "socialGeneralization": "bounded-or-not-applicable",
+        "japaneseExamples": "not-applicable",
+        "readingAndTranslation": "not-applicable"
+      },
+      "exampleCount": 0,
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/essays/japanese-illustrated-handscrolls",
+          "evidenceSummary": "Formats and handscroll right-to-left segmented consultation."
+        }
+      ],
+      "issueIds": []
+    },
+    {
+      "recordId": "japan-adv-painting-formats",
+      "recordSha256": "421642a25a9be5fee13286021105b9091cc90cadcc41d2b728ca9fb625629caa",
+      "reviewedAt": "13 October 2026",
+      "verdict": "approved",
+      "checks": {
+        "sourceClaim": "checked-against-primary-context",
+        "datesAndNames": "checked",
+        "socialGeneralization": "bounded-or-not-applicable",
+        "japaneseExamples": "not-applicable",
+        "readingAndTranslation": "not-applicable"
+      },
+      "exampleCount": 0,
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/essays/japanese-illustrated-handscrolls",
+          "evidenceSummary": "Formats and handscroll right-to-left segmented consultation."
+        }
+      ],
+      "issueIds": []
+    },
+    {
+      "recordId": "japan-adv-chanoyu",
+      "recordSha256": "90760a989c5e666e903a86223ca3ae7f7b626c0db9012c654fa785617349c51e",
+      "reviewedAt": "13 October 2026",
+      "verdict": "approved",
+      "checks": {
+        "sourceClaim": "checked-against-primary-context",
+        "datesAndNames": "checked",
+        "socialGeneralization": "bounded-or-not-applicable",
+        "japaneseExamples": "not-applicable",
+        "readingAndTranslation": "not-applicable"
+      },
+      "exampleCount": 0,
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/essays/the-japanese-tea-ceremony",
+          "evidenceSummary": "Matcha, codified host/guest/utensil interactions, utilitarian pottery revaluation and kiln adaptation."
+        }
+      ],
+      "issueIds": []
+    },
+    {
+      "recordId": "japan-adv-tea-pottery",
+      "recordSha256": "239b6b9088cdb53a8b85139ed86c7d0abbb66ae656a9b567d1de7e6f9507f3d1",
+      "reviewedAt": "13 October 2026",
+      "verdict": "approved",
+      "checks": {
+        "sourceClaim": "checked-against-primary-context",
+        "datesAndNames": "checked",
+        "socialGeneralization": "bounded-or-not-applicable",
+        "japaneseExamples": "not-applicable",
+        "readingAndTranslation": "not-applicable"
+      },
+      "exampleCount": 0,
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/essays/the-japanese-tea-ceremony",
+          "evidenceSummary": "Matcha, codified host/guest/utensil interactions, utilitarian pottery revaluation and kiln adaptation."
+        }
+      ],
+      "issueIds": []
+    },
+    {
+      "recordId": "japan-adv-four-seasons-image",
+      "recordSha256": "cb9e7d72a4ac2f65f87a021fb5b57710ee864e5a6344eec91180bf5fac0e8560",
+      "reviewedAt": "13 October 2026",
+      "verdict": "approved",
+      "checks": {
+        "sourceClaim": "checked-against-primary-context",
+        "datesAndNames": "checked",
+        "socialGeneralization": "bounded-or-not-applicable",
+        "japaneseExamples": "not-applicable",
+        "readingAndTranslation": "not-applicable"
+      },
+      "exampleCount": 0,
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/essays/seasonal-imagery-in-japanese-art",
+          "evidenceSummary": "Literary seasonal imagery and multiple seasons represented in one environment."
+        }
+      ],
+      "issueIds": []
+    },
+    {
+      "recordId": "japan-adv-seasonal-literature",
+      "recordSha256": "bbaf69732387c4b6e01f1478a365d3f125a2c9cd4bf7c770eff089f132b6e36e",
+      "reviewedAt": "13 October 2026",
+      "verdict": "approved",
+      "checks": {
+        "sourceClaim": "checked-against-primary-context",
+        "datesAndNames": "checked",
+        "socialGeneralization": "bounded-or-not-applicable",
+        "japaneseExamples": "not-applicable",
+        "readingAndTranslation": "not-applicable"
+      },
+      "exampleCount": 0,
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/essays/seasonal-imagery-in-japanese-art",
+          "evidenceSummary": "Literary seasonal imagery and multiple seasons represented in one environment."
+        }
+      ],
+      "issueIds": []
+    },
+    {
+      "recordId": "japan-adv-kabuki-origin",
+      "recordSha256": "a19705db370a8e356b144bb56c46da0218221d091758a7f4b543162ea455f608",
+      "reviewedAt": "13 October 2026",
+      "verdict": "approved",
+      "checks": {
+        "sourceClaim": "checked-against-primary-context",
+        "datesAndNames": "checked",
+        "socialGeneralization": "bounded-or-not-applicable",
+        "japaneseExamples": "not-applicable",
+        "readingAndTranslation": "not-applicable"
+      },
+      "exampleCount": 0,
+      "sources": [
+        {
+          "url": "https://www2.ntj.jac.go.jp/unesco/kabuki/en/feature/feature1.html",
+          "evidenceSummary": "Kabuki origins/Okuni, male roles after prohibitions, onnagata practice and jidai/sewa categories; direct curl body read after web errors."
+        }
+      ],
+      "issueIds": []
+    },
+    {
+      "recordId": "japan-adv-onnagata",
+      "recordSha256": "fc02666a58e5460e7bb831650734e3b470d93104b666025a739e6efa5c3a7c6a",
+      "reviewedAt": "13 October 2026",
+      "verdict": "approved",
+      "checks": {
+        "sourceClaim": "checked-against-primary-context",
+        "datesAndNames": "checked",
+        "socialGeneralization": "bounded-or-not-applicable",
+        "japaneseExamples": "not-applicable",
+        "readingAndTranslation": "not-applicable"
+      },
+      "exampleCount": 0,
+      "sources": [
+        {
+          "url": "https://www2.ntj.jac.go.jp/unesco/kabuki/en/feature/feature1.html",
+          "evidenceSummary": "Kabuki origins/Okuni, male roles after prohibitions, onnagata practice and jidai/sewa categories; direct curl body read after web errors."
+        }
+      ],
+      "issueIds": []
+    },
+    {
+      "recordId": "japan-adv-jidai-sewa",
+      "recordSha256": "69145aaeb28657232915e74c51a31c44f1db9f283f643d4312e43c6e9ea32324",
+      "reviewedAt": "13 October 2026",
+      "verdict": "approved",
+      "checks": {
+        "sourceClaim": "checked-against-primary-context",
+        "datesAndNames": "checked",
+        "socialGeneralization": "bounded-or-not-applicable",
+        "japaneseExamples": "not-applicable",
+        "readingAndTranslation": "not-applicable"
+      },
+      "exampleCount": 0,
+      "sources": [
+        {
+          "url": "https://www2.ntj.jac.go.jp/unesco/kabuki/en/feature/feature1.html",
+          "evidenceSummary": "Kabuki origins/Okuni, male roles after prohibitions, onnagata practice and jidai/sewa categories; direct curl body read after web errors."
+        }
+      ],
+      "issueIds": []
+    },
+    {
+      "recordId": "japan-adv-mie",
+      "recordSha256": "1ffd706d5c5a14a9951f8b7b9aad53158bc7b54ab2e161da4a586f22f347dd6a",
+      "reviewedAt": "13 October 2026",
+      "verdict": "approved",
+      "checks": {
+        "sourceClaim": "checked-against-primary-context",
+        "datesAndNames": "checked",
+        "socialGeneralization": "bounded-or-not-applicable",
+        "japaneseExamples": "not-applicable",
+        "readingAndTranslation": "not-applicable"
+      },
+      "exampleCount": 0,
+      "sources": [
+        {
+          "url": "https://www2.ntj.jac.go.jp/unesco/kabuki/en/production/performance5.html",
+          "evidenceSummary": "Mie closeup-like emotional pose and variable tsuke clappers/role styles."
+        }
+      ],
+      "issueIds": []
+    },
+    {
+      "recordId": "japan-adv-gagaku-three",
+      "recordSha256": "163000b1f55c68c745e7dee9c26712f15bf0cd41a8c89ae4933a8a5055739648",
+      "reviewedAt": "13 October 2026",
+      "verdict": "approved",
+      "checks": {
+        "sourceClaim": "checked-against-primary-context",
+        "datesAndNames": "checked",
+        "socialGeneralization": "bounded-or-not-applicable",
+        "japaneseExamples": "not-applicable",
+        "readingAndTranslation": "not-applicable"
+      },
+      "exampleCount": 0,
+      "sources": [
+        {
+          "url": "https://www.kunaicho.go.jp/en/learn/culture/gagaku.html",
+          "evidenceSummary": "Kangen/bugaku/kayo and listed wind/string/percussion instruments."
+        }
+      ],
+      "issueIds": []
+    },
+    {
+      "recordId": "japan-adv-gagaku-instruments",
+      "recordSha256": "acc8e7a6fa3eec4f2a73eddf81c9fbc88b09f2442fe45455f04187848a647a91",
+      "reviewedAt": "13 October 2026",
+      "verdict": "approved",
+      "checks": {
+        "sourceClaim": "checked-against-primary-context",
+        "datesAndNames": "checked",
+        "socialGeneralization": "bounded-or-not-applicable",
+        "japaneseExamples": "not-applicable",
+        "readingAndTranslation": "not-applicable"
+      },
+      "exampleCount": 0,
+      "sources": [
+        {
+          "url": "https://www.kunaicho.go.jp/en/learn/culture/gagaku.html",
+          "evidenceSummary": "Kangen/bugaku/kayo and listed wind/string/percussion instruments."
+        }
+      ],
+      "issueIds": []
+    },
+    {
+      "recordId": "japan-adv-bunraku-ensemble",
+      "recordSha256": "d3e3297f4ef2e51de8ec4f0078c3918c81d1cdc23c440ccd79a3a23257ccacc3",
+      "reviewedAt": "13 October 2026",
+      "verdict": "approved",
+      "checks": {
+        "sourceClaim": "checked-against-primary-context",
+        "datesAndNames": "checked",
+        "socialGeneralization": "bounded-or-not-applicable",
+        "japaneseExamples": "not-applicable",
+        "readingAndTranslation": "not-applicable"
+      },
+      "exampleCount": 0,
+      "sources": [
+        {
+          "url": "https://ich.unesco.org/en/RL/bunraku-00064",
+          "evidenceSummary": "Sung narrative, shamisen, tayu roles and three-puppeteer articulated staging; official search body read after direct challenge."
+        }
+      ],
+      "issueIds": []
+    },
+    {
+      "recordId": "japan-adv-bunraku-puppet",
+      "recordSha256": "9eb2b882af1624be66e3f0a87bc6bfff272a2a18b79817045db939c182be2897",
+      "reviewedAt": "13 October 2026",
+      "verdict": "approved",
+      "checks": {
+        "sourceClaim": "checked-against-primary-context",
+        "datesAndNames": "checked",
+        "socialGeneralization": "bounded-or-not-applicable",
+        "japaneseExamples": "not-applicable",
+        "readingAndTranslation": "not-applicable"
+      },
+      "exampleCount": 0,
+      "sources": [
+        {
+          "url": "https://ich.unesco.org/en/RL/bunraku-00064",
+          "evidenceSummary": "Sung narrative, shamisen, tayu roles and three-puppeteer articulated staging; official search body read after direct challenge."
+        }
+      ],
+      "issueIds": []
+    },
+    {
+      "recordId": "japan-adv-shirakami",
+      "recordSha256": "44c1f6ec66b089be505432f6c806e4dec5639c7fe3fee1041db2478c4d042702",
+      "reviewedAt": "13 October 2026",
+      "verdict": "approved",
+      "checks": {
+        "sourceClaim": "checked-against-primary-context",
+        "datesAndNames": "checked",
+        "socialGeneralization": "bounded-or-not-applicable",
+        "japaneseExamples": "not-applicable",
+        "readingAndTranslation": "not-applicable"
+      },
+      "exampleCount": 0,
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/663/",
+          "evidenceSummary": "Siebold beech cool forest, black bear, serow and birds."
+        }
+      ],
+      "issueIds": []
+    },
+    {
+      "recordId": "japan-adv-yakushima",
+      "recordSha256": "396fc0d5323ba930641642138871b8452ff47ff6cb2f18d72b9e334a41f2aa97",
+      "reviewedAt": "13 October 2026",
+      "verdict": "approved",
+      "checks": {
+        "sourceClaim": "checked-against-primary-context",
+        "datesAndNames": "checked",
+        "socialGeneralization": "bounded-or-not-applicable",
+        "japaneseExamples": "not-applicable",
+        "readingAndTranslation": "not-applicable"
+      },
+      "exampleCount": 0,
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/662/",
+          "evidenceSummary": "Biogeographic interface, old sugi and warm-temperate forests with altitude gradient."
+        }
+      ],
+      "issueIds": []
+    },
+    {
+      "recordId": "japan-adv-shiretoko",
+      "recordSha256": "f7e2d8f78d6e1e879b5951df98f76710d7ba38aa649b28fb93f27aa97457f725",
+      "reviewedAt": "13 October 2026",
+      "verdict": "approved",
+      "checks": {
+        "sourceClaim": "checked-against-primary-context",
+        "datesAndNames": "checked",
+        "socialGeneralization": "bounded-or-not-applicable",
+        "japaneseExamples": "not-applicable",
+        "readingAndTranslation": "not-applicable"
+      },
+      "exampleCount": 0,
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/1193/",
+          "evidenceSummary": "Northeast Hokkaido, land/sea ecosystem and seasonal ice productivity."
+        }
+      ],
+      "issueIds": []
+    },
+    {
+      "recordId": "japan-adv-ogasawara",
+      "recordSha256": "52c298fc0c5fb812d68aa26f1d1200812fba29cc4a50e108f49a78c0488ffe1d",
+      "reviewedAt": "13 October 2026",
+      "verdict": "approved",
+      "checks": {
+        "sourceClaim": "checked-against-primary-context",
+        "datesAndNames": "checked",
+        "socialGeneralization": "bounded-or-not-applicable",
+        "japaneseExamples": "not-applicable",
+        "readingAndTranslation": "not-applicable"
+      },
+      "exampleCount": 0,
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/1362/",
+          "evidenceSummary": "Endemic island evolution and Asian flora origins with fish/cetaceans/coral."
+        }
+      ],
+      "issueIds": []
+    },
+    {
+      "recordId": "japan-adv-amami-iriomote",
+      "recordSha256": "ba2763715895e477b86c5f50612309367a9ca0a345c40c2649bfa3d393401e25",
+      "reviewedAt": "13 October 2026",
+      "verdict": "approved",
+      "checks": {
+        "sourceClaim": "checked-against-primary-context",
+        "datesAndNames": "checked",
+        "socialGeneralization": "bounded-or-not-applicable",
+        "japaneseExamples": "not-applicable",
+        "readingAndTranslation": "not-applicable"
+      },
+      "exampleCount": 0,
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/1574/",
+          "evidenceSummary": "Four islands, inscribed uninhabited subtropical forest areas and endemic species."
+        }
+      ],
+      "issueIds": []
+    },
+    {
+      "recordId": "japan-adv-ryukyu-kingdom",
+      "recordSha256": "3d9a79542efff39a0bd609cecf5788f772691a0df0b858a042cb43656f977884",
+      "reviewedAt": "13 October 2026",
+      "verdict": "approved",
+      "checks": {
+        "sourceClaim": "checked-against-primary-context",
+        "datesAndNames": "checked",
+        "socialGeneralization": "bounded-or-not-applicable",
+        "japaneseExamples": "not-applicable",
+        "readingAndTranslation": "not-applicable"
+      },
+      "exampleCount": 0,
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/972/",
+          "evidenceSummary": "Ryukyu elevated castles, social structure, sacred sites and distinct culture from exchange."
+        }
+      ],
+      "issueIds": []
+    },
+    {
+      "recordId": "japan-adv-gusuku",
+      "recordSha256": "45d5ca07764d9ee28671ea12d9ee323ae1f57db3d6e06c287c7db2e430ef9df3",
+      "reviewedAt": "13 October 2026",
+      "verdict": "approved",
+      "checks": {
+        "sourceClaim": "checked-against-primary-context",
+        "datesAndNames": "checked",
+        "socialGeneralization": "bounded-or-not-applicable",
+        "japaneseExamples": "not-applicable",
+        "readingAndTranslation": "not-applicable"
+      },
+      "exampleCount": 0,
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/972/",
+          "evidenceSummary": "Ryukyu elevated castles, social structure, sacred sites and distinct culture from exchange."
+        }
+      ],
+      "issueIds": []
+    },
+    {
+      "recordId": "japan-adv-kii-networks",
+      "recordSha256": "8882d9facbcb6c8c6c99bdf49f05f343e19f91a2e0b340a06a9335da7c9fc2bf",
+      "reviewedAt": "13 October 2026",
+      "verdict": "approved",
+      "checks": {
+        "sourceClaim": "checked-against-primary-context",
+        "datesAndNames": "checked",
+        "socialGeneralization": "bounded-or-not-applicable",
+        "japaneseExamples": "not-applicable",
+        "readingAndTranslation": "not-applicable"
+      },
+      "exampleCount": 0,
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/1142/",
+          "evidenceSummary": "Three sacred centres/routes and nature worship/Buddhist fusion."
+        }
+      ],
+      "issueIds": []
+    },
+    {
+      "recordId": "japan-adv-kii-syncretism",
+      "recordSha256": "d59f9b998aab25ef0453fb3e54033030e5e83179bd64a25466db4a780c3443b0",
+      "reviewedAt": "13 October 2026",
+      "verdict": "approved",
+      "checks": {
+        "sourceClaim": "checked-against-primary-context",
+        "datesAndNames": "checked",
+        "socialGeneralization": "bounded-or-not-applicable",
+        "japaneseExamples": "not-applicable",
+        "readingAndTranslation": "not-applicable"
+      },
+      "exampleCount": 0,
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/1142/",
+          "evidenceSummary": "Three sacred centres/routes and nature worship/Buddhist fusion."
+        }
+      ],
+      "issueIds": []
+    },
+    {
+      "recordId": "japan-adv-fuji-cultural",
+      "recordSha256": "feb7f34d1d5d20f2d62ac07d1d73536a1f0aed50080bc199c2dc8eef5a6185e7",
+      "reviewedAt": "13 October 2026",
+      "verdict": "approved",
+      "checks": {
+        "sourceClaim": "checked-against-primary-context",
+        "datesAndNames": "checked",
+        "socialGeneralization": "bounded-or-not-applicable",
+        "japaneseExamples": "not-applicable",
+        "readingAndTranslation": "not-applicable"
+      },
+      "exampleCount": 0,
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/1418/",
+          "evidenceSummary": "25 sacred/artistic sites, crater/pilgrimage routes and Sengen/oshi/lakes/springs at foot."
+        }
+      ],
+      "issueIds": []
+    },
+    {
+      "recordId": "japan-adv-fuji-surroundings",
+      "recordSha256": "24873f4b7192511cc8949b8981b5940df3d7463270f13e6cdddfd6a36d690c15",
+      "reviewedAt": "13 October 2026",
+      "verdict": "approved",
+      "checks": {
+        "sourceClaim": "checked-against-primary-context",
+        "datesAndNames": "checked",
+        "socialGeneralization": "bounded-or-not-applicable",
+        "japaneseExamples": "not-applicable",
+        "readingAndTranslation": "not-applicable"
+      },
+      "exampleCount": 0,
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/1418/",
+          "evidenceSummary": "25 sacred/artistic sites, crater/pilgrimage routes and Sengen/oshi/lakes/springs at foot."
+        }
+      ],
+      "issueIds": []
+    },
+    {
+      "recordId": "japan-adv-gassho-shape",
+      "recordSha256": "46cf90f5c8fcc2d111c5d3a9c023ce38019ad66a746123586ef8337187858e54",
+      "reviewedAt": "13 October 2026",
+      "verdict": "approved",
+      "checks": {
+        "sourceClaim": "checked-against-primary-context",
+        "datesAndNames": "checked",
+        "socialGeneralization": "bounded-or-not-applicable",
+        "japaneseExamples": "not-applicable",
+        "readingAndTranslation": "not-applicable"
+      },
+      "exampleCount": 0,
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/734/",
+          "evidenceSummary": "Steep thatched gassho roofs and mulberry/silkworm economy."
+        }
+      ],
+      "issueIds": []
+    },
+    {
+      "recordId": "japan-adv-gassho-silk",
+      "recordSha256": "3d0cb3a49c70b3f28b01ee96f8562cfe82c572f81ede61fc8374c35fce99714f",
+      "reviewedAt": "13 October 2026",
+      "verdict": "approved",
+      "checks": {
+        "sourceClaim": "checked-against-primary-context",
+        "datesAndNames": "checked",
+        "socialGeneralization": "bounded-or-not-applicable",
+        "japaneseExamples": "not-applicable",
+        "readingAndTranslation": "not-applicable"
+      },
+      "exampleCount": 0,
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/734/",
+          "evidenceSummary": "Steep thatched gassho roofs and mulberry/silkworm economy."
+        }
+      ],
+      "issueIds": []
+    },
+    {
+      "recordId": "japan-adv-hiroshima-dome",
+      "recordSha256": "0e2befeee683b812299e3503612ff8fec8b1c0ba2e03a7ab466da2c16a140f92",
+      "reviewedAt": "13 October 2026",
+      "verdict": "approved",
+      "checks": {
+        "sourceClaim": "checked-against-primary-context",
+        "datesAndNames": "checked",
+        "socialGeneralization": "bounded-or-not-applicable",
+        "japaneseExamples": "not-applicable",
+        "readingAndTranslation": "not-applicable"
+      },
+      "exampleCount": 0,
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/775/",
+          "evidenceSummary": "6August1945, remaining dome and nuclear disarmament/peace aspiration."
+        }
+      ],
+      "issueIds": []
+    },
+    {
+      "recordId": "japan-adv-hiraizumi-gardens",
+      "recordSha256": "97ce29bd4a864b01711b8daf8e12000406478efd236bfb0a4688cb4b81d58004",
+      "reviewedAt": "13 October 2026",
+      "verdict": "approved",
+      "checks": {
+        "sourceClaim": "checked-against-primary-context",
+        "datesAndNames": "checked",
+        "socialGeneralization": "bounded-or-not-applicable",
+        "japaneseExamples": "not-applicable",
+        "readingAndTranslation": "not-applicable"
+      },
+      "exampleCount": 0,
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/1277/",
+          "evidenceSummary": "Pure Land landscape and11th/12thcentury administrative centre."
+        }
+      ],
+      "issueIds": []
+    },
+    {
+      "recordId": "japan-adv-meiji-industry",
+      "recordSha256": "59cfaa4b6dbac269535bd44edc3e8c7c916f2403b578a600d3f8ffccc0ac67c8",
+      "reviewedAt": "13 October 2026",
+      "verdict": "approved",
+      "checks": {
+        "sourceClaim": "checked-against-primary-context",
+        "datesAndNames": "checked",
+        "socialGeneralization": "bounded-or-not-applicable",
+        "japaneseExamples": "not-applicable",
+        "readingAndTranslation": "not-applicable"
+      },
+      "exampleCount": 0,
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/1484/",
+          "evidenceSummary": "Iron/steel, shipbuilding/coal,19th/early20thcentury Western technology adaptation."
+        }
+      ],
+      "issueIds": []
+    },
+    {
+      "recordId": "japan-adv-tomioka-france",
+      "recordSha256": "6f703e04f0836db291e86bf29841ca055ecb208719ad212dcd0f9f1a12601f36",
+      "reviewedAt": "13 October 2026",
+      "verdict": "approved",
+      "checks": {
+        "sourceClaim": "checked-against-primary-context",
+        "datesAndNames": "checked",
+        "socialGeneralization": "bounded-or-not-applicable",
+        "japaneseExamples": "not-applicable",
+        "readingAndTranslation": "not-applicable"
+      },
+      "exampleCount": 0,
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/1449/",
+          "evidenceSummary": "French machinery/expertise and cocoon farm/egg storage/reeling/teaching chain."
+        }
+      ],
+      "issueIds": []
+    },
+    {
+      "recordId": "japan-adv-iwami-ports",
+      "recordSha256": "79e9166525958b0fc94771b57d7a6993784b428e42dfd6e5c92c609ff715934c",
+      "reviewedAt": "13 October 2026",
+      "verdict": "approved",
+      "checks": {
+        "sourceClaim": "checked-against-primary-context",
+        "datesAndNames": "checked",
+        "socialGeneralization": "bounded-or-not-applicable",
+        "japaneseExamples": "not-applicable",
+        "readingAndTranslation": "not-applicable"
+      },
+      "exampleCount": 0,
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/1246/",
+          "evidenceSummary": "Mining/smelting/refining, routes and coast ports for Korea/China."
+        }
+      ],
+      "issueIds": []
+    },
+    {
+      "recordId": "japan-adv-hidden-christian-sites",
+      "recordSha256": "4ebef6d3c3b029d5c0dee89deba6efc7b3dabbf498d1cb17095fcbfe157e85ca",
+      "reviewedAt": "13 October 2026",
+      "verdict": "approved",
+      "checks": {
+        "sourceClaim": "checked-against-primary-context",
+        "datesAndNames": "checked",
+        "socialGeneralization": "bounded-or-not-applicable",
+        "japaneseExamples": "not-applicable",
+        "readingAndTranslation": "not-applicable"
+      },
+      "exampleCount": 0,
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/1495/",
+          "evidenceSummary": "Villages/Hara/cathedral and prohibition lifted1873."
+        }
+      ],
+      "issueIds": []
+    },
+    {
+      "recordId": "japan-adv-horyuji-wood",
+      "recordSha256": "32eda0e1227475e48c1b0c527173c2f2e016af11c4827190daf568883f5b50c9",
+      "reviewedAt": "13 October 2026",
+      "verdict": "approved",
+      "checks": {
+        "sourceClaim": "checked-against-primary-context",
+        "datesAndNames": "checked",
+        "socialGeneralization": "bounded-or-not-applicable",
+        "japaneseExamples": "not-applicable",
+        "readingAndTranslation": "not-applicable"
+      },
+      "exampleCount": 0,
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/660/",
+          "evidenceSummary": "Late7th/early8thcentury wood structures and continental Buddhist adaptation."
+        }
+      ],
+      "issueIds": []
+    }
+  ]
+}

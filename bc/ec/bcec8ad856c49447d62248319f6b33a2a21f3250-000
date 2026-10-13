@@ -1,14 +1,11 @@
 {
-  "checkedAt": "12 October 2026",
+  "checkedAt": "13 October 2026",
   "surface": "Actual ZenRayJapanese component in isolated headless Chromium; real local corpus fixtures; not production authentication proof",
   "checks": [
     {
-      "name": "Corpus > N4 > ば > lesson",
+      "name": "Real approved ba lesson and reviewed retests, Markdown download",
       "passed": true,
-      "tableColumns": 2,
-      "drills": 1,
-      "script": "kana",
-      "retetstDetails": 2
+      "tableColumns": 2
     },
     {
       "name": "Source links and rights metadata",
@@ -46,10 +43,14 @@
     {
       "name": "Exact kanji search and actual SVG image loading",
       "passed": true
+    },
+    {
+      "name": "Removing real record approval blocks lesson and download",
+      "passed": true
     }
   ],
-  "catalogueRequests": 1,
-  "requestCount": 5,
+  "catalogueRequests": 2,
+  "requestCount": 7,
   "pageErrors": [],
   "passed": true
 }

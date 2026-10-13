@@ -1,0 +1,27 @@
+# Independent adversarial language review (13 October 2026)
+
+All 163 records and 378 examples were read. 159 records have no issue found by this independent model review; four records and the second personal retest remain blocked. This is not human native review. (13 October 2026)
+
+## adv-causative (13 October 2026)
+The stated godan a-row rule omits the u-ending exception. Applying it mechanically to 言う would produce 言あせる, while the primary curriculum explicitly gives 言わせる. All three stored examples are otherwise consistent. (13 October 2026)
+Correction: State: Godan, change the final kana to the a-row, with う → わ, then add せる. Include 言う → 言わせる as a boundary example. (13 October 2026)
+Evidence: https://imabi.org/the-causative-i-%ef%bd%9e%e3%81%95%e3%81%9b%e3%82%8b-%ef%bd%9e%e3%81%9b%e3%82%8b/ (13 October 2026)
+
+## adv-souda-appearance (13 October 2026)
+The unrestricted i-adjective deletion rule omits ない → なさそう and the lexical exception かわいい + そう, whose ordinary resulting word means pitiable rather than seems cute. The stored おいしそう, 降りそう and よさそう examples are sound, but the rule can generate wrong extrapolations. (13 October 2026)
+Correction: Add ない → なさそう for the adjective of absence, and explicitly distinguish かわいそう from かわいいようだ. Do not extrapolate this adjective rule to all verb-negative variants. (13 October 2026)
+Evidence: https://imabi.org/seem-%ef%bd%9e%e3%81%9d%e3%81%86%e3%81%a0/ (13 October 2026)
+
+## adv-adjective-sa (13 October 2026)
+The simple remove-i instruction would predict いさ from いい. The lesson does not depend on grammar-i-adjectives, which already documents the よい stem, so the required exception is not supplied by its declared prerequisites. The three stored examples are correct. (13 October 2026)
+Correction: State the irregular base いい/よい → よさ and link grammar-i-adjectives as a prerequisite. (13 October 2026)
+Evidence: https://imabi.org/adjective-nominalization/ https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/030.html (13 October 2026)
+
+## adv-kuseni (13 October 2026)
+Example 1 translates 教えてくれません as an intentional refusal. The negative benefactive says the person does not tell me; くせに supplies criticism but does not prove a deliberate refusal. This matters when the French prompt is used as an exact recall target. (13 October 2026)
+Correction: Use: Il le sait, pourtant il ne me le dit pas. Keep the note that the construction expresses a reproach. (13 October 2026)
+Evidence: https://imabi.org/criticizing-%e3%81%8f%e3%81%9b%e3%81%ab%e3%83%bb%e3%81%8f%e3%81%9b%e3%81%97%e3%81%a6/ https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/086.html (13 October 2026)
+
+## Personal retests (13 October 2026)
+The canonical second retest forces お持ち帰りで for the customer. The verified Japan Foundation starter L6 explicitly teaches テイクアウトで to the customer and marks お持ち帰りですね as staff speech. This does not prove that every customer utterance with お is ungrammatical; it leaves the sole accepted drill answer insufficiently justified for the declared role. (13 October 2026)
+Preserve the personal-history original. For lesson retests use a reviewed overlay with テイクアウトで (or a fully sourced customer 持ち帰りで variant), with source, role and accepted alternatives explicitly stored. (13 October 2026)

@@ -82,22 +82,23 @@ def validate(records):
 
 
 def render_record(record):
+    revision_date = record.get('revisionDate', DATE)
     clean = lambda text: str(text).replace('|', '\\|').replace('\n', ' ')
-    lines = [f"## {record['id']} : {record['title']} ({DATE})", '',
-             f"Domaine : {record['domain']} ; niveau : {record.get('level','non classé')} ; statut : {record.get('status','source-imported')}. ({DATE})", '',
-             record['explanationFr'] + f' ({DATE})', '']
+    lines = [f"## {record['id']} : {record['title']} ({revision_date})", '',
+             f"Domaine : {record['domain']} ; niveau : {record.get('level','non classé')} ; statut : {record.get('status','source-imported')}. ({revision_date})", '',
+             record['explanationFr'] + f' ({revision_date})', '']
     if record.get('examples'):
         lines += ['| Japonais et lecture | Français |', '|---|---|']
         for example in record['examples']:
             ja = example['ja']
             if example.get('reading') and example['reading'] != ja:
                 ja += ' (' + example['reading'] + ')'
-            lines.append(f"| {clean(ja)} | {clean(example['fr'])} ({DATE}) |")
+            lines.append(f"| {clean(ja)} | {clean(example['fr'])} ({revision_date}) |")
         lines.append('')
     if record.get('prerequisites'):
-        lines += ['Prérequis : ' + ', '.join(record['prerequisites']) + f'. ({DATE})', '']
+        lines += ['Prérequis : ' + ', '.join(record['prerequisites']) + f'. ({revision_date})', '']
     for item in record['sources']:
-        lines.append(f"- [{item.get('title',item['url'])}]({item['url']}) ; {item.get('publisher','source')} ; {item.get('license',item.get('reuse','droit à vérifier'))} ; vérifié : {item.get('checkedAt',DATE)}. ({DATE})")
+        lines.append(f"- [{item.get('title',item['url'])}]({item['url']}) ; {item.get('publisher','source')} ; {item.get('license',item.get('reuse','droit à vérifier'))} ; vérifié : {item.get('checkedAt',DATE)}. ({revision_date})")
     lines.append('')
     return '\n'.join(lines)
 
@@ -183,7 +184,47 @@ def dictionary_records(research, dataset_paths=None):
                    'sources': [source(item['url'], f"Tatoeba {item['id']}", item['author'] or 'anonymous contributor', 'CC BY 2.0 FR') for item in [jp,fr]]}
 
 
+# 13 October 2026, 00:10 CEST: teaching requires content-bound adversarial evidence.
+def lesson_content_hash(payload):
+    content = {key: value for key, value in payload.items() if key not in ['lessonValidation', 'lessonContentHash']}
+    return hashlib.sha256(json.dumps(content, ensure_ascii=False, sort_keys=True, separators=(',', ':')).encode()).hexdigest()
+
+
+def attach_lesson_validation(payload, approvals, identity):
+    payload['lessonContentVersion'] = '1'
+    payload['lessonContentHash'] = lesson_content_hash(payload)
+    payload['lessonValidation'] = approvals.get(identity, {'status': 'blocked', 'reason': 'Adversarial review required'})
+    return payload
+
+
+def require_lesson_validation(payload):
+    approval = payload.get('lessonValidation', {})
+    digest = lesson_content_hash(payload)
+    reviewers = approval.get('reviewerIds', [])
+    evidence = approval.get('evidenceUrls', [])
+    valid = (approval.get('status') == 'approved'
+             and payload.get('lessonContentVersion') == '1'
+             and approval.get('contentVersion') == payload.get('lessonContentVersion')
+             and approval.get('contentHash') == payload.get('lessonContentHash') == digest
+             and isinstance(reviewers, list)
+             and all(isinstance(item, str) and item.strip() for item in reviewers)
+             and len(set(item.strip() for item in reviewers)) >= 2
+             and isinstance(evidence, list) and len(evidence) > 0
+             and all(isinstance(item, str) and item.startswith('https://') for item in evidence)
+             and approval.get('unresolvedFindings') == [])
+    if not valid:
+        raise ValueError('Lesson blocked: adversarial validation is missing, incomplete or stale for ' + payload.get('id', 'learner retest'))
+
+
+def learner_payload(config):
+    learner = dict(config.get('learner', {}))
+    learner['retestItems'] = read_json(learner['retestSource']).get('items', [])[:learner.get('retestCount', 2)] if learner.get('retestSource') else []
+    learner['acquiredFromCorpus'] = False
+    return learner
+
+
 def cook_lesson(record, config, options=None, retest=None):
+    require_lesson_validation(record)
     settings = {**config['lesson'], **(options or {})}
     if settings['mode'] not in ['oral','reading'] or settings['script'] not in ['reading','mixed']:
         raise ValueError('Unknown lesson mode or script')
@@ -197,7 +238,13 @@ def cook_lesson(record, config, options=None, retest=None):
     lines = [f"# BOUCLE : {record['title']} ({DATE}, {settings['minutes']} min)", '',
              'La disponibilité du corpus ne mesure ni ton exposition ni tes acquis.', '', '## ① RETEST', '']
     if retest is None and config.get('learner',{}).get('retestSource'):
-        retest = read_json(config['learner']['retestSource']).get('items',[])[:config['learner'].get('retestCount',2)]
+        learner = learner_payload(config)
+        approvals = read_json(config['review']['approvals']).get('approvals', {})
+        attach_lesson_validation(learner, approvals, 'learner-retest')
+        require_lesson_validation(learner)
+        retest = learner['retestItems']
+    elif retest:
+        raise ValueError('Explicit retest bypass is forbidden; validate the configured learner payload')
     if retest:
         lines += [f"Dis à voix haute : {e['fr']}" for e in retest]
     else:
@@ -222,6 +269,7 @@ def build(config):
     root = Path(config['memoryRoot'])
     research = Path(config['researchRoot'])
     cards = curated(research)
+    approvals = read_json(config['review']['approvals']).get('approvals', {})
     database = root / 'Corpus' / 'japanese.sqlite'
     database.parent.mkdir(parents=True, exist_ok=True)
     temporary = database.with_name('.japanese.sqlite.new')
@@ -255,7 +303,11 @@ def build(config):
     for record in iter_records(cards, research, config["datasets"]):
         validate([record])
         record['recordShard'] = bucket(record['id'], config['recordShards'])
+        if record['domain'] not in ['dictionary', 'kanji', 'sentence']:
+            record['revisionDate'] = config.get('recordRevisionDates', {}).get(record['id'], DATE)
         record['markdown'] = render_record(record)
+        if record['domain'] not in ['dictionary', 'kanji', 'sentence']:
+            attach_lesson_validation(record, approvals, record['id'])
         text = record['title'] + ' ' + ' '.join(record.get('aliases', [])) + ' ' + record['explanationFr']
         encoded = json.dumps(record, ensure_ascii=False)
         conn.execute('INSERT INTO records VALUES (?,?,?,?,?,?)', (record['id'],record['domain'],record.get('level','unclassified'),record['title'],normalized(text),encoded))
@@ -306,6 +358,7 @@ def build(config):
                     if not chunk: break
                     release_digest.update(chunk)
     release_digest.update(json.dumps(config,sort_keys=True).encode())
+    release_digest.update(json.dumps(approvals,ensure_ascii=False,sort_keys=True).encode())
     release_hash = release_digest.hexdigest()[:16]
     site_root = root / 'Site' / 'corpus'
     site = site_root / 'releases' / release_hash
@@ -341,13 +394,13 @@ def build(config):
                 handle.write(delta)
         else:
             atomic_text(filename, delta)
-    metadata = {'schemaVersion':1,'projectId':config['projectId'],'builtAt':DATE,'counts':dict(counts),
+    metadata = {'schemaVersion':1,'projectId':config['projectId'],'builtAt':config.get('buildDate', DATE),'counts':dict(counts),
                 'recordShards':config['recordShards'],'searchShards':config['searchShards'],
                 'cards':[dict(r,recordShard=bucket(r['id'],config['recordShards'])) for r in cards],
                 'coverageStatus':'expanding','officialJlptList':False,
                 'notice':'Corpus en expansion : disponibilités documentaires distinctes des acquis ; niveaux pédagogiques estimés. Dictionnaires EDRDG CC BY-SA 4.0, tracés KanjiVG CC BY-SA 3.0, phrases Tatoeba selon leurs licences.'}
     if config.get('learner',{}).get('retestSource'):
-        metadata['learner'] = {**config['learner'], 'retestItems': read_json(config['learner']['retestSource']).get('items',[])[:config['learner'].get('retestCount',2)], 'acquiredFromCorpus': False}
+        metadata['learner'] = attach_lesson_validation(learner_payload(config), approvals, 'learner-retest')
     metadata['basePath'] = f'Memory/Japanese/Site/corpus/releases/{release_hash}'
     metadata['release'] = release_hash
     metadata['lesson'] = config['lesson']

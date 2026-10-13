@@ -1,0 +1,25 @@
+# Second independent corrections review (13 October 2026)
+
+All six corrected records, 18 examples and both complete overlay items have no unresolved issue found by this independent model re-review. Native human review is not claimed. (13 October 2026)
+
+## adv-causative (13 October 2026)
+The corrected rule explicitly gives う → わ and 言う → 言わせる; this agrees with the source conjugation table. 書かせる, 遊ばせる and 笑わせる retain valid readings, roles and possible causative/permission meanings. (13 October 2026)
+
+## adv-souda-appearance (13 October 2026)
+The rule now distinguishes いい → よさそう, adjective ない → なさそう and the lexical false friend かわいそう. The alternative かわいいようだ preserves the adjective instead of generating the pitiable word. It explicitly avoids transferring this rule indiscriminately to verbal negatives. All three examples remain sound. (13 October 2026)
+
+## adv-adjective-sa (13 October 2026)
+The corrected rule explicitly uses the よい base and gives よさ, and declares grammar-i-adjectives as a prerequisite. 広さ, 静かさ and 面白さ are valid nominalizations and their French meanings do not require correction. (13 October 2026)
+
+## adv-kuseni (13 October 2026)
+Example 1 and oralPromptFr now say the person does not tell me, without asserting deliberate refusal. This retains the reproach supplied by くせに. The Japanese and kana are unchanged and consistent. The other two examples remain acceptable in their stated reproach/self-reproach scope. (13 October 2026)
+
+## adv-to-omoikiya (13 October 2026)
+The rule no longer attributes mandatory immediate temporal succession to the construction. The source explicitly defines contrary-to-expectation meaning; its restaurant price example contrasts an expectation with a bill, rather than requiring two immediately successive actions. All three original examples and readings remain consistent. (13 October 2026)
+
+## adv-zuniha-irarenai (13 October 2026)
+Example 1 now explicitly supplies attempted inhibition of laughter, which matches the source sentence note permitting 笑う when attempted restraint is understood. Example 3 uses 話す, a controllable act of speaking, rather than treating spontaneous remembering as universally interchangeable. The worry-induced phone call and all three kana/French pairs are coherent. No native-speaker review is claimed. (13 October 2026)
+
+## Retest overlay (13 October 2026)
+The complete two-item payload is approved for its explicit customer roles. The original personal two-item payload matches its previous review hash and remains unchanged. (13 October 2026)
+Exact overlay items SHA256: 653c341877ebf1807a6e2323ef86fe4d515bbd55083455a835cc77e19ab32b42 (13 October 2026)

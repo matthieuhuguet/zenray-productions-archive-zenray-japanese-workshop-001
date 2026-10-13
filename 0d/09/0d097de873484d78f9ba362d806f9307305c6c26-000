@@ -1,0 +1,8 @@
+// 13 October 2026, 10:00 CEST: configure the existing identity, with no new project or source reassignment.
+import {createAssetsService} from '/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/scripts/AssetsService.mjs'
+const service=await createAssetsService()
+try{
+  const project=service.project('zenray-japanese')
+  await service.register({...project,name:'zenray-japanese',indexThumbnailMode:'paths-only'})
+  console.log(JSON.stringify({projectId:project.id,name:service.project(project.id).name,indexThumbnailMode:service.project(project.id).indexThumbnailMode}))
+}finally{await service.close()}

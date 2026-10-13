@@ -1,0 +1,698 @@
+[
+  {
+    "url": "https://imabi.org/%E3%82%8F%E3%81%91%E3%81%A0/",
+    "status": "fetched",
+    "sha256": "40f515587dcc716ba4573eefdc6bba6c931fe7f2f791abb494e837b192780607",
+    "length": 34592
+  },
+  {
+    "url": "https://imabi.org/%EF%BD%9E%E3%81%96%E3%82%8B%E3%82%92%E5%BE%97%E3%81%AA%E3%81%84-%E3%82%84%E3%82%80%E3%82%92%E5%BE%97%E3%81%AA%E3%81%84/",
+    "status": "fetched",
+    "sha256": "8dc0f2be136518aaa748f148f530a624b247f769aa5f153f876e2af8aa86bbba",
+    "length": 25900
+  },
+  {
+    "url": "https://imabi.org/%e3%81%a0%e3%81%91%e3%81%ab%e3%83%bb%e3%81%a0%e3%81%91%ef%bc%88%e3%81%ae%e3%81%93%e3%81%a8%e3%81%af%ef%bc%89%e3%81%82%e3%81%a3%e3%81%a6/",
+    "status": "fetched",
+    "sha256": "f9efc4a5608b8245d093563cb89b0d21eb96d5c74294d2f13141fd999fb54d71",
+    "length": 32816
+  },
+  {
+    "url": "https://imabi.org/%e3%82%8f%e3%81%91%e3%81%a7%e3%81%af%e3%81%aa%e3%81%84-%e3%82%8f%e3%81%91%e3%81%8c%e3%81%aa%e3%81%84-%e3%82%8f%e3%81%91%e3%81%ab%e3%81%af%e3%81%84%e3%81%8b%e3%81%aa%e3%81%84/",
+    "status": "fetched",
+    "sha256": "8a4423fd93824f772357a903abb409e9c151ec3a2bb839d962566ea5f4159573",
+    "length": 25845
+  },
+  {
+    "url": "https://imabi.org/%ef%bd%9e%e3%82%88%e3%81%86%e3%81%ab%e3%81%aa%e3%82%8b-%ef%bd%9e%e3%82%88%e3%81%86%e3%81%ab%e3%81%99%e3%82%8b/",
+    "status": "fetched",
+    "sha256": "4383cba0e197a4ae096e31f36b95536974289cbde7f857bb9ac8e3cae4dedbb3",
+    "length": 51163
+  },
+  {
+    "url": "https://imabi.org/%ef%bd%9e%ef%bc%88%e3%82%88%ef%bc%89%e3%81%86%e3%81%ab%e3%82%82-%ef%bd%9e%ef%bc%88%e3%82%88%ef%bc%89%e3%81%86%e3%82%82%e3%81%ae%e3%81%aa%e3%82%89/",
+    "status": "fetched",
+    "sha256": "9be92f4c99ef19b7598338e569cf5a0a46c9dc828349c147722535aa02c2e755",
+    "length": 26089
+  },
+  {
+    "url": "https://imabi.org/about-2/",
+    "status": "fetched",
+    "sha256": "cad317d995b9e6a49df41002326ac40ba5c928f5ecccd39923f7ad8ffcaf0daf",
+    "length": 28497
+  },
+  {
+    "url": "https://imabi.org/addition/",
+    "status": "fetched",
+    "sha256": "9959093da500eeb8eae84fdec7c2a921cae3d4a1a0ce37088596e1c9de8cc0d2",
+    "length": 29535
+  },
+  {
+    "url": "https://imabi.org/adjective-nominalization/",
+    "status": "fetched",
+    "sha256": "3fb2c8a8d763b38ba98eac34587cb2b28c40e3941f09fa7959237ae5746e7ca3",
+    "length": 46107
+  },
+  {
+    "url": "https://imabi.org/advanced-%ef%bd%9e%e3%81%b9%e3%81%8d-phrases%ef%bd%9e%e3%81%b9%e3%81%8f%e3%82%82%e3%81%aa%e3%81%84-%ef%bd%9e%e3%81%b9%e3%81%8b%e3%82%89%e3%81%9a%e3%83%bb%e3%81%96%e3%82%8b-%ef%bd%9e%e3%81%b9/",
+    "status": "fetched",
+    "sha256": "7d7a4f1ac539b8ca2f2b7c4984604e395fd48400ffbfae7b79a51b13e68659b8",
+    "length": 28432
+  },
+  {
+    "url": "https://imabi.org/after-ii/",
+    "status": "fetched",
+    "sha256": "9398717f45d4d69eb6f983b66f4a6ca034181664ae81a3862cd314275ebb0d13",
+    "length": 28932
+  },
+  {
+    "url": "https://imabi.org/as-change/",
+    "status": "fetched",
+    "sha256": "282f75b2e9ca562e4a52cd7df80f738a521bcd77128c847cf2b2eea071db1158",
+    "length": 27494
+  },
+  {
+    "url": "https://imabi.org/as-soon-as/",
+    "status": "fetched",
+    "sha256": "734bb7bca97a98ac21088cde5879da44703e0bb1834ceae7a6cde1c446c62e9e",
+    "length": 26583
+  },
+  {
+    "url": "https://imabi.org/based-on/",
+    "status": "fetched",
+    "sha256": "9326961581c8910109a9c27d56e8548ee2e59bcd6bacdcb062355a29b98009f9",
+    "length": 32661
+  },
+  {
+    "url": "https://imabi.org/best-that/",
+    "status": "fetched",
+    "sha256": "49cd6b4733f5f8027b9013c95287b94e6e1f0a8c96123bf053d89d4ec10010b5",
+    "length": 23803
+  },
+  {
+    "url": "https://imabi.org/cant-help-i/",
+    "status": "fetched",
+    "sha256": "3be635a4978a1abf4b4c0a900a07b52d7b14d2211b4326b38755f9a5e0af20ca",
+    "length": 26324
+  },
+  {
+    "url": "https://imabi.org/cant-help-ii/",
+    "status": "fetched",
+    "sha256": "83c0361ec9f876508087884ba0c682f422bbc40ccff99fac8c551c759ee823b9",
+    "length": 26001
+  },
+  {
+    "url": "https://imabi.org/cant-help-iii/",
+    "status": "fetched",
+    "sha256": "b8a43b0c89970167635690660c6c04dc439c4c3de71f83b56b25a5484e0e66d8",
+    "length": 24274
+  },
+  {
+    "url": "https://imabi.org/causative-passive/",
+    "status": "fetched",
+    "sha256": "1e52f9a50df3e9ef29359124a30f06906430e7af5a0b1fb2e937b0e5274204c5",
+    "length": 28215
+  },
+  {
+    "url": "https://imabi.org/circumstance/",
+    "status": "fetched",
+    "sha256": "61a18bb5a793ad56fc42c2b27d1e1fa1b1b09d62df7c3b78b651432a83fbb3d6",
+    "length": 26421
+  },
+  {
+    "url": "https://imabi.org/citation-ii-%ef%bd%9e%e3%81%a8%e3%81%84%e3%81%86-%ef%bd%9e%e3%81%a8%e3%81%84%e3%81%86%e3%81%93%e3%81%a8-%ef%bd%9e%e3%81%a8%e3%81%84%e3%81%86%e3%82%82%e3%81%ae/",
+    "status": "fetched",
+    "sha256": "98fe8d5a14b4c005931e953c0c726f7b8e99a9bcb1dfcd62d56f70144524904c",
+    "length": 28518
+  },
+  {
+    "url": "https://imabi.org/combination-particles-with-%E3%82%82%E3%81%AE/",
+    "status": "fetched",
+    "sha256": "32069e3cc2dd7784bd93a0054491ab51f7dd03d4d2f0b7d7e3d14910d0c03268",
+    "length": 22704
+  },
+  {
+    "url": "https://imabi.org/considering-%E3%82%8F%E3%82%8A%E3%81%AB%EF%BC%88%E3%81%AF%EF%BC%89-%E3%81%AB%E3%81%97%E3%81%A6%E3%81%AF/",
+    "status": "fetched",
+    "sha256": "36196f2236a4d694b78582827042c7723a14eef5d0b6890ab18b65e4de26e971",
+    "length": 29465
+  },
+  {
+    "url": "https://imabi.org/criticizing-%e3%81%8f%e3%81%9b%e3%81%ab%e3%83%bb%e3%81%8f%e3%81%9b%e3%81%97%e3%81%a6/",
+    "status": "fetched",
+    "sha256": "158b507c668df6d09f895ca40f071b6f49535939fbaa6bb7606ad9309e280a93",
+    "length": 24577
+  },
+  {
+    "url": "https://imabi.org/defining-parameter/",
+    "status": "fetched",
+    "sha256": "2636367e01394bcfe665d712d52c647449c8a29e0e5fdc2c4bc6209b9d6a3a7c",
+    "length": 25981
+  },
+  {
+    "url": "https://imabi.org/difficult-i-%ef%bd%9e%e3%81%ab%e3%81%8f%e3%81%84/",
+    "status": "fetched",
+    "sha256": "6471548caf2504ac9f05a82cd628e08c4b18bcc4c9c1bcd4753c17a0a0bb9aed",
+    "length": 33139
+  },
+  {
+    "url": "https://imabi.org/difficult-ii-%ef%bd%9e%e3%81%8c%e3%81%9f%e3%81%84-%ef%bd%9e%e3%81%a5%e3%82%89%e3%81%84/",
+    "status": "fetched",
+    "sha256": "8374709c35d3fb1fe365c6c6a3010a5944b23f91a39da1f44b864ba969d2fbca",
+    "length": 25867
+  },
+  {
+    "url": "https://imabi.org/disregard-i/",
+    "status": "fetched",
+    "sha256": "af1f62361bd40f467c46a4029b8066d586d770b71956472970978e96a25d687d",
+    "length": 33781
+  },
+  {
+    "url": "https://imabi.org/disregard-ii/",
+    "status": "fetched",
+    "sha256": "3b237a17754b7d6a04a1c81142646850333bbb4c21984791b6f0dc6fb1b5c824",
+    "length": 28744
+  },
+  {
+    "url": "https://imabi.org/disregard-iii/",
+    "status": "fetched",
+    "sha256": "c2e998ceffcd181cbdeb084168458224de6499849e0ca4b3616c1a96b0949580",
+    "length": 27814
+  },
+  {
+    "url": "https://imabi.org/disregard-iv/",
+    "status": "fetched",
+    "sha256": "262df9e5c50e73d5def717a3b5516f06086625da1a2151cec76ca819bf4faf36",
+    "length": 26088
+  },
+  {
+    "url": "https://imabi.org/due-to/",
+    "status": "fetched",
+    "sha256": "5f1db18ab9861b43039e7361072cd19ec85f73dd55030caa7c374050297a965e",
+    "length": 29221
+  },
+  {
+    "url": "https://imabi.org/during-throughout/",
+    "status": "fetched",
+    "sha256": "bbf590479e8cf0db88d21f2c1fd5cfafb4d3a4aaff27217066ecd50add4350a1",
+    "length": 59435
+  },
+  {
+    "url": "https://imabi.org/easy-i-%ef%bd%9e%e3%82%84%e3%81%99%e3%81%84/",
+    "status": "fetched",
+    "sha256": "3eabeb11ba9bf340b560af98ea371bd29da79cf7178a41b47020555a5902b208",
+    "length": 34177
+  },
+  {
+    "url": "https://imabi.org/exception/",
+    "status": "fetched",
+    "sha256": "af842ee46292480a6263e3b9268d1e5ca4cfb69725bccb2a282e167efa38668b",
+    "length": 26208
+  },
+  {
+    "url": "https://imabi.org/expressions-with-%e3%81%93%e3%81%a8/",
+    "status": "fetched",
+    "sha256": "c1e8d9f75a29ebd65460f6f61b4863ceb831772921483de97886f90bbc02f546",
+    "length": 27745
+  },
+  {
+    "url": "https://imabi.org/fix-error-%ef%bd%9e%e5%bf%98%e3%82%8c%e3%82%8b-%ef%bd%9e%e7%9b%b4%e3%81%99-%e9%96%93%e9%81%95%e3%81%88%e3%82%8b-%ef%bd%9e%e8%aa%a4%e3%82%8b/",
+    "status": "fetched",
+    "sha256": "91f4242bbc62c3531de73522f30332790794efcfd1a9944f89c7c716d6422039",
+    "length": 40419
+  },
+  {
+    "url": "https://imabi.org/hearsay/",
+    "status": "fetched",
+    "sha256": "418ba83b60ae919cf456caf4719bca95f32d03adbdaccf58d8a15a4ac26f4200",
+    "length": 28981
+  },
+  {
+    "url": "https://imabi.org/incidental/",
+    "status": "fetched",
+    "sha256": "743dc68af790cee19c07e0ff63641ea5f132c4936437335c3542ff40dc6f5021",
+    "length": 32141
+  },
+  {
+    "url": "https://imabi.org/limit/",
+    "status": "fetched",
+    "sha256": "54119c25e8f1d0a606cdf6c1e6d81f2446f62f5144b51e5b6e6223afcc6df64a",
+    "length": 26703
+  },
+  {
+    "url": "https://imabi.org/might-%e3%81%8b%e3%82%82%e3%81%97%e3%82%8c%e3%81%aa%e3%81%84/",
+    "status": "fetched",
+    "sha256": "2dfdfb85b8fd66bab2df4c0e39bd7aca985ea2370f34933e5b32906b9bb5ee8e",
+    "length": 26783
+  },
+  {
+    "url": "https://imabi.org/must/",
+    "status": "fetched",
+    "sha256": "651d89ff266cdd954561b1c5ff455054d85deee0a97d4c834b918ea4c52daab9",
+    "length": 27265
+  },
+  {
+    "url": "https://imabi.org/negative-patterns/",
+    "status": "fetched",
+    "sha256": "e39c994b910705cc72384ac7e090826dde6a2f7e8c13a7d4b1fba26b1b1fc19b",
+    "length": 26623
+  },
+  {
+    "url": "https://imabi.org/negative-volition-%ef%bd%9e%e3%81%be%e3%81%84/",
+    "status": "fetched",
+    "sha256": "f0b62139c483bd944df8fe837d45bc637a18f6049d1bedbb2b0b4f88421228ea",
+    "length": 34709
+  },
+  {
+    "url": "https://imabi.org/no-doubt-that/",
+    "status": "fetched",
+    "sha256": "2e389181f70989c93ad274f10944f4a5419d96bc40cc54dc0f292ca40d740970",
+    "length": 24078
+  },
+  {
+    "url": "https://imabi.org/obligation-%ef%bd%9e%e3%81%b9%e3%81%8d%e3%81%a0/",
+    "status": "fetched",
+    "sha256": "9205674c20c620b73e28a6c8d8eae7061ecbffe4e4ca0c0f692fba624d378de0",
+    "length": 35279
+  },
+  {
+    "url": "https://imabi.org/occasion/",
+    "status": "fetched",
+    "sha256": "65be920091803e752619cf605c738d401c5f9bf7edb61dc5462efa99205e1934",
+    "length": 37657
+  },
+  {
+    "url": "https://imabi.org/planning-%ef%bd%9e%e3%81%a4%e3%82%82%e3%82%8a%e3%81%a0/",
+    "status": "fetched",
+    "sha256": "6a1c8f52a43e59ff71b180a9407611b614ef669f95e17686fb1dfe59ffd93524",
+    "length": 41056
+  },
+  {
+    "url": "https://imabi.org/planning-obligation/",
+    "status": "fetched",
+    "sha256": "fd1e2482c717b1fa065241026ad7bb0bd3d23af6b87ab3686344d47cd133ba1c",
+    "length": 21104
+  },
+  {
+    "url": "https://imabi.org/potential-iv/",
+    "status": "fetched",
+    "sha256": "3e950282aa00056a52b6118bb2aab8030de3fa90cf1b036a102faa601626427d",
+    "length": 28930
+  },
+  {
+    "url": "https://imabi.org/result/",
+    "status": "fetched",
+    "sha256": "6cfa1d597024950a4bd8c33ecb22eaa461fa0575282b9ec39c8f7ba618908853",
+    "length": 35289
+  },
+  {
+    "url": "https://imabi.org/seem-%ef%bd%9e%e3%81%9d%e3%81%86%e3%81%a0/",
+    "status": "fetched",
+    "sha256": "dc23657f9dddeba9228fabd64b139a67451ee7cf479605d3ab7d10db2fb8dcd3",
+    "length": 40657
+  },
+  {
+    "url": "https://imabi.org/simultaneous-action-ii-the-particle-%e3%81%a4%e3%81%a4-vs-%e3%81%aa%e3%81%8c%e3%82%89/",
+    "status": "fetched",
+    "sha256": "3d3adfc389e18283864bb5f95d93f5727197f54da5343f4cfabebdfb59682acd",
+    "length": 26681
+  },
+  {
+    "url": "https://imabi.org/so-that/",
+    "status": "fetched",
+    "sha256": "26c7a6832f951bb1d6194efe0e7cc94bf80270952399b03863b2bc92dcd1a7c0",
+    "length": 41132
+  },
+  {
+    "url": "https://imabi.org/span-%ef%bd%9e%e3%81%ab%e3%81%8b%e3%81%91%e3%81%a6-%e3%81%ab%e3%82%8f%e3%81%9f%e3%81%a3%e3%81%a6/",
+    "status": "fetched",
+    "sha256": "e483f2b0fe173d17e1fac644952f5c610dbdfeb7aced218e1a1e2c4f872767ce",
+    "length": 26075
+  },
+  {
+    "url": "https://imabi.org/standpoint-%e3%81%a8%e3%81%97%e3%81%a6%ef%bc%88%e3%81%af%ef%bc%89-vs-%e3%81%ab%e3%81%a8%e3%81%a3%e3%81%a6%ef%bc%88%e3%81%af%ef%bc%89/",
+    "status": "fetched",
+    "sha256": "9db468994c88017042a24911c3fe1d0f22734c16fb77c86072db599d84b5ac7b",
+    "length": 29501
+  },
+  {
+    "url": "https://imabi.org/tendency/",
+    "status": "fetched",
+    "sha256": "2cf6b30759eddef87dd6cdac37c0380468e130370db909c05d78b52950d877a4",
+    "length": 23338
+  },
+  {
+    "url": "https://imabi.org/the-adverbs-%e3%81%9b%e3%81%a3%e3%81%8b%e3%81%8f-%e3%82%8f%e3%81%96%e3%82%8f%e3%81%96/",
+    "status": "fetched",
+    "sha256": "104133d53a8b510a2ef3ddd4cb6f698d7e9f826f1255b2a145458e64e8dec654",
+    "length": 30417
+  },
+  {
+    "url": "https://imabi.org/the-affix-%ef%bd%9e%e3%82%81/",
+    "status": "fetched",
+    "sha256": "8adc976e594f5d13653a748963707a4b9b90d664f0097762487e7bb65abdb329",
+    "length": 28693
+  },
+  {
+    "url": "https://imabi.org/the-auxiliary-%ef%bd%9e%e3%82%89%e3%81%97%e3%81%84/",
+    "status": "fetched",
+    "sha256": "75b7ec060fda7d980b45f479b04753dde1f4cbcc09be55418a9d365dc8b74772",
+    "length": 45042
+  },
+  {
+    "url": "https://imabi.org/the-auxiliary-verb-%ef%bd%9e%e3%81%8c%e3%82%8b/",
+    "status": "fetched",
+    "sha256": "f3867eb7303f6de9655b20bd147b6d22a09a300d188d3cfd12ebb809116717be",
+    "length": 43574
+  },
+  {
+    "url": "https://imabi.org/the-auxiliary-verb-%ef%bd%9e%e3%81%9a-i/",
+    "status": "fetched",
+    "sha256": "9ab08bed56375e3ad903a15bac1d8fb1a4f0711b6e8d838fdc8047f45348b867",
+    "length": 32596
+  },
+  {
+    "url": "https://imabi.org/the-causative-i-%ef%bd%9e%e3%81%95%e3%81%9b%e3%82%8b-%ef%bd%9e%e3%81%9b%e3%82%8b/",
+    "status": "fetched",
+    "sha256": "9e8e69fd2cc7d909143aaab7fd37aeb509588614ed1df30541868206207cbc68",
+    "length": 32271
+  },
+  {
+    "url": "https://imabi.org/the-particle-%e3%81%93%e3%81%9d/",
+    "status": "fetched",
+    "sha256": "c4f7b4b5307dc7aa5922100866fec7957456d6b63299f8db2b8431ee39130849",
+    "length": 29879
+  },
+  {
+    "url": "https://imabi.org/the-particle-%e3%81%a8%e3%81%8b/",
+    "status": "fetched",
+    "sha256": "7eb29a1b3c5035edca05e171aa6ceb2fa49e97fead76341eddfd51ab6e7f133c",
+    "length": 47068
+  },
+  {
+    "url": "https://imabi.org/the-particle-%e3%81%aa%e3%81%8c%e3%82%89-i-simultaneous-action/",
+    "status": "fetched",
+    "sha256": "743cd545f7d74ae6a3370b231d47a26a7f7634347c880ca940d79ca22c249cde",
+    "length": 31552
+  },
+  {
+    "url": "https://imabi.org/the-particle-%e3%81%ae%e3%81%bf/",
+    "status": "fetched",
+    "sha256": "9e4ce3529600e39147eac83c38a5f90b586948f1756a78b00e8e93fe548d3e45",
+    "length": 49900
+  },
+  {
+    "url": "https://imabi.org/the-particles-%E3%81%A9%E3%82%82-%E3%81%A0%E3%81%AE/",
+    "status": "fetched",
+    "sha256": "726df8eb41174cc895687b7b0850c40fb6a436ba9299eb241b51647b05a0cc09",
+    "length": 48271
+  },
+  {
+    "url": "https://imabi.org/the-particles-%e3%81%bb%e3%81%a9-%e3%81%8f%e3%82%89%e3%81%84/",
+    "status": "fetched",
+    "sha256": "ac5fa534fddc26d9b1af94b6ee05998c54951705b2f4173a2e92e60d5c188110",
+    "length": 31087
+  },
+  {
+    "url": "https://imabi.org/the-passive/",
+    "status": "fetched",
+    "sha256": "ae0dabd09c868bb714b1f5fc34a5241782985b1f590b5632bb406efc89984985",
+    "length": 31192
+  },
+  {
+    "url": "https://imabi.org/the-scope-marker-%ef%bd%9e%e3%81%ae%e3%81%a0/",
+    "status": "fetched",
+    "sha256": "09a83c3120e7fef82f5d3a43e008f0c9c20d779a34b4a136ba73e367ed7a0827",
+    "length": 63771
+  },
+  {
+    "url": "https://imabi.org/the-verbs-%e7%b6%9a%e3%81%8f-%ef%bc%86-%e7%b6%9a%e3%81%91%e3%82%8b/",
+    "status": "fetched",
+    "sha256": "5c5534db2a3bec0cd3071237e7e11eeee7e8e21ce5678e2cf95125e8bba2d83f",
+    "length": 39931
+  },
+  {
+    "url": "https://imabi.org/through-%e3%82%92%e9%80%9a%e3%81%98%e3%81%a6-%e3%82%92%e9%80%9a%e3%81%97%e3%81%a6/",
+    "status": "fetched",
+    "sha256": "5ed8556a10dc47f138ca56792a6bca308e39f8c0bad17163894c4ab1228282fb",
+    "length": 31249
+  },
+  {
+    "url": "https://imabi.org/try-ii/",
+    "status": "fetched",
+    "sha256": "ebdfd70e383178894e7e3424ae655aec838ffbaeff7a8330974fe504760f927e",
+    "length": 32569
+  },
+  {
+    "url": "https://imabi.org/used-to-together/",
+    "status": "fetched",
+    "sha256": "c2a10e4165e4836626111c5cd8e2d2966e4d1819297d0b595defc00c2daaeeee",
+    "length": 25588
+  },
+  {
+    "url": "https://imabi.org/whenever-ii-%ef%bd%9e%e5%ba%a6%e3%81%ab-%ef%bd%9e%e9%83%bd%e5%ba%a6%e3%80%80-%ef%bd%9e%e3%81%ab%e3%81%a4%e3%81%91/",
+    "status": "fetched",
+    "sha256": "82fda5b1a2e48644f2ec8575fb03f628f22c5fa99efc49b67bb6aab98f200020",
+    "length": 23812
+  },
+  {
+    "url": "https://imabi.org/worth-and-extent/",
+    "status": "fetched",
+    "sha256": "7b3e9de5240f27c4578b4cc3781aeb7d9fc5f6f7ae371134cd2d402f1039f284",
+    "length": 23399
+  },
+  {
+    "url": "https://pubmed.ncbi.nlm.nih.gov/16507066/",
+    "status": "fetched",
+    "sha256": "9bd50ab49d7ddf5acdb7480d99ec396405c23aab75d2ce5e49ed835fd5c7bcb1",
+    "length": 155
+  },
+  {
+    "url": "https://www.bunka.go.jp/seisaku/kokugo_nihongo/kokugo_shisaku/keigo/chapter1/detail.html",
+    "status": "fetched",
+    "sha256": "98ad6cd28f017e71022b6055046b415df35e975a2bacbe3f1ae40d0a611d3e84",
+    "length": 7840
+  },
+  {
+    "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/001.html",
+    "status": "fetched",
+    "sha256": "527b82597971f85947da339c68f37694459b54acbea22529043f2204776c4908",
+    "length": 690
+  },
+  {
+    "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/002.html",
+    "status": "fetched",
+    "sha256": "b6c69ba41ea0bef88e63342a3dd9e5a3522611c6482453c208395a7b1ea412c9",
+    "length": 881
+  },
+  {
+    "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/005.html",
+    "status": "fetched",
+    "sha256": "638604060dfc3045bdfb2e0acace94b1e6b6b7089bc410c10980ce7e67bf5954",
+    "length": 1108
+  },
+  {
+    "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/017.html",
+    "status": "fetched",
+    "sha256": "f8e91aab38b28aeba6251d9b1a15b4f9b8332cd04808551a6b526726dc309db0",
+    "length": 3358
+  },
+  {
+    "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/023.html",
+    "status": "fetched",
+    "sha256": "f2d521ecc0bac180b0f76cd25e95ba4e1978a5d36301be444b38cc8e8a446636",
+    "length": 1277
+  },
+  {
+    "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/030.html",
+    "status": "fetched",
+    "sha256": "83f7990cae6233b0ab394620dde27f19bab63f1ac0a2d940043483857029d84c",
+    "length": 677
+  },
+  {
+    "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/038.html",
+    "status": "fetched",
+    "sha256": "a1b2176febcc6442893dd78bc537f2a1b7755ee986bfea4c5fc8568521638d29",
+    "length": 2234
+  },
+  {
+    "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/039.html",
+    "status": "fetched",
+    "sha256": "52ffbf7998ba7229444fd4ee23b7528f5f03038b83a7fa66b28afa16975f5287",
+    "length": 1585
+  },
+  {
+    "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/043.html",
+    "status": "fetched",
+    "sha256": "9d5d6c17e0ebdfc64883dab6a65041fc32087dde0ea6880cf192792d14184f7e",
+    "length": 966
+  },
+  {
+    "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/044.html",
+    "status": "fetched",
+    "sha256": "4362c778a28daaf7fcd6e8177ccd20346b1d7819de91573098cc033e981bb591",
+    "length": 871
+  },
+  {
+    "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/045.html",
+    "status": "fetched",
+    "sha256": "066c669928e9d2c7cd5b86cb036b4771291ea8094139ed8eb994888b3a73c750",
+    "length": 996
+  },
+  {
+    "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/046.html",
+    "status": "fetched",
+    "sha256": "f9a1201af806025ae51c45f43574b5c2398b8d8558c106b5c8de3611034449c3",
+    "length": 1568
+  },
+  {
+    "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/053.html",
+    "status": "fetched",
+    "sha256": "bd35b4984a492c2ef6a106aacb4c858c2d00e803a085dd0240facd21640dc2e9",
+    "length": 5015
+  },
+  {
+    "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/058.html",
+    "status": "fetched",
+    "sha256": "cc7747e48c360c14ae2df76f82611ee3849b64ed5242add08c91d00528cd6c89",
+    "length": 969
+  },
+  {
+    "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/059.html",
+    "status": "fetched",
+    "sha256": "ff2cc057326e7b69e400d435449faae1096cf9398d0c54dc95e9408e2ea1c5b5",
+    "length": 837
+  },
+  {
+    "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/060.html",
+    "status": "fetched",
+    "sha256": "a00c93a72b9fbbdea0c651a27d50780bbb5d3217cb09c1c190d1e38bc711d791",
+    "length": 1088
+  },
+  {
+    "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/065.html",
+    "status": "fetched",
+    "sha256": "dd88d60bf2e589acd3936ed08e991faa938684dbcabf1fe2d772b71dc04182ec",
+    "length": 1136
+  },
+  {
+    "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/067.html",
+    "status": "fetched",
+    "sha256": "f8a0fe112ca2194d1907b57cecb3f94c880e31ce2623f99968b8608c5a59f2d7",
+    "length": 2659
+  },
+  {
+    "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/074.html",
+    "status": "fetched",
+    "sha256": "be3af3b205c3caa2138dbe09aa06394c2e5cec9254d0b7473245b1da301853fc",
+    "length": 997
+  },
+  {
+    "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/079.html",
+    "status": "fetched",
+    "sha256": "721ffacb6ce025b369017f3a1a7f495d140a395d1f03d9d7e898cd22f50bab37",
+    "length": 1488
+  },
+  {
+    "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/080.html",
+    "status": "fetched",
+    "sha256": "b49294bc3b2bb70724731d176cc0bce98ad3dfb0eaebe80649da4b50eaf068f9",
+    "length": 970
+  },
+  {
+    "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/081.html",
+    "status": "fetched",
+    "sha256": "b23cf7001ff05e57a886905726afcff12424edb20f470247139bc82a2988af9d",
+    "length": 1563
+  },
+  {
+    "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/082.html",
+    "status": "fetched",
+    "sha256": "fd91b8530bf89fb6c12b5d011ad31ae2b255c07b9a34c0aed8613f016ce8a02c",
+    "length": 2296
+  },
+  {
+    "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/083.html",
+    "status": "fetched",
+    "sha256": "e26f86d02187c4d0b215c9f3b86d2c2ac468c4034aacd117dc21f46ef91609f7",
+    "length": 3299
+  },
+  {
+    "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/084.html",
+    "status": "fetched",
+    "sha256": "1bd742a22621dc0d23fb993c7e5f784f89543f2cba882649746244dcd4bf8a2b",
+    "length": 658
+  },
+  {
+    "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/085.html",
+    "status": "fetched",
+    "sha256": "03becc4793fda8f49a58f40dfad9a9b70c15266c7add7c44ca4f52ca54ef4063",
+    "length": 2837
+  },
+  {
+    "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/086.html",
+    "status": "fetched",
+    "sha256": "c5cf1f522bc3a6b4692b423ec9b129ce11f6512f574694020907a19f853e7db5",
+    "length": 2889
+  },
+  {
+    "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/087.html",
+    "status": "fetched",
+    "sha256": "077c954bcc7c637033e9394918e6af8d1b6f86ebd838059415cb971adb488262",
+    "length": 2109
+  },
+  {
+    "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/088.html",
+    "status": "fetched",
+    "sha256": "c59d538a4d7f9aa374542f0121fba40303b54650bdfcc68545b31349d56c3c2e",
+    "length": 821
+  },
+  {
+    "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/092.html",
+    "status": "fetched",
+    "sha256": "d4b5e9d3aac6fd7b33f89b0eaf4e62979dfd27bd7c596e0ddf16d66b1541ed3b",
+    "length": 3659
+  },
+  {
+    "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/095.html",
+    "status": "fetched",
+    "sha256": "05355ae5dd25a22bb6608877650d21584fc1ba35e65a805301cd9e1ae79c7cab",
+    "length": 3343
+  },
+  {
+    "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/096.html",
+    "status": "fetched",
+    "sha256": "faf54938c5e90163fb8b07c075ffef148c718deafe4da7c8475c15ea21d23889",
+    "length": 3978
+  },
+  {
+    "url": "https://www.jlpt.jp/sp/e/about/levelsummary.html",
+    "status": "fetched",
+    "sha256": "9e135edb13a8429c397ac62134fd3912be9061fab4297c7689234cfcae775aee",
+    "length": 4910
+  },
+  {
+    "url": "https://www.jlpt.jp/sp/e/faq/",
+    "status": "fetched",
+    "sha256": "b4283467fcc67557be1c1fdaba4cc069f8a23421fb8e8a80d2b34e14ad0cdfc2",
+    "length": 33423
+  },
+  {
+    "url": "https://www.jpf.go.jp/j/project/japanese/teach/tsushin/grammar/200906.html",
+    "status": "fetched",
+    "sha256": "d5cd4d20e13f1c2c2d45639f4456d4d35a4734a2a8a2ee9f652adb3061850eb8",
+    "length": 6693
+  },
+  {
+    "url": "https://www.mlcjapanese.co.jp/n1_04_07.html",
+    "status": "fetched",
+    "sha256": "7855c25bcef65d4681b148a43181ca531fa17479e5cada38fd7d601c40034f79",
+    "length": 1993
+  },
+  {
+    "url": "https://www.mlcjapanese.co.jp/n1_04_11.html",
+    "status": "fetched",
+    "sha256": "bc129a04d8317a4e81526f5e0bb654026bfcdad7f0d3323dc1aa32e39ad44dd4",
+    "length": 1439
+  }
+]

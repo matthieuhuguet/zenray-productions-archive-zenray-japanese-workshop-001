@@ -1,0 +1,41 @@
+# Review primary grammar source context without retaining complete copyrighted lessons. (13 October 2026, 01:10 Europe/Paris)
+import concurrent.futures,hashlib,html.parser,json,pathlib,re,urllib.request
+ROOT=pathlib.Path('/Users/zenray/.claude/tmp/tmp-zenray-japanese')
+SETTINGS={'workers':12,'timeoutSeconds':18,'excerptWords':180,'excerptCharacters':400}
+class Parser(html.parser.HTMLParser):
+ def __init__(self):super().__init__();self.blocks=[];self.current=[];self.tag=None;self.skip=0
+ def handle_starttag(self,tag,attrs):
+  if tag in ('script','style'):self.skip+=1
+  if tag in ('h1','h2','h3','h4','p','td'):
+   if self.current:self.blocks.append((self.tag,' '.join(self.current)));self.current=[]
+   self.tag=tag
+ def handle_data(self,data):
+  if not self.skip and self.tag:self.current.append(data.strip())
+ def handle_endtag(self,tag):
+  if tag in ('script','style'):self.skip=max(0,self.skip-1)
+  if tag==self.tag:self.blocks.append((tag,' '.join(self.current)));self.current=[];self.tag=None
+records=sum([json.loads((ROOT/'research/language'/name).read_text())['records'] for name in ['LanguageRecords.json','LanguageAdvancedRecords.json']],[])
+urls=list(dict.fromkeys(s['url'] for r in records for s in r.get('sources',[])))
+def inspect(url):
+ try:
+  raw=urllib.request.urlopen(urllib.request.Request(url,headers={'User-Agent':'ZenRay-Japanese-Source-Review/1.0'}),timeout=SETTINGS['timeoutSeconds']).read()
+  if raw[:4]==b'%PDF':return {'url':url,'status':'pdf-pending','sha256':hashlib.sha256(raw).hexdigest()}
+  text=raw.decode('utf-8',errors='replace')
+  if 'imabi.org' in url:text=text[text.find('<div class="entry-content">'):]
+  parser=Parser();parser.feed(text)
+  blocks=[(t,re.sub(r'\s+',' ',s).strip()) for t,s in parser.blocks if s.strip()]
+  sections=[]
+  for i,(tag,value) in enumerate(blocks):
+   if tag in ('h1','h2','h3','h4'):
+    following=[]
+    for next_tag,next_value in blocks[i+1:]:
+     if next_tag in ('h1','h2','h3','h4'):break
+     if next_tag=='p' and (len(next_value.split())>12 or len(next_value)>45) and not re.match(r'^\d+[a-z]?\.',next_value):following.append(next_value)
+    if following:sections.append({'heading':value,'definition':' '.join(following)})
+  sections=[s for s in sections if not re.match(r'^(Beginners|Intermediate|Advanced|Veteran|古典語|琉球)',s['heading'])]
+  excerpt=' '.join((s['heading']+': '+' '.join(s['definition'].split()[:45])) for s in sections)
+  return {'url':url,'status':'retrieved','sha256':hashlib.sha256(raw).hexdigest(),'headings':[s['heading'] for s in sections],'excerpt':' '.join(excerpt.split()[:SETTINGS['excerptWords']])[:SETTINGS['excerptCharacters']],'scope':'Definition excerpt only; no availability-only lesson approval.'}
+ except Exception as error:return {'url':url,'status':'unavailable','error':str(error)}
+with concurrent.futures.ThreadPoolExecutor(max_workers=SETTINGS['workers']) as pool:results=list(pool.map(inspect,urls))
+(ROOT/'review/LanguageSourceContextAudit.json').write_text(json.dumps({'reviewDate':'13 October 2026','sources':results},ensure_ascii=False,indent=2)+'\n')
+print(json.dumps({'sources':len(results),'retrieved':sum(s['status']=='retrieved' for s in results),'pdfPending':sum(s['status']=='pdf-pending' for s in results),'unavailable':[s['url'] for s in results if s['status']=='unavailable']}))

@@ -1,0 +1,126 @@
+{
+  "checkedAt": "13 October 2026",
+  "durationMs": 10000,
+  "top": [
+    {
+      "functionName": "",
+      "url": "file:///Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/src/lib/projectWorkspace.js",
+      "lineNumber": 81,
+      "hitCount": 1957
+    },
+    {
+      "functionName": "(garbage collector)",
+      "url": "",
+      "lineNumber": -1,
+      "hitCount": 802
+    },
+    {
+      "functionName": "combineWorkspaceFiles",
+      "url": "file:///Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/src/lib/projectWorkspace.js",
+      "lineNumber": 77,
+      "hitCount": 773
+    },
+    {
+      "functionName": "safeRelativePath",
+      "url": "file:///Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/src/lib/projectWorkspace.js",
+      "lineNumber": 16,
+      "hitCount": 459
+    },
+    {
+      "functionName": "",
+      "url": "file:///Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/scripts/AssetsService.mjs",
+      "lineNumber": 542,
+      "hitCount": 440
+    },
+    {
+      "functionName": "safeRelativePath",
+      "url": "file:///Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/src/lib/projectWorkspace.js",
+      "lineNumber": 16,
+      "hitCount": 356
+    },
+    {
+      "functionName": "",
+      "url": "file:///Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/src/lib/projectWorkspace.js",
+      "lineNumber": 81,
+      "hitCount": 330
+    },
+    {
+      "functionName": "",
+      "url": "file:///Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/src/lib/projectWorkspace.js",
+      "lineNumber": 96,
+      "hitCount": 227
+    },
+    {
+      "functionName": "scenePreparationEvidence",
+      "url": "file:///Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/scripts/AssetsService.mjs",
+      "lineNumber": 553,
+      "hitCount": 146
+    },
+    {
+      "functionName": "combineWorkspaceFiles",
+      "url": "file:///Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/src/lib/projectWorkspace.js",
+      "lineNumber": 77,
+      "hitCount": 140
+    },
+    {
+      "functionName": "isWorkspaceId",
+      "url": "file:///Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/src/lib/projectWorkspace.js",
+      "lineNumber": 7,
+      "hitCount": 137
+    },
+    {
+      "functionName": "extOf",
+      "url": "file:///Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/src/capture/classify.js",
+      "lineNumber": 24,
+      "hitCount": 98
+    },
+    {
+      "functionName": "(program)",
+      "url": "",
+      "lineNumber": -1,
+      "hitCount": 91
+    },
+    {
+      "functionName": "safeRelativePath",
+      "url": "file:///Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/src/lib/projectWorkspace.js",
+      "lineNumber": 16,
+      "hitCount": 85
+    },
+    {
+      "functionName": "",
+      "url": "file:///Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/scripts/AssetsService.mjs",
+      "lineNumber": 1682,
+      "hitCount": 69
+    },
+    {
+      "functionName": "isRelativePath",
+      "url": "file:///Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/src/lib/sceneReferenceMapping.js",
+      "lineNumber": 4,
+      "hitCount": 65
+    },
+    {
+      "functionName": "atomicJson",
+      "url": "file:///Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/scripts/AssetsService.mjs",
+      "lineNumber": 87,
+      "hitCount": 54
+    },
+    {
+      "functionName": "",
+      "url": "file:///Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/scripts/AssetsService.mjs",
+      "lineNumber": 539,
+      "hitCount": 44
+    },
+    {
+      "functionName": "visit",
+      "url": "file:///Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/src/lib/sceneReferenceMapping.js",
+      "lineNumber": 17,
+      "hitCount": 42
+    },
+    {
+      "functionName": "safeRelativePath",
+      "url": "file:///Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/src/lib/projectWorkspace.js",
+      "lineNumber": 16,
+      "hitCount": 42
+    }
+  ]
+}

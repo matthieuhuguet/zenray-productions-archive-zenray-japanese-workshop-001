@@ -1,0 +1,30 @@
+# Independent language adversarial review (13 October 2026)
+
+All 163 language records and every supplied original Japanese example, kana reading and French translation are reviewed. The final report approves 163 exact payload hashes and leaves 0 unresolved payloads. (13 October 2026)
+
+Six correction findings and one usage doubt are resolved by corrected payloads reread against their primary evidence. Two exact customer-role retest items are approved separately. (13 October 2026)
+
+This is a model review, not native-speaker or human certification, and it does not guarantee the absence of all possible errors. Imported dictionary/community records are reference material and receive no blanket lesson approval here. JLPT allocations remain estimates. (13 October 2026)
+
+## Resolved findings (13 October 2026)
+
+- adv-tsuzukeru: The contrast places 続ける in an activity maintained by an actor, suggesting volitional action only. The cited primary source explicitly says the compound attaches to transitive and intransitive verbs alike and to volitional or non-volitional processes. 雨が降り続けています is valid as well as 雨が降り続いています; the difference cannot be reduced to an actor maintaining an action. Corrected payload SHA256: e958534ea2b3b97edf124120c152000722b08460e4b9d5bbb38aebdb5d3cca95. (13 October 2026)
+  Evidence: https://imabi.org/the-verbs-%e7%b6%9a%e3%81%8f-%ef%bc%86-%e7%b6%9a%e3%81%91%e3%82%8b/. (13 October 2026)
+- adv-souda-appearance: The unqualified adjective rule omits standalone ない → なさそう. The same rule applied to かわいい produces かわいそう but that means pitiable, not looks cute. These are explicit exceptions/traps in the cited source. Corrected payload SHA256: 9cce97689c03bb42c90fd4d2c91704d6f70bccfb6bfcfb3721609a500c96cd37. (13 October 2026)
+  Evidence: https://imabi.org/seem-%ef%bd%9e%e3%81%9d%e3%81%86%e3%81%a0/. (13 October 2026)
+- adv-causative: The godan a-row rule omits the う → わ exception. A learner applying the written rule to 言う or 買う would lack the information needed to obtain 言わせる or 買わせる. The cited primary source explicitly gives 言わせる. Corrected payload SHA256: b259193c186ea03d8b693f7d6b131cc61c673fba8839af6d3aa5c1e56655f185. (13 October 2026)
+  Evidence: https://imabi.org/the-causative-i-%ef%bd%9e%e3%81%95%e3%81%9b%e3%82%8b-%ef%bd%9e%e3%81%9b%e3%82%8b/. (13 October 2026)
+- adv-kuseni: 教えてくれません says the person does not tell the speaker, with complaint in くせに. It does not itself establish explicit refusal. « Refuse de me le dire » adds a stronger intentional event without context. Corrected payload SHA256: 691233a886caaef24f08211c2c470b122fabbf68b7149326db98cd0fa289c1b4. (13 October 2026)
+  Evidence: https://imabi.org/criticizing-%e3%81%8f%e3%81%9b%e3%81%ab%e3%83%bb%e3%81%8f%e3%81%9b%e3%81%97%e3%81%a6/. (13 October 2026)
+- adv-adjective-sa: The generic remove-い rule lacks the irregular stem of いい. A literal application yields いさ, whereas the normal quality noun is よさ. The earlier adjective module knows the よい base but this card does not link that module as a prerequisite. Corrected payload SHA256: 6895802fd5ac86f36e1fd71f5fbd451377b6f95070ca2a7e172db43db4c3bd2e. (13 October 2026)
+  Evidence: https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/030.html, https://imabi.org/adjective-nominalization/. (13 October 2026)
+- adv-zuniha-irarenai: The cited IMABI source explicitly distinguishes an impulse that defeats attempted restraint from a spontaneous physiological occurrence. Examples 1 (laughter) and 3 (remembering) do not make attempted restraint or purposeful action visible. They may be acceptable in context, but that context must be established rather than teaching unrestricted substitution for spontaneous response. Corrected payload SHA256: 65fd233be6e573361f7c45d96a10735cc06c36906a4b3d633d9dbc84d29f5dec. (13 October 2026)
+  Evidence: https://imabi.org/cant-help-i/. (13 October 2026)
+- adv-to-omoikiya: The word immédiatement imposes obligatory temporal immediacy. The construction marks overturned expectation; MLC includes a project continuing to struggle, not an obligatory immediate succession. Corrected payload SHA256: d0840a100184fe3ba564e2f447ce518da6fd43bc92a36a72f412513d2357331f. (13 October 2026)
+  Evidence: https://www.mlcjapanese.co.jp/n1_04_09.html, https://www.mlcjapanese.co.jp/img/toomoikikya_n1_answer1.pdf, https://imabi.org/circumstance/. (13 October 2026)
+
+## Exact retest review (13 October 2026)
+
+Items SHA256: 653c341877ebf1807a6e2323ef86fe4d515bbd55083455a835cc77e19ab32b42. Both customer-role replies are verified; the takeout reply appears explicitly in Irodori Starter L6 pages 4 and 5. (13 October 2026)
+
+The machine-readable report contains a verdict, exact SHA256, evidence URLs and any resolved findings for every record. (13 October 2026)

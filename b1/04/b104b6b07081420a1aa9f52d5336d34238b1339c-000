@@ -1,0 +1,1626 @@
+{
+  "reviewDate": "13 October 2026",
+  "sources": [
+    {
+      "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/001.html",
+      "status": "retrieved",
+      "sha256": "527b82597971f85947da339c68f37694459b54acbea22529043f2204776c4908",
+      "headings": [
+        "Nです／Nではありません"
+      ],
+      "excerpt": "Nです／Nではありません: Copyright 東京外国語大学 Tokyo University of Foreign Studies. All rights reserved.",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/002.html",
+      "status": "retrieved",
+      "sha256": "b6c69ba41ea0bef88e63342a3dd9e5a3522611c6482453c208395a7b1ea412c9",
+      "headings": [
+        "NはNです"
+      ],
+      "excerpt": "NはNです: Copyright 東京外国語大学 Tokyo University of Foreign Studies. All rights reserved.",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/005.html",
+      "status": "retrieved",
+      "sha256": "638604060dfc3045bdfb2e0acace94b1e6b6b7089bc410c10980ce7e67bf5954",
+      "headings": [
+        "Nがあります／います"
+      ],
+      "excerpt": "Nがあります／います: Copyright 東京外国語大学 Tokyo University of Foreign Studies. All rights reserved.",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/017.html",
+      "status": "retrieved",
+      "sha256": "f8e91aab38b28aeba6251d9b1a15b4f9b8332cd04808551a6b526726dc309db0",
+      "headings": [
+        "助数詞"
+      ],
+      "excerpt": "助数詞: Copyright 東京外国語大学 Tokyo University of Foreign Studies. All rights reserved.",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/023.html",
+      "status": "retrieved",
+      "sha256": "f2d521ecc0bac180b0f76cd25e95ba4e1978a5d36301be444b38cc8e8a446636",
+      "headings": [
+        "Vます／Vません"
+      ],
+      "excerpt": "Vます／Vません: Copyright 東京外国語大学 Tokyo University of Foreign Studies. All rights reserved.",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/030.html",
+      "status": "retrieved",
+      "sha256": "83f7990cae6233b0ab394620dde27f19bab63f1ac0a2d940043483857029d84c",
+      "headings": [
+        "Aいです／Aくありません／Aくないです"
+      ],
+      "excerpt": "Aいです／Aくありません／Aくないです: Copyright 東京外国語大学 Tokyo University of Foreign Studies. All rights reserved.",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/039.html",
+      "status": "retrieved",
+      "sha256": "52ffbf7998ba7229444fd4ee23b7528f5f03038b83a7fa66b28afa16975f5287",
+      "headings": [
+        "動詞の３種類"
+      ],
+      "excerpt": "動詞の３種類: Copyright 東京外国語大学 Tokyo University of Foreign Studies. All rights reserved.",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/043.html",
+      "status": "retrieved",
+      "sha256": "9d5d6c17e0ebdfc64883dab6a65041fc32087dde0ea6880cf192792d14184f7e",
+      "headings": [
+        "Vて（て形）"
+      ],
+      "excerpt": "Vて（て形）: Copyright 東京外国語大学 Tokyo University of Foreign Studies. All rights reserved.",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/038.html",
+      "status": "retrieved",
+      "sha256": "a1b2176febcc6442893dd78bc537f2a1b7755ee986bfea4c5fc8568521638d29",
+      "headings": [
+        "普通形の体系"
+      ],
+      "excerpt": "普通形の体系: Copyright 東京外国語大学 Tokyo University of Foreign Studies. All rights reserved.",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/044.html",
+      "status": "retrieved",
+      "sha256": "4362c778a28daaf7fcd6e8177ccd20346b1d7819de91573098cc033e981bb591",
+      "headings": [
+        "Vています（進行）／Vていません"
+      ],
+      "excerpt": "Vています（進行）／Vていません: Copyright 東京外国語大学 Tokyo University of Foreign Studies. All rights reserved.",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/045.html",
+      "status": "retrieved",
+      "sha256": "066c669928e9d2c7cd5b86cb036b4771291ea8094139ed8eb994888b3a73c750",
+      "headings": [
+        "Vています（状態）"
+      ],
+      "excerpt": "Vています（状態）: Copyright 東京外国語大学 Tokyo University of Foreign Studies. All rights reserved.",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/046.html",
+      "status": "retrieved",
+      "sha256": "f9a1201af806025ae51c45f43574b5c2398b8d8558c106b5c8de3611034449c3",
+      "headings": [
+        "Vてあります"
+      ],
+      "excerpt": "Vてあります: Copyright 東京外国語大学 Tokyo University of Foreign Studies. All rights reserved.",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/053.html",
+      "status": "retrieved",
+      "sha256": "bd35b4984a492c2ef6a106aacb4c858c2d00e803a085dd0240facd21640dc2e9",
+      "headings": [
+        "格助詞"
+      ],
+      "excerpt": "格助詞: Copyright 東京外国語大学 Tokyo University of Foreign Studies. All rights reserved.",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/058.html",
+      "status": "retrieved",
+      "sha256": "cc7747e48c360c14ae2df76f82611ee3849b64ed5242add08c91d00528cd6c89",
+      "headings": [
+        "Vてもいいです"
+      ],
+      "excerpt": "Vてもいいです: Copyright 東京外国語大学 Tokyo University of Foreign Studies. All rights reserved.",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/059.html",
+      "status": "retrieved",
+      "sha256": "ff2cc057326e7b69e400d435449faae1096cf9398d0c54dc95e9408e2ea1c5b5",
+      "headings": [
+        "Vてはいけません／Vてはだめです"
+      ],
+      "excerpt": "Vてはいけません／Vてはだめです: Copyright 東京外国語大学 Tokyo University of Foreign Studies. All rights reserved.",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/060.html",
+      "status": "retrieved",
+      "sha256": "a00c93a72b9fbbdea0c651a27d50780bbb5d3217cb09c1c190d1e38bc711d791",
+      "headings": [
+        "Vないでください"
+      ],
+      "excerpt": "Vないでください: Copyright 東京外国語大学 Tokyo University of Foreign Studies. All rights reserved.",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/065.html",
+      "status": "retrieved",
+      "sha256": "dd88d60bf2e589acd3936ed08e991faa938684dbcabf1fe2d772b71dc04182ec",
+      "headings": [
+        "意志形"
+      ],
+      "excerpt": "意志形: Copyright 東京外国語大学 Tokyo University of Foreign Studies. All rights reserved.",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/067.html",
+      "status": "retrieved",
+      "sha256": "f8a0fe112ca2194d1907b57cecb3f94c880e31ce2623f99968b8608c5a59f2d7",
+      "headings": [
+        "Vたいです／Vたくありません"
+      ],
+      "excerpt": "Vたいです／Vたくありません: Copyright 東京外国語大学 Tokyo University of Foreign Studies. All rights reserved.",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/074.html",
+      "status": "retrieved",
+      "sha256": "be3af3b205c3caa2138dbe09aa06394c2e5cec9254d0b7473245b1da301853fc",
+      "headings": [
+        "可能形"
+      ],
+      "excerpt": "可能形: Copyright 東京外国語大学 Tokyo University of Foreign Studies. All rights reserved.",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/079.html",
+      "status": "retrieved",
+      "sha256": "721ffacb6ce025b369017f3a1a7f495d140a395d1f03d9d7e898cd22f50bab37",
+      "headings": [
+        "V＋N"
+      ],
+      "excerpt": "V＋N: Copyright 東京外国語大学 Tokyo University of Foreign Studies. All rights reserved.",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/080.html",
+      "status": "retrieved",
+      "sha256": "b49294bc3b2bb70724731d176cc0bce98ad3dfb0eaebe80649da4b50eaf068f9",
+      "headings": [
+        "Vこと・Vの"
+      ],
+      "excerpt": "Vこと・Vの: Copyright 東京外国語大学 Tokyo University of Foreign Studies. All rights reserved.",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/081.html",
+      "status": "retrieved",
+      "sha256": "b23cf7001ff05e57a886905726afcff12424edb20f470247139bc82a2988af9d",
+      "headings": [
+        "理由"
+      ],
+      "excerpt": "理由: Copyright 東京外国語大学 Tokyo University of Foreign Studies. All rights reserved.",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/082.html",
+      "status": "retrieved",
+      "sha256": "fd91b8530bf89fb6c12b5d011ad31ae2b255c07b9a34c0aed8613f016ce8a02c",
+      "headings": [
+        "逆接"
+      ],
+      "excerpt": "逆接: Copyright 東京外国語大学 Tokyo University of Foreign Studies. All rights reserved.",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/083.html",
+      "status": "retrieved",
+      "sha256": "e26f86d02187c4d0b215c9f3b86d2c2ac468c4034aacd117dc21f46ef91609f7",
+      "headings": [
+        "条件"
+      ],
+      "excerpt": "条件: Copyright 東京外国語大学 Tokyo University of Foreign Studies. All rights reserved.",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/084.html",
+      "status": "retrieved",
+      "sha256": "1bd742a22621dc0d23fb993c7e5f784f89543f2cba882649746244dcd4bf8a2b",
+      "headings": [
+        "譲歩"
+      ],
+      "excerpt": "譲歩: Copyright 東京外国語大学 Tokyo University of Foreign Studies. All rights reserved.",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/085.html",
+      "status": "retrieved",
+      "sha256": "03becc4793fda8f49a58f40dfad9a9b70c15266c7add7c44ca4f52ca54ef4063",
+      "headings": [
+        "やりもらい"
+      ],
+      "excerpt": "やりもらい: Copyright 東京外国語大学 Tokyo University of Foreign Studies. All rights reserved.",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/086.html",
+      "status": "retrieved",
+      "sha256": "c5cf1f522bc3a6b4692b423ec9b129ce11f6512f574694020907a19f853e7db5",
+      "headings": [
+        "Vてあげます"
+      ],
+      "excerpt": "Vてあげます: Copyright 東京外国語大学 Tokyo University of Foreign Studies. All rights reserved.",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/087.html",
+      "status": "retrieved",
+      "sha256": "077c954bcc7c637033e9394918e6af8d1b6f86ebd838059415cb971adb488262",
+      "headings": [
+        "Vていきます／Vてきます"
+      ],
+      "excerpt": "Vていきます／Vてきます: Copyright 東京外国語大学 Tokyo University of Foreign Studies. All rights reserved.",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/088.html",
+      "status": "retrieved",
+      "sha256": "c59d538a4d7f9aa374542f0121fba40303b54650bdfcc68545b31349d56c3c2e",
+      "headings": [
+        "Vておきます／Vてみます"
+      ],
+      "excerpt": "Vておきます／Vてみます: Copyright 東京外国語大学 Tokyo University of Foreign Studies. All rights reserved.",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/095.html",
+      "status": "retrieved",
+      "sha256": "05355ae5dd25a22bb6608877650d21584fc1ba35e65a805301cd9e1ae79c7cab",
+      "headings": [
+        "副助詞"
+      ],
+      "excerpt": "副助詞: Copyright 東京外国語大学 Tokyo University of Foreign Studies. All rights reserved.",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/096.html",
+      "status": "retrieved",
+      "sha256": "faf54938c5e90163fb8b07c075ffef148c718deafe4da7c8475c15ea21d23889",
+      "headings": [
+        "終助詞"
+      ],
+      "excerpt": "終助詞: Copyright 東京外国語大学 Tokyo University of Foreign Studies. All rights reserved.",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/092.html",
+      "status": "retrieved",
+      "sha256": "d4b5e9d3aac6fd7b33f89b0eaf4e62979dfd27bd7c596e0ddf16d66b1541ed3b",
+      "headings": [
+        "敬語"
+      ],
+      "excerpt": "敬語: Copyright 東京外国語大学 Tokyo University of Foreign Studies. All rights reserved.",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://imabi.org/%E3%82%8F%E3%81%91%E3%81%A0/",
+      "status": "retrieved",
+      "sha256": "f9cabfb0cae4641d494e8f1ef902abdbad7e7d5b587e4ef56c6c12e335f30b35",
+      "headings": [
+        "わけだ",
+        "Affirmation vs. Inference",
+        "Objectiveness or Lack Thereof",
+        "Showing Result/Effect",
+        "Showing Reason/Cause",
+        "Acknowledgment of Truth",
+        "Restating Fact",
+        "Merely Stating What’s What"
+      ],
+      "excerpt": "わけだ: The noun 訳 when read as わけ can be translated as “conclusion from reasoning”, but it is not to be confused with the reading やく, which means “translation.” Contraction Note : てなわけで comes from というようなわけで. It is equivalent to “with that being said” and is Affirmation vs. Inference: All three of these patterns demonstrate an inevitable conclusion that the speaker makes after having thought things t",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://imabi.org/considering-%E3%82%8F%E3%82%8A%E3%81%AB%EF%BC%88%E3%81%AF%EF%BC%89-%E3%81%AB%E3%81%97%E3%81%A6%E3%81%AF/",
+      "status": "retrieved",
+      "sha256": "dbd376545af35d7bbdfc0eced5d4621c88c26c3168752c4bbcb67c5384caa58e",
+      "headings": [
+        "Considering…: わりに（は） & にしては",
+        "わりに（は）",
+        "にしては"
+      ],
+      "excerpt": "Considering…: わりに（は） & にしては: In this lesson, we will learn about two related expressions used when you’re encountered with unexpected situations. わりに（は）: In the expression “A ＋ わりに（は）＋ B,” B is an unexpected outcome/judgment of A. The addition or omission of は is based on how much emphasis you wish to place on the contrast to one’s preconception. This expression is used with nouns, adjectives, adj",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://imabi.org/combination-particles-with-%E3%82%82%E3%81%AE/",
+      "status": "retrieved",
+      "sha256": "15bf92fb2cfdb4861b94e68eca6852d4ba951aef91fdea7430a1b645190f3d09",
+      "headings": [
+        "Combination Particles with もの",
+        "The Particle もの: Because",
+        "Combination Particles"
+      ],
+      "excerpt": "Combination Particles with もの: This lesson is about the particle もの and the combination particles associated with it, not about the nouns 物 and 者, although all three words share the same origin. The Particle もの: Because: The particle もの, colloquially as もん, may mean “because”. This usage is used extensively by women and small children as an alternative to から and may be used conjunction or as a fin",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://imabi.org/potential-iv/",
+      "status": "retrieved",
+      "sha256": "22eff01e875aa0a2013a4eef7546d10396cbf658f79f36677b08432dbdb0cc21",
+      "headings": [
+        "Potential IV: ～かねる・かねない VS ～きれる・きれない VS ～える/うる・～えない",
+        "～かねる・かねない",
+        "～きれる・きれない",
+        "～える・うる/～えない",
+        "Compare and Contrast"
+      ],
+      "excerpt": "Potential IV: ～かねる・かねない VS ～きれる・きれない VS ～える/うる・～えない: Now that you have learned more Japanese, it is now time to delve into differences with phrases related to “can” or “can’t” that are more advanced and somewhat difficult to get straight. Be careful with the role of ～ない in this lesson. Certainly, when a ～かねる・かねない: The 一段 verb かねる means “to serve/combine two or more functions or roles simultaneousl",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://imabi.org/%EF%BD%9E%E3%81%96%E3%82%8B%E3%82%92%E5%BE%97%E3%81%AA%E3%81%84-%E3%82%84%E3%82%80%E3%82%92%E5%BE%97%E3%81%AA%E3%81%84/",
+      "status": "retrieved",
+      "sha256": "7a441260851f87e9202b98547483ce738d709922626fd545eb57f5e3b9f5a70f",
+      "headings": [
+        "～ざるを得ない & やむを得ない",
+        "～ざるを得ない",
+        "やむを得ない"
+      ],
+      "excerpt": "～ざるを得ない & やむを得ない: There are two fascinating grammar points which utilize the verb 得る in its sense of “to be able to” but in a negative context ～ざるを得ない and やむを得ない. ～ざるを得ない: ～ざるを得ない derives from the kundoku 1 rendition of 不得不 , which literally renders the meaning of this structure as “cannot do by not…” This is yet another instance in Japanese grammar of a double negative (二重否定), which in this insta",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://www.jpf.go.jp/j/project/japanese/teach/tsushin/grammar/200906.html",
+      "status": "retrieved",
+      "sha256": "d5cd4d20e13f1c2c2d45639f4456d4d35a4734a2a8a2ee9f652adb3061850eb8",
+      "headings": [
+        "日本語教育通信 文法を楽しく 「とたん（に）」と「や否や」",
+        "「とたん（に）」と「や否や」"
+      ],
+      "excerpt": "日本語教育通信 文法を楽しく 「とたん（に）」と「や否や」: 文法を楽しく このコーナーでは、学習上の問題となりやすい文法項目を取り上げ、日本語を母語としない人の視点に立って、実際の使い方をわかりやすく解説します。 また、このページはPC画面での閲覧を想定しておりますため、スマートフォンでは表示に崩れが生じることがあります。PC画面での閲覧を推奨いたします。 「とたん（に）」と「や否や」: 皆さん、こんにちは。「文法を楽しく!!」担当の市川です。今回から『日本語教育通信』は web 版のみになりました。それに伴って、「文法を楽しく!!」も画面でのみ皆さんとお会いすることになりました。 このコーナーでは初級後半から中級の文法を中心に勉強します。習っていない文法や、難しい表現が出てくることもあるかもしれませんが、できるだけわかりやすく説明したいと思っています。どうぞよろしくお願いします。 皆さ",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://imabi.org/the-particles-%E3%81%A9%E3%82%82-%E3%81%A0%E3%81%AE/",
+      "status": "retrieved",
+      "sha256": "2674532a8d2e980ee44595bb75b74c31d8b67f9eb983423fceecf2a81e1ad29e",
+      "headings": [
+        "The Particle ども, とも, & たりとも",
+        "The Conjunctive Particle ど（も）",
+        "～といえども",
+        "だ-Ellipsis w/ ～といえど（も）",
+        "～と雖も",
+        "Historical Segue",
+        "The Conjunctive Particle とも",
+        "V終止形（肯定）＋とも",
+        "～ずとも",
+        "～くとも",
+        "～（よ）うと（も）",
+        "～とも～とも",
+        "終助詞「とも」",
+        "The Particle たりとも"
+      ],
+      "excerpt": "The Particle ども, とも, & たりとも: In this lesson, we will learn about the conjunctive particles ど（も）, とも, and たりとも, both of which are contrastive (逆接) in nature. Putting aside their lack of use, we will investigate the uniquely nuanced contrasts that can be made with these particles. Curriculum Note : The Conjunctive Particle ど（も）: Learning of another particle so late into your Japanese studies may com",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://imabi.org/defining-parameter/",
+      "status": "retrieved",
+      "sha256": "ef7cb213ba63f3dd852049cc1c36768588868928f7f3d1b4d6a6822add910dca",
+      "headings": [
+        "Defining Parameter: ～を始め（として）, ～を皮切りに（して）, ～に至るまで, ～をもって, & ～といったところだ",
+        "～を始め（として）",
+        "～を皮切りに（して）",
+        "～に至るまで",
+        "～をもって",
+        "～といったところだ"
+      ],
+      "excerpt": "Defining Parameter: ～を始め（として）, ～を皮切りに（して）, ～に至るまで, ～をもって, & ～といったところだ: Defining the beginning and limitation of a parameter is something that people do all the time. These phrases, although not an exhaustive list of phrases in Japanese that fit this description, will allow you to become even more sophisticated in how you can articulate yourself ～を始め（として）: As you should know, 始める means “to start”. ",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://www.mlcjapanese.co.jp/n1_04_07.html",
+      "status": "retrieved",
+      "sha256": "7855c25bcef65d4681b148a43181ca531fa17479e5cada38fd7d601c40034f79",
+      "headings": [
+        "例文",
+        "Free worksheetのダウンロード"
+      ],
+      "excerpt": "例文: ③ 会社存続のためにビジネスモデルの変更を余儀なくされたが、結果的にはそれが幸いして会社の経常利益は年々増加している。 ⑦ 野党は水面下の交渉により与党に妥協を余儀なくさせた。 ＜漢字の読み＞ 余儀（よぎ）、局地的豪雨（きょくちてきごうう）、土砂崩れ（どしゃくずれ）、避難所（ひなんじょ）、道路拡張（どうろかくちょう）、立ち退き（たちのき）、存続（そんぞく）、経常利益（けいじょうりえき）、競合（きょうごう）、激しい（はげしい）、著しい（いちじるしい）、我々（われわれ）、水面下（すいめんか）、野党（やとう）、与党（よとう）、妥協（だきょう） 英語は理解のためのヒントです。 ① Many residents are forced to live in evacuation centers due to landslides caused by localized heavy rains.",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://www.mlcjapanese.co.jp/n1_04_11.html",
+      "status": "retrieved",
+      "sha256": "bc129a04d8317a4e81526f5e0bb654026bfcdad7f0d3323dc1aa32e39ad44dd4",
+      "headings": [
+        "例文",
+        "Free worksheetのダウンロード"
+      ],
+      "excerpt": "例文: ② いまさら言うまでもないこととは思いますが、現在、我々が置かれている状況は非常に厳しくなっています。 ④ 「わざわざあなたに説明してもらうまでもない」と言いながらも母はスマホの扱いに苦労している。 ⑤ その程度の量の仕入れ値の交渉ぐらいなら、わざわざ私が行くまでもないだろうから、君に一任するよ。よろしく頼む。 ＜漢字の読み＞ 痴漢（ちかん）、犯罪（はんざい）、我々（われわれ）、承知の上（しょうちのうえ）、仕入れ値（しいれね）、交渉（こうしょう）、 一任する（いちにんする） 英語は理解のためのヒントです。 ① It goes without saying that molester is a crime. ② Needless to say, the situation we are in now is extremely severe. ③ There is a risk. I ",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://www.mlcjapanese.co.jp/img/omotte_n1_answer.pdf",
+      "status": "pdf-retrieved",
+      "sha256": "7e8a56ca4b16cff15cd727971f7377817789836c77c9a26e2bdc0fbd1bb772fc",
+      "contentReview": "Primary PDF context reviewed"
+    },
+    {
+      "url": "https://www.irodori.jpf.go.jp/assets/data/resources/Grammar_Worksheets_Answer.pdf",
+      "status": "pdf-retrieved",
+      "sha256": "be907c93e05ce2dad4fd2647696be3d3c48e07f5b7e6c960c909d5d1f23638d8",
+      "contentReview": "Primary PDF context reviewed"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16507066/",
+      "status": "retrieved",
+      "sha256": "30edc0b8e5cffb477dc333f03ce3618fedf3ad836f7725098b30afa7eb8d73df",
+      "headings": [
+        "Cookies must be enabled"
+      ],
+      "excerpt": "Cookies must be enabled: Enable cookies for pubmed.ncbi.nlm.nih.gov and reload this page to continue.",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://www.jlpt.jp/sp/e/about/levelsummary.html",
+      "status": "retrieved",
+      "sha256": "9e135edb13a8429c397ac62134fd3912be9061fab4297c7689234cfcae775aee",
+      "headings": [
+        "N1-N5: Summary of Linguistic Competence Required for Each Level",
+        "A summary of linguistic competence required for each level"
+      ],
+      "excerpt": "N1-N5: Summary of Linguistic Competence Required for Each Level: The JLPT has five levels: N1, N2, N3, N4 and N5. The easiest level is N5 and the most difficult level is N1. N4 and N5 measure the level of understanding of basic Japanese mainly learned in class. N1and N2 measure the level of understanding A summary of linguistic competence required for each level: Copyright © 2012 The Japan Foundat",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://www.jlpt.jp/sp/e/faq/",
+      "status": "retrieved",
+      "sha256": "b4283467fcc67557be1c1fdaba4cc069f8a23421fb8e8a80d2b34e14ad0cdfc2",
+      "headings": [
+        "FAQ",
+        "Q: What sort of test is the JLPT?",
+        "Q: Are there any special qualifications needed to take the JLPT?",
+        "Q: I have a physical disability. Can I take the JLPT?",
+        "Q: How often is the JLPT going to be administered?",
+        "Q: When will the JLPT be held in 2026?",
+        "Q: Where can we take the JLPT?",
+        "Q: Is the test the same regardless of where I take it?",
+        "Q: At the time of registration, I will not be in the country/area where I want to take the test. What should I do?",
+        "Q: Who conducts the JLPT?",
+        "Q: Do all examinees take the same test and their level determined based on their scores?",
+        "Q: How should I decide which level to take?",
+        "Q: When the JLPT was revised in 2010, the form of test items was changed or newly added. How were current test levels matched with old test levels?",
+        "Q: What are test sections and test times?",
+        "Q: Test times are shorter and the number of questions is smaller for “Language Knowledge (Vocabulary)” and “Language Knowledge (Grammar)・Reading” for N4 and N5, and for “Listening” for N1. Does this change the difficulty or the contents of the test questions?",
+        "Q: Test times are shorter and the number of questions is smaller for “Language Knowledge (Vocabulary)” and “Language Knowledge (Grammar)・Reading” for N4 and N5, and for “Listening” for N1. Will the test results be as reliable as before?",
+        "Q: Why is the test section \"Language Knowledge (Vocabulary/Grammar)・Reading\" for N1 and N2 divided into two sections -- \"Language Knowledge (Vocabulary)\" and \"Language Knowledge (Grammar)・Reading\" -- for N3, N4 and N5?",
+        "Q: What kinds of questions are in the JLPT?",
+        "Q: Are all JLPT answers computer scored?",
+        "Q: The last question in \"Listening\" for N1 and N2 has a note saying, \"この 問題 もんだい には 練習 れんしゅう はありません。(No practice available for this question.)\" What does this mean?",
+        "Q: Does the JLPT include questions that require cultural knowledge of Japan?",
+        "Q: Can I keep the test paper after I take the test?",
+        "Q: Who owns copyrights of the JLPT test questions?",
+        "Q: Are questions of past tests published?",
+        "Q: Why is \"Test Content Specifications\" no longer available after the 2010 revision of the JLPT?",
+        "Q: Can I listen to audio of listening comprehension question examples?",
+        "Q: How can I receive test results?",
+        "Q: In test results, \"Language Knowledge (Vocabulary)\" and \"Language Knowledge (Grammar) ・Reading,\" which are separate test sections in N4 and N5, are combined as one scoring section. Why is this?",
+        "Q: How are scores for each question allocated within individual scoring sections?",
+        "Q: The scores I received are different from what I thought I would get. Can I have them confirmed?",
+        "Q: I received my results and know my scores. How do I find out where I stand among all examinees?",
+        "Q: Can we compare the scores of the current test and the old test through 2009?",
+        "Q: How is pass or fail determined? How many scores do I need to pass?",
+        "Q: Why does passing the test require (1) the minimum acceptable total score and (2) a minimum acceptable score in each scoring section?",
+        "Q: What will happen if I don't take a test section?",
+        "Q: If my score does not reach the minimum required in a Scoring Section, can I take only that section again and pass the JLPT if I get an acceptable score?",
+        "Q: When and how do I receive test results?",
+        "Q: Can I receive the test results by e-mail or over the phone?",
+        "Q: There is a mistake in my Score Report/Certificate of Proficiency.",
+        "Q: Does the JLPT certificate expire at some point?",
+        "Q: I have lost my Score Report/Certificate of Proficiency.",
+        "Q: Are results of the new test used as a reference for entrance exams of universities in Japan?",
+        "Q: How do I check that a Certificate of Japanese-Language Proficiency / Score Report, a Certificate of Japanese-Language Proficiency, or a JLPT Certificate of Result and Scores is not forged or falsified?",
+        "Q: What is the indication of the CEFR level as a reference?",
+        "Q: What is the CEFR level? What levels are available?",
+        "Q: Why are you developing a reference indication of the CEFR level for JLPT",
+        "Q: With regard to \"adding the reference indication of the CEFR level in JLPT score reports,\" what do you mean by \"reference indication\"?",
+        "Q: How does each level of the JLPT correspond to the CEFR level?",
+        "Q: How was each level of the JLPT linked to the CEFR level?",
+        "Q: Why is there no C2 level on the reference indication of the CEFR level in JLPT?",
+        "Q: Is the reference indication of the CEFR level also shown for those who have failed the test?",
+        "Q: With the introduction of the reference indication of the CEFR level, will there be any changes to the JLPT test contents? Do I have to change how to study for the JLPT?",
+        "Q: The CEFR includes productive activity skills (speaking and writing). Following the addition of the CEFR level indicated as a reference, will conversation/speaking and composition/writing tests be added to the JLPT?",
+        "Q: Does the CEFR level indicated as a reference include all \"Reading,\" \"Listening,\" \"Speaking,\" and \"Writing\" skills?",
+        "Q: Can I see my CEFR level for each scoring section (\"Language Knowledge,\" \"Reading\" and \"Listening\")?",
+        "Q: What is the relationship between the CEFR and 「日本語教育の参照枠」（報告） (Report: Reference Framework for Japanese-Language Education)?",
+        "Q: When the reference indication of the CEFR level is added to the JLPT score report, what will be the relationship between the JLPT and the JF Standard for Japanese-language Education published by the Japan Foundation?",
+        "Q: Is an examinee who passed the N3 level of the JLPT considered to be at the B1 level for the CEFR?",
+        "Q: If my goal is to achieve the CEFR B1 level, which level of the JLPT should I take?",
+        "Q: Are both B1 level in N3 and B1 level in N2 considered as the CEFR B1 level?",
+        "Q: My friend and I both passed the JLPT N2 test, but my CEFR level reference indicator was B1 and B2 for my friend. What is the reason for this?",
+        "Q: What is the \"CEFR level\" on my score reports?",
+        "Q: In the \"CEFR Level\" column of my score reports, the CEFR level is not indicated and \"＊\" is shown. What is the reason for this?",
+        "Q: After the December 2025 JLPT, will score reports issued in or before the July 2025 JLPT without the reference indication of the CEFR level become invalid?",
+        "Q: I want to request a duplicated copy of my Certificate of Result and Scores for a test in or before the July 2025 JLPT. Will the CEFR level be indicated as a reference?",
+        "Q: How are \"Summary of Linguistic Competence Required for Each Level\" and \"JLPT Can-do Self-Evaluation List\" different?",
+        "Q: Are all examinees who pass a level able to do the activities listed in \"JLPT Can-do Self-Evaluation List\" ?",
+        "Q: The JLPT does not include conversation or composition. Why does \"JLPT Can-do Self-Evaluation List\" include descriptions of Speaking and Writing skills?",
+        "Q: How was the Can-do survey for \"JLPT Can-do Self-Evaluation List\" conducted?",
+        "Q: How is \"JLPT Can-do Self-Evaluation List\" different from \"JLPT Can-do Self-Evaluation Survey Reports: Interim Report\" ?",
+        "Q: Is Can-do for \"JLPT Can-do Self-Evaluation List\" the same as Can-do for \"JF Standard for Japanese-Language Education\"?"
+      ],
+      "excerpt": "FAQ: FAQ regarding the JLPT are listed here. Please also check here for the JLPT administered in Japan. If you do not find the information you need or your question is not answered, please inquire from here . Q: What sort of test is the JLPT?: The Japanese-Language Proficiency Test is held in Japan and abroad to evaluate and certify Japanese-language proficiency of non-native speakers. Q: Are ther",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://www.jlpt.jp/tw/reference/pdf/guidebook_s_e.pdf",
+      "status": "pdf-retrieved",
+      "sha256": "b38beaac905a843c75371911d51fa41c2a49e978221bbdc284b2b8d4705f0d8b",
+      "contentReview": "The claim is independently supported by the official JLPT FAQ; this original guidebook PDF is not the approval basis."
+    },
+    {
+      "url": "https://www.bunka.go.jp/seisaku/bunkashingikai/kokugo/hokoku/pdf/keigo_tosin.pdf",
+      "status": "pdf-retrieved",
+      "sha256": "3a567c6d85e990e0f90f0698c1403ba5826c7c6f9e7e50c93ea5d4da9336882d",
+      "contentReview": "Primary PDF context reviewed"
+    },
+    {
+      "url": "https://www.bunka.go.jp/seisaku/kokugo_nihongo/kokugo_shisaku/keigo/chapter1/detail.html",
+      "status": "retrieved",
+      "sha256": "98ad6cd28f017e71022b6055046b415df35e975a2bacbe3f1ae40d0a611d3e84",
+      "headings": [
+        "第1問 ： （イ）敬語を使う場合もある",
+        "【解説】",
+        "【解説】",
+        "【解説】",
+        "【解説】",
+        "【解説】",
+        "【解説】",
+        "【7】敬語の重要性",
+        "【8】「相互尊重」を基盤とする敬語使用",
+        "【9】「自己表現」としての敬語使用",
+        "申請・募集・情報公開 メニュー開閉"
+      ],
+      "excerpt": "第1問 ： （イ）敬語を使う場合もある: 敬意とは，尊敬の気持ちだけではなく，その人の立場や存在を認めようとすることも含まれるので，相手に対して礼を失することなく，自分自身の社会常識を表すためにも，使う場合があります。 【解説】: 敬語は，古代から現代に至る日本語の歴史の中で，一貫して重要な役割を担い続けていますが，敬語の持つ意味は時代によって変わっています。敬語が人間の上下関係を表すことと密接に関連している時代もありました。しかし，現代社会においては，その人を尊重しようという気持ちを表すこと，その人の立場に配慮すること，その人と親しいか親しくないかといった親しさの程度を示そうとすることなどの意識に基づいて使われていると言ってよいでしょう。 すべての人は基本的に平等です。したがって，一方が必要以上に尊大になったり卑下したりすることなく，お互いに尊重し合う気持ちを大事にしなければなりません。",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://imabi.org/might-%e3%81%8b%e3%82%82%e3%81%97%e3%82%8c%e3%81%aa%e3%81%84/",
+      "status": "retrieved",
+      "sha256": "d8f94888664cd1b875cacb12c07d7154f9527b234f0d8c22aabb418b5e269498",
+      "headings": [
+        "Might: かもしれない",
+        "ConjUGATING WITH かもしれない",
+        "～かもしれない vs ～だろう",
+        "～かもしれないだろう ？？",
+        "～のかもしれない",
+        "～かも",
+        "～かもしれん"
+      ],
+      "excerpt": "Might: かもしれない: To describe a 50/50 probability that “may/might” happen, ～かもしれない is used. It is composed of the particles か and も followed by the negative form of the verb 知れる, which is an intransitive verb meaning “to be known/understood.” Orthography Note : The Kanji spelling ～かも知れない ConjUGATING WITH かもしれない: The particle か follows the 連体形 of predicates, but with nominal (including adjectival noun",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://imabi.org/the-auxiliary-verb-%ef%bd%9e%e3%81%8c%e3%82%8b/",
+      "status": "retrieved",
+      "sha256": "59f3e9870538be3cdf371d3e95ac43945f830f59d6e6bf8ea29a3bc89280d69c",
+      "headings": [
+        "The Auxiliary Verb ～がる",
+        "In-Depth Coverage of ～がる"
+      ],
+      "excerpt": "The Auxiliary Verb ～がる: The first time we saw the auxiliary verb ～がる was during our coverage on “want” with the expressions ほしがる and ～たがる. This time around, we’ll take a deeper look at how the auxiliary verb ～がる is used at large. In-Depth Coverage of ～がる: The auxiliary verb ～がる is a 五段 -conjugating ending that attaches to the stems of adjectives: More specifically, ～がる attaches to adjectives of em",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://imabi.org/expressions-with-%e3%81%93%e3%81%a8/",
+      "status": "retrieved",
+      "sha256": "f4ef394b1cc45a6ce922d888bedb1a224acb03e5a05c86218513d71b113c47a3",
+      "headings": [
+        "Expressions with こと",
+        "～ことがある: Experience(S) One Has",
+        "～ことがある w/ Adjectival Predicates"
+      ],
+      "excerpt": "Expressions with こと: The nominalizer こと appears in many grammatical structures, and in all the structures showcased in this lesson, it has no interchangeability with the nominalizer の. So, as you go through each structure, this will be a great opportunity to better internalize these two nominalizers and ～ことがある: Experience(S) One Has: When こと follows a verbal predicate, either in the non-past form ",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://imabi.org/the-scope-marker-%ef%bd%9e%e3%81%ae%e3%81%a0/",
+      "status": "retrieved",
+      "sha256": "478e744dfb9358b49e058badc13c8feb91bcb743d26fc1318c2ec217c67febd2",
+      "headings": [
+        "The Scope Marker ～のだ",
+        "What is ～のだ?",
+        "The Scope Marker ～のだ",
+        "Conditions for Omitting Scope ～のだ",
+        "Understanding the Scope of Other Elements",
+        "Comparing Scope ～のだ with Nominal Predicates",
+        "What can be the Focus of ～のだ"
+      ],
+      "excerpt": "The Scope Marker ～のだ: Having learned about how the particles から and ので indicate reason, it is time to learn about the third most important method of indicating reason in Japanese: ～のだ. At first glance, ～のだ appears to be the sentence-final rendition of the conjunctive particle ので. While this What is ～のだ?: From a literal breakdown, ～のだ is the combination of the nominalizing function of the particle ",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://imabi.org/the-particle-%e3%81%aa%e3%81%8c%e3%82%89-i-simultaneous-action/",
+      "status": "retrieved",
+      "sha256": "1511cbc47979667dd52a0d5a79782faf0de75a3cb1443a5ba2ff67e3169fcc06",
+      "headings": [
+        "The Particle ながら I: Simultaneous Action",
+        "Simultaneous Action"
+      ],
+      "excerpt": "The Particle ながら I: Simultaneous Action: In this lesson, you will be introduced to the particle nagara ながら. This particle is a conjunctive particle that is typically used to mean “while” in the sense of doing two things at the same time or in the same time span. Because using it Simultaneous Action: The primary use of nagara ながら is to show simultaneous action or in the same time span. The clauses ",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://imabi.org/easy-i-%ef%bd%9e%e3%82%84%e3%81%99%e3%81%84/",
+      "status": "retrieved",
+      "sha256": "7a56b4968284e4aa8184a7566494606511e37d926fdbf3e84892b7510386c012",
+      "headings": [
+        "Easy I: ～やすい",
+        "“Easy” Adjectives 「Easy」を意味する表現",
+        "Adverb Forms 「Easy」を意味する単語の副詞形",
+        "～やすい",
+        "～られやすい"
+      ],
+      "excerpt": "Easy I: ～やすい: It would be easy enough to learn how to say “easy” if it weren’t for the fact that Japanese has multiple ways of saying “easy” as well as distinguishing “it’s easy to do…” from a simple “X is easy” statement. Although a dozen things to “Easy” Adjectives 「Easy」を意味する表現: In this example, we see the adjectival noun 簡単な meaning “easy.” As “easy” as that may seem, this word alone presents ",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://imabi.org/difficult-i-%ef%bd%9e%e3%81%ab%e3%81%8f%e3%81%84/",
+      "status": "retrieved",
+      "sha256": "bb71427f779ed7922849ba9f814e005458d434f3620e088f227c6e0ed5fd1904",
+      "headings": [
+        "Difficult I: ～にくい",
+        "The Adjective 難しい & Its Variants",
+        "The Sino-Japanese 難",
+        "～にくい"
+      ],
+      "excerpt": "Difficult I: ～にくい: In the previous lesson, we learned about the various adjectives meaning “easy” as well as the ending ～やすい. Similarly, we’ll be learning about the various ways to say “difficult.” Although ～にくい is by no means the only ending used to mean “difficult to do…”, it’ll The Adjective 難しい & Its Variants: The easy thing about saying “difficult” in Japanese is that the similarity between s",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://imabi.org/the-verbs-%e7%b6%9a%e3%81%8f-%ef%bc%86-%e7%b6%9a%e3%81%91%e3%82%8b/",
+      "status": "retrieved",
+      "sha256": "e30c96098c1eff9be209faf4d6e8bad704019600de520530291aba9e1825afec",
+      "headings": [
+        "Verbs of Continuation 継続を示す動詞",
+        "The Verbs 続く & 続ける",
+        "継続・持続・連続",
+        "Special Usages of Their て-Forms ～て形を使った特殊な用法",
+        "～続ける VS ～続く",
+        "“Verb ＋ ～続ける” VS “Verb ＋ ～のを続ける”",
+        "立て続けに・続けざまに"
+      ],
+      "excerpt": "Verbs of Continuation 継続を示す動詞: The basic verbs in Japanese which mean “to continue” are 続く (intransitive 五段 verb) and 続ける (transitive 一段 verb) respectively. These words are heavily used and may also function as supplementary endings, which will be a major focus of this lesson. We’ll first exam the The Verbs 続く & 続ける: The verb 続く is an intransitive verb with the primary meaning of “to continue,” de",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://imabi.org/must/",
+      "status": "retrieved",
+      "sha256": "863a25acfe8f465c27ee337760ba88aff022b573aba54f61711df32612a792e2",
+      "headings": [
+        "Must",
+        "Must"
+      ],
+      "excerpt": "Must: This lesson will now look at the “must” phrases. There will be more variation in forms to be aware of in this section, and the grammar complications will be harder than with the “must not” forms, but don’t worry. Must: The basic patterns are ～なければならない, ～なければいけない, ～なくてはならない, and ～なくてはいけない. Just as with must not phrases, ～ては contracts to ちゃ in colloquial speech. Other contractions include ～なけれ",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://imabi.org/best-that/",
+      "status": "retrieved",
+      "sha256": "10581010034cacc1e17311bcc2fa6f5e8822c07f6dd0d8f2059a66fb692c5b15",
+      "headings": [
+        "Best That: ～方 Patterns & ～に越したことはない",
+        "Best/Better That",
+        "～に越したことはないが"
+      ],
+      "excerpt": "Best That: ～方 Patterns & ～に越したことはない: For some reason, students are compelled to use the word 方 excessively. Best/Better That: 方がいい means “best to…” and with verbs, you should use the past tense, and with adjectives or the negative, you should use the non-past tense. However, this can still be used with the non-past of verbs, and いい can be replaced with phrases like 賢明だ ～に越したことはないが: ～に 越 こ したことはない（",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://imabi.org/due-to/",
+      "status": "retrieved",
+      "sha256": "3739e8fa3ebd7b3b3f9fb4843a50d8460e3a7e1a1a2a60760d789ed866b1237e",
+      "headings": [
+        "～ために II: Due to…",
+        "Marking a Cause"
+      ],
+      "excerpt": "～ために II: Due to…: ～ために, as hinted at in the introduction of the previous lesson, is not limited to expressing an objective. Another primary interpretation that may or may not coincide with an objective is expressing a cause. This lesson will help you understand exactly how to use and Marking a Cause: The cause-marking ～ために is used to express the cause of something in a reserved manner. It is equiv",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://imabi.org/so-that/",
+      "status": "retrieved",
+      "sha256": "ee248b27c6874d2eb6ce7bd1a46c8ef6573c24b671b7fa93bf8d32e925be894d",
+      "headings": [
+        "～ように: So That…",
+        "Conjugation Recap",
+        "The Usages of ～ように"
+      ],
+      "excerpt": "～ように: So That…: In this lesson, we will look at yet another grammatical expression which utilizes the purpose-marking に. This phrase is ～ように, which is composed of the noun 様 よう and the particle に. 様 is a Sino-Japanese noun, but unlike the noun 為 ため we learned Conjugation Recap: First, let’s have a bit of conjugation review. Despite the ambition ～ように following the same grammar as any other nominal ",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://imabi.org/%ef%bd%9e%e3%82%88%e3%81%86%e3%81%ab%e3%81%aa%e3%82%8b-%ef%bd%9e%e3%82%88%e3%81%86%e3%81%ab%e3%81%99%e3%82%8b/",
+      "status": "retrieved",
+      "sha256": "6786d1c700d9eb4867617bb901427fd253c44462d3584067baba30a220c25c29",
+      "headings": [
+        "～ようになる& ～ようにする",
+        "The Noun 様",
+        "～ようになる",
+        "～ようにする",
+        "Usage 1: “Try to…” = Building a Habit",
+        "Usage II: Have/Make (…) So”",
+        "Negation w/ ～ように｛なる・する｝",
+        "～なくなる vs ～ないようになる",
+        "～ないようにする vs ～なくする",
+        "XはYを～(ない)ように～Z=する",
+        "Misnomers"
+      ],
+      "excerpt": "～ようになる& ～ようにする: Having learned about the result marker に in Lesson 75, it is now time we take a close look at the patterns ～ようになる and ～ようにする, which go hand in hand in demonstrating how changes come about. The Noun 様: It goes without saying that both patterns, ～ようになる and ～ようにする, are made possible by the noun 様, which has the literal, utmost basic meaning of “state/condition.” By understanding that ",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://imabi.org/the-auxiliary-%ef%bd%9e%e3%82%89%e3%81%97%e3%81%84/",
+      "status": "retrieved",
+      "sha256": "7226b18603eccbf10e696d270e37b993983c2bfe9598d6736b901e128a29de23",
+      "headings": [
+        "The Auxiliary ～らしい",
+        "The Meanings of ～らしい",
+        "Origin & CONJUGATIONS OF ～らしい",
+        "Use of the 未然形: ～らしからぬ",
+        "Use of the 連用形: らしく・らしかっ",
+        "Use of the 終止形: ～らしい",
+        "Use of the 連体形: ～らしい・らしき",
+        "Use of the 仮定形: ～らしけれ",
+        "The Non-Existence of the 命令形",
+        "～らしい in Isolation",
+        "～らしさ",
+        "～らしげ"
+      ],
+      "excerpt": "The Auxiliary ～らしい: The auxiliary ～らしい is most known for its role in marking supposition (推量), which are statements made that one believes to be true but without 100% certainty. ～らしい also happens to be a suffix that denotes stereotypical traits, and it turns out that these two The Meanings of ～らしい: ～らしい is a supposition marker which represents firm speculation based on credible information. Meanin",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://imabi.org/seem-%ef%bd%9e%e3%81%9d%e3%81%86%e3%81%a0/",
+      "status": "retrieved",
+      "sha256": "dd65e1a6b2d4879c20d3c0f93ca25cc1ca887a9fa1195b0f8e2cdd2527cce73c",
+      "headings": [
+        "Seem: ～そうだ",
+        "To Look/Seem So: ～そうだ",
+        "Conjugating ～そうだ",
+        "Use of the 未然形: そうだろ",
+        "use of the 連用形: そうだっ・そうで・そうに",
+        "Use of the 終止形",
+        "Use of the 連体形",
+        "Use of the 仮定形",
+        "The Negative Forms of ～そうだ",
+        "～て（い）そうだ",
+        "～そな",
+        "～そー"
+      ],
+      "excerpt": "Seem: ～そうだ: The auxiliary ～そうだ derives from the word 様（さま）meaning “appearance,” and just as this literal interpretation would suggest, this auxiliary is used to indicate conjecture. It does so in two uniquely different grammatical scenarios: ①Following the 連用形 and/or stem to indicate that something “seems” to be. To Look/Seem So: ～そうだ: ～そうだ indicates that something “seems” a certain way based on t",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://imabi.org/hearsay/",
+      "status": "retrieved",
+      "sha256": "a38c78fd5b009b3c5f9a18847bffd3518fb4862abe13003a396c92209772a927",
+      "headings": [
+        "Hearsay: ～そうだ",
+        "Conjugating w/ Function 2 ～そうだ",
+        "The Grammaticality of ～そう（だ）",
+        "Comparing ～らしい & ～そうだ",
+        "Example Sentences"
+      ],
+      "excerpt": "Hearsay: ～そうだ: In the previous lesson on ～そうだ, we learned that it has two broad functions: ①Following the 連用形 and/or stem to indicate that something “seems” to be. ②Following the 終止形 to indicate the speaker “heard” that something is so. To distinguish which function of ～そうだ is Conjugating w/ Function 2 ～そうだ: The first thing that you will notice about the conjugation power of Function 2 is that it ",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://imabi.org/the-passive/",
+      "status": "retrieved",
+      "sha256": "48b6dd75787c645862c1c4c4457f1175084433a936fc4e1f87bd62cef2135fbf",
+      "headings": [
+        "The Passive I: ～られる & ～れる",
+        "～られる and ～れる",
+        "The Passive (受身形)",
+        "The Potential"
+      ],
+      "excerpt": "The Passive I: ～られる & ～れる: The passive form is a very important grammatical construction in Japanese just as it is in English. Unlike in English in which its use is frowned upon in formal writing, the passive form in Japanese is both common written and spoken, but it does have ～られる and ～れる: ～られる attaches to 一段 (ru-verbs) and ～れる attaches to 五段 (u-verbs). We then have the exceptional verbs する and 来",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://imabi.org/the-causative-i-%ef%bd%9e%e3%81%95%e3%81%9b%e3%82%8b-%ef%bd%9e%e3%81%9b%e3%82%8b/",
+      "status": "retrieved",
+      "sha256": "0bc80708777c3f930c3561e4c2e030b00b30f5ce45be488243983472f6d96054",
+      "headings": [
+        "The Causative I: ～させる & ～せる",
+        "The Causative Auxiliaries ～させる & ～せる 「使役形」の助動詞、～させる・せる",
+        "The Causative w/ Transitive Verbs",
+        "The Causative W/ Intransitive Verbs",
+        "Causative Vs ～て｛もらう・いただく｝",
+        "Unconcern or Let",
+        "～させて｛もらう・いただく｝"
+      ],
+      "excerpt": "The Causative I: ～させる & ～せる: The auxiliary verbs ～させる and ～せる create what is known as the “causative form” (使役形), which equates to “A (the subject) makes/lets an agent (X) do a certain action (Y).” Before we look at what “causation” means and the grammatical restrictions had with it in The Causative Auxiliaries ～させる & ～せる 「使役形」の助動詞、～させる・せる: The causative form (使役形) is used with both transitive and",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://imabi.org/causative-passive/",
+      "status": "retrieved",
+      "sha256": "eb498cf8b27f0d58b9362232cf1f1935e0b9d4c9f1d9c7774ac519d7ee885bc2",
+      "headings": [
+        "Causative-Passive",
+        "Causative-Passive"
+      ],
+      "excerpt": "Causative-Passive: Adding the causative and passive forms together creates the 使役受け身形. As the name suggests, the ordering of the endings is causative then passive. Because there is a short causative form, there is a short causative-passive form. So, we will need to look into detail on Causative-Passive: The 受身形 (passive form) and the 使役形 may be put together by combining ～させる・せる and ～られる together. ",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://imabi.org/the-particle-%e3%81%a8%e3%81%8b/",
+      "status": "retrieved",
+      "sha256": "a1220fdfdb00d7a7705fff3a93162fefb412d6e219561378026eed453113c650",
+      "headings": [
+        "The Particle とか",
+        "The Parallel Particle とか 基礎用法: 物事の列挙",
+        "なんとか",
+        "Quotative/Adverbial Particle とか",
+        "とか弁",
+        "ぼかしの「とか」 After Noun",
+        "ぼかしの「とか」 After Embedded Quote",
+        "ぼかしの「とか」 in ～たりとか",
+        "ぼかしの「とか」 in ～とかいう",
+        "ぼかしの「とか」After a Verb"
+      ],
+      "excerpt": "The Particle とか: The parallel particle とか is the combination of the quotative particle と and the adverbial particle か 1 . Its core definition is to list things out (列挙), but from this basic meaning, examples given can be implied as hearsay or even an attempt to The Parallel Particle とか 基礎用法: 物事の列挙: At a basic understanding, the parallel particle とか is equivalent to “such as” in English, but given ",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://imabi.org/the-particles-%e3%81%bb%e3%81%a9-%e3%81%8f%e3%82%89%e3%81%84/",
+      "status": "retrieved",
+      "sha256": "c3afb5a918b50bcf6ea5bc4c7c1c147c4ef8bb53e4e407bfab5ff69f4ed0721b",
+      "headings": [
+        "The Particles ほど & くらい",
+        "The Adverbial Particle ほど",
+        "The Adverbial Particle くらい・ぐらい"
+      ],
+      "excerpt": "The Particles ほど & くらい: Although very similar, ほど and くらい―also ぐらい―are not always the same. The Adverbial Particle ほど: The first thing that you should know about the particle ほど is how it is attached to various parts of speech and what sort of particle combinations are allowed. As far as particles are concerned, the typical order is noun + case particle ＋ ほど. The Adverbial Particle くらい・ぐらい: The wa",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://imabi.org/during-throughout/",
+      "status": "retrieved",
+      "sha256": "afd29f639f65f3641fda2c3cda8449dbe6a7fec4b075d5db915a0b5533e45fc5",
+      "headings": [
+        "～中: During/Throughout",
+        "～ 中 じゅう : Throughout",
+        "～ 間中 あいだじゅう",
+        "～ 中 ちゅう : Within",
+        "～ 中 ちゅう : “-Ing”",
+        "Grammaticality of 発売中",
+        "～ 中 ちゅう : Out Of",
+        "History Behind the Sound Change ちゅう → じゅう",
+        "Temporal Noun + [～じゅうに・ちゅうに]",
+        "Non-Deictic Time + ～ 中 じゅう",
+        "Deictic Time + ～ 中 じゅう",
+        "Formality Favors ～ちゅう?",
+        "Sino-Japanese Words Favor ～ちゅう",
+        "午前中 vs 午後中"
+      ],
+      "excerpt": "～中: During/Throughout: The suffix ～中 attaches to all sorts of nouns to indicate one of four functions: For the meaning of “throughout,” ～中 is always read as じゅう. As an aspect marker, it is always read as ちゅう. Yet, for many temporal phrases with which it means ～ 中 じゅう : Throughout: There are three interrelated environments in which ～中 is read as ～じゅう: Case particles may follow accordingly if the re",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://imabi.org/try-ii/",
+      "status": "retrieved",
+      "sha256": "45bf3d463547cb196638339eefc55112cca9281970f816ff65e4e706812ce5c8",
+      "headings": [
+        "Try II: ～ようにする & ～ようとする",
+        "～ようにする",
+        "～ようとする",
+        "Understanding What “Try…” Means",
+        "Interrupted Attempts: “Just about to…”",
+        "Restrictions on ～（よ）うとする",
+        "Non-First Person Volition",
+        "No Overt Agent ⇒ Foreboding Event"
+      ],
+      "excerpt": "Try II: ～ようにする & ～ようとする: The pattern ～ようにする, when used in the sense of “to try…” – Usage I discussed in this lesson – is often confused with ～ようとする, which indicates active execution of an agent’s willpower to do something. Putting aside their different morphology, many learners confuse these patterns ～ようにする: As a recap, ～ようにする , as it pertains to habitual behavior, denotes a serious attempt on the",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://imabi.org/citation-ii-%ef%bd%9e%e3%81%a8%e3%81%84%e3%81%86-%ef%bd%9e%e3%81%a8%e3%81%84%e3%81%86%e3%81%93%e3%81%a8-%ef%bd%9e%e3%81%a8%e3%81%84%e3%81%86%e3%82%82%e3%81%ae/",
+      "status": "retrieved",
+      "sha256": "a8ba4594dade6edef80f40d01ed31ea80fda74ce1e28244c18589bf9cbaf1907",
+      "headings": [
+        "～という, ～ということ, & ～というもの",
+        "という",
+        "～ということ & ～というもの",
+        "という: Emphasis Marker"
+      ],
+      "excerpt": "～という, ～ということ, & ～というもの: In this lesson, we will learn about how という is used to facilitate the modification of one noun, which we will denote as Noun A’, by another noun, which we will denote as Noun A, for the purpose of defining. という is a phrase even という: First, let’s remember what という is composed of and why it matters. と is the citation case particle of Japanese. The phrase it attaches gets gram",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://imabi.org/criticizing-%e3%81%8f%e3%81%9b%e3%81%ab%e3%83%bb%e3%81%8f%e3%81%9b%e3%81%97%e3%81%a6/",
+      "status": "retrieved",
+      "sha256": "2c3ec427ef7cb200c569e0fb77aaa610512b55797e45a956b1629699432e81a6",
+      "headings": [
+        "Criticizing: くせに・くせして",
+        "～くせに: Dissatisfaction",
+        "～くせして"
+      ],
+      "excerpt": "Criticizing: くせに・くせして: Everyone has bad habits, tendencies, or mannerisms. On top of that, everyone in the world loves to complain and ridicule the bad qualities of others – sometimes even themselves. In Japanese, one of the most effective ways of ridiculing others for something is done so ～くせに: Dissatisfaction: As mentioned in the introduction, 癖’s basic meaning is to describe habits, which is al",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://imabi.org/fix-error-%ef%bd%9e%e5%bf%98%e3%82%8c%e3%82%8b-%ef%bd%9e%e7%9b%b4%e3%81%99-%e9%96%93%e9%81%95%e3%81%88%e3%82%8b-%ef%bd%9e%e8%aa%a4%e3%82%8b/",
+      "status": "retrieved",
+      "sha256": "bfaf0f5034322273f554c69ba4137e0737c9d704830d44f76732ddfd5f4a989d",
+      "headings": [
+        "Fix/Error: ～忘れる, ～直す, 間違える, & ～誤る",
+        "”To Forget to do…”: ～忘れる",
+        "①Verb 1 連用形 ＋ ～忘れる",
+        "②Verb 1 連体形 ＋ ～のを忘れる",
+        "③Verb 1 連体形 ＋ ～ことを忘れる",
+        "Verb 1 連用形 ＋ ～直す",
+        "～直る",
+        "～間違える",
+        "～違える",
+        "～違う",
+        "～誤る"
+      ],
+      "excerpt": "Fix/Error: ～忘れる, ～直す, 間違える, & ～誤る: In this lesson, we will learn about various compound verb endings which are used to indicate making or fixing errors in judgment. ”To Forget to do…”: ～忘れる: There are three means of expressing “to forget to do…,” all of which utilize the 一段 verb 忘れる (to forget). ①Verb 1 連用形 ＋ ～忘れる ②Verb 1 連体形 ＋ のを忘れる ③Verb 1 連体形 ＋ ～ことを忘れる In some scenarios, all three patterns shar",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://imabi.org/used-to-together/",
+      "status": "retrieved",
+      "sha256": "e048332d75fe8d15da540ca87960bf35c191438b0e6f466330e9af0200a04433",
+      "headings": [
+        "～慣れる, ～合う・合わせる, & ～切る",
+        "～慣れる",
+        "～合う・合わせる",
+        "～切る"
+      ],
+      "excerpt": "～慣れる, ～合う・合わせる, & ～切る: This lesson continues on with intermediate compound verb endings. Grammar Note : 来る can only be used with the following patterns: 来 慣れる (to be used to coming to) and 来 合わせる (to make one’s appearance). If you think about the meanings of these phrases ～慣れる: 慣 な れる, an 一段 verb, means “to get used to” and may also mean “to domesticate”, which is in essence animals getting used t",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://imabi.org/adjective-nominalization/",
+      "status": "retrieved",
+      "sha256": "1328bf23d36be680b5c9605fe021075beecdbce91a8f65bf0ce5620ccb15225d",
+      "headings": [
+        "Adjective Nominalization I: ～さ & ～み",
+        "～さ",
+        "～み",
+        "～みがかった",
+        "～さ vs ～み with Adjectives of “Emotion”",
+        "悲しさ vs 悲しみ",
+        "痛さ vs 痛み",
+        "苦しさ vs 苦しみ",
+        "楽しさ vs 楽しみ",
+        "面白さ vs 面白み",
+        "/-mi/ or /…m-i/?",
+        "New ～み Expressions",
+        "～味",
+        "Early Modern Japanese Instances of ～み",
+        "Social Media Slang?"
+      ],
+      "excerpt": "Adjective Nominalization I: ～さ & ～み: There are some set phrases in Japanese that involve adjectives becoming nominalized by simply being left as is in their 連体形. The use of the 連体形 in this manner is equivalent to using the 連体形＋｛こと・の｝in modern speech, and examples of the former may be viewed ～さ: In principle, ～さ may attach to the stem (語幹) of all adjectives (形容詞) and adjectival nouns (形容動詞), as opp",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://imabi.org/the-affix-%ef%bd%9e%e3%82%81/",
+      "status": "retrieved",
+      "sha256": "650cb45e17cbbcea483758004fdfc60b7844597f7306e84baf7bd6274e2691bf",
+      "headings": [
+        "The Affix ～め",
+        "秤の目 → Unit of Measure → Sequence",
+        "Point of Change/Contact",
+        "“Somewhat”",
+        "Miscellaneous め"
+      ],
+      "excerpt": "The Affix ～め: In this lesson, we will learn about the various usages of the affix ～め, which we have already seen used to stand for the “-th” in Japanese ordinal numbers. What may come as a surprise is that the usages discussed in this lesson are all 秤の目 → Unit of Measure → Sequence: The ability of ～め to denote ordinal numbers ultimately derives from the phrase 秤の目 meaning “mark” on a device to mea",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://imabi.org/the-adverbs-%e3%81%9b%e3%81%a3%e3%81%8b%e3%81%8f-%e3%82%8f%e3%81%96%e3%82%8f%e3%81%96/",
+      "status": "retrieved",
+      "sha256": "cfeb39327d8f34ae97f963282f62d60fcc4cea706991b74be52d28d7f8fbd999",
+      "headings": [
+        "The Adverbs せっかく & わざわざ",
+        "The Adverbial Noun せっかく",
+        "The Adverb わざわざ"
+      ],
+      "excerpt": "The Adverbs せっかく & わざわざ: This lesson will focus on two adverbs that are featured on the JLPT N3: せっかく and わざわざ. Both adverbs relate to actions the speaker goes through the effort of doing, but the implication as to why the speaker is doing so is not the same. The Adverbial Noun せっかく: せっかく indicates a feat that the agent goes through considerable hardship and/or difficulty to accomplish, and the im",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://imabi.org/planning-%ef%bd%9e%e3%81%a4%e3%82%82%e3%82%8a%e3%81%a0/",
+      "status": "retrieved",
+      "sha256": "06d16bb00dd1fd92bd688165ce044a919aa0a6d9e4104626a4ded9d32303c505",
+      "headings": [
+        "Planning: ～つもりだ",
+        "Verb (non-Past) + ～つもりだ",
+        "Noun ＋ のつもりだ",
+        "X ～つもりをする",
+        "X～つもりにする",
+        "X～つもりになる",
+        "X～つもりでいる",
+        "～つもりか",
+        "～つもりだった",
+        "～ないつもりだ VS ～つもり｛は・が｝ない VS ～つもりではない",
+        "Conviction: ～たつもりだ（った）",
+        "～つもりだった｛が・のに｝",
+        "～たつもりで",
+        "～つもりがある"
+      ],
+      "excerpt": "Planning: ～つもりだ: In this lesson, we will learn about the grammatical pattern ～つもりだ, which translates into English as “to plan on…” つもり derives from the 連用形 of 積もる. This verb’s meaning of “to estimate” 1 is where つもり’s ability to denote future planning derives. It is this Verb (non-Past) + ～つもりだ: Accounting for the majority of examples involving this pattern, “Verb (Non-Past) + ～つもりだ” typically ind",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://imabi.org/planning-obligation/",
+      "status": "retrieved",
+      "sha256": "b50387e36ca9bd46713a2225b5fd116e84b439e8976c3d810f2dc14c310108f1",
+      "headings": [
+        "～はずだ",
+        "～はずだ"
+      ],
+      "excerpt": "～はずだ: In this lesson we will learn about the grammatical pattern ～はずだ, which translates into English as “should” as in “ought to be the case.” ～はずだ: The pattern ～はずだ indicates what the speaker believes ought to be the case, with this supposition based on the speaker’s personal judgment/assessment. This pattern combines with all predicate types as follows: The word はず derives from a noun which lite",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://imabi.org/obligation-%ef%bd%9e%e3%81%b9%e3%81%8d%e3%81%a0/",
+      "status": "retrieved",
+      "sha256": "ccae40e91d6ef3ad63903bef5e41311c4920ac2c395cf70e26013a7ac3b94a3f",
+      "headings": [
+        "Obligation: ～べきだ",
+        "Conjugating w/ ～べきだ",
+        "Obligation: ～べきだ",
+        "W/ Negation: ～べきではない",
+        "The Grammaticality of ～ないべきだ",
+        "Regret: ～べきだった・べきではなかった",
+        "W/ Adjectives?",
+        "～べき Used Adjectivally"
+      ],
+      "excerpt": "Obligation: ～べきだ: In this lesson, we will learn about the auxiliary verb 1 ～べきだ, which often translates into English as “ought to/should.” While similar in meaning to the modal ～はずだ, ～べきだ possesses a far stronger tone, making it not as common in everyday speech but a powerful, Conjugating w/ ～べきだ: The auxiliary verb ～べきだ principally follows the 終止形 of verbs , but it does not attach to other auxili",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://imabi.org/the-auxiliary-verb-%ef%bd%9e%e3%81%9a-i/",
+      "status": "retrieved",
+      "sha256": "d126c33891dba51902c134e0c98c2d53d0092c05e8635aecb0d7eaa70966124b",
+      "headings": [
+        "The Auxiliary Verb ～ず I",
+        "The Auxiliary Verb ～ず",
+        "Speech Modals with -ず"
+      ],
+      "excerpt": "The Auxiliary Verb ～ず I: ～ず is the Classical Japanese negation auxiliary verb. Despite being an archaism, it is still used in a variety of situations, including several grammatical structures and set phrases. The Auxiliary Verb ～ず: The function of ～ず is to show negation. This means that it is going to follow the 未然形 of verbs. However, because it is older, it follows the original 未然形. So, for verbs",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://imabi.org/about-2/",
+      "status": "retrieved",
+      "sha256": "49a96528e85e9ed0b16297b0f3f079de9d77c8a83cc1ac2ff36d3cfa866d03ce",
+      "headings": [
+        "About: ～について, ～に関して, & ～をめぐって",
+        "～について & ～に関して",
+        "～をめぐって・めぐり"
+      ],
+      "excerpt": "About: ～について, ～に関して, & ～をめぐって: It normally doesn’t take long to find differences between similar items in Japanese. Sometimes there might be certain forms and meanings of one that the other doesn’t have, or there could be formality differences. These are the kinds of differences that you will learn about ～について & ～に関して: You have no doubt come across ～について and ～に関して and noticed that each time that t",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://imabi.org/%e3%81%a0%e3%81%91%e3%81%ab%e3%83%bb%e3%81%a0%e3%81%91%ef%bc%88%e3%81%ae%e3%81%93%e3%81%a8%e3%81%af%ef%bc%89%e3%81%82%e3%81%a3%e3%81%a6/",
+      "status": "retrieved",
+      "sha256": "350b72cb47c476a29c573b281291fbc14411941bac6704dee557d1b1d0abf373",
+      "headings": [
+        "Given That: だけに・だけ（のことは）あって",
+        "～だけに",
+        "Non-Bare/Embedded Noun-Predicate +｛な・である・ ∅ ｝だけに",
+        "～だけあって",
+        "さすが（の）",
+        "～だけのことはあって",
+        "～だけ（のことは）ある"
+      ],
+      "excerpt": "Given That: だけに・だけ（のことは）あって: In this lesson, we will learn about very similar grammar points which utilize the particle だけ that represent an inherent consequence/evaluation. Before delving into the grammar points at the core of this discussion, let’s first recap how だけ connects to various predicates 1 , but ～だけに: The basic function of ～だけに is as follows: Situation B is an expected result given Sit",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://imabi.org/the-particle-%e3%81%ae%e3%81%bf/",
+      "status": "retrieved",
+      "sha256": "a450f3271449ab8c67104f4f89e832c85fcef03cb25c1243b326edf0f145e18e",
+      "headings": [
+        "The Particle のみ",
+        "The Adverbial Particle のみ",
+        "のみ w/ Case Particles",
+        "Historical Sidenote",
+        "～のみならず",
+        "～のみか",
+        "～だけでなく vs ～のみならず vs ～ばかりか （のみか） , etc.",
+        "～をのみ",
+        "のみ vs ばかり",
+        "さのみ"
+      ],
+      "excerpt": "The Particle のみ: The adverbial particle のみ 1 shows up in literary-style language for the purpose of singling out one entity, translating neatly into English most of the time as “only.” As opposed to the far more ubiquitous particle だけ, のみ is highly literary in tone. This is The Adverbial Particle のみ: The primary function of the adverbial particle のみ is to denote restriction on a single entity, and",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://imabi.org/the-particle-%e3%81%93%e3%81%9d/",
+      "status": "retrieved",
+      "sha256": "a486e1f002f28b288fb3d3fd7ea738e2f19540262543427f8e29b6caf96a06f1",
+      "headings": [
+        "The Particle こそ",
+        "The Fundamentals of こそ",
+        "～からこそ & ～ばこそ",
+        "～てこそ"
+      ],
+      "excerpt": "The Particle こそ: こそ is a rather straightforward particle to understand, but its usage is a little tricky. The Fundamentals of こそ: The first instances of こそ students learn about are set phrases like こちらこそ (likewise), 今度こそ (surely next time), and 今年こそ (surely next year). However, even these set phrases can get messed up. こそ strongly emphasizes what precedes it similarly to the words “certainly” and ",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://imabi.org/%e3%82%8f%e3%81%91%e3%81%a7%e3%81%af%e3%81%aa%e3%81%84-%e3%82%8f%e3%81%91%e3%81%8c%e3%81%aa%e3%81%84-%e3%82%8f%e3%81%91%e3%81%ab%e3%81%af%e3%81%84%e3%81%8b%e3%81%aa%e3%81%84/",
+      "status": "retrieved",
+      "sha256": "8532e874e33e30b2005d570dc8cc7ec802c27fdb15faed1e26d33f25a869be26",
+      "headings": [
+        "わけではない, わけがない, わけにはいかない",
+        "わけではない",
+        "わけがない",
+        "わけにはいかない"
+      ],
+      "excerpt": "わけではない, わけがない, わけにはいかない: In the previous lesson, we learned all about the phrase わけだ and its relation with similar phrases. What we did not do is cover what happens when we use this in the negative, of which there are three patterns to choose from: わけではない: わけではない is, simply put, the basic negation of わけだ. Therefore, it may be used in all five usages mentioned in the previous lesson. As such, conte",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://imabi.org/no-doubt-that/",
+      "status": "retrieved",
+      "sha256": "b7d0680a0698ab85c7d4cc86b630b19e0417d10aa4beb88261c2b7e84bfed63c",
+      "headings": [
+        "No Doubt that: ～に違いない, ～に相違ない, & ～に決まっている",
+        "～に違いない VS ～に相違ない",
+        "～に決まっている"
+      ],
+      "excerpt": "No Doubt that: ～に違いない, ～に相違ない, & ～に決まっている: ～に違いない and ～に相違ない are not necessarily difficult, but there are certain problems that students have. The unusual way it connects to adjective/verb expressions, not properly understanding what can follow them, and not understanding formality differences are the main sources of error. The lesson will be ～に違いない VS ～に相違ない: First and foremost, these expressions",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://imabi.org/based-on/",
+      "status": "retrieved",
+      "sha256": "36f3101d5384357a69588631e05bf45847364387c9f226f95654b58e9beb818d",
+      "headings": [
+        "Based on: に基づいて、を踏まえて, をもとにして, に沿って, に即して, & に則って",
+        "～に基づいて",
+        "を踏まえて",
+        "～をもとにして",
+        "～に沿って & More",
+        "Points of Confusion"
+      ],
+      "excerpt": "Based on: に基づいて、を踏まえて, をもとにして, に沿って, に即して, & に則って: These phrases are definitely very similar to each other, but as you will see during the compare and contrast sections of this lesson, there are important differences to keep in mind. ～に基づいて: ～に基づいて means “based on.” Its attribute form may either be ～に基づいての or ～に基づいた. Broadly speaking, there are two main usages of Xに基づいてY. The first is “without det",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://imabi.org/as-change/",
+      "status": "retrieved",
+      "sha256": "53a5e88fa55e744b0a19673e143fa689130c33bfdd3449a1bc94adaa1e8eb0c3",
+      "headings": [
+        "As (change): ～につれて, ～に従って, ～に伴って, ～とともに, ～に応じて, & ～に応えて",
+        "～につれて",
+        "～に従って",
+        "～に伴って",
+        "～とともに",
+        "～に応じて",
+        "～に応えて"
+      ],
+      "excerpt": "As (change): ～につれて, ～に従って, ～に伴って, ～とともに, ～に応じて, & ～に応えて: ～につれて, ～に従って, ～に伴って, and ～とともに all have meanings of showing the transition/change of one situation as another transition/change is under way. We will also see how ～に応じて・応えてrelate to them. ～につれて: ～につれて is either after a noun or a verb in the 連体形 to express “as one thing changes, another thing changes as well”. These changes are simultaneous. ",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://imabi.org/after-ii/",
+      "status": "retrieved",
+      "sha256": "2f77d1a875ad5951071f161b8efe8bb057871f88a0a04612e55382d78130d4ad",
+      "headings": [
+        "(Ever) Since: ～てからというもの, ～て以来, & ～てこのかた",
+        "～てからというもの（は）",
+        "～て以来",
+        "Interchangeability",
+        "～てこのかた"
+      ],
+      "excerpt": "(Ever) Since: ～てからというもの, ～て以来, & ～てこのかた: In this lesson, we will direct our focus to three fairly nuanced means of expressing “since”: ～てからというもの（は）, ～て以来, and ～てこのかた. ～てからというもの（は）: In the pattern “Situation A + ～てからというもの（は） Situation B,” ever since Situation A has occurred, Situation B remains to be the case. With this pattern, neither Situation A nor Situation B may refer to something that began ",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://imabi.org/whenever-ii-%ef%bd%9e%e5%ba%a6%e3%81%ab-%ef%bd%9e%e9%83%bd%e5%ba%a6%e3%80%80-%ef%bd%9e%e3%81%ab%e3%81%a4%e3%81%91/",
+      "status": "retrieved",
+      "sha256": "9d977b7556530d04097b93a1b958f0af71356d46c02d75e37565d925d5289231",
+      "headings": [
+        "Whenever II: ～度に, ～都度, & ～につけ",
+        "～度に",
+        "～都度",
+        "～につけ"
+      ],
+      "excerpt": "Whenever II: ～度に, ～都度, & ～につけ: This lesson will discuss slightly more advanced phrases that equate to “whenever”. ～度に: ～度（毎）に means “whenever”. 度 is the native word/counter for the number of times, making it common in set phrases such as 度を重ねる (to continue repeat itself). Grammatically speaking, it is after either nouns or the non-past form of a verb. What it follows is either ～都度: The most approp",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://imabi.org/standpoint-%e3%81%a8%e3%81%97%e3%81%a6%ef%bc%88%e3%81%af%ef%bc%89-vs-%e3%81%ab%e3%81%a8%e3%81%a3%e3%81%a6%ef%bc%88%e3%81%af%ef%bc%89/",
+      "status": "retrieved",
+      "sha256": "15336a20a707890be03a2509af69f94a414582ef51d0373b619a8c93eeb3c00c",
+      "headings": [
+        "Standpoint: として（は） VS にとって（は）",
+        "～として（は）",
+        "～にとって",
+        "～として VS ～にとって"
+      ],
+      "excerpt": "Standpoint: として（は） VS にとって（は）: This lesson is about relatively similar speech modals that concern describing standpoint or point of view. Although their English translations cause great confusion to learners, don’t let this beat you. ～として（は）: The first thing that として is most known for is when it shows “qualification/title”. In other words, it functions like the as in “to carry out one’s duty as an",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://imabi.org/through-%e3%82%92%e9%80%9a%e3%81%98%e3%81%a6-%e3%82%92%e9%80%9a%e3%81%97%e3%81%a6/",
+      "status": "retrieved",
+      "sha256": "ea991ab9488fb12d4ca3fcf2e5eee6a97d1cd8e8a2d574cc10c6a4903e240314",
+      "headings": [
+        "Through: を通じて & を通して",
+        "～を通して VS ～を通じて"
+      ],
+      "excerpt": "Through: を通じて & を通して: ～を通して and ～を通じて without context are completely interchangeable. So, getting the small details straight will probably be the hardest thing about this lesson. 漢字 Note : Note that there is also 通 かよ う and 通 とお る. The first is used in the sense ～を通して VS ～を通じて: を通しで and ～通（とお）じて are incorrect. Pronunciation is perhaps the most common mistakes about these. That should be good news.",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://imabi.org/span-%ef%bd%9e%e3%81%ab%e3%81%8b%e3%81%91%e3%81%a6-%e3%81%ab%e3%82%8f%e3%81%9f%e3%81%a3%e3%81%a6/",
+      "status": "retrieved",
+      "sha256": "aea24d79f65428507116870ed5133687720917d45e5e6695e6d35060f5ded63c",
+      "headings": [
+        "Span: ～にかけて & にわたって",
+        "～から～まで VS ～から～にかけて",
+        "The Meanings of わたる",
+        "～にわたって",
+        "Sentence and Word Differences: ～にかけて VS ～にわたって"
+      ],
+      "excerpt": "Span: ～にかけて & にわたって: A common error made by students is not understanding the difference between ～から～まで and ～から～にかけて. Then, if they learn about ～にわたって, this quickly becomes confused with ～にかけて. The nouns that students chose before these expressions are also often very problematic. So, this lesson will delve ～から～まで VS ～から～にかけて: First, let’s discuss the basic information about ～から～にかけて. This is a le",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://imabi.org/negative-patterns/",
+      "status": "retrieved",
+      "sha256": "7df269dbbba024dcde240c26eabb353ce0adf135495cfab38bfb07753b577859",
+      "headings": [
+        "More Negative Patterns: ～ないことには, ～なし・なき, ～なしで（は）, ～なしに（は）, ～なくして（は）, ～ことなく, & 甲斐もなく",
+        "～ないことには(～ない)",
+        "～なし",
+        "甲斐（かい）もなく"
+      ],
+      "excerpt": "More Negative Patterns: ～ないことには, ～なし・なき, ～なしで（は）, ～なしに（は）, ～なくして（は）, ～ことなく, & 甲斐もなく: This lesson will introduce you to more patterns that utilize ～ない or derivations of it. ～ないことには(～ない): AないことにはB means “if…don’t/in not…; unless”. So, if you don’t do A, you get stuck with B. B could be positive or negative depending on the outcome that you wish to express. It can be used with verbs, adjectives, or t",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://imabi.org/exception/",
+      "status": "retrieved",
+      "sha256": "e105c6a462ac4bbb6b92f1fd4be3347626a74e22ae4ad1d496a6e437cc40bbc9",
+      "headings": [
+        "Exception: ～をのぞいて, ～をおいて, & ～ならでは",
+        "～のぞいて",
+        "～をおいて",
+        "～ならでは"
+      ],
+      "excerpt": "Exception: ～をのぞいて, ～をおいて, & ～ならでは: These phrases limit things as exceptions in their own unique ways. ～のぞいて: After a noun phrase of some sort, ～除いて is used to mean “except…” and is often left in ひらがな. It is a general phrase and will differ with the emotive power of the following grammar point ～をおいて. The verb 除く can mean “to remove/exclude”, and ～をおいて: ～をおいて means “apart from”. This phrase is used ",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://imabi.org/cant-help-i/",
+      "status": "retrieved",
+      "sha256": "3be635a4978a1abf4b4c0a900a07b52d7b14d2211b4326b38755f9a5e0af20ca",
+      "headings": [
+        "Can’t Help I: ～ないではいられない",
+        "～ないではいられない"
+      ],
+      "excerpt": "Can’t Help I: ～ないではいられない: Double negative expressions seem to cause confusion for Japanese learners. Especially if these learners come from language backgrounds that include languages where these kind of expressions still yield negative meaning, it’s not surprising that phrases like ～ないではいられない would cause problems. It’s also not helpful that ～ないではいられない: At a basic understanding, ～ないではいられない means “",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://imabi.org/cant-help-ii/",
+      "status": "retrieved",
+      "sha256": "4362260feff6c9c5d8cb6ef6a9e9c00c04ad1ed2a4a4d64d5d0b94a2a9e2db22",
+      "headings": [
+        "Can’t Help II: ～てならない, ～てやまない, ～てしかたがない, ～にたえない, & ～てたまらない",
+        "～てならない",
+        "～てやまない",
+        "～てしかたがない",
+        "～にたえる・～にたえない",
+        "～てたまらない"
+      ],
+      "excerpt": "Can’t Help II: ～てならない, ～てやまない, ～てしかたがない, ～にたえない, & ～てたまらない: This lesson will continue coverage on phrases regarding “not being able to restrain” one’s emotions or feeling. The phrases here with exception to ～にたえない, which is brought up because of ～てこたらない, all use the て form to attach to verbs/adjectives, but be careful about what ～てならない: ～てならない is found primarily in the written language, though thi",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://imabi.org/cant-help-iii/",
+      "status": "retrieved",
+      "sha256": "cb5e609ad6bd7816595f61f209af336629cb9de13461235f4f3519cbbda963cf",
+      "headings": [
+        "Can’t Help III: ～ないではすまない, ～ないではおかない, ～を余儀なく[される・させる], & ～を禁じ得ない",
+        "～｛ないで・ずに｝はすまない",
+        "～｛ないで・ずに｝はおかない",
+        "～を余儀なく[される・させる]",
+        "～を禁じ得ない"
+      ],
+      "excerpt": "Can’t Help III: ～ないではすまない, ～ないではおかない, ～を余儀なく[される・させる], & ～を禁じ得ない: These are even more difficult phrases dealing with not being able to help one’s emotions, etc. Not only do you need to try to separate these in your mind from the phrases found in the two previous lessons about this topic, but you’re going to ～｛ないで・ずに｝はすまない: Also seen as ～ずにはすまない, which is more formal but can still be found used in ",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://imabi.org/difficult-ii-%ef%bd%9e%e3%81%8c%e3%81%9f%e3%81%84-%ef%bd%9e%e3%81%a5%e3%82%89%e3%81%84/",
+      "status": "retrieved",
+      "sha256": "c47953588708bc82c65fbbad248b1067439f8b57f168393db92329a6c70cf84a",
+      "headings": [
+        "Difficult II: ～がたい & ～づらい",
+        "～がたい",
+        "～づらい"
+      ],
+      "excerpt": "Difficult II: ～がたい & ～づらい: In this second installation on how to express difficulty, we will be looking at two additional supplementary adjectival endings which attach to the 連用形 of verbs. These endings are ～がたい and ～づらい. Both are synonymous with ～にくい but have their own specialized nuances. Despite their ～がたい: The ending ～がたい attaches to the 連用形 to a semantically restricted set of verbs to indicat",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://imabi.org/limit/",
+      "status": "retrieved",
+      "sha256": "b904b895078e90092cbd47a9909fe0430d4e0dd888a8d1a4ccb46071ff814263",
+      "headings": [
+        "Limit: ～限り, ～を限りに, ～限りでは, ～に限って, ～に限らない, & ～とは限らない",
+        "限り"
+      ],
+      "excerpt": "Limit: ～限り, ～を限りに, ～限りでは, ～に限って, ～に限らない, & ～とは限らない: 限り is a rather complicated noun. Although it means “limit” and understanding it is no problem for most students, similar looking structures with it cause problems. 限り: ～かぎり shows up in a lot of expressions, but what comes before it must be taken into account. Although particles may be a pain to get used to, you should still love them. The next da",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://imabi.org/addition/",
+      "status": "retrieved",
+      "sha256": "07b2681ec5c68ed4b2798e7f27b24c7498817bf5d527341fc60e40359ba466e0",
+      "headings": [
+        "Addition: ～に加えて, ～にとどまらず, ～もさることながら, ～はおろか, ～はもちろん, ～はもとより, ～ともあれ",
+        "～に加えて",
+        "～にとどまらず",
+        "～もさることながら",
+        "～はもちろん・もとより・おろか",
+        "～ともあれ"
+      ],
+      "excerpt": "Addition: ～に加えて, ～にとどまらず, ～もさることながら, ～はおろか, ～はもちろん, ～はもとより, ～ともあれ: When a speaker feels obligated to mention yet another thing into the mix, that is usually done so with negative connotation, and it is this that will be the theme of this lesson. ～に加えて: The transitive verb 加える roughly translates to “to add,” but it may also be translated as “to count (someone) in,” “to deal (damage),” “or even “to ",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://imabi.org/negative-volition-%ef%bd%9e%e3%81%be%e3%81%84/",
+      "status": "retrieved",
+      "sha256": "4401faf4fd63fdde3adfefd1815bf73879f6e396e545e176dd0bb70800eddca8",
+      "headings": [
+        "Negative Volition: ～まい",
+        "Conjugating with ～まい 「～まい」の接続",
+        "Conjugating ～まい 「～まい」の活用",
+        "Negative Volition 打ち消しの意志",
+        "Negative Supposition 打ち消しの推量",
+        "Prohibition 禁止",
+        "～まいとする",
+        "～でもあるまい & ～こともあるまい",
+        "～まいか",
+        "～のではあるまい（か）",
+        "～あろうことかあるまいことか",
+        "～まじき"
+      ],
+      "excerpt": "Negative Volition: ～まい: The auxiliary verb まい is best known as the negative volitional auxiliary. In Modern Japanese, it functions as the opposite of the volitional auxiliary ～（よ）う, but historically it is the antonym of ～べし (=～べきだ). Although its use in the spoken language has diminished quite a Conjugating with ～まい 「～まい」の接続: In prescriptive Standard Japanese, the auxiliary verb ～まい follows the 未然形",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://imabi.org/%ef%bd%9e%ef%bc%88%e3%82%88%ef%bc%89%e3%81%86%e3%81%ab%e3%82%82-%ef%bd%9e%ef%bc%88%e3%82%88%ef%bc%89%e3%81%86%e3%82%82%e3%81%ae%e3%81%aa%e3%82%89/",
+      "status": "retrieved",
+      "sha256": "37fd62b7e6e036e192694f66ad7eae4bfe9691251fc904afd49626abf47ad03f",
+      "headings": [
+        "～（よ）うにも & ～（よ）うものなら",
+        "～（よ）うにも",
+        "～にも～ない",
+        "～（よ）うものなら",
+        "～ものなら"
+      ],
+      "excerpt": "～（よ）うにも & ～（よ）うものなら: In past lessons, we have learned about the auxiliary ～（よ）う and how it is used to mark volition, supposition, and with both properties implicated when followed by the conjunctive particles が・と（も）. Incidentally, there are other patterns which utilize the auxiliary ～（よ）う in conditionals, each with ～（よ）うにも: The contrastive conditional relationship established by ～（よ）うにも is: Becaus",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://imabi.org/as-soon-as/",
+      "status": "retrieved",
+      "sha256": "50f1cee8c580bbb67e2b77c7b79f5f6c6c519e0387de5372f135b9e6bd6ffee2",
+      "headings": [
+        "As soon as: ～や(いなや), ～なり, ～途端（に）, ～かと思うと, & ～次第",
+        "～や否や & ～や",
+        "The Conjunctive Particle なり",
+        "～途端（に）",
+        "～かと思うと",
+        "～次第"
+      ],
+      "excerpt": "As soon as: ～や(いなや), ～なり, ～途端（に）, ～かと思うと, & ～次第: Though “as” itself is hard enough in Japanese, Japanese also has a lot of expressions that mean “as soon as”. This lesson will investigate how to use these expressions. Take close attention to what defines them as there are differences! ～や否や & ～や: Placed after the 終止形 しゅうしけい of a verb in ～や or ～や 否 いな や, it means “as soon as”. With 否や, it is like th",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://imabi.org/circumstance/",
+      "status": "retrieved",
+      "sha256": "dcaaaff8953b97581c7d98cd085b9d1ee0e8a49ba5d286faa882478bc9c94c0f",
+      "headings": [
+        "まま",
+        "思いきや",
+        "もと"
+      ],
+      "excerpt": "まま: “ As is “, with verbs it is primarily seen in the pattern ～たまま(で). It is used to show action “as is” in a certain state without any change in course or situation. However, it is not necessarily the case that the subject in question 思いきや: ～と思いきや is equivalent to either “despite having thought” or “contrary to expectations”. Its literal translation is “just as I thought…”. Tense is determined by",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://imabi.org/result/",
+      "status": "retrieved",
+      "sha256": "9d9c414d1a00ec25cab82a544c82f4a8bf9c24b69bd1e2329da2c17063926793",
+      "headings": [
+        "Result: ～結果, ～うえで, ～挙句, ～すえに, & ～始末だ",
+        "～結果",
+        "～うえで",
+        "～挙句",
+        "～すえに",
+        "～始末だ"
+      ],
+      "excerpt": "Result: ～結果, ～うえで, ～挙句, ～すえに, & ～始末だ: Though these patterns show result, they have their own special nuances. So, even when there is interchangeability, that doesn’t mean you are saying 100% the same thing. ～結果: ～結果 utilizes the word for “result”. It is seen after nouns or the past tense of verbs. What follows is a result and what precedes is a cause. Whether it is in one sentence or two, this is ",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://imabi.org/disregard-i/",
+      "status": "retrieved",
+      "sha256": "af1f62361bd40f467c46a4029b8066d586d770b71956472970978e96a25d687d",
+      "headings": [
+        "Disregard I: にもかかわらず, にかかわらず, & を問わず",
+        "にもかかわらず",
+        "にかかわらず",
+        "を問わず"
+      ],
+      "excerpt": "Disregard I: にもかかわらず, にかかわらず, & を問わず: In this lesson, we will begin coverage on phrases that all translate as “despite” and “regardless.” However, they each have their own nuances and restrictions. They are testaments to synonyms not being the same. Pay close attention to the kinds of words that these phrases にもかかわらず: The phrase にもかかわらず derives from the verb 関（わ）る・拘（わ）る. The first spelling indicat",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://imabi.org/disregard-ii/",
+      "status": "retrieved",
+      "sha256": "3b237a17754b7d6a04a1c81142646850333bbb4c21984791b6f0dc6fb1b5c824",
+      "headings": [
+        "Disregard II: によらず & （の）いかん｛にかかわらず・を問わず・によらず｝",
+        "～によらず",
+        "～によらない",
+        "～（の）いかん｛にかかわらず・を問わず・によらず｝",
+        "～（の）いかんにかかわらず",
+        "～（の）いかんを問わず",
+        "～（の）いかんによらず"
+      ],
+      "excerpt": "Disregard II: によらず & （の）いかん｛にかかわらず・を問わず・によらず｝: This lesson continues on the topic of expressions that translate as “regardless of/irrespective of.” ～によらず: ～によらず is inherently the negative form of ～によって, which is used most often to mark an agent or cause—“by” which/whom something is done, or to show means. As ～によらず, it may either show that something is “not by…” or that “X” isn’t concerned with the",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://imabi.org/disregard-iii/",
+      "status": "retrieved",
+      "sha256": "ac3af505227425bf7b58fdc8741e49801a9d8e74c4af42cd62d5ec3979815e5d",
+      "headings": [
+        "Disregard III: をものともせず（に）, ｛を・も｝顧みず（に）, & を押して・押し切って",
+        "～をものともせず（に）",
+        "～｛を・も｝顧みず（に）",
+        "～を押して・押し切って"
+      ],
+      "excerpt": "Disregard III: をものともせず（に）, ｛を・も｝顧みず（に）, & を押して・押し切って: This lesson revolves around expressions regarding “disregard” in the sense of not heeding adversity, risk, danger, or any negative influences and/or consequences to the speaker. ～をものともせず（に）: ～をものともせず（に） follows a noun for which the subject at hand faces some adversity to state that the subject doesn’t fear or even put to mind that adversity in ",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://imabi.org/disregard-iv/",
+      "status": "retrieved",
+      "sha256": "9c0fa1698cbf9f3461002019a598e9b6780f8abebb086657a65b38736518cc21",
+      "headings": [
+        "Disregard IV: ｛に・も｝構わず, をよそに, & にもめげず（に）",
+        "｛に・も｝かまわず",
+        "～をよそに",
+        "にもめげず（に）"
+      ],
+      "excerpt": "Disregard IV: ｛に・も｝構わず, をよそに, & にもめげず（に）: In this fourth and final installation of expressions concerning disregard, we will cover expressions that revolve around the subject not caring about “X” when doing “Y.” ｛に・も｝かまわず: The verb 構う means “to mind/be concerned with.” Typically, it is used as an intransitive verb, which is why it takes に in most of the following examples. In the expression ｛に・も｝構",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://imabi.org/occasion/",
+      "status": "retrieved",
+      "sha256": "3ebdfca236f26230f434d670dbf78b9d2492b31f4ab644634218c5bf0aa57434",
+      "headings": [
+        "Occasion: ～うえで, ～際に, ～折に, ～際して, ～に当たって, ～に先立って, ～を前に（して）, ～を控えて, ～に臨んで, & ～に面して",
+        "～（の）うえで",
+        "～（の）際に",
+        "～に際して",
+        "～に当たって",
+        "～に先立って",
+        "～を前に（して） & ～を控えて",
+        "～に臨んで & ～に面して"
+      ],
+      "excerpt": "Occasion: ～うえで, ～際に, ～折に, ～際して, ～に当たって, ～に先立って, ～を前に（して）, ～を控えて, ～に臨んで, & ～に面して: There are several phrases in Japanese that relate to “on the occasion of”, but never are so many phrases in Japanese completely interchangeable. They do look similar. Writing style and nuances aid in distinguishing them. Don’t worry, though. Even if you get a lot of ～（の）うえで: ～（の）うえで attaches to the 連体形 of verbs or to ",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://imabi.org/worth-and-extent/",
+      "status": "retrieved",
+      "sha256": "9a8ced02f4ebf31c4fcb67e87274d2e42e5cd42d30cc8d81290cfeea71f8ce0b",
+      "headings": [
+        "～に足る・足りる",
+        "～に依存",
+        "～に値する",
+        "～に及ぶ"
+      ],
+      "excerpt": "～に足る・足りる: 足る and 足りる are essentially the same word. Historically, only the former existed, and the latter has only existed since around the Edo Period. Though not much time historically has passed since the Edo Period, the latter form has largely replaced the former. These two ～に依存: 依存 means “dependence” and is used with に as a verb to mean “to depend on”. Its most correct reading is いそん. However,",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://imabi.org/advanced-%ef%bd%9e%e3%81%b9%e3%81%8d-phrases%ef%bd%9e%e3%81%b9%e3%81%8f%e3%82%82%e3%81%aa%e3%81%84-%ef%bd%9e%e3%81%b9%e3%81%8b%e3%82%89%e3%81%9a%e3%83%bb%e3%81%96%e3%82%8b-%ef%bd%9e%e3%81%b9/",
+      "status": "retrieved",
+      "sha256": "87695a16e151a7f2c41fbd48c607628e06f8f4d06f4360ae24f74f10976e01be",
+      "headings": [
+        "Phrases Made w/ the Bases of ～べきだ: ～べくもない, ～べからず・ざる, ～べく, ～べくして, & ～べし",
+        "The Extant Bases of ～べし",
+        "～べからず・べからざる",
+        "～べくもない",
+        "～べく",
+        "～べくして",
+        "～べし",
+        "～ざるべし"
+      ],
+      "excerpt": "Phrases Made w/ the Bases of ～べきだ: ～べくもない, ～べからず・ざる, ～べく, ～べくして, & ～べし: Back in our first lesson on ～べきだ, we learned how it is an auxiliary verb pertaining to “obligation” but that its scope of use has been diminished substantially in Modern Japanese. Nonetheless, the auxiliary still holds on, with most of its bases still functional despite The Extant Bases of ～べし: The auxiliary “verb/adjective” ～",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://imabi.org/incidental/",
+      "status": "retrieved",
+      "sha256": "96aee6a27acaa72b03b08ffe1a3030abf7d4cdca8d3db831a7a572190dd2b0ca",
+      "headings": [
+        "Incidental: がてら, かたがた, かたわら, & ついで",
+        "がてら",
+        "かたがた",
+        "かたわら",
+        "ついで"
+      ],
+      "excerpt": "Incidental: がてら, かたがた, かたわら, & ついで: All of these items have a common theme, but don’t let this confuse you! Pay attention to how these items are exactly used, and see if you can come up with a chart to differentiate them. Then, compare your chart to the one that ends がてら: ～がてら either attaches to the 連用形 of a verb or to a noun. ～がてら shows that while you’re doing something, you’re also taking the op",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://imabi.org/simultaneous-action-ii-the-particle-%e3%81%a4%e3%81%a4-vs-%e3%81%aa%e3%81%8c%e3%82%89/",
+      "status": "retrieved",
+      "sha256": "355c45fee7595c338349c9e652b102b178d6f6ba28568cbc5a887de2c0bb8fda",
+      "headings": [
+        "Simultaneous Action II: The Particle つつ (VS ながら)",
+        "The Conjunctive Particle つつ",
+        "つつある"
+      ],
+      "excerpt": "Simultaneous Action II: The Particle つつ (VS ながら): つつ is a somewhat old-fashioned particle that has less function in this generation, but it is still very important as it lives strong in literature. In this lesson, we will investigate how to use this particle correctly and know exactly when it is appropriate and The Conjunctive Particle つつ: Like most conjunctive particles in Japanese, the particle ",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    },
+    {
+      "url": "https://imabi.org/tendency/",
+      "status": "retrieved",
+      "sha256": "c2cef46ff166bfd835ba61f9efea8e4bac6de8f6250635d67046eb574ff5cf79",
+      "headings": [
+        "Tendency: 嫌いがある, が早いか, が最後, & そばから",
+        "嫌いがある",
+        "が早いか",
+        "～が最後",
+        "そばから"
+      ],
+      "excerpt": "Tendency: 嫌いがある, が早いか, が最後, & そばから: In this lesson we will learn about speech modals concerning tendency. 嫌いがある: 嫌い means “to hate”–it is treated as a 形容動詞 instead of as a verb in Japanese–and is followed by がある to show what someone or something has a tendency of doing . As the word suggests, this is not a good tendency. This tendency has が早いか: が早いか is best translated as “the instant”. Basically t",
+      "scope": "Definition excerpt only; no availability-only lesson approval."
+    }
+  ],
+  "scope": "Source metadata and short evidence; the record-level report separately establishes exact rule/example review. Excerpts are at most 180 space-delimited words and 400 characters per URL."
+}

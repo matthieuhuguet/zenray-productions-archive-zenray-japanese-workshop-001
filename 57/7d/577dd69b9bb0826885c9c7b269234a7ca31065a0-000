@@ -134,14 +134,14 @@
     "ずにはいられない : un élan impossible à retenir",
     "N2",
     "emotion",
-    "Base négative + ずにはいられない décrit une impulsion qu’on ne parvient pas à retenir. する → せずにはいられない. La variante ないではいられない est possible.",
+    "Base négative + ずにはいられない décrit une impulsion qu’on ne parvient pas à retenir malgré une tentative ou une possibilité de retenue. する → せずにはいられない. La variante ないではいられない est possible. Ne pas en faire une substitution automatique pour toute réaction physiologique involontaire.",
     "Différencier l’élan intérieur d’une obligation imposée en なければならない.",
     291,
     [
       [
-        "その話を聞いて、笑わずにはいられませんでした。",
-        "そのはなしをきいて、わらわずにはいられませんでした。",
-        "En entendant cette histoire, je n’ai pas pu m’empêcher de rire."
+        "笑ってはいけないと思っても、その冗談を聞くと、笑わずにはいられません。",
+        "わらってはいけないとおもっても、そのじょうだんをきくと、わらわずにはいられません。",
+        "Même si je me dis que je ne dois pas rire, je ne peux pas m’en empêcher quand j’entends cette plaisanterie."
       ],
       [
         "彼のことが心配で、電話せずにはいられませんでした。",
@@ -149,9 +149,9 @@
         "J’étais inquiet pour lui et n’ai pas pu m’empêcher d’appeler."
       ],
       [
-        "この写真を見ると、昔を思い出さずにはいられません。",
-        "このしゃしんをみると、むかしをおもいださずにはいられません。",
-        "Quand je vois cette photographie, je ne peux m’empêcher de penser au passé."
+        "その場所に行くと、昔のことを話さずにはいられません。",
+        "そのばしょにいくと、むかしのことをはなさずにはいられません。",
+        "Quand je vais à cet endroit, je ne peux pas m’empêcher de parler du passé."
       ]
     ]
   ],

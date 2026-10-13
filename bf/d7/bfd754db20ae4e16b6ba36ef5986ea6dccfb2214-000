@@ -1,0 +1,12 @@
+[ {
+  "description": "node.js instance",
+  "devtoolsFrontendUrl": "devtools://devtools/bundled/js_app.html?experiments=true&v8only=true&ws=127.0.0.1:9229/18154bb6-5574-4583-b706-40e6d18202d6",
+  "devtoolsFrontendUrlCompat": "devtools://devtools/bundled/inspector.html?experiments=true&v8only=true&ws=127.0.0.1:9229/18154bb6-5574-4583-b706-40e6d18202d6",
+  "faviconUrl": "https://nodejs.org/static/images/favicons/favicon.ico",
+  "id": "18154bb6-5574-4583-b706-40e6d18202d6",
+  "title": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/Scripts/TraceAssetsBridge.mjs",
+  "type": "node",
+  "url": "file:///Users/zenray/.claude/tmp/tmp-zenray-japanese/Scripts/TraceAssetsBridge.mjs",
+  "webSocketDebuggerUrl": "ws://127.0.0.1:9229/18154bb6-5574-4583-b706-40e6d18202d6"
+} ]
+

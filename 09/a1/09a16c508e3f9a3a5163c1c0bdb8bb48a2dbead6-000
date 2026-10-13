@@ -1,0 +1,29 @@
+# Assets bridge isolation, 13 October 2026
+
+La cause exacte du blocage du service réel n’est pas encore démontrée. La couche HTTP isolée répond correctement avec le code réel. Aucune modification du serveur global ni de l’état Assets réel n’est effectuée. (13 October 2026)
+
+## Symptôme et frontière, 13 October 2026
+
+Le parent constate parfois GET /api/assets-workspace = 405 mais POST status et POST invalid-probe expirent après cinq secondes. Le daemon est arrêté pendant l’archive hors ligne ; la lecture des processus trouve ArchiveProject.mjs PID 19123, qui reste intact. (13 October 2026)
+
+Le routage local-server.mjs transmet /api/assets-workspace directement à handleHttp avant le pré-parsage des autres API. handleHttp lit req.body s’il existe, sinon les octets par for-await, puis appelle request(). GET s’arrête avant la lecture du corps et request(). (13 October 2026)
+
+request('invalid-probe') ne consulte ni l’inventaire, ni une file d’écriture, ni les miroirs : il atteint immédiatement Unsupported Assets workspace action. Un blocage limité au calcul de status ne suffit donc pas à expliquer ce second POST. (13 October 2026)
+
+## Expérience isolée, 13 October 2026
+
+Le script /Users/zenray/.claude/tmp/tmp-zenray-japanese/Scripts/ProbeAssetsBridge.mjs importe la classe sans l’initialiser, crée un objet par Object.create(AssetsService.prototype), utilise une configuration miniature et la véritable méthode handleHttp avec la véritable request() pour status et l’action inconnue. Un snapshot factice rend seulement un identifiant et une liste vide. Aucun service réel, aucun token imprimé, aucun accès au navigateur, aucune écriture d’état Assets. (13 October 2026)
+
+Trois modes utilisent un serveur loopback sur un port éphémère : corps brut avec observation des chunks ; corps brut sans listener data supplémentaire ; corps pré-parsé. Les requêtes POST sont fragmentées en deux écritures et envoyées par le client HTTP Node. Le mode sans observation conserve le comportement de consommation original. (13 October 2026)
+
+81 requêtes attendues passent, 27 par mode, dont GET405, POST inconnu400, POST status200 et corps sans action400. Temps maximum : brut observé 6,60 ms ; brut sans observation 1,40 ms ; pré-parsé 0,87 ms, sous Node v26.9.0. Rapport complet : /Users/zenray/.claude/tmp/tmp-zenray-japanese/review/BridgeHttpProbe.json. (13 October 2026)
+
+Trois contrôles rouges volontaires suspendent request('fixture-pending') : ce POST expire à 1500 ms dans chaque mode, tandis que GET405 et POST inconnu400 continuent de répondre. Le vérificateur détecte donc un handler bloqué et ne confond pas sa réponse 405 voisine avec la santé du POST. (13 October 2026)
+
+## Ce qui est tranché et ce qui manque, 13 October 2026
+
+Le lecteur for-await et le corps pré-parsé fonctionnent tous deux dans l’expérience. Aucun changement de parser n’est justifié par ces résultats. Une attente propre au handler status est exclue comme explication unique du POST invalid-probe. Une saturation globale ou une requête réelle dont le corps n’arrive pas à son terme ne sont ni prouvées ni exclues par ce serveur miniature. (13 October 2026)
+
+La trace déterminante exige, après la fin de l’archive et avec l’autorisation du parent de reprendre le service, de relever pour une requête réelle uniquement : réception méthode/route, fin de corps, entrée/sortie request(), fin de réponse, et retard d’une minuterie indépendante. Ne jamais journaliser corps, en-têtes, données de projet ou secrets. Si invalid-probe termine le corps et entre dans request() sans retour immédiat, relever la pile ; si tous les ticks ralentissent, relever la pile du processus et l’activité de fond ; si le corps ne se termine pas alors que les ticks restent rapides, capturer uniquement taille annoncée/reçue et état aborted/readableEnded. (13 October 2026)
+
+L’import isolé ne reproduit pas conversationMirror.start(), conversationIndexSync.start(), feedbackCapture ni startWatching(). Le diagnostic des activités de fond reste donc ouvert et ne doit pas être annoncé résolu. (13 October 2026)

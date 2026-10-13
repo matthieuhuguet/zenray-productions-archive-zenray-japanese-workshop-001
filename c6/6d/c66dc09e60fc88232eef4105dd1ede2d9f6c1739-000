@@ -1,0 +1,16 @@
+#!/usr/bin/env python3
+# 13 October 2026, 09:24 CEST: retained draft files must visibly disclose their blocked status.
+import json
+from pathlib import Path
+root = Path(__file__).resolve().parents[1]
+notice = '> Brouillon pédagogique bloqué : revue adversariale requise. Ne pas utiliser comme leçon validée. (13 October 2026)\n\n'
+index = json.loads((root / 'lessons/Index.json').read_text())
+approved_paths = {item['file'] for item in index.get('lessons', []) if item.get('usable') and item.get('reviewStatus') == 'approved'}
+count = 0
+for lesson in sorted((root / 'lessons/prepared').glob('*.md')):
+    if str(lesson) in approved_paths: continue
+    content = lesson.read_text()
+    if not content.startswith(notice):
+        lesson.write_text(notice + content)
+    count += 1
+print(json.dumps({'draftsMarked': count, 'date': '13 October 2026'}))

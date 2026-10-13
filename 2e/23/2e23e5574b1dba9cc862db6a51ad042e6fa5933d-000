@@ -1,0 +1,71 @@
+// 13 October 2026, 00:00 CEST: isolate the real HTTP method without starting or writing real Assets state.
+import http from 'node:http'
+import assert from 'node:assert/strict'
+import { performance } from 'node:perf_hooks'
+import { writeFile } from 'node:fs/promises'
+import { AssetsService } from '/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/scripts/AssetsService.mjs'
+const settings = { iterations: 8, timeoutMs: 1500, bodyLimitBytes: 1024 }
+const results = []
+const service = Object.create(AssetsService.prototype)
+service.config = { schemaVersion: 2, bridge: { bodyLimitBytes: settings.bodyLimitBytes, allowedOrigins: [] } }
+service.projects = new Map()
+service.events = []
+service.snapshot = () => ({ id: 'fixture', files: [] })
+const originalRequest = AssetsService.prototype.request
+let pendingRelease
+service.request = async function (action, payload) {
+  if (action === 'fixture-pending') return await new Promise(resolve => { pendingRelease = resolve })
+  return originalRequest.call(this, action, payload)
+}
+for (const mode of ['raw', 'raw-unobserved', 'preparsed']) {
+  const trace = []
+  const server = http.createServer(async (req, res) => {
+    const record = { method: req.method, stage: 'received', chunks: 0, bytes: 0 }
+    trace.push(record)
+    if (mode !== 'raw-unobserved') req.on('data', chunk => { record.chunks++; record.bytes += chunk.length })
+    req.on('end', () => { record.stage = 'body-ended' })
+    res.on('finish', () => { record.stage = 'response-finished' })
+    if (mode === 'preparsed' && req.method === 'POST') {
+      const chunks = []; for await (const chunk of req) chunks.push(chunk)
+      try { req.body = JSON.parse(Buffer.concat(chunks).toString()) } catch {}
+    }
+    await service.handleHttp(req, res)
+  })
+  await new Promise(resolve => server.listen(0, '127.0.0.1', resolve))
+  const address = server.address()
+  async function probe(method, text = '', expected, label = method) {
+    const start = performance.now()
+    const result = await new Promise(resolve => {
+      const headers = { 'content-type': 'application/json', 'x-zr-assets-client': '2' }
+      if (process.env.ZENRAY_API_SECRET) headers['x-zr-auth'] = process.env.ZENRAY_API_SECRET
+      const req = http.request({ host: '127.0.0.1', port: address.port, path: '/api/assets-workspace', method, headers }, res => {
+        const chunks = []; res.on('data', c => chunks.push(c)); res.on('end', () => resolve({ code: res.statusCode, body: JSON.parse(Buffer.concat(chunks).toString()) }))
+      })
+      req.on('error', () => resolve({ code: 'timeout-or-abort' }))
+      req.setTimeout(settings.timeoutMs, () => req.destroy())
+      if (text) { const midpoint = Math.ceil(text.length / 2); req.write(text.slice(0, midpoint)); req.end(text.slice(midpoint)) } else req.end()
+    })
+    const elapsedMs = Math.round((performance.now() - start) * 100) / 100
+    if (expected !== undefined) assert.equal(result.code, expected, `${mode}/${label}`)
+    results.push({ mode, label, code: result.code, elapsedMs, bodyCode: result.body?.code || null })
+    return result
+  }
+  for (let i = 0; i < settings.iterations; i++) {
+    await probe('GET', '', 405, 'method-refused')
+    await probe('POST', JSON.stringify({ action: 'invalid-probe' }), 400, 'unsupported-action')
+    await probe('POST', JSON.stringify({ action: 'status', projectId: 'fixture' }), 200, 'status-tiny-fixture')
+  }
+  await probe('POST', '{}', 400, 'action-required')
+  const pending = probe('POST', JSON.stringify({ action: 'fixture-pending' }), 'timeout-or-abort', 'deliberately-blocked-request')
+  while (!pendingRelease) await new Promise(resolve => setImmediate(resolve))
+  await probe('GET', '', 405, 'get-during-blocked-handler')
+  await probe('POST', JSON.stringify({ action: 'invalid-probe' }), 400, 'invalid-during-blocked-handler')
+  await pending
+  pendingRelease({ released: true }); pendingRelease = undefined
+  server.closeAllConnections()
+  await new Promise(resolve => server.close(resolve))
+  results.push({ mode, trace })
+}
+const report = { checkedAt: '13 October 2026', nodeVersion: process.version, settings, actualMethod: 'AssetsService.prototype.handleHttp', noRealServiceCreated: true, noRealAssetsStateWritten: true, results }
+await writeFile('/Users/zenray/.claude/tmp/tmp-zenray-japanese/review/BridgeHttpProbe.json', JSON.stringify(report, null, 2) + '\n')
+console.log(JSON.stringify({ nodeVersion: process.version, actualMethod: report.actualMethod, requestResults: results.filter(x => x.code !== undefined) }))

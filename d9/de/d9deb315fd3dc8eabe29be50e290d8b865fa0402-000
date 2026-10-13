@@ -1,0 +1,3553 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "13 October 2026",
+  "reviewerId": "/root/language_review_b",
+  "reviewType": "independent-adversarial-model-review",
+  "complete": true,
+  "scope": "All 163 curated language records and all 378 original examples read; rules, readings, French meanings, register and source alignment challenged. Imported community dictionaries and Tatoeba pairs are outside this approval scope.",
+  "humanNativeReview": false,
+  "sourceFetchAudit": "SecondReviewSourceFetch.json",
+  "limitations": [
+    "Approval means no issue found by this independent model review; it cannot certify universal linguistic infallibility.",
+    "Unresolved findings block lessons; repaired versions must be reviewed again because content hashes change.",
+    "Primary curriculum authors are used as primary pedagogical sources; their translations are not presumed infallible."
+  ],
+  "records": [
+    {
+      "id": "grammar-copula",
+      "verdict": "approved",
+      "reviewedContentHash": "dc0d15a7a2829cb0441af74948c250fe031472eed7f9905f7e984ea17fb19e55",
+      "evidenceUrls": [
+        "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/001.html"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 1,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "grammar-topic",
+      "verdict": "approved",
+      "reviewedContentHash": "db0db8f98c94e6d053aa7bf49c0911e557f2dc645a88509bff56503334bbaebc",
+      "evidenceUrls": [
+        "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/002.html"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 1,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "grammar-existence",
+      "verdict": "approved",
+      "reviewedContentHash": "be2fd1a1330e81fbbb5d0449e4d902db63b72f4509b1e85795f24f9c56db99ab",
+      "evidenceUrls": [
+        "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/005.html"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 1,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "grammar-counters",
+      "verdict": "approved",
+      "reviewedContentHash": "37aaec38d15f50fdab411e56dc0ed79f5cb01343cecc43715ec5c4340805edc0",
+      "evidenceUrls": [
+        "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/017.html"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 1,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "grammar-polite-nonpast",
+      "verdict": "approved",
+      "reviewedContentHash": "5df482bde6ca662cb94c5e191827184ac5a249b97289cfd690e18beb2e975c61",
+      "evidenceUrls": [
+        "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/023.html"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 1,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "grammar-i-adjectives",
+      "verdict": "approved",
+      "reviewedContentHash": "46ea4d3f30c2537ec714d487f5ac62ba0db25bdbd74f47cf5423e2d7830edae8",
+      "evidenceUrls": [
+        "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/030.html"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 1,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "grammar-verb-groups",
+      "verdict": "approved",
+      "reviewedContentHash": "3bfd0b6598ce6feb0f2f9795aaf3038907a73b315e97fd26cd4fa742f5db7005",
+      "evidenceUrls": [
+        "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/039.html"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 1,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "grammar-te-form",
+      "verdict": "approved",
+      "reviewedContentHash": "30dc1c67063953930a5b5c60d70cdcb54dd6d380eb050add75cad7a0976131ea",
+      "evidenceUrls": [
+        "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/043.html",
+        "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/038.html"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 1,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "grammar-progressive",
+      "verdict": "approved",
+      "reviewedContentHash": "b773dd89bb8ddea0e86bbc04602fe137245f6448c2bc6e74b2303cf8bacfa498",
+      "evidenceUrls": [
+        "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/044.html"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 1,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "grammar-result-state",
+      "verdict": "approved",
+      "reviewedContentHash": "542803ef67ff373ab7e9d185e56928036817c166d2ea84139524a91a9d118bc9",
+      "evidenceUrls": [
+        "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/045.html"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 1,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "grammar-prepared-state",
+      "verdict": "approved",
+      "reviewedContentHash": "9107eb8753cb20fdd4fff33d74e5e14cf5c2119bf332e923c08d48c82635b5bc",
+      "evidenceUrls": [
+        "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/046.html"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 1,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "grammar-case-particles",
+      "verdict": "approved",
+      "reviewedContentHash": "ed8d4dd375bbad908d87411c8a5061b5be3313e2ebf661c5fa2b42896b250c86",
+      "evidenceUrls": [
+        "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/053.html"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 1,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "grammar-permission",
+      "verdict": "approved",
+      "reviewedContentHash": "2d9ec1b7476ac95d7fcc7d7a40237319fed2741373b1cf8387965c83dd4ca8d3",
+      "evidenceUrls": [
+        "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/058.html"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 1,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "grammar-prohibition",
+      "verdict": "approved",
+      "reviewedContentHash": "80470c8d182518079ddc1f4b82315b6b11c17b9e0be72bda33d535d7f4635cf3",
+      "evidenceUrls": [
+        "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/059.html"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 1,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "grammar-negative-request",
+      "verdict": "approved",
+      "reviewedContentHash": "5bb44bc38a61cefe0b3ad83cfa674b3eb1d9d0c956c652ab18586ea8ffd7ab04",
+      "evidenceUrls": [
+        "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/060.html"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 1,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "grammar-volitional",
+      "verdict": "approved",
+      "reviewedContentHash": "b0d4a644313b17adae7105f8cda22f6447478a1f5585793534b54c24c9413853",
+      "evidenceUrls": [
+        "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/065.html"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 1,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "grammar-desire",
+      "verdict": "approved",
+      "reviewedContentHash": "15ad5e2855bb92839a5b9a0a6c4ba3874a3be1ed054b71f2095517586126aa7a",
+      "evidenceUrls": [
+        "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/067.html"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 1,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "grammar-potential",
+      "verdict": "approved",
+      "reviewedContentHash": "07f2eea53e95f120b34e3a9958e832328a731082466507a2bf8462eabce3552b",
+      "evidenceUrls": [
+        "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/074.html",
+        "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/053.html"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 1,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "grammar-relative-clause",
+      "verdict": "approved",
+      "reviewedContentHash": "f8407d34e435c8a0e5c1ac9a1cfe565a1d39cef1169f5477300581637c6a676f",
+      "evidenceUrls": [
+        "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/079.html"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 1,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "grammar-nominalization",
+      "verdict": "approved",
+      "reviewedContentHash": "a850d8713130f748768a580380cce7d8affc84d9b174250b50c7585d644d4c3e",
+      "evidenceUrls": [
+        "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/080.html"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 1,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "grammar-cause",
+      "verdict": "approved",
+      "reviewedContentHash": "4551042ee88e29ee71b9e7047de1d1cdea6d76bca7ee28c0dbb95678430e6002",
+      "evidenceUrls": [
+        "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/081.html"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 1,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "grammar-concession-noni",
+      "verdict": "approved",
+      "reviewedContentHash": "97ebf957be256d6183dd9078d4a77fec6a526aa184061305df17127a395ee0b8",
+      "evidenceUrls": [
+        "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/082.html"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 1,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "grammar-condition-to",
+      "verdict": "approved",
+      "reviewedContentHash": "c98d6f7a51676c430ff7e1028eb8db39a8bf672ab2711d918767b02c725882b6",
+      "evidenceUrls": [
+        "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/083.html"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 1,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "grammar-condition-tara",
+      "verdict": "approved",
+      "reviewedContentHash": "d2aa5b468fddca4393e164459fa1bc47aa81c4be82496c3a544f8852d8f64f4a",
+      "evidenceUrls": [
+        "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/083.html"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 1,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "grammar-condition-ba",
+      "verdict": "approved",
+      "reviewedContentHash": "fe9f72df5f4f7830e16c6cd7b771767ed6c861d14dd0a35f9fb78caa4fae00cc",
+      "evidenceUrls": [
+        "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/083.html"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 1,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "grammar-condition-nara",
+      "verdict": "approved",
+      "reviewedContentHash": "48c72318f67ae1b15cfefd935309ad2ba964ec415d1c60613a6494ee4df1027d",
+      "evidenceUrls": [
+        "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/083.html"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 1,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "grammar-concessive-temo",
+      "verdict": "approved",
+      "reviewedContentHash": "f0fe36fe0fb59a3aa963ee8a631df41ea9c1f06478ddb9204324591d5773185c",
+      "evidenceUrls": [
+        "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/084.html"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 1,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "grammar-giving",
+      "verdict": "approved",
+      "reviewedContentHash": "5999e5ec8e85b28cb8d3ed5d7d3687c5b11e0f75008a4b5157025b7ff7b4dec9",
+      "evidenceUrls": [
+        "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/085.html"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 1,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "grammar-benefactive",
+      "verdict": "approved",
+      "reviewedContentHash": "97789216cbca8d6133013cecc0824b63017c06c1adc57cce7ff38023a0b06b6d",
+      "evidenceUrls": [
+        "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/086.html"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 1,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "grammar-direction-change",
+      "verdict": "approved",
+      "reviewedContentHash": "338c34a744beacff587c629b9e01d37be2685dccf1965fd7399b9b602c56ac8d",
+      "evidenceUrls": [
+        "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/087.html"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 1,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "grammar-preparation",
+      "verdict": "approved",
+      "reviewedContentHash": "e138b4314b3e75733760bd972f812e1f8d1a51c4f4fe0b458fa1c41e9062fb44",
+      "evidenceUrls": [
+        "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/088.html"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 1,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "grammar-trying",
+      "verdict": "approved",
+      "reviewedContentHash": "5d7896d2d673247cbb2bc5ad4fd3c0bcf2a00b4149e515c44d09073f22f59a84",
+      "evidenceUrls": [
+        "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/088.html"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 1,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "grammar-only",
+      "verdict": "approved",
+      "reviewedContentHash": "a7bdda7b649b3e1d3bc5e8d4f8efd3c02fd83bbcb2d83f01f5cfa07e3e24dc40",
+      "evidenceUrls": [
+        "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/095.html"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 1,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "grammar-final-particles",
+      "verdict": "approved",
+      "reviewedContentHash": "c03ba5ca5932f81df0471801991e68d9ddae91adb1fb132c673c608ded7ea1c5",
+      "evidenceUrls": [
+        "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/096.html"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 1,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "grammar-honorific",
+      "verdict": "approved",
+      "reviewedContentHash": "8bd2f2d446be86815de4bc6aa9b4e8305deff83e315535516d7306fd7bdf7100",
+      "evidenceUrls": [
+        "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/092.html"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 1,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "grammar-wake",
+      "verdict": "approved",
+      "reviewedContentHash": "35aae2134bc4cfb33cbeae46623da31ff3dce23b8d5df93cfc9729b7a1696c84",
+      "evidenceUrls": [
+        "https://imabi.org/%E3%82%8F%E3%81%91%E3%81%A0/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 1,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "grammar-wari",
+      "verdict": "approved",
+      "reviewedContentHash": "9a4bdeeb268e32d7a8327fd2921a437ee3529119f1aaa354430ae6802344a84d",
+      "evidenceUrls": [
+        "https://imabi.org/considering-%E3%82%8F%E3%82%8A%E3%81%AB%EF%BC%88%E3%81%AF%EF%BC%89-%E3%81%AB%E3%81%97%E3%81%A6%E3%81%AF/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 1,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "grammar-nishitewa",
+      "verdict": "approved",
+      "reviewedContentHash": "7ec9702f483ad7e6750aa4712a27298e04c9d3263ac85ac570ef69e763f2742a",
+      "evidenceUrls": [
+        "https://imabi.org/considering-%E3%82%8F%E3%82%8A%E3%81%AB%EF%BC%88%E3%81%AF%EF%BC%89-%E3%81%AB%E3%81%97%E3%81%A6%E3%81%AF/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 1,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "grammar-monono",
+      "verdict": "approved",
+      "reviewedContentHash": "f6ff92b5887ea5f82ad74a52acdeeebd4fcb9263bfb5748a9e45c1a4aabcc2c8",
+      "evidenceUrls": [
+        "https://imabi.org/combination-particles-with-%E3%82%82%E3%81%AE/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 1,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "grammar-kaneru",
+      "verdict": "approved",
+      "reviewedContentHash": "4bc29533d878a9f6f564a9c19d707eef50001f9b6fe2e4fc84102aab52284387",
+      "evidenceUrls": [
+        "https://imabi.org/potential-iv/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 1,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "grammar-kanenai",
+      "verdict": "approved",
+      "reviewedContentHash": "885549f52e75da539c81986553bc3228815aa8c034a72e894dcb81894497eb1b",
+      "evidenceUrls": [
+        "https://imabi.org/potential-iv/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 1,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "grammar-zaru",
+      "verdict": "approved",
+      "reviewedContentHash": "9fcb8fab2b0d9247d11a6139c44026abacbd0beb3603e7f03d68d30cc4d021d8",
+      "evidenceUrls": [
+        "https://imabi.org/%EF%BD%9E%E3%81%96%E3%82%8B%E3%82%92%E5%BE%97%E3%81%AA%E3%81%84-%E3%82%84%E3%82%80%E3%82%92%E5%BE%97%E3%81%AA%E3%81%84/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 1,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "grammar-totan",
+      "verdict": "approved",
+      "reviewedContentHash": "38478b9c2d388cb2920910beca51063dffe7615a2ab7dc4cd2f845418767f1e4",
+      "evidenceUrls": [
+        "https://www.jpf.go.jp/j/project/japanese/teach/tsushin/grammar/200906.html"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 1,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "grammar-yainaya",
+      "verdict": "approved",
+      "reviewedContentHash": "7d4542bdf1cd71559ee8392750f8e00dbcb4a66481a7c631596b3708534d665b",
+      "evidenceUrls": [
+        "https://www.jpf.go.jp/j/project/japanese/teach/tsushin/grammar/200906.html"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 1,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "grammar-toiedomo",
+      "verdict": "approved",
+      "reviewedContentHash": "cdb89bdd7cc7b470d6e4925189590948d83d6d454b5ec6fbdb1eca9b9260ede7",
+      "evidenceUrls": [
+        "https://imabi.org/the-particles-%E3%81%A9%E3%82%82-%E3%81%A0%E3%81%AE/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 1,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "grammar-itaru",
+      "verdict": "approved",
+      "reviewedContentHash": "f63f41a6fee1c870f6748fcb69f90d1d288de319efeceb63fafb1824e75cc642",
+      "evidenceUrls": [
+        "https://imabi.org/defining-parameter/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 1,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "grammar-yoginaku",
+      "verdict": "approved",
+      "reviewedContentHash": "7d034abfcbf3759ec312a10a93c05f891239285efa19f936257f344edf371ca6",
+      "evidenceUrls": [
+        "https://www.mlcjapanese.co.jp/n1_04_07.html"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 1,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "grammar-mademonai",
+      "verdict": "approved",
+      "reviewedContentHash": "bbfc5d26f03e6341838f2c6578e4e05b3e5d05cd5ebfdba7cab0ae133386728b",
+      "evidenceUrls": [
+        "https://www.mlcjapanese.co.jp/n1_04_11.html"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 1,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "grammar-womotte-means",
+      "verdict": "approved",
+      "reviewedContentHash": "05eeb05e2ba3db3a640f64bc1d741ff923e45558c7a6d73532b3c49c6dc268e5",
+      "evidenceUrls": [
+        "https://www.mlcjapanese.co.jp/img/omotte_n1_answer.pdf"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 1,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "method-can-do",
+      "verdict": "approved",
+      "reviewedContentHash": "1403379bf6d53bdfa12f9e6e61f7c0e6638626e67406405b1965fd8637e921ee",
+      "evidenceUrls": [
+        "https://www.irodori.jpf.go.jp/assets/data/resources/Grammar_Worksheets_Answer.pdf"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 1,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "method-retrieval",
+      "verdict": "approved",
+      "reviewedContentHash": "82e8354d7b254dd37ee66fb805fd78f34910bf81c68c9f384951dd3d7601680f",
+      "evidenceUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/16507066/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 1,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "method-jlpt-scope",
+      "verdict": "approved",
+      "reviewedContentHash": "34393e08597564f2b17f5eefb533c3742c82acc8bffd080b6d4c61046708d97e",
+      "evidenceUrls": [
+        "https://www.jlpt.jp/sp/e/about/levelsummary.html",
+        "https://www.jlpt.jp/sp/e/faq/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 1,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "method-no-official-list",
+      "verdict": "approved",
+      "reviewedContentHash": "42fe7518a6dc06996965c2052cc7e605eeca9ccda66b851cb045262156e1258a",
+      "evidenceUrls": [
+        "https://www.jlpt.jp/tw/reference/pdf/guidebook_s_e.pdf"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 0,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "beyond-keigo-five",
+      "verdict": "approved",
+      "reviewedContentHash": "5f5a049abc8e766fd5529185b135afadd0173ab7e767aa7e75afba9a24cc0915",
+      "evidenceUrls": [
+        "https://www.bunka.go.jp/seisaku/bunkashingikai/kokugo/hokoku/pdf/keigo_tosin.pdf"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 1,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "beyond-register-choice",
+      "verdict": "approved",
+      "reviewedContentHash": "a7cd18cbc9efde0acc6405fc446d4b4d95b89edb069c3c8d966c3511d3f7376f",
+      "evidenceUrls": [
+        "https://www.bunka.go.jp/seisaku/kokugo_nihongo/kokugo_shisaku/keigo/chapter1/detail.html"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 1,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-kamoshirenai",
+      "verdict": "approved",
+      "reviewedContentHash": "0b446fc5f852143d5482c63002b992242691e6ccb8175041438098478b72cd93",
+      "evidenceUrls": [
+        "https://imabi.org/might-%e3%81%8b%e3%82%82%e3%81%97%e3%82%8c%e3%81%aa%e3%81%84/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-garu",
+      "verdict": "approved",
+      "reviewedContentHash": "2a59fe1c29f4464d2b7250eeaeddd64e13dc9850ae770d307d51d0b182b06840",
+      "evidenceUrls": [
+        "https://imabi.org/the-auxiliary-verb-%ef%bd%9e%e3%81%8c%e3%82%8b/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-koto-ga-aru",
+      "verdict": "approved",
+      "reviewedContentHash": "a95846ceaa9a3744456aa8a89b26a3d6493a4e6585d7ff5a5ff828c891570ef8",
+      "evidenceUrls": [
+        "https://imabi.org/expressions-with-%e3%81%93%e3%81%a8/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-noda",
+      "verdict": "approved",
+      "reviewedContentHash": "0d7415c630c403523f5c112404328aa8cddb241d729ba340fbcc2a9e670ce8d9",
+      "evidenceUrls": [
+        "https://imabi.org/the-scope-marker-%ef%bd%9e%e3%81%ae%e3%81%a0/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-nagara",
+      "verdict": "approved",
+      "reviewedContentHash": "f3c5f29bed84fa334f8b5c7c3d1529b5d97bbd6221bb30e08d53747c49beac97",
+      "evidenceUrls": [
+        "https://imabi.org/the-particle-%e3%81%aa%e3%81%8c%e3%82%89-i-simultaneous-action/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-yasui",
+      "verdict": "approved",
+      "reviewedContentHash": "f33032aec0d1d00209764e68f1214d6e8a5c479807c6e8eff6cfcc7c8cc5a3ac",
+      "evidenceUrls": [
+        "https://imabi.org/easy-i-%ef%bd%9e%e3%82%84%e3%81%99%e3%81%84/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-nikui",
+      "verdict": "approved",
+      "reviewedContentHash": "0f430cd27eb0079beed98115ef6455c5bf6e289ecf6715b2c1411f29ac354cb6",
+      "evidenceUrls": [
+        "https://imabi.org/difficult-i-%ef%bd%9e%e3%81%ab%e3%81%8f%e3%81%84/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-tsuzukeru",
+      "verdict": "approved",
+      "reviewedContentHash": "e2de05a04ce5b22a5dfeec8a992373b8dcec6c6b5463fa010e81a36289280341",
+      "evidenceUrls": [
+        "https://imabi.org/the-verbs-%e7%b6%9a%e3%81%8f-%ef%bc%86-%e7%b6%9a%e3%81%91%e3%82%8b/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-nakerebanaranai",
+      "verdict": "approved",
+      "reviewedContentHash": "c402cfa372b4f8af9db84edd725a08d2d439c9ce67ab76d355e8b8202e20a919",
+      "evidenceUrls": [
+        "https://imabi.org/must/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-hoga-ii",
+      "verdict": "approved",
+      "reviewedContentHash": "05e2361a6a80c33a5ed2208f94e16dd4ff24725d927b7fa5f1fd240f34d7acaf",
+      "evidenceUrls": [
+        "https://imabi.org/best-that/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-nikoshitakotohanai",
+      "verdict": "approved",
+      "reviewedContentHash": "3eb9dbd245e6faaa80e8dd0bf6d990e19ef7031ba1dbe6554c24b09056dbe622",
+      "evidenceUrls": [
+        "https://imabi.org/best-that/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-tameni-cause",
+      "verdict": "approved",
+      "reviewedContentHash": "77f3b98abe61b6daef7322dfbd4dfa0bd8e6d1566dccca879ca4216fed13ecbc",
+      "evidenceUrls": [
+        "https://imabi.org/due-to/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-youni-purpose",
+      "verdict": "approved",
+      "reviewedContentHash": "99e75303e722b936391d8a6874a4c9120e9035c6c95c4b5b618fa4a658a94b36",
+      "evidenceUrls": [
+        "https://imabi.org/so-that/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-youninaru",
+      "verdict": "approved",
+      "reviewedContentHash": "1dad0d5e8bca08374f6a21fef0f92a1aef43383dcd299b4542ad2c569fa36c8d",
+      "evidenceUrls": [
+        "https://imabi.org/%ef%bd%9e%e3%82%88%e3%81%86%e3%81%ab%e3%81%aa%e3%82%8b-%ef%bd%9e%e3%82%88%e3%81%86%e3%81%ab%e3%81%99%e3%82%8b/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-younisuru",
+      "verdict": "approved",
+      "reviewedContentHash": "8f5aa44045b2d253c0141541cafffef55a6c57de0a647e9aae0997d7ee5c6055",
+      "evidenceUrls": [
+        "https://imabi.org/%ef%bd%9e%e3%82%88%e3%81%86%e3%81%ab%e3%81%aa%e3%82%8b-%ef%bd%9e%e3%82%88%e3%81%86%e3%81%ab%e3%81%99%e3%82%8b/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-rashii-inference",
+      "verdict": "approved",
+      "reviewedContentHash": "af7416ea79a3be6597b9e6b88fba968476198f18cb0db0b65d10fe951ffca3c1",
+      "evidenceUrls": [
+        "https://imabi.org/the-auxiliary-%ef%bd%9e%e3%82%89%e3%81%97%e3%81%84/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-rashii-typical",
+      "verdict": "approved",
+      "reviewedContentHash": "fab3d6a09dd8fdf00279f56f27b2c8b37db2bebbb41f4303a80ab4c1fe5ba6a8",
+      "evidenceUrls": [
+        "https://imabi.org/the-auxiliary-%ef%bd%9e%e3%82%89%e3%81%97%e3%81%84/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-souda-appearance",
+      "verdict": "blocked",
+      "reviewedContentHash": "72e696ea2e97c1ebd292e0278105a8438dca1c530f5c7e39f1ce38aacd7248a8",
+      "evidenceUrls": [
+        "https://imabi.org/seem-%ef%bd%9e%e3%81%9d%e3%81%86%e3%81%a0/"
+      ],
+      "findings": [
+        {
+          "id": "second-sou-adjective-exceptions",
+          "severity": "high",
+          "explanation": "The unrestricted i-adjective deletion rule omits ない → なさそう and the lexical exception かわいい + そう, whose ordinary resulting word means pitiable rather than seems cute. The stored おいしそう, 降りそう and よさそう examples are sound, but the rule can generate wrong extrapolations.",
+          "proposedCorrection": "Add ない → なさそう for the adjective of absence, and explicitly distinguish かわいそう from かわいいようだ. Do not extrapolate this adjective rule to all verb-negative variants.",
+          "evidenceUrls": [
+            "https://imabi.org/seem-%ef%bd%9e%e3%81%9d%e3%81%86%e3%81%a0/"
+          ],
+          "checkedAt": "13 October 2026",
+          "status": "open"
+        }
+      ],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-souda-hearsay",
+      "verdict": "approved",
+      "reviewedContentHash": "2844a538d5dd2346e77d6335057452abeaa34ab1d71e7f0fda1de14e7ae09c8a",
+      "evidenceUrls": [
+        "https://imabi.org/hearsay/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-passive-direct",
+      "verdict": "approved",
+      "reviewedContentHash": "80dfc63564456b5065749d8892fb335148b08a8dcdb2ee01fb52b0c05fee3f6e",
+      "evidenceUrls": [
+        "https://imabi.org/the-passive/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-causative",
+      "verdict": "blocked",
+      "reviewedContentHash": "500d3b2bbf38432a4a1dbc5a86288f63b92f5793bb744c35abe4200ace7e7083",
+      "evidenceUrls": [
+        "https://imabi.org/the-causative-i-%ef%bd%9e%e3%81%95%e3%81%9b%e3%82%8b-%ef%bd%9e%e3%81%9b%e3%82%8b/"
+      ],
+      "findings": [
+        {
+          "id": "second-causative-u-exception",
+          "severity": "high",
+          "explanation": "The stated godan a-row rule omits the u-ending exception. Applying it mechanically to 言う would produce 言あせる, while the primary curriculum explicitly gives 言わせる. All three stored examples are otherwise consistent.",
+          "proposedCorrection": "State: Godan, change the final kana to the a-row, with う → わ, then add せる. Include 言う → 言わせる as a boundary example.",
+          "evidenceUrls": [
+            "https://imabi.org/the-causative-i-%ef%bd%9e%e3%81%95%e3%81%9b%e3%82%8b-%ef%bd%9e%e3%81%9b%e3%82%8b/"
+          ],
+          "checkedAt": "13 October 2026",
+          "status": "open"
+        }
+      ],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-causative-passive",
+      "verdict": "approved",
+      "reviewedContentHash": "a2d6afff80994d8e4ddafe71a51b48528d8e6fc138d7a43649717ef45e368409",
+      "evidenceUrls": [
+        "https://imabi.org/causative-passive/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-toka",
+      "verdict": "approved",
+      "reviewedContentHash": "ae8cfd2610e4f97f7f3a2e5836a0735eb240cde1ad6eb9a65fd9c11e575b49e3",
+      "evidenceUrls": [
+        "https://imabi.org/the-particle-%e3%81%a8%e3%81%8b/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-hodo-negative",
+      "verdict": "approved",
+      "reviewedContentHash": "d4712c1a7764bda04e95fe0a89b6d136bda29bfe4cabace6ee0accf046adf0f7",
+      "evidenceUrls": [
+        "https://imabi.org/the-particles-%e3%81%bb%e3%81%a9-%e3%81%8f%e3%82%89%e3%81%84/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-chuu-juu",
+      "verdict": "approved",
+      "reviewedContentHash": "bd68b12dddedee3b486f4e298d98da2e7d284fe71b93c48c6fc6a725e08da5d2",
+      "evidenceUrls": [
+        "https://imabi.org/during-throughout/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-youtosuru",
+      "verdict": "approved",
+      "reviewedContentHash": "73c8cd4fe0e5ef32e3eb9a3762faed6c06e32b1561b6fc0642df568b1778ed62",
+      "evidenceUrls": [
+        "https://imabi.org/try-ii/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-toiu",
+      "verdict": "approved",
+      "reviewedContentHash": "320ad55610252d373ba3f7b00e85b733dbbd6c56b78541c7299b64a696e6b6cf",
+      "evidenceUrls": [
+        "https://imabi.org/citation-ii-%ef%bd%9e%e3%81%a8%e3%81%84%e3%81%86-%ef%bd%9e%e3%81%a8%e3%81%84%e3%81%86%e3%81%93%e3%81%a8-%ef%bd%9e%e3%81%a8%e3%81%84%e3%81%86%e3%82%82%e3%81%ae/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-kuseni",
+      "verdict": "blocked",
+      "reviewedContentHash": "5130df2019393f8912fd76c4259bb09f4ec1703194ecf1f63c29bd5f95845391",
+      "evidenceUrls": [
+        "https://imabi.org/criticizing-%e3%81%8f%e3%81%9b%e3%81%ab%e3%83%bb%e3%81%8f%e3%81%9b%e3%81%97%e3%81%a6/"
+      ],
+      "findings": [
+        {
+          "id": "second-kuseni-refusal-overtranslation",
+          "severity": "medium",
+          "explanation": "Example 1 translates 教えてくれません as an intentional refusal. The negative benefactive says the person does not tell me; くせに supplies criticism but does not prove a deliberate refusal. This matters when the French prompt is used as an exact recall target.",
+          "proposedCorrection": "Use: Il le sait, pourtant il ne me le dit pas. Keep the note that the construction expresses a reproach.",
+          "evidenceUrls": [
+            "https://imabi.org/criticizing-%e3%81%8f%e3%81%9b%e3%81%ab%e3%83%bb%e3%81%8f%e3%81%9b%e3%81%97%e3%81%a6/",
+            "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/086.html"
+          ],
+          "checkedAt": "13 October 2026",
+          "status": "open"
+        }
+      ],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-naosu",
+      "verdict": "approved",
+      "reviewedContentHash": "35544e1a4a516e5842979bc4602cddea5658ce0cc33777c816f80030a8282000",
+      "evidenceUrls": [
+        "https://imabi.org/fix-error-%ef%bd%9e%e5%bf%98%e3%82%8c%e3%82%8b-%ef%bd%9e%e7%9b%b4%e3%81%99-%e9%96%93%e9%81%95%e3%81%88%e3%82%8b-%ef%bd%9e%e8%aa%a4%e3%82%8b/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-wasure",
+      "verdict": "approved",
+      "reviewedContentHash": "cf75409ba319d8405f0ec2ace9d8533d4d482217bb18bdc440718ac987c27c0f",
+      "evidenceUrls": [
+        "https://imabi.org/fix-error-%ef%bd%9e%e5%bf%98%e3%82%8c%e3%82%8b-%ef%bd%9e%e7%9b%b4%e3%81%99-%e9%96%93%e9%81%95%e3%81%88%e3%82%8b-%ef%bd%9e%e8%aa%a4%e3%82%8b/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-kiru",
+      "verdict": "approved",
+      "reviewedContentHash": "e624105892dfcfa27b7cedfec1beaedbe56d710874de5ac05a84f000ceb02fae",
+      "evidenceUrls": [
+        "https://imabi.org/used-to-together/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-au",
+      "verdict": "approved",
+      "reviewedContentHash": "40d2916326e8163b368f03b03f48c04858b4a4c5b09396377d929a746a9c4fe2",
+      "evidenceUrls": [
+        "https://imabi.org/used-to-together/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-adjective-sa",
+      "verdict": "blocked",
+      "reviewedContentHash": "8c6a5a8f7cdd0a79323c94c0abdc684b2fbfa977b062af5b93695dd99fd52b5f",
+      "evidenceUrls": [
+        "https://imabi.org/adjective-nominalization/"
+      ],
+      "findings": [
+        {
+          "id": "second-sa-good-stem",
+          "severity": "medium",
+          "explanation": "The simple remove-i instruction would predict いさ from いい. The lesson does not depend on grammar-i-adjectives, which already documents the よい stem, so the required exception is not supplied by its declared prerequisites. The three stored examples are correct.",
+          "proposedCorrection": "State the irregular base いい/よい → よさ and link grammar-i-adjectives as a prerequisite.",
+          "evidenceUrls": [
+            "https://imabi.org/adjective-nominalization/",
+            "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/030.html"
+          ],
+          "checkedAt": "13 October 2026",
+          "status": "open"
+        }
+      ],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-me",
+      "verdict": "approved",
+      "reviewedContentHash": "f6f28339392bcad7ae6757f97af3a59cfec37ce6e0d5639a4cae8b8053851477",
+      "evidenceUrls": [
+        "https://imabi.org/the-affix-%ef%bd%9e%e3%82%81/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-sekkaku",
+      "verdict": "approved",
+      "reviewedContentHash": "0cf5d055aa2c29e748751b171a04136025ec6a88da990697a60acb6d82c92e76",
+      "evidenceUrls": [
+        "https://imabi.org/the-adverbs-%e3%81%9b%e3%81%a3%e3%81%8b%e3%81%8f-%e3%82%8f%e3%81%96%e3%82%8f%e3%81%96/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-wazawaza",
+      "verdict": "approved",
+      "reviewedContentHash": "9fedce18e58e28ee5e2fd5d0026a943678d58b9a06bf005012d9d965b9a43554",
+      "evidenceUrls": [
+        "https://imabi.org/the-adverbs-%e3%81%9b%e3%81%a3%e3%81%8b%e3%81%8f-%e3%82%8f%e3%81%96%e3%82%8f%e3%81%96/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-tsumori",
+      "verdict": "approved",
+      "reviewedContentHash": "115bf747fc7ba3ef056f42541959066920864dfa5bd19a6c0e33b81aea550f5d",
+      "evidenceUrls": [
+        "https://imabi.org/planning-%ef%bd%9e%e3%81%a4%e3%82%82%e3%82%8a%e3%81%a0/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-hazuda",
+      "verdict": "approved",
+      "reviewedContentHash": "38d300f9aae2008633ec5ecf119f4af2314c015090a1b9edc9cc737169860dda",
+      "evidenceUrls": [
+        "https://imabi.org/planning-obligation/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-bekida",
+      "verdict": "approved",
+      "reviewedContentHash": "ebe5e7a794f96a8a42a52dc00bb4ffedbf5fdc21ca96c17b37773c21d8e630ec",
+      "evidenceUrls": [
+        "https://imabi.org/obligation-%ef%bd%9e%e3%81%b9%e3%81%8d%e3%81%a0/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-zuni",
+      "verdict": "approved",
+      "reviewedContentHash": "0b6d9b50d1c624ec95b15fabeee919b9e3c8e6b07142a2d252f8240ed2590ef8",
+      "evidenceUrls": [
+        "https://imabi.org/the-auxiliary-verb-%ef%bd%9e%e3%81%9a-i/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-nitsuite",
+      "verdict": "approved",
+      "reviewedContentHash": "b50d8c89eaa1edd487347d9f76dc686823df782321172d523387ca9a73e13ee6",
+      "evidenceUrls": [
+        "https://imabi.org/about-2/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-nikanshite",
+      "verdict": "approved",
+      "reviewedContentHash": "cd3524786235ddc5900088056ba6212e04688790618cb52968f9822dc6a5f037",
+      "evidenceUrls": [
+        "https://imabi.org/about-2/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-womegutte",
+      "verdict": "approved",
+      "reviewedContentHash": "7b4877b38bb54e65edd17846380a0424e672003a516bc46e6b147fd0375fd165",
+      "evidenceUrls": [
+        "https://imabi.org/about-2/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-dakeni",
+      "verdict": "approved",
+      "reviewedContentHash": "745cb6b4179dbce8c56eaa45e2f59f414a93660b34ed67ea81196d1968290e9c",
+      "evidenceUrls": [
+        "https://imabi.org/%e3%81%a0%e3%81%91%e3%81%ab%e3%83%bb%e3%81%a0%e3%81%91%ef%bc%88%e3%81%ae%e3%81%93%e3%81%a8%e3%81%af%ef%bc%89%e3%81%82%e3%81%a3%e3%81%a6/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-nomi",
+      "verdict": "approved",
+      "reviewedContentHash": "edb377e20a3b1632b738f4a535475e04619b4efefd6d1bbd49fe9f1a3ed100fa",
+      "evidenceUrls": [
+        "https://imabi.org/the-particle-%e3%81%ae%e3%81%bf/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-koso",
+      "verdict": "approved",
+      "reviewedContentHash": "3c2b2669abbed88839f1f35daf37307c0a2a8bd464026d74182a81cc90c9dae5",
+      "evidenceUrls": [
+        "https://imabi.org/the-particle-%e3%81%93%e3%81%9d/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-wakedehanai",
+      "verdict": "approved",
+      "reviewedContentHash": "8caf37cbe48c7f4981f6c433d0cbf3dfb7a80eb6efb26c093d86b185a7a87221",
+      "evidenceUrls": [
+        "https://imabi.org/%e3%82%8f%e3%81%91%e3%81%a7%e3%81%af%e3%81%aa%e3%81%84-%e3%82%8f%e3%81%91%e3%81%8c%e3%81%aa%e3%81%84-%e3%82%8f%e3%81%91%e3%81%ab%e3%81%af%e3%81%84%e3%81%8b%e3%81%aa%e3%81%84/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-wakeganai",
+      "verdict": "approved",
+      "reviewedContentHash": "863f4a1603eb566345cda10a83263b6dda9457b7e22addd554ec793bfec747bb",
+      "evidenceUrls": [
+        "https://imabi.org/%e3%82%8f%e3%81%91%e3%81%a7%e3%81%af%e3%81%aa%e3%81%84-%e3%82%8f%e3%81%91%e3%81%8c%e3%81%aa%e3%81%84-%e3%82%8f%e3%81%91%e3%81%ab%e3%81%af%e3%81%84%e3%81%8b%e3%81%aa%e3%81%84/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-wakenihaikanai",
+      "verdict": "approved",
+      "reviewedContentHash": "e5cdb123b6177488796400642c3beffb09b613ad61474be8621f2e4bfbfdcfb2",
+      "evidenceUrls": [
+        "https://imabi.org/%e3%82%8f%e3%81%91%e3%81%a7%e3%81%af%e3%81%aa%e3%81%84-%e3%82%8f%e3%81%91%e3%81%8c%e3%81%aa%e3%81%84-%e3%82%8f%e3%81%91%e3%81%ab%e3%81%af%e3%81%84%e3%81%8b%e3%81%aa%e3%81%84/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-nichigainai",
+      "verdict": "approved",
+      "reviewedContentHash": "d78669ddfb37ee7171f8917b2b1e8daabe6f7ec54255fd09e6553974e0402f89",
+      "evidenceUrls": [
+        "https://imabi.org/no-doubt-that/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-nimotozuite",
+      "verdict": "approved",
+      "reviewedContentHash": "2bae531e62b25b75ae12f8034ef2d0f5bb860d79414af48773b8973e964f39d4",
+      "evidenceUrls": [
+        "https://imabi.org/based-on/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-wofumaete",
+      "verdict": "approved",
+      "reviewedContentHash": "9765e61891f9729fc475d1d5d95388dd7f4c6f3224ce28d0aa4644aa0a26cb1a",
+      "evidenceUrls": [
+        "https://imabi.org/based-on/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-womotoni",
+      "verdict": "approved",
+      "reviewedContentHash": "00d0b3921a57d58298e204db43f551683e2bc5a585ef9bcb282be8407fe69cf7",
+      "evidenceUrls": [
+        "https://imabi.org/based-on/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-nishitagatte-change",
+      "verdict": "approved",
+      "reviewedContentHash": "255c0477d9868d4b85b936aa740f77480cde17c3e0c2f1d225fb38f4ff9ead8d",
+      "evidenceUrls": [
+        "https://imabi.org/as-change/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-teirai",
+      "verdict": "approved",
+      "reviewedContentHash": "e9669279f3722926db29bfb1bb2eaa710fa575e7c975847b433b24f20b6c14e6",
+      "evidenceUrls": [
+        "https://imabi.org/after-ii/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-tabini",
+      "verdict": "approved",
+      "reviewedContentHash": "112b2750d49f70d10f32b6d4d47f6bd61a61fe7f91cb9cc7df5ef54519db227e",
+      "evidenceUrls": [
+        "https://imabi.org/whenever-ii-%ef%bd%9e%e5%ba%a6%e3%81%ab-%ef%bd%9e%e9%83%bd%e5%ba%a6%e3%80%80-%ef%bd%9e%e3%81%ab%e3%81%a4%e3%81%91/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-nitotte",
+      "verdict": "approved",
+      "reviewedContentHash": "fd1cbaafc3e825e29dd68b54f1f01d3e44888128e1c4742e22cc92fe1607f6cf",
+      "evidenceUrls": [
+        "https://imabi.org/standpoint-%e3%81%a8%e3%81%97%e3%81%a6%ef%bc%88%e3%81%af%ef%bc%89-vs-%e3%81%ab%e3%81%a8%e3%81%a3%e3%81%a6%ef%bc%88%e3%81%af%ef%bc%89/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-toshite",
+      "verdict": "approved",
+      "reviewedContentHash": "ca30b9658d88ffd57e56890d1fb4a832c9dd01e20b964b8b1592c326b4c642cf",
+      "evidenceUrls": [
+        "https://imabi.org/standpoint-%e3%81%a8%e3%81%97%e3%81%a6%ef%bc%88%e3%81%af%ef%bc%89-vs-%e3%81%ab%e3%81%a8%e3%81%a3%e3%81%a6%ef%bc%88%e3%81%af%ef%bc%89/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-wotoshite",
+      "verdict": "approved",
+      "reviewedContentHash": "9892dd30bbe37b7c8cf110f7626e1866043ee3bae667048d661465103c5eab49",
+      "evidenceUrls": [
+        "https://imabi.org/through-%e3%82%92%e9%80%9a%e3%81%98%e3%81%a6-%e3%82%92%e9%80%9a%e3%81%97%e3%81%a6/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-niwatatte",
+      "verdict": "approved",
+      "reviewedContentHash": "c1a7dbf232acee273865864434de685c114c347feddf8be118755fbee07c42aa",
+      "evidenceUrls": [
+        "https://imabi.org/span-%ef%bd%9e%e3%81%ab%e3%81%8b%e3%81%91%e3%81%a6-%e3%81%ab%e3%82%8f%e3%81%9f%e3%81%a3%e3%81%a6/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-naikotoniha",
+      "verdict": "approved",
+      "reviewedContentHash": "a765090ba7190d343f12e99de481884005eeab4ea3ff57bb76b1b7cfbe7232eb",
+      "evidenceUrls": [
+        "https://imabi.org/negative-patterns/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-kotonaku",
+      "verdict": "approved",
+      "reviewedContentHash": "9c981e6e5c50bd6788f458882795b96ec6c218ef5558a9df190999784fa4c680",
+      "evidenceUrls": [
+        "https://imabi.org/negative-patterns/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-nashi",
+      "verdict": "approved",
+      "reviewedContentHash": "43acf448885bd35d5cff304cf2c0ff7b31158dbee53fc43f6fb7f4617a55a5ef",
+      "evidenceUrls": [
+        "https://imabi.org/negative-patterns/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-nara-dewa",
+      "verdict": "approved",
+      "reviewedContentHash": "0610cbd776430af480be82b6f6631ac3918be383fe712e606c4c3b35e1d4e86e",
+      "evidenceUrls": [
+        "https://imabi.org/exception/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-wo-oite",
+      "verdict": "approved",
+      "reviewedContentHash": "0f7560aa505b09ed5234f2fed61d34ac0e3ef8a9e9b25a542b868a1dd212b110",
+      "evidenceUrls": [
+        "https://imabi.org/exception/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-zuniha-irarenai",
+      "verdict": "approved",
+      "reviewedContentHash": "63fa7cbded264f582c110ae49b9af716bab3b7e1db373ee819014e0582c63541",
+      "evidenceUrls": [
+        "https://imabi.org/cant-help-i/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-te-naranai",
+      "verdict": "approved",
+      "reviewedContentHash": "651e76fc996cb3aafa0e225f49170b6d9dc7aeaab63b17bd4e96ff2bc4e938c7",
+      "evidenceUrls": [
+        "https://imabi.org/cant-help-ii/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-te-tamaranai",
+      "verdict": "approved",
+      "reviewedContentHash": "6c36a26cc7ad6357aa0b0865ad75ef792ed6ee6d7b5f63c57840d3326e0cf8ac",
+      "evidenceUrls": [
+        "https://imabi.org/cant-help-ii/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-te-yamanai",
+      "verdict": "approved",
+      "reviewedContentHash": "1c1e8a48b3460799c2758703963616d5dd361ce1b74662ecdaff6013af5693dc",
+      "evidenceUrls": [
+        "https://imabi.org/cant-help-ii/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-zuniha-sumanai",
+      "verdict": "approved",
+      "reviewedContentHash": "234b95453fa1410032ada618d88eb0ad21d07b1ccb74e0186c81997e16ea3337",
+      "evidenceUrls": [
+        "https://imabi.org/cant-help-iii/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-wo-kinjienai",
+      "verdict": "approved",
+      "reviewedContentHash": "c205e08e69c92b5f8e6e9bd75b3e0933d1ff57eda671131aca22cd7ec9acb3d8",
+      "evidenceUrls": [
+        "https://imabi.org/cant-help-iii/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-gatai",
+      "verdict": "approved",
+      "reviewedContentHash": "c68bb20c2f75a860bb70bc38038a00366c0bc4f5b7f56b53553eb543d85aec5a",
+      "evidenceUrls": [
+        "https://imabi.org/difficult-ii-%ef%bd%9e%e3%81%8c%e3%81%9f%e3%81%84-%ef%bd%9e%e3%81%a5%e3%82%89%e3%81%84/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-zurai",
+      "verdict": "approved",
+      "reviewedContentHash": "c001ed1aa18a19b3ab5c16501f0b6ff3851ba7454dfdb224021938a04d96efc7",
+      "evidenceUrls": [
+        "https://imabi.org/difficult-ii-%ef%bd%9e%e3%81%8c%e3%81%9f%e3%81%84-%ef%bd%9e%e3%81%a5%e3%82%89%e3%81%84/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-kagiri-condition",
+      "verdict": "approved",
+      "reviewedContentHash": "68a1680a422ceeb828daaee67534f6d5356ac280fe8f3f73b2e3bc9a7e97d537",
+      "evidenceUrls": [
+        "https://imabi.org/limit/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-kagiridewa",
+      "verdict": "approved",
+      "reviewedContentHash": "1975a44913d2ae7f47a7bec253dd823e8f88c6d97aa6b3b2553a13e177f54779",
+      "evidenceUrls": [
+        "https://imabi.org/limit/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-toha-kagiranai",
+      "verdict": "approved",
+      "reviewedContentHash": "dd37b3cc0b860d310ac7786690681f5acedbe1d76f64b95c99526710314839d0",
+      "evidenceUrls": [
+        "https://imabi.org/limit/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-wo-kagirini",
+      "verdict": "approved",
+      "reviewedContentHash": "deca82705f1c20e36da2d03c26af1dfee80b73e69fca7f98c9bd9b322c8140ee",
+      "evidenceUrls": [
+        "https://imabi.org/limit/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-nikuwaete",
+      "verdict": "approved",
+      "reviewedContentHash": "e8ed9468722fe737ef7030602d459b39d4e9ce92d271d98ac3d32f140dde6db8",
+      "evidenceUrls": [
+        "https://imabi.org/addition/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-nitodomarazu",
+      "verdict": "approved",
+      "reviewedContentHash": "0c13060012023210f77abb013e301d99ce68551c9e777dbedd5387cfd6a3066b",
+      "evidenceUrls": [
+        "https://imabi.org/addition/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-wa-oroka",
+      "verdict": "approved",
+      "reviewedContentHash": "3528252e627ef918407b430208e598acf0eb08802570467c869e2d6c80ae898a",
+      "evidenceUrls": [
+        "https://imabi.org/addition/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-mai",
+      "verdict": "approved",
+      "reviewedContentHash": "60cdf5b61193214592f12de923824c816cc73acd056a5821933940fabe83612e",
+      "evidenceUrls": [
+        "https://imabi.org/negative-volition-%ef%bd%9e%e3%81%be%e3%81%84/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-younimo",
+      "verdict": "approved",
+      "reviewedContentHash": "83a34a323fef2ddb04d2c40938d2d396aa584f0207170149193ba11c8bcbc2e5",
+      "evidenceUrls": [
+        "https://imabi.org/%ef%bd%9e%ef%bc%88%e3%82%88%ef%bc%89%e3%81%86%e3%81%ab%e3%82%82-%ef%bd%9e%ef%bc%88%e3%82%88%ef%bc%89%e3%81%86%e3%82%82%e3%81%ae%e3%81%aa%e3%82%89/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-youmononara",
+      "verdict": "approved",
+      "reviewedContentHash": "0143b9a8649bcfdf05e9efe97763d211f72713ee62513509bba25f809a0884a5",
+      "evidenceUrls": [
+        "https://imabi.org/%ef%bd%9e%ef%bc%88%e3%82%88%ef%bc%89%e3%81%86%e3%81%ab%e3%82%82-%ef%bd%9e%ef%bc%88%e3%82%88%ef%bc%89%e3%81%86%e3%82%82%e3%81%ae%e3%81%aa%e3%82%89/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-shidai",
+      "verdict": "approved",
+      "reviewedContentHash": "31fcb66e5f980c8030c8c4e8e41fea1cc8926733f86c7949f9844eab6ed8d2e2",
+      "evidenceUrls": [
+        "https://imabi.org/as-soon-as/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-nari-immediate",
+      "verdict": "approved",
+      "reviewedContentHash": "f4061868072803e27e3d21231b9295b7a2f40bef8fef7b37402bb4c8f9375172",
+      "evidenceUrls": [
+        "https://imabi.org/as-soon-as/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-to-omoikiya",
+      "verdict": "approved",
+      "reviewedContentHash": "9b4943f309d6f800bfd026d59cd84918c970689f55188da7054ba909a043c58c",
+      "evidenceUrls": [
+        "https://imabi.org/circumstance/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-ageku",
+      "verdict": "approved",
+      "reviewedContentHash": "be20358e39ed8785d2410d1cce44aa2316c107707daedc6bf091a64ddcd705a1",
+      "evidenceUrls": [
+        "https://imabi.org/result/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-sueni",
+      "verdict": "approved",
+      "reviewedContentHash": "08504bb9b27b50f9bc1be65b292410ca07107b2cbf89c0e297472b87a53a100e",
+      "evidenceUrls": [
+        "https://imabi.org/result/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-shimatsuda",
+      "verdict": "approved",
+      "reviewedContentHash": "4913aade9b67bd1808f63aac40ae6f15dad07522717c0b96d2db63ae11c104f4",
+      "evidenceUrls": [
+        "https://imabi.org/result/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-nimokakawarazu",
+      "verdict": "approved",
+      "reviewedContentHash": "15b382f10910654ebbb545ecf30945001def4c3be6fbf147303d8fdc6e141b04",
+      "evidenceUrls": [
+        "https://imabi.org/disregard-i/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-nikakawarazu",
+      "verdict": "approved",
+      "reviewedContentHash": "de4648d2ddf0083c7620748f34f5ffd31e1ed64759b1133c24468f4a3aa33cb1",
+      "evidenceUrls": [
+        "https://imabi.org/disregard-i/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-wo-towazu",
+      "verdict": "approved",
+      "reviewedContentHash": "3ba3582a17a9e5cfbc57342406c5c62b3ec629bf9d90cfd1d35f56e9a4fb8d1a",
+      "evidenceUrls": [
+        "https://imabi.org/disregard-i/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-ikan-ni",
+      "verdict": "approved",
+      "reviewedContentHash": "7903e522f2743d39c2099f5f892e5e4ea8b62668b794f5dfff3f57dd9015ce1d",
+      "evidenceUrls": [
+        "https://imabi.org/disregard-ii/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-womonotomosezu",
+      "verdict": "approved",
+      "reviewedContentHash": "d4915b8b879e29d6a88cfc5ff8afb3be9e8188c8697b76c7c4b6c9221b35acb0",
+      "evidenceUrls": [
+        "https://imabi.org/disregard-iii/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-woyosoni",
+      "verdict": "approved",
+      "reviewedContentHash": "b5da0f126ff2c11c6c5f5b010d005764e1aad880e75d2b1dc8f52619629dbf1e",
+      "evidenceUrls": [
+        "https://imabi.org/disregard-iv/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-nisakidatte",
+      "verdict": "approved",
+      "reviewedContentHash": "16a0b12b1e38c27710b59b39bfb2190c7ebe8fb477b075426c96667dfc04aeeb",
+      "evidenceUrls": [
+        "https://imabi.org/occasion/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-nisaishite",
+      "verdict": "approved",
+      "reviewedContentHash": "fdca4532d6b53eb40cc4a4871cd52bd14c98466da73519b3e1a604fac4623e7a",
+      "evidenceUrls": [
+        "https://imabi.org/occasion/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-niataru",
+      "verdict": "approved",
+      "reviewedContentHash": "e3ed4e1e1a9bbe0aa55313a7f6e9348f249a6bdd612c84d5ac781f31acf0a729",
+      "evidenceUrls": [
+        "https://imabi.org/occasion/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-nitaru",
+      "verdict": "approved",
+      "reviewedContentHash": "bcc7cd4fae6991bf8587b2b4b21813cf8db452bdb5bf3436afcba468addafeb4",
+      "evidenceUrls": [
+        "https://imabi.org/worth-and-extent/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-beku",
+      "verdict": "approved",
+      "reviewedContentHash": "5be781e8a950feff0868f871157fe532be50a2fa9e957fa5e91e8f2b0e6e1242",
+      "evidenceUrls": [
+        "https://imabi.org/advanced-%ef%bd%9e%e3%81%b9%e3%81%8d-phrases%ef%bd%9e%e3%81%b9%e3%81%8f%e3%82%82%e3%81%aa%e3%81%84-%ef%bd%9e%e3%81%b9%e3%81%8b%e3%82%89%e3%81%9a%e3%83%bb%e3%81%96%e3%82%8b-%ef%bd%9e%e3%81%b9/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-gatera",
+      "verdict": "approved",
+      "reviewedContentHash": "c8b41b09e0940c57eef627a6c19839b5ed7a842dc7f828d2ba4f5f73615909df",
+      "evidenceUrls": [
+        "https://imabi.org/incidental/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-katawara",
+      "verdict": "approved",
+      "reviewedContentHash": "d2fcb55ee0e9c0a05934ace76991227b986bc0315f002d1f327d72474da2bade",
+      "evidenceUrls": [
+        "https://imabi.org/incidental/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-tsuideni",
+      "verdict": "approved",
+      "reviewedContentHash": "ea76375dc3b466978fe4dd5a847d2a79e11a2716ef58991392da51c48b0abdbd",
+      "evidenceUrls": [
+        "https://imabi.org/incidental/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-tsutsu",
+      "verdict": "approved",
+      "reviewedContentHash": "e8e63e2f1a0a9f5c8ce0e24a5cc6ba1da7f49d2506b5dc745e0b3dd1af87878e",
+      "evidenceUrls": [
+        "https://imabi.org/simultaneous-action-ii-the-particle-%e3%81%a4%e3%81%a4-vs-%e3%81%aa%e3%81%8c%e3%82%89/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-tsutsuaru",
+      "verdict": "approved",
+      "reviewedContentHash": "3f25c874002f402f4731f8cbd0f51c0f7b8294b2b104ff9b2918a8a8f06444b4",
+      "evidenceUrls": [
+        "https://imabi.org/simultaneous-action-ii-the-particle-%e3%81%a4%e3%81%a4-vs-%e3%81%aa%e3%81%8c%e3%82%89/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-ga-hayaika",
+      "verdict": "approved",
+      "reviewedContentHash": "5f439692904e93a29f813962447cf0c628268cf624cf50ee27bb3ae8e6d88461",
+      "evidenceUrls": [
+        "https://imabi.org/tendency/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-sobakara",
+      "verdict": "approved",
+      "reviewedContentHash": "b9a1057203caaa9ca171cd7add6acf2d30d0010de0a2aa87041d47fa9c080981",
+      "evidenceUrls": [
+        "https://imabi.org/tendency/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    },
+    {
+      "id": "adv-kirai-ga-aru",
+      "verdict": "approved",
+      "reviewedContentHash": "1a46906e1e509312540a035239fd36b76ed365d4bad84f4d9c8553c24abefb30",
+      "evidenceUrls": [
+        "https://imabi.org/tendency/"
+      ],
+      "findings": [],
+      "reviewedFields": [
+        "explanationFr",
+        "contrastFr",
+        "frenchLearnerTrap",
+        "examples.ja",
+        "examples.reading",
+        "examples.fr",
+        "sources",
+        "prerequisites"
+      ],
+      "exampleCount": 3,
+      "reviewMeaning": "Independent adversarial model review found no unresolved issue in the stored content, not a claim of native-speaker validation or proof of zero conceivable errors."
+    }
+  ],
+  "learnerReview": {
+    "itemsSha256": "fefa7e23ca2c0a8b512a47736efa75a65bbc33a008fbfea1eabee4fb92881b95",
+    "verdict": "blocked",
+    "evidenceUrls": [
+      "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/017.html",
+      "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/001.html",
+      "https://www.irodori.jpf.go.jp/assets/data/starter/pdf/X_L06.pdf"
+    ],
+    "items": [
+      {
+        "index": 0,
+        "ja": "一人です",
+        "verdict": "approved",
+        "explanation": "一人 is correctly read ひとり and answers a party-size question; the stored French explicitly gives restaurant/one-person context.",
+        "evidenceUrls": [
+          "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/017.html",
+          "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/001.html"
+        ]
+      },
+      {
+        "index": 1,
+        "ja": "お持ち帰りで",
+        "verdict": "blocked",
+        "findings": [
+          {
+            "id": "second-retest-takeout-role",
+            "severity": "high",
+            "explanation": "The canonical second retest forces お持ち帰りで for the customer. The verified Japan Foundation starter L6 explicitly teaches テイクアウトで to the customer and marks お持ち帰りですね as staff speech. This does not prove that every customer utterance with お is ungrammatical; it leaves the sole accepted drill answer insufficiently justified for the declared role.",
+            "proposedCorrection": "Preserve the personal-history original. For lesson retests use a reviewed overlay with テイクアウトで (or a fully sourced customer 持ち帰りで variant), with source, role and accepted alternatives explicitly stored.",
+            "evidenceUrls": [
+              "https://www.irodori.jpf.go.jp/assets/data/starter/pdf/X_L06.pdf"
+            ],
+            "checkedAt": "13 October 2026",
+            "status": "open"
+          }
+        ]
+      }
+    ],
+    "issues": [
+      {
+        "id": "second-retest-takeout-role",
+        "severity": "high",
+        "explanation": "The canonical second retest forces お持ち帰りで for the customer. The verified Japan Foundation starter L6 explicitly teaches テイクアウトで to the customer and marks お持ち帰りですね as staff speech. This does not prove that every customer utterance with お is ungrammatical; it leaves the sole accepted drill answer insufficiently justified for the declared role.",
+        "proposedCorrection": "Preserve the personal-history original. For lesson retests use a reviewed overlay with テイクアウトで (or a fully sourced customer 持ち帰りで variant), with source, role and accepted alternatives explicitly stored.",
+        "evidenceUrls": [
+          "https://www.irodori.jpf.go.jp/assets/data/starter/pdf/X_L06.pdf"
+        ],
+        "checkedAt": "13 October 2026",
+        "status": "open"
+      }
+    ]
+  },
+  "summary": {
+    "records": 163,
+    "examples": 378,
+    "approved": 159,
+    "blocked": 4,
+    "openFindings": 4,
+    "learnerGate": "blocked"
+  }
+}

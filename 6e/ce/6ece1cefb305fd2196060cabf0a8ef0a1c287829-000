@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "reviewerId": "/root",
+  "reviewType": "independent-adversarial-model-review",
+  "date": "13 October 2026",
+  "humanReview": false,
+  "records": [
+    {
+      "id": "japan-social-evidence",
+      "reviewedContentHash": "3b92b338573ad8b0ddb18175ff8d826a494154ac5a88cfccf0fabde08d83fcff",
+      "verdict": "approved",
+      "findings": [],
+      "evidenceUrls": [
+        "https://www.stat.go.jp/english/data/handbook/index.html"
+      ],
+      "checks": {
+        "sourceScope": "Primary source and methodological attribution checked separately; no universal potteries claim",
+        "examples": "Japanese, kana and French comparison checked"
+      },
+      "reviewedAt": "13 October 2026"
+    },
+    {
+      "id": "japan-adv-jomon-name",
+      "reviewedContentHash": "0b76b1476883a419e99838b811df434e1a340b572b812f45da04948455c3e563",
+      "verdict": "approved",
+      "findings": [],
+      "evidenceUrls": [
+        "https://www.metmuseum.org/essays/jomon-culture-ca-10500-ca-300-b-c"
+      ],
+      "checks": {
+        "sourceScope": "Primary source and methodological attribution checked separately; no universal potteries claim",
+        "examples": "Japanese, kana and French comparison checked"
+      },
+      "reviewedAt": "13 October 2026"
+    }
+  ],
+  "scope": "Only two corrected Japan cards, not all imported records. No native review or infallibility claim."
+}

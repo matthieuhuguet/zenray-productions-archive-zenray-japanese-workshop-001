@@ -1,0 +1,82 @@
+from pathlib import Path
+root=Path('/Users/zenray/.codex/worktrees/japanese-progress/src/learn')
+p=root/'japaneseCorpusModel.js'
+s=p.read_text()
+needle='export function cookCorpusLesson(records,'
+assert needle in s
+code='''// 13 October 2026 00:10 CEST: approval binds all record content to two reviewers; missing evidence fails closed.
+export function canonicalLessonContent(record) {
+  const { lessonValidation, lessonContentHash, ...content } = record
+  const sort = (value) => Array.isArray(value) ? value.map(sort)
+    : value && typeof value === 'object' ? Object.fromEntries(Object.keys(value).sort().map((key) => [key, sort(value[key])])) : value
+  return JSON.stringify(sort(content))
+}
+export async function lessonContentHash(record) {
+  const bytes = new TextEncoder().encode(canonicalLessonContent(record))
+  const digest = await globalThis.crypto.subtle.digest('SHA-256', bytes)
+  return Array.from(new Uint8Array(digest), (byte) => byte.toString(16).padStart(2, '0')).join('')
+}
+export async function lessonValidationIssue(record) {
+  const approval = record?.lessonValidation
+  if (approval?.status !== 'approved') return 'Approbation de la leçon absente.'
+  if (typeof record.lessonContentVersion !== 'string' || !record.lessonContentVersion.trim()
+    || approval.contentVersion !== record.lessonContentVersion) return 'Version de validation absente ou périmée.'
+  if (!Array.isArray(approval.reviewerIds) || approval.reviewerIds.some((id) => typeof id !== 'string' || !id.trim())
+    || new Set(approval.reviewerIds.map((id) => id.trim())).size < 2) return 'Deux relecteurs distincts sont requis.'
+  if (!Array.isArray(approval.evidenceUrls) || !approval.evidenceUrls.length || approval.evidenceUrls.some((url) => {
+    try { return !['http:', 'https:'].includes(new URL(url).protocol) } catch { return true }
+  })) return 'Preuves de relecture absentes ou invalides.'
+  if (!Array.isArray(approval.unresolvedFindings) || approval.unresolvedFindings.length) return 'Des remarques restent ouvertes ou leur état manque.'
+  if (!/^[a-f0-9]{64}$/.test(record.lessonContentHash || '') || approval.contentHash !== record.lessonContentHash) return 'Empreinte de validation absente ou périmée.'
+  try {
+    if (await lessonContentHash(record) !== record.lessonContentHash) return 'Contenu modifié depuis la validation.'
+  } catch { return 'Vérification de l’empreinte indisponible.' }
+  return ''
+}
+export async function corpusLessonValidationIssue(records, learner = {}) {
+  if (!records.length) return 'Choisir une fiche validée.'
+  for (const record of records) {
+    const issue = await lessonValidationIssue(record)
+    if (issue) return `${record.title || record.id || 'Fiche'} : ${issue}`
+  }
+  if (learner.retestItems != null && !Array.isArray(learner.retestItems)) return 'Retest : données invalides.'
+  if (learner.retestItems?.length) {
+    const issue = await lessonValidationIssue(learner)
+    if (issue) return `Retest : ${issue}`
+  }
+  return ''
+}
+export async function cookCorpusLesson(records,'''
+s=s.replace(needle,code)
+s=s.replace('  const lessonConfig = { ...CORPUS_CONFIG.lesson', "  const validationIssue = await corpusLessonValidationIssue(records, learner)\n  if (validationIssue) throw new Error(`Leçon bloquée : ${validationIssue}`)\n  const lessonConfig = { ...CORPUS_CONFIG.lesson",1)
+s=s.replace('Niveaux pédagogiques estimés ; relecture native non confirmée.', 'Niveaux pédagogiques estimés ; validation éditoriale liée au contenu, sans garantie de maîtrise.')
+p.write_text(s)
+p=root/'JapaneseCorpus.jsx'; s=p.read_text().replace('cookCorpusLesson, originalExamples','cookCorpusLesson, corpusLessonValidationIssue, originalExamples')
+s=s.replace("  const [lesson, setLesson] = useState(null)","  const [lesson, setLesson] = useState(null)\n  const [validationIssue, setValidationIssue] = useState('Choisir une fiche validée.')\n  const [validating, setValidating] = useState(false)")
+s=s.replace('  const domains = useMemo', '''  // 13 October 2026 00:10 CEST: stale approval checks cannot unlock a newer selection.
+  useEffect(() => {
+    let alive = true
+    setValidating(true); setLesson(null)
+    corpusLessonValidationIssue(selection, catalogue?.learner).then((issue) => {
+      if (alive) { setValidationIssue(issue); setValidating(false) }
+    }).catch(() => { if (alive) { setValidationIssue('Vérification indisponible.'); setValidating(false) } })
+    return () => { alive = false }
+  }, [selection, catalogue])
+
+  const domains = useMemo''',1)
+s=s.replace('  function downloadLesson() {', '''  async function prepareLesson() {
+    try {
+      setLesson(await cookCorpusLesson(selection, { script, activity, date: today(), learner: catalogue.learner }, { ...CORPUS_CONFIG, lesson: catalogue.lesson || CORPUS_CONFIG.lesson }))
+      setError('')
+    } catch (failure) { setLesson(null); setError(failure.message) }
+  }
+  async function downloadLesson() {
+    const issue = await corpusLessonValidationIssue(selection, catalogue?.learner)
+    if (!lesson || issue) { setLesson(null); setValidationIssue(issue || 'Préparer une leçon validée.'); return }''',1)
+old='''<button type="button" disabled={!selection.length} onClick={() => { try { setLesson(cookCorpusLesson(selection, { script, activity, date: today(), learner: catalogue.learner }, { ...CORPUS_CONFIG, lesson: catalogue.lesson || CORPUS_CONFIG.lesson })); setError('') } catch (failure) { setLesson(null); setError(failure.message) } }}>Préparer la leçon</button>'''
+assert old in s
+s=s.replace(old,'''<button type="button" disabled={!selection.length || validating || !!validationIssue} onClick={prepareLesson}>Préparer la leçon</button>''')
+s=s.replace('        {lesson && <>', '''        <p role="status">{validating ? 'Vérification de la validation…' : validationIssue ? `Leçon bloquée : ${validationIssue}` : 'Validation vérifiée : deux relecteurs distincts, contenu inchangé.'}</p>
+        {lesson && <>''',1)
+s=s.replace('onClick={downloadLesson}>Télécharger', 'disabled={validating || !!validationIssue} onClick={downloadLesson}>Télécharger')
+p.write_text(s)

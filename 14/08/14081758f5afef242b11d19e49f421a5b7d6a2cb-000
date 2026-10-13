@@ -1,0 +1,29 @@
+{
+  "checkedAt": "13 October 2026",
+  "results": [
+    {
+      "label": "get",
+      "status": 405,
+      "bytes": 49,
+      "elapsedMs": 2468
+    },
+    {
+      "label": "invalid",
+      "status": 400,
+      "bytes": 112,
+      "elapsedMs": 107
+    },
+    {
+      "label": "status",
+      "status": 200,
+      "bytes": 68836765,
+      "elapsedMs": 377
+    },
+    {
+      "label": "invalid-after-status",
+      "status": 400,
+      "bytes": 112,
+      "elapsedMs": 2
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+// 13 October 2026, 00:00 CEST: sample function stacks only; never evaluate runtime variables or serialize application objects.
+import { readFile, writeFile } from 'node:fs/promises'
+const directory = '/Users/zenray/.claude/tmp/tmp-zenray-japanese/review'
+const durationMs = 10000
+const endpoints = JSON.parse(await readFile(`${directory}/BridgeInspectorEndpoint.json`, 'utf8'))
+const endpoint = endpoints.find(item => item.url?.includes('TraceAssetsBridge.mjs'))
+if (!endpoint) throw new Error('Trace wrapper inspector endpoint unavailable')
+const websocket = new WebSocket(endpoint.webSocketDebuggerUrl)
+await new Promise((resolve, reject) => { websocket.addEventListener('open', resolve, { once: true }); websocket.addEventListener('error', reject, { once: true }) })
+let serial = 0
+const pending = new Map()
+websocket.addEventListener('message', message => {
+  const result = JSON.parse(message.data)
+  if (!result.id) return
+  const callbacks = pending.get(result.id); pending.delete(result.id)
+  if (result.error) callbacks.reject(new Error(result.error.message))
+  else callbacks.resolve(result.result)
+})
+const call = (method, params = {}) => new Promise((resolve, reject) => {
+  const id = ++serial; pending.set(id, { resolve, reject }); websocket.send(JSON.stringify({ id, method, params }))
+})
+await call('Profiler.enable')
+await call('Profiler.start')
+await new Promise(resolve => setTimeout(resolve, durationMs))
+const { profile } = await call('Profiler.stop')
+await writeFile(`${directory}/BridgeCpuProfile.json`, JSON.stringify(profile))
+websocket.close()
+const top = profile.nodes.filter(node => node.hitCount).sort((a, b) => b.hitCount - a.hitCount).slice(0, 20).map(node => ({ functionName: node.callFrame.functionName, url: node.callFrame.url, lineNumber: node.callFrame.lineNumber, hitCount: node.hitCount }))
+await writeFile(`${directory}/BridgeCpuSummary.json`, JSON.stringify({ checkedAt: '13 October 2026', durationMs, top }, null, 2) + '\n')
+console.log(JSON.stringify({ durationMs, top }))

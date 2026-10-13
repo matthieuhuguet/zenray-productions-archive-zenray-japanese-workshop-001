@@ -1,0 +1,56 @@
+// 13 October 2026, 00:00 CEST: trace boundaries only; never log request bodies, headers, credentials, or project data.
+import { performance } from 'node:perf_hooks'
+import { execFile } from 'node:child_process'
+import { promisify } from 'node:util'
+import { appendFileSync } from 'node:fs'
+import { AssetsService } from '/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/scripts/AssetsService.mjs'
+const settings = {
+  port: 3100,
+  tickIntervalMs: 250,
+  delayedTickThresholdMs: 1000,
+  logPath: '/Users/zenray/.claude/tmp/tmp-zenray-japanese/review/BridgeLiveTrace.jsonl',
+}
+const execFileAsync = promisify(execFile)
+const credential = await execFileAsync('gh', ['auth', 'token'], { timeout: 5000 })
+process.env.GITHUB_TOKEN = credential.stdout.trim()
+process.env.ZENRAY_API_SECRET = ''
+process.argv[2] = String(settings.port)
+let serial = 0
+const started = performance.now()
+const emit = value => {
+  const safeRecord = { elapsedMs: Math.round(performance.now() - started), ...value }
+  const line = JSON.stringify(safeRecord)
+  appendFileSync(settings.logPath, line + '\n', { mode: 0o600 })
+  console.log(line)
+}
+const safeAction = action => ['status', 'invalid-probe', 'dashboard', 'list', 'context', 'global-index', 'workspace-catalogue', 'project-conversations', 'conversations', 'conversation', 'inventory', 'publish', 'archive', 'watch', 'register'].includes(action) ? action : '[other]'
+const originalHandleHttp = AssetsService.prototype.handleHttp
+const originalRequest = AssetsService.prototype.request
+AssetsService.prototype.handleHttp = async function (req, res) {
+  const traceId = ++serial
+  let pathname = '[unparsed]'
+  try { pathname = new URL(req.url, 'http://127.0.0.1').pathname } catch {}
+  emit({ event: 'http-received', traceId, method: req.method, pathname })
+  req.once('end', () => emit({ event: 'http-body-ended', traceId, readableEnded: req.readableEnded }))
+  req.once('aborted', () => emit({ event: 'http-aborted', traceId }))
+  res.once('finish', () => emit({ event: 'http-response-finished', traceId, statusCode: res.statusCode }))
+  try { return await originalHandleHttp.call(this, req, res) }
+  finally { emit({ event: 'http-handler-returned', traceId }) }
+}
+AssetsService.prototype.request = async function (action, payload) {
+  const traceId = ++serial
+  const safe = safeAction(action)
+  emit({ event: 'request-entered', traceId, action: safe })
+  let success = false
+  try { const result = await originalRequest.call(this, action, payload); success = true; return result }
+  finally { emit({ event: 'request-returned', traceId, action: safe, success }) }
+}
+let previous = performance.now()
+const timer = setInterval(() => {
+  const now = performance.now(), delayMs = Math.round(now - previous - settings.tickIntervalMs)
+  previous = now
+  if (delayMs >= settings.delayedTickThresholdMs) emit({ event: 'tick-delayed', delayMs })
+}, settings.tickIntervalMs)
+timer.unref()
+emit({ event: 'trace-started', nodeVersion: process.version, port: settings.port })
+await import('/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/scripts/local-server.mjs')

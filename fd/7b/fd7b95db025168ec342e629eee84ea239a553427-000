@@ -7,9 +7,12 @@ ROOT = Path(__file__).resolve().parent.parent
 DATE = '12 October 2026'
 SOURCE_INDEX = json.loads((ROOT / 'SourceIndex.json').read_text())
 SOURCE_EVIDENCE = {r['index']: r for r in json.loads((ROOT / 'AdvancedSourceEvidence.json').read_text())}
-FOUNDATION_IDS = {'grammar-copula', 'grammar-verb-groups', 'grammar-te-form', 'grammar-case-particles', 'grammar-relative-clause', 'grammar-nominalization', 'grammar-result-state', 'grammar-potential', 'grammar-volitional'}
+FOUNDATION_IDS = {'grammar-i-adjectives', 'grammar-copula', 'grammar-verb-groups', 'grammar-te-form', 'grammar-case-particles', 'grammar-relative-clause', 'grammar-nominalization', 'grammar-result-state', 'grammar-potential', 'grammar-volitional'}
 
 def prerequisites(identifier, family):
+    # 13 October 2026, 09:36 CEST: the irregular good stem is a required dependency of nominalization.
+    if identifier == 'adjective-sa':
+        return ['grammar-i-adjectives', 'grammar-verb-groups', 'grammar-copula']
     if identifier == 'causative-passive':
         return ['adv-causative', 'adv-passive-direct']
     if identifier in ['younimo', 'youmononara', 'youtosuru', 'mai']:

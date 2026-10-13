@@ -1,0 +1,1014 @@
+{
+  "checkedAt": "13 October 2026",
+  "basePath": "Memory/Japanese/Site/corpus/releases/581fd72346164698",
+  "total": 251,
+  "approved": 0,
+  "blocked": 251,
+  "retestIssue": "Approbation de la leçon absente.",
+  "results": [
+    {
+      "id": "adv-kamoshirenai",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-garu",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-koto-ga-aru",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-noda",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-nagara",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-yasui",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-nikui",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-tsuzukeru",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-nakerebanaranai",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-hoga-ii",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-nikoshitakotohanai",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-tameni-cause",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-youni-purpose",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-youninaru",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-younisuru",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-rashii-inference",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-rashii-typical",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-souda-appearance",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-souda-hearsay",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-passive-direct",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-causative",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-causative-passive",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-toka",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-hodo-negative",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-chuu-juu",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-youtosuru",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-toiu",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-kuseni",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-naosu",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-wasure",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-kiru",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-au",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-adjective-sa",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-me",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-sekkaku",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-wazawaza",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-tsumori",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-hazuda",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-bekida",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-zuni",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-nitsuite",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-nikanshite",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-womegutte",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-dakeni",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-nomi",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-koso",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-wakedehanai",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-wakeganai",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-wakenihaikanai",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-nichigainai",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-nimotozuite",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-wofumaete",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-womotoni",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-nishitagatte-change",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-teirai",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-tabini",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-nitotte",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-toshite",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-wotoshite",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-niwatatte",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-naikotoniha",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-kotonaku",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-nashi",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-nara-dewa",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-wo-oite",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-zuniha-irarenai",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-te-naranai",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-te-tamaranai",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-te-yamanai",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-zuniha-sumanai",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-wo-kinjienai",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-gatai",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-zurai",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-kagiri-condition",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-kagiridewa",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-toha-kagiranai",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-wo-kagirini",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-nikuwaete",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-nitodomarazu",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-wa-oroka",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-mai",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-younimo",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-youmononara",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-shidai",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-nari-immediate",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-to-omoikiya",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-ageku",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-sueni",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-shimatsuda",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-nimokakawarazu",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-nikakawarazu",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-wo-towazu",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-ikan-ni",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-womonotomosezu",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-woyosoni",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-nisakidatte",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-nisaishite",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-niataru",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-nitaru",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-beku",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-gatera",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-katawara",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-tsuideni",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-tsutsu",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-tsutsuaru",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-ga-hayaika",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-sobakara",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "adv-kirai-ga-aru",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "grammar-copula",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "grammar-topic",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "grammar-existence",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "grammar-counters",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "grammar-polite-nonpast",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "grammar-i-adjectives",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "grammar-verb-groups",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "grammar-te-form",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "grammar-progressive",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "grammar-result-state",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "grammar-prepared-state",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "grammar-case-particles",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "grammar-permission",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "grammar-prohibition",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "grammar-negative-request",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "grammar-volitional",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "grammar-desire",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "grammar-potential",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "grammar-relative-clause",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "grammar-nominalization",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "grammar-cause",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "grammar-concession-noni",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "grammar-condition-to",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "grammar-condition-tara",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "grammar-condition-ba",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "grammar-condition-nara",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "grammar-concessive-temo",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "grammar-giving",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "grammar-benefactive",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "grammar-direction-change",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "grammar-preparation",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "grammar-trying",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "grammar-only",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "grammar-final-particles",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "grammar-honorific",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "grammar-wake",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "grammar-wari",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "grammar-nishitewa",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "grammar-monono",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "grammar-kaneru",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "grammar-kanenai",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "grammar-zaru",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "grammar-totan",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "grammar-yainaya",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "grammar-toiedomo",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "grammar-itaru",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "grammar-yoginaku",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "grammar-mademonai",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "grammar-womotte-means",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "method-can-do",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "method-retrieval",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "method-jlpt-scope",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "method-no-official-list",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "beyond-keigo-five",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "beyond-register-choice",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "japan-adv-jomon-name",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "japan-adv-jomon-settled",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "japan-adv-dogu",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "japan-adv-yayoi-rice",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "japan-adv-dotaku",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "japan-adv-kofun-forms",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "japan-adv-haniwa",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "japan-adv-asuka-imports",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "japan-adv-nara-permanent",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "japan-adv-fujiwara",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "japan-adv-heian-kana",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "japan-adv-yamatoe-context",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "japan-adv-bakufu",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "japan-adv-nanbokucho",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "japan-adv-muromachi-name",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "japan-adv-onin-sengoku",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "japan-adv-unifiers",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "japan-adv-momoyama-two-aesthetics",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "japan-adv-edo-openings",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "japan-adv-edo-patrons",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "japan-adv-kami",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "japan-adv-sacred-objects",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "japan-adv-zen-chan",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "japan-adv-zen-ink",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "japan-adv-ukiyoe-collaboration",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "japan-adv-nishikie",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "japan-adv-emaki-reading",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "japan-adv-painting-formats",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "japan-adv-chanoyu",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "japan-adv-tea-pottery",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "japan-adv-four-seasons-image",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "japan-adv-seasonal-literature",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "japan-adv-kabuki-origin",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "japan-adv-onnagata",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "japan-adv-jidai-sewa",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "japan-adv-mie",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "japan-adv-gagaku-three",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "japan-adv-gagaku-instruments",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "japan-adv-bunraku-ensemble",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "japan-adv-bunraku-puppet",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "japan-adv-shirakami",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "japan-adv-yakushima",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "japan-adv-shiretoko",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "japan-adv-ogasawara",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "japan-adv-amami-iriomote",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "japan-adv-ryukyu-kingdom",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "japan-adv-gusuku",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "japan-adv-kii-networks",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "japan-adv-kii-syncretism",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "japan-adv-fuji-cultural",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "japan-adv-fuji-surroundings",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "japan-adv-gassho-shape",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "japan-adv-gassho-silk",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "japan-adv-hiroshima-dome",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "japan-adv-hiraizumi-gardens",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "japan-adv-meiji-industry",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "japan-adv-tomioka-france",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "japan-adv-iwami-ports",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "japan-adv-hidden-christian-sites",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "japan-adv-horyuji-wood",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "japan-regional-climate",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "japan-japan-winter",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "japan-tsuyu",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "japan-autumn-rain",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "japan-shrine-temple",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "japan-shrine-prayer",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "japan-temple-prayer",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "japan-religious-photo",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "japan-onsen-wash",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "japan-onsen-tattoo",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "japan-tipping",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "japan-oshibori",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "japan-meal-phrases",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "japan-noodle-slurp",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "japan-shoes-home",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "japan-ryokan-yukata",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "japan-train-phone",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "japan-garbage-local",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "japan-washoku-heritage",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "japan-ainu-diversity",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "japan-upopoy",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "japan-nara-kyoto-capitals",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "japan-myth-history",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "japan-golden-week",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "japan-obon",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "japan-working-holiday",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "japan-social-evidence",
+      "issue": "Approbation de la leçon absente."
+    },
+    {
+      "id": "japan-tsunami-information",
+      "issue": "Approbation de la leçon absente."
+    }
+  ]
+}

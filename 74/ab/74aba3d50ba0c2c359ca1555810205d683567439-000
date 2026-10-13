@@ -1,0 +1,25 @@
+# UI lesson validation gate (13 October 2026)
+
+13 October 2026 : Implementation is limited to the JapaneseCorpus UI/model and their tests in `/Users/zenray/.codex/worktrees/japanese-progress/src/learn/`. No corpus data, approval manifest, build, deployment or push is changed.
+
+## Exact contract (13 October 2026)
+
+13 October 2026 : Every input record, including records beyond the configured cooking limit, must have `lessonContentVersion` equal to `"1"`. Unsupported versions are blocked.
+
+13 October 2026 : `lessonContentHash` is lowercase 64-digit hexadecimal SHA256 of the UTF-8 canonical JSON of the FINAL delivered record excluding only top-level `lessonValidation` and `lessonContentHash`. All other fields participate, including version, examples, translations, readings, source metadata, generated markdown, origin and recordShard if present. Objects sort keys recursively by Unicode codepoint order, arrays retain order, JSON contains no added whitespace and Unicode strings retain their values. Numeric-key ordering is explicitly preserved by the serializer rather than relying on JavaScript object enumeration. Input is parsed JSON; avoid non-JSON values and non-integral numeric fields until cross-language float formatting is specified.
+
+13 October 2026 : The same record must contain `lessonValidation = {status: "approved", contentVersion: "1", contentHash: "<same SHA256>", reviewerIds: ["reviewer-a", "reviewer-b"], evidenceUrls: ["https://..."], unresolvedFindings: []}`. Version must match `lessonContentVersion`; stored hashes must match one another AND the hash recalculated from actual content. At least two distinct nonempty trimmed reviewer identifiers are required. Every evidence URL must parse as HTTPS; the list must be nonempty. `unresolvedFindings` must explicitly be an empty array. Missing fields, changed content, a single reviewer, duplicate identifiers, absent evidence and open/unknown findings block preparation.
+
+13 October 2026 : When `catalogue.learner.retestItems` has entries, the entire final `learner` object follows the same contract and hash exclusions, including its `retestItems`. An empty or absent retest array needs no approval; a malformed non-array retest blocks cooking. This validates the real learner object, not only a declared retest count.
+
+13 October 2026 : `cookCorpusLesson` is asynchronous and uses browser-native `crypto.subtle.digest`. Missing or failed cryptographic verification blocks cooking. No supplied hash is trusted without recomputation. Approvals are metadata claims backed by URLs, not cryptographic signatures or proof of reviewer identity; this gate cannot guarantee zero linguistic errors or native review.
+
+## Visible behavior and evidence (13 October 2026)
+
+13 October 2026 : The UI displays `Leçon bloquée : revue adversariale requise` and its specific reason. Preparation remains disabled during verification or any blocked state. No downloadable lesson appears for a blocked selection. Download performs a fresh validation; content altered after preparation removes the downloadable lesson. Request tickets stop an outdated preparation or download after the selection or activity changes.
+
+13 October 2026 : Exact check: `npm test -- src/learn/japaneseCorpusModel.test.js src/learn/JapaneseCorpus.test.jsx` from `/Users/zenray/.codex/worktrees/japanese-progress`. Result: 37 tests passed across two files. Positive approvals are explicitly synthetic fixtures and use independently calculated Node SHA256. Negative tests cover absent approval, edited content/examples/version, one reviewer, open or missing findings, missing/invalid evidence, mismatched hashes, unapproved extra input, unapproved/edited retest and edited content at download time. Serializer tests include numeric keys and supplementary Unicode keys.
+
+13 October 2026 : Current local catalogue release `581fd72346164698`: 251 checked cards, 0 approved, 251 blocked. Evidence is `/Users/zenray/.claude/tmp/tmp-zenray-japanese/review/UiGateCatalogueAudit.json`. This audit does not approve any card. Catalogue may change after this check; rerun the gate audit for a later compiled release.
+
+13 October 2026 : The repository is changed locally only. Data compilation, pushes and deployment remain the parent agent's responsibility after adversarial review.

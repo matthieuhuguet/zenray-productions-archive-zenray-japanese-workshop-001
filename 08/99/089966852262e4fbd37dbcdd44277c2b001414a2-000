@@ -186,8 +186,8 @@
     "続ける : poursuivre une activité",
     "N3",
     "verb-compounds",
-    "Base de ます + 続ける exprime la poursuite d’une action. La forme 続く est intransitive; 続ける place l’activité dans ce que l’acteur maintient.",
-    "Continuer un événement et poursuivre une action ne conduisent pas toujours au même verbe.",
+    "Le verbe autonome 続く est intransitif et 続ける transitif. En composition, base de ます + 続ける décrit une action ou un phénomène qui se prolonge, y compris involontairement. Ne pas opposer ces composés sur la seule volonté du sujet.",
+    "Les verbes autonomes 続く et 続ける et leurs composés ne se distinguent pas uniquement par le caractère volontaire de l’action.",
     134,
     [
       [
@@ -201,8 +201,8 @@
         "Il a parlé sans interruption pendant une heure."
       ],
       [
-        "雨が降り続いています。",
-        "あめがふりつづいています。",
+        "雨が降り続けています。",
+        "あめがふりつづけています。",
         "La pluie continue de tomber."
       ]
     ]
@@ -446,8 +446,8 @@
     "そうだ : une apparence perceptible",
     "N4",
     "evidence",
-    "Base de ます + そうだ annonce une apparence ou une imminence. Un adjectif en い perd い; un adjectif en な se rattache sans な. いい donne よさそう.",
-    "おいしそう signifie « semble bon »; おいしいそう rapporte une information reçue.",
+    "Base de ます + そうだ annonce une apparence ou une imminence. Un adjectif en い perd い ; un adjectif en な se rattache sans な. いい donne よさそう ; l’adjectif ない donne なさそう. Ces règles ne se transposent pas sans contrôle à toutes les négations verbales.",
+    "おいしそう signifie « semble bon » ; おいしいそう rapporte une information reçue. かわいそう signifie « qui fait pitié », pas « semble mignon » ; pour ce dernier sens, employer かわいいようだ.",
     161,
     [
       [

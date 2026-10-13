@@ -1,25 +1,27 @@
 {
-  "id": "f272f7c3-b4bd-47fb-8178-fa2e4b880ed7",
+  "id": "fa906294-c7ec-496f-975e-8f499e9f6d83",
   "projectId": "zenray-japanese",
   "type": "archive",
-  "state": "error",
-  "createdAt": "2026-10-12T20:47:02.977Z",
-  "error": "Archive engine did not confirm every selected file",
-  "startedAt": "2026-10-12T20:47:02.981Z",
+  "state": "done",
+  "createdAt": "2026-10-13T07:32:46.072Z",
+  "error": null,
+  "startedAt": "2026-10-13T07:32:46.075Z",
   "sourceConflictCount": 0,
   "progress": {
     "zr": 1,
     "ev": "done",
-    "chunked": 1039,
+    "chunked": 1,
     "images": 0,
     "videos": 0,
     "media": 0,
     "unchanged": 0,
-    "reused": 102,
+    "reused": 906,
     "restored": 0,
     "skipped": [],
-    "verifyKo": 404,
+    "verifyKo": 0,
     "sourceId": "japanese-corpus"
   },
-  "finishedAt": "2026-10-12T21:15:59.836Z"
+  "count": 12123,
+  "remainingCount": 0,
+  "finishedAt": "2026-10-13T07:54:48.230Z"
 }
