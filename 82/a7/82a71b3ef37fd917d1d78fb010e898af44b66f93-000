@@ -1,0 +1,266 @@
+<html xmlns:exercises="http://www.coelang.tufs.ac.jp/modules/exercises" xmlns:modules="http://www.coelang.tufs.ac.jp/modules" xmlns:dir="http://apache.org/cocoon/directory/2.0" xmlns:modlink="http://www.coelang.tufs.ac.jp/modules/modlink" xmlns:gmod="http://www.coelang.tufs.ac.jp/modules/gmod">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<META content="text/html; charset=utf-8" http-equiv="Content-Type">
+<meta content="width=device-width,user-scalable=yes,maximum-scale=2.0,minimum-scale=0.5" name="viewport">
+<link href="../../css/reset.css" rel="stylesheet">
+<link href="../../css/style.css" rel="stylesheet">
+<script src="//ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script><script>
+			window.jQuery || document.write('<script src="../../js/jquery-3.6.0.min.js" ><\/script>');
+		</script><script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script><script src="../../js/jquery.ui.touch-punch.js"></script><script src="../../js/gmod_script.js"></script>
+<link href="../../css/taxonomy.css" rel="stylesheet">
+
+
+ 
+<link href="../../css/font.css" rel="stylesheet">
+<title>日本語 文法 NAなN：解説</title>
+<script language="JavaScript">
+					printObjectTag();
+				</script>
+</head>
+<body>
+<div id="container">
+<header>
+<img src="../../img/head_icon.png" id="head_icon"><h1>東京外国語大学言語モジュール</h1>
+</header>
+<nav id="t_path4">&nbsp;<a href="../../../.."><span>東外大言語モジュール</span>Top</a>&nbsp;&gt;&nbsp;<a href="../../../">日本語</a>&nbsp;&gt;&nbsp;<a href="../../">文法モジュール</a>
+</nav>
+<section class="clearfix" id="content_box">
+<nav class="clearfix" id="gmodnav">
+<div class="gra_in_menu_container clearfix">
+<p class="gra_in_menu_off">
+<a href="../../contents/card/010.html">カード</a>
+</p>
+<p class="gra_in_menu">
+<a href="../../contents/explanation/010.html">解説</a>
+</p>
+<p class="gra_in_menu_off">
+<a href="../../contents/instances/010.html">例文</a>
+</p>
+<p class="gra_in_menu_off gra_in_menu_clear">
+<a href="../../contents/exercises/010.html">練習問題</a>
+</p>
+</div>
+</nav>
+<h2 xmlns:xhtml="http://www.w3.org/1999/xhtml" class="gra_in_title">NAなN</h2>
+<div class="contents">
+<div class="para">
+<div align="justify">
+<span style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">これだけは覚えよう</span>
+</div>
+
+<div>１　形容詞のうち、名詞を修飾するとき「な」をつけるものをナ形容詞(NA)と言います。</div>
+</div>
+<div class="contents">
+<div class="instanceGroup">
+<div class="gra_dl_box clearfix instance" style="display:none;">
+<div class="instTxtBlk">
+<span class="instance_t"></span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+</div>
+</div>
+<div class="para"></div>
+<div class="para">
+<div>２　｢NAな｣も「Aい」と同様に、Nの性質や特徴(色・形・大きさなど)などを示すことで、Nを修飾します。</div>
+
+<div align="justify">&nbsp;</div>
+
+
+
+<div>
+
+<table style="BORDER-RIGHT: medium none; TABLE-LAYOUT: fixed; BORDER-TOP: medium none; BORDER-LEFT: medium none;  BORDER-BOTTOM: medium none; BORDER-COLLAPSE: collapse; WORD-WRAP: break-word" class="MsoTableGrid msoUcTable" border="1">
+
+<colgroup>
+
+<col>
+
+<col>
+</colgroup>
+
+<tbody>
+
+<tr style="MIN-HEIGHT: 17px">
+
+<td style="BORDER-RIGHT: #000000 2.25pt solid; BORDER-TOP: #000000 2.25pt solid; BORDER-LEFT: #000000 2.25pt solid; BORDER-BOTTOM: #000000 2.25pt solid">
+
+<div align="center">NA</div>
+</td>
+<td style="BORDER-RIGHT: #000000 2.25pt solid; BORDER-TOP: #000000 2.25pt solid; BORDER-LEFT: #000000 2.25pt solid; BORDER-BOTTOM: #000000 2.25pt solid">
+
+<div align="center">NAな</div>
+</td>
+</tr>
+
+<tr style="MIN-HEIGHT: 34px">
+
+<td style="BORDER-RIGHT: #000000 2.25pt solid; BORDER-TOP: #000000 2.25pt solid; BORDER-LEFT: #000000 2.25pt solid; BORDER-BOTTOM: #000000 2.25pt solid">
+
+<div align="justify">&nbsp;元気</div>
+
+<div align="justify">&nbsp;すてき</div>
+</td>
+<td style="BORDER-RIGHT: #000000 2.25pt solid; BORDER-TOP: #000000 2.25pt solid; BORDER-LEFT: #000000 2.25pt solid; BORDER-BOTTOM: #000000 2.25pt solid">
+
+<div align="justify">&nbsp;元気な</div>
+
+<div align="justify">&nbsp;すてきな</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<div>&nbsp;</div>
+</div>
+<div class="contents">
+<div class="instanceGroup">
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">(1)田中さんは元気な人です。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">(2)すてきな絵ですね。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+</div>
+</div>
+<div class="para"></div>
+<div class="para">３　Nの性質や特徴などを質問するときは、｢どんなN｣でたずねます。</div>
+<div class="contents">
+<div class="instanceGroup">
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">(3)A：ようかんはどんな食べ物ですか。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">　　B：あまいおかしです。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">(4)A：どんな映画ですか。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">　　B：日本の古い映画です。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">(5)A：どんなかばんですか。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">　　B：じょうぶなかばんです。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">(6)A：どんなCDがありますか。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">　　B：静かな音楽のCDがあります。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+</div>
+</div>
+<div class="para"></div>
+<div class="para">４　「Aい」｢NAな｣が修飾するNが何であるかわかっている場合は、Nの代わりに｢の｣を使うことができます。</div>
+<div class="contents">
+<div class="instanceGroup">
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">(7)A：どの靴を買いますか。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">　　B：黒いのを買います。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">(8)A：どんな音楽がすきですか。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">　　B：静かなのがすきです。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+</div>
+</div>
+<div class="para"></div>
+<div class="para">５　２つ以上のことばが名詞を修飾する場合は、その修飾関係に注意しましょう。たとえば、例文(４)の「日本の古い映画」は、｢古い｣が｢映画｣を、｢日本の｣が｢古い映画｣を修飾しています。例文(６)の｢静かな音楽のCD｣は、｢静かな｣が｢音楽｣を、｢静かな音楽｣が｢CD｣を修飾しています。</div>
+<div class="contents">
+<div class="instanceGroup">
+<div class="gra_dl_box clearfix instance" style="display:none;">
+<div class="instTxtBlk">
+<span class="instance_t"></span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+</div>
+</div>
+<div class="para"></div>
+<div class="para">
+<div>６　ナ形容詞も、名詞の修飾以外にも文の中でさまざまな役割を果たします（「NAです／NAではありません」参照）。現れる文中の位置によって｢です｣｢に｣などがつきます（「形容詞の普通形」参照）。</div>
+</div>
+<div class="contents">
+<div class="instanceGroup">
+<div class="gra_dl_box clearfix instance" style="display:none;">
+<div class="instTxtBlk">
+<span class="instance_t"></span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+</div>
+</div>
+<div class="para"></div>
+<div class="para">７　イ形容詞とナ形容詞の違いについては035を見てください。</div>
+<div class="contents">
+<div class="instanceGroup">
+<div class="gra_dl_box clearfix instance" style="display:none;">
+<div class="instTxtBlk">
+<span class="instance_t"></span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+</div>
+</div>
+<div class="para"></div>
+</div>
+</section>
+<footer style="top: 0px;" id="footer">
+<p>
+<small>Copyright 東京外国語大学 Tokyo University of Foreign Studies. All rights reserved.</small>
+</p>
+</footer>
+</div>
+</body>
+</html>

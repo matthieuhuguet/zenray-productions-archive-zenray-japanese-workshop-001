@@ -1,0 +1,350 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:mod="http://www.coelang.tufs.ac.jp/modules" xmlns:my="http://schemas.microsoft.com/office/infopath/2003/myXSD/2004-05-07T05:04:43" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:dir="http://apache.org/cocoon/directory/2.0" xmlns:modules="http://www.coelang.tufs.ac.jp/modules" xmlns:gmod="http://www.coelang.tufs.ac.jp/modules/gmod">
+<head>
+<META content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta xmlns="" content="width=device-width,user-scalable=yes,maximum-scale=2.0,minimum-scale=0.5" name="viewport">
+<link href="./css/reset.css" rel="stylesheet">
+<link href="./css/style.css" rel="stylesheet">
+<script src="//ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script><script>
+			window.jQuery || document.write('<script src="./js/jquery-3.6.0.min.js" ><\/script>');
+		</script><script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script><script src="./js/jquery.ui.touch-punch.js"></script><script src="./js/gmod_script.js"></script>
+<link href="./css/taxonomy.css" rel="stylesheet">
+
+
+ 
+<link href="./css/font.css" rel="stylesheet">
+<title>日本語 文法 ステップ一覧</title>
+</head>
+<body>
+<div id="container">
+<header xmlns="">
+<img src="./img/head_icon.png" id="head_icon"><h1>東京外国語大学言語モジュール</h1>
+</header>
+<nav id="t_path4">&nbsp;<a href="./../.."><span>東外大言語モジュール</span>Top</a>&nbsp;&gt;&nbsp;<a href="./../">日本語</a>&nbsp;&gt;&nbsp;<a href="./">文法モジュール</a>
+</nav>
+<section xmlns="http://www.w3.org/1999/xhtml" class="clearfix" id="content_box">
+<nav id="sub_menu">
+<h2 id="sub_menu_bunpou_title2">
+<a href="./">文法モジュール</a>
+</h2>
+<div class="gra_inline">
+<div class="gra_menu_snd">
+<a href="./courses/c01/">24週コース</a>
+</div>
+</div>
+<div class="gra_inline">
+<div class="gra_menu_snd">
+<a href="./courses/c02/">48回コース</a>
+</div>
+</div>
+<div class="gra_inline">
+<div class="gra_menu_snd">
+<a href="./steplist.html">ステップ名から探す</a>
+</div>
+</div>
+<p id="gra_menu_foot">
+<a href="./how_to.html">利用の手引き</a>
+</p>
+</nav>
+<section xmlns="http://www.w3.org/1999/xhtml" id="sub_content">
+<article class="sub01_c_clm">
+<h1>ステップ名リスト</h1>
+<div class="contents">
+<ul class="ulist">
+<li class="list">
+<a href="./contents/card/001.html" target="_top">Nです／Nではありません</a>
+</li>
+<li class="list">
+<a href="./contents/card/002.html" target="_top">NはNです</a>
+</li>
+<li class="list">
+<a href="./contents/card/003.html" target="_top">Nですか</a>
+</li>
+<li class="list">
+<a href="./contents/card/004.html" target="_top">Nでした／Nではありませんでした</a>
+</li>
+<li class="list">
+<a href="./contents/card/005.html" target="_top">Nがあります／います</a>
+</li>
+<li class="list">
+<a href="./contents/card/006.html" target="_top">NにNがあります／います</a>
+</li>
+<li class="list">
+<a href="./contents/card/007.html" target="_top">Nの上／下／中／前／後</a>
+</li>
+<li class="list">
+<a href="./contents/card/008.html" target="_top">NのN</a>
+</li>
+<li class="list">
+<a href="./contents/card/009.html" target="_top">AいN</a>
+</li>
+<li class="list">
+<a href="./contents/card/010.html" target="_top">NAなN</a>
+</li>
+<li class="list">
+<a href="./contents/card/011.html" target="_top">これ／それ／あれ</a>
+</li>
+<li class="list">
+<a href="./contents/card/012.html" target="_top">ここ／そこ／あそこ</a>
+</li>
+<li class="list">
+<a href="./contents/card/013.html" target="_top">このN／そのN／あのN</a>
+</li>
+<li class="list">
+<a href="./contents/card/014.html" target="_top">どれ／どこ／どのN</a>
+</li>
+<li class="list">
+<a href="./contents/card/015.html" target="_top">数詞（1）</a>
+</li>
+<li class="list">
+<a href="./contents/card/016.html" target="_top">数詞（2）</a>
+</li>
+<li class="list">
+<a href="./contents/card/017.html" target="_top">助数詞</a>
+</li>
+<li class="list">
+<a href="./contents/card/018.html" target="_top">～時</a>
+</li>
+<li class="list">
+<a href="./contents/card/019.html" target="_top">○○分・半</a>
+</li>
+<li class="list">
+<a href="./contents/card/020.html" target="_top">昨日・今日など</a>
+</li>
+<li class="list">
+<a href="./contents/card/021.html" target="_top">毎日・毎週など</a>
+</li>
+<li class="list">
+<a href="./contents/card/022.html" target="_top">月・日付・曜日</a>
+</li>
+<li class="list">
+<a href="./contents/card/023.html" target="_top">Vます／Vません</a>
+</li>
+<li class="list">
+<a href="./contents/card/024.html" target="_top">Vますか</a>
+</li>
+<li class="list">
+<a href="./contents/card/025.html" target="_top">Vました/Vませんでした</a>
+</li>
+<li class="list">
+<a href="./contents/card/026.html" target="_top">NへVます</a>
+</li>
+<li class="list">
+<a href="./contents/card/027.html" target="_top">NをVます</a>
+</li>
+<li class="list">
+<a href="./contents/card/028.html" target="_top">NにNをＶます</a>
+</li>
+<li class="list">
+<a href="./contents/card/029.html" target="_top">時＋Vます</a>
+</li>
+<li class="list">
+<a href="./contents/card/030.html" target="_top">Aいです／Aくありません／Aくないです</a>
+</li>
+<li class="list">
+<a href="./contents/card/031.html" target="_top">Aいですか</a>
+</li>
+<li class="list">
+<a href="./contents/card/032.html" target="_top">Aかったです／Aくありませんでした／Aくなかったです</a>
+</li>
+<li class="list">
+<a href="./contents/card/034.html" target="_top">とても・あまり</a>
+</li>
+<li class="list">
+<a href="./contents/card/035.html" target="_top">イ形容詞とナ形容詞</a>
+</li>
+<li class="list">
+<a href="./contents/card/036.html" target="_top">NAです／NAではありません</a>
+</li>
+<li class="list">
+<a href="./contents/card/037.html" target="_top">N１はN２がAい／NAです</a>
+</li>
+<li class="list">
+<a href="./contents/card/038.html" target="_top">普通形の体系</a>
+</li>
+<li class="list">
+<a href="./contents/card/039.html" target="_top">動詞の３種類</a>
+</li>
+<li class="list">
+<a href="./contents/card/040.html" target="_top">形容詞の普通形</a>
+</li>
+<li class="list">
+<a href="./contents/card/041.html" target="_top">名詞述語の普通形</a>
+</li>
+<li class="list">
+<a href="./contents/card/042.html" target="_top">普通形と丁寧形</a>
+</li>
+<li class="list">
+<a href="./contents/card/043.html" target="_top">Vて（て形）</a>
+</li>
+<li class="list">
+<a href="./contents/card/044.html" target="_top">Vています（進行）／Vていません</a>
+</li>
+<li class="list">
+<a href="./contents/card/045.html" target="_top">Vています（状態）</a>
+</li>
+<li class="list">
+<a href="./contents/card/046.html" target="_top">Vてあります</a>
+</li>
+<li class="list">
+<a href="./contents/card/047.html" target="_top">NとN</a>
+</li>
+<li class="list">
+<a href="./contents/card/048.html" target="_top">NやN</a>
+</li>
+<li class="list">
+<a href="./contents/card/049.html" target="_top">AくてA・NAでNA・NでN</a>
+</li>
+<li class="list">
+<a href="./contents/card/050.html" target="_top">Vたり、Vたりします</a>
+</li>
+<li class="list">
+<a href="./contents/card/051.html" target="_top">VてVます</a>
+</li>
+<li class="list">
+<a href="./contents/card/052.html" target="_top">助詞とは</a>
+</li>
+<li class="list">
+<a href="./contents/card/053.html" target="_top">格助詞</a>
+</li>
+<li class="list">
+<a href="./contents/card/054.html" target="_top">Nをください／Nをお願いします</a>
+</li>
+<li class="list">
+<a href="./contents/card/055.html" target="_top">Nを(数)ください／お願いします</a>
+</li>
+<li class="list">
+<a href="./contents/card/056.html" target="_top">Vてください</a>
+</li>
+<li class="list">
+<a href="./contents/card/057.html" target="_top">Vてくださいませんか</a>
+</li>
+<li class="list">
+<a href="./contents/card/058.html" target="_top">Vてもいいです</a>
+</li>
+<li class="list">
+<a href="./contents/card/059.html" target="_top">Vてはいけません／Vてはだめです</a>
+</li>
+<li class="list">
+<a href="./contents/card/060.html" target="_top">Vないでください</a>
+</li>
+<li class="list">
+<a href="./contents/card/061.html" target="_top">Nでもいいです／Nではだめです</a>
+</li>
+<li class="list">
+<a href="./contents/card/062.html" target="_top">Vませんか</a>
+</li>
+<li class="list">
+<a href="./contents/card/063.html" target="_top">Vましょう</a>
+</li>
+<li class="list">
+<a href="./contents/card/064.html" target="_top">誘いの受け方、断り方</a>
+</li>
+<li class="list">
+<a href="./contents/card/065.html" target="_top">意志形</a>
+</li>
+<li class="list">
+<a href="./contents/card/066.html" target="_top">Vようと思います／Vようと思っています</a>
+</li>
+<li class="list">
+<a href="./contents/card/067.html" target="_top">Vたいです／Vたくありません</a>
+</li>
+<li class="list">
+<a href="./contents/card/068.html" target="_top">Vたかったです／Vたくありませんでした</a>
+</li>
+<li class="list">
+<a href="./contents/card/069.html" target="_top">Nがほしいです／Nがほしくありません</a>
+</li>
+<li class="list">
+<a href="./contents/card/070.html" target="_top">Nがすきです／Nがすきではありません／Nがきらいです</a>
+</li>
+<li class="list">
+<a href="./contents/card/071.html" target="_top">こわい・悲しい・うれしい、など</a>
+</li>
+<li class="list">
+<a href="./contents/card/072.html" target="_top">Vことができます／できません</a>
+</li>
+<li class="list">
+<a href="./contents/card/073.html" target="_top">Ｎができます／できません</a>
+</li>
+<li class="list">
+<a href="./contents/card/074.html" target="_top">可能形</a>
+</li>
+<li class="list">
+<a href="./contents/card/075.html" target="_top">～でしょう</a>
+</li>
+<li class="list">
+<a href="./contents/card/076.html" target="_top">～かもしれません・～にちがいありません</a>
+</li>
+<li class="list">
+<a href="./contents/card/077.html" target="_top">～と思います</a>
+</li>
+<li class="list">
+<a href="./contents/card/078.html" target="_top"> 名詞の修飾の復習</a>
+</li>
+<li class="list">
+<a href="./contents/card/079.html" target="_top">V＋N</a>
+</li>
+<li class="list">
+<a href="./contents/card/080.html" target="_top">Vこと・Vの</a>
+</li>
+<li class="list">
+<a href="./contents/card/081.html" target="_top">理由</a>
+</li>
+<li class="list">
+<a href="./contents/card/082.html" target="_top">逆接</a>
+</li>
+<li class="list">
+<a href="./contents/card/083.html" target="_top">条件</a>
+</li>
+<li class="list">
+<a href="./contents/card/084.html" target="_top">譲歩</a>
+</li>
+<li class="list">
+<a href="./contents/card/085.html" target="_top">やりもらい</a>
+</li>
+<li class="list">
+<a href="./contents/card/086.html" target="_top">Vてあげます</a>
+</li>
+<li class="list">
+<a href="./contents/card/087.html" target="_top">Vていきます／Vてきます</a>
+</li>
+<li class="list">
+<a href="./contents/card/088.html" target="_top">Vておきます／Vてみます</a>
+</li>
+<li class="list">
+<a href="./contents/card/089.html" target="_top">スタイルとは</a>
+</li>
+<li class="list">
+<a href="./contents/card/090.html" target="_top">普通体</a>
+</li>
+<li class="list">
+<a href="./contents/card/091.html" target="_top">丁寧体</a>
+</li>
+<li class="list">
+<a href="./contents/card/092.html" target="_top">敬語</a>
+</li>
+<li class="list">
+<a href="./contents/card/093.html" target="_top">～とき</a>
+</li>
+<li class="list">
+<a href="./contents/card/094.html" target="_top">接続助詞</a>
+</li>
+<li class="list">
+<a href="./contents/card/095.html" target="_top">副助詞</a>
+</li>
+<li class="list">
+<a href="./contents/card/096.html" target="_top">終助詞</a>
+</li>
+</ul>
+</div>
+</article>
+</section>
+</section>
+<footer xmlns="" style="top: 0px;" id="footer">
+<p>
+<small>Copyright 東京外国語大学 Tokyo University of Foreign Studies. All rights reserved.</small>
+</p>
+</footer>
+</div>
+</body>
+</html>

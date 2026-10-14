@@ -1,0 +1,184 @@
+<html xmlns:exercises="http://www.coelang.tufs.ac.jp/modules/exercises" xmlns:modules="http://www.coelang.tufs.ac.jp/modules" xmlns:dir="http://apache.org/cocoon/directory/2.0" xmlns:modlink="http://www.coelang.tufs.ac.jp/modules/modlink" xmlns:gmod="http://www.coelang.tufs.ac.jp/modules/gmod">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<META content="text/html; charset=utf-8" http-equiv="Content-Type">
+<meta content="width=device-width,user-scalable=yes,maximum-scale=2.0,minimum-scale=0.5" name="viewport">
+<link href="../../css/reset.css" rel="stylesheet">
+<link href="../../css/style.css" rel="stylesheet">
+<script src="//ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script><script>
+			window.jQuery || document.write('<script src="../../js/jquery-3.6.0.min.js" ><\/script>');
+		</script><script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script><script src="../../js/jquery.ui.touch-punch.js"></script><script src="../../js/gmod_script.js"></script>
+<link href="../../css/taxonomy.css" rel="stylesheet">
+
+
+ 
+<link href="../../css/font.css" rel="stylesheet">
+<title>日本語 文法 Nでした／Nではありませんでした：解説</title>
+<script language="JavaScript">
+					printObjectTag();
+				</script>
+</head>
+<body>
+<div id="container">
+<header>
+<img src="../../img/head_icon.png" id="head_icon"><h1>東京外国語大学言語モジュール</h1>
+</header>
+<nav id="t_path4">&nbsp;<a href="../../../.."><span>東外大言語モジュール</span>Top</a>&nbsp;&gt;&nbsp;<a href="../../../">日本語</a>&nbsp;&gt;&nbsp;<a href="../../">文法モジュール</a>
+</nav>
+<section class="clearfix" id="content_box">
+<nav class="clearfix" id="gmodnav">
+<div class="gra_in_menu_container clearfix">
+<p class="gra_in_menu_off">
+<a href="../../contents/card/004.html">カード</a>
+</p>
+<p class="gra_in_menu">
+<a href="../../contents/explanation/004.html">解説</a>
+</p>
+<p class="gra_in_menu_off">
+<a href="../../contents/instances/004.html">例文</a>
+</p>
+<p class="gra_in_menu_off gra_in_menu_clear">
+<a href="../../contents/exercises/004.html">練習問題</a>
+</p>
+</div>
+</nav>
+<h2 xmlns:xhtml="http://www.w3.org/1999/xhtml" class="gra_in_title">Nでした／Nではありませんでした</h2>
+<div class="contents">
+<div class="para">
+<div align="justify">
+<span style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">これだけは覚えよう</span>
+</div>
+
+<div align="justify">１　「N2でした」は、N1の過去についての説明です。</div>
+
+<div align="justify">&nbsp;</div>
+
+
+<table style="BORDER-RIGHT: medium none; TABLE-LAYOUT: fixed; BORDER-TOP: medium none; BORDER-LEFT: medium none;  BORDER-BOTTOM: medium none; BORDER-COLLAPSE: collapse; WORD-WRAP: break-word" class="MsoNormalTable msoUcTable" border="1">
+
+<colgroup>
+
+<col>
+
+<col>
+
+<col>
+</colgroup>
+
+<tbody>
+
+<tr style="MIN-HEIGHT: 36pt">
+
+<td style="BORDER-RIGHT: windowtext 2.25pt solid; PADDING-RIGHT: 0px; BORDER-TOP: windowtext 2.25pt solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; VERTICAL-ALIGN: middle; BORDER-LEFT: windowtext 2.25pt solid; PADDING-TOP: 0px; BORDER-BOTTOM: windowtext 2.25pt solid">
+
+<div align="center">（N1は／が）</div>
+</td>
+<td style="BORDER-RIGHT: windowtext 2.25pt dashed; PADDING-RIGHT: 0px; BORDER-TOP: windowtext 2.25pt solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; VERTICAL-ALIGN: middle; BORDER-LEFT: windowtext 2.25pt solid; PADDING-TOP: 0px; BORDER-BOTTOM: windowtext 2.25pt solid">
+
+<div align="center">N2</div>
+</td>
+<td style="BORDER-RIGHT: windowtext 2.25pt solid; PADDING-RIGHT: 0px; BORDER-TOP: windowtext 2.25pt solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; VERTICAL-ALIGN: middle; BORDER-LEFT: windowtext 2.25pt dashed; PADDING-TOP: 0px; BORDER-BOTTOM: windowtext 2.25pt solid">
+
+<div align="center">でした</div>
+
+<div align="center">ではありませんでした</div>
+</td>
+</tr>
+</tbody>
+</table>
+
+<div align="justify">&nbsp;</div>
+</div>
+<div class="contents">
+<div class="instanceGroup">
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">(1)東京は晴れでした。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">(2)むかし、ここは公園でした。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">(3)父は先生でした。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">(4)お昼はおにぎりではありませんでした。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+</div>
+</div>
+<div class="para"></div>
+<div class="para">２　過去形は、「Ｎです」の「です」を「でした」に変えて作ります。否定の形は「Ｎではありません」の「ではありません」を「ではありませんでした」に変えて作ります。</div>
+<div class="contents">
+<div class="instanceGroup">
+<div class="gra_dl_box clearfix instance" style="display:none;">
+<div class="instTxtBlk">
+<span class="instance_t"></span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+</div>
+</div>
+<div class="para"></div>
+<div class="para">３　N1が何であるかわかっている場合は、「N1は／が」を省略することがあります。特に、質問に対する答えの中で省略されることが多いです（「Nですか」の例文参照）。質問に対する答えの場合以外にも、001示したように、「N1は／が」のない場合が多いです。</div>
+<div class="contents">
+<div class="instanceGroup">
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">(5)A：きのうは休みでしたか。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">　　B：いいえ、休みではありませんでした。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+</div>
+</div>
+<div class="para"></div>
+<div class="para">４　「Nです」の過去の否定の形には、「Nではありませんでした」のほかに、「Nではなかったです」という形もあります。</div>
+<div class="contents">
+<div class="instanceGroup">
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">(6)きのうは休みではなかったです。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+</div>
+</div>
+<div class="para"></div>
+<div class="para">５　話しことばでは、「Nではありませんでした」が「Nじゃありませんでした」になることが多いです。</div>
+<div class="contents">
+<div class="instanceGroup">
+<div class="gra_dl_box clearfix instance" style="display:none;">
+<div class="instTxtBlk">
+<span class="instance_t"></span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+</div>
+</div>
+<div class="para"></div>
+</div>
+</section>
+<footer style="top: 0px;" id="footer">
+<p>
+<small>Copyright 東京外国語大学 Tokyo University of Foreign Studies. All rights reserved.</small>
+</p>
+</footer>
+</div>
+</body>
+</html>

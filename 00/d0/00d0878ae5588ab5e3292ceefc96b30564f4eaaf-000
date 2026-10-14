@@ -1,0 +1,509 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "14 October 2026",
+  "policy": "Research candidates only. Changes require two semantic coverage reviews; no new candidate link is a coverage approval.",
+  "links": {
+    "1": [
+      "expand-copula-plain"
+    ],
+    "2": [
+      "grammar-copula",
+      "expand-adjective-desu"
+    ],
+    "3": [
+      "grammar-topic",
+      "expand-topic-wa-construction"
+    ],
+    "4": [
+      "expand-addition-mo",
+      "expand-negative-addition-mo"
+    ],
+    "5": [
+      "expand-demonstrative-things"
+    ],
+    "11": [
+      "expand-demonstrative-things",
+      "expand-discourse-sore"
+    ],
+    "19": [
+      "expand-demonstrative-things"
+    ],
+    "6": [
+      "expand-noun-no"
+    ],
+    "7": [
+      "grammar-i-adjectives",
+      "expand-i-adjective-past",
+      "expand-i-adjective-negative-past",
+      "expand-good-ii-yoi"
+    ],
+    "24": [
+      "grammar-i-adjectives",
+      "expand-i-adjective-noun",
+      "expand-adjective-desu",
+      "expand-copula-plain"
+    ],
+    "28": [
+      "expand-na-adjective-noun",
+      "expand-na-adjective-predicate",
+      "expand-copula-plain"
+    ],
+    "8": [
+      "expand-nominal-question",
+      "expand-polite-verb-question",
+      "expand-plain-question-ka"
+    ],
+    "10": [
+      "grammar-topic",
+      "grammar-existence",
+      "expand-new-subject-ga"
+    ],
+    "78": [
+      "grammar-final-particles",
+      "expand-final-yo-construction"
+    ],
+    "71": [
+      "grammar-final-particles"
+    ],
+    "12": [
+      "grammar-verb-groups",
+      "expand-ichidan-negative",
+      "expand-masu-stem-ichidan"
+    ],
+    "26": [
+      "grammar-verb-groups",
+      "expand-godan-negative",
+      "expand-masu-stem-godan",
+      "expand-verb-dictionary-nonpast"
+    ],
+    "21": [
+      "grammar-case-particles",
+      "expand-traversed-place-o"
+    ],
+    "1082": [
+      "grammar-polite-nonpast",
+      "expand-polite-verb-past",
+      "expand-masu-stem-ichidan",
+      "expand-masu-stem-godan",
+      "expand-masu-stem-irregular"
+    ],
+    "51": [
+      "expand-ichidan-negative",
+      "expand-masu-stem-ichidan"
+    ],
+    "888": [
+      "expand-godan-negative",
+      "expand-masu-stem-godan"
+    ],
+    "15": [
+      "expand-noun-coordination-to"
+    ],
+    "14": [
+      "expand-demonstrative-places"
+    ],
+    "20": [
+      "expand-demonstrative-places",
+      "expand-discourse-soko"
+    ],
+    "29": [
+      "expand-demonstrative-places",
+      "expand-discourse-asoko"
+    ],
+    "25": [
+      "grammar-case-particles"
+    ],
+    "32": [
+      "grammar-case-particles",
+      "expand-location-existence",
+      "expand-time-ni",
+      "expand-recipient-ni"
+    ],
+    "33": [
+      "expand-or-ka",
+      "expand-predicate-alternatives-ka"
+    ],
+    "955": [
+      "expand-accompaniment-to",
+      "expand-interaction-to-ni"
+    ],
+    "9": [
+      "expand-probability-deshou",
+      "expand-deshou-attachment"
+    ],
+    "13": [
+      "grammar-existence",
+      "expand-location-existence",
+      "expand-godan-negative",
+      "expand-verb-dictionary-nonpast",
+      "expand-existence-neutral-negative"
+    ],
+    "23": [
+      "grammar-existence",
+      "expand-location-existence"
+    ],
+    "30": [
+      "expand-demonstrative-noun"
+    ],
+    "37": [
+      "expand-demonstrative-noun"
+    ],
+    "47": [
+      "expand-demonstrative-noun"
+    ],
+    "17": [
+      "adv-noda",
+      "expand-explanatory-question-no",
+      "expand-explanatory-statement-noda"
+    ],
+    "874": [
+      "expand-i-adjective-past"
+    ],
+    "16": [
+      "grammar-nominalization",
+      "expand-verb-nominalization-no"
+    ],
+    "953": [
+      "expand-i-adjective-noun"
+    ],
+    "954": [
+      "expand-na-adjective-noun",
+      "expand-na-no-noun-attribution"
+    ],
+    "31": [
+      "expand-destination-he"
+    ],
+    "22": [
+      "expand-irregular-suru",
+      "expand-noun-object-suru"
+    ],
+    "39": [
+      "expand-irregular-kuru",
+      "expand-come-reference-result"
+    ],
+    "895": [
+      "expand-plain-verb-past",
+      "grammar-te-form",
+      "expand-ichidan-te-past",
+      "expand-masu-stem-ichidan"
+    ],
+    "41": [
+      "expand-plain-verb-past",
+      "grammar-te-form",
+      "expand-masu-stem-godan"
+    ],
+    "716": [
+      "expand-likes-noun",
+      "expand-like-na-attribution"
+    ],
+    "717": [
+      "expand-likes-noun",
+      "expand-na-adjective-predicate",
+      "expand-dislike-kirai-attribution"
+    ],
+    "34": [
+      "grammar-nominalization",
+      "expand-likes-noun",
+      "expand-activity-liking-tense"
+    ],
+    "355": [
+      "grammar-existence",
+      "grammar-relative-clause",
+      "expand-attributive-existence-gaaru"
+    ],
+    "873": [
+      "grammar-i-adjectives",
+      "expand-i-adjective-polite-negative"
+    ],
+    "36": [
+      "expand-instrument-de",
+      "expand-group-participants-de"
+    ],
+    "62": [
+      "grammar-cause"
+    ],
+    "45": [
+      "grammar-cause",
+      "expand-cause-kara-attachment"
+    ],
+    "52": [
+      "expand-starting-kara"
+    ],
+    "361": [
+      "grammar-concession-noni",
+      "expand-concession-kedo-attachment"
+    ],
+    "896": [
+      "expand-plain-negative-past",
+      "expand-ichidan-negative",
+      "expand-polite-verb-negative-past"
+    ],
+    "897": [
+      "expand-plain-negative-past",
+      "expand-godan-negative",
+      "expand-polite-verb-negative-past"
+    ],
+    "416": [
+      "grammar-te-form",
+      "expand-irregular-suru",
+      "expand-irregular-kuru",
+      "expand-ichidan-te-past"
+    ],
+    "27": [
+      "grammar-progressive",
+      "grammar-result-state"
+    ],
+    "38": [
+      "expand-destination-he"
+    ],
+    "48": [
+      "expand-purpose-ni-iku"
+    ],
+    "1095": [
+      "expand-why-doushite"
+    ],
+    "951": [
+      "grammar-i-adjectives",
+      "expand-adjective-desu",
+      "expand-topic-wa-construction"
+    ],
+    "952": [
+      "expand-copula-plain",
+      "expand-na-adjective-predicate"
+    ],
+    "40": [
+      "expand-copula-past",
+      "expand-copula-plain-past"
+    ],
+    "876": [
+      "grammar-i-adjectives",
+      "expand-i-adjective-past",
+      "expand-i-adjective-negative-past"
+    ],
+    "356": [
+      "expand-quotation-omou",
+      "expand-quotation-to-speech"
+    ],
+    "357": [
+      "grammar-relative-clause",
+      "grammar-progressive",
+      "grammar-result-state"
+    ],
+    "720": [
+      "expand-noun-no",
+      "expand-noun-ellipsis-no",
+      "expand-adjective-nominalization-no"
+    ],
+    "43": [
+      "grammar-only",
+      "expand-dake-attachment"
+    ],
+    "712": [
+      "expand-interrogative-demonstratives",
+      "expand-choice-dore-binary"
+    ],
+    "56": [
+      "expand-interrogative-demonstratives"
+    ],
+    "713": [
+      "expand-interrogative-demonstratives",
+      "expand-choice-dono-freechoice"
+    ],
+    "764": [
+      "grammar-result-state"
+    ],
+    "64": [
+      "expand-after-te-kara"
+    ],
+    "770": [
+      "expand-action-sequence-te"
+    ],
+    "42": [
+      "expand-already-mou",
+      "expand-negative-mou"
+    ],
+    "72": [
+      "expand-still-mada"
+    ],
+    "83": [
+      "expand-not-yet-teinai"
+    ],
+    "46": [
+      "grammar-permission",
+      "expand-nonverbal-acceptability"
+    ],
+    "59": [
+      "grammar-desire",
+      "expand-tai-object-and-scope"
+    ],
+    "79": [
+      "expand-action-list-tari"
+    ],
+    "53": [
+      "expand-before-mae-ni",
+      "expand-spatial-nouns"
+    ],
+    "58": [
+      "expand-endpoint-made"
+    ],
+    "76": [
+      "expand-too-sugiru"
+    ],
+    "84": [
+      "expand-choice-ni-suru"
+    ],
+    "57": [
+      "expand-change-naru"
+    ],
+    "55": [
+      "expand-superlative-ichiban"
+    ],
+    "73": [
+      "expand-comparison-yori"
+    ],
+    "718": [
+      "expand-something-nanika"
+    ],
+    "721": [
+      "expand-someone-dareka"
+    ],
+    "70": [
+      "expand-suggestion-mashou"
+    ],
+    "75": [
+      "expand-offer-mashouka"
+    ],
+    "82": [
+      "expand-invitation-masenka"
+    ],
+    "35": [
+      "grammar-permission"
+    ],
+    "60": [
+      "expand-verb-request"
+    ],
+    "65": [
+      "grammar-negative-request"
+    ],
+    "67": [
+      "grammar-prohibition"
+    ],
+    "86": [
+      "adv-nakerebanaranai",
+      "expand-obligation-nakute-ikenai"
+    ],
+    "87": [
+      "adv-nakerebanaranai",
+      "expand-obligation-nakute-naranai"
+    ],
+    "68": [
+      "adv-hoga-ii"
+    ],
+    "69": [
+      "adv-hoga-ii"
+    ],
+    "74": [
+      "expand-obligation-contraction",
+      "expand-obligation-nakute-ikenai"
+    ],
+    "81": [
+      "expand-noun-coordination-ya"
+    ],
+    "63": [
+      "adv-koto-ga-aru"
+    ],
+    "765": [
+      "grammar-progressive",
+      "grammar-result-state",
+      "expand-teiru-habit"
+    ],
+    "769": [
+      "expand-predicate-coordination",
+      "expand-good-adjective-link"
+    ],
+    "85": [
+      "expand-skill-heta"
+    ],
+    "77": [
+      "expand-skill-jouzu"
+    ],
+    "719": [
+      "expand-na-adjective-noun",
+      "expand-i-adjective-noun",
+      "expand-adjective-nominalization-no"
+    ],
+    "722": [
+      "grammar-giving",
+      "expand-giving-ageru-particles"
+    ],
+    "723": [
+      "grammar-giving",
+      "expand-giving-kureru-particles"
+    ],
+    "724": [
+      "grammar-giving",
+      "expand-receiving-morau-particles"
+    ],
+    "54": [
+      "grammar-concession-noni",
+      "expand-concession-kedo-attachment"
+    ],
+    "80": [
+      "adv-tsumori"
+    ],
+    "18": [
+      "expand-probability-darou"
+    ],
+    "1104": [
+      "expand-explanatory-question-no"
+    ],
+    "44": [
+      "expand-ga-conjunction"
+    ],
+    "714": [
+      "expand-person-dare"
+    ],
+    "1094": [
+      "expand-why-naze"
+    ],
+    "1096": [
+      "expand-why-nande"
+    ],
+    "49": [
+      "expand-copula-plain-negative"
+    ],
+    "50": [
+      "expand-copula-plain-negative-past"
+    ],
+    "358": [
+      "expand-colloquial-quotation-tte"
+    ],
+    "950": [
+      "expand-verb-dictionary-nonpast",
+      "expand-masu-stem-ichidan",
+      "expand-masu-stem-godan",
+      "expand-masu-stem-irregular"
+    ],
+    "1103": [
+      "expand-subject-no-attributive"
+    ],
+    "66": [
+      "expand-prohibition-na"
+    ],
+    "359": [
+      "expand-degree-kekkou"
+    ],
+    "715": [
+      "expand-quantity-takusan"
+    ],
+    "61": [
+      "expand-approximation-kurai"
+    ],
+    "360": [
+      "expand-verb-until-made"
+    ],
+    "771": [
+      "expand-adjective-te-clause"
+    ]
+  },
+  "updatedAt": "14 October 2026"
+}

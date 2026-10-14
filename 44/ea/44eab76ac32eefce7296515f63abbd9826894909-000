@@ -1,0 +1,146 @@
+<html xmlns:exercises="http://www.coelang.tufs.ac.jp/modules/exercises" xmlns:modules="http://www.coelang.tufs.ac.jp/modules" xmlns:dir="http://apache.org/cocoon/directory/2.0" xmlns:modlink="http://www.coelang.tufs.ac.jp/modules/modlink" xmlns:gmod="http://www.coelang.tufs.ac.jp/modules/gmod">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<META content="text/html; charset=utf-8" http-equiv="Content-Type">
+<meta content="width=device-width,user-scalable=yes,maximum-scale=2.0,minimum-scale=0.5" name="viewport">
+<link href="../../css/reset.css" rel="stylesheet">
+<link href="../../css/style.css" rel="stylesheet">
+<script src="//ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script><script>
+			window.jQuery || document.write('<script src="../../js/jquery-3.6.0.min.js" ><\/script>');
+		</script><script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script><script src="../../js/jquery.ui.touch-punch.js"></script><script src="../../js/gmod_script.js"></script>
+<link href="../../css/taxonomy.css" rel="stylesheet">
+
+
+ 
+<link href="../../css/font.css" rel="stylesheet">
+<title>日本語 文法 Vますか：解説</title>
+<script language="JavaScript">
+					printObjectTag();
+				</script>
+</head>
+<body>
+<div id="container">
+<header>
+<img src="../../img/head_icon.png" id="head_icon"><h1>東京外国語大学言語モジュール</h1>
+</header>
+<nav id="t_path4">&nbsp;<a href="../../../.."><span>東外大言語モジュール</span>Top</a>&nbsp;&gt;&nbsp;<a href="../../../">日本語</a>&nbsp;&gt;&nbsp;<a href="../../">文法モジュール</a>
+</nav>
+<section class="clearfix" id="content_box">
+<nav class="clearfix" id="gmodnav">
+<div class="gra_in_menu_container clearfix">
+<p class="gra_in_menu_off">
+<a href="../../contents/card/024.html">カード</a>
+</p>
+<p class="gra_in_menu">
+<a href="../../contents/explanation/024.html">解説</a>
+</p>
+<p class="gra_in_menu_off">
+<a href="../../contents/instances/024.html">例文</a>
+</p>
+<p class="gra_in_menu_off gra_in_menu_clear">
+<a href="../../contents/exercises/024.html">練習問題</a>
+</p>
+</div>
+</nav>
+<h2 xmlns:xhtml="http://www.w3.org/1999/xhtml" class="gra_in_title">Vますか</h2>
+<div class="contents">
+<div class="para">
+<div align="justify">
+<span style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">これだけは覚えよう</span>
+</div>
+
+<div>１　「Vますか」は、動詞の丁寧な肯定疑問形（非過去）です。（過去の形は「Vました/Vませんでした 」）（疑問文と「か」の働きについては「Nですか 」、「終助詞」の解説Ⅰ）</div>
+</div>
+<div class="contents">
+<div class="instanceGroup">
+<div class="gra_dl_box clearfix instance" style="display:none;">
+<div class="instTxtBlk">
+<span class="instance_t"></span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+</div>
+</div>
+<div class="para"></div>
+<div class="para">２　「Vますか」は文末にきて、以下のことをたずねるときに使います。</div>
+<div class="contents">
+<div class="instanceGroup">
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">(2)テレビはピアノのそばにありますか。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">　　　－テレビがピアノのそばにあるかどうか</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">(3)田中さんは教室にいますか。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">　　　－田中さんが教室にいるかどうか</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">(4)これから図書館で勉強しますか。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">　　　－聞き手がこれから図書館で勉強するかどうか</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+</div>
+</div>
+<div class="para"></div>
+<div class="para">３　「Vませんか」は、行為が起きないことや状態がないことをたずねるよりも、話し手のおそれ、期待の表現や聞き手への誘いかけなどに用いるのがふつうです。（くわしくは「Vませんか 」）</div>
+<div class="contents">
+<div class="instanceGroup">
+<div class="gra_dl_box clearfix instance" style="display:none;">
+<div class="instTxtBlk">
+<span class="instance_t"></span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+</div>
+</div>
+<div class="para"></div>
+<div class="para">４　 Nが何であるかわかっている場合は、「Nは／が」を省略することがあります。（「Vます／Vません」参照）特に、質問に対する答えの中で省略されることが多いです。</div>
+<div class="contents">
+<div class="instanceGroup">
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">(3)&rsquo;A：田中さんは教室にいますか。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">　　 B：はい、います。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+</div>
+</div>
+<div class="para"></div>
+</div>
+</section>
+<footer style="top: 0px;" id="footer">
+<p>
+<small>Copyright 東京外国語大学 Tokyo University of Foreign Studies. All rights reserved.</small>
+</p>
+</footer>
+</div>
+</body>
+</html>

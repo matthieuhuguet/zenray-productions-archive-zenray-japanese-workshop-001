@@ -1,0 +1,388 @@
+<html xmlns:exercises="http://www.coelang.tufs.ac.jp/modules/exercises" xmlns:modules="http://www.coelang.tufs.ac.jp/modules" xmlns:dir="http://apache.org/cocoon/directory/2.0" xmlns:modlink="http://www.coelang.tufs.ac.jp/modules/modlink" xmlns:gmod="http://www.coelang.tufs.ac.jp/modules/gmod">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<META content="text/html; charset=utf-8" http-equiv="Content-Type">
+<meta content="width=device-width,user-scalable=yes,maximum-scale=2.0,minimum-scale=0.5" name="viewport">
+<link href="../../css/reset.css" rel="stylesheet">
+<link href="../../css/style.css" rel="stylesheet">
+<script src="//ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script><script>
+			window.jQuery || document.write('<script src="../../js/jquery-3.6.0.min.js" ><\/script>');
+		</script><script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script><script src="../../js/jquery.ui.touch-punch.js"></script><script src="../../js/gmod_script.js"></script>
+<link href="../../css/taxonomy.css" rel="stylesheet">
+
+
+ 
+<link href="../../css/font.css" rel="stylesheet">
+<title>日本語 文法 AくてA・NAでNA・NでN：解説</title>
+<script language="JavaScript">
+					printObjectTag();
+				</script>
+</head>
+<body>
+<div id="container">
+<header>
+<img src="../../img/head_icon.png" id="head_icon"><h1>東京外国語大学言語モジュール</h1>
+</header>
+<nav id="t_path4">&nbsp;<a href="../../../.."><span>東外大言語モジュール</span>Top</a>&nbsp;&gt;&nbsp;<a href="../../../">日本語</a>&nbsp;&gt;&nbsp;<a href="../../">文法モジュール</a>
+</nav>
+<section class="clearfix" id="content_box">
+<nav class="clearfix" id="gmodnav">
+<div class="gra_in_menu_container clearfix">
+<p class="gra_in_menu_off">
+<a href="../../contents/card/049.html">カード</a>
+</p>
+<p class="gra_in_menu">
+<a href="../../contents/explanation/049.html">解説</a>
+</p>
+<p class="gra_in_menu_off">
+<a href="../../contents/instances/049.html">例文</a>
+</p>
+<p class="gra_in_menu_off gra_in_menu_clear">
+<a href="../../contents/exercises/049.html">練習問題</a>
+</p>
+</div>
+</nav>
+<h2 xmlns:xhtml="http://www.w3.org/1999/xhtml" class="gra_in_title">AくてA・NAでNA・NでN</h2>
+<div class="contents">
+<div class="para">
+<div align="justify">
+<span style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">これだけは覚えよう</span>
+</div>
+
+<div align="justify">１ 「Aくて／NAで／Nで」は、２つ以上の名詞・形容詞をつないで、Nを修飾することができます。</div>
+
+<div align="justify">&nbsp;</div>
+
+<div align="justify">
+
+<table style="TABLE-LAYOUT: fixed;  BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-COLLAPSE: collapse; WORD-WRAP: break-word; BORDER-BOTTOM-STYLE: none" class="msoUcTable" border="1">
+
+<colgroup>
+
+<col>
+
+<col>
+</colgroup>
+
+<tbody>
+
+<tr style="MIN-HEIGHT: 91px">
+
+<td style="BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none"></td>
+<td style="BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none">
+
+<div>
+<img style="WIDTH: 484px; HEIGHT: 100px" src="msoinline/4fb323e8ca824d30"></div>
+</td>
+</tr>
+
+<tr style="MIN-HEIGHT: 4px">
+
+<td style="BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none"></td>
+<td style="BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none">
+
+<div>&nbsp;</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<div align="justify">①「A1い」と「A2い」をつなぐときは、「A1い」を「A1くて」にします。</div>
+
+<div align="justify">&nbsp;例：大きいかばん＋黒いかばん&rarr;大きくて黒いかばん</div>
+</div>
+<div class="contents">
+<div class="instanceGroup">
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">(1)大きくて黒いかばんはわたしのです。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+</div>
+</div>
+<div class="para"></div>
+<div class="para">
+<div align="justify">②「NA1な」と「NA2な」をつなぐときは、「NA1な」を「NA1で」にします。</div>
+
+<div align="justify">&nbsp;例：きれいなアパート＋静かなアパート&rarr;きれいで静かなアパート</div>
+</div>
+<div class="contents">
+<div class="instanceGroup">
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">(2)きれいで静かなアパートに住んでいます。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+</div>
+</div>
+<div class="para"></div>
+<div class="para">
+<div align="justify">③「N1の」と「N2の」をつなぐときは、「N1の」を「N1で」にします。</div>
+
+<div align="justify">&nbsp;例：３年生の金さん＋留学生の金さん</div>
+</div>
+<div class="contents">
+<div class="instanceGroup">
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">(3)３年生で留学生の金さん</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+</div>
+</div>
+<div class="para"></div>
+<div class="para">
+<div>２　「Aくて／ANで／Nで」は、２つ以上の文をつなぐことができます。</div>
+
+<div>&nbsp;</div>
+
+<div>
+
+<table style="TABLE-LAYOUT: fixed;  BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-COLLAPSE: collapse; WORD-WRAP: break-word; BORDER-BOTTOM-STYLE: none" class="msoUcTable" border="1">
+
+<colgroup>
+
+<col>
+
+<col>
+</colgroup>
+
+<tbody>
+
+<tr style="MIN-HEIGHT: 87px">
+
+<td style="BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none"></td>
+<td style="BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none">
+
+<div>
+<img style="WIDTH: 508px; HEIGHT: 100px" src="msoinline/40e201bbf9b04e11"></div>
+</td>
+</tr>
+
+<tr style="MIN-HEIGHT: 4px">
+
+<td style="BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none"></td>
+<td style="BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none">
+
+<div>&nbsp;</div>
+
+<div>&nbsp;</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<div align="justify">&para;１番目の「A1です」「NA1です」「N1です」をそれぞれ「A1くて」「NA1で」「N1で」にします。</div>
+
+<div align="justify">例：この花は小さいです。＋この花は赤いです。</div>
+</div>
+<div class="contents">
+<div class="instanceGroup">
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">&rarr;(4)この花は小さくて赤いです。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+</div>
+</div>
+<div class="para"></div>
+<div class="para">
+<div align="justify">例：木村さんはテニスがじょうずです。＋小林さんはサッカーがじょうずです。</div>
+</div>
+<div class="contents">
+<div class="instanceGroup">
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">&rarr;(5)木村さんはテニスがじょうずで、小林さんはサッカーがじょうずです。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+</div>
+</div>
+<div class="para"></div>
+<div class="para">
+<div align="justify">例：田中さんは３年生です。＋中村さんは４年生です。</div>
+</div>
+<div class="contents">
+<div class="instanceGroup">
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">&rarr;(6)田中さんは３年生で、中村さんは４年生です。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+</div>
+</div>
+<div class="para"></div>
+<div class="para">
+<div align="justify">３　「NAでAい」「AくてNの」のような組み合わせもできます。</div>
+</div>
+<div class="contents">
+<div class="instanceGroup">
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">(7)親切でおもしろい人</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">(8)若くてお金持ちの人</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+</div>
+</div>
+<div class="para"></div>
+<div class="para">
+<div align="justify">４　マイナス評価のことばとプラス評価のことばはつなげられません。つなげるときは「が(接続)」を使います。</div>
+</div>
+<div class="contents">
+<div class="instanceGroup">
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">(9)この靴下は、じょうぶで安いです。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">(9)&rsquo;&times;この靴下は、じょうぶで高いです。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">(9)" この靴下はじょうぶですが、高いです。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+</div>
+</div>
+<div class="para"></div>
+<div class="para">
+<div align="justify">
+<span style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">余裕があれば</span>
+</div>
+
+<div align="justify">５　「Aくて／NAで／Nで」と「Vます」をつなぐこともできます。</div>
+
+<div align="justify">&nbsp;</div>
+
+<div>
+
+<table style="BORDER-RIGHT: medium none; TABLE-LAYOUT: fixed; BORDER-TOP: medium none; BORDER-LEFT: medium none;  BORDER-BOTTOM: medium none; BORDER-COLLAPSE: collapse; WORD-WRAP: break-word" class="MsoNormalTable msoUcTable" border="1">
+
+<colgroup>
+
+<col>
+
+<col>
+
+<col>
+
+<col>
+
+<col>
+
+<col>
+
+<col>
+</colgroup>
+
+<tbody>
+
+<tr>
+
+<td style="BORDER-RIGHT: #000000 2.25pt solid; BORDER-TOP: #000000 2.25pt solid; BORDER-LEFT: #000000 2.25pt solid; BORDER-BOTTOM: #000000 2.25pt solid">
+
+<div align="center">Aい</div>
+
+<div align="center">NA</div>
+
+<div align="center">N</div>
+</td>
+<td style="BORDER-RIGHT: #000000 2.25pt solid; BORDER-TOP: #000000 2.25pt solid; BORDER-LEFT: #000000 2.25pt solid; BORDER-BOTTOM: #000000 2.25pt solid">
+
+<div align="center">です</div>
+</td>
+<td style="BORDER-RIGHT: #000000 2.25pt solid; BORDER-TOP: medium none; BORDER-LEFT: #000000 2.25pt solid; BORDER-BOTTOM: medium none">
+
+<div align="center">＋</div>
+</td>
+<td style="BORDER-RIGHT: #000000 2.25pt solid; BORDER-TOP: #000000 2.25pt solid; BORDER-LEFT: #000000 2.25pt solid; BORDER-BOTTOM: #000000 2.25pt solid">
+
+<div align="center">Vます</div>
+</td>
+<td style="BORDER-RIGHT: #000000 2.25pt solid; BORDER-TOP: medium none; BORDER-LEFT: #000000 2.25pt solid; BORDER-BOTTOM: medium none">
+
+<div align="center">&rarr;</div>
+</td>
+<td style="BORDER-RIGHT: #000000 2.25pt solid; PADDING-RIGHT: 0px; BORDER-TOP: #000000 2.25pt solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; VERTICAL-ALIGN: middle; BORDER-LEFT: #000000 2.25pt solid; PADDING-TOP: 0px; BORDER-BOTTOM: #000000 2.25pt solid">
+
+<div align="center">Aくて</div>
+
+<div align="center">NAで</div>
+
+<div align="center">Nで</div>
+</td>
+<td style="BORDER-RIGHT: #000000 2.25pt solid; BORDER-TOP: #000000 2.25pt solid; BORDER-LEFT: #000000 2.25pt solid; BORDER-BOTTOM: #000000 2.25pt solid">
+
+<div align="center">Vます</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<div align="justify">&nbsp;</div>
+
+<div align="justify">例：田中さんは背が高いです。＋田中さんはめがねをかけています。</div>
+</div>
+<div class="contents">
+<div class="instanceGroup">
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">&rarr;(10)田中さんは背が高くてめがねをかけています。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+</div>
+</div>
+<div class="para"></div>
+<div class="para">
+<div align="justify">６　「Aくて／NAで／Nで」が、後に続く「Aい／NA／N／V」で表わされることの原因または理由を表わす場合もあります。</div>
+</div>
+<div class="contents">
+<div class="instanceGroup">
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">(11)この本は漢字が多くて難しいです。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">(12)熱が高くて、学校へ行くことができませんでした。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+</div>
+</div>
+<div class="para"></div>
+</div>
+</section>
+<footer style="top: 0px;" id="footer">
+<p>
+<small>Copyright 東京外国語大学 Tokyo University of Foreign Studies. All rights reserved.</small>
+</p>
+</footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "scopeVersion": "14 October 2026",
+  "parameterStatus": "Initial local minimum, item selection still required; never official JLPT quantities",
+  "beyondSourceSections": [
+    "Veteran I",
+    "古典語: Classical Japanese"
+  ],
+  "levelTargets": {
+    "N5": {
+      "vocabulary": 1000,
+      "kanji": 80,
+      "reading": 20,
+      "listening": 20,
+      "interaction": 10,
+      "writing": 10
+    },
+    "N4": {
+      "vocabulary": 1500,
+      "kanji": 160,
+      "reading": 25,
+      "listening": 25,
+      "interaction": 10,
+      "writing": 10
+    },
+    "N3": {
+      "vocabulary": 2500,
+      "kanji": 402,
+      "reading": 30,
+      "listening": 30,
+      "interaction": 10,
+      "writing": 10
+    },
+    "N2": {
+      "vocabulary": 3000,
+      "kanji": 384,
+      "reading": 40,
+      "listening": 40,
+      "interaction": 10,
+      "writing": 10
+    },
+    "N1": {
+      "vocabulary": 4000,
+      "kanji": 1110,
+      "reading": 50,
+      "listening": 50,
+      "interaction": 10,
+      "writing": 10
+    },
+    "beyond-N1": {
+      "vocabulary": 1000,
+      "kanji": 0,
+      "reading": 30,
+      "listening": 30,
+      "interaction": 10,
+      "writing": 10
+    }
+  }
+}

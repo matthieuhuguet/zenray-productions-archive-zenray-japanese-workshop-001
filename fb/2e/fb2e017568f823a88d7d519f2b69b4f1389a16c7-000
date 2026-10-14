@@ -1,0 +1,225 @@
+<html xmlns:exercises="http://www.coelang.tufs.ac.jp/modules/exercises" xmlns:modules="http://www.coelang.tufs.ac.jp/modules" xmlns:dir="http://apache.org/cocoon/directory/2.0" xmlns:modlink="http://www.coelang.tufs.ac.jp/modules/modlink" xmlns:gmod="http://www.coelang.tufs.ac.jp/modules/gmod">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<META content="text/html; charset=utf-8" http-equiv="Content-Type">
+<meta content="width=device-width,user-scalable=yes,maximum-scale=2.0,minimum-scale=0.5" name="viewport">
+<link href="../../css/reset.css" rel="stylesheet">
+<link href="../../css/style.css" rel="stylesheet">
+<script src="//ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script><script>
+			window.jQuery || document.write('<script src="../../js/jquery-3.6.0.min.js" ><\/script>');
+		</script><script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script><script src="../../js/jquery.ui.touch-punch.js"></script><script src="../../js/gmod_script.js"></script>
+<link href="../../css/taxonomy.css" rel="stylesheet">
+
+
+ 
+<link href="../../css/font.css" rel="stylesheet">
+<title>日本語 文法 NにNをＶます：解説</title>
+<script language="JavaScript">
+					printObjectTag();
+				</script>
+</head>
+<body>
+<div id="container">
+<header>
+<img src="../../img/head_icon.png" id="head_icon"><h1>東京外国語大学言語モジュール</h1>
+</header>
+<nav id="t_path4">&nbsp;<a href="../../../.."><span>東外大言語モジュール</span>Top</a>&nbsp;&gt;&nbsp;<a href="../../../">日本語</a>&nbsp;&gt;&nbsp;<a href="../../">文法モジュール</a>
+</nav>
+<section class="clearfix" id="content_box">
+<nav class="clearfix" id="gmodnav">
+<div class="gra_in_menu_container clearfix">
+<p class="gra_in_menu_off">
+<a href="../../contents/card/028.html">カード</a>
+</p>
+<p class="gra_in_menu">
+<a href="../../contents/explanation/028.html">解説</a>
+</p>
+<p class="gra_in_menu_off">
+<a href="../../contents/instances/028.html">例文</a>
+</p>
+<p class="gra_in_menu_off gra_in_menu_clear">
+<a href="../../contents/exercises/028.html">練習問題</a>
+</p>
+</div>
+</nav>
+<h2 xmlns:xhtml="http://www.w3.org/1999/xhtml" class="gra_in_title">NにNをＶます</h2>
+<div class="contents">
+<div class="para">
+<div align="justify">
+<span style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">これだけは覚えよう</span>
+</div>
+
+<div align="justify">１　広く、人と人の間のものや情報のやりとりを表わすときは、次のような構文をとります。</div>
+
+<div align="justify">&nbsp;</div>
+
+<div>
+
+<table style="BORDER-RIGHT: medium none; TABLE-LAYOUT: fixed; BORDER-TOP: medium none; BORDER-LEFT: medium none;  BORDER-BOTTOM: medium none; BORDER-COLLAPSE: collapse; WORD-WRAP: break-word" class="MsoNormalTable msoUcTable" border="1">
+
+<colgroup>
+
+<col>
+
+<col>
+
+<col>
+
+<col>
+
+<col>
+
+<col>
+</colgroup>
+
+<tbody>
+
+<tr style="MIN-HEIGHT: 33pt">
+
+<td style="BORDER-RIGHT: windowtext 2.25pt solid; PADDING-RIGHT: 0px; BORDER-TOP: windowtext 2.25pt solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; VERTICAL-ALIGN: middle; BORDER-LEFT: windowtext 2.25pt solid; PADDING-TOP: 0px; BORDER-BOTTOM: windowtext 2.25pt solid">
+
+<div align="center">（Ｎ1は／が）</div>
+</td>
+<td style="BORDER-RIGHT: windowtext 2.25pt dashed; PADDING-RIGHT: 0px; BORDER-TOP: windowtext 2.25pt solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; VERTICAL-ALIGN: middle; BORDER-LEFT: windowtext 2.25pt solid; PADDING-TOP: 0px; BORDER-BOTTOM: windowtext 2.25pt solid">
+
+<div align="center">Ｎ2</div>
+
+<div align="center">[相手]</div>
+</td>
+<td style="BORDER-RIGHT: windowtext 2.25pt solid; PADDING-RIGHT: 0px; BORDER-TOP: windowtext 2.25pt solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; VERTICAL-ALIGN: middle; BORDER-LEFT: windowtext 2.25pt dashed; PADDING-TOP: 0px; BORDER-BOTTOM: windowtext 2.25pt solid">
+
+<div align="center">に</div>
+</td>
+<td style="BORDER-RIGHT: windowtext 2.25pt dashed; PADDING-RIGHT: 0px; BORDER-TOP: windowtext 2.25pt solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; VERTICAL-ALIGN: middle; BORDER-LEFT: windowtext 2.25pt solid; PADDING-TOP: 0px; BORDER-BOTTOM: windowtext 2.25pt solid">
+
+<div align="center">Ｎ3</div>
+
+<div align="center">[対象]</div>
+</td>
+<td style="BORDER-RIGHT: windowtext 2.25pt solid; PADDING-RIGHT: 0px; BORDER-TOP: windowtext 2.25pt solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; VERTICAL-ALIGN: middle; BORDER-LEFT: windowtext 2.25pt dashed; PADDING-TOP: 0px; BORDER-BOTTOM: windowtext 2.25pt solid">
+
+<div align="center">を</div>
+</td>
+<td style="BORDER-RIGHT: windowtext 2.25pt solid; PADDING-RIGHT: 0px; BORDER-TOP: windowtext 2.25pt solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; VERTICAL-ALIGN: middle; BORDER-LEFT: windowtext 2.25pt solid; PADDING-TOP: 0px; BORDER-BOTTOM: windowtext 2.25pt solid">
+
+<div align="center">Ｖます</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<div align="justify">　　Ｎ1：行為の主体</div>
+
+<div align="justify">　　Ｎ2：行為の相手（人）</div>
+
+<div>　　Ｎ3：やりとりされるものや情報など</div>
+</div>
+<div class="contents">
+<div class="instanceGroup">
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">(1)田中さんに手紙を出します。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">(2)山田さんにお金を貸します。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">(3)木村さんに英語を教えます。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">(4)佐藤さんにプレゼントをあげます。（085参照）</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+</div>
+</div>
+<div class="para"></div>
+<div class="para">２　「に」は助詞です。非常にいろいろな関係を表わしますが、ここでは、ものや情報のやりとりの相手を表わします。（「格助詞」の解説Ⅲ参照）</div>
+<div class="contents">
+<div class="instanceGroup">
+<div class="gra_dl_box clearfix instance" style="display:none;">
+<div class="instTxtBlk">
+<span class="instance_t"></span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+</div>
+</div>
+<div class="para"></div>
+<div class="para">
+<div align="justify">
+<span style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">余裕があれば</span>
+</div>
+
+<div>３　Ｎ１がものや情報を受け取る場合にも、「Ｎ１がＮ２にＮ３をＶます」という構文を使うことがあります。</div>
+</div>
+<div class="contents">
+<div class="instanceGroup">
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">(5)山田さんにお金を借ります。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">(6)木村さんにフランス語を習います。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">(7)佐藤さんにプレゼントをもらいます。（「やりもらい」参照）</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+</div>
+</div>
+<div class="para">
+<font xmlns="http://www.w3.org/1999/xhtml" xmlns:my="http://schemas.microsoft.com/office/infopath/2003/myXSD/2004-05-07T08:01:39" face="ＭＳ 明朝">&para;この場合、「Ｎに」は「Ｎから」になることがあります。「から」は助詞です。出発点などを表わします。（「格助詞」の解説</font>
+<font xmlns="http://www.w3.org/1999/xhtml" xmlns:my="http://schemas.microsoft.com/office/infopath/2003/myXSD/2004-05-07T08:01:39" face="ＭＳ 明朝">Ⅵ参照）</font>
+</div>
+<div class="para">４　「Ｎ１がＮ２にＮ３をＶます」の構文は、他のタイプのことがらを表わす場合にも使います。</div>
+<div class="contents">
+<div class="instanceGroup">
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">(8)壁にシールをはります。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">(9)机に本を置きます。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">(10)山田さんに本を見せます。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+</div>
+</div>
+<div class="para"></div>
+</div>
+</section>
+<footer style="top: 0px;" id="footer">
+<p>
+<small>Copyright 東京外国語大学 Tokyo University of Foreign Studies. All rights reserved.</small>
+</p>
+</footer>
+</div>
+</body>
+</html>

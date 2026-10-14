@@ -1,0 +1,770 @@
+<html xmlns:exercises="http://www.coelang.tufs.ac.jp/modules/exercises" xmlns:modules="http://www.coelang.tufs.ac.jp/modules" xmlns:dir="http://apache.org/cocoon/directory/2.0" xmlns:modlink="http://www.coelang.tufs.ac.jp/modules/modlink" xmlns:gmod="http://www.coelang.tufs.ac.jp/modules/gmod">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<META content="text/html; charset=utf-8" http-equiv="Content-Type">
+<meta content="width=device-width,user-scalable=yes,maximum-scale=2.0,minimum-scale=0.5" name="viewport">
+<link href="../../css/reset.css" rel="stylesheet">
+<link href="../../css/style.css" rel="stylesheet">
+<script src="//ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script><script>
+			window.jQuery || document.write('<script src="../../js/jquery-3.6.0.min.js" ><\/script>');
+		</script><script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script><script src="../../js/jquery.ui.touch-punch.js"></script><script src="../../js/gmod_script.js"></script>
+<link href="../../css/taxonomy.css" rel="stylesheet">
+
+
+ 
+<link href="../../css/font.css" rel="stylesheet">
+<title>日本語 文法 普通形の体系：解説</title>
+<script language="JavaScript">
+					printObjectTag();
+				</script>
+</head>
+<body>
+<div id="container">
+<header>
+<img src="../../img/head_icon.png" id="head_icon"><h1>東京外国語大学言語モジュール</h1>
+</header>
+<nav id="t_path4">&nbsp;<a href="../../../.."><span>東外大言語モジュール</span>Top</a>&nbsp;&gt;&nbsp;<a href="../../../">日本語</a>&nbsp;&gt;&nbsp;<a href="../../">文法モジュール</a>
+</nav>
+<section class="clearfix" id="content_box">
+<nav class="clearfix" id="gmodnav">
+<div class="gra_in_menu_container clearfix">
+<p class="gra_in_menu_off">
+<a href="../../contents/card/038.html">カード</a>
+</p>
+<p class="gra_in_menu">
+<a href="../../contents/explanation/038.html">解説</a>
+</p>
+<p class="gra_in_menu_off">
+<a href="../../contents/instances/038.html">例文</a>
+</p>
+<p class="gra_in_menu_off gra_in_menu_clear">
+<a href="../../contents/exercises/038.html">練習問題</a>
+</p>
+</div>
+</nav>
+<h2 xmlns:xhtml="http://www.w3.org/1999/xhtml" class="gra_in_title">普通形の体系</h2>
+<div class="contents">
+<div class="para">
+<div align="justify">
+<span style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">これだけは覚えよう</span>
+</div>
+
+<div>１　これまで、動詞は「Vます」「Vません」などの形で勉強してきました。これを丁寧形と言います。表1上側に主な動詞の活用を示しました。なお、表１、表2は｢グループ1｣｢グループ2｣｢グループ3｣と分けて示していますが、このグループ1・2・3の違いについては、「動詞の３種類 」でくわしく説明します。</div>
+</div>
+<div class="contents">
+<div class="instanceGroup">
+<div class="gra_dl_box clearfix instance" style="display:none;">
+<div class="instTxtBlk">
+<span class="instance_t"></span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+</div>
+</div>
+<div class="para"></div>
+<div class="para">２　動詞にはそのほかに｢普通形｣と呼ばれる形があります。表1の下側に主な動詞の活用を示してあります。</div>
+<div class="contents">
+<div class="instanceGroup">
+<div class="gra_dl_box clearfix instance" style="display:none;">
+<div class="instTxtBlk">
+<span class="instance_t"></span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+</div>
+</div>
+<div class="para"></div>
+<div class="para">３　普通形は、親しい友人間の会話や、小説や日記・論文・レポートなどで使います。くわしくは「普通形と丁寧形」、「普通体」を見てください。</div>
+<div class="contents">
+<div class="instanceGroup">
+<div class="gra_dl_box clearfix instance" style="display:none;">
+<div class="instTxtBlk">
+<span class="instance_t"></span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+</div>
+</div>
+<div class="para"></div>
+<div class="para">４　普通形は文の部分としても使われます。くわしくは「普通形と丁寧形」を見てください。</div>
+<div class="contents">
+<div class="instanceGroup">
+<div class="gra_dl_box clearfix instance" style="display:none;">
+<div class="instTxtBlk">
+<span class="instance_t"></span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+</div>
+</div>
+<div class="para"></div>
+<div class="para">５　「ある」の常体の活用は、ほかのグループ1の動詞の活用と違うので注意が必要です。</div>
+<div class="contents">
+<div class="instanceGroup">
+<div class="gra_dl_box clearfix instance" style="display:none;">
+<div class="instTxtBlk">
+<span class="instance_t"></span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+</div>
+</div>
+<div class="para"></div>
+<div class="para">６　「ある」の「ない形」、「行く」の「て形」と「た形」の活用はほかの動詞の活用と違うので注意が必要です。</div>
+<div class="contents">
+<div class="instanceGroup">
+<div class="gra_dl_box clearfix instance" style="display:none;">
+<div class="instTxtBlk">
+<span class="instance_t"></span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+</div>
+</div>
+<div class="para"></div>
+<div class="para">７　表1・2の一番左にある語形を辞書形と言います。辞書の見出しに使われる形であり、またさまざまな活用形を作るときの基本になるので覚えてください。動詞の場合は、「普通形非過去肯定」の形と同じです。</div>
+<div class="contents">
+<div class="instanceGroup">
+<div class="gra_dl_box clearfix instance" style="display:none;">
+<div class="instTxtBlk">
+<span class="instance_t"></span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+</div>
+</div>
+<div class="para"></div>
+<div class="para">
+<div align="justify">８　よく使われる活用形の名を表2に示しました。まだ勉強していない形もありますが、これらは文の部分を作ったり、複雑な文末形式を作るときによく使います(表3参照)ので、この後のカードでもよく出てきます。そのときにこのカードを随時参照してください。</div>
+
+<div align="justify">　　辞書形（辞書の見出しになる形、すべてuで終わります。7参照）</div>
+
+<div align="justify">　　ます形（「ます」で終わる形）</div>
+
+<div align="justify">　　連用形（ます形から「ます」をとった形）</div>
+
+<div align="justify">　　ない形（普通形非過去否定の形）</div>
+
+<div align="justify">　　た形（普通形過去肯定の形）</div>
+
+<div align="justify">　　て形（た形の「た」を「て」に変えた形、043参照）</div>
+</div>
+<div class="contents">
+<div class="instanceGroup">
+<div class="gra_dl_box clearfix instance" style="display:none;">
+<div class="instTxtBlk">
+<span class="instance_t"></span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+</div>
+</div>
+<div class="para"></div>
+<div class="para">
+<div align="justify">９　「ない形」の作り方は、以下のとおりです。</div>
+
+<div align="justify">&nbsp;</div>
+
+<div align="justify">＜グループ１＞</div>
+
+<div>
+
+<table style="BORDER-RIGHT: medium none; TABLE-LAYOUT: fixed; BORDER-TOP: medium none; BORDER-LEFT: medium none;  BORDER-BOTTOM: medium none; BORDER-COLLAPSE: collapse; WORD-WRAP: break-word" class="MsoNormalTable msoUcTable" border="1">
+
+<colgroup>
+
+<col>
+
+<col>
+
+<col>
+
+<col>
+</colgroup>
+
+<tbody>
+
+<tr style="MIN-HEIGHT: 18.75pt">
+
+<td style="BORDER-RIGHT: windowtext 1pt dashed; BORDER-TOP: windowtext 1.5pt solid; BORDER-LEFT: windowtext 1.5pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+
+<div align="left">
+<span><strong>　 〇う</strong></span>
+</div>
+</td>
+<td style="BORDER-RIGHT: windowtext 1.5pt solid; BORDER-TOP: windowtext 1.5pt solid; BORDER-LEFT: windowtext 1pt dashed; BORDER-BOTTOM: windowtext 1pt solid">
+
+<div align="left">
+<span><strong>　 〇わない</strong></span>
+</div>
+</td>
+<td style="BORDER-RIGHT: windowtext 1pt dashed; BORDER-TOP: windowtext 1.5pt solid; BORDER-LEFT: windowtext 1.5pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+
+<div align="left">
+<span><strong>　 かう</strong></span>
+</div>
+</td>
+<td style="BORDER-RIGHT: windowtext 1.5pt solid; BORDER-TOP: windowtext 1.5pt solid; BORDER-LEFT: windowtext 1pt dashed; BORDER-BOTTOM: windowtext 1pt solid">
+
+<div align="left">
+<span><strong>　　&nbsp;</strong></span><span><strong>かわない</strong></span>
+</div>
+</td>
+</tr>
+
+<tr style="MIN-HEIGHT: 18.75pt">
+
+<td style="BORDER-RIGHT: windowtext 1pt dashed; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1.5pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+
+<div align="left">　〇つ</div>
+</td>
+<td style="BORDER-RIGHT: windowtext 1.5pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt dashed; BORDER-BOTTOM: windowtext 1pt solid">
+
+<div align="left">　〇たない</div>
+</td>
+<td style="BORDER-RIGHT: windowtext 1pt dashed; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1.5pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+
+<div align="left">　まつ</div>
+</td>
+<td style="BORDER-RIGHT: windowtext 1.5pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt dashed; BORDER-BOTTOM: windowtext 1pt solid">
+
+<div align="left">　　またない</div>
+</td>
+</tr>
+
+<tr style="MIN-HEIGHT: 18.75pt">
+
+<td style="BORDER-RIGHT: windowtext 1pt dashed; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1.5pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+
+<div align="left">　〇る</div>
+</td>
+<td style="BORDER-RIGHT: windowtext 1.5pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt dashed; BORDER-BOTTOM: windowtext 1pt solid">
+
+<div align="left">　〇らない</div>
+</td>
+<td style="BORDER-RIGHT: windowtext 1pt dashed; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1.5pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+
+<div align="left">　つくる</div>
+</td>
+<td style="BORDER-RIGHT: windowtext 1.5pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt dashed; BORDER-BOTTOM: windowtext 1pt solid">
+
+<div align="left">　　つくらない</div>
+</td>
+</tr>
+
+<tr style="MIN-HEIGHT: 18.75pt">
+
+<td style="BORDER-RIGHT: windowtext 1pt dashed; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1.5pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+
+<div align="left">　〇ぬ</div>
+</td>
+<td style="BORDER-RIGHT: windowtext 1.5pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt dashed; BORDER-BOTTOM: windowtext 1pt solid">
+
+<div align="left">　〇なない</div>
+</td>
+<td style="BORDER-RIGHT: windowtext 1pt dashed; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1.5pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+
+<div align="left">　しぬ</div>
+</td>
+<td style="BORDER-RIGHT: windowtext 1.5pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt dashed; BORDER-BOTTOM: windowtext 1pt solid">
+
+<div align="left">　　しなない</div>
+</td>
+</tr>
+
+<tr style="MIN-HEIGHT: 18.75pt">
+
+<td style="BORDER-RIGHT: windowtext 1pt dashed; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1.5pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+
+<div align="left">　〇ぶ</div>
+</td>
+<td style="BORDER-RIGHT: windowtext 1.5pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt dashed; BORDER-BOTTOM: windowtext 1pt solid">
+
+<div align="left">　〇ばない</div>
+</td>
+<td style="BORDER-RIGHT: windowtext 1pt dashed; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1.5pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+
+<div align="left">　あそぶ</div>
+</td>
+<td style="BORDER-RIGHT: windowtext 1.5pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt dashed; BORDER-BOTTOM: windowtext 1pt solid">
+
+<div align="left">　　あそばない</div>
+</td>
+</tr>
+
+<tr style="MIN-HEIGHT: 18.75pt">
+
+<td style="BORDER-RIGHT: windowtext 1pt dashed; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1.5pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+
+<div align="left">　〇む</div>
+</td>
+<td style="BORDER-RIGHT: windowtext 1.5pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt dashed; BORDER-BOTTOM: windowtext 1pt solid">
+
+<div align="left">　〇まない</div>
+</td>
+<td style="BORDER-RIGHT: windowtext 1pt dashed; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1.5pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+
+<div align="left">　よむ</div>
+</td>
+<td style="BORDER-RIGHT: windowtext 1.5pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt dashed; BORDER-BOTTOM: windowtext 1pt solid">
+
+<div align="left">　　よまない</div>
+</td>
+</tr>
+
+<tr style="MIN-HEIGHT: 18.75pt">
+
+<td style="BORDER-RIGHT: windowtext 1pt dashed; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1.5pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+
+<div align="left">　〇く</div>
+</td>
+<td style="BORDER-RIGHT: windowtext 1.5pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt dashed; BORDER-BOTTOM: windowtext 1pt solid">
+
+<div align="left">　〇かない</div>
+</td>
+<td style="BORDER-RIGHT: windowtext 1pt dashed; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1.5pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+
+<div align="left">　かく</div>
+</td>
+<td style="BORDER-RIGHT: windowtext 1.5pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt dashed; BORDER-BOTTOM: windowtext 1pt solid">
+
+<div align="left">　　かかない</div>
+</td>
+</tr>
+
+<tr style="MIN-HEIGHT: 18.75pt">
+
+<td style="BORDER-RIGHT: windowtext 1pt dashed; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1.5pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+
+<div align="left">　〇ぐ</div>
+</td>
+<td style="BORDER-RIGHT: windowtext 1.5pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt dashed; BORDER-BOTTOM: windowtext 1pt solid">
+
+<div align="left">　〇がない</div>
+</td>
+<td style="BORDER-RIGHT: windowtext 1pt dashed; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1.5pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+
+<div align="left">　およぐ</div>
+</td>
+<td style="BORDER-RIGHT: windowtext 1.5pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt dashed; BORDER-BOTTOM: windowtext 1pt solid">
+
+<div align="left">　　およがない</div>
+</td>
+</tr>
+
+<tr style="MIN-HEIGHT: 18.75pt">
+
+<td style="BORDER-RIGHT: windowtext 1pt dashed; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1.5pt solid; BORDER-BOTTOM: windowtext 1.5pt solid">
+
+<div align="left">　〇す</div>
+</td>
+<td style="BORDER-RIGHT: windowtext 1.5pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt dashed; BORDER-BOTTOM: windowtext 1.5pt solid">
+
+<div align="left">　〇さない</div>
+</td>
+<td style="BORDER-RIGHT: windowtext 1pt dashed; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1.5pt solid; BORDER-BOTTOM: windowtext 1.5pt solid">
+
+<div align="left">　はなす</div>
+</td>
+<td style="BORDER-RIGHT: windowtext 1.5pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt dashed; BORDER-BOTTOM: windowtext 1.5pt solid">
+
+<div align="left">　　はなさない</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<div align="justify">&nbsp;</div>
+
+<div align="justify">＜グループ２＞</div>
+
+<div>
+
+<table style="BORDER-RIGHT: medium none; TABLE-LAYOUT: fixed; BORDER-TOP: medium none; BORDER-LEFT: medium none;  BORDER-BOTTOM: medium none; BORDER-COLLAPSE: collapse; WORD-WRAP: break-word" class="MsoNormalTable msoUcTable" border="1">
+
+<colgroup>
+
+<col>
+
+<col>
+
+<col>
+
+<col>
+</colgroup>
+
+<tbody>
+
+<tr>
+
+<td style="BORDER-RIGHT: windowtext 1pt dashed; BORDER-TOP: windowtext 1.5pt solid; BORDER-LEFT: windowtext 1.5pt solid; BORDER-BOTTOM: windowtext 1.5pt solid">
+
+<div align="justify">　〇る</div>
+</td>
+<td style="BORDER-RIGHT: windowtext 1.5pt solid; BORDER-TOP: windowtext 1.5pt solid; BORDER-LEFT: windowtext 1pt dashed; BORDER-BOTTOM: windowtext 1.5pt solid">
+
+<div align="justify">　〇ない</div>
+</td>
+<td style="BORDER-RIGHT: windowtext 1pt dashed; BORDER-TOP: windowtext 1.5pt solid; BORDER-LEFT: windowtext 1.5pt solid; BORDER-BOTTOM: windowtext 1.5pt solid">
+
+<div align="justify">　おきる</div>
+
+<div align="justify">　たべる</div>
+</td>
+<td style="BORDER-RIGHT: windowtext 1.5pt solid; BORDER-TOP: windowtext 1.5pt solid; BORDER-LEFT: windowtext 1pt dashed; BORDER-BOTTOM: windowtext 1.5pt solid">
+
+<div align="justify">　　おきない</div>
+
+<div align="justify">　　たべない</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<div align="justify">&nbsp;</div>
+
+<div align="justify">＜グループ３＞</div>
+
+<div>
+
+<table style="BORDER-RIGHT: medium none; TABLE-LAYOUT: fixed; BORDER-TOP: medium none; BORDER-LEFT: medium none;  BORDER-BOTTOM: medium none; BORDER-COLLAPSE: collapse; WORD-WRAP: break-word" class="MsoNormalTable msoUcTable" border="1">
+
+<colgroup>
+
+<col>
+
+<col>
+</colgroup>
+
+<tbody>
+
+<tr>
+
+<td style="BORDER-RIGHT: windowtext 1pt dashed; BORDER-TOP: windowtext 1.5pt solid; BORDER-LEFT: windowtext 1.5pt solid; BORDER-BOTTOM: windowtext 1.5pt solid">
+
+<div align="justify">　する</div>
+
+<div align="justify">　くる</div>
+</td>
+<td style="BORDER-RIGHT: windowtext 1.5pt solid; BORDER-TOP: windowtext 1.5pt solid; BORDER-LEFT: windowtext 1pt dashed; BORDER-BOTTOM: windowtext 1.5pt solid">
+
+<div align="justify">　しない</div>
+
+<div align="justify">　こない</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<div align="justify">&nbsp;</div>
+
+<div align="justify">&nbsp;</div>
+
+<div align="justify">&para;グループ１は、辞書形の末字「u」を「anai」に置き換えて作りますが、「○う」型の「かう」「いう」「おもう」などは、「u」を「wanai」に置き換えるので注意してください。</div>
+</div>
+<div class="contents">
+<div class="instanceGroup">
+<div class="gra_dl_box clearfix instance" style="display:none;">
+<div class="instTxtBlk">
+<span class="instance_t"></span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+</div>
+</div>
+<div class="para"></div>
+<div class="para">
+<div align="justify">１０　「た形」の作り方は、以下のとおりです。なお、「○ぬ&rarr;○んだ」となる動詞は「死ぬ」だけです。</div>
+
+<div align="justify">&nbsp;</div>
+
+<div align="justify">＜グループ１＞</div>
+
+<div>
+
+<table style="BORDER-RIGHT: medium none; TABLE-LAYOUT: fixed; BORDER-TOP: medium none; BORDER-LEFT: medium none;  BORDER-BOTTOM: medium none; BORDER-COLLAPSE: collapse; WORD-WRAP: break-word" class="MsoNormalTable msoUcTable" border="1">
+
+<colgroup>
+
+<col>
+
+<col>
+
+<col>
+
+<col>
+</colgroup>
+
+<tbody>
+
+<tr style="MIN-HEIGHT: 43px">
+
+<td style="BORDER-RIGHT: windowtext 1pt dashed; BORDER-TOP: windowtext 1.5pt solid; BORDER-LEFT: windowtext 1.5pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+
+<div align="center">〇う</div>
+
+<div align="center">〇つ</div>
+
+<div align="center">〇る</div>
+</td>
+<td style="BORDER-RIGHT: windowtext 1.5pt solid; BORDER-TOP: windowtext 1.5pt solid; BORDER-LEFT: windowtext 1pt dashed; BORDER-BOTTOM: windowtext 1pt solid">
+
+<div align="center">　　</div>
+
+<div align="center">〇った</div>
+</td>
+<td style="BORDER-RIGHT: windowtext 1pt dashed; BORDER-TOP: windowtext 1.5pt solid; BORDER-LEFT: windowtext 1.5pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+
+<div align="left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;かう</div>
+
+<div align="left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; まつ</div>
+
+<div align="left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; かえる</div>
+</td>
+<td style="BORDER-RIGHT: windowtext 1.5pt solid; BORDER-TOP: windowtext 1.5pt solid; BORDER-LEFT: windowtext 1pt dashed; BORDER-BOTTOM: windowtext 1pt solid">
+
+<div align="left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; かった</div>
+
+<div align="left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; まった</div>
+
+<div align="left">&nbsp;&nbsp;&nbsp; &nbsp; かえった</div>
+</td>
+</tr>
+
+<tr style="MIN-HEIGHT: 43px">
+
+<td style="BORDER-RIGHT: windowtext 1pt dashed; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1.5pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+
+<div align="center">
+<strong><span>〇ぬ</span></strong>
+</div>
+
+<div align="center">
+<span><strong>〇ぶ</strong></span>
+</div>
+
+<div align="center">
+<span><strong>〇む</strong></span>
+</div>
+</td>
+<td style="BORDER-RIGHT: windowtext 1.5pt solid; PADDING-RIGHT: 0px; BORDER-TOP: windowtext 1pt solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; VERTICAL-ALIGN: middle; BORDER-LEFT: windowtext 1pt dashed; PADDING-TOP: 0px; BORDER-BOTTOM: windowtext 1pt solid">
+
+<div align="center">
+<strong>〇んだ</strong>
+</div>
+</td>
+<td style="BORDER-RIGHT: windowtext 1pt dashed; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1.5pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+
+<div align="left">
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;しぬ</strong>
+</div>
+
+<div align="left">
+<span><strong>&nbsp;&nbsp;&nbsp;&nbsp; あそぶ</strong></span>
+</div>
+
+<div align="left">
+<strong>&nbsp;&nbsp;&nbsp;&nbsp; よむ</strong>
+</div>
+</td>
+<td style="BORDER-RIGHT: windowtext 1.5pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt dashed; BORDER-BOTTOM: windowtext 1pt solid">
+
+<div align="left">
+<strong>&nbsp;&nbsp;&nbsp;&nbsp; しんだ</strong>
+</div>
+
+<div align="left">
+<span><strong>&nbsp;&nbsp;&nbsp;&nbsp; あそんだ</strong></span>
+</div>
+
+<div align="left">
+<span></span><strong>&nbsp;&nbsp;&nbsp;&nbsp; よんだ</strong>
+</div>
+</td>
+</tr>
+
+<tr>
+
+<td style="BORDER-RIGHT: windowtext 1pt dashed; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1.5pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+
+<div align="center">〇く</div>
+</td>
+<td style="BORDER-RIGHT: windowtext 1.5pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt dashed; BORDER-BOTTOM: windowtext 1pt solid">
+
+<div align="center">〇いた</div>
+</td>
+<td style="BORDER-RIGHT: windowtext 1pt dashed; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1.5pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+
+<div align="left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; かく</div>
+</td>
+<td style="BORDER-RIGHT: windowtext 1.5pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt dashed; BORDER-BOTTOM: windowtext 1pt solid">
+
+<div align="left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; かいた</div>
+</td>
+</tr>
+
+<tr>
+
+<td style="BORDER-RIGHT: windowtext 1pt dashed; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1.5pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+
+<div align="center">
+<strong>〇ぐ</strong>
+</div>
+</td>
+<td style="BORDER-RIGHT: windowtext 1.5pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt dashed; BORDER-BOTTOM: windowtext 1pt solid">
+
+<div align="center">
+<strong>〇いだ</strong>
+</div>
+</td>
+<td style="BORDER-RIGHT: windowtext 1pt dashed; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1.5pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+
+<div align="left">
+<strong>&nbsp;&nbsp;&nbsp;&nbsp; およぐ</strong>
+</div>
+</td>
+<td style="BORDER-RIGHT: windowtext 1.5pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt dashed; BORDER-BOTTOM: windowtext 1pt solid">
+
+<div align="left">
+<strong>&nbsp;&nbsp;&nbsp;&nbsp; およいだ</strong>
+</div>
+</td>
+</tr>
+
+<tr>
+
+<td style="BORDER-RIGHT: windowtext 1pt dashed; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1.5pt solid; BORDER-BOTTOM: windowtext 1.5pt solid">
+
+<div align="center">〇す</div>
+</td>
+<td style="BORDER-RIGHT: windowtext 1.5pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt dashed; BORDER-BOTTOM: windowtext 1.5pt solid">
+
+<div align="center">〇した</div>
+</td>
+<td style="BORDER-RIGHT: windowtext 1pt dashed; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1.5pt solid; BORDER-BOTTOM: windowtext 1.5pt solid">
+
+<div align="left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; はなす</div>
+</td>
+<td style="BORDER-RIGHT: windowtext 1.5pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt dashed; BORDER-BOTTOM: windowtext 1.5pt solid">
+
+<div align="left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; はなした</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<div align="justify">&nbsp;</div>
+
+<div align="justify">＜グループ２＞</div>
+
+<div>
+
+<table style="BORDER-RIGHT: medium none; TABLE-LAYOUT: fixed; BORDER-TOP: medium none; BORDER-LEFT: medium none;  BORDER-BOTTOM: medium none; BORDER-COLLAPSE: collapse; WORD-WRAP: break-word" class="MsoNormalTable msoUcTable" border="1">
+
+<colgroup>
+
+<col>
+
+<col>
+
+<col>
+
+<col>
+</colgroup>
+
+<tbody>
+
+<tr>
+
+<td style="BORDER-RIGHT: windowtext 1pt dashed; BORDER-TOP: windowtext 1.5pt solid; BORDER-LEFT: windowtext 1.5pt solid; BORDER-BOTTOM: windowtext 1.5pt solid">
+
+<div align="center">〇る</div>
+</td>
+<td style="BORDER-RIGHT: windowtext 1.5pt solid; BORDER-TOP: windowtext 1.5pt solid; BORDER-LEFT: windowtext 1pt dashed; BORDER-BOTTOM: windowtext 1.5pt solid">
+
+<div align="center">〇た</div>
+</td>
+<td style="BORDER-RIGHT: windowtext 1pt dashed; BORDER-TOP: windowtext 1.5pt solid; BORDER-LEFT: windowtext 1.5pt solid; BORDER-BOTTOM: windowtext 1.5pt solid">
+
+<div align="justify">　&nbsp;&nbsp;&nbsp; おきる</div>
+
+<div align="justify">　&nbsp;&nbsp;&nbsp; たべる</div>
+</td>
+<td style="BORDER-RIGHT: windowtext 1.5pt solid; BORDER-TOP: windowtext 1.5pt solid; BORDER-LEFT: windowtext 1pt dashed; BORDER-BOTTOM: windowtext 1.5pt solid">
+
+<div align="justify">　　&nbsp; おきた</div>
+
+<div align="justify">　　&nbsp; たべた</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<div align="justify">&nbsp;</div>
+
+<div align="justify">＜グループ３＞</div>
+
+<div>
+
+<table style="BORDER-RIGHT: medium none; TABLE-LAYOUT: fixed; BORDER-TOP: medium none; BORDER-LEFT: medium none;  BORDER-BOTTOM: medium none; BORDER-COLLAPSE: collapse; WORD-WRAP: break-word" class="MsoNormalTable msoUcTable" border="1">
+
+<colgroup>
+
+<col>
+
+<col>
+</colgroup>
+
+<tbody>
+
+<tr>
+
+<td style="BORDER-RIGHT: windowtext 1pt dashed; BORDER-TOP: windowtext 1.5pt solid; BORDER-LEFT: windowtext 1.5pt solid; BORDER-BOTTOM: windowtext 1.5pt solid">
+
+<div align="center">する</div>
+
+<div align="center">くる</div>
+</td>
+<td style="BORDER-RIGHT: windowtext 1.5pt solid; BORDER-TOP: windowtext 1.5pt solid; BORDER-LEFT: windowtext 1pt dashed; BORDER-BOTTOM: windowtext 1.5pt solid">
+
+<div align="justify">　　&nbsp; した</div>
+
+<div align="justify">　　&nbsp; きた</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<div align="justify">&nbsp;</div>
+
+<div align="justify">&nbsp;</div>
+
+<div align="justify">&para;ただし、「行く」は「○く」型の仲間ですが、「いいた」にはならず、「いった」になるので注意してください。</div>
+</div>
+<div class="contents">
+<div class="instanceGroup">
+<div class="gra_dl_box clearfix instance" style="display:none;">
+<div class="instTxtBlk">
+<span class="instance_t"></span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+</div>
+</div>
+<div class="para"></div>
+</div>
+</section>
+<footer style="top: 0px;" id="footer">
+<p>
+<small>Copyright 東京外国語大学 Tokyo University of Foreign Studies. All rights reserved.</small>
+</p>
+</footer>
+</div>
+</body>
+</html>

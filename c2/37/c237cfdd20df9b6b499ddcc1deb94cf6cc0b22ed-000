@@ -1,0 +1,688 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "14 October 2026",
+  "release": "29324aff31146a9c",
+  "sourceAudit": "research/coverage/N5CoverageConsensus.json",
+  "policy": "All 44 current open requirements remain in scope. Candidate links are research, not coverage approvals. Resolve ambiguous publisher statements from primary grammar evidence; never invent a construction.",
+  "requirements": [
+    {
+      "id": "bunpro-4",
+      "label": "も",
+      "sourceUrl": "https://bunpro.jp/grammar_points/%E3%82%82",
+      "candidateRecordIds": [
+        "expand-addition-mo",
+        "expand-negative-addition-mo"
+      ],
+      "requirementHash": "8174d3ec345204ce4254b95adbcc3287e0c70bb8037e77382356a5bb5ec7090b",
+      "missingAspects": [
+        "Les candidats enseignent aussi/non plus, mais pas le sens scalaire même avec un élément inattendu ou une quantité remarquable, expressément indiqué par reviewable.meaning, nuance_translation et le writeup de も.",
+        "The source explicitly includes surprising/emphatic even meaning of Nも. Neither candidate explains or illustrates this use; additive aussi/non plus alone does not teach its scalar emphasis."
+      ],
+      "proposedRecordIds": [
+        "expand-addition-mo"
+      ]
+    },
+    {
+      "id": "bunpro-8",
+      "label": "か",
+      "sourceUrl": "https://bunpro.jp/grammar_points/%E3%81%8B",
+      "candidateRecordIds": [
+        "expand-nominal-question",
+        "expand-polite-verb-question",
+        "expand-plain-question-ka"
+      ],
+      "requirementHash": "10ae4ad33477ebfdb9d55515ca9df0ea1d7bf1b671377cb546188088568cc5a1",
+      "missingAspects": [
+        "Le raccord interrogatif neutre nominal et adjectival en な sans だ, illustré par 大丈夫か dans la source, n’est pas expliqué par les candidats. Dire seulement après une forme neutre laisse manquer le contraste Nだ → Nか / NAだ → NAか."
+      ],
+      "proposedRecordIds": []
+    },
+    {
+      "id": "bunpro-12",
+      "label": "る-Verb (Dictionary)",
+      "sourceUrl": "https://bunpro.jp/grammar_points/%E3%82%8B-Verbs",
+      "candidateRecordIds": [
+        "grammar-verb-groups",
+        "expand-ichidan-negative",
+        "expand-masu-stem-ichidan"
+      ],
+      "requirementHash": "cc5cbf7447f65024a5fd1e2dc4345073f64d3c4c3768e18ad67c3bfc7b2e45ee",
+      "missingAspects": [
+        "The exact set does not explain that the dictionary る form itself is the affirmative plain/casual form used as a predicate; the removal rules alone do not teach that register/use."
+      ],
+      "proposedRecordIds": []
+    },
+    {
+      "id": "bunpro-21",
+      "label": "を",
+      "sourceUrl": "https://bunpro.jp/grammar_points/%E3%82%92",
+      "candidateRecordIds": [
+        "grammar-case-particles",
+        "expand-traversed-place-o"
+      ],
+      "requirementHash": "41c0d7bb26c3d9064010ad603028cda5274570850cbaf0d7e65a8fbc10ba9293",
+      "missingAspects": [
+        "Le を qui marque le lieu quitté dans lieuを出る, présent dans la question primaire 家を出ます et confirmé par TUFS 053, n’est pas enseigné : objet et espace traversé ne donnent pas cette construction de départ.",
+        "The source study question 家を出ます teaches を for a point of departure. Neither candidate explains departure Nを出る/離れる; an object mention and a traversed-space rule do not establish this distinct location role."
+      ],
+      "proposedRecordIds": [
+        "expand-traversed-place-o"
+      ]
+    },
+    {
+      "id": "bunpro-1082",
+      "label": "ます",
+      "sourceUrl": "https://bunpro.jp/grammar_points/polite-verb-endings",
+      "candidateRecordIds": [
+        "grammar-polite-nonpast",
+        "expand-polite-verb-past",
+        "expand-masu-stem-ichidan",
+        "expand-masu-stem-godan",
+        "expand-masu-stem-irregular"
+      ],
+      "requirementHash": "e088c6dcf6efd3464460b47a426accf613df200a7e8ca12ba4625d5dff4e327b",
+      "missingAspects": [
+        "The ordinary exclusion of polite ます from noun-modifying clauses and the sentence-medial exception before conjunctions such as が are absent.",
+        "The authored distribution caution is not taught: polite ます/です normally close a sentence but may precede conjunctions such as が in polite language."
+      ],
+      "proposedRecordIds": [
+        "expand-ga-conjunction"
+      ]
+    },
+    {
+      "id": "bunpro-51",
+      "label": "る-Verb (Negative)",
+      "sourceUrl": "https://bunpro.jp/grammar_points/%E3%82%8Bverb-%E3%81%AA%E3%81%84",
+      "candidateRecordIds": [
+        "expand-ichidan-negative",
+        "expand-masu-stem-ichidan"
+      ],
+      "requirementHash": "72b14635bf7727e05baccb4a6f05829087c1bc9afaaa6ca408617223ab166e76",
+      "missingAspects": [
+        "The ordinary conversational polite alternative ないです and its register relative to ません are absent.",
+        "Ordinary conversational ないです and its less stiff register relative to ません are not taught."
+      ],
+      "proposedRecordIds": []
+    },
+    {
+      "id": "bunpro-888",
+      "label": "う-Verb (Negative)",
+      "sourceUrl": "https://bunpro.jp/grammar_points/%E3%81%86verb--%E3%81%AA%E3%81%84",
+      "candidateRecordIds": [
+        "expand-godan-negative",
+        "expand-masu-stem-godan"
+      ],
+      "requirementHash": "6238ef9f73e723533e170cd633aceb840088c78cbc0987c5e876800fe67903e8",
+      "missingAspects": [
+        "The ordinary conversational polite alternative ないです and its register relative to ません are absent.",
+        "Ordinary conversational ないです and its less stiff register relative to ません are not taught."
+      ],
+      "proposedRecordIds": []
+    },
+    {
+      "id": "bunpro-955",
+      "label": "と",
+      "sourceUrl": "https://bunpro.jp/grammar_points/%E3%81%A8-with",
+      "candidateRecordIds": [
+        "expand-accompaniment-to",
+        "expand-interaction-to-ni"
+      ],
+      "requirementHash": "5d8f8ad10125ef3f882ce4067a6c665048cd44ebd275dc4b2c4d4d68be0938cc",
+      "missingAspects": [
+        "Les candidats bornent leurs explications et exemples aux personnes partenaires/accompagnatrices. L’accompagnement ou association de choses inanimées, illustré dans la source par カレーはご飯と食べる, n’est pas expliqué."
+      ],
+      "proposedRecordIds": []
+    },
+    {
+      "id": "bunpro-9",
+      "label": "でしょう",
+      "sourceUrl": "https://bunpro.jp/grammar_points/%E3%81%A7%E3%81%97%E3%82%87%E3%81%86",
+      "candidateRecordIds": [
+        "expand-probability-deshou",
+        "expand-deshou-attachment"
+      ],
+      "requirementHash": "51144205b5ed405c210aa9a45838f78c0ad003aadadf186a9770442bff41c6b5",
+      "missingAspects": [
+        "La réserve spécifique de Bunpro selon laquelle la supposition en でしょう repose sur une information qui motive la croyance du locuteur n’est pas exposée ; dire probable/non certain ne distingue pas cette supposition motivée d’une conjecture sans information."
+      ],
+      "proposedRecordIds": []
+    },
+    {
+      "id": "bunpro-18",
+      "label": "だろう",
+      "sourceUrl": "https://bunpro.jp/grammar_points/%E3%81%A0%E3%82%8D%E3%81%86",
+      "candidateRecordIds": [
+        "expand-probability-darou"
+      ],
+      "requirementHash": "8c7f1bef4383606e1cd40a9a6adad1623e20e3e6d6353a85ba318873806f90c6",
+      "missingAspects": [
+        "The source explicitly teaches the more casual contracted form だろ; its construction and register are absent."
+      ],
+      "proposedRecordIds": []
+    },
+    {
+      "id": "bunpro-16",
+      "label": "の",
+      "sourceUrl": "https://bunpro.jp/grammar_points/%E3%81%AE%E3%81%AF",
+      "candidateRecordIds": [
+        "grammar-nominalization",
+        "expand-verb-nominalization-no"
+      ],
+      "requirementHash": "5300adec9818f5ddf9629aa1ed3f3eda3b4aff604ea768a37fcadea4a73c4a78",
+      "missingAspects": [
+        "La construction d’identification Vのは + personne + だ/です, au cœur du writeup et de nombreuses studyQuestions (読むのは私です), n’est pas enseignée. Les candidats expliquent une activité nominalisée et son rôle, mais pas comment désigner celui qui fait l’action.",
+        "The source meaning and many questions teach identification of the person/entity through VのはN, e.g. 読むのは私です. Candidates teach nominalized actions and liking, but do not explicitly teach the referential one-who/that-which interpretation and identification construction."
+      ],
+      "proposedRecordIds": [
+        "expand-verb-nominalization-no"
+      ]
+    },
+    {
+      "id": "bunpro-22",
+      "label": "する",
+      "sourceUrl": "https://bunpro.jp/grammar_points/%E3%81%99%E3%82%8B",
+      "candidateRecordIds": [
+        "expand-irregular-suru",
+        "expand-noun-object-suru"
+      ],
+      "requirementHash": "1a8d9e9e2d529e901cf16309c01cabb5238d6f7349049984cc3067e6e358e62a",
+      "missingAspects": [
+        "The source explicitly includes making something a certain way/to make into in its meaning and writeup. Candidates restrict explanations to activity doing and established activity compounds, without explaining this change-of-state meaning or a productive construction. The source postpones causative/imperative conjugations, so those advanced forms are not demanded here."
+      ],
+      "proposedRecordIds": [
+        "expand-noun-object-suru"
+      ]
+    },
+    {
+      "id": "bunpro-895",
+      "label": "る-Verb (Past)",
+      "sourceUrl": "https://bunpro.jp/grammar_points/%E3%82%8B-verb-past",
+      "candidateRecordIds": [
+        "expand-plain-verb-past",
+        "grammar-te-form",
+        "expand-ichidan-te-past",
+        "expand-masu-stem-ichidan"
+      ],
+      "requirementHash": "d8471192e87458d7de05a9f8867075acd2c324839bb16c58b9e033df50f52454",
+      "missingAspects": [
+        "The source distinguishes past occurrence, completed action and continuing result with た; completion/result-state readings are not taught by the exact set.",
+        "The primary point explicitly teaches completion and continuing-result interpretations of た in addition to past events; the frozen cards explain only the ordinary past and warn about unrelated nonpast constructions."
+      ],
+      "proposedRecordIds": []
+    },
+    {
+      "id": "bunpro-41",
+      "label": "う-Verb (Past)",
+      "sourceUrl": "https://bunpro.jp/grammar_points/%E3%81%86-verb-past",
+      "candidateRecordIds": [
+        "expand-plain-verb-past",
+        "grammar-te-form",
+        "expand-masu-stem-godan"
+      ],
+      "requirementHash": "5fb07ac2b5d24039bfe425166160b95ad37ccb43cb32da932f20a6d50728e2d7",
+      "missingAspects": [
+        "The explicit past exceptions 問う to 問うた and 請う to 請うた are absent.",
+        "The source distinction between past occurrence, completion and a continuing result is not taught.",
+        "Completion and continuing-result interpretations of た, explicitly distinguished in the authored point, are not explained.",
+        "The primary structure explicitly includes 問う to 問うた and 請う to 請うた exceptions; the frozen table does not teach or delimit these exceptions."
+      ],
+      "proposedRecordIds": []
+    },
+    {
+      "id": "bunpro-716",
+      "label": "好き",
+      "sourceUrl": "https://bunpro.jp/grammar_points/%E3%81%99%E3%81%8D",
+      "candidateRecordIds": [
+        "expand-likes-noun",
+        "expand-like-na-attribution"
+      ],
+      "requirementHash": "2c7e4ad158025aeb281ac79b250b408561bd98e86b91357269b630494615c321",
+      "missingAspects": [
+        "Le renforcement 大好き et son sens aimer beaucoup/adorer, explicitement mentionné dans la caution et la studyQuestion 大好きだよ, ne sont expliqués dans aucun candidat de ce groupe.",
+        "The source explicitly explains 大好き as intensified liking/love and includes a 大好き study example. Neither of the two candidates teaches 大好き or its construction; romantic nuance of plain 好き is a different aspect."
+      ],
+      "proposedRecordIds": [
+        "expand-like-na-attribution"
+      ]
+    },
+    {
+      "id": "bunpro-361",
+      "label": "けど・だけど",
+      "sourceUrl": "https://bunpro.jp/grammar_points/%E3%81%91%E3%81%A9-%E3%81%A0%E3%81%91%E3%81%A9",
+      "candidateRecordIds": [
+        "grammar-concession-noni",
+        "expand-concession-kedo-attachment"
+      ],
+      "requirementHash": "2ae2c107a22efc27a9de9325d35b02f4af3543e41f85254563e132795f44ad30",
+      "missingAspects": [
+        "The ordinary source-listed けども variant is absent, as is its place between けど and けれど in the source register comparison."
+      ],
+      "proposedRecordIds": []
+    },
+    {
+      "id": "bunpro-896",
+      "label": "る-Verb (Negative-Past)",
+      "sourceUrl": "https://bunpro.jp/grammar_points/%E3%82%8B-verb-neg-past",
+      "candidateRecordIds": [
+        "expand-plain-negative-past",
+        "expand-ichidan-negative",
+        "expand-polite-verb-negative-past"
+      ],
+      "requirementHash": "b64e4bbeb9605ce2bb71165bcfc7069506fe22b84c0f6af52b26fdc30f938b70",
+      "missingAspects": [
+        "The important contrast between past non-occurrence and a not-yet-completed event linked to the present, expressed with ていない/ていません, is absent."
+      ],
+      "proposedRecordIds": []
+    },
+    {
+      "id": "bunpro-897",
+      "label": "う-Verb (Negative-Past)",
+      "sourceUrl": "https://bunpro.jp/grammar_points/%E3%81%86-verb-neg-past",
+      "candidateRecordIds": [
+        "expand-plain-negative-past",
+        "expand-godan-negative",
+        "expand-polite-verb-negative-past"
+      ],
+      "requirementHash": "a5ec2e3e892023a354b3b3c52a620a63b0bfe4662c5313298570c901190bb165",
+      "missingAspects": [
+        "The important contrast between past non-occurrence and a not-yet-completed event linked to the present, expressed with ていない/ていません, is absent."
+      ],
+      "proposedRecordIds": []
+    },
+    {
+      "id": "bunpro-416",
+      "label": "Verb + て",
+      "sourceUrl": "https://bunpro.jp/grammar_points/verb-%E3%81%A6",
+      "candidateRecordIds": [
+        "grammar-te-form",
+        "expand-irregular-suru",
+        "expand-irregular-kuru",
+        "expand-ichidan-te-past"
+      ],
+      "requirementHash": "ea7d5ca086065b78890f237e2c19857f175fa60b54255ed4b967352d7cbd5290",
+      "missingAspects": [
+        "The explicitly listed exceptional te-forms 問うて and 請うて are absent.",
+        "The primary authored structure and exception paragraph explicitly teach 問う to 問うて and 請う to 請うて; the frozen construction table neither supplies nor delimits these exceptions."
+      ],
+      "proposedRecordIds": []
+    },
+    {
+      "id": "bunpro-27",
+      "label": "ている①",
+      "sourceUrl": "https://bunpro.jp/grammar_points/%E3%81%A6%E3%81%84%E3%82%8B1",
+      "candidateRecordIds": [
+        "grammar-progressive",
+        "grammar-result-state"
+      ],
+      "requirementHash": "d68e6c60238927f58ac510efa1a21046b2db6531c3edb0213c2e616b822905c2",
+      "missingAspects": [
+        "The ordinary spoken contractions てる and てます, including their relation to tense variants such as てた, are absent."
+      ],
+      "proposedRecordIds": []
+    },
+    {
+      "id": "bunpro-714",
+      "label": "誰",
+      "sourceUrl": "https://bunpro.jp/grammar_points/%E3%81%A0%E3%82%8C",
+      "candidateRecordIds": [
+        "expand-person-dare"
+      ],
+      "requirementHash": "a77aa1b70a06adf0337f9afdb56a9a0245ec93503dfb2021fbddb75ae99b24fe",
+      "missingAspects": [
+        "誰か meaning someone and 誰も with negative predicates meaning nobody, both taught by the source, are absent from this exact set.",
+        "The primary point explicitly teaches 誰か for somebody and 誰も for any/everybody; neither productive particle construction nor its interpretation is taught in the named card.",
+        "The source-listed 誰で construction is not explained."
+      ],
+      "proposedRecordIds": []
+    },
+    {
+      "id": "bunpro-49",
+      "label": "じゃない",
+      "sourceUrl": "https://bunpro.jp/grammar_points/%E3%81%98%E3%82%83%E3%81%AA%E3%81%84",
+      "candidateRecordIds": [
+        "expand-copula-plain-negative"
+      ],
+      "requirementHash": "5fa950f4f5d3b90374ef77fd68a8dfbd26c6cc70a24093e9427628609315e7b0",
+      "missingAspects": [
+        "The restriction excluding this ordinary negative construction with i-adjectives is not explicitly taught.",
+        "The source-taught rough contractions じゃね/じゃねえ and their register warning are absent."
+      ],
+      "proposedRecordIds": []
+    },
+    {
+      "id": "bunpro-950",
+      "label": "Verbs (Non-past)",
+      "sourceUrl": "https://bunpro.jp/grammar_points/verb-non-past",
+      "candidateRecordIds": [
+        "expand-verb-dictionary-nonpast",
+        "expand-masu-stem-ichidan",
+        "expand-masu-stem-godan",
+        "expand-masu-stem-irregular"
+      ],
+      "requirementHash": "9265231a78f294917f4083d2293d1ae42d1803c435999f68833bc375581b5d17",
+      "missingAspects": [
+        "The source explicitly teaches narrative use of non-past for events happening in the scene without a temporal marker; that important usage exception is absent."
+      ],
+      "proposedRecordIds": []
+    },
+    {
+      "id": "bunpro-1103",
+      "label": "が・の (Subject)",
+      "sourceUrl": "https://bunpro.jp/grammar_points/%E3%81%AE-subject",
+      "candidateRecordIds": [
+        "expand-subject-no-attributive"
+      ],
+      "requirementHash": "b0da5d7e2e513eed39379e0ef6f9aab45d4359b031ae18dce41d1226c8265d5c",
+      "missingAspects": [
+        "The source explains choosing の to reduce repeated が or to reduce subject emphasis; those information-structure choices are absent."
+      ],
+      "proposedRecordIds": []
+    },
+    {
+      "id": "bunpro-712",
+      "label": "どれ",
+      "sourceUrl": "https://bunpro.jp/grammar_points/%E3%81%A9%E3%82%8C",
+      "candidateRecordIds": [
+        "expand-interrogative-demonstratives",
+        "expand-choice-dore-binary"
+      ],
+      "requirementHash": "d1b3023d9924e2f685ea4206a0eff78fdeae65b30285cb6e97ba94bb0a4fe1a7",
+      "missingAspects": [
+        "L’emploi de choix indifférent どれでもいい et le sens n’importe lequel/quel que soit le choix, présent dans les studyQuestions primaires, manque. Les candidats expliquent seulement la demande de choix et la distinction avec どのN ; la fiche どのNでもいい appartient à un autre groupe et ne couvre pas ce pronom.",
+        "The source studyQuestions teach free-choice どれでもいい and どれでも好き. Neither candidate explains the productive whichever/free-choice どれでも construction; the separate どの requirement cannot supply a candidate not bound to this requirement."
+      ],
+      "proposedRecordIds": [
+        "expand-choice-dore-binary"
+      ]
+    },
+    {
+      "id": "bunpro-46",
+      "label": "てもいい",
+      "sourceUrl": "https://bunpro.jp/grammar_points/%E3%81%A6%E3%82%82%E3%81%84%E3%81%84",
+      "candidateRecordIds": [
+        "grammar-permission",
+        "expand-nonverbal-acceptability"
+      ],
+      "requirementHash": "0f3dcc3b7bff064cd05a66aca593fa1b5d119ff418ec501cf1ed8a0a392391bb",
+      "missingAspects": [
+        "The ordinary option of dropping も, with its more direct/casual register restriction, is absent.",
+        "The source-taught conversational question ending てもいいの is not taught.",
+        "The primary point teaches omission of も as a more direct/familiar option; neither N/na-adjective でいい nor i-adjective くていい nor the familiar-use restriction is taught.",
+        "The source-taught contextual question with final の is not constructed in this bound set."
+      ],
+      "proposedRecordIds": []
+    },
+    {
+      "id": "bunpro-359",
+      "label": "けっこう",
+      "sourceUrl": "https://bunpro.jp/grammar_points/%E3%81%91%E3%81%A3%E3%81%93%E3%81%86",
+      "candidateRecordIds": [
+        "expand-degree-kekkou"
+      ],
+      "requirementHash": "ce6d8d684c64bbf6b4f97aed404257bd74ef78e76e459b52aa2511e1366d4b02",
+      "missingAspects": [
+        "The source lists standalone plain 結構だ alongside 結構です; that productive plain predication is absent from the exact set."
+      ],
+      "proposedRecordIds": []
+    },
+    {
+      "id": "bunpro-53",
+      "label": "まえに",
+      "sourceUrl": "https://bunpro.jp/grammar_points/%E3%81%BE%E3%81%88%E3%81%AB",
+      "candidateRecordIds": [
+        "expand-before-mae-ni",
+        "expand-spatial-nouns"
+      ],
+      "requirementHash": "836401c68f338b52f20c446ca6ac1209afba2e2c16bf7f338a7b83e3cb266b20",
+      "missingAspects": [
+        "The spatial meaning in front of and productive reference noun の前に are not taught; a generic spatial-noun card with only 上/中 does not teach 前.",
+        "The source contrast with physically deictic 手前に is absent.",
+        "The named cards never teach 前に as physically in front of something; a generic spatial construction and 上/中 examples cannot establish its lexical spatial sense.",
+        "The primary writeup contrasts 前に with physically speaker/reference-side 手前に; this usage restriction is not taught."
+      ],
+      "proposedRecordIds": []
+    },
+    {
+      "id": "bunpro-76",
+      "label": "すぎる",
+      "sourceUrl": "https://bunpro.jp/grammar_points/%E3%81%99%E3%81%8E%E3%82%8B",
+      "candidateRecordIds": [
+        "expand-too-sugiru"
+      ],
+      "requirementHash": "68b55c9e7187a86ee8a724ca28c9c19ee762bcaa5d84b1305e0a517157e4ef99",
+      "missingAspects": [
+        "Enseigner la portée négative avant すぎる : Vない vers な/なさすぎる et adjectif négatif vers なさすぎる, par opposition à すぎない. Ce contraste occupe une règle centrale de la page éditeur.",
+        "Negative lack/excess forms なさすぎる versus verbal なすぎる, and their scope difference from すぎない, are absent"
+      ],
+      "proposedRecordIds": []
+    },
+    {
+      "id": "bunpro-73",
+      "label": "より～のほうが",
+      "sourceUrl": "https://bunpro.jp/grammar_points/%E3%82%88%E3%82%8A-%E3%81%AE%E3%81%BB%E3%81%86%E3%81%8C",
+      "candidateRecordIds": [
+        "expand-comparison-yori"
+      ],
+      "requirementHash": "a5fec3580dd8934c3b089e0d252c181f83f7ffbd4213c1becee29a62e556f14b",
+      "missingAspects": [
+        "Étendre la comparaison aux verbes et adjectifs, avec Vほう et NAなほう ; la formule locale impose Bのほう pour tous les B sans limiter aux noms.",
+        "Verb + 方が, i-adjective + 方が and na-adjective + な方が are absent; the card only gives the nominal のほうが pattern"
+      ],
+      "proposedRecordIds": []
+    },
+    {
+      "id": "bunpro-721",
+      "label": "誰か・どこか・誰も・どこも",
+      "sourceUrl": "https://bunpro.jp/grammar_points/%E8%AA%B0%E3%81%8B-%E3%81%A9%E3%81%93%E3%81%8B-%E8%AA%B0%E3%82%82-%E3%81%A9%E3%81%93%E3%82%82",
+      "candidateRecordIds": [
+        "expand-someone-dareka"
+      ],
+      "requirementHash": "685105eb081fd39715ff006748740a3956fcf539af488b4ae5631890061e6fea",
+      "missingAspects": [
+        "Enseigner どこか/どこも + négation et ordre des particules : どこかに mais どこにも, 誰かと mais 誰とも.",
+        "どこか somewhere and どこも with negation nowhere are absent",
+        "Particle order 誰かに/どこかへ versus 誰にも/どこにも/誰とも is absent"
+      ],
+      "proposedRecordIds": [
+        "expand-interrogative-demonstratives"
+      ]
+    },
+    {
+      "id": "bunpro-75",
+      "label": "～ましょうか",
+      "sourceUrl": "https://bunpro.jp/grammar_points/%E3%81%BE%E3%81%97%E3%82%87%E3%81%86%E3%81%8B",
+      "candidateRecordIds": [
+        "expand-offer-mashouka"
+      ],
+      "requirementHash": "ef4f6c66888b81ff9d8d28056f8671629969770391073ff07c268f3be7cf84e0",
+      "missingAspects": [
+        "Productive replacement of ます by ましょうか or explicit attachment to the masu stem is absent",
+        "Direct suggestion/question versus invitation ませんか is not explained"
+      ],
+      "proposedRecordIds": [
+        "expand-suggestion-mashou"
+      ]
+    },
+    {
+      "id": "bunpro-82",
+      "label": "ませんか",
+      "sourceUrl": "https://bunpro.jp/grammar_points/%E3%81%BE%E3%81%9B%E3%82%93%E3%81%8B",
+      "candidateRecordIds": [
+        "expand-invitation-masenka"
+      ],
+      "requirementHash": "442f169c11a950c41881b3b265185c1b6a8542d9a4e73967f8cc0d5bf4d8ff6c",
+      "missingAspects": [
+        "Explicit masu stem + ませんか formation is not taught",
+        "Contrast with suggestion ましょうか and the register of casual ないか are absent"
+      ],
+      "proposedRecordIds": [
+        "expand-suggestion-mashou"
+      ]
+    },
+    {
+      "id": "bunpro-86",
+      "label": "なくてはいけない",
+      "sourceUrl": "https://bunpro.jp/grammar_points/%E3%81%AA%E3%81%8F%E3%81%A6%E3%81%AF%E3%81%84%E3%81%91%E3%81%AA%E3%81%84",
+      "candidateRecordIds": [
+        "adv-nakerebanaranai",
+        "expand-obligation-nakute-ikenai"
+      ],
+      "requirementHash": "f906440577af8897deafdd82e5686da94045796467677b4adccee8c64112041a",
+      "missingAspects": [
+        "The source teaches parallel なくてはならない and なくてはだめ with their formal versus casual register differences; the exact set does not teach these alternatives.",
+        "The source-taught register choice among ordinary speech/writing いけない, relatively formal/written ならない and familiar だめ is not explained by the frozen candidates."
+      ],
+      "proposedRecordIds": [
+        "expand-obligation-nakute-naranai"
+      ]
+    },
+    {
+      "id": "bunpro-87",
+      "label": "なくてはならない",
+      "sourceUrl": "https://bunpro.jp/grammar_points/%E3%81%AA%E3%81%8F%E3%81%A6%E3%81%AF%E3%81%AA%E3%82%89%E3%81%AA%E3%81%84",
+      "candidateRecordIds": [
+        "adv-nakerebanaranai",
+        "expand-obligation-nakute-naranai"
+      ],
+      "requirementHash": "00445aa50c5409489d5f0fef7bbb169b801c2d56a6a272b28fef7d570c121c3e",
+      "missingAspects": [
+        "The source-taught contraction なくちゃならない and the warning about its unusual mix of casual and formal register are absent.",
+        "The casual なくてはだめ alternative and its register are absent.",
+        "The source-taught register restriction that familiar なくちゃ is not regularly paired with formal ならない is absent."
+      ],
+      "proposedRecordIds": []
+    },
+    {
+      "id": "bunpro-74",
+      "label": "なくちゃ・なきゃ",
+      "sourceUrl": "https://bunpro.jp/grammar_points/%E3%81%AA%E3%81%8F%E3%81%A1%E3%82%83-%E3%81%AA%E3%81%8D%E3%82%83",
+      "candidateRecordIds": [
+        "expand-obligation-contraction",
+        "expand-obligation-nakute-ikenai"
+      ],
+      "requirementHash": "2cd67135da764d79361a31c1c08393c24eda364512d85295af0f526b996e8011",
+      "missingAspects": [
+        "The ordinary なけりゃ variant and its rougher register are absent.",
+        "The source-taught だめ continuation is absent, and formation of なきゃ from the correct verb negative is not given as a general productive rule.",
+        "Productively forming なきゃ from the correct negative verb is not taught: knowing that なきゃ contracts なければ does not teach how a new verb forms なければ."
+      ],
+      "proposedRecordIds": [
+        "adv-nakerebanaranai"
+      ]
+    },
+    {
+      "id": "bunpro-63",
+      "label": "たことがある",
+      "sourceUrl": "https://bunpro.jp/grammar_points/%E3%81%9F%E3%81%93%E3%81%A8%E3%81%8C%E3%81%82%E3%82%8B",
+      "candidateRecordIds": [
+        "adv-koto-ga-aru"
+      ],
+      "requirementHash": "9590ade17ec9da968b33ebd9cc21b87baa20c4e1d9968294ec57751c3d57f465",
+      "missingAspects": [
+        "Enseigner l’expérience négative Vたことがない/ありません, jamais, et le caractère fixé de こと ; les candidats n’expliquent que l’affirmative et l’occurrence occasionnelle.",
+        "Vたことがない or ありません for never having the experience is absent",
+        "Explicit prohibition on substituting の for こと in this fixed expression is absent"
+      ],
+      "proposedRecordIds": []
+    },
+    {
+      "id": "bunpro-765",
+      "label": "ている③",
+      "sourceUrl": "https://bunpro.jp/grammar_points/%E3%81%A6%E3%81%84%E3%82%8B3",
+      "candidateRecordIds": [
+        "grammar-progressive",
+        "grammar-result-state",
+        "expand-teiru-habit"
+      ],
+      "requirementHash": "c3b9db99f2632a5c84f59df5a1c0a6d27cd941e29a088751c8237021bc95d656",
+      "missingAspects": [
+        "The ordinary spoken てる/てます contractions are absent.",
+        "The source-listed とる/とります variants and their regional/literary scope are absent."
+      ],
+      "proposedRecordIds": []
+    },
+    {
+      "id": "bunpro-769",
+      "label": "Adjective + て・Noun + で",
+      "sourceUrl": "https://bunpro.jp/grammar_points/adjective-%E3%81%A6-noun-%E3%81%A7",
+      "candidateRecordIds": [
+        "expand-predicate-coordination",
+        "expand-good-adjective-link"
+      ],
+      "requirementHash": "00f1e8a3894e6ad77e012837e55f758f169f7b68a22ebe7e608cc63627becac1",
+      "missingAspects": [
+        "The source explicitly includes manner as a possible relation; the set only teaches coordination and mentions cause, without teaching a manner reading or its limits.",
+        "The source explicitly teaches a manner reading as well as linking and reason; the named cards do not explain or demonstrate the manner interpretation."
+      ],
+      "proposedRecordIds": []
+    },
+    {
+      "id": "bunpro-771",
+      "label": "Adjective + て + B",
+      "sourceUrl": "https://bunpro.jp/grammar_points/adjective-%E3%81%A6-b",
+      "candidateRecordIds": [
+        "expand-adjective-te-clause"
+      ],
+      "requirementHash": "d0815515af7c36ce1d43f4a26c02e9621d26263ee954f8a826273fe55314f7d3",
+      "missingAspects": [
+        "The source explicitly includes manner as a possible relation; the card teaches association/cause but not a manner reading or its limits.",
+        "The source explicitly distinguishes a manner reading of the link in addition to coordination and cause; this reading is not taught by the named card."
+      ],
+      "proposedRecordIds": []
+    },
+    {
+      "id": "bunpro-85",
+      "label": "のがへた",
+      "sourceUrl": "https://bunpro.jp/grammar_points/%E3%81%AE%E3%81%8C%E3%81%B8%E3%81%9F",
+      "candidateRecordIds": [
+        "expand-skill-heta"
+      ],
+      "requirementHash": "84aadad1443f36ec33c4a30e7351b2a3e3f0dffc2884c43e2c48f571d080208c",
+      "missingAspects": [
+        "Past inability puts tense on 下手だった/でした while keeping the activity verb in dictionary form; this usage restriction is absent"
+      ],
+      "proposedRecordIds": []
+    },
+    {
+      "id": "bunpro-77",
+      "label": "のがじょうず",
+      "sourceUrl": "https://bunpro.jp/grammar_points/%E3%81%AE%E3%81%8C%E3%81%98%E3%82%87%E3%81%86%E3%81%9A",
+      "candidateRecordIds": [
+        "expand-skill-jouzu"
+      ],
+      "requirementHash": "380774265804e7fda3489763f0bb23bb482ff8468bfc310760bbf28ddd245404",
+      "missingAspects": [
+        "Past ability puts tense on 上手だった/でした while keeping the activity verb in dictionary form; this usage restriction is absent"
+      ],
+      "proposedRecordIds": []
+    },
+    {
+      "id": "bunpro-54",
+      "label": "けれども",
+      "sourceUrl": "https://bunpro.jp/grammar_points/%E3%81%91%E3%82%8C%E3%81%A9%E3%82%82",
+      "candidateRecordIds": [
+        "grammar-concession-noni",
+        "expand-concession-kedo-attachment"
+      ],
+      "requirementHash": "c6fc9c174d18b1f7b7aea9442c545d58a1f115f0e5a53f74263bede1047445cc",
+      "missingAspects": [
+        "The source-listed けども variant and its relative register are absent from the exact named set."
+      ],
+      "proposedRecordIds": []
+    },
+    {
+      "id": "bunpro-80",
+      "label": "つもりだ",
+      "sourceUrl": "https://bunpro.jp/grammar_points/%E3%81%A4%E3%82%82%E3%82%8A%E3%81%A0",
+      "candidateRecordIds": [
+        "adv-tsumori"
+      ],
+      "requirementHash": "af3bbe37f8ebab62d3a544a2300ba8c935b3c14ce9036c15845d837bc6e78ef6",
+      "missingAspects": [
+        "Distinguer Vないつもり, intention de ne pas faire, de Vつもりはない, absence d’intention ; seul le premier est illustré et le second n’est pas enseigné.",
+        "Contrast between Vないつもり intending not to act and Vつもりはない having no intention to act is absent"
+      ],
+      "proposedRecordIds": []
+    }
+  ]
+}

@@ -1,0 +1,381 @@
+<html xmlns:exercises="http://www.coelang.tufs.ac.jp/modules/exercises" xmlns:modules="http://www.coelang.tufs.ac.jp/modules" xmlns:dir="http://apache.org/cocoon/directory/2.0" xmlns:modlink="http://www.coelang.tufs.ac.jp/modules/modlink" xmlns:gmod="http://www.coelang.tufs.ac.jp/modules/gmod">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<META content="text/html; charset=utf-8" http-equiv="Content-Type">
+<meta content="width=device-width,user-scalable=yes,maximum-scale=2.0,minimum-scale=0.5" name="viewport">
+<link href="../../css/reset.css" rel="stylesheet">
+<link href="../../css/style.css" rel="stylesheet">
+<script src="//ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script><script>
+			window.jQuery || document.write('<script src="../../js/jquery-3.6.0.min.js" ><\/script>');
+		</script><script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script><script src="../../js/jquery.ui.touch-punch.js"></script><script src="../../js/gmod_script.js"></script>
+<link href="../../css/taxonomy.css" rel="stylesheet">
+
+
+ 
+<link href="../../css/font.css" rel="stylesheet">
+<title>日本語 文法 NにNがあります／います：解説</title>
+<script language="JavaScript">
+					printObjectTag();
+				</script>
+</head>
+<body>
+<div id="container">
+<header>
+<img src="../../img/head_icon.png" id="head_icon"><h1>東京外国語大学言語モジュール</h1>
+</header>
+<nav id="t_path4">&nbsp;<a href="../../../.."><span>東外大言語モジュール</span>Top</a>&nbsp;&gt;&nbsp;<a href="../../../">日本語</a>&nbsp;&gt;&nbsp;<a href="../../">文法モジュール</a>
+</nav>
+<section class="clearfix" id="content_box">
+<nav class="clearfix" id="gmodnav">
+<div class="gra_in_menu_container clearfix">
+<p class="gra_in_menu_off">
+<a href="../../contents/card/006.html">カード</a>
+</p>
+<p class="gra_in_menu">
+<a href="../../contents/explanation/006.html">解説</a>
+</p>
+<p class="gra_in_menu_off">
+<a href="../../contents/instances/006.html">例文</a>
+</p>
+<p class="gra_in_menu_off gra_in_menu_clear">
+<a href="../../contents/exercises/006.html">練習問題</a>
+</p>
+</div>
+</nav>
+<h2 xmlns:xhtml="http://www.w3.org/1999/xhtml" class="gra_in_title">NにNがあります／います</h2>
+<div class="contents">
+<div class="para">
+<div align="justify">
+<span style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: windowtext 1pt solid">これだけは覚えよう</span>
+</div>
+
+<div>１　ある場所について、そこに存在する人やものを述べる場合には次の構文を使います。</div>
+
+<div>&nbsp;</div>
+
+<div>
+
+<table style="BORDER-BOTTOM: medium none; BORDER-LEFT: medium none;  BORDER-COLLAPSE: collapse; WORD-WRAP: break-word; TABLE-LAYOUT: fixed; BORDER-TOP: medium none; BORDER-RIGHT: medium none" class="MsoNormalTable msoUcTable" border="1">
+
+<colgroup>
+
+<col>
+
+<col>
+
+<col>
+
+<col>
+
+<col>
+
+<col>
+
+<col>
+
+<col>
+
+<col>
+
+<col>
+
+<col>
+</colgroup>
+
+<tbody>
+
+<tr style="MIN-HEIGHT: 33pt">
+
+<td style="BORDER-BOTTOM: windowtext 2.25pt solid; BORDER-LEFT: windowtext 2.25pt solid; BORDER-TOP: windowtext 2.25pt solid; BORDER-RIGHT: windowtext 2.25pt dashed">
+
+<div align="center">N1</div>
+
+<div align="center">[場所]</div>
+</td>
+<td style="BORDER-BOTTOM: windowtext 2.25pt solid; BORDER-LEFT: windowtext 2.25pt dashed; BORDER-TOP: windowtext 2.25pt solid; BORDER-RIGHT: windowtext 2.25pt solid">
+
+<div align="center">に</div>
+</td>
+<td style="BORDER-BOTTOM: windowtext 2.25pt solid; BORDER-LEFT: windowtext 2.25pt solid; BORDER-TOP: windowtext 2.25pt solid; BORDER-RIGHT: windowtext 2.25pt dashed">
+
+<div align="center">N2</div>
+
+<div align="center">[もの]</div>
+</td>
+<td style="BORDER-BOTTOM: windowtext 2.25pt solid; BORDER-LEFT: windowtext 2.25pt dashed; BORDER-TOP: windowtext 2.25pt solid; BORDER-RIGHT: windowtext 2.25pt solid">
+
+<div align="center">が</div>
+</td>
+<td style="BORDER-BOTTOM: windowtext 2.25pt solid; BORDER-LEFT: windowtext 2.25pt solid; BORDER-TOP: windowtext 2.25pt solid; BORDER-RIGHT: windowtext 2.25pt solid">
+
+<div align="center">あります</div>
+</td>
+<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: windowtext 2.25pt solid; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 2.25pt solid">
+
+<div align="center">&nbsp;</div>
+
+<div align="center">&nbsp;</div>
+</td>
+<td style="BORDER-BOTTOM: windowtext 2.25pt solid; BORDER-LEFT: windowtext 2.25pt solid; BORDER-TOP: windowtext 2.25pt solid; BORDER-RIGHT: windowtext 2.25pt dashed">
+
+<div align="center">N1</div>
+
+<div align="center">[場所]</div>
+</td>
+<td style="BORDER-BOTTOM: windowtext 2.25pt solid; BORDER-LEFT: windowtext 2.25pt dashed; BORDER-TOP: windowtext 2.25pt solid; BORDER-RIGHT: windowtext 2.25pt solid">
+
+<div align="center">に</div>
+</td>
+<td style="BORDER-BOTTOM: windowtext 2.25pt solid; BORDER-LEFT: windowtext 2.25pt solid; BORDER-TOP: windowtext 2.25pt solid; BORDER-RIGHT: windowtext 2.25pt dashed">
+
+<div align="center">N2</div>
+
+<div align="center">[生きもの]</div>
+</td>
+<td style="BORDER-BOTTOM: windowtext 2.25pt solid; BORDER-LEFT: windowtext 2.25pt dashed; BORDER-TOP: windowtext 2.25pt solid; BORDER-RIGHT: windowtext 2.25pt solid">
+
+<div align="center">が</div>
+</td>
+<td style="BORDER-BOTTOM: windowtext 2.25pt solid; BORDER-LEFT: windowtext 2.25pt solid; BORDER-TOP: windowtext 2.25pt solid; BORDER-RIGHT: windowtext 2.25pt solid">
+
+<div align="center">います</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<div align="justify">&nbsp; N1：N2の存在する場所</div>
+
+<div align="justify">&nbsp; N2：存在するもの、生きもの</div>
+</div>
+<div class="contents">
+<div class="instanceGroup">
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">(1)部屋にパソコンがあります。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">(2)公園に木があります。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">(3)家に犬がいます。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">(4)教室に田中さんがいます。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+</div>
+</div>
+<div class="para"></div>
+<div class="para">
+<div>&nbsp;</div>
+
+<div>
+
+<table style="BORDER-RIGHT: medium none; TABLE-LAYOUT: fixed; BORDER-TOP: medium none; BORDER-LEFT: medium none;  BORDER-BOTTOM: medium none; BORDER-COLLAPSE: collapse; WORD-WRAP: break-word" class="MsoNormalTable msoUcTable" border="1">
+
+<colgroup>
+
+<col>
+
+<col>
+
+<col>
+
+<col>
+
+<col>
+
+<col>
+
+<col>
+
+<col>
+
+<col>
+
+<col>
+
+<col>
+</colgroup>
+
+<tbody>
+
+<tr style="MIN-HEIGHT: 33pt">
+
+<td style="BORDER-RIGHT: windowtext 2.25pt dashed; BORDER-TOP: windowtext 2.25pt solid; BORDER-LEFT: windowtext 2.25pt solid; BORDER-BOTTOM: windowtext 2.25pt solid">
+
+<div align="center">N2</div>
+
+<div align="center">[もの]</div>
+</td>
+<td style="BORDER-RIGHT: windowtext 2.25pt solid; BORDER-TOP: windowtext 2.25pt solid; BORDER-LEFT: windowtext 2.25pt dashed; BORDER-BOTTOM: windowtext 2.25pt solid">
+
+<div align="center">は</div>
+</td>
+<td style="BORDER-RIGHT: windowtext 2.25pt dashed; BORDER-TOP: windowtext 2.25pt solid; BORDER-LEFT: windowtext 2.25pt solid; BORDER-BOTTOM: windowtext 2.25pt solid">
+
+<div align="center">N1</div>
+
+<div align="center">[場所]</div>
+</td>
+<td style="BORDER-RIGHT: windowtext 2.25pt solid; BORDER-TOP: windowtext 2.25pt solid; BORDER-LEFT: windowtext 2.25pt dashed; BORDER-BOTTOM: windowtext 2.25pt solid">
+
+<div align="center">に</div>
+</td>
+<td style="BORDER-RIGHT: windowtext 2.25pt solid; BORDER-TOP: windowtext 2.25pt solid; BORDER-LEFT: windowtext 2.25pt solid; BORDER-BOTTOM: windowtext 2.25pt solid">
+
+<div align="center">あります</div>
+</td>
+<td style="BORDER-RIGHT: windowtext 2.25pt solid; BORDER-TOP: medium none; BORDER-LEFT: windowtext 2.25pt solid; BORDER-BOTTOM: medium none">
+
+<div align="center">&nbsp;</div>
+</td>
+<td style="BORDER-RIGHT: windowtext 2.25pt dashed; BORDER-TOP: windowtext 2.25pt solid; BORDER-LEFT: windowtext 2.25pt solid; BORDER-BOTTOM: windowtext 2.25pt solid">
+
+<div align="center">N2</div>
+
+<div align="center">[生きもの]</div>
+</td>
+<td style="BORDER-RIGHT: windowtext 2.25pt solid; BORDER-TOP: windowtext 2.25pt solid; BORDER-LEFT: windowtext 2.25pt dashed; BORDER-BOTTOM: windowtext 2.25pt solid">
+
+<div align="center">は</div>
+</td>
+<td style="BORDER-RIGHT: windowtext 2.25pt dashed; BORDER-TOP: windowtext 2.25pt solid; BORDER-LEFT: windowtext 2.25pt solid; BORDER-BOTTOM: windowtext 2.25pt solid">
+
+<div align="center">N1</div>
+
+<div align="center">[場所]</div>
+</td>
+<td style="BORDER-RIGHT: windowtext 2.25pt solid; BORDER-TOP: windowtext 2.25pt solid; BORDER-LEFT: windowtext 2.25pt dashed; BORDER-BOTTOM: windowtext 2.25pt solid">
+
+<div align="center">に</div>
+</td>
+<td style="BORDER-RIGHT: windowtext 2.25pt solid; BORDER-TOP: windowtext 2.25pt solid; BORDER-LEFT: windowtext 2.25pt solid; BORDER-BOTTOM: windowtext 2.25pt solid">
+
+<div align="center">います</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="contents">
+<div class="instanceGroup">
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">(5)パソコンは部屋にあります。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">(6)田中さんは教室にいます。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+</div>
+</div>
+<div class="para">
+<font xmlns="http://www.w3.org/1999/xhtml" xmlns:my="http://schemas.microsoft.com/office/infopath/2003/myXSD/2004-05-07T08:01:39" face="ＭＳ 明朝">　&para;「に」は助詞です。ここでは、人やものの存在場所を表わします（「に」の用法については、「格助詞Ⅲ」</font>
+<font xmlns="http://www.w3.org/1999/xhtml" xmlns:my="http://schemas.microsoft.com/office/infopath/2003/myXSD/2004-05-07T08:01:39" face="ＭＳ 明朝">参照）。</font>
+</div>
+<div class="para">２　存在する場所をたずねるときは「どこ」を使います。</div>
+<div class="contents">
+<div class="instanceGroup">
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">(7)A：パソコンはどこにありますか。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">　　B：部屋にあります。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">(8)A：田中さんはどこにいますか。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">　　B：教室にいます。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+</div>
+</div>
+<div class="para"></div>
+<div class="para">
+<div align="justify">
+<span style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">余裕があれば</span>
+</div>
+
+<div>３　「Nがあります」「Nがいます」の形で、所有の意味を表わします。</div>
+</div>
+<div class="contents">
+<div class="instanceGroup">
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">(9)A：みなさん、質問がありますか。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">　　B：ありません。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">(10)お金がありません。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">(11)太郎さんには子どもがいます。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+</div>
+</div>
+<div class="para"></div>
+<div class="para">４　できごとや行事があることを表わす「Nがあります」は、その場所を示すのに助詞「で」（「格助詞Ⅷ」参照）を取ります。</div>
+<div class="contents">
+<div class="instanceGroup">
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">(12)公園でロックコンサートがありました。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+</div>
+</div>
+<div class="para"></div>
+</div>
+</section>
+<footer style="top: 0px;" id="footer">
+<p>
+<small>Copyright 東京外国語大学 Tokyo University of Foreign Studies. All rights reserved.</small>
+</p>
+</footer>
+</div>
+</body>
+</html>

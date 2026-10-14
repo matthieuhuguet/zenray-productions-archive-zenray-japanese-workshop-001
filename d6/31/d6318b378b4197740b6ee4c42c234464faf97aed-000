@@ -1,0 +1,250 @@
+<html xmlns:exercises="http://www.coelang.tufs.ac.jp/modules/exercises" xmlns:modules="http://www.coelang.tufs.ac.jp/modules" xmlns:dir="http://apache.org/cocoon/directory/2.0" xmlns:modlink="http://www.coelang.tufs.ac.jp/modules/modlink" xmlns:gmod="http://www.coelang.tufs.ac.jp/modules/gmod">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<META content="text/html; charset=utf-8" http-equiv="Content-Type">
+<meta content="width=device-width,user-scalable=yes,maximum-scale=2.0,minimum-scale=0.5" name="viewport">
+<link href="../../css/reset.css" rel="stylesheet">
+<link href="../../css/style.css" rel="stylesheet">
+<script src="//ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script><script>
+			window.jQuery || document.write('<script src="../../js/jquery-3.6.0.min.js" ><\/script>');
+		</script><script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script><script src="../../js/jquery.ui.touch-punch.js"></script><script src="../../js/gmod_script.js"></script>
+<link href="../../css/taxonomy.css" rel="stylesheet">
+
+
+ 
+<link href="../../css/font.css" rel="stylesheet">
+<title>日本語 文法 ○○分・半：解説</title>
+<script language="JavaScript">
+					printObjectTag();
+				</script>
+</head>
+<body>
+<div id="container">
+<header>
+<img src="../../img/head_icon.png" id="head_icon"><h1>東京外国語大学言語モジュール</h1>
+</header>
+<nav id="t_path4">&nbsp;<a href="../../../.."><span>東外大言語モジュール</span>Top</a>&nbsp;&gt;&nbsp;<a href="../../../">日本語</a>&nbsp;&gt;&nbsp;<a href="../../">文法モジュール</a>
+</nav>
+<section class="clearfix" id="content_box">
+<nav class="clearfix" id="gmodnav">
+<div class="gra_in_menu_container clearfix">
+<p class="gra_in_menu_off">
+<a href="../../contents/card/019.html">カード</a>
+</p>
+<p class="gra_in_menu">
+<a href="../../contents/explanation/019.html">解説</a>
+</p>
+<p class="gra_in_menu_off">
+<a href="../../contents/instances/019.html">例文</a>
+</p>
+<p class="gra_in_menu_off gra_in_menu_clear">
+<a href="../../contents/exercises/019.html">練習問題</a>
+</p>
+</div>
+</nav>
+<h2 xmlns:xhtml="http://www.w3.org/1999/xhtml" class="gra_in_title">○○分・半</h2>
+<div class="contents">
+<div class="para">
+<div align="justify">
+<span style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">これだけは覚えよう</span>
+</div>
+
+<div>１「〇〇分」の言い方は次のとおりです。</div>
+
+<div align="justify">&nbsp;</div>
+
+<div>
+
+<table style="BORDER-RIGHT: medium none; TABLE-LAYOUT: fixed; BORDER-TOP: medium none; BORDER-LEFT: medium none;  BORDER-BOTTOM: medium none; BORDER-COLLAPSE: collapse; WORD-WRAP: break-word" class="MsoNormalTable msoUcTable" border="1">
+
+<colgroup>
+
+<col>
+</colgroup>
+
+<tbody>
+
+<tr>
+
+<td style="BORDER-RIGHT: windowtext 2.25pt solid; BORDER-TOP: windowtext 2.25pt solid; BORDER-LEFT: windowtext 2.25pt solid; BORDER-BOTTOM: windowtext 2.25pt solid">
+
+<div align="justify">　&nbsp;&nbsp; １　　　　　２　　　　　３　　　　　４　　　　　５</div>
+
+<div align="justify">&nbsp; いっぷん　　にふん　　　さんぷん　　よんぷん　　　ごふん</div>
+
+<div align="justify">&nbsp;&nbsp;&nbsp;&nbsp; ６　　　　　７　　　　　８　　　　&nbsp; 　９　　　&nbsp;　１０</div>
+
+<div align="justify">&nbsp; ろっぷん　　ななふん　　はっぷん　　きゅうふん　じゅっぷん</div>
+
+<div align="justify">　　 １１　　　　　　１２</div>
+
+<div align="justify">&nbsp; じゅういっぷん　じゅうにふん</div>
+
+<div align="justify">&nbsp; &nbsp;&nbsp;&nbsp;２０　　　　　　３０　　　　　　４０　　　　　５０</div>
+
+<div align="justify">&nbsp; にじゅっぷん　さんじゅっぷん　よんじゅっぷん　ごじゅっぷん</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<div>&nbsp;</div>
+
+<div align="justify">「分」の前にくる数詞によって「分」が「ふん」になったり「ぷん」になったりします。表以外の分数は「じゅう」「にじゅう」･･･と「いっぷん」「にふん」･･･の組み合わせで表わせます。</div>
+
+<div align="justify">　例：51分　ごじゅういっぷん</div>
+
+<div>　　　75分　ななじゅうごふん</div>
+</div>
+<div class="contents">
+<div class="instanceGroup">
+<div class="gra_dl_box clearfix instance" style="display:none;">
+<div class="instTxtBlk">
+<span class="instance_t"></span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+</div>
+</div>
+<div class="para"></div>
+<div class="para">２　「〇〇：30」の言い方は、「〇〇じ　さんじゅっぷん(〇〇時30分)」と「〇〇じ　はん（〇〇時半）」があります。</div>
+<div class="contents">
+<div class="instanceGroup">
+<div class="gra_dl_box clearfix instance" style="display:none;">
+<div class="instTxtBlk">
+<span class="instance_t"></span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+</div>
+</div>
+<div class="para"></div>
+<div class="para">
+<div align="justify">３　時刻を言うときには、「〇〇時」の後ろに「〇〇分」をつけて言います。</div>
+
+<div align="justify">　例：10時15分</div>
+
+<div>　　　 ７時31分</div>
+</div>
+<div class="contents">
+<div class="instanceGroup">
+<div class="gra_dl_box clearfix instance" style="display:none;">
+<div class="instTxtBlk">
+<span class="instance_t"></span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+</div>
+</div>
+<div class="para"></div>
+<div class="para">４　分数をたずねるときは、「何分」を使います。</div>
+<div class="contents">
+<div class="instanceGroup">
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">(1)A：今、何時何分ですか。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">　　B：10時51分です。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+</div>
+</div>
+<div class="para"></div>
+<div class="para">
+<div>５　「〇〇秒」の言い方は次のとおりです。</div>
+
+<div>&nbsp;</div>
+
+<div>
+
+<table style="BORDER-RIGHT: medium none; TABLE-LAYOUT: fixed; BORDER-TOP: medium none; BORDER-LEFT: medium none;  BORDER-BOTTOM: medium none; BORDER-COLLAPSE: collapse; WORD-WRAP: break-word" class="MsoNormalTable msoUcTable" border="1">
+
+<colgroup>
+
+<col>
+</colgroup>
+
+<tbody>
+
+<tr>
+
+<td style="BORDER-RIGHT: windowtext 2.25pt solid; BORDER-TOP: windowtext 2.25pt solid; BORDER-LEFT: windowtext 2.25pt solid; BORDER-BOTTOM: windowtext 2.25pt solid">
+
+<div align="justify">　　&nbsp;&nbsp;１　　　　　２　　　　　３　　　　　４　　　　　５</div>
+
+<div align="justify">&nbsp; いちびょう　　にびょう　さんびょう　よんびょう　　ごびょう</div>
+
+<div align="justify">　　　６　　　　　７　　　　　８　　　　　９　　　　　１０</div>
+
+<div align="justify">&nbsp; ろくびょう　ななびょう　はちびょう　きゅうびょう 　じゅうびょう</div>
+
+<div align="justify">　　　１１　　　　　　　１２</div>
+
+<div align="justify">　じゅういちびょう　じゅうにびょう</div>
+
+<div align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ２０　　　　　　　３０　　　　　　　４０　　　　　　５０</div>
+
+<div align="justify">　にじゅうびょう　さんじゅうびょう　よんじゅうびょう　ごじゅうびょう</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="contents">
+<div class="instanceGroup">
+<div class="gra_dl_box clearfix instance" style="display:none;">
+<div class="instTxtBlk">
+<span class="instance_t"></span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+</div>
+</div>
+<div class="para"></div>
+<div class="para">６　秒数をたずねるときは、「何秒」を使います。</div>
+<div class="contents">
+<div class="instanceGroup">
+<div class="gra_dl_box clearfix instance" style="display:none;">
+<div class="instTxtBlk">
+<span class="instance_t"></span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+</div>
+</div>
+<div class="para"></div>
+<div class="para">
+<div align="justify">
+<span style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">余裕があれば</span>
+</div>
+
+<div>７　「じゅっぷん」などを古い言い方では「じっぷん」などと言います。</div>
+</div>
+<div class="contents">
+<div class="instanceGroup">
+<div class="gra_dl_box clearfix instance" style="display:none;">
+<div class="instTxtBlk">
+<span class="instance_t"></span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+</div>
+</div>
+<div class="para"></div>
+</div>
+</section>
+<footer style="top: 0px;" id="footer">
+<p>
+<small>Copyright 東京外国語大学 Tokyo University of Foreign Studies. All rights reserved.</small>
+</p>
+</footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,420 @@
+<html xmlns:exercises="http://www.coelang.tufs.ac.jp/modules/exercises" xmlns:modules="http://www.coelang.tufs.ac.jp/modules" xmlns:dir="http://apache.org/cocoon/directory/2.0" xmlns:modlink="http://www.coelang.tufs.ac.jp/modules/modlink" xmlns:gmod="http://www.coelang.tufs.ac.jp/modules/gmod">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<META content="text/html; charset=utf-8" http-equiv="Content-Type">
+<meta content="width=device-width,user-scalable=yes,maximum-scale=2.0,minimum-scale=0.5" name="viewport">
+<link href="../../css/reset.css" rel="stylesheet">
+<link href="../../css/style.css" rel="stylesheet">
+<script src="//ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script><script>
+			window.jQuery || document.write('<script src="../../js/jquery-3.6.0.min.js" ><\/script>');
+		</script><script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script><script src="../../js/jquery.ui.touch-punch.js"></script><script src="../../js/gmod_script.js"></script>
+<link href="../../css/taxonomy.css" rel="stylesheet">
+
+
+ 
+<link href="../../css/font.css" rel="stylesheet">
+<title>日本語 文法 Nがほしいです／Nがほしくありません：解説</title>
+<script language="JavaScript">
+					printObjectTag();
+				</script>
+</head>
+<body>
+<div id="container">
+<header>
+<img src="../../img/head_icon.png" id="head_icon"><h1>東京外国語大学言語モジュール</h1>
+</header>
+<nav id="t_path4">&nbsp;<a href="../../../.."><span>東外大言語モジュール</span>Top</a>&nbsp;&gt;&nbsp;<a href="../../../">日本語</a>&nbsp;&gt;&nbsp;<a href="../../">文法モジュール</a>
+</nav>
+<section class="clearfix" id="content_box">
+<nav class="clearfix" id="gmodnav">
+<div class="gra_in_menu_container clearfix">
+<p class="gra_in_menu_off">
+<a href="../../contents/card/069.html">カード</a>
+</p>
+<p class="gra_in_menu">
+<a href="../../contents/explanation/069.html">解説</a>
+</p>
+<p class="gra_in_menu_off">
+<a href="../../contents/instances/069.html">例文</a>
+</p>
+<p class="gra_in_menu_off gra_in_menu_clear">
+<a href="../../contents/exercises/069.html">練習問題</a>
+</p>
+</div>
+</nav>
+<h2 xmlns:xhtml="http://www.w3.org/1999/xhtml" class="gra_in_title">Nがほしいです／Nがほしくありません</h2>
+<div class="contents">
+<div class="para">
+<div align="justify">
+<span style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">これだけは覚えよう</span>
+</div>
+
+<div align="justify">１　「ほしいです」（普通形「ほしい」）は、何かものを手に入れたいと思う話し手の願望を表わします。否定する場合は、「ほしくありません」「ほしくないです」を用います。</div>
+
+<div align="justify">&nbsp;</div>
+
+<div>
+
+<table style="BORDER-RIGHT: medium none; TABLE-LAYOUT: fixed; BORDER-TOP: medium none; BORDER-LEFT: medium none;  BORDER-BOTTOM: medium none; BORDER-COLLAPSE: collapse; WORD-WRAP: break-word" class="MsoTableGrid msoUcTable" border="1">
+
+<colgroup>
+
+<col>
+
+<col>
+
+<col>
+
+<col>
+
+<col>
+</colgroup>
+
+<tbody>
+
+<tr>
+
+<td style="BORDER-RIGHT: windowtext 2.25pt dashed; BORDER-TOP: windowtext 2.25pt solid; BORDER-LEFT: windowtext 2.25pt solid; BORDER-BOTTOM: windowtext 2.25pt solid">
+
+<div align="center">N1</div>
+</td>
+<td style="BORDER-RIGHT: windowtext 2.25pt solid; BORDER-TOP: windowtext 2.25pt solid; BORDER-LEFT: windowtext 2.25pt dashed; BORDER-BOTTOM: windowtext 2.25pt solid">
+
+<div align="center">は</div>
+</td>
+<td style="BORDER-RIGHT: windowtext 2.25pt dashed; BORDER-TOP: windowtext 2.25pt solid; BORDER-LEFT: windowtext 2.25pt solid; BORDER-BOTTOM: windowtext 2.25pt solid">
+
+<div align="center">N2</div>
+</td>
+<td style="BORDER-RIGHT: windowtext 2.25pt solid; BORDER-TOP: windowtext 2.25pt solid; BORDER-LEFT: windowtext 2.25pt dashed; BORDER-BOTTOM: windowtext 2.25pt solid">
+
+<div align="center">が</div>
+</td>
+<td style="BORDER-RIGHT: windowtext 2.25pt solid; BORDER-TOP: windowtext 2.25pt solid; BORDER-LEFT: windowtext 2.25pt solid; BORDER-BOTTOM: windowtext 2.25pt solid">
+
+<div align="center">ほしいです</div>
+
+<div align="center">ほしくありません</div>
+
+<div align="center">ほしくないです</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<div align="justify">&nbsp; N1：N2を｢ほしい｣と思っている主体</div>
+
+<div align="justify">&nbsp; N2：N1が｢ほしい｣と思っている対象</div>
+
+<div align="justify">&nbsp;</div>
+</div>
+<div class="contents">
+<div class="instanceGroup">
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">(1)わたしは今コンピューターがほしいです。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">(5)わたしはコンピューターはほしくありません。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">(6)わたしはコンピューターはほしくないです。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+</div>
+</div>
+<div class="para">
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:my="http://schemas.microsoft.com/office/infopath/2003/myXSD/2004-05-07T08:01:39" align="justify">
+<font face="ＭＳ 明朝">&para;Ｎ２は、手に入れたい対象を表わします。否定形の場合は「Ｎ２が」を「Ｎ２は」に変えることが多いです。</font>
+</div>
+</div>
+<div class="para">２　｢ほしい｣は、イ形容詞です。活用はその他のイ形容詞と同じです。</div>
+<div class="contents">
+<div class="instanceGroup">
+<div class="gra_dl_box clearfix instance" style="display:none;">
+<div class="instTxtBlk">
+<span class="instance_t"></span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+</div>
+</div>
+<div class="para"></div>
+<div class="para">
+<div align="justify">３　疑問文ではN１が聞き手や他の人になり、聞き手やその他の人の願望をたずねます。</div>
+</div>
+<div class="contents">
+<div class="instanceGroup">
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">(2)A：車がほしいですか。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">　　B：いいえ、｛ほしくありません／ほしくないです｝。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">(7)A：太郎さんは犬がほしいですか。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">　　B：はい、ほしいです。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+</div>
+</div>
+<div class="para"></div>
+<div class="para">
+<div align="justify">４　聞き手や他の人が手に入れたいと思っているものを特定したいとき、｢何がほしいですか｣｢どれがほしいですか｣を用います。</div>
+</div>
+<div class="contents">
+<div class="instanceGroup">
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">(3)A：誕生日に何がほしいですか。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">　　B：そうですね、新しい自転車がほしいです。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">(4)(カタログを見ながら)</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">　A：どれがほしいですか。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">　B：これとそれがほしいです。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+</div>
+</div>
+<div class="para"></div>
+<div class="para">
+<div align="justify">５　N1は省略できます。また、N2が何かわかっている場合は、｢N2が｣を省略することがあります。例文(2)(3)(4)を見てください。</div>
+</div>
+<div class="contents">
+<div class="instanceGroup">
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">(2)A：車がほしいですか。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">　　B：いいえ、｛ほしくありません／ほしくないです｝。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">(3)A：誕生日に何がほしいですか。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">　　B：そうですね、新しい自転車がほしいです。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">(4)(カタログを見ながら)</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">　A：どれがほしいですか。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">　B：これとそれがほしいです。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+</div>
+</div>
+<div class="para"></div>
+<div class="para">
+<div align="justify">６　次の点に注意しましょう。</div>
+
+<div align="justify">･　聞き手や第三者の願望を直接述べることはできません。推量の形で述べるか（&rarr;「～でしょう」～「～と思います」）、たずねることはできます。</div>
+</div>
+<div class="contents">
+<div class="instanceGroup">
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">(8)太郎さんはコンピューターがほしいようです。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+</div>
+</div>
+<div class="para"></div>
+<div class="para">
+<div align="justify">･　｢Nがほしいですか｣と目上の人に向かって聞くと失礼になります。(この場合のたずね方については、「余裕があれば」９参照)</div>
+</div>
+<div class="contents">
+<div class="instanceGroup">
+<div class="gra_dl_box clearfix instance" style="display:none;">
+<div class="instTxtBlk">
+<span class="instance_t"></span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+</div>
+</div>
+<div class="para"></div>
+<div class="para">
+<div align="justify">･　願望の対象がもののときは｢Nがほしいです｣を使いますが、願望の対象が行為のときは、｢Vたいです｣を使います。（「Vたいです／Vたくありません」、「Vたかったです／Vたくありませんでした」を見てください。）</div>
+</div>
+<div class="contents">
+<div class="instanceGroup">
+<div class="gra_dl_box clearfix instance" style="display:none;">
+<div class="instTxtBlk">
+<span class="instance_t"></span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+</div>
+</div>
+<div class="para"></div>
+<div class="para">
+<div align="justify">
+<span style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">余裕があれば</span>
+</div>
+
+<div align="justify">７　｢Nがほしいんですが｣の形で、必要なものを相手に伝え、提供を求めることができます。この場合、求められるのは特別ではないもの、求める相手は当然提供可能と予想される人になります。</div>
+</div>
+<div class="contents">
+<div class="instanceGroup">
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">(9)A：すみません、白い紙がほしいんですが。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">　　B：はい。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">(10)A：あのう、赤いボールペンがほしいんですが。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">　　 B：はい。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+</div>
+</div>
+<div class="para"></div>
+<div class="para">８　動詞「ほしがる」を用いて、聞き手や第三者があるものを手に入れたいと思っていることを表わすことができます。</div>
+<div class="contents">
+<div class="instanceGroup">
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">(11)太郎さんは新しいコンピューターをほしがっています。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+</div>
+</div>
+<div class="para">
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:my="http://schemas.microsoft.com/office/infopath/2003/myXSD/2004-05-07T08:01:39" align="justify">
+<font face="ＭＳ 明朝">&para;しかし、「ほしがる」は、ほしいと思う気持ちが態度に現れてみっともないという、批難の気持ちを帯びるので、注意が必要です。</font>
+</div>
+</div>
+<div class="para">
+<div>９　目上の人に★ほしいものについて★尋ねるとき</div>
+
+<div>目上の人にほしいものを尋ねるときには、「ほしいですか」と聞くのは失礼ですので、次のような別の言い方を使うのがふつうです。</div>
+</div>
+<div class="contents">
+<div class="instanceGroup">
+<div class="gra_dl_box clearfix instance" style="display:none;">
+<div class="instTxtBlk">
+<span class="instance_t"></span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+</div>
+</div>
+<div class="para"></div>
+<div class="para">
+<div>・一般にほしいものを尋ねるとき、：「○○｛は／が｝お入り用ですか」</div>
+</div>
+<div class="contents">
+<div class="instanceGroup">
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">(12)　先生、コンピューターはお入り用ですか。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+</div>
+</div>
+<div class="para"></div>
+<div class="para">
+<div>・目の前にあるいくつかのものから１つをえらんでもらうとき：「どれがよろしいですか」</div>
+</div>
+<div class="contents">
+<div class="instanceGroup">
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">(13)(先生の目の前にお菓子が入った皿をさしだして)先生、どれがよろしいですか。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+</div>
+</div>
+<div class="para"></div>
+</div>
+</section>
+<footer style="top: 0px;" id="footer">
+<p>
+<small>Copyright 東京外国語大学 Tokyo University of Foreign Studies. All rights reserved.</small>
+</p>
+</footer>
+</div>
+</body>
+</html>

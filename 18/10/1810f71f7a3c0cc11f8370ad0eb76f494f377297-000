@@ -1,0 +1,376 @@
+<html xmlns:exercises="http://www.coelang.tufs.ac.jp/modules/exercises" xmlns:modules="http://www.coelang.tufs.ac.jp/modules" xmlns:dir="http://apache.org/cocoon/directory/2.0" xmlns:modlink="http://www.coelang.tufs.ac.jp/modules/modlink" xmlns:gmod="http://www.coelang.tufs.ac.jp/modules/gmod">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<META content="text/html; charset=utf-8" http-equiv="Content-Type">
+<meta content="width=device-width,user-scalable=yes,maximum-scale=2.0,minimum-scale=0.5" name="viewport">
+<link href="../../css/reset.css" rel="stylesheet">
+<link href="../../css/style.css" rel="stylesheet">
+<script src="//ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script><script>
+			window.jQuery || document.write('<script src="../../js/jquery-3.6.0.min.js" ><\/script>');
+		</script><script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script><script src="../../js/jquery.ui.touch-punch.js"></script><script src="../../js/gmod_script.js"></script>
+<link href="../../css/taxonomy.css" rel="stylesheet">
+
+
+ 
+<link href="../../css/font.css" rel="stylesheet">
+<title>日本語 文法 VてVます：解説</title>
+<script language="JavaScript">
+					printObjectTag();
+				</script>
+</head>
+<body>
+<div id="container">
+<header>
+<img src="../../img/head_icon.png" id="head_icon"><h1>東京外国語大学言語モジュール</h1>
+</header>
+<nav id="t_path4">&nbsp;<a href="../../../.."><span>東外大言語モジュール</span>Top</a>&nbsp;&gt;&nbsp;<a href="../../../">日本語</a>&nbsp;&gt;&nbsp;<a href="../../">文法モジュール</a>
+</nav>
+<section class="clearfix" id="content_box">
+<nav class="clearfix" id="gmodnav">
+<div class="gra_in_menu_container clearfix">
+<p class="gra_in_menu_off">
+<a href="../../contents/card/051.html">カード</a>
+</p>
+<p class="gra_in_menu">
+<a href="../../contents/explanation/051.html">解説</a>
+</p>
+<p class="gra_in_menu_off">
+<a href="../../contents/instances/051.html">例文</a>
+</p>
+<p class="gra_in_menu_off gra_in_menu_clear">
+<a href="../../contents/exercises/051.html">練習問題</a>
+</p>
+</div>
+</nav>
+<h2 xmlns:xhtml="http://www.w3.org/1999/xhtml" class="gra_in_title">VてVます</h2>
+<div class="contents">
+<div class="para">
+<div align="justify">
+<span style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">これだけは覚えよう</span>
+</div>
+
+<div align="justify">１　動詞の「て形」で２つ以上の文をつなぐことができます。</div>
+
+<div align="justify">&nbsp;</div>
+
+
+<table style="BORDER-RIGHT: medium none; TABLE-LAYOUT: fixed; BORDER-TOP: medium none; BORDER-LEFT: medium none;  BORDER-BOTTOM: medium none; BORDER-COLLAPSE: collapse; WORD-WRAP: break-word" class="MsoNormalTable msoUcTable" border="1">
+
+<colgroup>
+
+<col>
+
+<col>
+
+<col>
+
+<col>
+
+<col>
+
+<col>
+</colgroup>
+
+<tbody>
+
+<tr>
+
+<td style="BORDER-RIGHT: windowtext 2.25pt solid; BORDER-TOP: windowtext 2.25pt solid; BORDER-LEFT: windowtext 2.25pt solid; BORDER-BOTTOM: windowtext 2.25pt solid">
+
+<div align="center">V1ます<span style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid"></span>
+</div>
+</td>
+<td style="BORDER-RIGHT: windowtext 2.25pt solid; BORDER-TOP: medium none; BORDER-LEFT: windowtext 2.25pt solid; BORDER-BOTTOM: medium none">
+
+<div align="center">＋<span style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid"></span>
+</div>
+</td>
+<td style="BORDER-RIGHT: windowtext 2.25pt solid; BORDER-TOP: windowtext 2.25pt solid; BORDER-LEFT: windowtext 2.25pt solid; BORDER-BOTTOM: windowtext 2.25pt solid">
+
+<div align="center">V2ます<span style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid"></span>
+</div>
+</td>
+<td style="BORDER-RIGHT: windowtext 2.25pt solid; BORDER-TOP: medium none; BORDER-LEFT: windowtext 2.25pt solid; BORDER-BOTTOM: medium none">
+
+<div align="center">&rarr;<span style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid"></span>
+</div>
+</td>
+<td style="BORDER-RIGHT: windowtext 2.25pt solid; BORDER-TOP: windowtext 2.25pt solid; BORDER-LEFT: windowtext 2.25pt solid; BORDER-BOTTOM: windowtext 2.25pt solid">
+
+<div align="center">V1て<span style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid"></span>
+</div>
+</td>
+<td style="BORDER-RIGHT: windowtext 2.25pt solid; BORDER-TOP: windowtext 2.25pt solid; BORDER-LEFT: windowtext 2.25pt solid; BORDER-BOTTOM: windowtext 2.25pt solid">
+
+<div align="center">V2ます<span style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid"></span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+
+<div align="justify">&nbsp;</div>
+
+<div align="justify">&para;「V1ます」を「V1て」にします。「て形」の作り方は「Vて（て形）」を見てください。</div>
+
+<div align="justify">例：あしたわたしは駅で友だちに会います。＋いっしょにコンサートに行きます。</div>
+</div>
+<div class="contents">
+<div class="instanceGroup">
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">　&rarr;(1) あしたわたしは駅で友だちに会って、いっしょにコンサートに行きます。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+</div>
+</div>
+<div class="para"></div>
+<div class="para">
+<div align="justify">２　V2の形(「ます」「ました」「ています」「ましょう」「たいです」「てください」など)に関係なく、V1は「て形」にします。</div>
+</div>
+<div class="contents">
+<div class="instanceGroup">
+<div class="gra_dl_box clearfix instance" style="display:none;">
+<div class="instTxtBlk">
+<span class="instance_t"></span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+</div>
+</div>
+<div class="para"></div>
+<div class="para">
+<div align="justify">３　「VてVます」は順に起こる動作を述べるときに使います。このとき、V1とV2の「Nは／が」は同一です。</div>
+</div>
+<div class="contents">
+<div class="instanceGroup">
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">(1)あしたわたしは駅で友だちに会って、いっしょにコンサートに行きます。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">(2)A：あしたの予定を教えてください。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">　　B：朝７時に起きて、食堂で朝ごはんを食べて、８時から練習します。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">(3)わたしは日本へ行って、すもうを見たいです。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">(4)（折り紙の折り方を教えている）</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">　　２つに折って、はさみで切ってください。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+</div>
+</div>
+<div class="para"></div>
+<div class="para">
+<div align="justify">４　「VてVます」は動作が行なわれる状態を述べるときにも使います。このとき、V1とV2の「Nは／が」は同一です。</div>
+</div>
+<div class="contents">
+<div class="instanceGroup">
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">(5)あそこに座って、お弁当を食べましょう。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+</div>
+</div>
+<div class="para"></div>
+<div class="para">
+<div align="justify">５　「VてVます」は動作が行なわれるときの方法や手段を表わす場合にも使います。このとき、V1とV2の「Nは／が」は同一です。</div>
+</div>
+<div class="contents">
+<div class="instanceGroup">
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">(6)わたしは毎日歩いて学校へ行きます。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">(7)テープを聞いて、日本語を勉強します。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+</div>
+</div>
+<div class="para"></div>
+<div class="para">
+<div align="justify">６　V1とV2の「Nは／が」が同じ場合は、２番目の「Nは／が」が省略されます。また、「Nは／が」が何であるかわかっている場合は、省略することがあります。</div>
+</div>
+<div class="contents">
+<div class="instanceGroup">
+<div class="gra_dl_box clearfix instance" style="display:none;">
+<div class="instTxtBlk">
+<span class="instance_t"></span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+</div>
+</div>
+<div class="para"></div>
+<div class="para">７　２人以上の人の動作・状態、２つ以上のできごとを並列して述べるときにも使います。</div>
+<div class="contents">
+<div class="instanceGroup">
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">(8)夏休みに中山さんは海でダイビングをして、山本さんは山に登りました。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">(9)田中さんは東京に住んでいて、山本さんは大阪に住んでいます。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+</div>
+</div>
+<div class="para"></div>
+<div class="para">
+<div align="justify">８　「V1て」が原因、「Vます」が結果であることを表わす場合があります。</div>
+</div>
+<div class="contents">
+<div class="instanceGroup">
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">(10)雨が降って、野球の試合を中止しました。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">(11)大きい台風が来て、電車が止まりました。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+</div>
+</div>
+<div class="para"></div>
+<div class="para">
+<div align="justify">
+<span style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">余裕があれば</span>
+</div>
+
+<div align="justify">９　「Vて」と「Vてから」には次のような違いがあります。</div>
+
+<div>
+
+<table style="BORDER-RIGHT: medium none; TABLE-LAYOUT: fixed; BORDER-TOP: medium none; BORDER-LEFT: medium none;  BORDER-BOTTOM: medium none; BORDER-COLLAPSE: collapse; WORD-WRAP: break-word" class="MsoNormalTable msoUcTable" border="1">
+
+<colgroup>
+
+<col>
+
+<col>
+
+<col>
+</colgroup>
+
+<tbody>
+
+<tr>
+
+<td style="BORDER-RIGHT: #000000 2.25pt solid; BORDER-TOP: #000000 2.25pt solid; BORDER-LEFT: #000000 2.25pt solid; BORDER-BOTTOM: #000000 2.25pt solid">
+
+<div align="justify">&nbsp;</div>
+</td>
+<td style="BORDER-RIGHT: #000000 2.25pt solid; BORDER-TOP: #000000 2.25pt solid; BORDER-LEFT: #000000 2.25pt solid; BORDER-BOTTOM: #000000 2.25pt solid">
+
+<div align="center">Vて</div>
+</td>
+<td style="BORDER-RIGHT: #000000 2.25pt solid; BORDER-TOP: #000000 2.25pt solid; BORDER-LEFT: #000000 2.25pt solid; BORDER-BOTTOM: #000000 2.25pt solid">
+
+<div align="center">Vてから</div>
+</td>
+</tr>
+
+<tr>
+
+<td style="BORDER-RIGHT: #000000 2.25pt solid; BORDER-TOP: #000000 2.25pt solid; BORDER-LEFT: #000000 2.25pt solid; BORDER-BOTTOM: #000000 2.25pt solid">
+
+<div align="center">順次動作</div>
+
+<div align="center">動作の並列</div>
+
+<div align="center">連続できる文の数</div>
+
+<div align="center">前後関係の明確さ</div>
+</td>
+<td style="BORDER-RIGHT: #000000 2.25pt solid; BORDER-TOP: #000000 2.25pt solid; BORDER-LEFT: #000000 2.25pt solid; BORDER-BOTTOM: #000000 2.25pt solid">
+
+<div align="center">○</div>
+
+<div align="center">○</div>
+
+<div align="center">複数</div>
+
+<div align="center">△</div>
+</td>
+<td style="BORDER-RIGHT: #000000 2.25pt solid; BORDER-TOP: #000000 2.25pt solid; BORDER-LEFT: #000000 2.25pt solid; BORDER-BOTTOM: #000000 2.25pt solid">
+
+<div align="center">○</div>
+
+<div align="center">&times;</div>
+
+<div align="center">2文まで</div>
+
+<div align="center">○</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<div>&nbsp;</div>
+</div>
+<div class="contents">
+<div class="instanceGroup">
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">(12)田中さんが来て、木村さんが帰りました。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+<div class="gra_dl_box clearfix instance">
+<div class="instTxtBlk">
+<span class="instance_t">(12)&rsquo;田中さんが来てから、木村さんが帰りました。</span>
+</div>
+<div class="voiceLinkBox"></div>
+</div>
+</div>
+</div>
+<div class="para"></div>
+</div>
+</section>
+<footer style="top: 0px;" id="footer">
+<p>
+<small>Copyright 東京外国語大学 Tokyo University of Foreign Studies. All rights reserved.</small>
+</p>
+</footer>
+</div>
+</body>
+</html>

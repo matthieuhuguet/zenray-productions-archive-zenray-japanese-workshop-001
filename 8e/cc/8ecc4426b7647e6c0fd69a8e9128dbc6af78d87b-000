@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "14 October 2026",
+  "level": "N5",
+  "expectedRequirements": 132,
+  "minimumIndependentReviewers": 2,
+  "cataloguePath": "/Users/zenray/.claude/Memory1/Japanese/Site/corpus/catalogue.json",
+  "packetPath": "review/N5CoverageAuditPacket.json",
+  "reportPaths": [
+    {
+      "path": "review/N5CoverageFirst.json",
+      "packetPath": "review/N5CoverageAuditInitialPacket.json"
+    },
+    {
+      "path": "review/N5CoverageSecond.json",
+      "packetPath": "review/N5CoverageAuditInitialPacket.json"
+    },
+    {
+      "path": "review/N5CoverageRefreshFirst.json",
+      "packetPath": "review/N5CoverageRefreshPacket.json"
+    },
+    {
+      "path": "review/N5CoverageRefreshSecond.json",
+      "packetPath": "review/N5CoverageRefreshPacket.json"
+    },
+    {
+      "path": "review/N5CoverageFoundation05First.json",
+      "packetPath": "review/N5CoverageFoundation05Packet.json"
+    },
+    {
+      "path": "review/N5CoverageFoundation05Second.json",
+      "packetPath": "review/N5CoverageFoundation05Packet.json"
+    }
+  ],
+  "outputPath": "research/coverage/N5CoverageConsensus.json"
+}
