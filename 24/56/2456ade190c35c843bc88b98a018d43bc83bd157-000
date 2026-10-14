@@ -1,0 +1,1110 @@
+{
+  "schemaVersion": 1,
+  "date": "14 October 2026",
+  "prerequisites": {
+    "expand-nominal-question": [
+      "grammar-copula"
+    ],
+    "expand-copula-past": [
+      "grammar-copula"
+    ],
+    "expand-location-existence": [
+      "grammar-copula",
+      "grammar-existence"
+    ],
+    "expand-spatial-nouns": [
+      "grammar-copula",
+      "expand-noun-no",
+      "expand-location-existence"
+    ],
+    "expand-noun-no": [
+      "grammar-copula",
+      "grammar-polite-nonpast"
+    ],
+    "expand-i-adjective-noun": [
+      "grammar-copula",
+      "grammar-i-adjectives",
+      "expand-polite-verb-past"
+    ],
+    "expand-na-adjective-noun": [
+      "grammar-copula"
+    ],
+    "expand-demonstrative-things": [
+      "grammar-copula"
+    ],
+    "expand-demonstrative-places": [
+      "grammar-copula",
+      "grammar-polite-nonpast",
+      "grammar-case-particles"
+    ],
+    "expand-demonstrative-noun": [
+      "grammar-copula",
+      "expand-noun-no",
+      "grammar-i-adjectives"
+    ],
+    "expand-interrogative-demonstratives": [
+      "grammar-copula",
+      "grammar-polite-nonpast"
+    ],
+    "expand-clock-hours": [
+      "grammar-copula",
+      "grammar-polite-nonpast"
+    ],
+    "expand-clock-minutes": [
+      "grammar-copula",
+      "expand-clock-hours",
+      "grammar-polite-nonpast"
+    ],
+    "expand-relative-days": [
+      "grammar-copula",
+      "expand-polite-verb-past",
+      "grammar-polite-nonpast"
+    ],
+    "expand-recurring-time": [
+      "grammar-copula",
+      "grammar-polite-nonpast"
+    ],
+    "expand-calendar-date": [
+      "grammar-copula"
+    ],
+    "expand-polite-verb-question": [
+      "grammar-copula",
+      "grammar-polite-nonpast"
+    ],
+    "expand-polite-verb-past": [
+      "grammar-copula",
+      "grammar-polite-nonpast"
+    ],
+    "expand-destination-he": [
+      "grammar-copula",
+      "grammar-polite-nonpast"
+    ],
+    "expand-recipient-ni": [
+      "grammar-copula",
+      "grammar-polite-nonpast"
+    ],
+    "expand-time-ni": [
+      "grammar-copula",
+      "grammar-polite-nonpast"
+    ],
+    "expand-i-adjective-past": [
+      "grammar-copula",
+      "grammar-i-adjectives"
+    ],
+    "expand-degree-adverbs": [
+      "grammar-copula",
+      "grammar-i-adjectives",
+      "expand-na-adjective-predicate"
+    ],
+    "expand-na-adjective-predicate": [
+      "grammar-copula"
+    ],
+    "expand-noun-coordination-to": [
+      "grammar-copula",
+      "grammar-polite-nonpast",
+      "grammar-existence"
+    ],
+    "expand-noun-coordination-ya": [
+      "grammar-copula",
+      "expand-polite-verb-past"
+    ],
+    "expand-predicate-coordination": [
+      "grammar-copula",
+      "grammar-i-adjectives",
+      "expand-na-adjective-predicate"
+    ],
+    "expand-action-list-tari": [
+      "grammar-te-form",
+      "expand-plain-verb-past"
+    ],
+    "expand-action-sequence-te": [
+      "grammar-copula",
+      "grammar-te-form"
+    ],
+    "expand-noun-request": [
+      "grammar-copula"
+    ],
+    "expand-verb-request": [
+      "grammar-copula",
+      "grammar-te-form"
+    ],
+    "expand-polite-request-question": [
+      "grammar-te-form"
+    ],
+    "expand-noun-permission": [
+      "grammar-copula"
+    ],
+    "expand-invitation-masenka": [
+      "grammar-copula",
+      "grammar-polite-nonpast"
+    ],
+    "expand-suggestion-mashou": [
+      "grammar-copula",
+      "grammar-polite-nonpast"
+    ],
+    "expand-want-object": [
+      "grammar-copula"
+    ],
+    "expand-likes-noun": [
+      "grammar-copula"
+    ],
+    "expand-capability-koto": [
+      "grammar-verb-groups",
+      "grammar-relative-clause"
+    ],
+    "expand-probability-deshou": [
+      "grammar-verb-groups",
+      "grammar-relative-clause"
+    ],
+    "expand-quotation-omou": [
+      "grammar-verb-groups",
+      "grammar-relative-clause"
+    ],
+    "expand-uchi-ni": [
+      "grammar-verb-groups",
+      "grammar-relative-clause"
+    ],
+    "expand-koto-ni-suru": [
+      "grammar-verb-groups",
+      "grammar-relative-clause"
+    ],
+    "expand-koto-ni-naru": [
+      "grammar-verb-groups",
+      "grammar-relative-clause"
+    ],
+    "expand-okage-de": [
+      "grammar-verb-groups",
+      "grammar-relative-clause",
+      "grammar-benefactive"
+    ],
+    "expand-sei-de": [
+      "grammar-verb-groups",
+      "grammar-relative-clause"
+    ],
+    "expand-ni-kurabete": [
+      "grammar-verb-groups",
+      "grammar-relative-clause"
+    ],
+    "expand-sae": [
+      "grammar-verb-groups",
+      "grammar-relative-clause",
+      "grammar-potential"
+    ],
+    "expand-gachi": [
+      "grammar-verb-groups",
+      "grammar-relative-clause",
+      "grammar-condition-to"
+    ],
+    "expand-gimi": [
+      "grammar-verb-groups",
+      "grammar-relative-clause"
+    ],
+    "expand-ppoi": [
+      "grammar-verb-groups",
+      "grammar-relative-clause"
+    ],
+    "expand-ni-suginai": [
+      "grammar-verb-groups",
+      "grammar-relative-clause"
+    ],
+    "expand-mono-dakara": [
+      "grammar-verb-groups",
+      "grammar-relative-clause"
+    ],
+    "expand-ue-ni": [
+      "grammar-verb-groups",
+      "grammar-relative-clause"
+    ],
+    "expand-ni-tsurete": [
+      "grammar-verb-groups",
+      "grammar-relative-clause"
+    ],
+    "expand-ni-tomonatte": [
+      "grammar-verb-groups",
+      "grammar-relative-clause"
+    ],
+    "expand-ippou-de": [
+      "grammar-verb-groups",
+      "grammar-relative-clause"
+    ],
+    "expand-ippou-da": [
+      "grammar-verb-groups",
+      "grammar-relative-clause"
+    ],
+    "expand-hanmen": [
+      "grammar-verb-groups",
+      "grammar-relative-clause"
+    ],
+    "expand-ni-oujite": [
+      "grammar-verb-groups",
+      "grammar-relative-clause"
+    ],
+    "expand-wo-chuushin-ni": [
+      "grammar-verb-groups",
+      "grammar-relative-clause"
+    ],
+    "expand-ta-tokoro-de": [
+      "grammar-verb-groups",
+      "grammar-relative-clause",
+      "expand-plain-verb-past"
+    ],
+    "expand-tohaie": [
+      "grammar-verb-groups",
+      "grammar-relative-clause"
+    ],
+    "expand-deare": [
+      "grammar-verb-groups",
+      "grammar-relative-clause"
+    ],
+    "expand-nakushite": [
+      "grammar-verb-groups",
+      "grammar-relative-clause"
+    ],
+    "expand-wo-kawakiri-ni": [
+      "grammar-verb-groups",
+      "grammar-relative-clause"
+    ],
+    "expand-ni-sokushite": [
+      "grammar-verb-groups",
+      "grammar-relative-clause"
+    ],
+    "expand-ni-terashite": [
+      "grammar-verb-groups",
+      "grammar-relative-clause"
+    ],
+    "expand-wo-hete": [
+      "grammar-verb-groups",
+      "grammar-relative-clause"
+    ],
+    "expand-majiki": [
+      "grammar-verb-groups",
+      "grammar-relative-clause"
+    ],
+    "expand-zu-jimai": [
+      "grammar-verb-groups",
+      "grammar-relative-clause"
+    ],
+    "expand-plain-verb-past": [
+      "grammar-te-form"
+    ],
+    "expand-copula-plain": [
+      "grammar-copula",
+      "expand-na-adjective-predicate"
+    ],
+    "expand-addition-mo": [
+      "grammar-copula",
+      "expand-likes-noun"
+    ],
+    "expand-ichidan-negative": [
+      "grammar-verb-groups",
+      "grammar-case-particles"
+    ],
+    "expand-godan-negative": [
+      "grammar-verb-groups",
+      "grammar-case-particles"
+    ],
+    "expand-irregular-suru": [
+      "grammar-verb-groups",
+      "grammar-polite-nonpast",
+      "expand-ichidan-negative"
+    ],
+    "expand-irregular-kuru": [
+      "grammar-verb-groups",
+      "grammar-polite-nonpast",
+      "expand-ichidan-negative"
+    ],
+    "expand-plain-negative-past": [
+      "expand-ichidan-negative"
+    ],
+    "expand-accompaniment-to": [
+      "grammar-polite-nonpast",
+      "grammar-case-particles"
+    ],
+    "expand-instrument-de": [
+      "grammar-case-particles",
+      "grammar-polite-nonpast"
+    ],
+    "expand-starting-kara": [
+      "grammar-polite-nonpast",
+      "expand-polite-verb-past",
+      "expand-clock-hours"
+    ],
+    "expand-endpoint-made": [
+      "grammar-polite-nonpast",
+      "expand-clock-hours"
+    ],
+    "expand-before-mae-ni": [
+      "grammar-verb-groups",
+      "grammar-polite-nonpast",
+      "expand-noun-no"
+    ],
+    "expand-after-te-kara": [
+      "grammar-te-form",
+      "expand-polite-verb-past"
+    ],
+    "expand-purpose-ni-iku": [
+      "grammar-polite-nonpast",
+      "expand-invitation-masenka"
+    ],
+    "expand-already-mou": [
+      "expand-polite-verb-past"
+    ],
+    "expand-still-mada": [
+      "grammar-progressive",
+      "grammar-result-state"
+    ],
+    "expand-not-yet-teinai": [
+      "grammar-progressive",
+      "grammar-te-form",
+      "grammar-polite-nonpast"
+    ],
+    "expand-too-sugiru": [
+      "grammar-verb-groups",
+      "grammar-i-adjectives",
+      "expand-polite-verb-past"
+    ],
+    "expand-change-naru": [
+      "grammar-i-adjectives",
+      "expand-polite-verb-past"
+    ],
+    "expand-choice-ni-suru": [
+      "grammar-copula",
+      "grammar-polite-nonpast"
+    ],
+    "expand-comparison-yori": [
+      "grammar-i-adjectives",
+      "expand-likes-noun"
+    ],
+    "expand-superlative-ichiban": [
+      "grammar-i-adjectives",
+      "expand-likes-noun",
+      "grammar-counters",
+      "expand-interrogative-demonstratives"
+    ],
+    "expand-something-nanika": [
+      "expand-invitation-masenka",
+      "grammar-polite-nonpast"
+    ],
+    "expand-someone-dareka": [
+      "grammar-existence",
+      "expand-location-existence"
+    ],
+    "expand-offer-mashouka": [
+      "expand-suggestion-mashou",
+      "grammar-case-particles"
+    ],
+    "expand-skill-jouzu": [
+      "grammar-nominalization",
+      "expand-na-adjective-predicate"
+    ],
+    "expand-skill-heta": [
+      "grammar-nominalization",
+      "expand-na-adjective-predicate"
+    ],
+    "expand-obligation-contraction": [
+      "adv-nakerebanaranai",
+      "expand-godan-negative",
+      "expand-irregular-suru"
+    ],
+    "expand-or-ka": [
+      "expand-noun-request",
+      "expand-time-ni"
+    ],
+    "expand-why-doushite": [
+      "grammar-progressive",
+      "grammar-copula"
+    ],
+    "expand-masu-stem-ichidan": [
+      "grammar-verb-groups",
+      "grammar-case-particles"
+    ],
+    "expand-masu-stem-godan": [
+      "grammar-verb-groups",
+      "grammar-case-particles"
+    ],
+    "expand-masu-stem-irregular": [
+      "expand-irregular-suru",
+      "expand-irregular-kuru"
+    ],
+    "expand-ichidan-te-past": [
+      "grammar-verb-groups",
+      "grammar-case-particles",
+      "expand-masu-stem-ichidan"
+    ],
+    "expand-copula-plain-past": [
+      "expand-copula-plain",
+      "expand-na-adjective-predicate"
+    ],
+    "expand-copula-plain-negative": [
+      "expand-copula-plain",
+      "expand-noun-no"
+    ],
+    "expand-copula-plain-negative-past": [
+      "expand-copula-plain-negative",
+      "expand-copula-plain-past"
+    ],
+    "expand-i-adjective-negative-past": [
+      "grammar-i-adjectives",
+      "expand-i-adjective-past"
+    ],
+    "expand-i-adjective-polite-negative": [
+      "grammar-i-adjectives",
+      "grammar-existence"
+    ],
+    "expand-adjective-desu": [
+      "grammar-i-adjectives",
+      "expand-na-adjective-predicate"
+    ],
+    "expand-polite-verb-negative-past": [
+      "expand-masu-stem-ichidan",
+      "expand-masu-stem-godan",
+      "expand-masu-stem-irregular",
+      "expand-plain-negative-past"
+    ],
+    "expand-verb-dictionary-nonpast": [
+      "grammar-verb-groups",
+      "expand-masu-stem-ichidan",
+      "expand-masu-stem-godan",
+      "expand-masu-stem-irregular",
+      "expand-recurring-time"
+    ],
+    "expand-teiru-habit": [
+      "grammar-te-form",
+      "expand-ichidan-te-past",
+      "grammar-progressive",
+      "grammar-result-state",
+      "expand-recurring-time"
+    ],
+    "expand-prohibition-na": [
+      "grammar-verb-groups",
+      "expand-verb-request"
+    ],
+    "expand-nonverbal-acceptability": [
+      "grammar-i-adjectives",
+      "expand-na-adjective-predicate",
+      "expand-noun-request"
+    ],
+    "expand-person-dare": [
+      "grammar-case-particles",
+      "expand-noun-no",
+      "expand-recipient-ni",
+      "expand-masu-stem-godan"
+    ],
+    "expand-probability-darou": [
+      "expand-copula-plain",
+      "grammar-i-adjectives",
+      "expand-verb-dictionary-nonpast"
+    ],
+    "expand-why-naze": [
+      "adv-noda",
+      "expand-plain-verb-past",
+      "expand-ichidan-te-past",
+      "grammar-i-adjectives"
+    ],
+    "expand-why-nande": [
+      "adv-noda",
+      "expand-plain-verb-past",
+      "expand-ichidan-te-past",
+      "expand-irregular-kuru"
+    ],
+    "expand-colloquial-quotation-tte": [
+      "expand-quotation-omou",
+      "expand-copula-plain",
+      "expand-plain-verb-past",
+      "grammar-progressive"
+    ],
+    "expand-subject-no-attributive": [
+      "grammar-relative-clause",
+      "grammar-case-particles",
+      "grammar-i-adjectives",
+      "grammar-desire",
+      "expand-masu-stem-godan"
+    ],
+    "expand-ga-conjunction": [
+      "expand-copula-plain",
+      "expand-adjective-desu",
+      "expand-masu-stem-godan",
+      "adv-noda"
+    ],
+    "expand-noun-ellipsis-no": [
+      "expand-noun-no",
+      "expand-cause-kara-attachment",
+      "expand-masu-stem-ichidan",
+      "grammar-existence"
+    ],
+    "expand-adjective-nominalization-no": [
+      "expand-i-adjective-noun",
+      "expand-na-adjective-noun",
+      "expand-topic-wa-construction",
+      "expand-copula-plain-past",
+      "expand-masu-stem-godan",
+      "expand-likes-noun",
+      "expand-addition-mo"
+    ],
+    "expand-degree-kekkou": [
+      "expand-adjective-desu",
+      "expand-already-mou"
+    ],
+    "expand-quantity-takusan": [
+      "expand-masu-stem-godan",
+      "grammar-existence",
+      "expand-location-existence",
+      "expand-time-ni"
+    ],
+    "expand-approximation-kurai": [
+      "grammar-counters",
+      "expand-clock-minutes",
+      "expand-masu-stem-godan",
+      "grammar-result-state",
+      "expand-interrogative-demonstratives",
+      "expand-endpoint-made",
+      "expand-polite-verb-question"
+    ],
+    "expand-verb-until-made": [
+      "expand-verb-dictionary-nonpast",
+      "expand-masu-stem-godan",
+      "expand-masu-stem-ichidan",
+      "grammar-existence"
+    ],
+    "expand-obligation-nakute-naranai": [
+      "expand-ichidan-negative",
+      "expand-godan-negative",
+      "expand-masu-stem-godan",
+      "expand-recurring-time",
+      "expand-adjective-verb-modifier"
+    ],
+    "expand-obligation-nakute-ikenai": [
+      "expand-ichidan-negative",
+      "expand-godan-negative",
+      "expand-masu-stem-godan",
+      "expand-adjective-verb-modifier"
+    ],
+    "expand-explanatory-question-no": [
+      "expand-verb-dictionary-nonpast",
+      "expand-copula-plain",
+      "grammar-i-adjectives",
+      "expand-na-adjective-predicate",
+      "expand-ichidan-te-past",
+      "expand-why-doushite"
+    ],
+    "expand-negative-mou": [
+      "expand-masu-stem-godan",
+      "expand-masu-stem-ichidan",
+      "expand-polite-verb-question",
+      "expand-already-mou",
+      "grammar-case-particles",
+      "grammar-progressive",
+      "expand-not-yet-teinai"
+    ],
+    "expand-quotation-to-speech": [
+      "expand-copula-plain",
+      "expand-verb-dictionary-nonpast",
+      "expand-masu-stem-godan",
+      "expand-recurring-time"
+    ],
+    "expand-adjective-te-clause": [
+      "grammar-i-adjectives",
+      "expand-na-adjective-predicate",
+      "expand-good-adjective-link",
+      "expand-quantity-takusan",
+      "expand-masu-stem-godan",
+      "expand-adjective-verb-modifier"
+    ],
+    "expand-good-adjective-link": [
+      "grammar-i-adjectives",
+      "expand-na-adjective-predicate",
+      "expand-copula-past",
+      "expand-adjective-desu",
+      "expand-copula-plain-past"
+    ],
+    "expand-giving-ageru-particles": [
+      "grammar-case-particles",
+      "expand-recipient-ni",
+      "expand-masu-stem-ichidan",
+      "expand-i-adjective-noun"
+    ],
+    "expand-giving-kureru-particles": [
+      "grammar-case-particles",
+      "expand-recipient-ni",
+      "expand-masu-stem-ichidan"
+    ],
+    "expand-receiving-morau-particles": [
+      "grammar-case-particles",
+      "expand-masu-stem-godan",
+      "expand-i-adjective-noun"
+    ],
+    "expand-cause-kara-attachment": [
+      "expand-copula-plain",
+      "grammar-i-adjectives",
+      "expand-verb-dictionary-nonpast",
+      "expand-masu-stem-godan",
+      "expand-masu-stem-ichidan"
+    ],
+    "expand-concession-kedo-attachment": [
+      "expand-copula-plain",
+      "expand-adjective-desu",
+      "expand-verb-dictionary-nonpast",
+      "expand-masu-stem-godan",
+      "expand-masu-stem-ichidan"
+    ],
+    "expand-topic-wa-construction": [
+      "grammar-case-particles",
+      "expand-na-adjective-predicate",
+      "expand-likes-noun"
+    ],
+    "expand-adjective-verb-modifier": [
+      "grammar-i-adjectives",
+      "expand-na-adjective-predicate",
+      "expand-masu-stem-ichidan",
+      "expand-masu-stem-godan",
+      "expand-recurring-time",
+      "expand-na-adjective-noun"
+    ],
+    "expand-negative-addition-mo": [
+      "expand-addition-mo",
+      "expand-masu-stem-ichidan",
+      "expand-masu-stem-godan"
+    ],
+    "expand-discourse-sore": [
+      "expand-demonstrative-things",
+      "expand-noun-no",
+      "expand-i-adjective-noun",
+      "expand-masu-stem-godan",
+      "expand-relative-days"
+    ],
+    "expand-discourse-soko": [
+      "expand-demonstrative-places",
+      "expand-location-existence",
+      "expand-addition-mo",
+      "grammar-result-state",
+      "expand-masu-stem-godan",
+      "expand-copula-past",
+      "expand-i-adjective-noun"
+    ],
+    "expand-discourse-asoko": [
+      "expand-demonstrative-places",
+      "grammar-relative-clause",
+      "expand-masu-stem-ichidan",
+      "grammar-result-state",
+      "grammar-desire",
+      "expand-copula-past",
+      "grammar-final-particles",
+      "expand-group-participants-de",
+      "expand-accompaniment-to",
+      "expand-plain-verb-past"
+    ],
+    "expand-plain-question-ka": [
+      "expand-verb-dictionary-nonpast",
+      "expand-plain-verb-past",
+      "expand-person-dare",
+      "expand-masu-stem-godan",
+      "expand-relative-days"
+    ],
+    "expand-new-subject-ga": [
+      "grammar-case-particles",
+      "grammar-existence",
+      "expand-location-existence",
+      "expand-person-dare",
+      "expand-masu-stem-ichidan"
+    ],
+    "expand-final-yo-construction": [
+      "expand-copula-plain",
+      "expand-adjective-desu",
+      "grammar-result-state",
+      "expand-addition-mo",
+      "expand-recurring-time"
+    ],
+    "expand-traversed-place-o": [
+      "grammar-case-particles",
+      "expand-masu-stem-godan",
+      "expand-noun-no",
+      "expand-relative-days"
+    ],
+    "expand-predicate-alternatives-ka": [
+      "expand-plain-question-ka",
+      "expand-verb-dictionary-nonpast",
+      "expand-na-adjective-predicate",
+      "grammar-progressive",
+      "expand-ichidan-te-past",
+      "expand-masu-stem-ichidan",
+      "grammar-i-adjectives"
+    ],
+    "expand-interaction-to-ni": [
+      "expand-accompaniment-to",
+      "expand-recipient-ni",
+      "expand-masu-stem-godan",
+      "expand-time-ni",
+      "expand-noun-no"
+    ],
+    "expand-deshou-attachment": [
+      "expand-verb-dictionary-nonpast",
+      "expand-copula-plain",
+      "grammar-i-adjectives",
+      "expand-change-naru",
+      "expand-na-adjective-predicate"
+    ],
+    "expand-existence-neutral-negative": [
+      "grammar-existence",
+      "expand-location-existence",
+      "expand-godan-negative",
+      "expand-masu-stem-godan"
+    ],
+    "expand-explanatory-statement-noda": [
+      "expand-verb-dictionary-nonpast",
+      "expand-copula-plain",
+      "grammar-i-adjectives",
+      "expand-na-adjective-predicate",
+      "expand-explanatory-question-no"
+    ],
+    "expand-verb-nominalization-no": [
+      "expand-verb-dictionary-nonpast",
+      "expand-likes-noun",
+      "expand-masu-stem-irregular",
+      "grammar-case-particles",
+      "expand-i-adjective-noun"
+    ],
+    "expand-na-no-noun-attribution": [
+      "expand-na-adjective-noun",
+      "expand-noun-no",
+      "grammar-desire",
+      "expand-masu-stem-godan",
+      "expand-accompaniment-to",
+      "expand-noun-object-suru"
+    ],
+    "expand-noun-object-suru": [
+      "expand-irregular-suru",
+      "expand-masu-stem-irregular",
+      "grammar-case-particles",
+      "expand-noun-no",
+      "expand-time-ni"
+    ],
+    "expand-come-reference-result": [
+      "expand-irregular-kuru",
+      "expand-masu-stem-irregular",
+      "grammar-result-state",
+      "expand-location-existence",
+      "expand-destination-he"
+    ],
+    "expand-like-na-attribution": [
+      "expand-likes-noun",
+      "expand-na-adjective-noun",
+      "expand-copula-plain-past",
+      "expand-copula-past",
+      "expand-recipient-ni",
+      "expand-masu-stem-godan"
+    ],
+    "expand-dislike-kirai-attribution": [
+      "expand-na-adjective-noun",
+      "expand-na-adjective-predicate",
+      "expand-copula-plain-negative",
+      "expand-copula-plain-past",
+      "expand-copula-past",
+      "grammar-i-adjectives",
+      "grammar-existence",
+      "expand-polite-verb-question"
+    ],
+    "expand-activity-liking-tense": [
+      "expand-verb-dictionary-nonpast",
+      "expand-verb-nominalization-no",
+      "expand-likes-noun",
+      "expand-copula-plain-past",
+      "expand-copula-past",
+      "expand-time-ni"
+    ],
+    "expand-attributive-existence-gaaru": [
+      "grammar-relative-clause",
+      "expand-existence-neutral-negative",
+      "expand-subject-no-attributive",
+      "grammar-desire",
+      "expand-masu-stem-godan",
+      "expand-i-adjective-noun"
+    ],
+    "expand-group-participants-de": [
+      "grammar-counters",
+      "expand-noun-object-suru",
+      "expand-masu-stem-godan",
+      "expand-masu-stem-irregular",
+      "expand-recurring-time",
+      "expand-accompaniment-to"
+    ],
+    "expand-dake-attachment": [
+      "expand-verb-dictionary-nonpast",
+      "expand-copula-plain",
+      "grammar-i-adjectives",
+      "expand-na-adjective-predicate",
+      "expand-na-adjective-noun",
+      "expand-masu-stem-godan"
+    ],
+    "expand-choice-dore-binary": [
+      "expand-interrogative-demonstratives",
+      "expand-noun-no",
+      "expand-likes-noun",
+      "expand-nominal-question"
+    ],
+    "expand-choice-dono-freechoice": [
+      "expand-demonstrative-noun",
+      "expand-polite-verb-question",
+      "expand-masu-stem-godan",
+      "expand-nonverbal-acceptability"
+    ],
+    "expand-good-ii-yoi": [
+      "grammar-i-adjectives",
+      "expand-i-adjective-past",
+      "expand-i-adjective-negative-past",
+      "expand-adjective-verb-modifier",
+      "expand-irregular-kuru",
+      "expand-masu-stem-irregular"
+    ],
+    "expand-tai-object-and-scope": [
+      "grammar-desire",
+      "expand-masu-stem-godan",
+      "grammar-i-adjectives",
+      "expand-i-adjective-negative-past",
+      "expand-i-adjective-noun",
+      "expand-masu-stem-ichidan"
+    ],
+    "expand-scalar-mo": [
+      "expand-addition-mo",
+      "expand-polite-verb-past",
+      "grammar-counters",
+      "grammar-i-adjectives",
+      "expand-masu-stem-godan",
+      "expand-masu-stem-ichidan"
+    ],
+    "expand-plain-nominal-question-ka": [
+      "expand-copula-plain",
+      "expand-na-adjective-predicate",
+      "expand-plain-question-ka",
+      "expand-demonstrative-noun",
+      "expand-godan-negative"
+    ],
+    "expand-departure-place-o": [
+      "grammar-case-particles",
+      "expand-masu-stem-ichidan",
+      "expand-polite-verb-past",
+      "expand-clock-hours",
+      "expand-time-ni"
+    ],
+    "expand-inanimate-accompaniment-to": [
+      "expand-accompaniment-to",
+      "grammar-case-particles",
+      "expand-masu-stem-godan",
+      "expand-masu-stem-ichidan"
+    ],
+    "expand-deshou-basis-and-contraction": [
+      "expand-deshou-attachment",
+      "expand-quotation-to-speech",
+      "expand-na-adjective-predicate",
+      "expand-demonstrative-noun"
+    ],
+    "expand-darou-contraction": [
+      "expand-probability-darou",
+      "grammar-i-adjectives",
+      "expand-copula-plain",
+      "expand-demonstrative-noun"
+    ],
+    "expand-referential-nominalizer-no": [
+      "expand-verb-nominalization-no",
+      "expand-plain-verb-past",
+      "expand-irregular-kuru",
+      "expand-relative-days",
+      "grammar-copula",
+      "expand-demonstrative-noun"
+    ],
+    "expand-change-state-suru": [
+      "expand-adjective-verb-modifier",
+      "expand-irregular-suru",
+      "expand-change-naru",
+      "grammar-case-particles"
+    ],
+    "expand-daisuki-intensifier": [
+      "expand-like-na-attribution",
+      "expand-na-adjective-noun",
+      "grammar-i-adjectives",
+      "grammar-relative-clause",
+      "expand-demonstrative-things",
+      "expand-demonstrative-noun"
+    ],
+    "expand-dore-free-choice": [
+      "expand-choice-dore-binary",
+      "expand-choice-dono-freechoice",
+      "grammar-condition-nara",
+      "grammar-counters",
+      "expand-verb-request",
+      "expand-like-na-attribution"
+    ],
+    "expand-verb-negative-naidesu": [
+      "expand-ichidan-negative",
+      "expand-godan-negative",
+      "expand-irregular-suru",
+      "expand-irregular-kuru",
+      "expand-plain-negative-past",
+      "expand-relative-days",
+      "grammar-case-particles"
+    ],
+    "expand-experience-negative-koto": [
+      "adv-koto-ga-aru",
+      "expand-ichidan-te-past",
+      "expand-plain-verb-past",
+      "expand-existence-neutral-negative",
+      "expand-verb-negative-naidesu",
+      "expand-topic-wa-construction"
+    ],
+    "expand-jouzu-activity-past": [
+      "expand-skill-jouzu",
+      "expand-copula-plain-past",
+      "expand-copula-past",
+      "expand-verb-dictionary-nonpast",
+      "grammar-case-particles"
+    ],
+    "expand-heta-activity-past": [
+      "expand-skill-heta",
+      "expand-copula-plain-past",
+      "expand-copula-past",
+      "expand-verb-dictionary-nonpast",
+      "grammar-case-particles"
+    ],
+    "expand-kedomo-variants": [
+      "expand-concession-kedo-attachment",
+      "grammar-i-adjectives",
+      "expand-na-adjective-predicate",
+      "expand-demonstrative-noun"
+    ],
+    "expand-mashouka-productive": [
+      "expand-offer-mashouka",
+      "expand-masu-stem-godan",
+      "expand-masu-stem-ichidan",
+      "expand-masu-stem-irregular",
+      "expand-accompaniment-to",
+      "expand-demonstrative-noun"
+    ],
+    "expand-masenka-productive": [
+      "expand-invitation-masenka",
+      "expand-masu-stem-godan",
+      "expand-masu-stem-ichidan",
+      "expand-masu-stem-irregular",
+      "expand-godan-negative",
+      "expand-endpoint-made",
+      "expand-purpose-ni-iku",
+      "expand-demonstrative-noun"
+    ],
+    "expand-tsumori-negative-contrast": [
+      "adv-tsumori",
+      "expand-ichidan-negative",
+      "expand-godan-negative",
+      "expand-verb-dictionary-nonpast",
+      "expand-existence-neutral-negative",
+      "expand-demonstrative-noun",
+      "grammar-case-particles"
+    ]
+  },
+  "seedFiles": [
+    "ExpansionSeeds.json",
+    "HigherExpansionSeeds.json",
+    "FoundationExpansion02Seeds.json",
+    "FoundationExpansion03Seeds.json",
+    "FoundationExpansion04Seeds.json",
+    "FoundationExpansion05Seeds.json",
+    "FoundationExpansion06Seeds.json"
+  ],
+  "supplementalSources": {
+    "expand-degree-kekkou": [
+      {
+        "url": "https://nj.alc.co.jp/entry/20260216",
+        "title": "Ambiguous Japanese responses: kekkou desu",
+        "publisher": "ALC Japanese Journal; author 新城宏治"
+      }
+    ],
+    "expand-topic-wa-construction": [
+      {
+        "url": "https://www.tofugu.com/japanese-grammar/particle-wa/",
+        "title": "Particle wa: topic marker",
+        "publisher": "Tofugu, original grammar publisher"
+      }
+    ],
+    "expand-plain-question-ka": [
+      {
+        "url": "https://www.tofugu.com/japanese-grammar/particle-ka/",
+        "title": "Particle ka: a marker of the unknown",
+        "publisher": "Tofugu, original grammar publisher"
+      }
+    ],
+    "expand-predicate-alternatives-ka": [
+      {
+        "url": "https://www.tofugu.com/japanese-grammar/particle-ka/",
+        "title": "Particle ka: a marker of the unknown",
+        "publisher": "Tofugu, original grammar publisher"
+      }
+    ],
+    "expand-group-participants-de": [
+      {
+        "url": "https://www.tofugu.com/japanese-grammar/particle-de/",
+        "title": "Particle de: groups of people",
+        "publisher": "Tofugu, original grammar publisher"
+      }
+    ],
+    "expand-na-no-noun-attribution": [
+      {
+        "url": "https://www.tofugu.com/japanese-grammar/na-adjective/",
+        "title": "Na adjectives and lexical noun uses",
+        "publisher": "Tofugu, original grammar publisher"
+      }
+    ],
+    "expand-choice-dore-binary": [
+      {
+        "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/014.html",
+        "title": "TUFS module14: dore and dono noun",
+        "publisher": "Tokyo University of Foreign Studies"
+      }
+    ],
+    "expand-choice-dono-freechoice": [
+      {
+        "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/014.html",
+        "title": "TUFS module14: dore and dono noun",
+        "publisher": "Tokyo University of Foreign Studies"
+      }
+    ],
+    "expand-new-subject-ga": [
+      {
+        "url": "https://www.tofugu.com/japanese-grammar/particle-ga/",
+        "title": "Particle ga: subject marker",
+        "publisher": "Tofugu, original grammar publisher"
+      }
+    ],
+    "expand-scalar-mo": [
+      {
+        "url": "https://www.tofugu.com/japanese-grammar/particle-mo/",
+        "title": "Particle mo, emphatic addition and quantity",
+        "publisher": "Tofugu, original pedagogical publisher"
+      }
+    ],
+    "expand-plain-nominal-question-ka": [
+      {
+        "url": "https://www.tofugu.com/japanese-grammar/particle-ka/",
+        "title": "Particle ka, direct and embedded questions",
+        "publisher": "Tofugu, original pedagogical publisher"
+      }
+    ],
+    "expand-departure-place-o": [
+      {
+        "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/053.html",
+        "title": "TUFS case particles, departure and path",
+        "publisher": "Tokyo University of Foreign Studies"
+      }
+    ],
+    "expand-masenka-productive": [
+      {
+        "url": "https://www.mangolanguages.com/resources/learn/grammar/japanese/invitations-how-to-say-let-s-in-japanese-",
+        "title": "Mango Languages, invitations with negative questions",
+        "publisher": "Mango Languages, original language-course publisher"
+      }
+    ],
+    "expand-verb-negative-naidesu": [
+      {
+        "url": "https://www.tofugu.com/japanese-grammar/desu/",
+        "title": "Desu after negative predicates",
+        "publisher": "Tofugu, original pedagogical publisher"
+      }
+    ]
+  }
+}
