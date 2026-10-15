@@ -1,0 +1,21 @@
+{
+  "checkedAt": "2026-10-15T08:08:00.220Z",
+  "version": "1.0.0",
+  "release": "9dd9165e4122a6ce",
+  "cards": 439,
+  "entry": "/assets/index-CnZVkpbg.js",
+  "component": "ZenRayJapanese-B6o19q3N.js",
+  "componentSha256": "035968bf8e11b4e915e434ebe28ab59c024a6404943b1ebdc36a6e07ceb95bb4",
+  "exactCatalogue": true,
+  "exactCoverage": true,
+  "recordPathsRead": [
+    "adv-kamoshirenai",
+    "japan-tsunami-information",
+    "kanji-0732b"
+  ],
+  "supplementarySearch": true,
+  "learnerStateRead": true,
+  "learnerWrites": 0,
+  "unauthenticatedStatus": 401,
+  "passed": true
+}

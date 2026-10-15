@@ -1,0 +1,51 @@
+# ZenRay Japanese 1.0.0 (15 October 2026)
+
+Cette version livre l’application de japonais dans Learn → Japanese de https://zenray-progress.pages.dev, avec le corpus vérifié 9dd9165e4122a6ce. Le numéro 1.0.0 décrit l’application utilisable et cet instantané ; il ne certifie pas une couverture exhaustive N5 à N1 ou au-delà. (15 October 2026)
+
+## Utiliser l’application (15 October 2026)
+
+1. Ouvrir Learn, Japanese, Parcours, puis commencer par Révisions dues. Dire la réponse à voix haute avant de la révéler, comparer, puis déclarer le résultat réellement obtenu. Ce sont des autoévaluations, sans reconnaissance vocale. (15 October 2026)
+2. Choisir le niveau souhaité et une leçon débloquée. Le diagnostic « Je connais déjà ce point : me tester » évite de reprendre un prérequis connu, sans le déclarer acquis. Un échec ultérieur révoque cette preuve. (15 October 2026)
+3. Suivre Retest, Neuf, Drill pendant une boucle de quinze minutes, puis deux minutes de pause. Ajouter aux révisions consigne une exposition, pas une maîtrise. Exporter la leçon ne crée aucun résultat apprenant. (15 October 2026)
+4. Interroger le corpus permet de chercher et filtrer les notions, mots, kanji, phrases et connaissances sur le Japon. Les sources, lectures et limites restent consultables. Les onglets Leçons, Grammaire, Vocabulaire et Kanji gardent l’historique personnel. (15 October 2026)
+5. Paramètres règle la taille de lecture et les lots. Couverture et lacunes affiche les comptes réels, les points encore ouverts et permet de conserver une demande de recherche. Le mode d’emploi et la version restent accessibles dans Parcours. (15 October 2026)
+
+## Contenu vérifié et limites (15 October 2026)
+
+| Élément | État livré | Preuve |
+|---|---|---|
+| Fiches éditoriales | 439, toutes approuvées par deux revues indépendantes de modèles | Approbations liées aux empreintes exactes ; aucune certification humaine ou native (15 October 2026) |
+| Grammaire | 345 : N5 168, N4 40, N3 48, N2 48, N1 41 | Comptage du catalogue compilé ; niveaux éditoriaux (15 October 2026) |
+| Au-delà du N1 | Deux fiches de pragmatique | Couverture spécialisée complète encore ouverte (15 October 2026) |
+| Connaissances sur le Japon | 88 fiches | Sources et limites propres à chaque fiche ; aucune généralisation à tous les Japonais (15 October 2026) |
+| Références | 276244 enregistrements au total, dont 218863 entrées de dictionnaire, 13108 entrées kanji et 43834 paires de phrases | Les références ouvertes ne deviennent pas automatiquement des exercices approuvés (15 October 2026) |
+| Couverture grammaticale N5 | 88 points couverts et 44 ouverts sur 132 points du producteur Bunpro | Deux audits indépendants liés aux sources et candidats ; aucune liste officielle exhaustive du JLPT prétendue (15 October 2026) |
+| Ressources externes | 72 leçons originales Irodori avec PDF et audio | Liens producteur, aucune copie intégrale ni équivalence JLPT inventée (15 October 2026) |
+
+Les 18 dernières fiches et leurs 36 exemples passent deux revues après correction de quatre problèmes de prérequis ou de sources. Leur ajout ne modifie pas silencieusement les anciennes décisions de couverture : de nouvelles correspondances doivent être auditées. Les 44 points N5 encore ouverts, puis les autres niveaux, l’écoute, la lecture longue, le vocabulaire contextualisé et la conversation restent des travaux explicitement conservés. (15 October 2026)
+
+## Progression et conservation (15 October 2026)
+
+La chronologie unique reste /Users/zenray/.claude/Memory1/Japanese/Japanese1.md ; les règles pédagogiques restent /Users/zenray/.claude/Memory1/Japanese/CLAUDE.md. Le serveur ajoute une séance dans Japanese1, met à jour DrillTracker et les index dérivés dans une transaction Git protégée contre les collisions. Il ne réécrit pas l’histoire. Une fiche modifiée perd la validité de son ancien résultat et peut reprendre comme nouvelle exposition ou diagnostic. (15 October 2026)
+
+Rouge reprend après quinze minutes ; une restitution fluide conduit à Orange pour deux jours, puis à Vert pour cinq jours. Deux restitutions fluides supplémentaires au stade Vert rendent les exemples acquis. Le délai de fluidité est cinq secondes. Les paramètres centraux vivent dans src/learn/japaneseStudyModel.js, les limites de leçon dans japaneseCorpusModel.js et le guide/version dans data/JapaneseRelease.json. (15 October 2026)
+
+## Sources, droits et garde de publication (15 October 2026)
+
+Chaque fiche automatique doit conserver deux identités de revue distinctes, une empreinte courante, des sources HTTPS et aucune objection non résolue. La préparation CLI, le navigateur et le serveur contrôlent le contenu ; une empreinte périmée bloque l’exercice. Les pages éditeur sont citées et les explications/exemples rédigés pour ce corpus. Les dictionnaires, KanjiVG et phrases Tatoeba conservent leurs licences et attributions détaillées dans research/datasets/Research.md. Les composantes françaises de JMdict gardent les droits de leurs compilateurs ; ne pas présenter tout le corpus comme exclusivement propriétaire. (15 October 2026)
+
+## Restaurer et maintenir (15 October 2026)
+
+Le projet Assets est zenray-japanese. Ses sources déclarées sont l’atelier /Users/zenray/.claude/tmp/tmp-zenray-japanese, la mémoire du projet et le dossier Japanese admis par le registre. Le code de l’application appartient au dépôt ZenRayProgress, sur origin/main ; l’instantané de release contient les fichiers japonais concernés et leurs empreintes. Aucune source locale ne se supprime pour cette livraison. (15 October 2026)
+
+Depuis Assets, ouvrir zenray-japanese et utiliser Télécharger ou LOAD pour récupérer les sources ; suivre ensuite ResumeCorpus.md. Les snapshots d’édition sont dans Japanese/Corpus/ExpansionCheckpoint, les preuves de cette livraison dans verification et Release/1.0.0. Une sauvegarde Git, une réponse HTTP et une archive Assets représentent trois preuves distinctes ; le rapport de vérification cloud en donne l’état mesuré. (15 October 2026)
+
+Pour reprendre les données : exécuter séparément Scripts/BuildExpansion.py, Scripts/PrepareApprovals.py, Scripts/TestApprovals.py, Scripts/TestCorpus.py, Scripts/Corpus.py build et Scripts/VerifyCorpus.py. Ne pas lancer Workflow.py : le travail est séquentiel. Pour l’audit : PrepareCoverageAudit.py, CompileCoverageAudit.py et TestCoverageAudit.py ; une modification de candidat exige les nouvelles revues correspondantes. Ne pas changer globalement les dates historiques des records, ce qui invaliderait leurs empreintes. (15 October 2026)
+
+Pour l’application : installer les dépendances du dépôt, lancer la suite ciblée src/learn et server/japanese.test.js, puis la suite complète et vite build. Publier depuis origin/main propre avec la méthode courante du skill zenray-progress, sur la branche Pages main, et comparer le bundle réellement servi. Vérifier l’API du catalogue, l’état apprenant en lecture seule, les fichiers de recherche et les gardes d’accès. Ne jamais créer de séance fictive en production pour tester. (15 October 2026)
+
+## Preuve de livraison sur le site (15 October 2026)
+
+L’application 65aab04d est déployée en production, déploiement 9310a334, bundle index-CnZVkpbg.js et composant ZenRayJapanese-B6o19q3N.js. Le composant servi possède la même empreinte SHA256 que le build testé. Le catalogue et l’audit servis correspondent exactement aux fichiers locaux ; trois chemins de fiches et la recherche d’un kanji hors du plan Unicode principal sont relus. L’état apprenant est accessible avec authentification ; sans authentification, le serveur répond 401. Aucune séance, note ou préférence n’est créée pour cette vérification. Preuve dans verification/ReleaseProductionReport.json. (15 October 2026)
+
+La suite du checkout propre passe 2563 tests dans 262 fichiers, avec six tests volontairement ignorés ; les 65 tests ciblés passent. Le tag zenray-japanese-v1.0.0 fixe le code de l’application. L’archive Assets reste soumise à sa preuve terminale séparée, sans suppression des sources locales. (15 October 2026)

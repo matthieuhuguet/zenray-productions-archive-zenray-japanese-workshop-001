@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # 12 October 2026: compare every original chunk with its pinned remote Git object, without deleting sources.
-import concurrent.futures,hashlib,json,re,subprocess,sys
+import concurrent.futures,hashlib,json,re,subprocess,sys,datetime
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 CACHE=Path('/Users/zenray/Library/Caches/ZenRayJapaneseCloudVerification')
@@ -76,6 +76,6 @@ def check(item):
     return {'id':file['id'],'matched':True,'chunks':chunks}
 with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:results=list(pool.map(check,work))
 problems += [item for item in results if not item.get('matched')]
-report={'date':'12 October 2026','inventoryCheckedAt':state['inventory']['checkedAt'],'files':len(files),'matched':sum(bool(item.get('matched')) for item in results),'chunks':sum(item.get('chunks',0) for item in results),'remoteRepositories':len(repositories),'pinnedCommits':len(trees),'complete':not problems,'problems':problems,'sourcesDeleted':False}
+report={'date':datetime.datetime.now().astimezone().strftime('%d %B %Y').lstrip('0'),'inventoryCheckedAt':state['inventory']['checkedAt'],'files':len(files),'matched':sum(bool(item.get('matched')) for item in results),'chunks':sum(item.get('chunks',0) for item in results),'remoteRepositories':len(repositories),'pinnedCommits':len(trees),'complete':not problems,'problems':problems,'sourcesDeleted':False}
 if '--no-report' not in sys.argv:(ROOT/'verification/CloudIdentityReport.json').write_text(json.dumps(report,indent=2))
 print(json.dumps({key:value for key,value in report.items() if key!='problems'}));print(json.dumps({'problemExamples':problems[:5]}));sys.exit(0 if report['complete'] else 1)

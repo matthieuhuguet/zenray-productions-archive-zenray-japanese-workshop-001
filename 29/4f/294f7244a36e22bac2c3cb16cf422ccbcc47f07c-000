@@ -1,0 +1,1333 @@
+
+ RUN  v3.2.6 /Users/zenray/.codex/worktrees/japanese-progress
+
+(node:49001) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:48999) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:48998) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:49000) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+warning: You appear to have cloned an empty repository.
+warning: You appear to have cloned an empty repository.
+warning: You appear to have cloned an empty repository.
+warning: You appear to have cloned an empty repository.
+ ✓ src/lib/vidStream.test.js (9 tests) 6684ms
+   ✓ registerRawMedia > rejette un ancien ACK non corrélé au lieu de produire une URL fantôme  455ms
+   ✓ registerRawMedia > réenregistre une seule fois sur le nouveau controller après un timeout  1004ms
+   ✓ registerRawMedia > rejette proprement si aucun ACK ni nouveau controller n’arrive  1470ms
+   ✓ page non contrôlée (rechargement forcé ⇧⌘R) > demande au worker actif de prendre le contrôle, puis enregistre  1226ms
+   ✓ page non contrôlée (rechargement forcé ⇧⌘R) > sans prise de contrôle, l’erreur typée dit quoi faire et porte le code attendu par le lecteur  2409ms
+(node:50302) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+warning: You appear to have cloned an empty repository.
+stderr | src/components/SharedFolderPage.test.jsx > la galerie partagée de liens : le visualiseur au clavier > Espace ouvre l’image CIBLE du lien (jamais le lien lui-même)
+The current testing environment is not configured to support act(...)
+The current testing environment is not configured to support act(...)
+The current testing environment is not configured to support act(...)
+The current testing environment is not configured to support act(...)
+The current testing environment is not configured to support act(...)
+The current testing environment is not configured to support act(...)
+The current testing environment is not configured to support act(...)
+The current testing environment is not configured to support act(...)
+The current testing environment is not configured to support act(...)
+The current testing environment is not configured to support act(...)
+
+stderr | src/components/SharedFolderPage.test.jsx > la galerie partagée de liens : le visualiseur au clavier > Espace ouvre l’image CIBLE du lien (jamais le lien lui-même)
+The current testing environment is not configured to support act(...)
+
+stderr | src/components/SharedFolderPage.test.jsx > la galerie partagée de liens : le visualiseur au clavier > flèche droite / gauche : image suivante / précédente, avec bouclage
+The current testing environment is not configured to support act(...)
+The current testing environment is not configured to support act(...)
+The current testing environment is not configured to support act(...)
+The current testing environment is not configured to support act(...)
+The current testing environment is not configured to support act(...)
+The current testing environment is not configured to support act(...)
+The current testing environment is not configured to support act(...)
+The current testing environment is not configured to support act(...)
+The current testing environment is not configured to support act(...)
+The current testing environment is not configured to support act(...)
+
+stderr | src/components/SharedFolderPage.test.jsx > la galerie partagée de liens : le visualiseur au clavier > flèche droite / gauche : image suivante / précédente, avec bouclage
+The current testing environment is not configured to support act(...)
+
+stderr | src/components/SharedFolderPage.test.jsx > la galerie partagée de liens : le visualiseur au clavier > l’ancienne image reste le temps du fondu, puis disparaît (transition croisée)
+The current testing environment is not configured to support act(...)
+The current testing environment is not configured to support act(...)
+The current testing environment is not configured to support act(...)
+The current testing environment is not configured to support act(...)
+The current testing environment is not configured to support act(...)
+The current testing environment is not configured to support act(...)
+The current testing environment is not configured to support act(...)
+The current testing environment is not configured to support act(...)
+The current testing environment is not configured to support act(...)
+The current testing environment is not configured to support act(...)
+
+stderr | src/components/SharedFolderPage.test.jsx > la galerie partagée de liens : le visualiseur au clavier > l’ancienne image reste le temps du fondu, puis disparaît (transition croisée)
+The current testing environment is not configured to support act(...)
+
+stderr | src/components/SharedFolderPage.test.jsx > la galerie partagée de liens : le visualiseur au clavier > Échap ferme
+The current testing environment is not configured to support act(...)
+The current testing environment is not configured to support act(...)
+The current testing environment is not configured to support act(...)
+The current testing environment is not configured to support act(...)
+The current testing environment is not configured to support act(...)
+The current testing environment is not configured to support act(...)
+The current testing environment is not configured to support act(...)
+The current testing environment is not configured to support act(...)
+The current testing environment is not configured to support act(...)
+The current testing environment is not configured to support act(...)
+
+stderr | src/components/SharedFolderPage.test.jsx > la galerie partagée de liens : le visualiseur au clavier > Échap ferme
+The current testing environment is not configured to support act(...)
+
+stderr | src/components/SharedFolderPage.test.jsx > la galerie partagée de liens : le visualiseur au clavier > le relâchement de Espace est avalé : il ne clique pas la carte focalisée (la sélection survit)
+The current testing environment is not configured to support act(...)
+The current testing environment is not configured to support act(...)
+The current testing environment is not configured to support act(...)
+The current testing environment is not configured to support act(...)
+The current testing environment is not configured to support act(...)
+The current testing environment is not configured to support act(...)
+The current testing environment is not configured to support act(...)
+The current testing environment is not configured to support act(...)
+The current testing environment is not configured to support act(...)
+The current testing environment is not configured to support act(...)
+
+stderr | src/components/SharedFolderPage.test.jsx > la galerie partagée de liens : le visualiseur au clavier > le relâchement de Espace est avalé : il ne clique pas la carte focalisée (la sélection survit)
+The current testing environment is not configured to support act(...)
+
+stderr | src/components/SharedFolderPage.test.jsx > la galerie partagée de liens : le visualiseur au clavier > sans visualiseur, les flèches déplacent le focus et Espace ouvre la photo focalisée
+The current testing environment is not configured to support act(...)
+The current testing environment is not configured to support act(...)
+The current testing environment is not configured to support act(...)
+The current testing environment is not configured to support act(...)
+The current testing environment is not configured to support act(...)
+The current testing environment is not configured to support act(...)
+The current testing environment is not configured to support act(...)
+The current testing environment is not configured to support act(...)
+The current testing environment is not configured to support act(...)
+
+warning: You appear to have cloned an empty repository.
+ ✓ scripts/Freelance/CloudStore.test.js (6 tests) 9881ms
+   ✓ createCloudStore > commits the planned files and they reach the remote  888ms
+   ✓ createCloudStore > does nothing when the plan changes nothing, and in dry run writes nothing  772ms
+   ✓ createCloudStore > after a refused push recomputes from the fresh remote, so a concurrent edit by the page survives  3818ms
+   ✓ createCloudStore > gives up loudly after the allowed attempts and publishes nothing  2244ms
+   ✓ createCloudStore > waits longer after each refusal before trying again  1674ms
+   ✓ createCloudStore > refuses to write outside the clone  484ms
+(node:51080) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+warning: You appear to have cloned an empty repository.
+warning: You appear to have cloned an empty repository.
+ ✓ src/components/SharedFolderPage.test.jsx (11 tests) 5568ms
+   ✓ la galerie partagée de liens : le visualiseur au clavier > une vignette en échec est retentée, puis propose « Réessayer » (jamais un cadre gris muet)  625ms
+   ✓ un hoquet du serveur ne laisse jamais « Content not found » > la liste échoue deux fois puis arrive : le visiteur voit les photos, jamais d’erreur  3613ms
+warning: You appear to have cloned an empty repository.
+(node:51872) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+stderr | src/components/FreelanceView.test.jsx > puts the feedback mail one click away on the refused card, without opening the studio
+Updating a style property during rerender (fontWeight) when a conflicting property is set (font) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values.
+Updating a style property during rerender (fontWeight) when a conflicting property is set (font) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values.
+
+stderr | src/components/FreelanceView.test.jsx > filters by relevance and shows the closed vacancies on request
+Updating a style property during rerender (fontWeight) when a conflicting property is set (font) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values.
+Updating a style property during rerender (fontWeight) when a conflicting property is set (font) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values.
+Updating a style property during rerender (fontWeight) when a conflicting property is set (font) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values.
+Updating a style property during rerender (fontWeight) when a conflicting property is set (font) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values.
+
+stderr | src/components/FreelanceView.test.jsx > opens an application with its letter and logs the exact text as sent only on request
+Updating a style property during rerender (fontWeight) when a conflicting property is set (font) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values.
+Updating a style property during rerender (fontWeight) when a conflicting property is set (font) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values.
+
+stderr | src/components/FreelanceView.test.jsx > lanes never mix: the other-industries lane hides the games cards and says so
+Updating a style property during rerender (fontWeight) when a conflicting property is set (font) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values.
+Updating a style property during rerender (fontWeight) when a conflicting property is set (font) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values.
+
+stderr | src/components/FreelanceView.test.jsx > lanes never mix: the other-industries lane hides the games cards and says so
+Updating a style property during rerender (fontWeight) when a conflicting property is set (font) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values.
+Updating a style property during rerender (fontWeight) when a conflicting property is set (font) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values.
+
+stderr | src/components/FreelanceView.test.jsx > filters offers by active countries with priority order and excludes unrepresented countries
+Updating a style property during rerender (fontWeight) when a conflicting property is set (font) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values.
+Updating a style property during rerender (fontWeight) when a conflicting property is set (font) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values.
+Updating a style property during rerender (fontWeight) when a conflicting property is set (font) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values.
+
+ ✓ scripts/AssetsCloudGitWriter.test.js (3 tests) 6646ms
+   ✓ pushes a large UTF-8 registry and refuses a stale writer  1462ms
+   ✓ reads and writes workspace metadata paths and rejects stale snapshots  1847ms
+   ✓ sparsely reads and writes the small workspace index without checking out the legacy registry  3336ms
+(node:52243) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/components/FreelanceView.test.jsx (13 tests) 6808ms
+   ✓ draws 72 cards of a long group and reveals the rest by pages  4910ms
+(node:52542) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/components/resolutionLienCache.test.js (3 tests) 3011ms
+   ✓ un échec transitoire de résolution n’est jamais mis en cache > LE BUG : resolve-link échoue toute une rafale, PUIS réussit — la seconde lecture rend l’image  3009ms
+(node:52630) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+warning: You appear to have cloned an empty repository.
+warning: You appear to have cloned an empty repository.
+ ✓ scripts/Motion/PublishMotions.test.js (3 tests) 4153ms
+   ✓ ZenRay Motion Design publisher > publishes once, neutrally, in one private commit, and refuses uncleared content  4151ms
+(node:53414) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/components/assets/ProjectWorkspace.test.jsx (45 tests) 5709ms
+   ✓ shows aggregate bytes for filtered results, the displayed page and selection  1593ms
+(node:53545) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+stderr | src/zenraymedia/MediaApp.test.jsx > Famille Photoshop 1 — sélection et ciblage > un clic simple sur le vide du plan de travail désélectionne tout
+`NaN` is an invalid value for the `left` css style property.
+
+ ✓ src/motion/MotionDesignView.test.jsx (12 tests) 1884ms
+   ✓ MotionIterationPanel > follows a bridge job to its new version  1512ms
+ ✓ scripts/lib/cmaf-packaging.test.js (33 tests) 3872ms
+   ✓ prediction against the real segment check (ffmpeg) > predicts the largest segment within 2 percent of what ffmpeg writes, in both copy modes  827ms
+   ✓ prediction against the real segment check (ffmpeg) > agrees with the real check on both sides of the limit, and a failing rung moves to the next mode  813ms
+   ✓ packaging progress percentage > the watched runner reports the percentage while ffmpeg runs (fake ffmpeg that writes its progress)  355ms
+(node:53865) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:53894) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/create/poserDemandePages.test.jsx (2 tests) 1897ms
+   ✓ poserDemandePages > does not throw when Create is not mounted  1727ms
+ ✓ scripts/lib/zenray-data-inventory.test.js (5 tests) 2959ms
+   ✓ zenray-data Git inventory > returns exact NUL-safe paths below one prefix without downloading/reading manifests  866ms
+   ✓ zenray-data Git inventory > refreshes the same cache once and observes a later remote commit  1352ms
+   ✓ zenray-data Git inventory > fails closed on refresh errors and releases its lock instead of trusting stale paths  729ms
+(node:54327) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:54376) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/audio/PlayerContext.test.jsx (9 tests) 699ms
+   ✓ PlayerProvider provider transports > seek YouTube utilise la durée provider et actualise immédiatement la barre  531ms
+ ✓ src/components/prefetchPollueCache.test.js (1 test) 606ms
+   ✓ prefetchFullImages partage le manifeste RÉSOLU, jamais le lien brut > LE BUG : après préchargement, la tuile obtient le canonique (vert), pas le lien (orange)  605ms
+(node:54507) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:54544) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ scripts/lib/clone-lock.test.js (3 tests) 583ms
+   ✓ clone lock > runs two critical sections one after the other, never overlapping  572ms
+(node:54687) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ scripts/Assets/SceneAuditRunner.test.js (11 tests) 1028ms
+ ✓ tests/components/columnMenus.test.jsx (6 tests) 689ms
+   ✓ ColumnMenuShell > révèle automatiquement la nouvelle colonne sans déplacer la coque  519ms
+(node:54788) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:54877) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/components/FolderCommentsFeed.test.jsx (3 tests) 507ms
+   ✓ FolderCommentsFeed > affiche le rectangle Liquid Glass quand un commentaire est present et joue l animation de sortie au clic sur la croix  469ms
+(node:54960) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/learn/JapaneseStudy.test.jsx (7 tests) 559ms
+(node:55053) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/components/GalleryView.test.jsx (17 tests) 679ms
+ ✓ src/learn/JapaneseCorpus.test.jsx (8 tests) 427ms
+(node:55135) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/components/BoutonTri.test.jsx (12 tests) 319ms
+(node:55181) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:55252) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/postkit/PostKitView.test.jsx (8 tests) 317ms
+stderr | src/components/freelance/FreelanceLetter.test.jsx > marks the exact edited text as sent only on his click, saving it first
+Updating a style property during rerender (fontWeight) when a conflicting property is set (font) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values.
+Updating a style property during rerender (fontWeight) when a conflicting property is set (font) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values.
+
+ ✓ src/components/freelance/FreelanceLetter.test.jsx (8 tests) 315ms
+(node:55326) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+stderr | src/components/freelance/FreelanceBatch.test.jsx > retains larger batches as an explicit persisted choice
+Updating a style property during rerender (fontWeight) when a conflicting property is set (font) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values.
+Updating a style property during rerender (fontWeight) when a conflicting property is set (font) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values.
+
+(node:55392) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/components/freelance/FreelanceBatch.test.jsx (4 tests) 285ms
+ ✓ src/components/SpotlightSearch.test.jsx (4 tests) 267ms
+(node:55474) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/components/VirtualScroll.test.jsx (4 tests) 245ms
+(node:55510) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/components/assets/ConversationView.test.jsx (8 tests) 313ms
+(node:55569) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/guest/GuestUploadSheet.test.jsx (4 tests) 321ms
+(node:55618) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ scripts/lib/directory-lock.test.js (5 tests) 214ms
+(node:55693) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+stderr | src/components/GalleryLinkCard.test.jsx > a link card takes focus when it opens, so a native paste reaches it
+In HTML, <button> cannot be a descendant of <button>.
+This will cause a hydration error.
+
+  <GalleryView galleryKey="design" t={{accent:"#0...", ...}}>
+    <div style={{maxWidth:1400, ...}}>
+      <div style={{...}}>
+        <nav className="zr-ws-path" aria-label="Chemin actif" style={{overflow:"...", ...}}>
+          <div style={{position:"...", ...}}>
+            <div>
+            <ActionColumnMenu t={{accent:"#0...", ...}} align="left" columnWidth={220} maxHeight={360} reserveColumns={2} ...>
+>             <button
+>               ref={{current:null}}
+>               type="button"
+>               data-zr-action-menu-trigger="zr-action-columns-_r_0_"
+>               aria-haspopup="menu"
+>               aria-expanded={false}
+>               aria-controls={undefined}
+>               aria-label="Actions"
+>               disabled={false}
+>               onClick={function}
+>               className=""
+>               title={undefined}
+>               style={{minHeight:32,display:"inline-flex",alignItems:"center",justifyContent:"center",gap:6,padding:"5px 10px",borderRadius:999, ...}}
+>             >
+>               <button
+>                 type="button"
+>                 data-zr-pathmenu-trigger="true"
+>                 title="Parcourir tous les groupes"
+>                 aria-label="Parcourir tous les groupes"
+>                 style={{display:"inline-flex",alignItems:"center",padding:"3px 7px",borderRadius:999,border:"none",background:"transparent", ...}}
+>                 onMouseEnter={function onMouseEnter}
+>                 onMouseLeave={function onMouseLeave}
+>               >
+        ...
+      ...
+
+<button> cannot contain a nested <button>.
+See this log for the ancestor stack trace.
+
+(node:55735) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/components/GalleryLinkCard.test.jsx (3 tests) 221ms
+ ✓ src/components/LinkedAssetsGallery.test.jsx (2 tests) 200ms
+(node:55815) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:55849) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/create/ZenRayAudioPanel.test.jsx (3 tests) 225ms
+ ✓ src/components/freelance/FreelanceEngineBar.test.jsx (4 tests) 168ms
+(node:55920) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:55950) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/create/crossViewLinks.test.jsx (1 test) 187ms
+ ✓ src/components/assets/StorageBreakdown.test.jsx (1 test) 143ms
+(node:56034) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:56074) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/components/BuildBoard.test.jsx (2 tests) 129ms
+ ✓ src/create/parcoursCreate.test.js (12 tests) 128ms
+(node:56151) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:56155) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ scripts/Freelance/Service.test.js (13 tests) 132ms
+stderr | src/components/SfxQuickListView.test.jsx > SfxQuickListView > filtre les sons en direct selon la saisie utilisateur
+Error: Not implemented: HTMLMediaElement.prototype.play
+    at module.exports (/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/node_modules/jsdom/lib/jsdom/browser/not-implemented.js:9:17)
+    at HTMLAudioElementImpl.play (/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/node_modules/jsdom/lib/jsdom/living/nodes/HTMLMediaElement-impl.js:118:5)
+    at HTMLAudioElement.play (/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/node_modules/jsdom/lib/jsdom/living/generated/HTMLMediaElement.js:148:60)
+    at safePlay (/Users/zenray/.codex/worktrees/japanese-progress/src/components/SfxQuickListView.jsx:37:18)
+    at /Users/zenray/.codex/worktrees/japanese-progress/src/components/SfxQuickListView.jsx:163:9
+    at /Users/zenray/.codex/worktrees/japanese-progress/src/components/SfxQuickListView.jsx:189:5
+    at Object.react_stack_bottom_frame (/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/node_modules/react-dom/cjs/react-dom-client.development.js:25989:20)
+    at runWithFiberInDEV (/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/node_modules/react-dom/cjs/react-dom-client.development.js:874:13)
+    at commitHookEffectListMount (/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/node_modules/react-dom/cjs/react-dom-client.development.js:13249:29)
+    at commitHookPassiveMountEffects (/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/node_modules/react-dom/cjs/react-dom-client.development.js:13336:11) undefined
+
+stderr | src/components/SfxQuickListView.test.jsx > SfxQuickListView > declenche la fermeture sur clic du bouton fermer ou touche Echap
+Error: Not implemented: HTMLMediaElement.prototype.play
+    at module.exports (/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/node_modules/jsdom/lib/jsdom/browser/not-implemented.js:9:17)
+    at HTMLAudioElementImpl.play (/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/node_modules/jsdom/lib/jsdom/living/nodes/HTMLMediaElement-impl.js:118:5)
+    at HTMLAudioElement.play (/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/node_modules/jsdom/lib/jsdom/living/generated/HTMLMediaElement.js:148:60)
+    at safePlay (/Users/zenray/.codex/worktrees/japanese-progress/src/components/SfxQuickListView.jsx:37:18)
+    at /Users/zenray/.codex/worktrees/japanese-progress/src/components/SfxQuickListView.jsx:163:9
+    at /Users/zenray/.codex/worktrees/japanese-progress/src/components/SfxQuickListView.jsx:189:5
+    at Object.react_stack_bottom_frame (/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/node_modules/react-dom/cjs/react-dom-client.development.js:25989:20)
+    at runWithFiberInDEV (/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/node_modules/react-dom/cjs/react-dom-client.development.js:874:13)
+    at commitHookEffectListMount (/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/node_modules/react-dom/cjs/react-dom-client.development.js:13249:29)
+    at commitHookPassiveMountEffects (/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/node_modules/react-dom/cjs/react-dom-client.development.js:13336:11) undefined
+
+ ✓ src/components/SfxQuickListView.test.jsx (3 tests) 138ms
+(node:56239) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:56255) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/components/subtitles/SubtitleLayer.test.jsx (6 tests) 129ms
+ ✓ src/progress/ProgressView.test.jsx (2 tests) 148ms
+ ✓ scripts/video-raw-lib.test.js (22 tests) 50584ms
+   ✓ archive push path through the push batch policy (local bare repositories) > sends every part, byte for byte, in batches of 8 then more parts, and records the commit that holds them  6570ms
+   ✓ archive push path through the push batch policy (local bare repositories) > prepares the next parts while a push transfers, and never runs two pushes to the same repository at once  6210ms
+   ✓ archive push path through the push batch policy (local bare repositories) > RED control: with the overlap switched off the producer never works during a push  8692ms
+   ✓ archive push path through the push batch policy (local bare repositories) > retries ONE transient failure with the same batch and loses nothing  3171ms
+   ✓ archive push path through the push batch policy (local bare repositories) > falls back to 2 parts at the THIRD failure of the same batch, then goes on, without losing a part  6567ms
+   ✓ archive push path through the push batch policy (local bare repositories) > shrinks after a refusal for size and still delivers every part (no data loss)  8093ms
+   ✓ archive push path through the push batch policy (local bare repositories) > fails cleanly on a permanent refusal: push-refus-definitif names the repository and the parts stay in the clone  1918ms
+   ✓ archive push path through the push batch policy (local bare repositories) > moves the parts of a new film to the next repository when a repository is full (cap from the environment)  3691ms
+   ✓ repository reuse and creation gate (14 October 2026) > the second file reuses the repository of the first: ONE creation for two files  2494ms
+   ✓ repository reuse and creation gate (14 October 2026) > a repository marked full is NOT reused: the next file opens a new one (red control)  2473ms
+(node:56377) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:56384) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/lib/bulkZip.test.js (9 tests) 118ms
+ ✓ scripts/img-orientation.test.js (3 tests) 129ms
+(node:56401) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+stderr | src/components/freelance/FreelanceFeedbackRequest.test.jsx > switches language, keeps his edit until he resets, and logs the exact text only on his click
+Updating a style property during rerender (fontWeight) when a conflicting property is set (font) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values.
+Updating a style property during rerender (fontWeight) when a conflicting property is set (font) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values.
+
+ ✓ src/components/freelance/FreelanceFeedbackRequest.test.jsx (4 tests) 125ms
+(node:56405) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:56420) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/components/Notifications.test.jsx (5 tests) 127ms
+(node:56423) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/zenraymedia/layers.test.js (285 tests) 117ms
+ ✓ src/components/FreelanceOfferDetails.test.jsx (3 tests) 94ms
+(node:56428) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/components/ActionColumnMenu.test.jsx (2 tests) 76ms
+(node:56441) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:56450) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ scripts/Freelance/Engine.test.js (18 tests) 82ms
+ ✓ src/components/assets/FileLocations.test.jsx (1 test) 81ms
+(node:56464) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/zenraymedia/themes.test.js (7 tests) 160ms
+(node:56466) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:56467) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ server/deplacerDossierDeLiens.test.js (3 tests) 85ms
+ ✓ src/audio/SeekBar.test.jsx (4 tests) 71ms
+(node:56474) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/search/searchIndexClient.cache.test.js (2 tests) 61ms
+(node:56476) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:56478) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ scripts/lib/push-batch-policy.test.js (37 tests) 68ms
+ ✓ src/create/ResolvedUnifiedViewer.test.jsx (2 tests) 65ms
+(node:56502) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ server/_cloudflare-adapter.test.js (12 tests) 49ms
+(node:56508) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:56509) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/create/registry.test.jsx (5 tests) 56ms
+ ✓ src/progress/playBadge.test.jsx (1 test) 49ms
+(node:56513) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/table/DatabaseViews.test.jsx (2 tests) 52ms
+(node:56515) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:56516) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/zenraymedia/nodes.test.js (18 tests) 49ms
+ ✓ server/budgetSousRequetes.test.js (11 tests) 63ms
+(node:56524) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:56526) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/timer/TimerContext.test.jsx (3 tests) 46ms
+(node:56527) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ tests/hebergement.test.js (8 tests) 59ms
+ ✓ src/create/YouTubeWatchPanel.test.jsx (4 tests) 51ms
+(node:56554) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:56565) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+stderr | src/zenraymedia/zenraymedia.test.js > Gabarits HTML déposés à la main > lit l’en-tête déclaratif d’un gabarit, et survit à un en-tête cassé
+[zenraymedia] en-tête <!--zr-theme …--> illisible (JSON invalide) : valeurs par défaut appliquées.
+
+ ✓ src/zenraymedia/zenraymedia.test.js (134 tests) 31ms
+ ✓ scripts/Freelance/Sources.test.js (17 tests) 33ms
+(node:56568) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/lib/hooksImportes.test.js (4 tests) 36ms
+(node:56571) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:56572) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ server/lienFraichementCree.test.js (5 tests) 33ms
+ ✓ server/github-retry.test.js (7 tests) 24ms
+(node:56573) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/components/editorImageUpload.test.js (8 tests) 21ms
+(node:56582) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:56581) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/learn/japaneseCorpusModel.test.js (30 tests) 25ms
+ ✓ scripts/Freelance/Indexes.test.js (15 tests) 24ms
+(node:56584) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/lib/usePersistedState.test.jsx (12 tests) 21ms
+(node:56634) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:56635) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/lib/freelanceEngineModel.test.js (19 tests) 20ms
+ ✓ src/lib/projectContextIndex.test.js (10 tests) 20ms
+(node:56645) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/create/useLinkImportModal.test.jsx (6 tests) 21ms
+(node:56647) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/lib/fetchResilient.test.js (3 tests) 17ms
+(node:56648) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/lib/eagleLinksRequest.test.js (10 tests) 18ms
+(node:56652) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ scripts/lib/cmaf-stage.test.js (5 tests) 17ms
+(node:56657) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:56659) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/lib/freelanceStudios.test.js (27 tests) 12ms
+ ✓ scripts/Freelance/StoreMerge.test.js (13 tests) 21ms
+(node:56662) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ scripts/Freelance/Schedule.test.js (4 tests) 16ms
+(node:56664) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ scripts/lib/repo-create-policy.test.js (6 tests) 15ms
+(node:56665) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/search/searchIndexClient.eagle.test.js (2 tests) 24ms
+(node:56673) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/lib/assetsProjects.test.js (22 tests) 15ms
+(node:56694) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ tests/security/safeMarked.test.js (17 tests) 13ms
+(node:56695) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/zenraymedia/lego.test.js (28 tests) 13ms
+(node:56698) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/lib/freelanceBatch.test.js (6 tests) 14ms
+(node:56701) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/lib/assetsWorkspaceCatalogue.test.js (4 tests) 16ms
+(node:56702) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/audio/spotifyApi.test.js (8 tests) 12ms
+(node:56704) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/lib/linkedGalleryAssets.test.js (3 tests) 12ms
+(node:56718) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/lib/streamFiles.test.js (9 tests) 23ms
+(node:56719) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/capture/folderVisibility.test.js (3 tests) 23ms
+(node:56721) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ scripts/Freelance/Hooks.test.js (11 tests) 22ms
+(node:56741) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:56747) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/lib/cdnFallbackLoader.test.js (8 tests) 12ms
+ ✓ scripts/index-add-paths.test.js (2 tests) 14ms
+(node:56754) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ scripts/Freelance/Aggregators.test.js (10 tests) 10ms
+(node:56787) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:56790) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/zenraymedia/componentCatalog.test.js (1 test) 12ms
+ ✓ src/lib/assetsWorkspaceViewModel.test.js (4 tests) 13ms
+(node:56799) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/progress/journalSource.test.js (3 tests) 10ms
+(node:56809) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:56810) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ scripts/Freelance/Offer.test.js (10 tests) 9ms
+ ✓ server/page-large-save.test.js (3 tests) 11ms
+(node:56816) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/motion/motionCatalogue.test.js (6 tests) 12ms
+(node:56853) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:56852) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/lib/subtitleSidecar.test.js (4 tests) 10ms
+ ✓ scripts/lib/media-rename.test.js (5 tests) 10ms
+(node:56858) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/lib/dossierExistant.test.js (7 tests) 9ms
+(node:56883) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:56882) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/lib/assetsStorageBreakdown.test.js (2 tests) 11ms
+ ✓ scripts/Freelance/Letters.test.js (10 tests) 8ms
+(node:56888) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ scripts/Freelance/Robots.test.js (9 tests) 8ms
+(node:56915) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:56914) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ server/shareReach.test.js (8 tests) 8ms
+ ✓ Cloud/scripts/lib/safe-restore.test.js (3 tests) 12ms
+(node:56919) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/zenraymedia/document.test.js (21 tests) 9ms
+(node:56958) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:56961) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/components/upload/UploadTimingBanner.test.jsx (4 tests) 7ms
+ ✓ scripts/Freelance/PostingKey.test.js (5 tests) 10ms
+(node:56965) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/lib/assetsFileQuery.test.js (3 tests) 8ms
+(node:56988) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:56989) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ server/unfurl.test.js (2 tests) 6ms
+ ✓ src/postkit/postkitClient.test.js (6 tests) 7ms
+(node:56994) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ server/journal.test.js (4 tests) 10ms
+(node:57016) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:57015) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/lib/apiPostEchecs.test.js (12 tests) 7ms
+ ✓ scripts/Freelance/Notify.test.js (7 tests) 8ms
+(node:57025) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/progress/journal.test.js (7 tests) 8ms
+(node:57061) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:57063) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ tests/security/shareTokens.test.js (6 tests) 6ms
+stderr | src/lib/folderMosaic.test.js > la couverture d’un dossier partagé > refuse de composer en dessous de quatre images, plutôt que de rendre une mosaïque trouée
+Promise returned by `expect(actual).resolves.toBe(expected)` was not awaited. Vitest currently auto-awaits hanging assertions at the end of the test, but this will cause the test to fail in Vitest 3. Please remember to await the assertion.
+    at /Users/zenray/.codex/worktrees/japanese-progress/src/lib/folderMosaic.test.js:28:32
+
+stderr | src/lib/folderMosaic.test.js > la couverture d’un dossier partagé > refuse de composer en dessous de quatre images, plutôt que de rendre une mosaïque trouée
+Promise returned by `expect(actual).resolves.toBe(expected)` was not awaited. Vitest currently auto-awaits hanging assertions at the end of the test, but this will cause the test to fail in Vitest 3. Please remember to await the assertion.
+    at /Users/zenray/.codex/worktrees/japanese-progress/src/lib/folderMosaic.test.js:27:30
+
+stderr | src/lib/folderMosaic.test.js > la couverture d’un dossier partagé > refuse de composer en dessous de quatre images, plutôt que de rendre une mosaïque trouée
+Promise returned by `expect(actual).resolves.toBe(expected)` was not awaited. Vitest currently auto-awaits hanging assertions at the end of the test, but this will cause the test to fail in Vitest 3. Please remember to await the assertion.
+    at /Users/zenray/.codex/worktrees/japanese-progress/src/lib/folderMosaic.test.js:26:43
+
+ ✓ src/lib/folderMosaic.test.js (3 tests) 7ms
+(node:57071) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/audio/audioManifest.test.js (9 tests) 6ms
+(node:57085) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:57086) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/search/searchIndexClient.shardBase.test.js (1 test) 7ms
+ ✓ server/repoSubtree.test.js (9 tests) 6ms
+(node:57094) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/lib/dossiersDeTri.test.js (21 tests) 6ms
+(node:57115) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:57114) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ server/extensionsNoeuds.test.js (26 tests) 6ms
+ ✓ src/lib/assetsProjectCover.test.js (14 tests) 5ms
+(node:57125) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ scripts/lib/film-poster.test.js (4 tests) 6ms
+(node:57166) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/lib/folderStyle.test.js (11 tests) 5ms
+(node:57169) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/lib/sceneReferenceMapping.test.js (11 tests) 7ms
+(node:57175) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ tests/security/rawProxy.test.js (3 tests) 6ms
+(node:57194) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ scripts/Freelance/MySearches.test.js (3 tests) 5ms
+(node:57197) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ tests/security/doc-access-policy.test.js (17 tests) 5ms
+(node:57202) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/lib/freelanceEmailParser.test.js (12 tests) 4ms
+(node:57224) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/lib/assetsWorkspaceBridge.test.js (6 tests) 6ms
+(node:57229) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ scripts/Assets/ResumeBrief.test.js (4 tests) 5ms
+(node:57231) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/lib/motionBridge.test.js (4 tests) 6ms
+(node:57266) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ scripts/Freelance/RecordEmail.test.js (3 tests) 4ms
+(node:57274) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/progress/activitySource.test.js (4 tests) 5ms
+(node:57278) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/audio/spotifyAuth.test.js (4 tests) 10ms
+(node:57294) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ tests/security/gmapsLink.test.js (9 tests) 4ms
+(node:57299) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/media/mediaViewerRoute.test.js (24 tests) 3ms
+(node:57302) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ server/repos.test.js (1 test) 7ms
+(node:57322) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/lib/shareLinks.test.js (4 tests) 5ms
+(node:57325) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/lib/freelanceFeedbackRequest.test.js (9 tests) 4ms
+(node:57328) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/media/playerPrefs.test.js (29 tests) 4ms
+(node:57370) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ scripts/Freelance/EmailScanner.test.js (4 tests) 5ms
+(node:57373) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/create/folderMarker.test.js (5 tests) 3ms
+(node:57375) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ scripts/AssetsHistory.test.js (3 tests) 3ms
+(node:57392) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/zenraymedia/exporters.test.js (5 tests) 3ms
+(node:57396) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/media/subtitles/subtitleParser.test.js (9 tests) 4ms
+(node:57401) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/lib/linkedGalleryImagePreview.test.js (2 tests) 4ms
+(node:57420) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/lib/manifestReadCache.test.js (4 tests) 5ms
+(node:57424) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/create/planCache.test.js (10 tests) 5ms
+(node:57428) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ server/eagleRegistry.test.js (12 tests) 4ms
+(node:57468) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ Cloud/scripts/lib/stream-restore.test.js (5 tests) 5ms
+(node:57472) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ server/eagleBatch.test.js (5 tests) 4ms
+(node:57479) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/lib/titreOnglet.test.js (9 tests) 5ms
+(node:57498) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:57499) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/components/videoPlayerMinimal.test.js (11 tests) 3ms
+ ✓ src/components/blocks/imageRowDrop.test.js (20 tests) 4ms
+(node:57508) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/create/buildNodes.eagle.test.js (3 tests) 3ms
+(node:57526) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/lib/apiPost.test.js (4 tests) 5ms
+(node:57529) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/components/quickLookBudget.test.js (7 tests) 3ms
+(node:57543) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/components/upload/uploadReport.test.js (6 tests) 4ms
+(node:57581) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/lib/attendreLisible.test.js (7 tests) 3ms
+(node:57582) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/lib/guestNames.test.js (7 tests) 3ms
+(node:57589) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/search/searchIndexPeek.test.js (3 tests) 3ms
+(node:57603) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/lib/scenePreparation.test.js (5 tests) 6ms
+(node:57606) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ server/contentsTexteGrosFichier.test.js (3 tests) 4ms
+(node:57610) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ scripts/lib/archive-route.test.js (7 tests) 3ms
+(node:57628) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ scripts/lib/clean-media-name.test.js (7 tests) 3ms
+(node:57633) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ scripts/Assets/ConversationIdentity.test.js (3 tests) 3ms
+(node:57637) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/media/playerPrefs.wiring.test.js (10 tests) 4ms
+(node:57679) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/lib/scrollAnime.test.js (6 tests) 4ms
+(node:57682) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ scripts/lib/path-partition.test.js (2 tests) 2ms
+(node:57688) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/search/thumbUrl.test.js (7 tests) 3ms
+(node:57692) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/zenraymedia/layout.test.js (3 tests) 3ms
+(node:57694) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/media/audioTrackControl.test.js (7 tests) 4ms
+(node:57696) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/media/playerControls.test.js (4 tests) 2ms
+(node:57709) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/table/databaseViewModel.test.js (3 tests) 2ms
+(node:57710) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ scripts/Freelance/TokenCapture.test.js (4 tests) 2ms
+(node:57712) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/lib/assetsFileLocations.test.js (5 tests) 3ms
+(node:57740) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/zenraymedia/composition.test.js (3 tests) 3ms
+(node:57742) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/lib/resolutionLien.test.js (5 tests) 2ms
+(node:57743) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ scripts/lib/public-shard.test.js (1 test) 4ms
+(node:57747) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/timer/dureeSaisie.test.js (12 tests) 3ms
+(node:57756) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ scripts/lib/fingerprint-cache.test.js (5 tests) 2ms
+(node:57757) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/media/subtitles/subtitleSettings.test.js (5 tests) 3ms
+(node:57767) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/ref/autoDiagnostic.test.js (10 tests) 3ms
+(node:57769) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ server/nodeTreeFilter.test.js (9 tests) 2ms
+(node:57771) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/lib/sansAccent.test.js (7 tests) 2ms
+(node:57802) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/media/lruCache.test.js (3 tests) 3ms
+(node:57804) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/lib/quotaLectures.test.js (10 tests) 4ms
+(node:57805) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/audio/audioQuickCache.test.js (4 tests) 3ms
+(node:57810) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ tests/server/stream.test.js (1 test) 3ms
+(node:57811) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/create/musicFolderFlag.test.js (5 tests) 2ms
+(node:57814) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/lib/freelanceSearches.test.js (3 tests) 3ms
+(node:57819) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ scripts/PublishStagedBatch.test.js (2 tests) 3ms
+(node:57821) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ scripts/lib/git-result.test.js (4 tests) 3ms
+(node:57822) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ scripts/lib/repo-probe.test.js (4 tests) 2ms
+(node:57853) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/lib/rafraichirApres.test.js (12 tests) 3ms
+(node:57857) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/audio/playerState.test.js (8 tests) 2ms
+(node:57859) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ server/borneDeplacement.test.js (6 tests) 2ms
+(node:57862) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ scripts/lib/upload-timing.test.js (4 tests) 3ms
+(node:57863) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ scripts/lib/push-policy-simulation.test.js (11 tests) 29ms
+(node:57865) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ scripts/video-pipeline-canonical.test.js (3 tests) 4ms
+(node:57878) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/lib/mediaProvenance.test.js (2 tests) 2ms
+(node:57881) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/lib/assetsProjectConversations.test.js (1 test) 2ms
+(node:57883) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/lib/fileKinds.eagle.test.js (2 tests) 2ms
+(node:57911) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/components/videoDelivery.test.js (5 tests) 2ms
+(node:57913) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ scripts/lib/stream-manifest.test.js (6 tests) 2ms
+(node:57916) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ server/sansAccent.test.js (6 tests) 2ms
+(node:57928) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ scripts/lib/state-index.test.js (3 tests) 2ms
+(node:57929) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/create/planScore.test.js (4 tests) 2ms
+(node:57932) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/viewPersistence.test.js (5 tests) 2ms
+(node:57937) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/create/planUiConfig.test.js (3 tests) 1ms
+(node:57940) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/lib/sameStringArray.test.js (6 tests) 2ms
+(node:57942) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ scripts/img-ingest.test.js (3 tests) 3ms
+(node:57972) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/lib/assetsConversationArchives.test.js (1 test) 2ms
+(node:57974) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/lib/urlLecture.test.js (6 tests) 3ms
+(node:57978) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/lib/pgPretty.test.js (6 tests) 2ms
+(node:57982) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/create/stripLeafExt.test.js (2 tests) 2ms
+(node:57983) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ Cloud/scripts/lib/drive-state.test.js (2 tests) 2ms
+(node:57986) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/lib/eagleLinkCache.test.js (3 tests) 2ms
+(node:57991) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/media/ffmpegCore.test.js (1 test) 1ms
+(node:57993) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/lib/shareVia.test.js (1 test) 2ms
+(node:57995) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ Cloud/src/state-update.test.ts (1 test) 2ms
+(node:58023) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/search/mergeTreeAndIndexPaths.test.js (2 tests) 2ms
+(node:58024) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ scripts/video-mse-lib.test.js (2 tests) 2ms
+(node:58026) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/lib/eagleLink.test.js (1 test) 1ms
+(node:58030) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:58032) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ scripts/media-ingest.test.js (1 test) 1ms
+(node:58033) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ tests/security/apiRouteAccess.test.js (1 test) 1ms
+ ↓ src/postkit/PostKitView.contract.test.jsx (5 tests | 5 skipped)
+(node:58041) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:58044) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:58047) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+warning: You appear to have cloned an empty repository.
+warning: You appear to have cloned an empty repository.
+warning: You appear to have cloned an empty repository.
+warning: You appear to have cloned an empty repository.
+ ✓ scripts/AssetsPublishTransaction.test.js (4 tests) 2898ms
+   ✓ writes the project snapshot, the shared index and the context note in ONE commit  682ms
+   ✓ writes nothing at all when the publication is identical to the last one  677ms
+   ✓ reports a conflict when the remote moved during the transaction and never forces the push  1094ms
+   ✓ refuses a path outside the project metadata set  445ms
+(node:58606) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ server/shareRecordGraphql.test.js (4 tests) 3367ms
+   ✓ un hoquet de GitHub ne fait jamais passer un lien valide pour inexistant > GraphQL puis REST échouent une fois (503), la lecture suivante réussit : le lien est reconnu  3358ms
+(node:58849) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ scripts/AssetsIdentityUnload.test.js (9 tests) 7384ms
+   ✓ unload by identity proof > releases the copy WITHOUT restoring it from the cloud, and counts the proof separately  1106ms
+   ✓ unload by identity proof > keeps the full restore probe for the sampled file (1 in N)  1009ms
+   ✓ unload by identity proof > falls back to the full restore probe when the cloud object differs (never trusts a failed proof)  998ms
+   ✓ unload by identity proof > uses the full probe for a format the proof does not plan (streamable manifests)  963ms
+   ✓ unload by identity proof > 13 October 2026: an unsupported file read back in full does not restart the 1 in N cycle  889ms
+   ✓ unload by identity proof > uses the full probe when the manifest online has no version with the archived SHA-256  1010ms
+   ✓ unload by identity proof > without an identity prover the behaviour is the previous one: the full probe, counted as such  1127ms
+(node:58892) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ server/share-cover.test.js (2 tests) 1572ms
+   ✓ share-cover : la couverture vient de l’API Contents, jamais d’un cache raw périmé > sert la version de l’API même si raw a encore l’ancienne ou répond 404  1552ms
+(node:58981) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ scripts/lib/video-identity-proof.test.js (65 tests) 4126ms
+   ✓ policy: identity, 1 film in N in full, escalation on a remote failure > reads back in full exactly one film in N (N = 3), then starts over  511ms
+   ✓ policy: identity, 1 film in N in full, escalation on a remote failure > fullReadBackEvery = 0 disables the sampling: ten films, ten identity proofs  525ms
+   ✓ policy: identity, 1 film in N in full, escalation on a remote failure > concurrent lanes reserve slots under a lock: 8 reservations with N = 4 give 3 identity slots, the rest full  756ms
+   ✓ the real remote: a local bare repository, blobless fetch, trees without blobs > proves a film through real Git objects, downloading exactly one blob  534ms
+   ✓ the real remote: a local bare repository, blobless fetch, trees without blobs > is RED when the pushed bytes differ from what the source derives  424ms
+   ✓ the real remote: a local bare repository, blobless fetch, trees without blobs > is RED (remote class) when the pinned commit does not exist  369ms
+ ✓ scripts/AssetsFeedbackCapture.test.js (6 tests) 1249ms
+   ✓ queues a session replay while another transcript is being captured  427ms
+   ✓ captures bound Antigravity messages incrementally and deduplicates a replay  375ms
+(node:59295) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:59296) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ scripts/Assets/ConversationCatalog.test.js (8 tests) 213ms
+ ✓ scripts/Assets/ConversationIndexSync.test.js (8 tests) 430ms
+   ✓ coalesces a burst of requests into one run and runs again for a request that arrives during a run  356ms
+(node:59305) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:59332) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/guest/uploadCore.test.js (13 tests) 242ms
+(node:59335) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ scripts/AssetsFluidity.test.js (10 tests) 331ms
+ ✓ server/shareMosaic.test.js (7 tests) 163ms
+(node:59343) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:59344) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ server/guestUploadCore.test.js (18 tests) 156ms
+ ✓ scripts/archive-folder-credentials.test.js (2 tests) 121ms
+(node:59367) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:59377) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ❯ scripts/AssetsSceneSnapshot.test.js (4 tests | 4 failed) 17ms
+   × one fresh scene dependency view per global pass > builds exactly once for catalogue, list, cloud index, context refresh and publishing 7ms
+     → buildSceneReferenceProjects does not exist
+   × one fresh scene dependency view per global pass > detects the previous repeated-construction traversal as a failing count 1ms
+     → buildSceneReferenceProjects does not exist
+   × one fresh scene dependency view per global pass > keeps valid dependencies and stale audits identical to individual snapshots 7ms
+     → Cannot read properties of undefined (reading 'get')
+   × one fresh scene dependency view per global pass > rebuilds after content changes and preserves loaded-copy relocation evidence 1ms
+     → service.projectSnapshots is not a function
+ ✓ scripts/AssetsCloudPublisher.test.js (9 tests) 37ms
+(node:59391) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:59401) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ server/japanese.test.js (8 tests) 32ms
+ ✓ scripts/Assets/ConversationLinks.test.js (6 tests) 30ms
+(node:59416) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:59417) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ scripts/AssetsWorkspaceLifecycle.test.js (9 tests) 23ms
+ ✓ scripts/Assets/ConversationMirror.test.js (1 test) 28ms
+(node:59422) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ scripts/lib/archive-identity-proof.test.js (10 tests) 14ms
+(node:59423) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ scripts/Assets/FindInProject.test.js (4 tests) 15ms
+(node:59426) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:59427) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ server/githubGraphql.test.js (7 tests) 9ms
+ ✓ scripts/AssetsIndexMode.test.js (3 tests) 10ms
+(node:59434) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ server/sharedMediaGridThumb.test.js (3 tests) 6ms
+ ✓ src/zenraymedia/MediaApp.test.jsx (156 tests | 1 skipped) 147480ms
+   ✓ ZenRayMedia — interface > s’ouvre sur un canevas neutre (thème Lecture pure, brief vide), jamais sur le pitch produit  451ms
+   ✓ ZenRayMedia — interface > affiche le catalogue de thèmes avec sa famille et le contrat de dépôt  609ms
+   ✓ ZenRayMedia — interface > refuse un message à deux phrases et le dit à l’endroit du champ  591ms
+   ✓ ZenRayMedia — interface > change de format en un clic et le Stage suit  800ms
+   ✓ ZenRayMedia — interface > le Critique rend un verdict et il est atteignable en un clic  856ms
+   ✓ ZenRayMedia — interface > l’article est modifiable en place : ajoute et retire un bloc sans changer d’onglet  752ms
+   ✓ ZenRayMedia — interface > la Forge ne s’active que sur un format temporel, et donne la commande alpha exacte  615ms
+   ✓ ZenRayMedia — interface > la barre de commande ⌘K filtre et exécute une action réelle  676ms
+   ✓ ZenRayMedia — interface > crée et supprime un brief sans jamais perdre le dernier  1430ms
+   ✓ ZenRayMedia — interface > persiste le travail entre deux ouvertures  779ms
+   ✓ ZenRayMedia — interface > le journal enregistre un export et l’export copie réellement le texte  567ms
+   ✓ ZenRayMedia — interface > crée deux briefs depuis la barre de commande sans en perdre un seul  1063ms
+   ✓ ZenRayMedia — interface > changer de projet restaure le format DE CE PROJET, jamais celui du précédent  1362ms
+   ✓ ZenRayMedia — interface > n’offre jamais un bouton de livraison qui mènerait à un livrable invalide  619ms
+   ✓ ZenRayMedia — interface > publie une page dans Create, l’indexe et rend son adresse  613ms
+   ✓ ZenRayMedia — interface > refuse de publier quand le Critique a un défaut bloquant  579ms
+   ✓ ZenRayMedia — interface > attache une image à un bloc et l’affiche en vignette  696ms
+   ✓ ZenRayMedia — interface > n’affiche plus registre ni intention : ni dans le panneau, ni sur la page  524ms
+   ✓ ZenRayMedia — interface > ouvre le fil d’Ariane de Create et enregistre au chemin choisi  784ms
+   ✓ ZenRayMedia — interface > ouvre un document existant depuis Create et charge son thème et son format  1023ms
+   ✓ ZenRayMedia — interface > affiche le compteur d’actions : la règle des trois actions est visible  651ms
+   ✓ Famille 1 — sélection et propriétés > verrouille le panneau sur un calque, qui reste affiché même après avoir sélectionné autre chose  2450ms
+   ✓ Famille 1 — sélection et propriétés > l’édition groupée écrit sur TOUS les calques sélectionnés, et le montre par une valeur mixte  1273ms
+   ✓ Famille 2 — viewports et manipulation directe > règle la rotation d’un calque depuis le panneau, en degrés  1027ms
+   ✓ Famille 2 — viewports et manipulation directe > cadre la sélection sans jeter d’erreur, et seulement quand un calque est choisi  874ms
+   ✓ Famille 3 — panneaux et docking > les deux poignées de redimensionnement existent, une par colonne fixe  575ms
+   ✓ Famille 3 — panneaux et docking > la poignée droite disparaît quand la troisième colonne n’est plus affichée  605ms
+   ✓ Famille 4 — menus contextuels > le clic droit sur un calque ouvre un menu, qui retire réellement le calque choisi  1094ms
+   ✓ Famille 4 — menus contextuels > se ferme au clic extérieur sans agir  958ms
+   ✓ Famille 4 — menus contextuels > Échap referme le menu contextuel avant de désélectionner  818ms
+   ✓ Famille 8 — navigation clavier > flèche bas déplace la sélection dans l’ordre visible de la hiérarchie  1277ms
+   ✓ Famille 8 — navigation clavier > n’intercepte PAS les flèches quand le focus est dans un champ de saisie  737ms
+   ✓ Famille Photoshop 1 — sélection et ciblage > « Tout sélectionner » choisit chaque pièce et calque, « Inverser » échange le jeu  1585ms
+   ✓ Famille Photoshop 1 — sélection et ciblage > un clic simple sur le vide du plan de travail désélectionne tout  885ms
+   ✓ Famille Photoshop 2 — transformation > retourner horizontalement bascule et se comporte comme un interrupteur  892ms
+   ✓ Famille Photoshop 2 — transformation > l’alignement groupé rapproche réellement deux calques posés à des endroits différents  1471ms
+   ✓ Famille Photoshop 2 — transformation > distribuer reste désactivé sous trois calques  1228ms
+   ✓ Famille Photoshop 5 — groupes > ⌘G groupe la sélection ; le dossier masque réellement ses deux membres à la fois  1580ms
+   ✓ Famille Photoshop 5 — groupes > grouper un seul calque ne fait rien : il faut au moins deux membres  639ms
+   ✓ Famille Photoshop 5 — groupes > dissoudre un groupe rend ses calques directement sélectionnables comme avant  1374ms
+   ✓ Famille Photoshop 6 — recadrage par point focal > le contrôle de focale n’apparaît que pour un calque IMAGE, jamais pour du texte ou une forme  793ms
+   ✓ Famille Photoshop 6 — recadrage par point focal > déplacer la focale change réellement le object-position de la page compilée  1099ms
+   ✓ Famille Photoshop 8 — historique et édition > ⌘Z annule réellement la pose d’un calque, ⌘⇧Z la rétablit  770ms
+   ✓ Famille Photoshop 8 — historique et édition > une action neuve après une annulation efface le rétablissement possible  847ms
+   ✓ Famille Photoshop 8 — historique et édition > ⌘C puis ⌘V duplique le calque sélectionné à une position décalée  689ms
+   ✓ Famille Photoshop 8 — historique et édition > ⌘X retire le calque immédiatement, ⌘V le repose ensuite  790ms
+   ✓ Famille Slate 5 — sélecteur global d’assets > ⌘K trouve un COMPOSANT par son nom et le pose, comme un clic dans la Palette  1007ms
+   ✓ Famille Slate 6 — recherche dans la collection > filtre les calques par nom, pas seulement les pièces Lego  933ms
+   ✓ Famille Figma 3 — contraintes > un calque contraint à DROITE suit le bord quand le format change réellement de largeur  1081ms
+   ✓ Famille Figma 3 — contraintes > la contrainte par défaut (gauche/haut) laisse un calque immobile au changement de format  829ms
+   ✓ Famille Figma 4 — Auto Layout > activer Auto Layout range les deux membres en colonne, écart par défaut de 8px  1441ms
+   ✓ Famille Figma 4 — Auto Layout > « le parent réagit immédiatement » : agrandir un membre repousse l’autre, sans le toucher  1878ms
+   ✓ Famille Figma 4 — Auto Layout > le bouton de sens bascule ligne/colonne, et disparaît quand Auto Layout est désactivé  1524ms
+   ✓ Famille Figma 5 — édition de texte sur le canevas > un double-clic sur un calque texte ouvre l’édition en place, pré-remplie de son contenu  677ms
+   ✓ Famille Figma 5 — édition de texte sur le canevas > taper dans l’édition en place change réellement le contenu du calque, partout  1087ms
+   ✓ Famille Figma 5 — édition de texte sur le canevas > un calque forme ou image ne s’édite jamais en double-cliquant : le geste est réservé au texte  610ms
+   ✓ Famille Figma 5 — édition de texte sur le canevas > Échap referme l’édition en place sans rien perdre  833ms
+   ✓ Famille Figma 6 — polygone et étoile > les réglages Côtés/Ratio n’apparaissent QUE pour un polygone ou une étoile  738ms
+   ✓ Famille Figma 6 — polygone et étoile > changer le type en polygone découpe réellement la boîte via clip-path dans la page compilée  967ms
+   ✓ Famille Figma 6 — polygone et étoile > changer le nombre de côtés change réellement le tracé compilé  1066ms
+   ✓ Famille Figma 7 — remplissage dégradé > les réglages de dégradé n’apparaissent QUE si le remplissage est basculé sur « Dégradé »  660ms
+   ✓ Famille Figma 7 — remplissage dégradé > basculer sur dégradé écrit réellement un linear-gradient dans la page compilée  970ms
+   ✓ Famille Figma 7 — remplissage dégradé > changer l’angle change réellement le dégradé compilé  1322ms
+   ✓ Famille Figma 7 — remplissage dégradé > revenir sur « Uni » retire le dégradé de la page compilée  1367ms
+   ✓ Famille Figma 8 — composants et instances > un calque composant est une INSTANCE : la déplier donne accès à son sous-composant, comme une pièce Lego  1420ms
+   ✓ Famille Figma 8 — composants et instances > éditer le texte d’un sous-composant de calque écrit RÉELLEMENT dans la page compilée (bogue corrigé)  1744ms
+   ✓ Famille Figma 8 — composants et instances > « Revenir au texte du composant » retire le réglage local et restaure le texte du thème  2146ms
+   ✓ Famille Figma 8 — composants et instances > un calque texte, image ou forme n’a AUCUN bouton « Déplier » : seul un composant a une instance à ouvrir  654ms
+   ✓ PowerPoint P1 — diapositives > « Ajouter une diapositive » crée une diapositive et l’affiche dans le panneau  538ms
+   ✓ PowerPoint P1 — diapositives > un calque posé PENDANT qu’une diapositive est active rejoint cette diapositive, et disparaît si on en active une autre  1518ms
+   ✓ PowerPoint P1 — diapositives > un calque posé SANS diapositive active reste un masque visible sur toutes les diapositives  903ms
+   ✓ PowerPoint P1 — diapositives > dupliquer une diapositive copie son contenu et devient la diapositive active  782ms
+   ✓ PowerPoint P1 — diapositives > supprimer une diapositive retire aussi son contenu de l’aperçu  1188ms
+   ✓ PowerPoint P2 — aligner sur le canevas, premier/arrière-plan > un calque UNIQUE se centre sur le CANEVAS, pas sur lui-même (rien à aligner à un seul)  736ms
+   ✓ PowerPoint P2 — aligner sur le canevas, premier/arrière-plan > « Aligner à gauche du canevas » pose le calque exactement à x=0  722ms
+   ✓ PowerPoint P2 — aligner sur le canevas, premier/arrière-plan > « Mettre au premier plan » saute directement devant, sans repasser rang par rang  986ms
+   ✓ PowerPoint P2 — aligner sur le canevas, premier/arrière-plan > « Mettre à l’arrière-plan » saute directement derrière tous les autres  901ms
+   ✓ PowerPoint P3 — liste et lien > les réglages Liste/Lien n’apparaissent que pour un calque TEXTE  695ms
+   ✓ PowerPoint P3 — liste et lien > choisir « À puces » compile réellement une <ul>, une ligne par retour à la ligne  958ms
+   ✓ PowerPoint P3 — liste et lien > un lien https réel enveloppe le texte dans <a href> de la page compilée  908ms
+   ✓ PowerPoint P3 — liste et lien > un lien javascript: est refusé : aucune balise <a> n’apparaît dans la page compilée  637ms
+   ✓ PowerPoint P5 — tableau > « Poser un calque Tableau » crée un tableau 2×2 réel dans la page compilée  777ms
+   ✓ PowerPoint P5 — tableau > taper dans une cellule change réellement le texte de la page compilée  935ms
+   ✓ PowerPoint P5 — tableau > agrandir le nombre de colonnes ajoute des cellules SANS effacer celles déjà écrites  700ms
+   ✓ PowerPoint P6 — entrée animée > le délai n’apparaît que si un style d’entrée animée est choisi  615ms
+   ✓ PowerPoint P6 — entrée animée > choisir un style d’entrée animée écrit réellement l’animation dans l’aperçu interactif  911ms
+   ✓ PowerPoint P6 — entrée animée > changer le délai change réellement la valeur dans l’aperçu  951ms
+   ✓ PowerPoint P7 — navigation clavier entre diapositives > Page suivante/précédente bascule la diapositive active, sans jamais sortir des bornes  1580ms
+   ✓ PowerPoint P8 — export du carrousel > « Toutes les diapositives » n’apparaît pas sans diapositive, ni avec une seule  538ms
+   ✓ PowerPoint P8 — export du carrousel > « Toutes les diapositives » apparaît dès la deuxième diapositive  625ms
+   ✓ Miro M5 — post-it > « Poser un Post-it » pose un calque texte avec un fond coloré et une ombre, prêt à l’emploi  518ms
+   ✓ Miro M5 — post-it > le fond du post-it reste un réglage ORDINAIRE de calque : on peut le changer ensuite comme n’importe quelle couleur  869ms
+   ✓ Miro M6 — connecteurs > « Relier par un connecteur » est grisé hors d’une sélection de DEUX calques  1014ms
+   ✓ Miro M6 — connecteurs > relier deux calques pose réellement un connecteur qui les rejoint dans la page compilée  1168ms
+   ✓ Miro M6 — connecteurs > déplacer un calque relié fait RÉELLEMENT suivre le connecteur, sans geste supplémentaire  1947ms
+   ✓ Illustrator I2 — outil Plume > le bouton Plume est un BASCULE : il s’active et se désactive au clic, jamais une pose immédiate  779ms
+   ✓ Illustrator I2 — outil Plume > trois clics puis Entrée posent réellement un tracé OUVERT à trois points dans la page compilée  1081ms
+   ✓ Illustrator I2 — outil Plume > Échap annule le point en cours SANS quitter l’outil ; un second Échap, lui, quitte l’outil  662ms
+   ✓ Illustrator I2 — outil Plume > le tracé qu’on vient de poser devient la sélection : ses points d’ancrage sont immédiatement visibles  719ms
+   ✓ Illustrator I2 — outil Plume > sélectionner un point puis Suppr retire CE point, jamais le calque entier  1155ms
+   ✓ Illustrator I2 — outil Plume > double-cliquer une ancre convertit angle ↔ lisse : la courbe compilée change réellement  1013ms
+   ✓ Illustrator I2 — outil Plume > double-cliquer LE TRACÉ (pas une ancre) insère un point de plus sur la courbe  1290ms
+   ✓ Illustrator I2 — outil Plume > le panneau Détails règle la couleur, l’épaisseur et l’ouverture du contour, et cela compile réellement  1799ms
+   ✓ InDesign D1 — pages parentes > « Ajouter une page parente » crée une entrée nommée dans la liste  421ms
+   ✓ InDesign D1 — pages parentes > un calque posé en éditant une page parente n’apparaît sur AUCUNE diapositive tant qu’elle n’est pas appliquée  1312ms
+   ✓ InDesign D1 — pages parentes > appliquer la page parente à la diapositive rend son contenu RÉELLEMENT visible, en pointillés sur le canevas  1186ms
+   ✓ InDesign D1 — pages parentes > cliquer l’objet hérité ouvre son panneau dédié ; changer sa position le remplace LOCALEMENT  1278ms
+   ✓ InDesign D1 — pages parentes > « Détacher » convertit l’objet hérité en calque réel, sélectionné normalement  1093ms
+   ✓ InDesign D1 — pages parentes > masquer les éléments hérités les retire de la page compilée SANS désappliquer la page parente  1726ms
+   ✓ InDesign D1 — pages parentes > supprimer une page parente ramène ses diapositives à [Sans]  731ms
+   ✓ InDesign D2 — récupérateur de contenu > n’apparaît QUE sur une image sélectionnée, jamais sur un texte ni une forme  725ms
+   ✓ InDesign D2 — récupérateur de contenu > disparaît dès que l’image n’est plus sélectionnée  674ms
+   ✓ InDesign D2 — récupérateur de contenu > glisser le récupérateur écrit réellement dans la focale (carte Photoshop 6), sans jamais planter  756ms
+   ✓ InDesign D3 — chaînage de blocs de texte > les ports n’apparaissent QUE sur un bloc de texte sélectionné, jamais sur une forme  601ms
+   ✓ InDesign D3 — chaînage de blocs de texte > cliquer le port de sortie puis un autre bloc texte les CHAÎNE réellement  932ms
+   ✓ InDesign D3 — chaînage de blocs de texte > Échap annule un curseur de texte chargé sans rien chaîner  969ms
+   ✓ InDesign D3 — chaînage de blocs de texte > un clic sur le VIDE du canevas annule aussi un curseur de texte chargé  951ms
+   ✓ InDesign D3 — chaînage de blocs de texte > « Déchaîner » rompt le lien sans effacer le contenu d’aucun des deux blocs  1013ms
+   ✓ InDesign D3 — chaînage de blocs de texte > « Afficher les liaisons » dessine une ligne entre deux blocs chaînés  873ms
+   ✓ InDesign D4 — styles de texte nommés > « Ajouter un style de texte » crée une entrée nommée dans la liste  444ms
+   ✓ InDesign D4 — styles de texte nommés > régler la DÉFINITION d’un style (son propre panneau) le RÉSOUT réellement sur le calque qui l’applique  1294ms
+   ✓ InDesign D4 — styles de texte nommés > modifier la définition du style change TOUS les calques qui l’appliquent ; un remplacement LOCAL n’en affecte qu’un seul  1764ms
+   ✓ InDesign D4 — styles de texte nommés > « Effacer les remplacements » efface le « + » et ramène EXACTEMENT au style  877ms
+   ✓ InDesign D4 — styles de texte nommés > supprimer un style ramène le calque à [Aucun] SANS changer son apparence à l’écran  1115ms
+   ✓ InDesign D5 — habillage de texte > le sélecteur d’habillage liste les AUTRES calques, jamais le calque texte lui-même  799ms
+   ✓ InDesign D5 — habillage de texte > choisir un obstacle règle wrapAroundId et fait apparaître le champ Marge  926ms
+   ✓ InDesign D5 — habillage de texte > la page compilée porte réellement le flottant invisible une fois l’obstacle choisi  1151ms
+   ✓ InDesign D5 — habillage de texte > la zone d’habillage ne s’affiche QUE sur le bloc de texte sélectionné, avec un obstacle réglé  1006ms
+   ✓ InDesign D5 — habillage de texte > la Marge se règle depuis son propre champ  894ms
+   ✓ InDesign D6 — marges, colonnes, repères, grilles > cliquer une règle pose un repère persistant, visible sur le canevas  471ms
+   ✓ InDesign D6 — marges, colonnes, repères, grilles > double-clic sur un repère le retire  507ms
+   ✓ InDesign D6 — marges, colonnes, repères, grilles > « Générer les repères » pose les quatre marges par défaut, en REMPLAÇANT un repère manuel existant  503ms
+   ✓ InDesign D6 — marges, colonnes, repères, grilles > « Tout effacer » retire tous les repères d’un coup  614ms
+   ✓ InDesign D6 — marges, colonnes, repères, grilles > « Afficher la grille » fait apparaître le quadrillage sur le canevas  491ms
+   ✓ InDesign D6 — marges, colonnes, repères, grilles > les champs de marge se règlent depuis leur propre champ  565ms
+   ✓ InDesign D7 — styles d’objet nommés > « Ajouter un style d’objet » crée une entrée nommée dans la liste  481ms
+   ✓ InDesign D7 — styles d’objet nommés > régler la DÉFINITION d’un style d’objet le RÉSOUT réellement sur le calque qui l’applique  1285ms
+   ✓ InDesign D7 — styles d’objet nommés > un calque TEXTE porte un style de texte ET un style d’objet à la fois, sans collision  964ms
+   ✓ InDesign D7 — styles d’objet nommés > « Effacer les remplacements » du style d’objet efface le « + » et ramène EXACTEMENT au style  873ms
+   ✓ InDesign D7 — styles d’objet nommés > supprimer un style d’objet ramène le calque à [Aucun] SANS changer son apparence à l’écran  1097ms
+   ✓ InDesign D8 — contrôle en amont > sans problème, l’indicateur affiche une coche et le panneau dit « rien à signaler »  512ms
+   ✓ InDesign D8 — contrôle en amont > une image posée sans source apparaît comme point de contrôle  675ms
+   ✓ InDesign D8 — contrôle en amont > cliquer un point de contrôle sélectionne le calque en cause et referme le panneau  839ms
+   ✓ P1-R9 — conteneur système d’une diapositive protégé dans les Calques > le dossier de la diapositive n’offre ni Dissoudre ni Supprimer le groupe  706ms
+   ✓ P1-R5 — le collage rejoint la diapositive active, jamais un masque global > coller sur la diapositive 1 laisse la diapositive 2 entièrement vide  1827ms
+   ✓ P1-R1 — transaction de geste : un glisser vaut une seule entrée d’historique > poser un calque puis le glisser (plusieurs pointermove) ne coûte que deux Annuler pour tout effacer  1019ms
+   ✓ P1-R1 — transaction de geste : un glisser vaut une seule entrée d’historique > un simple clic sans glisser (aucun pointermove) n’ajoute aucune entrée  624ms
+   ✓ P1-R1 — transaction de geste : un glisser vaut une seule entrée d’historique > Échap pendant un glisser (relâché jamais reçu) n’empile rien : un seul Annuler efface tout  782ms
+   ✓ P1-R4 — visibilité et verrou effectifs uniques > la navigation clavier ignore un calque d’une autre diapositive : jamais de saut invisible  1211ms
+   ✓ P1-R4 — visibilité et verrou effectifs uniques > un calque verrouillé par son GROUPE (pas lui-même) perd ses poignées, comme s’il était verrouillé directement  1050ms
+   ✓ P1-R11 — Verrouiller la partition bloque réellement l’édition des blocs > « Scinder » et « + » restent cliquables déverrouillé, disparaissent verrouillé, sans changer le nombre de blocs  622ms
+   ✓ P3-E3 — le menu Édition et le clavier invoquent la même commande > « Grouper les calques » depuis le MENU produit exactement le même résultat que ⌘G  1004ms
+   ✓ P3-E3 — le menu Édition et le clavier invoquent la même commande > « Tout sélectionner » depuis le MENU sélectionne réellement tous les calques  903ms
+   ✓ P3-E3 — le menu Édition et le clavier invoquent la même commande > « Inverser la sélection » depuis le MENU échange réellement le choisi et le non-choisi  947ms
+   ✓ P2-V1 — vraies vignettes de diapositive > chaque vignette montre RÉELLEMENT le contenu de SA diapositive, jamais celui d’une autre  950ms
+ ✓ scripts/AssetsService.test.js (107 tests) 64165ms
+   ✓ kills child workers with the timed-out asset process group  706ms
+   ✓ kills child workers when an asset process is cancelled  707ms
+   ✓ retains simultaneous session bindings  7467ms
+   ✓ preserves existing session bindings and skips replay when a conflicting project is requested  6757ms
+   ✓ prepares a project idempotently with canonical feedback and actual session binding  6192ms
+   ✓ starts a new project without waiting for transcript replay  5632ms
+   ✓ keeps a new project ready after active replay  5173ms
+   ✓ keeps a new project ready after unexpected replay failure  5136ms
+   ✓ finishes project startup when transcript replay never settles  5945ms
+   ✓ prepares and recovers the active workshop when only a Houdini file is loaded  960ms
+   ✓ managed workspace release and recovery > reports divergent original bytes in the local and cloud context and retains both versions  321ms
+   ✓ managed workspace release and recovery > automatically archives both versions without overwriting production or the loaded copy  957ms
+   ✓ managed workspace release and recovery > frees managed copies and recovers exact bytes while retaining production sources  804ms
+   ✓ managed workspace release and recovery > retains Finder metadata locally and recovers its exact bytes  835ms
+   ✓ managed workspace release and recovery > recovers metadata still in an interrupted release tree  888ms
+   ✓ managed workspace release and recovery > retains extra unarchived files and refuses incomplete selections  594ms
+   ✓ managed workspace release and recovery > does not release a workspace when its fresh cloud restore fails  307ms
+   ✓ managed workspace release and recovery > recovers nested paths without duplicating their parent directories  859ms
+   ✓ managed workspace release and recovery > retains changes made while the cloud recovery probe runs  304ms
+   ✓ managed workspace release and recovery > archives edits and new files from a loaded copy without replacing production sources  908ms
+   ✓ managed workspace release and recovery > unloads and recovers every added file through the same exact cloud versions  906ms
+   ✓ managed workspace release and recovery > retains an edit between initial restore verification and workspace activation without calling it verified  863ms
+   ✓ managed workspace release and recovery > refreshes file paths on unload and recovery and does not certify an edit made during recovery activation  861ms
+   ✓ managed workspace release and recovery > restores release metadata across service restarts  866ms
+   ✓ completes image previews and settles disconnected streams  353ms
+   ✓ indexes the actual conversation agent in its project context immediately on binding  5481ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 4 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  scripts/AssetsSceneSnapshot.test.js > one fresh scene dependency view per global pass > builds exactly once for catalogue, list, cloud index, context refresh and publishing
+Error: buildSceneReferenceProjects does not exist
+ ❯ scripts/AssetsSceneSnapshot.test.js:44:29
+     42|   it('builds exactly once for catalogue, list, cloud index, context re…
+     43|     const service = await fixture()
+     44|     const construction = vi.spyOn(service, 'buildSceneReferenceProject…
+       |                             ^
+     45|     for (const action of ['workspace-catalogue', 'list', 'global-index…
+     46|       construction.mockClear()
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/4]⎯
+
+ FAIL  scripts/AssetsSceneSnapshot.test.js > one fresh scene dependency view per global pass > detects the previous repeated-construction traversal as a failing count
+Error: buildSceneReferenceProjects does not exist
+ ❯ scripts/AssetsSceneSnapshot.test.js:63:29
+     61|   it('detects the previous repeated-construction traversal as a failin…
+     62|     const service = await fixture()
+     63|     const construction = vi.spyOn(service, 'buildSceneReferenceProject…
+       |                             ^
+     64|     const oldTraversal = () => [...service.projects.keys()].map(id => …
+     65|     oldTraversal()
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/4]⎯
+
+ FAIL  scripts/AssetsSceneSnapshot.test.js > one fresh scene dependency view per global pass > keeps valid dependencies and stale audits identical to individual snapshots
+TypeError: Cannot read properties of undefined (reading 'get')
+ ❯ AssetsService.combinedFiles scripts/AssetsService.mjs:655:37
+    653|     const project = this.project(id), state = this.state(id)
+    654|     const inventory = state.inventory
+    655|     const revision = this.revisions.get(id) || 0
+       |                                     ^
+    656|     let memo = this.filesMemo.get(id)
+    657|     if (!inventory || !memo || memo.project !== project || memo.invent…
+ ❯ AssetsService.snapshot scripts/AssetsService.mjs:669:23
+ ❯ scripts/AssetsSceneSnapshot.test.js:74:71
+ ❯ scripts/AssetsSceneSnapshot.test.js:74:53
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[3/4]⎯
+
+ FAIL  scripts/AssetsSceneSnapshot.test.js > one fresh scene dependency view per global pass > rebuilds after content changes and preserves loaded-copy relocation evidence
+TypeError: service.projectSnapshots is not a function
+ ❯ scripts/AssetsSceneSnapshot.test.js:85:28
+     83|   it('rebuilds after content changes and preserves loaded-copy relocat…
+     84|     const service = await fixture()
+     85|     const before = service.projectSnapshots().find(project => project.…
+       |                            ^
+     86|     const resource = service.state('shared-library').inventory.localFi…
+     87|     resource.sha256 = 'new-resource-hash'
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[4/4]⎯
+
+
+ Test Files  1 failed | 262 passed | 1 skipped (264)
+      Tests  4 failed | 2563 passed | 6 skipped (2573)
+   Start at  10:01:21
+   Duration  150.54s (transform 5.03s, setup 9.36s, collect 11.11s, tests 357.32s, environment 59.19s, prepare 11.82s)
+

@@ -1,0 +1,115 @@
+{
+  "version": "1.0.0",
+  "date": "15 October 2026",
+  "applicationCommit": "65aab04db98acbf311686b06fa788909656d8700",
+  "dataRelease": "9dd9165e4122a6ce",
+  "dataCommit": "5d085a149",
+  "coverage": {
+    "N5": {
+      "covered": 88,
+      "open": 44,
+      "publisherRequirements": 132
+    }
+  },
+  "completeN5N1Coverage": false,
+  "documentation": "docs/Release1.0.0.md",
+  "files": [
+    {
+      "path": "docs/JAPANESE-STUDY.md",
+      "sha256": "a1ff1c3fd3971a49be680be319380eb5e8d65b8602abc2207249cf4d58a6783a",
+      "bytes": 4767
+    },
+    {
+      "path": "server/japanese.js",
+      "sha256": "e6befa11952405b123287b482741dd36eaeedda14cf41d6adb84470efeed3299",
+      "bytes": 13030
+    },
+    {
+      "path": "server/japanese.test.js",
+      "sha256": "6658311e47a96d2315904321d199165633a2119b623c4f63f0d28b2f3d2719b8",
+      "bytes": 8169
+    },
+    {
+      "path": "src/learn/JapaneseCorpus.css",
+      "sha256": "abde751118c502bf7f8f484f2f010c4aa7040895677e9accd2fd268aceda3bbe",
+      "bytes": 3928
+    },
+    {
+      "path": "src/learn/JapaneseCorpus.jsx",
+      "sha256": "8d3349d40dab8433b2326e839937f446b41747ca85ba9ffacea5182768de2998",
+      "bytes": 18357
+    },
+    {
+      "path": "src/learn/JapaneseCorpus.test.jsx",
+      "sha256": "0b2818b8c5c3527e84bba001e2e53ff90d14c10f00b6511ea3ce1092c53341e5",
+      "bytes": 7074
+    },
+    {
+      "path": "src/learn/JapaneseStudy.css",
+      "sha256": "b0fd771d2e99d76a0591051fb79a8d476c55815ea309a2cb72ef36aba8dc0dad",
+      "bytes": 4870
+    },
+    {
+      "path": "src/learn/JapaneseStudy.jsx",
+      "sha256": "7131fb45a8b894f318e7808156ccc5a7afd3ab4d479e96503fb3f063420065e5",
+      "bytes": 21529
+    },
+    {
+      "path": "src/learn/JapaneseStudy.test.jsx",
+      "sha256": "e53bd289cb1a57df823a7d2f53650cb588a4167546f5e3f441a47e7dad37e5b7",
+      "bytes": 6692
+    },
+    {
+      "path": "src/learn/ZenRayJapanese.css",
+      "sha256": "6765fe6652ae7ee652149048bc8e41290e3f6973ae28c49e18779d33c8f0d495",
+      "bytes": 27245
+    },
+    {
+      "path": "src/learn/ZenRayJapanese.jsx",
+      "sha256": "0160cff2b396c59d981edb305061152e5aef930655680763d3a96bd408e9ca14",
+      "bytes": 37218
+    },
+    {
+      "path": "src/learn/data/JapaneseRelease.json",
+      "sha256": "cbba8fe721e1e23be0cc61373e7c1303789338d22e87047972b1159c7614e8ea",
+      "bytes": 834
+    },
+    {
+      "path": "src/learn/data/OfficialLearningResources.json",
+      "sha256": "1c9101d1a6ae1011898bf44e3c63ccc1a3c8c6609a0331b0624a52ec79287eeb",
+      "bytes": 45448
+    },
+    {
+      "path": "src/learn/fixtures/JapaneseReviewedFixtures.json",
+      "sha256": "43cbeb3c1cabc84326b79637984c1458df2d4809df8157112b7a1f4844530133",
+      "bytes": 14036
+    },
+    {
+      "path": "src/learn/japaneseCorpusModel.js",
+      "sha256": "efab9a0dd5507b68d3da185c2860926e9c421f1fcb4ec8c257f68657e390ce2c",
+      "bytes": 14051
+    },
+    {
+      "path": "src/learn/japaneseCorpusModel.test.js",
+      "sha256": "aae7528e2802c9a90e861ab576352293cc7ff4489bded511c410c5c437986824",
+      "bytes": 12719
+    },
+    {
+      "path": "src/learn/japaneseStudyClient.js",
+      "sha256": "57b4fa3f8cb45508a90794e2292a68acba9d083ced79912596b1fa5573736bd1",
+      "bytes": 844
+    },
+    {
+      "path": "src/learn/japaneseStudyModel.js",
+      "sha256": "dd8b0fbe1d51824eaf5685eac84b1b755860bf5c42bf21bb2ab9cabce0692341",
+      "bytes": 3803
+    }
+  ],
+  "tag": "zenray-japanese-v1.0.0",
+  "productionDeployment": "9310a334",
+  "entry": "assets/index-CnZVkpbg.js",
+  "focusedTests": 65,
+  "trackedSuitePassed": 2563,
+  "trackedSuiteSkipped": 6,
+  "productionLearnerWrites": 0
+}

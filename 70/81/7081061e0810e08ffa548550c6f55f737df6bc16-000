@@ -1,0 +1,24 @@
+
+ RUN  v3.2.6 /Users/zenray/.codex/worktrees/japanese-progress
+
+(node:46947) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:46946) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:46944) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:46945) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/learn/japaneseCorpusModel.test.js (30 tests) 20ms
+ ✓ server/_cloudflare-adapter.test.js (12 tests) 47ms
+(node:46956) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ server/japanese.test.js (8 tests) 32ms
+ ✓ src/learn/JapaneseCorpus.test.jsx (8 tests) 356ms
+ ✓ src/learn/JapaneseStudy.test.jsx (7 tests) 470ms
+
+ Test Files  5 passed (5)
+      Tests  65 passed (65)
+   Start at  10:00:15
+   Duration  1.35s (transform 214ms, setup 336ms, collect 466ms, tests 925ms, environment 1.46s, prepare 279ms)
+

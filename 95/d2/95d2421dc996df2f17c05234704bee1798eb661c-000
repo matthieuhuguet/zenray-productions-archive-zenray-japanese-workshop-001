@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "14 October 2026",
-  "release": "29324aff31146a9c",
+  "checkedAt": "15 October 2026",
+  "release": "9dd9165e4122a6ce",
   "level": "N5",
-  "packetHash": "0d3b214cafde0ab79d069aafae6893fd731c7ad0cbb7154f93fb4000d281ba01",
+  "packetHash": "efb6eb5a88e7b197e805b0d62afaf96306df3069f95a27aab38f1726ae19f65d",
   "completeAudit": true,
   "completeCoverage": false,
   "scope": "Editorial Bunpro benchmark only; not an official exhaustive JLPT syllabus or learner mastery.",
@@ -252,7 +252,10 @@
         "/root/n5_foundation05_coverage_first",
         "/root/n5_foundation05_coverage_second"
       ],
-      "reusedReviewerIds": [],
+      "reusedReviewerIds": [
+        "/root/n5_foundation05_coverage_first",
+        "/root/n5_foundation05_coverage_second"
+      ],
       "reviewProvenance": {
         "/root/n5_foundation05_coverage_first": {
           "checkedAt": "14 October 2026 23:07:02 CEST",
@@ -403,7 +406,10 @@
         "/root/n5_foundation05_coverage_first",
         "/root/n5_foundation05_coverage_second"
       ],
-      "reusedReviewerIds": [],
+      "reusedReviewerIds": [
+        "/root/n5_foundation05_coverage_first",
+        "/root/n5_foundation05_coverage_second"
+      ],
       "reviewProvenance": {
         "/root/n5_foundation05_coverage_first": {
           "checkedAt": "14 October 2026 23:07:02 CEST",
@@ -619,7 +625,10 @@
         "/root/n5_foundation05_coverage_first",
         "/root/n5_foundation05_coverage_second"
       ],
-      "reusedReviewerIds": [],
+      "reusedReviewerIds": [
+        "/root/n5_foundation05_coverage_first",
+        "/root/n5_foundation05_coverage_second"
+      ],
       "reviewProvenance": {
         "/root/n5_foundation05_coverage_first": {
           "checkedAt": "14 October 2026 23:07:02 CEST",
@@ -845,7 +854,10 @@
         "/root/n5_foundation05_coverage_first",
         "/root/n5_foundation05_coverage_second"
       ],
-      "reusedReviewerIds": [],
+      "reusedReviewerIds": [
+        "/root/n5_foundation05_coverage_first",
+        "/root/n5_foundation05_coverage_second"
+      ],
       "reviewProvenance": {
         "/root/n5_foundation05_coverage_first": {
           "checkedAt": "14 October 2026 23:07:02 CEST",
@@ -923,7 +935,10 @@
         "/root/n5_foundation05_coverage_first",
         "/root/n5_foundation05_coverage_second"
       ],
-      "reusedReviewerIds": [],
+      "reusedReviewerIds": [
+        "/root/n5_foundation05_coverage_first",
+        "/root/n5_foundation05_coverage_second"
+      ],
       "reviewProvenance": {
         "/root/n5_foundation05_coverage_first": {
           "checkedAt": "14 October 2026 23:07:02 CEST",
@@ -997,7 +1012,10 @@
         "/root/n5_foundation05_coverage_first",
         "/root/n5_foundation05_coverage_second"
       ],
-      "reusedReviewerIds": [],
+      "reusedReviewerIds": [
+        "/root/n5_foundation05_coverage_first",
+        "/root/n5_foundation05_coverage_second"
+      ],
       "reviewProvenance": {
         "/root/n5_foundation05_coverage_first": {
           "checkedAt": "14 October 2026 23:07:02 CEST",
@@ -1294,7 +1312,10 @@
         "/root/n5_foundation05_coverage_first",
         "/root/n5_foundation05_coverage_second"
       ],
-      "reusedReviewerIds": [],
+      "reusedReviewerIds": [
+        "/root/n5_foundation05_coverage_first",
+        "/root/n5_foundation05_coverage_second"
+      ],
       "reviewProvenance": {
         "/root/n5_foundation05_coverage_first": {
           "checkedAt": "14 October 2026 23:07:02 CEST",
@@ -1765,7 +1786,10 @@
         "/root/n5_foundation05_coverage_first",
         "/root/n5_foundation05_coverage_second"
       ],
-      "reusedReviewerIds": [],
+      "reusedReviewerIds": [
+        "/root/n5_foundation05_coverage_first",
+        "/root/n5_foundation05_coverage_second"
+      ],
       "reviewProvenance": {
         "/root/n5_foundation05_coverage_first": {
           "checkedAt": "14 October 2026 23:07:02 CEST",
@@ -1835,7 +1859,10 @@
         "/root/n5_foundation05_coverage_first",
         "/root/n5_foundation05_coverage_second"
       ],
-      "reusedReviewerIds": [],
+      "reusedReviewerIds": [
+        "/root/n5_foundation05_coverage_first",
+        "/root/n5_foundation05_coverage_second"
+      ],
       "reviewProvenance": {
         "/root/n5_foundation05_coverage_first": {
           "checkedAt": "14 October 2026 23:07:02 CEST",
@@ -2055,7 +2082,10 @@
         "/root/n5_foundation05_coverage_first",
         "/root/n5_foundation05_coverage_second"
       ],
-      "reusedReviewerIds": [],
+      "reusedReviewerIds": [
+        "/root/n5_foundation05_coverage_first",
+        "/root/n5_foundation05_coverage_second"
+      ],
       "reviewProvenance": {
         "/root/n5_foundation05_coverage_first": {
           "checkedAt": "14 October 2026 23:07:02 CEST",
@@ -2125,7 +2155,10 @@
         "/root/n5_foundation05_coverage_first",
         "/root/n5_foundation05_coverage_second"
       ],
-      "reusedReviewerIds": [],
+      "reusedReviewerIds": [
+        "/root/n5_foundation05_coverage_first",
+        "/root/n5_foundation05_coverage_second"
+      ],
       "reviewProvenance": {
         "/root/n5_foundation05_coverage_first": {
           "checkedAt": "14 October 2026 23:07:02 CEST",
@@ -2199,7 +2232,10 @@
         "/root/n5_foundation05_coverage_first",
         "/root/n5_foundation05_coverage_second"
       ],
-      "reusedReviewerIds": [],
+      "reusedReviewerIds": [
+        "/root/n5_foundation05_coverage_first",
+        "/root/n5_foundation05_coverage_second"
+      ],
       "reviewProvenance": {
         "/root/n5_foundation05_coverage_first": {
           "checkedAt": "14 October 2026 23:07:02 CEST",
@@ -2357,7 +2393,10 @@
         "/root/n5_foundation05_coverage_first",
         "/root/n5_foundation05_coverage_second"
       ],
-      "reusedReviewerIds": [],
+      "reusedReviewerIds": [
+        "/root/n5_foundation05_coverage_first",
+        "/root/n5_foundation05_coverage_second"
+      ],
       "reviewProvenance": {
         "/root/n5_foundation05_coverage_first": {
           "checkedAt": "14 October 2026 23:07:02 CEST",
@@ -2721,7 +2760,10 @@
         "/root/n5_foundation05_coverage_first",
         "/root/n5_foundation05_coverage_second"
       ],
-      "reusedReviewerIds": [],
+      "reusedReviewerIds": [
+        "/root/n5_foundation05_coverage_first",
+        "/root/n5_foundation05_coverage_second"
+      ],
       "reviewProvenance": {
         "/root/n5_foundation05_coverage_first": {
           "checkedAt": "14 October 2026 23:07:02 CEST",
@@ -2935,7 +2977,10 @@
         "/root/n5_foundation05_coverage_first",
         "/root/n5_foundation05_coverage_second"
       ],
-      "reusedReviewerIds": [],
+      "reusedReviewerIds": [
+        "/root/n5_foundation05_coverage_first",
+        "/root/n5_foundation05_coverage_second"
+      ],
       "reviewProvenance": {
         "/root/n5_foundation05_coverage_first": {
           "checkedAt": "14 October 2026 23:07:02 CEST",
@@ -3087,7 +3132,10 @@
         "/root/n5_foundation05_coverage_first",
         "/root/n5_foundation05_coverage_second"
       ],
-      "reusedReviewerIds": [],
+      "reusedReviewerIds": [
+        "/root/n5_foundation05_coverage_first",
+        "/root/n5_foundation05_coverage_second"
+      ],
       "reviewProvenance": {
         "/root/n5_foundation05_coverage_first": {
           "checkedAt": "14 October 2026 23:07:02 CEST",
@@ -3231,7 +3279,10 @@
         "/root/n5_foundation05_coverage_first",
         "/root/n5_foundation05_coverage_second"
       ],
-      "reusedReviewerIds": [],
+      "reusedReviewerIds": [
+        "/root/n5_foundation05_coverage_first",
+        "/root/n5_foundation05_coverage_second"
+      ],
       "reviewProvenance": {
         "/root/n5_foundation05_coverage_first": {
           "checkedAt": "14 October 2026 23:07:02 CEST",
@@ -3308,7 +3359,10 @@
         "/root/n5_foundation05_coverage_first",
         "/root/n5_foundation05_coverage_second"
       ],
-      "reusedReviewerIds": [],
+      "reusedReviewerIds": [
+        "/root/n5_foundation05_coverage_first",
+        "/root/n5_foundation05_coverage_second"
+      ],
       "reviewProvenance": {
         "/root/n5_foundation05_coverage_first": {
           "checkedAt": "14 October 2026 23:07:02 CEST",
@@ -3545,7 +3599,10 @@
         "/root/n5_foundation05_coverage_first",
         "/root/n5_foundation05_coverage_second"
       ],
-      "reusedReviewerIds": [],
+      "reusedReviewerIds": [
+        "/root/n5_foundation05_coverage_first",
+        "/root/n5_foundation05_coverage_second"
+      ],
       "reviewProvenance": {
         "/root/n5_foundation05_coverage_first": {
           "checkedAt": "14 October 2026 23:07:02 CEST",
@@ -3628,7 +3685,10 @@
         "/root/n5_foundation05_coverage_first",
         "/root/n5_foundation05_coverage_second"
       ],
-      "reusedReviewerIds": [],
+      "reusedReviewerIds": [
+        "/root/n5_foundation05_coverage_first",
+        "/root/n5_foundation05_coverage_second"
+      ],
       "reviewProvenance": {
         "/root/n5_foundation05_coverage_first": {
           "checkedAt": "14 October 2026 23:07:02 CEST",
@@ -3701,7 +3761,10 @@
         "/root/n5_foundation05_coverage_first",
         "/root/n5_foundation05_coverage_second"
       ],
-      "reusedReviewerIds": [],
+      "reusedReviewerIds": [
+        "/root/n5_foundation05_coverage_first",
+        "/root/n5_foundation05_coverage_second"
+      ],
       "reviewProvenance": {
         "/root/n5_foundation05_coverage_first": {
           "checkedAt": "14 October 2026 23:07:02 CEST",
@@ -3774,7 +3837,10 @@
         "/root/n5_foundation05_coverage_first",
         "/root/n5_foundation05_coverage_second"
       ],
-      "reusedReviewerIds": [],
+      "reusedReviewerIds": [
+        "/root/n5_foundation05_coverage_first",
+        "/root/n5_foundation05_coverage_second"
+      ],
       "reviewProvenance": {
         "/root/n5_foundation05_coverage_first": {
           "checkedAt": "14 October 2026 23:07:02 CEST",
@@ -3918,7 +3984,10 @@
         "/root/n5_foundation05_coverage_first",
         "/root/n5_foundation05_coverage_second"
       ],
-      "reusedReviewerIds": [],
+      "reusedReviewerIds": [
+        "/root/n5_foundation05_coverage_first",
+        "/root/n5_foundation05_coverage_second"
+      ],
       "reviewProvenance": {
         "/root/n5_foundation05_coverage_first": {
           "checkedAt": "14 October 2026 23:07:02 CEST",
@@ -6075,7 +6144,10 @@
         "/root/n5_foundation05_coverage_first",
         "/root/n5_foundation05_coverage_second"
       ],
-      "reusedReviewerIds": [],
+      "reusedReviewerIds": [
+        "/root/n5_foundation05_coverage_first",
+        "/root/n5_foundation05_coverage_second"
+      ],
       "reviewProvenance": {
         "/root/n5_foundation05_coverage_first": {
           "checkedAt": "14 October 2026 23:07:02 CEST",
@@ -6145,7 +6217,10 @@
         "/root/n5_foundation05_coverage_first",
         "/root/n5_foundation05_coverage_second"
       ],
-      "reusedReviewerIds": [],
+      "reusedReviewerIds": [
+        "/root/n5_foundation05_coverage_first",
+        "/root/n5_foundation05_coverage_second"
+      ],
       "reviewProvenance": {
         "/root/n5_foundation05_coverage_first": {
           "checkedAt": "14 October 2026 23:07:02 CEST",
@@ -6298,7 +6373,10 @@
         "/root/n5_foundation05_coverage_first",
         "/root/n5_foundation05_coverage_second"
       ],
-      "reusedReviewerIds": [],
+      "reusedReviewerIds": [
+        "/root/n5_foundation05_coverage_first",
+        "/root/n5_foundation05_coverage_second"
+      ],
       "reviewProvenance": {
         "/root/n5_foundation05_coverage_first": {
           "checkedAt": "14 October 2026 23:07:02 CEST",
@@ -6888,7 +6966,10 @@
         "/root/n5_foundation05_coverage_first",
         "/root/n5_foundation05_coverage_second"
       ],
-      "reusedReviewerIds": [],
+      "reusedReviewerIds": [
+        "/root/n5_foundation05_coverage_first",
+        "/root/n5_foundation05_coverage_second"
+      ],
       "reviewProvenance": {
         "/root/n5_foundation05_coverage_first": {
           "checkedAt": "14 October 2026 23:07:02 CEST",

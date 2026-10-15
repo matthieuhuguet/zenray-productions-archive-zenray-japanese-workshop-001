@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "14 October 2026",
-  "release": "29324aff31146a9c",
+  "checkedAt": "15 October 2026",
+  "release": "9dd9165e4122a6ce",
   "sourceAudit": "research/coverage/N5CoverageConsensus.json",
   "policy": "All 44 current open requirements remain in scope. Candidate links are research, not coverage approvals. Resolve ambiguous publisher statements from primary grammar evidence; never invent a construction.",
   "requirements": [
