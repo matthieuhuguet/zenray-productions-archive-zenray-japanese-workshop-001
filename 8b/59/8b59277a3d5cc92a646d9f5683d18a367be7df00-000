@@ -1,0 +1,83 @@
+# Release 1.1.0 data inventory (15 October 2026)
+
+## Scope and measured existing assets (15 October 2026)
+
+- Read-only investigation of existing catalogue, SQLite, producer JSON, primary institutional sources and reusable level metadata. Only this report is written. No pedagogical approval, learner state, code or corpus data is changed. (15 October 2026)
+- Base directory: `/Users/zenray/.claude/tmp/tmp-zenray-japanese/research/datasets/`. Raw JMdict version `3.6.2+20261005200550`: 218863 entries; 15336 contain at least one French gloss; 12952 are both common-tagged and French-bearing. Common tags are not JLPT levels. (15 October 2026)
+- SQLite `/Users/zenray/.claude/Memory1/Japanese/Corpus/japanese.sqlite`: `records(id,domain,level,title,body,payload)`. Dictionary 218863, kanji 13108, sentence 43834. Every dictionary and kanji record is `unclassified`; no domain `kana`. (15 October 2026)
+- Catalogue `/Users/zenray/.claude/Memory1/Japanese/Site/corpus/catalogue.json`: 439 editorial cards, 345 grammar cards: N5 168, N4 40, N3 48, N2 48, N1 41. This is not a vocabulary curriculum. (15 October 2026)
+- Dictionary `word-1000110` corresponds to raw `words[].id="1000110"`, French `sense[].gloss[].lang="fre"`, text `lecteur CD`; spelling and reading live in raw `kanji[].text`, `kana[].text`. SQLite keeps `senses`, `reading`, `aliases`, `glossLanguages`, `explanationFr` and `sources`, but not the full raw spelling/reading compatibility model. Use raw data for safe joins. (15 October 2026)
+- Kanji `kanji-04e9c` is 亜: SQLite `misc.grade=8`, `misc.strokeCounts=[7]`, `misc.jlptLevel=1`, aliases `ア`, `つ.ぐ`, `meaningLanguages`, `strokeFile="strokes/04e9c.svg"`. Preserve typed readings from raw `readingMeaning.groups[].readings[type=ja_on|ja_kun]`; the displayed slash-joined reading loses that type. (15 October 2026)
+
+## Reusable N5 to N1 inventory and exact French joins (15 October 2026)
+
+- [Official JLPT FAQ](https://www.jlpt.jp/e/faq/), question about Test Content Specifications, confirms that vocabulary, kanji and grammar lists are not published after the 2010 revision. Any modern level list here is a named community/editorial benchmark. No official exhaustive list or beyond-N1 ceiling exists. (15 October 2026)
+- [Stephen McMahon's producer repository](https://github.com/stephenmk/yomitan-jlpt-vocab) has `original_data/n5.csv` through `n1.csv` with fields `jmdict_seq,kana,kanji,waller_definition`. Commit inspected: `b062d4e38c4bdd0950ae1d4ec55f04b176182e03`. IDs make a much safer join than bare Japanese strings. (15 October 2026)
+- [Jonathan Waller's primary rights notice](https://www.tanos.co.uk/jlpt/sharing/) grants Creative Commons BY to nonsold site content, with attribution. The converter repository is CC BY-SA 4.0 and acknowledges Waller. Preserve both notices and data provenance; the conversion does not make level assignments official. (15 October 2026)
+
+| Community level | CSV rows | Distinct IDs present in local JMdict | With French | Without French | Date |
+|---|---:|---:|---:|---:|---|
+| N5 | 684 | 667 | 655 | 12 | 15 October 2026 |
+| N4 | 640 | 635 | 629 | 6 | 15 October 2026 |
+| N3 | 1730 | 1710 | 1691 | 19 | 15 October 2026 |
+| N2 | 1812 | 1794 | 1773 | 21 | 15 October 2026 |
+| N1 | 3427 | 3399 | 2699 | 700 | 15 October 2026 |
+| Union | 8293 | 7747 | 6997 | 750 | 15 October 2026 |
+
+- N1 additionally has an empty `jmdict_seq`; report that row as unresolved, not as a missing dictionary entry. Repeated IDs within and across levels explain why row totals differ from unique counts. Keep per-source memberships and define one display policy centrally, such as lowest numbered difficulty reached in N5,N4,N3,N2,N1 order; never silently overwrite conflicting memberships. (15 October 2026)
+- Example join: source N5 row `1198180,あう,会う,to meet` joins raw ID `1198180` and SQLite ID `word-1198180`. A row's reading/spelling must also match the selected French sense restrictions, otherwise the translation remains unresolved despite a matched entry ID. (15 October 2026)
+- SHA256 n5 CSV `07dc6f197b51cc076c65c3c9f23218d10c2b67f76545f5c1c4d9e3750495533a`; n4 `a14dcc7fdc02259b22331a486c6ff66df74c16472c8aeb5a0ebe7e5fa8ee8eb4`; n3 `bd4d68c59cfee861351e1bdf9d99818e434392201eabbed4d3657225fe53a3ac`; n2 `42a4413326e857d701dc9659b2711637ab612304a339fe0d09f4f0f042d3a214`; n1 `7a58f0584e9ec2b0299ccb9b109f3bd03e08b90d129a714307c0a1cb72f07b32`. (15 October 2026)
+- Beyond this benchmark, 15336 French-bearing JMdict entries already support broader reference search, but subtraction from a level list produces `unclassified`, not proven beyond-N1 difficulty. Domain/register/frequency filters can organize them without inventing exam status. (15 October 2026)
+
+## Jōyō membership, ordering and gaps (15 October 2026)
+
+- Raw KANJIDIC2 has 13108 characters. `misc.grade in [1,2,3,4,5,6,8]` yields exactly 2136 distinct characters. Grades count 80,160,200,202,193,191,1110 respectively, giving 1026 primary-school and 1110 secondary-school characters. Grades 9 and 10 are name-use categories and must not be included. (15 October 2026)
+- All 2136 selected characters have their main SVG in `kanjivg-20260714-main.zip`. French meanings exist for 1987; 149 have none. Example gaps: 挨, 鬱, 𠮟, 剝, 頰. Rendering or pronunciation coverage does not prove French meaning coverage. (15 October 2026)
+- [Bunka official 2010 jōyō table](https://www.bunka.go.jp/kokugo_nihongo/sisaku/joho/joho/kijun/naikaku/pdf/joyokanjihyo_20101130.pdf) defines the authoritative membership. [Current Bunka explanation](https://www.bunka.go.jp/seisaku/kokugo_nihongo/kokugo_shisaku/kyogikai/pdf/94217101_01.pdf) identifies 2136 characters. [MEXT current reading allocation](https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm) links [the 2017 table used from school year 2020](https://www.mext.go.jp/a_menu/shotou/new-cs/__icsFiles/afieldfile/2017/05/15/1385768.pdf); its grade digits are the revised primary allocation. (15 October 2026)
+- Explicit implementable order: grade 1,2,3,4,5,6, then grade 8. Within each group, ascending `misc.strokeCounts[0]`, then ascending Unicode code point `ord(literal)`. This yields a stable, useful progression now, with visible label “Par année scolaire, puis nombre de traits”. Grade grouping is official; the within-grade ordering is editorial. Keep `orderPolicy="grade-strokes-codepoint-v1"` in central settings. An official-table-order alternative requires extracting and verifying the source sequence first; raw KANJIDIC file order is not claimed to be official. (15 October 2026)
+- Parent preference for official order can instead use the MEXT grade table order within grades and Bunka table order for grade 8, storing `officialTableIndex` per character. This inventory does not yet claim a verified machine-readable 2136-row official sequence. Do not infer rows from PDF text extraction without checking count, uniqueness, variants and all source pages. (15 October 2026)
+- `misc.jlptLevel` is historical pre-2010 four-level data, as explained by [KANJIDIC producer documentation](https://www.edrdg.org/wiki/KANJIDIC_Project.html). It must remain `legacyJlptLevel`, never directly modern N1,N2,N3,N4. KANJIDIC readings include readings outside the jōyō table, and nanori are name readings; do not label every dictionary reading an official jōyō reading. (15 October 2026)
+- Preserve canonical characters and explicit variants. Bunka distinguishes canonical 頰/剝/𠮟 from forms such as 頬/剥/叱. A normalization rule must never collapse canonical IDs or remove supplementary-plane characters. (15 October 2026)
+
+## Kana inventory contract (15 October 2026)
+
+- SQLite contains no dedicated kana inventory. Reference dictionary entries containing kana are not a structured teaching table. Source facts can be verified against [MEXT kana chart](https://tsunagarujp.mext.go.jp/assets/download/hiragana_katakana_ver202210.pdf) and [Japan Foundation Marugoto Hiragana](https://a1.marugotoweb.jp/en/hiragana.php), with katakana counterpart linked there. Keep copyrighted charts/audio as links unless reuse terms explicitly authorize copies; build original layout from character facts. (15 October 2026)
+- Per script, count 46 modern base characters including ん/ン and を/ヲ. Preserve gojūon order, leaving empty historical grid cells empty. Obsolete ゐゑ/ヰヱ are a separate historical extension. (15 October 2026)
+- Per script, add 20 dakuten forms in g,z,d,b rows and five handakuten p forms. Include ぢづ/ヂヅ; homophony does not erase spelling distinctions. Do not inflate the base 46 count with these. (15 October 2026)
+- Standard contracted forms are 33 combinations per script: small ゃゅょ/ャュョ after きしちにひみりぎじびぴ/キシチニヒミリギジビピ. These are combinations, not new basic kana characters. Rare ぢゃ etc. must be separately classified if included. (15 October 2026)
+- Small っ/ッ is a distinct gemination item; small vowels, small ゃゅょ, long-vowel mark ー and iteration marks are separately classified. Particle readings は=wa, へ=e, を=o require usage notes, not replacement of letter readings. (15 October 2026)
+- Modern foreign-sound katakana combinations such as ファ,ティ,ヴァ,ウィ belong to an extended table sourced from [Bunka 外来語の表記](https://www.bunka.go.jp/kokugo_nihongo/sisaku/joho/joho/kijun/naikaku/gairai/index.html), whose first and second tables have distinct scope. Do not generate every consonant-vowel cross-product as a valid Japanese sound. (15 October 2026)
+
+## Data rights and assembly constraints (15 October 2026)
+
+- [EDRDG current notice](https://www.edrdg.org/edrdg/licence.html): Japanese/English JMdict and KANJIDIC2 CC BY-SA 4.0 with attribution and update procedure; French JMdict translations retain separate compiler copyrights. Existing local Research.md correctly identifies Jean-Marc Desperrier and internationalization contributors. The blanket English/Japanese licence alone is not proof of French redistribution terms. Preserve these notices and resolve the compiler grant before claiming uniform open rights. (15 October 2026)
+- [KanjiVG producer](https://kanjivg.tagaini.net/) uses CC BY-SA 3.0, Ulrich Apel and contributors. Keep source notices and mark derived diagrams. Existing vector coverage is complete for the selected jōyō set. (15 October 2026)
+- Join level metadata to raw dictionary ID, then retain spelling, kana reading, sense identity/restrictions, French text and provenance. Never zip English and French sense arrays or select the first translation independently of the reading. Any candidate with no compatible French gloss stays visibly untranslated. (15 October 2026)
+- Distinguish `source-imported/reference-only` records from independently reviewed teaching cards. Thousands of downloaded records must not inherit the 439 approved cards' status. No fabricated examples, approvals or learned states. (15 October 2026)
+
+## Sequential implementation leaves and acceptance checks (15 October 2026)
+
+1. Freeze level CSVs and rights notices at the inspected commit, with source hashes; compile ID memberships and a visible unresolved-row report. Verify union 7747 matched IDs, 750 lacking any French sense before restriction filtering. (15 October 2026)
+2. Freeze official jōyō membership and current grades, compare the exact set against the 2136 KANJIDIC candidates, then choose and expose one explicit order policy. Verify uniqueness, all seven group counts, canonical variants and all SVG paths. (15 October 2026)
+3. Define original kana table records with `script,category,display,reading,baseIds,order,sourceRefs`; verify base46, dakuten20, handakuten5 and yōon33 independently per script, plus explicit extension counts. (15 October 2026)
+4. Compile French-compatible vocabulary subsets and separate missing-translation candidates. Add no English disguised as French. Supplementary French sources need exact sense/reading joins and review, not headword-only automatic acceptance. (15 October 2026)
+5. Publish only verifiable reference coverage initially; reviewed exercises remain a separate leaf with exact-content review requirements. Do not advertise complete N1 or complete French coverage until the gaps are resolved. (15 October 2026)
+
+## French Wiktionary supplement measured (15 October 2026)
+
+- Correct producer entry point: [Kaikki French edition, Japanese language](https://kaikki.org/frwiktionary/Japonais/index.html), and [direct JSONL](https://kaikki.org/frwiktionary/Japonais/kaikki.org-dictionary-Japonais.jsonl). `/dictionary/French/` is French words described in English, so it is the wrong edition. (15 October 2026)
+- Download streamed to memory only: 86739552 bytes, SHA256 `306c8ad1ee95557b790bc745b900336bfdb52e19cf3edb639148eccc7e527d42`, 34058 JSONL records and 32177 distinct `word` values, measured live. HTTP Last-Modified is 14 October 2026 03:51:27 GMT. The language landing page still names the earlier 2 October extraction; preserve file hash and headers instead of assuming identical provenance from stale page text. (15 October 2026)
+- [Kaikki edition rights](https://kaikki.org/frwiktionary/) retain Wiktionary licences; [French Wiktionary licence](https://fr.wiktionary.org/wiki/Wiktionnaire:Licence) specifies CC BY-SA 4.0 with earlier contributions under 3.0 before 7 June 2023. Preserve article URLs, revision/snapshot identity and attribution; software/extractor licensing does not replace content licensing. (15 October 2026)
+- Useful schema includes `word`, `lang_code="ja"`, `lang="Japonais"`, `pos`, `pos_title`, `senses[]`, `senses[].glosses` where present, and a source-specific `senses[].id`, such as `fr-火-ja-character-M2ghhgBU`. Character entries often have readings or no gloss instead of a French semantic definition. (15 October 2026)
+- Of the 149 jōyō with no French KANJIDIC meaning, 143 have a Kaikki headword, but this is NOT 143 filled meanings. 挨, 剝 and 頰 return character senses without glosses; 火 has a gloss consisting of on/kun readings. Six absent headwords are 捉, 玩, 那, 采, 鬱, 𠮟. Do not copy transliterations, empty fields or character etymology as a French meaning. (15 October 2026)
+
+| Level | JMdict IDs without French | Exact Kaikki headword candidates across spellings/readings | IDs without even a candidate | Date |
+|---|---:|---:|---:|---|
+| N5 | 12 | 10 | 2 | 15 October 2026 |
+| N4 | 6 | 5 | 1 | 15 October 2026 |
+| N3 | 19 | 14 | 5 | 15 October 2026 |
+| N2 | 21 | 5 | 16 | 15 October 2026 |
+| N1 | 700 | 194 | 506 | 15 October 2026 |
+
+- These are candidate counts, not verified French coverage. Matching any spelling or kana permits homographs and wrong senses. A safe supplement needs Japanese POS, compatible reading, nonempty French semantic gloss, source-specific sense ID and manual/independent linguistic review for teaching. Keep failed or ambiguous joins in a gap inventory. The measured supplement cannot by itself justify complete French N1 coverage. (15 October 2026)
+- Prefer a single frozen 83 MB language extract over the 6.4 GB all-language French raw dump for the first candidate audit; if producer warns that postprocessing is deprecated, retain the exact snapshot and migrate deliberately rather than silently changing source semantics. Audio links carry separate file licences and are outside this inventory. (15 October 2026)
