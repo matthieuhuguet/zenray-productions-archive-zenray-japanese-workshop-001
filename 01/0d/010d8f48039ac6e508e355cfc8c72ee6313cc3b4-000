@@ -2,16 +2,12 @@
   "checkedAt": "15 October 2026",
   "applicationVersion": "1.0.0",
   "dataRelease": "9dd9165e4122a6ce",
-  "verifiedFiles": 102438,
+  "verifiedFiles": 102443,
   "remoteRepositories": 18,
   "pinnedCommits": 149,
   "releaseSourcesVerified": true,
   "wholeLiveProjectVerified": false,
   "liveExceptions": [
-    {
-      "id": "workshop:verification/CloudReceiptReport.json",
-      "reason": "Local size changed"
-    },
     {
       "id": "project-notes:ConversationIndex.json",
       "reason": "Remote Git object differs",
@@ -21,13 +17,9 @@
       "id": "project-notes:ConversationIndex.md",
       "reason": "Remote Git object differs",
       "chunk": "87/fe/87fe4d316644c02b831a3000d5841db5eedcbe0c-000"
-    },
-    {
-      "id": "project-notes:FileMap.md",
-      "reason": "Remote Git object differs",
-      "chunk": "05/76/0576f5ae9f37a6c6729e78c8ba88dadd40348e64-000"
     }
   ],
-  "basis": "Every inventoried current source was compared with pinned remote Git objects. Only the explicitly listed live derived indexes and overwritten verification report differ. No corpus, code, authoring seed, source snapshot, lesson or canonical learning history differs. This is not a claim that the live conversation stopped changing.",
-  "sourcesDeleted": false
+  "basis": "Final read-only verification: all 102445 admitted files have archive receipts, and 102443 current files match pinned remote objects exactly. Only the two derived indexes of this active conversation differ. No corpus, application code, research source, lesson, canonical learner history, release document or verification file differs. Live indexes continue updating and have automatic archive jobs queued.",
+  "sourcesDeleted": false,
+  "inventoriedFiles": 102445
 }
