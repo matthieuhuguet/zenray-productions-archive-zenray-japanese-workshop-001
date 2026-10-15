@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 # 12 October 2026: compare every original chunk with its pinned remote Git object, without deleting sources.
+# 15 October 2026, 10:50 CEST: record the observation date without rewriting source data.
 import concurrent.futures,hashlib,json,re,subprocess,sys,datetime
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]

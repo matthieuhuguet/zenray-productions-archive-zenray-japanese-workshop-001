@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 # 12 October 2026: current local bytes must match verified Assets receipts.
+# 15 October 2026, 10:50 CEST: record the observation date without rewriting source data.
 import hashlib,json,concurrent.futures,sys,datetime
 from pathlib import Path
 state_root=Path('/Users/zenray/Library/Application Support/ZenRayAssets')
