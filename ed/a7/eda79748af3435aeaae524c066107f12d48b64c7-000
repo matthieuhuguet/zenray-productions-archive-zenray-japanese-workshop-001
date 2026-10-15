@@ -1,0 +1,196 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "15 October 2026 07:57:45 UTC",
+  "reviewerId": "/root/foundation06_second",
+  "humanReview": false,
+  "complete": true,
+  "reviewType": "independent-adversarial-linguistic-review",
+  "records": [
+    {
+      "id": "expand-scalar-mo",
+      "reviewedContentHash": "d7592c8c9f88051e0c090220f773ad326033c695c7187f3ac40c71c1e5d2324a",
+      "verdict": "approved",
+      "evidenceUrls": [
+        "https://bunpro.jp/grammar_points/%E3%82%82",
+        "https://www.tofugu.com/japanese-grammar/particle-mo/"
+      ],
+      "findings": [],
+      "examplesExamined": 2
+    },
+    {
+      "id": "expand-plain-nominal-question-ka",
+      "reviewedContentHash": "2568334b6f8f4f23d17eba51b2dc41c49d755b62fd2e19780a5b203d6717b64e",
+      "verdict": "approved",
+      "evidenceUrls": [
+        "https://bunpro.jp/grammar_points/%E3%81%8B",
+        "https://www.tofugu.com/japanese-grammar/particle-ka/"
+      ],
+      "findings": [],
+      "examplesExamined": 2
+    },
+    {
+      "id": "expand-departure-place-o",
+      "reviewedContentHash": "3997490286f3e66f6e141d370d04d2a44504ee182db83d523cd3eee6e9f457a8",
+      "verdict": "approved",
+      "evidenceUrls": [
+        "https://bunpro.jp/grammar_points/%E3%82%92",
+        "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/053.html"
+      ],
+      "findings": [],
+      "examplesExamined": 2
+    },
+    {
+      "id": "expand-inanimate-accompaniment-to",
+      "reviewedContentHash": "c99d311996cc4a31ed0fb7301b514397d5ea0a8b0958e99e9ee6fbf1f3d12b96",
+      "verdict": "approved",
+      "evidenceUrls": [
+        "https://bunpro.jp/grammar_points/%E3%81%A8-with"
+      ],
+      "findings": [],
+      "examplesExamined": 2
+    },
+    {
+      "id": "expand-deshou-basis-and-contraction",
+      "reviewedContentHash": "0d5674091d576077be755211c02eefa87112f2498da2c83c251c47ea1dcca210",
+      "verdict": "approved",
+      "evidenceUrls": [
+        "https://bunpro.jp/grammar_points/%E3%81%A7%E3%81%97%E3%82%87%E3%81%86"
+      ],
+      "findings": [],
+      "examplesExamined": 2
+    },
+    {
+      "id": "expand-darou-contraction",
+      "reviewedContentHash": "6e73e48e53230e87878adc1ffcea503e4360297fed8fb6a6fa1efdf89ba76a4f",
+      "verdict": "approved",
+      "evidenceUrls": [
+        "https://bunpro.jp/grammar_points/%E3%81%A0%E3%82%8D%E3%81%86"
+      ],
+      "findings": [],
+      "examplesExamined": 2
+    },
+    {
+      "id": "expand-referential-nominalizer-no",
+      "reviewedContentHash": "b553db408f3c1bcea2aecc1efe28bad99b13690a8795c3166952977fa613313c",
+      "verdict": "approved",
+      "evidenceUrls": [
+        "https://bunpro.jp/grammar_points/%E3%81%AE%E3%81%AF"
+      ],
+      "findings": [],
+      "examplesExamined": 2
+    },
+    {
+      "id": "expand-change-state-suru",
+      "reviewedContentHash": "d90cecca79ffe037de1f28b829fb1406f65aa50382537f6fbf5e2bdacc12e4cf",
+      "verdict": "approved",
+      "evidenceUrls": [
+        "https://bunpro.jp/grammar_points/%E3%81%99%E3%82%8B",
+        "https://bunpro.jp/grammar_points/%E3%81%AB%E3%81%99%E3%82%8B-%E3%81%8F%E3%81%99%E3%82%8B"
+      ],
+      "findings": [],
+      "examplesExamined": 2
+    },
+    {
+      "id": "expand-daisuki-intensifier",
+      "reviewedContentHash": "abd15f25f6c88d95b2c804979f0d448582cb3b1bee2f28d6a9d628cd81839c35",
+      "verdict": "approved",
+      "evidenceUrls": [
+        "https://bunpro.jp/grammar_points/%E3%81%99%E3%81%8D"
+      ],
+      "findings": [],
+      "examplesExamined": 2
+    },
+    {
+      "id": "expand-dore-free-choice",
+      "reviewedContentHash": "5acff2f47e80834044c49e8aace32c4e870a6cb6d4f695a00372ea4c53e965bf",
+      "verdict": "approved",
+      "evidenceUrls": [
+        "https://bunpro.jp/grammar_points/%E3%81%A9%E3%82%8C"
+      ],
+      "findings": [],
+      "examplesExamined": 2
+    },
+    {
+      "id": "expand-verb-negative-naidesu",
+      "reviewedContentHash": "421e9abd78bd29a6cfb5753e09a06705f8427807d11d1a656994139d14738108",
+      "verdict": "approved",
+      "evidenceUrls": [
+        "https://bunpro.jp/grammar_points/%E3%82%8Bverb-%E3%81%AA%E3%81%84",
+        "https://www.tofugu.com/japanese-grammar/desu/"
+      ],
+      "findings": [],
+      "examplesExamined": 2
+    },
+    {
+      "id": "expand-experience-negative-koto",
+      "reviewedContentHash": "ea58a5a1715ce8ef095f7be7ff95a700fce0fd778851a7dc186ac8d5d725788c",
+      "verdict": "approved",
+      "evidenceUrls": [
+        "https://bunpro.jp/grammar_points/%E3%81%9F%E3%81%93%E3%81%A8%E3%81%8C%E3%81%82%E3%82%8B"
+      ],
+      "findings": [],
+      "examplesExamined": 2
+    },
+    {
+      "id": "expand-jouzu-activity-past",
+      "reviewedContentHash": "a2459b06b989bfe38df54bc8893cd312ee3fccf603b47db267eb7547673afba3",
+      "verdict": "approved",
+      "evidenceUrls": [
+        "https://bunpro.jp/grammar_points/%E3%81%AE%E3%81%8C%E3%81%98%E3%82%87%E3%81%86%E3%81%9A"
+      ],
+      "findings": [],
+      "examplesExamined": 2
+    },
+    {
+      "id": "expand-heta-activity-past",
+      "reviewedContentHash": "c7b6aff9e36da6bcfc90fd827793a850041cff90873e52e5a4d492c6ed13431e",
+      "verdict": "approved",
+      "evidenceUrls": [
+        "https://bunpro.jp/grammar_points/%E3%81%AE%E3%81%8C%E3%81%B8%E3%81%9F"
+      ],
+      "findings": [],
+      "examplesExamined": 2
+    },
+    {
+      "id": "expand-kedomo-variants",
+      "reviewedContentHash": "77d42569c5d60cc11a5882b283826d4b9c4b952805bf745a169877f05390796d",
+      "verdict": "approved",
+      "evidenceUrls": [
+        "https://bunpro.jp/grammar_points/%E3%81%91%E3%81%A9-%E3%81%A0%E3%81%91%E3%81%A9"
+      ],
+      "findings": [],
+      "examplesExamined": 2
+    },
+    {
+      "id": "expand-mashouka-productive",
+      "reviewedContentHash": "24df0185925cc73fc8374761defe70065785f37682bd5865863026c77a22e2df",
+      "verdict": "approved",
+      "evidenceUrls": [
+        "https://bunpro.jp/grammar_points/%E3%81%BE%E3%81%97%E3%82%87%E3%81%86%E3%81%8B"
+      ],
+      "findings": [],
+      "examplesExamined": 2
+    },
+    {
+      "id": "expand-masenka-productive",
+      "reviewedContentHash": "55a13a2cf1c9d3d0de2f43d5d86756855d988307359cc8fc8857491f1886261a",
+      "verdict": "approved",
+      "evidenceUrls": [
+        "https://bunpro.jp/grammar_points/%E3%81%BE%E3%81%9B%E3%82%93%E3%81%8B",
+        "https://www.mangolanguages.com/resources/learn/grammar/japanese/invitations-how-to-say-let-s-in-japanese-"
+      ],
+      "findings": [],
+      "examplesExamined": 2
+    },
+    {
+      "id": "expand-tsumori-negative-contrast",
+      "reviewedContentHash": "9a8010db507d3b28019fbfb57fb00004515a29e1705b4d8fb1d5ccfcd1bfcb47",
+      "verdict": "approved",
+      "evidenceUrls": [
+        "https://bunpro.jp/grammar_points/%E3%81%A4%E3%82%82%E3%82%8A%E3%81%A0"
+      ],
+      "findings": [],
+      "examplesExamined": 2
+    }
+  ]
+}

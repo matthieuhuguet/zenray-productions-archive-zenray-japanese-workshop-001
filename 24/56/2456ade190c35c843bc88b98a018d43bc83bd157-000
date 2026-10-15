@@ -869,7 +869,9 @@
       "grammar-counters",
       "grammar-i-adjectives",
       "expand-masu-stem-godan",
-      "expand-masu-stem-ichidan"
+      "expand-masu-stem-ichidan",
+      "expand-demonstrative-noun",
+      "expand-i-adjective-noun"
     ],
     "expand-plain-nominal-question-ka": [
       "expand-copula-plain",
@@ -889,7 +891,8 @@
       "expand-accompaniment-to",
       "grammar-case-particles",
       "expand-masu-stem-godan",
-      "expand-masu-stem-ichidan"
+      "expand-masu-stem-ichidan",
+      "expand-demonstrative-noun"
     ],
     "expand-deshou-basis-and-contraction": [
       "expand-deshou-attachment",
@@ -923,7 +926,9 @@
       "grammar-i-adjectives",
       "grammar-relative-clause",
       "expand-demonstrative-things",
-      "expand-demonstrative-noun"
+      "expand-demonstrative-noun",
+      "expand-i-adjective-noun",
+      "expand-verb-nominalization-no"
     ],
     "expand-dore-free-choice": [
       "expand-choice-dore-binary",
@@ -1104,6 +1109,13 @@
         "url": "https://www.tofugu.com/japanese-grammar/desu/",
         "title": "Desu after negative predicates",
         "publisher": "Tofugu, original pedagogical publisher"
+      }
+    ],
+    "expand-change-state-suru": [
+      {
+        "url": "https://bunpro.jp/grammar_points/%E3%81%AB%E3%81%99%E3%82%8B-%E3%81%8F%E3%81%99%E3%82%8B",
+        "title": "Bunpro, adjective-result ku suru and ni suru",
+        "publisher": "Bunpro, original pedagogical publisher"
       }
     ]
   }

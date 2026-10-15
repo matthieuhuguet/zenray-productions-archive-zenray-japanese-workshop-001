@@ -1,0 +1,248 @@
+{
+  "schemaVersion": 1,
+  "date": "14 October 2026",
+  "policy": "Review exact complete record fields, original Japanese, kana, French translation, source alignment and learner exercise suitability. HTTP availability is not approval.",
+  "records": [
+    {
+      "record": {
+        "id": "expand-scalar-mo",
+        "title": "も : même et quantité surprenante",
+        "domain": "grammar",
+        "level": "N5",
+        "levelBasis": "Local editorial estimate; not an official JLPT item allocation",
+        "aliases": [
+          "も",
+          "scalar-mo"
+        ],
+        "explanationFr": "Dans un contexte où un élément est inattendu, Nも peut se comprendre comme même N, tout en conservant son rôle d'ajout. Avec une quantité, quantité + も souligne que le locuteur la juge étonnamment importante : 二時間も, deux heures entières. Le contexte détermine l'emphase ; も ne signifie pas toujours même.",
+        "frenchLearnerTrap": "Ne pas traduire chaque も par même ; distinguer ajout ordinaire et quantité ou élément jugé surprenant.",
+        "examples": [
+          {
+            "ja": "姉もこの難しい本を読みました。",
+            "reading": "あねもこのむずかしいほんをよみました。",
+            "fr": "Dans un contexte où cela surprend : même ma sœur a lu ce livre difficile.",
+            "origin": "Original example; independent adversarial review pending"
+          },
+          {
+            "ja": "駅で二時間も待ちました。",
+            "reading": "えきでにじかんもまちました。",
+            "fr": "J'ai attendu deux heures entières à la gare, ce que je trouve long.",
+            "origin": "Original example; independent adversarial review pending"
+          }
+        ],
+        "prerequisites": [
+          "expand-addition-mo",
+          "expand-polite-verb-past",
+          "grammar-counters",
+          "grammar-i-adjectives",
+          "expand-masu-stem-godan",
+          "expand-masu-stem-ichidan",
+          "expand-demonstrative-noun",
+          "expand-i-adjective-noun"
+        ],
+        "sources": [
+          {
+            "url": "https://bunpro.jp/grammar_points/%E3%82%82",
+            "title": "Bunpro grammar: も",
+            "publisher": "Bunpro, original pedagogical publisher",
+            "checkedAt": "14 October 2026",
+            "license": "Copyright retained by publisher; no open licence verified",
+            "reuse": "Link and original concise explanation/examples only; no publisher lesson or audio reproduced"
+          },
+          {
+            "url": "https://www.tofugu.com/japanese-grammar/particle-mo/",
+            "title": "Particle mo, emphatic addition and quantity",
+            "publisher": "Tofugu, original pedagogical publisher",
+            "checkedAt": "14 October 2026",
+            "license": "Copyright retained by publisher; no open licence verified",
+            "reuse": "Link and original concise explanation/examples only; no publisher lesson or audio reproduced"
+          }
+        ],
+        "status": "editorial-draft",
+        "reviewScope": "Source available; content alignment, kana and translations await independent reviews",
+        "createdAt": "14 October 2026",
+        "learnerState": "not-assessed",
+        "oralPromptsFr": [
+          "Dans un contexte où cela surprend : même ma sœur a lu ce livre difficile.",
+          "J'ai attendu deux heures entières à la gare, ce que je trouve long."
+        ]
+      },
+      "recordSha256": "d7592c8c9f88051e0c090220f773ad326033c695c7187f3ac40c71c1e5d2324a"
+    },
+    {
+      "record": {
+        "id": "expand-inanimate-accompaniment-to",
+        "title": "と : accompagner une action avec une chose",
+        "domain": "grammar",
+        "level": "N5",
+        "levelBasis": "Local editorial estimate; not an official JLPT item allocation",
+        "aliases": [
+          "と",
+          "inanimate-accompaniment-to"
+        ],
+        "explanationFr": "L'accompagnement en と n'est pas réservé aux personnes. Un aliment ou un objet peut être associé à ce qu'on fait : ご飯と食べる, manger avec du riz. Le groupe marqué par と est l'élément associé, tandis que l'objet directement mangé peut prendre を. Une chose inanimée ne devient pas pour autant un agent qui agit volontairement ; l'interprétation dépend du verbe et du contexte.",
+        "frenchLearnerTrap": "Ne pas convertir la notion de avec en obligation que les deux éléments soient des personnes ou accomplissent volontairement la même action.",
+        "examples": [
+          {
+            "ja": "この魚はご飯と食べます。",
+            "reading": "このさかなはごはんとたべます。",
+            "fr": "Je mange ce poisson avec du riz.",
+            "origin": "Original example; independent adversarial review pending"
+          },
+          {
+            "ja": "朝はパンをチーズと食べます。",
+            "reading": "あさはパンをちーずとたべます。",
+            "fr": "Le matin, je mange du pain avec du fromage.",
+            "origin": "Original example; independent adversarial review pending"
+          }
+        ],
+        "prerequisites": [
+          "expand-accompaniment-to",
+          "grammar-case-particles",
+          "expand-masu-stem-godan",
+          "expand-masu-stem-ichidan",
+          "expand-demonstrative-noun"
+        ],
+        "sources": [
+          {
+            "url": "https://bunpro.jp/grammar_points/%E3%81%A8-with",
+            "title": "Bunpro grammar: と-with",
+            "publisher": "Bunpro, original pedagogical publisher",
+            "checkedAt": "14 October 2026",
+            "license": "Copyright retained by publisher; no open licence verified",
+            "reuse": "Link and original concise explanation/examples only; no publisher lesson or audio reproduced"
+          }
+        ],
+        "status": "editorial-draft",
+        "reviewScope": "Source available; content alignment, kana and translations await independent reviews",
+        "createdAt": "14 October 2026",
+        "learnerState": "not-assessed",
+        "oralPromptsFr": [
+          "Je mange ce poisson avec du riz.",
+          "Le matin, je mange du pain avec du fromage."
+        ]
+      },
+      "recordSha256": "c99d311996cc4a31ed0fb7301b514397d5ea0a8b0958e99e9ee6fbf1f3d12b96"
+    },
+    {
+      "record": {
+        "id": "expand-change-state-suru",
+        "title": "する : rendre quelque chose d’une certaine manière",
+        "domain": "grammar",
+        "level": "N5",
+        "levelBasis": "Local editorial estimate; not an official JLPT item allocation",
+        "aliases": [
+          "する",
+          "change-state-suru"
+        ],
+        "explanationFr": "Pour modifier l'état de l'objet, employer objetを + adjectif en い sans い + くする : 明るい → 明るくする, rendre lumineux. Une base adjectivale en な ou un nom de résultat prend にする : 静かにする, rendre calme. する indique ici l'action qui produit le changement, tandis que なる décrit le changement de l'élément lui-même : 部屋が静かになる. Ce patron ne constitue pas la conjugaison causative en させる.",
+        "frenchLearnerTrap": "Distinguer 部屋を静かにする, rendre la pièce calme, et 部屋が静かになる, la pièce devient calme.",
+        "examples": [
+          {
+            "ja": "部屋を明るくします。",
+            "reading": "へやをあかるくします。",
+            "fr": "Je rends la pièce plus lumineuse.",
+            "origin": "Original example; independent adversarial review pending"
+          },
+          {
+            "ja": "昼は教室を静かにします。",
+            "reading": "ひるはきょうしつをしずかにします。",
+            "fr": "À midi, je fais en sorte que la salle de classe soit calme.",
+            "origin": "Original example; independent adversarial review pending"
+          }
+        ],
+        "prerequisites": [
+          "expand-adjective-verb-modifier",
+          "expand-irregular-suru",
+          "expand-change-naru",
+          "grammar-case-particles"
+        ],
+        "sources": [
+          {
+            "url": "https://bunpro.jp/grammar_points/%E3%81%99%E3%82%8B",
+            "title": "Bunpro grammar: する",
+            "publisher": "Bunpro, original pedagogical publisher",
+            "checkedAt": "14 October 2026",
+            "license": "Copyright retained by publisher; no open licence verified",
+            "reuse": "Link and original concise explanation/examples only; no publisher lesson or audio reproduced"
+          },
+          {
+            "url": "https://bunpro.jp/grammar_points/%E3%81%AB%E3%81%99%E3%82%8B-%E3%81%8F%E3%81%99%E3%82%8B",
+            "title": "Bunpro, adjective-result ku suru and ni suru",
+            "publisher": "Bunpro, original pedagogical publisher",
+            "checkedAt": "14 October 2026",
+            "license": "Copyright retained by publisher; no open licence verified",
+            "reuse": "Link and original concise explanation/examples only; no publisher lesson or audio reproduced"
+          }
+        ],
+        "status": "editorial-draft",
+        "reviewScope": "Source available; content alignment, kana and translations await independent reviews",
+        "createdAt": "14 October 2026",
+        "learnerState": "not-assessed",
+        "oralPromptsFr": [
+          "Je rends la pièce plus lumineuse.",
+          "À midi, je fais en sorte que la salle de classe soit calme."
+        ]
+      },
+      "recordSha256": "d90cecca79ffe037de1f28b829fb1406f65aa50382537f6fbf5e2bdacc12e4cf"
+    },
+    {
+      "record": {
+        "id": "expand-daisuki-intensifier",
+        "title": "大好き : aimer beaucoup",
+        "domain": "grammar",
+        "level": "N5",
+        "levelBasis": "Local editorial estimate; not an official JLPT item allocation",
+        "aliases": [
+          "大好き",
+          "daisuki-intensifier"
+        ],
+        "explanationFr": "大好き, だいすき, intensifie 好き et se comporte comme un adjectif en な : Nが大好きです ; 大好きなN. Pour une activité, V dictionnaire + のが大好きです exprime qu'on adore la faire. Avec une personne, le contexte peut porter une nuance affective ou romantique, mais 大好き n'est pas une déclaration romantique obligatoire.",
+        "frenchLearnerTrap": "La lecture est だいすき et non おおすき ; garder な avant le nom qualifié.",
+        "examples": [
+          {
+            "ja": "私はこの古い映画が大好きです。",
+            "reading": "わたしはこのふるいえいががだいすきです。",
+            "fr": "J'adore ce vieux film.",
+            "origin": "Original example; independent adversarial review pending"
+          },
+          {
+            "ja": "これは姉が大好きな歌です。",
+            "reading": "これはあねがだいすきなうたです。",
+            "fr": "C'est une chanson que ma sœur adore.",
+            "origin": "Original example; independent adversarial review pending"
+          }
+        ],
+        "prerequisites": [
+          "expand-like-na-attribution",
+          "expand-na-adjective-noun",
+          "grammar-i-adjectives",
+          "grammar-relative-clause",
+          "expand-demonstrative-things",
+          "expand-demonstrative-noun",
+          "expand-i-adjective-noun",
+          "expand-verb-nominalization-no"
+        ],
+        "sources": [
+          {
+            "url": "https://bunpro.jp/grammar_points/%E3%81%99%E3%81%8D",
+            "title": "Bunpro grammar: すき",
+            "publisher": "Bunpro, original pedagogical publisher",
+            "checkedAt": "14 October 2026",
+            "license": "Copyright retained by publisher; no open licence verified",
+            "reuse": "Link and original concise explanation/examples only; no publisher lesson or audio reproduced"
+          }
+        ],
+        "status": "editorial-draft",
+        "reviewScope": "Source available; content alignment, kana and translations await independent reviews",
+        "createdAt": "14 October 2026",
+        "learnerState": "not-assessed",
+        "oralPromptsFr": [
+          "J'adore ce vieux film.",
+          "C'est une chanson que ma sœur adore."
+        ]
+      },
+      "recordSha256": "abd15f25f6c88d95b2c804979f0d448582cb3b1bee2f28d6a9d628cd81839c35"
+    }
+  ]
+}

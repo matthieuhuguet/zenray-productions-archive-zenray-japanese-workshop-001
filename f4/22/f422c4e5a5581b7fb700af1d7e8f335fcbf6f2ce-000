@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "15 October 2026",
+  "reviewerId": "/root/foundation06_first",
+  "humanReview": false,
+  "complete": true,
+  "reviewType": "independent-adversarial-linguistic-review",
+  "records": [
+    {
+      "id": "expand-scalar-mo",
+      "reviewedContentHash": "d7592c8c9f88051e0c090220f773ad326033c695c7187f3ac40c71c1e5d2324a",
+      "verdict": "approved",
+      "evidenceUrls": [
+        "https://bunpro.jp/grammar_points/%E3%82%82",
+        "https://www.tofugu.com/japanese-grammar/particle-mo/"
+      ],
+      "findings": [],
+      "examplesExamined": 2
+    },
+    {
+      "id": "expand-inanimate-accompaniment-to",
+      "reviewedContentHash": "c99d311996cc4a31ed0fb7301b514397d5ea0a8b0958e99e9ee6fbf1f3d12b96",
+      "verdict": "approved",
+      "evidenceUrls": [
+        "https://bunpro.jp/grammar_points/%E3%81%A8-with"
+      ],
+      "findings": [],
+      "examplesExamined": 2
+    },
+    {
+      "id": "expand-change-state-suru",
+      "reviewedContentHash": "d90cecca79ffe037de1f28b829fb1406f65aa50382537f6fbf5e2bdacc12e4cf",
+      "verdict": "approved",
+      "evidenceUrls": [
+        "https://bunpro.jp/grammar_points/%E3%81%99%E3%82%8B",
+        "https://bunpro.jp/grammar_points/%E3%81%AB%E3%81%99%E3%82%8B-%E3%81%8F%E3%81%99%E3%82%8B"
+      ],
+      "findings": [],
+      "examplesExamined": 2
+    },
+    {
+      "id": "expand-daisuki-intensifier",
+      "reviewedContentHash": "abd15f25f6c88d95b2c804979f0d448582cb3b1bee2f28d6a9d628cd81839c35",
+      "verdict": "approved",
+      "evidenceUrls": [
+        "https://bunpro.jp/grammar_points/%E3%81%99%E3%81%8D"
+      ],
+      "findings": [],
+      "examplesExamined": 2
+    }
+  ]
+}
