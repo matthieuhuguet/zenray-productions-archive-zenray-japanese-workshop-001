@@ -1,0 +1,21 @@
+{
+  "revisionDate": "16 October 2026",
+  "sources": [
+    {
+      "id": "bunka-joyo",
+      "file": "BunkaJoyo2010.pdf",
+      "url": "https://www.bunka.go.jp/kokugo_nihongo/sisaku/joho/joho/kijun/naikaku/pdf/joyokanjihyo_20101130.pdf",
+      "bytes": 3551021,
+      "sha256": "d9f28aeb4ce8250dbde07de20ac66cca71805ba09d94e4942c752dffa84d8d42",
+      "checkedAt": "16 October 2026"
+    },
+    {
+      "id": "mext-readings",
+      "file": "MextReadings2017.pdf",
+      "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/__icsFiles/afieldfile/2017/05/15/1385768.pdf",
+      "bytes": 984020,
+      "sha256": "0bc189982a50122f1e35dd6a751bfdff0ec5a0ad67e99eda916d012f859a5ae4",
+      "checkedAt": "16 October 2026"
+    }
+  ]
+}

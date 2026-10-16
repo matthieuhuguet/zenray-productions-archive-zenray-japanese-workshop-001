@@ -1,0 +1,205 @@
+#!/usr/bin/env python3
+"""Build the official jōyō membership as a dictionary reference, ordered editorially."""
+# 16 October 2026 14:00 Europe/Paris: verify official membership and grades without inventing official study order.
+import argparse
+from collections import Counter
+import hashlib
+import json
+from pathlib import Path
+import re
+import sqlite3
+import subprocess
+import xml.etree.ElementTree as ET
+import zipfile
+
+ROOT = Path(__file__).resolve().parents[1]
+DEFAULT_PARAMETERS = ROOT / "research/JoyoParameters.json"
+XHTML = {"x": "http://www.w3.org/1999/xhtml"}
+
+
+def encode(value):
+    return (json.dumps(value, ensure_ascii=False, separators=(",", ":")) + "\n").encode()
+
+
+def digest(raw):
+    return hashlib.sha256(raw).hexdigest()
+
+
+def checked_read(path, checksum):
+    raw = Path(path).read_bytes()
+    if digest(raw) != checksum:
+        raise ValueError(f"Source checksum mismatch: {path}")
+    return raw
+
+
+def is_kanji(text):
+    return len(text) == 1 and ("\u3400" <= text <= "\u9fff" or "\U00020000" <= text <= "\U0002ffff")
+
+
+def pdf_pages(path):
+    result = subprocess.run(["pdftotext", "-bbox", str(path), "-"], check=True, capture_output=True, timeout=10)
+    xml = re.sub(r"[\x00-\x08\x0b\x0c\x0e-\x1f]", "", result.stdout.decode("utf-8"))
+    return ET.fromstring(xml).findall(".//x:page", XHTML)
+
+
+def official_evidence(parameters):
+    directory = ROOT / parameters["sourceDirectory"]
+    manifest = json.loads((directory / "SourceManifest.json").read_bytes())
+    for source in manifest["sources"]:
+        raw = checked_read(directory / source["file"], source["sha256"])
+        if len(raw) != source["bytes"] or not raw.startswith(b"%PDF"):
+            raise ValueError("Invalid PDF evidence")
+    config = parameters["pdfExtraction"]["bunka"]
+    official = []
+    for page in pdf_pages(directory / config["file"])[config["firstPage"] - 1:]:
+        for word in page.findall("x:word", XHTML):
+            text = word.text or ""
+            x = float(word.attrib["xMin"])
+            width = float(word.attrib["xMax"]) - x
+            if is_kanji(text) and config["xMin"] < x < config["xMax"] and config["widthMin"] < width < config["widthMax"]:
+                official.append(text)
+    if len(official) != parameters["expected"]["total"] or len(set(official)) != len(official):
+        raise ValueError("Official Bunka character-cell extraction is incomplete or duplicated")
+    config = parameters["pdfExtraction"]["mext"]
+    grades = {}
+    for page in pdf_pages(directory / config["file"])[config["firstPage"] - 1:]:
+        words = [(word.text or "", float(word.attrib["xMin"]), float(word.attrib["yMin"])) for word in page.findall("x:word", XHTML)]
+        for text, x, y in words:
+            if not is_kanji(text) or not any(abs(x - column) < config["tolerance"] for column in config["characterColumns"]):
+                continue
+            digits = [int(value) for value, xx, yy in words if value in ["1", "2", "3", "4", "5", "6"]
+                      and abs(yy - y) < config["tolerance"] and abs(xx - x - config["gradeOffset"]) < config["tolerance"]]
+            if digits:
+                if len(digits) != 1 or text in grades:
+                    raise ValueError("Ambiguous or duplicate MEXT grade cell")
+                grades[text] = digits[0]
+    if len(grades) != parameters["expected"]["primary"]:
+        raise ValueError("Official MEXT grade extraction is incomplete")
+    return set(official), grades, manifest
+
+
+def sort_key(entry, parameters):
+    return (parameters["gradeOrder"].index(entry["grade"]), entry["strokeCount"], ord(entry["character"]))
+
+
+def source_counts(entries):
+    return {"total": len(entries), "primary": sum(entry["grade"] in [1, 2, 3, 4, 5, 6] for entry in entries),
+            "secondary": sum(entry["grade"] == 8 for entry in entries),
+            "withFrench": sum(bool(entry["meaningsFr"]) for entry in entries),
+            "missingFrench": sum(not entry["meaningsFr"] for entry in entries),
+            "byGrade": dict(Counter(str(entry["grade"]) for entry in entries))}
+
+
+def verify_data(data, parameters, official_set, official_grades):
+    entries = data["entries"]
+    characters = [entry["character"] for entry in entries]
+    if len(characters) != len(set(characters)) or len(entries) != len({entry["id"] for entry in entries}):
+        raise ValueError("Duplicate jōyō character or ID")
+    if set(characters) != official_set:
+        raise ValueError("Jōyō membership differs from official Bunka table")
+    if {entry["character"]: entry["grade"] for entry in entries if entry["grade"] != 8} != official_grades:
+        raise ValueError("School grades differ from official MEXT table")
+    if source_counts(entries) != parameters["expected"] or data["counts"] != parameters["expected"]:
+        raise ValueError("Jōyō counts differ")
+    if [entry["order"] for entry in entries] != list(range(1, len(entries) + 1)) or entries != sorted(entries, key=lambda entry: sort_key(entry, parameters)):
+        raise ValueError("Jōyō order differs from grade/strokes/codepoint policy")
+    for canonical, alternatives in parameters["canonicalVariants"].items():
+        if canonical not in characters or any(variant in characters for variant in alternatives):
+            raise ValueError("Canonical jōyō variant corrupted")
+    for entry in entries:
+        if entry["id"] != f"kanji-{ord(entry['character']):05x}" or entry["grade"] not in parameters["gradeOrder"]:
+            raise ValueError("Invalid jōyō ID or school grade")
+        if entry["frenchStatus"] != ("available" if entry["meaningsFr"] else "missing"):
+            raise ValueError("Invalid French status")
+        if not entry["strokeCounts"] or entry["strokeCount"] != entry["strokeCounts"][0]:
+            raise ValueError("Invalid accepted stroke count")
+        if any(reading["type"] != "ja_on" for reading in entry["onReadings"]) or any(reading["type"] != "ja_kun" for reading in entry["kunReadings"]):
+            raise ValueError("Reading types mixed")
+
+
+def verify_svg(raw, expected_hash=None):
+    if expected_hash and digest(raw) != expected_hash:
+        raise ValueError("Published stroke SVG checksum mismatch")
+    tree = ET.fromstring(raw)
+    if not tree.tag.endswith("svg") or not any(node.tag.endswith("path") and node.attrib.get("id", "").rsplit("-s", 1)[-1].isdigit() for node in tree.iter()):
+        raise ValueError("Stroke SVG has no ordered paths")
+
+
+def build_data(parameters):
+    source = json.loads(checked_read(ROOT / parameters["dictionaryPath"], parameters["dictionarySha256"]))
+    checked_read(ROOT / parameters["svgArchivePath"], parameters["svgArchiveSha256"])
+    official_set, official_grades, manifest = official_evidence(parameters)
+    catalogue_path = Path(parameters["corpusCataloguePath"])
+    catalogue = json.loads(catalogue_path.read_bytes())
+    release_directory = catalogue_path.parent / "releases" / catalogue["release"]
+    with sqlite3.connect(f"file:{parameters['sqlitePath']}?mode=ro", uri=True) as connection:
+        imported_records = {row[0]: json.loads(row[1]) for row in connection.execute("SELECT id,payload FROM records WHERE domain='kanji'")}
+    entries = []
+    with zipfile.ZipFile(ROOT / parameters["svgArchivePath"]) as archive:
+        for character in source["characters"]:
+            misc = character["misc"]
+            if misc["grade"] not in parameters["gradeOrder"]:
+                continue
+            literal = character["literal"]
+            record_id = f"kanji-{ord(literal):05x}"
+            record = imported_records[record_id]
+            stroke_file = record["strokeFile"]
+            if Path(stroke_file).parts != ("strokes", f"{ord(literal):05x}.svg"):
+                raise ValueError("Unexpected published stroke path")
+            original_svg = archive.read(f"kanji/{ord(literal):05x}.svg")
+            published_svg = (release_directory / stroke_file).read_bytes()
+            verify_svg(original_svg)
+            verify_svg(published_svg, digest(original_svg))
+            groups = character.get("readingMeaning", {}).get("groups", [])
+            on = [reading for group in groups for reading in group["readings"] if reading["type"] == "ja_on"]
+            kun = [reading for group in groups for reading in group["readings"] if reading["type"] == "ja_kun"]
+            meanings_fr = [meaning["value"] for group in groups for meaning in group["meanings"] if meaning["lang"] == "fr"]
+            meanings_en = [meaning["value"] for group in groups for meaning in group["meanings"] if meaning["lang"] == "en"]
+            entries.append({"id": record_id, "character": literal, "grade": misc["grade"],
+                            "schoolStage": "primary" if misc["grade"] != 8 else "secondary",
+                            "strokeCount": misc["strokeCounts"][0], "strokeCounts": misc["strokeCounts"],
+                            "radicals": character["radicals"], "onReadings": on, "kunReadings": kun,
+                            "nanori": character.get("readingMeaning", {}).get("nanori", []),
+                            "meaningsFr": meanings_fr, "meaningsEn": meanings_en,
+                            "frenchStatus": "available" if meanings_fr else "missing",
+                            "legacyJlptLevel": misc.get("jlptLevel"), "variants": misc.get("variants", []),
+                            "canonicalAlternatives": parameters["canonicalVariants"].get(literal, []),
+                            "recordShard": record["recordShard"], "strokeFile": stroke_file,
+                            "strokeSha256": digest(original_svg), "sourceRefs": ["kanjidic2", "kanjivg", "bunka-joyo", "mext-readings"]})
+    entries.sort(key=lambda entry: sort_key(entry, parameters))
+    for order, entry in enumerate(entries, 1):
+        entry["order"] = order
+    data = {"schemaVersion": 1, "revisionDate": parameters["revisionDate"], "status": "source-imported-reference-only",
+            "entries": entries, "counts": source_counts(entries), "gradeOrder": parameters["gradeOrder"],
+            "orderPolicy": parameters["orderPolicy"], "orderLabelFr": parameters["orderLabelFr"],
+            "corpusRelease": catalogue["release"], "corpusBasePath": catalogue["basePath"],
+            "sources": manifest["sources"] + [
+                {"id": "kanjidic2", "url": "https://www.edrdg.org/wiki/KANJIDIC_Project.html",
+                 "publisher": "EDRDG and named contributors", "version": source["version"], "dictDate": source["dictDate"],
+                 "sha256": parameters["dictionarySha256"], "license": "CC BY-SA 4.0",
+                 "rightsUrl": "https://www.edrdg.org/edrdg/licence.html"},
+                {"id": "kanjivg", "url": "https://kanjivg.tagaini.net/", "publisher": "Ulrich Apel and contributors",
+                 "sha256": parameters["svgArchiveSha256"], "license": "CC BY-SA 3.0"}],
+            "officialVerification": {"membershipExact": True, "bunkaUniqueCharacters": len(official_set),
+                                     "primaryGradesExact": True, "mextPrimaryCharacters": len(official_grades),
+                                     "method": "PDF character-cell and adjacent school-grade-cell extraction; coordinates in JoyoParameters.json",
+                                     "mextExtractionLimitFr": "Le texte extractible de MEXT ne rend pas 𠮟 ; l’ensemble des 2136 caractères est vérifié avec Bunka."},
+            "noticesFr": parameters["noticesFr"]}
+    verify_data(data, parameters, official_set, official_grades)
+    return data
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--parameters", type=Path, default=DEFAULT_PARAMETERS)
+    arguments = parser.parse_args()
+    parameters = json.loads(arguments.parameters.read_bytes())
+    data = build_data(parameters)
+    raw = encode(data)
+    Path(parameters["outputPath"]).write_bytes(raw)
+    print(json.dumps({"path": parameters["outputPath"], "bytes": len(raw), "sha256": digest(raw),
+                      "counts": data["counts"], "officialVerification": data["officialVerification"]}, ensure_ascii=False, indent=2))
+
+
+if __name__ == "__main__":
+    main()

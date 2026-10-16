@@ -1,0 +1,261 @@
+#!/usr/bin/env python3
+"""Build a sourced, reference-only kana inventory with separate category counts."""
+# 16 October 2026 13:54 Europe/Paris: keep modern, contracted and historical forms separate.
+import argparse
+from collections import Counter, defaultdict
+import hashlib
+from html.parser import HTMLParser
+import json
+from pathlib import Path
+import re
+import unicodedata
+import urllib.request
+
+ROOT = Path(__file__).resolve().parents[1]
+DEFAULT_PARAMETERS = ROOT / "research/KanaParameters.json"
+
+
+def encode(value):
+    return (json.dumps(value, ensure_ascii=False, separators=(",", ":")) + "\n").encode()
+
+
+def digest(raw):
+    return hashlib.sha256(raw).hexdigest()
+
+
+def fetch_sources(parameters):
+    directory = ROOT / parameters["sourceDirectory"]
+    directory.mkdir(parents=True, exist_ok=True)
+    manifest_path = directory / "SourceManifest.json"
+    previous = json.loads(manifest_path.read_bytes()) if manifest_path.exists() else {"sources": []}
+    pinned = {source["id"]: source for source in previous["sources"]}
+    sources = []
+    for source in parameters["sources"]:
+        path = directory / source["file"]
+        if path.exists():
+            raw = path.read_bytes()
+            if source["id"] in pinned and digest(raw) != pinned[source["id"]]["sha256"]:
+                raise ValueError(f"Frozen source corrupted: {source['id']}")
+        else:
+            with urllib.request.urlopen(source["url"], timeout=30) as response:
+                raw = response.read()
+        path.write_bytes(raw)
+        sources.append({**source, "bytes": len(raw), "sha256": digest(raw)})
+    manifest_path.write_bytes(encode({"revisionDate": parameters["revisionDate"], "sources": sources}))
+
+
+def checked_sources(parameters):
+    directory = ROOT / parameters["sourceDirectory"]
+    manifest = json.loads((directory / "SourceManifest.json").read_bytes())
+    if {source["id"] for source in manifest["sources"]} != {source["id"] for source in parameters["sources"]}:
+        raise ValueError("Source manifest differs from parameters")
+    raw_sources = {}
+    for source in manifest["sources"]:
+        raw = (directory / source["file"]).read_bytes()
+        if digest(raw) != source["sha256"] or len(raw) != source["bytes"]:
+            raise ValueError(f"Source checksum mismatch: {source['id']}")
+        raw_sources[source["id"]] = raw
+    if not raw_sources["mext-chart"].startswith(b"%PDF"):
+        raise ValueError("MEXT evidence is not a PDF")
+    return manifest, raw_sources
+
+
+def script_text(text, script):
+    if script == "hiragana":
+        return text
+    if script != "katakana":
+        raise ValueError("Unknown script")
+    return "".join(chr(ord(character) + 0x60) for character in text)
+
+
+def entry_id(script, display):
+    return "kana-" + script + "-" + "-".join(f"{ord(character):04x}" for character in display)
+
+
+def build_data(parameters):
+    manifest, raw_sources = checked_sources(parameters)
+    entries = []
+    for script in parameters["scriptOrder"]:
+        script_entries = []
+        source_refs = ["mext-chart", f"jf-{script}"]
+
+        def add(category, glyph, reading, **fields):
+            display = script_text(glyph, script)
+            entry = {"id": entry_id(script, display), "script": script, "category": category,
+                     "display": display, "reading": reading, "sourceRefs": source_refs, **fields}
+            script_entries.append(entry)
+            return entry
+
+        base_by_row = {}
+        for row in parameters["baseRows"]:
+            if len(row["glyphs"]) != len(row["romaji"]) or len(row["columns"]) != len(row["glyphs"]):
+                raise ValueError("Malformed base row")
+            base_by_row[row["row"]] = row["glyphs"]
+            for glyph, reading, column in zip(row["glyphs"], row["romaji"], row["columns"]):
+                item = add("base", glyph, reading, row=row["row"], column=column, kind="character")
+                if script == "hiragana" and glyph in parameters["particleNotes"]:
+                    item["particleReading"] = parameters["particleNotes"][glyph]["romaji"]
+                    item["particleNote"] = parameters["particleNotes"][glyph]["noteFr"]
+                    item["sourceRefs"] = source_refs + ["bunka-exceptions", "bunka-historical"]
+        for category, rows, combining_mark in [("dakuten", parameters["voicedRows"], "\u3099"),
+                                                ("handakuten", [parameters["semiVoicedRow"]], "\u309a")]:
+            for row in rows:
+                bases = base_by_row[row["baseRow"]]
+                if len(bases) != len(row["glyphs"]) or len(bases) != len(row["romaji"]):
+                    raise ValueError("Malformed voiced row")
+                for base, glyph, reading, column in zip(bases, row["glyphs"], row["romaji"], "aiueo"):
+                    if unicodedata.normalize("NFC", base + combining_mark) != glyph:
+                        raise ValueError("Incorrect voiced character")
+                    add(category, glyph, reading, row=row["row"], column=column, kind="character",
+                        baseId=entry_id(script, script_text(base, script)))
+        for row in parameters["yoonRows"]:
+            if len(row["romaji"]) != len(parameters["yoonSuffixes"]):
+                raise ValueError("Malformed contracted row")
+            for suffix, reading in zip(parameters["yoonSuffixes"], row["romaji"]):
+                add("yoon", row["base"] + suffix, reading, kind="combination",
+                    components=[entry_id(script, script_text(glyph, script)) for glyph in [row["base"], suffix]])
+        for item in parameters["smallForms"]:
+            add("small", item["glyph"], item["romaji"], kind="character",
+                baseId=entry_id(script, script_text(item["base"], script)),
+                note=parameters["specialNotes"]["small"], sourceRefs=["bunka-principles", "bunka-foreign"])
+        add("sokuon", "っ", None, kind="mark", note=parameters["specialNotes"]["sokuon"],
+            sourceRefs=["bunka-principles", "bunka-foreign"])
+        for item in parameters["historicalForms"]:
+            add("historical", item["glyph"], item["romaji"], kind="historical-character",
+                modernReading=item["modernRomaji"], note=parameters["romanization"]["historicalNoteFr"],
+                sourceRefs=["bunka-historical"])
+        for suffix, reading in zip(parameters["yoonSuffixes"], parameters["rareYoon"]["romaji"]):
+            add("rareYoon", parameters["rareYoon"]["base"] + suffix, reading, kind="combination",
+                components=[entry_id(script, script_text(glyph, script)) for glyph in [parameters["rareYoon"]["base"], suffix]],
+                sourceRefs=["mext-chart", "bunka-exceptions"], note=parameters["rareYoon"]["noteFr"])
+        for category in parameters["categoryOrder"]:
+            entries.extend(entry for entry in script_entries if entry["category"] == category)
+    entries.append({"id": "kana-shared-30fc", "script": "shared", "category": "longVowelMark", "display": "ー",
+                    "reading": None, "kind": "mark", "sourceRefs": ["bunka-foreign"],
+                    "note": parameters["specialNotes"]["longVowelMark"]})
+    for index, entry in enumerate(entries, 1):
+        entry["order"] = index
+    counts = {script: dict(Counter(entry["category"] for entry in entries if entry["script"] == script))
+              for script in parameters["scriptOrder"] + ["shared"]}
+    result = {"schemaVersion": 1, "revisionDate": parameters["revisionDate"], "status": "source-imported-reference-only",
+              "basePath": "Japanese/Site/reference/kana.json", "entries": entries, "counts": counts,
+              "totalEntries": len(entries), "scriptOrder": parameters["scriptOrder"],
+              "categoryOrder": parameters["categoryOrder"], "romanization": parameters["romanization"],
+              "sources": manifest["sources"], "foreignCombinations": parameters["foreignCombinations"],
+              "excludedExtensionsFr": parameters["excludedExtensionsFr"],
+              "notesFr": ["46 caractères de base par écriture ; les autres catégories sont comptées séparément.",
+                          "Les 33 yōon usuels suivent Japan Foundation ; trois graphies de ぢ sont séparées d’après MEXT.",
+                          "Les petites formes et les signes ne portent pas tous une lecture isolée.",
+                          "Référence factuelle, sans exercice approuvé ni acquis déduit."],
+              "sourceObservations": ["MEXT 202404 inclut 36 yoon et note hu pour ふ ; la convention retenue suit Japan Foundation, fu.",
+                                     "Les textes alternatifs de cinq images hiragana b, de katakana wa et de yoon voisins sont erronés ; les formes sont recoupées avec MEXT sans recopier ces erreurs HTML."],
+              "sourceAltCorrections": parameters["sourceAltCorrections"]}
+    verify_data(result, parameters)
+    verify_jf_readings(result, raw_sources)
+    return result
+
+
+def verify_data(data, parameters):
+    entries = data["entries"]
+    if len(entries) != len({entry["id"] for entry in entries}) or len(entries) != len({entry["display"] for entry in entries}):
+        raise ValueError("Duplicate kana")
+    if [entry["order"] for entry in entries] != list(range(1, len(entries) + 1)):
+        raise ValueError("Incorrect kana order")
+    ids = {entry["id"] for entry in entries}
+    source_ids = {source["id"] for source in data["sources"]}
+    for entry in entries:
+        if any(source not in source_ids for source in entry["sourceRefs"]):
+            raise ValueError("Unknown source reference")
+        if any(component not in ids for component in entry.get("components", [])):
+            raise ValueError("Missing component")
+    actual_counts = {script: dict(Counter(entry["category"] for entry in entries if entry["script"] == script))
+                     for script in parameters["scriptOrder"] + ["shared"]}
+    expected = {script: parameters["expectedPerScript"] for script in parameters["scriptOrder"]}
+    expected["shared"] = parameters["expectedShared"]
+    if actual_counts != expected or data["counts"] != actual_counts or data["totalEntries"] != len(entries):
+        raise ValueError("Incorrect category counts")
+    for script in parameters["scriptOrder"]:
+        base = [entry for entry in entries if entry["script"] == script and entry["category"] == "base"]
+        expected_glyphs = script_text("".join(row["glyphs"] for row in parameters["baseRows"]), script)
+        expected_readings = [reading for row in parameters["baseRows"] for reading in row["romaji"]]
+        if "".join(entry["display"] for entry in base) != expected_glyphs or [entry["reading"] for entry in base] != expected_readings:
+            raise ValueError("Base gojuon or readings corrupted")
+    by_id = {entry["id"]: entry for entry in entries}
+    for entry in entries:
+        if entry["category"] in ["dakuten", "handakuten"]:
+            mark = "\u3099" if entry["category"] == "dakuten" else "\u309a"
+            if unicodedata.normalize("NFC", by_id[entry["baseId"]]["display"] + mark) != entry["display"]:
+                raise ValueError("Voiced base corrupted")
+        if entry["category"] in ["yoon", "rareYoon"]:
+            if "".join(by_id[component]["display"] for component in entry["components"]) != entry["display"]:
+                raise ValueError("Yoon components corrupted")
+        if entry["category"] in ["sokuon", "longVowelMark"] and entry["reading"] is not None:
+            raise ValueError("Context-dependent mark has invented standalone reading")
+
+
+class ChartButtons(HTMLParser):
+    def __init__(self):
+        super().__init__()
+        self.in_button = False
+        self.readings = []
+
+    def handle_starttag(self, tag, attrs):
+        if tag == "button":
+            self.in_button = True
+
+    def handle_endtag(self, tag):
+        if tag == "button":
+            self.in_button = False
+
+    def handle_data(self, text):
+        if self.in_button and re.fullmatch(r"[a-z]+", text.strip()):
+            self.readings.append(text.strip())
+
+
+def verify_jf_readings(data, raw_sources):
+    for script in ["hiragana", "katakana"]:
+        html = raw_sources[f"jf-{script}"].decode("utf-8")
+        parser = ChartButtons()
+        parser.feed(html)
+        standard = [entry for entry in data["entries"] if entry["script"] == script
+                    and entry["category"] in ["base", "dakuten", "handakuten", "yoon"]]
+        if Counter(parser.readings) != Counter(entry["reading"] for entry in standard):
+            raise ValueError("Readings differ from frozen Japan Foundation chart")
+        pairs = re.findall(r'<img src="assets/images/' + script + r'/form/([^\"]+)" alt="([^\"]+)"></a>\s*<button><img[^>]*>([^<]+)</button>', html)
+        single = set()
+        corrections = data["sourceAltCorrections"][script]
+        seen_corrections = set()
+        for filename, glyph, reading in pairs:
+            if filename in corrections:
+                correction = corrections[filename]
+                if glyph != correction["observed"]:
+                    raise ValueError("Source alt correction is stale")
+                glyph = correction["verified"]
+                seen_corrections.add(filename)
+            if len(glyph) == 1:
+                single.add((glyph, reading))
+        if seen_corrections != set(corrections):
+            raise ValueError("Source alt correction target is missing")
+        if single != {(entry["display"], entry["reading"]) for entry in standard if len(entry["display"]) == 1}:
+            raise ValueError("Single-character readings differ from frozen chart")
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--parameters", type=Path, default=DEFAULT_PARAMETERS)
+    parser.add_argument("--fetch", action="store_true")
+    arguments = parser.parse_args()
+    parameters = json.loads(arguments.parameters.read_bytes())
+    if arguments.fetch:
+        fetch_sources(parameters)
+    data = build_data(parameters)
+    raw = encode(data)
+    output = Path(parameters["outputPath"])
+    output.parent.mkdir(parents=True, exist_ok=True)
+    output.write_bytes(raw)
+    print(json.dumps({"path": str(output), "bytes": len(raw), "sha256": digest(raw),
+                      "totalEntries": data["totalEntries"], "counts": data["counts"]}, indent=2))
+
+
+if __name__ == "__main__":
+    main()

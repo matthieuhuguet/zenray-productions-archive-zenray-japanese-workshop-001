@@ -536,5 +536,35 @@
       "rights": "Source retained for evidence; original charts, illustrations and audio are not republished. Facts are organized in original JSON.",
       "checkedAt": "16 October 2026"
     }
-  ]
+  ],
+  "sourceAltCorrections": {
+    "hiragana": {
+      "ba.png": {
+        "observed": "ぱ",
+        "verified": "ば"
+      },
+      "bi.png": {
+        "observed": "ぴ",
+        "verified": "び"
+      },
+      "bu.png": {
+        "observed": "ぷ",
+        "verified": "ぶ"
+      },
+      "be.png": {
+        "observed": "ぺ",
+        "verified": "べ"
+      },
+      "bo.png": {
+        "observed": "ぽ",
+        "verified": "ぼ"
+      }
+    },
+    "katakana": {
+      "wa.png": {
+        "observed": "マ",
+        "verified": "ワ"
+      }
+    }
+  }
 }

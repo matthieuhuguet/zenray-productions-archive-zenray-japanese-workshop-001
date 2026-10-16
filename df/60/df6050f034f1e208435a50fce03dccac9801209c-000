@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "revisionDate": "16 October 2026",
+  "dictionaryPath": "research/datasets/kanjidic2-all-3.6.2.json",
+  "dictionarySha256": "72e3e5102cd46d9029e83dbfcb829e0429b20ced3cb192e6157f2097f02e8baa",
+  "svgArchivePath": "research/datasets/kanjivg-20260714-main.zip",
+  "svgArchiveSha256": "b5df6cd2bc249dd49b8041eb99e38ba9f8dc6b9ea57962a80084b4a315d1a7fc",
+  "sourceDirectory": "research/datasets/joyo",
+  "corpusCataloguePath": "/Users/zenray/.claude/Memory1/Japanese/Site/corpus/catalogue.json",
+  "sqlitePath": "/Users/zenray/.claude/Memory1/Japanese/Corpus/japanese.sqlite",
+  "outputPath": "/Users/zenray/.claude/Memory1/Japanese/Site/reference/joyo.json",
+  "gradeOrder": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8
+  ],
+  "orderPolicy": "school-grade-strokes-codepoint-v1",
+  "orderLabelFr": "Année scolaire, puis nombre de traits et point de code Unicode. Les groupes scolaires sont officiels ; leur ordre interne est éditorial.",
+  "expected": {
+    "total": 2136,
+    "primary": 1026,
+    "secondary": 1110,
+    "withFrench": 1987,
+    "missingFrench": 149,
+    "byGrade": {
+      "1": 80,
+      "2": 160,
+      "3": 200,
+      "4": 202,
+      "5": 193,
+      "6": 191,
+      "8": 1110
+    }
+  },
+  "canonicalVariants": {
+    "𠮟": [
+      "叱"
+    ],
+    "剝": [
+      "剥"
+    ],
+    "頰": [
+      "頬"
+    ]
+  },
+  "pdfExtraction": {
+    "bunka": {
+      "file": "BunkaJoyo2010.pdf",
+      "firstPage": 11,
+      "xMin": 103,
+      "xMax": 106,
+      "widthMin": 17.9,
+      "widthMax": 18.1
+    },
+    "mext": {
+      "file": "MextReadings2017.pdf",
+      "firstPage": 2,
+      "characterColumns": [
+        70.56,
+        310.8,
+        551.04
+      ],
+      "gradeOffset": 23.76,
+      "tolerance": 0.1
+    }
+  },
+  "noticesFr": [
+    "Référence KANJIDIC2 importée ; aucune approbation pédagogique ni maîtrise déduite.",
+    "Les lectures du dictionnaire peuvent dépasser les lectures officiellement recommandées dans la table jōyō. Les nanori sont des lectures de noms séparées.",
+    "149 caractères ne disposent pas de sens français dans cette source ; aucune traduction inventée.",
+    "legacyJlptLevel conserve le classement historique avant2010 à quatre niveaux et ne désigne pas les niveaux N5 à N1 actuels."
+  ]
+}

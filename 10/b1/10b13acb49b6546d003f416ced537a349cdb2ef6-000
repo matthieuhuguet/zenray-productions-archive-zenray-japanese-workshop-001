@@ -1,0 +1,125 @@
+#!/usr/bin/env python3
+"""Verify kana category boundaries, source evidence and deterministic reconstruction."""
+# 16 October 2026 13:54 Europe/Paris: exercise good data and deliberate corruptions.
+import copy
+import json
+from pathlib import Path
+import shutil
+import tempfile
+import unittest
+
+import BuildKana as build
+
+
+class KanaTests(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        cls.parameters = json.loads(build.DEFAULT_PARAMETERS.read_bytes())
+        cls.data = build.build_data(cls.parameters)
+        cls.by_display = {entry["display"]: entry for entry in cls.data["entries"]}
+
+    def test_counts_keep_categories_separate(self):
+        for script in ["hiragana", "katakana"]:
+            self.assertEqual(self.data["counts"][script], self.parameters["expectedPerScript"])
+        self.assertEqual(self.data["counts"]["shared"], {"longVowelMark": 1})
+        self.assertEqual(self.data["totalEntries"], 237)
+        self.assertEqual(sum(entry["category"] == "base" for entry in self.data["entries"]), 92)
+
+    def test_gojuon_order_and_empty_cells(self):
+        hira = [entry["display"] for entry in self.data["entries"] if entry["script"] == "hiragana" and entry["category"] == "base"]
+        self.assertEqual("".join(hira), "あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん")
+        self.assertEqual([entry["column"] for entry in self.data["entries"] if entry.get("row") == "y" and entry["script"] == "hiragana"], ["a", "u", "o"])
+
+    def test_dakuten_spelling_distinctions_survive(self):
+        for display, reading in [("じ", "ji"), ("ぢ", "ji"), ("ず", "zu"), ("づ", "zu"), ("ヂ", "ji"), ("ヅ", "zu")]:
+            entry = self.by_display[display]
+            self.assertEqual(entry["category"], "dakuten")
+            self.assertEqual(entry["reading"], reading)
+        self.assertNotEqual(self.by_display["じ"]["id"], self.by_display["ぢ"]["id"])
+
+    def test_contractions_and_rare_variants_are_separate(self):
+        for display in ["きゃ", "しゅ", "ちょ", "じゃ", "びゅ", "ぴょ", "キャ", "ジュ"]:
+            self.assertEqual(self.by_display[display]["category"], "yoon")
+        for display in ["ぢゃ", "ぢゅ", "ぢょ", "ヂャ", "ヂュ", "ヂョ"]:
+            self.assertEqual(self.by_display[display]["category"], "rareYoon")
+            self.assertIn("mext-chart", self.by_display[display]["sourceRefs"])
+
+    def test_special_marks_have_no_invented_reading(self):
+        for display in ["っ", "ッ", "ー"]:
+            self.assertIsNone(self.by_display[display]["reading"])
+            self.assertTrue(self.by_display[display]["note"])
+        for display in ["ぁ", "ァ", "ゃ", "ャ"]:
+            self.assertEqual(self.by_display[display]["category"], "small")
+
+    def test_historical_readings_and_particles_are_explicit(self):
+        for display, reading, modern in [("ゐ", "wi", "i"), ("ゑ", "we", "e"), ("ヰ", "wi", "i"), ("ヱ", "we", "e")]:
+            self.assertEqual(self.by_display[display]["category"], "historical")
+            self.assertEqual(self.by_display[display]["reading"], reading)
+            self.assertEqual(self.by_display[display]["modernReading"], modern)
+        self.assertEqual(self.by_display["は"]["reading"], "ha")
+        self.assertEqual(self.by_display["は"]["particleReading"], "wa")
+        self.assertEqual(self.by_display["へ"]["particleReading"], "e")
+        self.assertEqual(self.by_display["を"]["particleReading"], "o")
+
+    def test_no_unverified_foreign_product_or_approval(self):
+        self.assertFalse(self.data["foreignCombinations"]["included"])
+        for display in ["ファ", "ティ", "ヴァ"]:
+            self.assertNotIn(display, self.by_display)
+        for entry in self.data["entries"]:
+            self.assertNotIn("lessonValidation", entry)
+            self.assertNotIn("learnerState", entry)
+        self.assertEqual(self.data["status"], "source-imported-reference-only")
+
+    def test_deterministic_rebuild_and_delivered_bytes(self):
+        first = build.encode(self.data)
+        self.assertEqual(first, build.encode(build.build_data(self.parameters)))
+        self.assertEqual(first, Path(self.parameters["outputPath"]).read_bytes())
+
+    def test_duplicate_is_rejected(self):
+        data = copy.deepcopy(self.data)
+        data["entries"][1]["id"] = data["entries"][0]["id"]
+        with self.assertRaisesRegex(ValueError, "Duplicate"):
+            build.verify_data(data, self.parameters)
+
+    def test_swapped_base_order_is_rejected(self):
+        data = copy.deepcopy(self.data)
+        data["entries"][0]["display"], data["entries"][1]["display"] = data["entries"][1]["display"], data["entries"][0]["display"]
+        with self.assertRaisesRegex(ValueError, "gojuon"):
+            build.verify_data(data, self.parameters)
+
+    def test_wrong_contraction_components_are_rejected(self):
+        data = copy.deepcopy(self.data)
+        entry = next(entry for entry in data["entries"] if entry["display"] == "きゃ")
+        entry["components"][0] = self.by_display["し"]["id"]
+        with self.assertRaisesRegex(ValueError, "components corrupted"):
+            build.verify_data(data, self.parameters)
+
+    def test_wrong_category_count_is_rejected(self):
+        data = copy.deepcopy(self.data)
+        data["counts"]["hiragana"]["base"] += 1
+        with self.assertRaisesRegex(ValueError, "counts"):
+            build.verify_data(data, self.parameters)
+
+    def test_wrong_voiced_reading_fails_primary_source_comparison(self):
+        data = copy.deepcopy(self.data)
+        next(entry for entry in data["entries"] if entry["display"] == "ぢ")["reading"] = "di"
+        _, sources = build.checked_sources(self.parameters)
+        with self.assertRaisesRegex(ValueError, "Readings differ"):
+            build.verify_jf_readings(data, sources)
+
+    def test_source_corruption_is_rejected(self):
+        with tempfile.TemporaryDirectory() as directory:
+            source_directory = build.ROOT / self.parameters["sourceDirectory"]
+            for path in source_directory.iterdir():
+                shutil.copyfile(path, Path(directory) / path.name)
+            parameters = copy.deepcopy(self.parameters)
+            parameters["sourceDirectory"] = directory
+            build.checked_sources(parameters)
+            path = Path(directory) / "JfHiragana.html"
+            path.write_bytes(path.read_bytes() + b"corrupt")
+            with self.assertRaisesRegex(ValueError, "checksum mismatch"):
+                build.checked_sources(parameters)
+
+
+if __name__ == "__main__":
+    unittest.main(verbosity=2)
