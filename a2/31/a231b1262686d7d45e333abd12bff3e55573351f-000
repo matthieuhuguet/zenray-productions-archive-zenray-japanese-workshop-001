@@ -1,0 +1,195 @@
+{
+  "version": "1.1.0",
+  "date": "16 October 2026",
+  "applicationCommit": "964f9b4f992924636451395dc30fc70bcae787bb",
+  "status": "committed-source-snapshot; production proof is separate",
+  "application": [
+    {
+      "path": "docs/JAPANESE-STUDY.md",
+      "bytes": 6545,
+      "sha256": "78feaa2a8afff00324db741031e02dedee4d35deaec2847748ee5a8a940a37aa"
+    },
+    {
+      "path": "scripts/AssetsService.test.js",
+      "bytes": 137602,
+      "sha256": "682b4ea628c46f2a5cf4bea611d38a7d6e7ac3e082be100849e2033a910bdb50"
+    },
+    {
+      "path": "server/japanese.js",
+      "bytes": 13217,
+      "sha256": "afbcde9c68f7618ff6ae70f2a8fd2c3692942308a47fb1199813abf8eed8b6b7"
+    },
+    {
+      "path": "server/japanese.test.js",
+      "bytes": 10899,
+      "sha256": "61b2e3d3b07be038c7cb1dc69fe9f500c6c84a81e2be20b957f60d7bdfbd636f"
+    },
+    {
+      "path": "server/japanesePersonal.js",
+      "bytes": 2172,
+      "sha256": "44f0ae0e8a26ebbc5bdbe499fa65ddf616cdee5aed37e4d0dc153754e244a1ce"
+    },
+    {
+      "path": "src/learn/JapaneseCorpus.css",
+      "bytes": 3928,
+      "sha256": "abde751118c502bf7f8f484f2f010c4aa7040895677e9accd2fd268aceda3bbe"
+    },
+    {
+      "path": "src/learn/JapaneseCorpus.jsx",
+      "bytes": 18364,
+      "sha256": "1dcbee8f762709d3169558bb55f335309a8f026abedff5d03dd8c4217360a3ca"
+    },
+    {
+      "path": "src/learn/JapaneseCorpus.test.jsx",
+      "bytes": 7074,
+      "sha256": "0b2818b8c5c3527e84bba001e2e53ff90d14c10f00b6511ea3ce1092c53341e5"
+    },
+    {
+      "path": "src/learn/JapaneseLessonCategory.jsx",
+      "bytes": 1179,
+      "sha256": "3d2753f5802b5d06b1fab1a5f1595368fa6e03784228f601531d14a00d55dd2f"
+    },
+    {
+      "path": "src/learn/JapaneseNotebook.jsx",
+      "bytes": 4427,
+      "sha256": "a09fa101a6fb0e20bac4d864beedb348d7c6bc7f2d4f67933cdcbfcbc03c677c"
+    },
+    {
+      "path": "src/learn/JapaneseNotebook.test.jsx",
+      "bytes": 2130,
+      "sha256": "4b5ed21a6182d17a4b1480d51b8ef848d053d6a318b5cb5cb40d66bea123a2cd"
+    },
+    {
+      "path": "src/learn/JapaneseReferences.css",
+      "bytes": 1967,
+      "sha256": "b172ed0b8d49ee37380a0713bd97ef7045509745c0751f15e5b7302317defd53"
+    },
+    {
+      "path": "src/learn/JapaneseReferences.jsx",
+      "bytes": 9106,
+      "sha256": "04e554bc4953ab7f7eee69043fdb81bd7b221870ae81e1ef31823a0cc9922811"
+    },
+    {
+      "path": "src/learn/JapaneseReferences.test.jsx",
+      "bytes": 1303,
+      "sha256": "513b39bac4ee7b7dbaef99620caf32c5924e80dbf0cbd90cb76ff04327a5baa2"
+    },
+    {
+      "path": "src/learn/JapaneseStudy.css",
+      "bytes": 5723,
+      "sha256": "4e8cfa0ece6e7cb3c07c6036910780f25e70ea64c83a912d4794b0d0d19a9a56"
+    },
+    {
+      "path": "src/learn/JapaneseStudy.jsx",
+      "bytes": 25842,
+      "sha256": "3fa8637eed67b99902134f0cee7d9b9c523f4acc416c56c9d1d3227be7d26937"
+    },
+    {
+      "path": "src/learn/JapaneseStudy.test.jsx",
+      "bytes": 6692,
+      "sha256": "e53bd289cb1a57df823a7d2f53650cb588a4167546f5e3f441a47e7dad37e5b7"
+    },
+    {
+      "path": "src/learn/ZenRayJapanese.css",
+      "bytes": 27245,
+      "sha256": "6765fe6652ae7ee652149048bc8e41290e3f6973ae28c49e18779d33c8f0d495"
+    },
+    {
+      "path": "src/learn/ZenRayJapanese.jsx",
+      "bytes": 40957,
+      "sha256": "c635fca35f241e2e9f97f9059811b2f4043e7d314ed6f4742a3ca909be7aece5"
+    },
+    {
+      "path": "src/learn/data/JapaneseRelease.json",
+      "bytes": 1385,
+      "sha256": "ea0ad298ab6cd1804f055b50ad4b7c9abeaa69160644400ca54ecf3eeb2e8e4a"
+    },
+    {
+      "path": "src/learn/fixtures/JapaneseReviewedFixtures.json",
+      "bytes": 14036,
+      "sha256": "43cbeb3c1cabc84326b79637984c1458df2d4809df8157112b7a1f4844530133"
+    },
+    {
+      "path": "src/learn/japaneseCorpusModel.js",
+      "bytes": 14051,
+      "sha256": "efab9a0dd5507b68d3da185c2860926e9c421f1fcb4ec8c257f68657e390ce2c"
+    },
+    {
+      "path": "src/learn/japaneseCorpusModel.test.js",
+      "bytes": 12719,
+      "sha256": "aae7528e2802c9a90e861ab576352293cc7ff4489bded511c410c5c437986824"
+    },
+    {
+      "path": "src/learn/japanesePersonalConfig.js",
+      "bytes": 254,
+      "sha256": "29127c32b99a82bd8a0ebebb375d3e8f2de98acb11181d4ab8676748bb9220cc"
+    },
+    {
+      "path": "src/learn/japaneseReferenceModel.js",
+      "bytes": 4953,
+      "sha256": "99e59396173651fb79085bc81a0f70cb4e55af164534764e392444a3ee270fd0"
+    },
+    {
+      "path": "src/learn/japaneseReferenceModel.test.js",
+      "bytes": 2316,
+      "sha256": "f90dc269dd8621244816a05fb87f12649f96d4b71ec6bbbf1934e1374ce6ea1a"
+    },
+    {
+      "path": "src/learn/japaneseStudyClient.js",
+      "bytes": 844,
+      "sha256": "57b4fa3f8cb45508a90794e2292a68acba9d083ced79912596b1fa5573736bd1"
+    },
+    {
+      "path": "src/learn/japaneseStudyModel.js",
+      "bytes": 3803,
+      "sha256": "dd8b0fbe1d51824eaf5685eac84b1b755860bf5c42bf21bb2ab9cabce0692341"
+    }
+  ],
+  "references": [
+    {
+      "path": "joyo.json",
+      "bytes": 1799182,
+      "sha256": "ec80ca902254c833917b3c5897019562989d901975e0e423fee0ceace5adbda8"
+    },
+    {
+      "path": "kana.json",
+      "bytes": 61135,
+      "sha256": "d561769cfb7e81f4da8b834ef81d650898e7ec60f17d7f81981fec4dbfb43788"
+    },
+    {
+      "path": "vocabulary/N1.json",
+      "bytes": 1868838,
+      "sha256": "fc61fbcaa4544e6806f92543541ab867fd70d4e1f0743a2c832b63d0d2a0f7eb"
+    },
+    {
+      "path": "vocabulary/N2.json",
+      "bytes": 1178905,
+      "sha256": "f9b5915380428c468e994ae311de3d0596c1c6c968f818e48b137d08daf0b90a"
+    },
+    {
+      "path": "vocabulary/N3.json",
+      "bytes": 1112683,
+      "sha256": "b80792b14ef6174c76ab02ba20de7838022c892d7a8fc76fbba28260ad568e56"
+    },
+    {
+      "path": "vocabulary/N4.json",
+      "bytes": 442157,
+      "sha256": "fe2abb60485a6a01ffe3ee56b87483af52f93521ce38b4e0f207f5731f738669"
+    },
+    {
+      "path": "vocabulary/N5.json",
+      "bytes": 480019,
+      "sha256": "39c5b2b0b795a65af66711f7d88a0b0fbe2239912fac8e357e00394768983b59"
+    },
+    {
+      "path": "vocabulary/catalogue.json",
+      "bytes": 20173,
+      "sha256": "94e812c15b64d70840d24564bd2577da296bfa6404cea99c066f14b66170a463"
+    },
+    {
+      "path": "vocabulary/unclassified.json",
+      "bytes": 4140051,
+      "sha256": "34035192adf9da48ab3c717e4a2b77ddfe9ae446d8727ff3ac6ec72173816e2e"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+#!/usr/bin/env python3
+# 16 October 2026 14:33 Europe/Paris: package committed application sources with exact reference-data identities.
+import argparse
+import hashlib
+import json
+from pathlib import Path
+import subprocess
+ROOT = Path(__file__).resolve().parents[1]
+parser = argparse.ArgumentParser()
+parser.add_argument('--app-root',default='/Users/zenray/.codex/worktrees/japanese-progress')
+args=parser.parse_args()
+app=Path(args.app_root)
+def git(*args): return subprocess.check_output(['git','-C',str(app),*args])
+release=json.loads(git('show','HEAD:src/learn/data/JapaneseRelease.json'))
+output=ROOT/'Release'/release['version']
+files=git('ls-files','src/learn/*Japanese*','src/learn/japanese*.js','server/japanese*.js','scripts/AssetsService.test.js','docs/JAPANESE-STUDY.md').decode().splitlines()
+manifest={'version':release['version'],'date':release['releasedAt'],'applicationCommit':git('rev-parse','HEAD').decode().strip(),'status':'committed-source-snapshot; production proof is separate','application':[],'references':[]}
+for name in files:
+    raw=git('show','HEAD:'+name)
+    target=output/'application'/name
+    target.parent.mkdir(parents=True,exist_ok=True); target.write_bytes(raw)
+    manifest['application'].append({'path':name,'bytes':len(raw),'sha256':hashlib.sha256(raw).hexdigest()})
+reference=Path('/Users/zenray/.claude/Memory1/Japanese/Site/reference')
+for path in sorted(reference.rglob('*.json')):
+    raw=path.read_bytes();manifest['references'].append({'path':str(path.relative_to(reference)),'bytes':len(raw),'sha256':hashlib.sha256(raw).hexdigest()})
+(output/'SourceManifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')
+print(json.dumps({'output':str(output),'applicationFiles':len(files),'referenceFiles':len(manifest['references']),'applicationCommit':manifest['applicationCommit']}))
