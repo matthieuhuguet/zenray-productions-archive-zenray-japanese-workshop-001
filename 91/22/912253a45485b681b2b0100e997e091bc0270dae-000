@@ -1,0 +1,34 @@
+# ZenRay Japanese 1.1.0 (16 October 2026)
+
+L’application est publiée dans [ZenRayProgress](https://zenray-progress.pages.dev), sous Learn → Japanese. Code `964f9b4f`, déploiement `0e7e2d93` ; premier contrôle réel le 16 October 2026 à 14:38 Paris. (16 October 2026)
+
+## Utilisation (16 October 2026)
+
+1. Ouvre « Kana · vocabulaire · jōyō » pour les références. Choisis une liste N5 à N1, cherche en français ou japonais, puis ouvre ses formes et sens compatibles. « Hors listes » prolonge la recherche sans prouver un niveau supérieur au N1. (16 October 2026)
+2. Dans Parcours → Toutes les leçons, ouvre une fiche de n’importe quel niveau. « Revoir librement cette leçon » reprend ses exercices validés sans modifier les dates des révisions espacées ni déclarer un acquis. (16 October 2026)
+3. Ajoute une catégorie et un favori, puis enregistre le classement. Les filtres retrouvent les fiches suivies. Dans l’onglet principal Leçons, le lecteur propose le même classement pour les anciennes leçons ; leurs tranches partagent la catégorie de leur identifiant. (16 October 2026)
+4. Dans Parcours → Mon carnet, crée une note, choisis Japonais ou Japon, puis Enregistrer. Seule la confirmation prouve sa sauvegarde dans Memory. Le brouillon reste récupérable dans l’onglet du navigateur ; l’archivage est réversible. (16 October 2026)
+
+## Contenu vérifié (16 October 2026)
+
+| Élément | Résultat mesuré | Limite conservée |
+|---|---|---|
+| Vocabulaire | 16 086 entrées uniques, 15 336 avec français ; 7 747 IDs associés aux listes communautaires, 8 339 autres entrées françaises | 750 IDs sans français, 14 lignes sans identifiant, 11 formes non résolues. (16 October 2026) |
+| Kana | 237 éléments classés ; 46 signes de base par écriture, formes voisées et combinaisons séparées | Extensions étrangères supplémentaires explicitement exclues. (16 October 2026) |
+| Jōyō | 2 136 caractères officiels et tracés ; 1 026 affectations scolaires primaires exactes | 149 sens français manquants ; ordre interne par traits éditorial. (16 October 2026) |
+| Leçons | 439 fiches éditoriales, dont 345 grammaticales, avec leurs validations existantes | Leur nombre ne prouve pas une couverture complète des niveaux. (16 October 2026) |
+| Carnet et classement | Sauvegarde atomique, refus d’une révision périmée, reprises par identifiant d’événement | Les notes et consultations ne deviennent pas des acquis. (16 October 2026) |
+
+## Vérifications (16 October 2026)
+
+- Les 27 tests ciblés passent, ainsi que 16 tests vocabulaire, 14 tests kana et 13 tests jōyō. Les 2 136 caractères sont comparés au PDF officiel Bunka et les 1 026 années primaires au document MEXT. Sens et restrictions de lecture sont conservés depuis les sources. (16 October 2026)
+- La suite complète du site passe 2 585 tests, six étant désactivés par le projet. Deux premières passes rencontrent des courses dans le nettoyage des tests Assets ; l’ordre de fermeture des services et l’attente du diagnostic sont corrigés, sans changer le fonctionnement de production Assets. La passe finale utilise un processus de test. (16 October 2026)
+- Le navigateur isolé utilise les vraies données locales : recherche française, appartenances multiples N1, kana, SVG, affichage mobile, entraînement libre, carnet après rechargement, brouillon récupérable et classement historique. Ses sauvegardes sont des fixtures, pas des séances ajoutées au compte réel. (16 October 2026)
+- La production sert `ZenRayJapanese-CGAqJoQD.js`. Le code, le catalogue, l’audit courant et les neuf fichiers de références sont relus et identiques. Une note invalide est refusée avant toute écriture ; aucune séance fictive n’est enregistrée. Preuves dans le dossier de release. (16 October 2026)
+
+## Sources et reprise (16 October 2026)
+
+- [Manifeste des sources](/Users/zenray/.claude/tmp/tmp-zenray-japanese/Release/1.1.0/SourceManifest.json) : 28 fichiers applicatifs figés et empreintes des neuf fichiers de références. [Dossier de release](/Users/zenray/.claude/tmp/tmp-zenray-japanese/Release/1.1.0). (16 October 2026)
+- Générateurs `BuildVocabulary.py`, `BuildKana.py`, `BuildJoyo.py` dans [/Users/zenray/.claude/tmp/tmp-zenray-japanese/Scripts](/Users/zenray/.claude/tmp/tmp-zenray-japanese/Scripts) ; paramètres et instantanés dans `research` du même atelier. [Données publiées](/Users/zenray/.claude/Memory1/Japanese/Site/reference). (16 October 2026)
+- Les références importées ne deviennent pas des exercices automatiquement approuvés. La couverture exhaustive N5 à N1 et au-delà reste ouverte ; l’audit grammatical N5 conserve 88 points couverts et 44 ouverts sur 132 exigences du repère éditorial. [Reprise du corpus](/Users/zenray/.claude/Memory1/Projects/zenray-japanese/ResumeCorpus.md). (16 October 2026)
+- La sauvegarde récursive utilise le service Assets existant ; reçu local, objet distant vérifié et mise en file restent des preuves distinctes. Les sources originales sont conservées. Les résultats finaux d’archive et de seconde lecture de production accompagnent cette release. (16 October 2026)

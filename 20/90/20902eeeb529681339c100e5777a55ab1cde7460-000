@@ -1,11 +1,11 @@
 {
-  "checkedAt": "2026-10-15T08:18:18.539Z",
-  "version": "1.0.0",
+  "checkedAt": "2026-10-16T12:38:35.180Z",
+  "version": "1.1.0",
   "release": "9dd9165e4122a6ce",
   "cards": 439,
-  "entry": "/assets/index-CnZVkpbg.js",
-  "component": "ZenRayJapanese-B6o19q3N.js",
-  "componentSha256": "035968bf8e11b4e915e434ebe28ab59c024a6404943b1ebdc36a6e07ceb95bb4",
+  "entry": "/assets/index-BoXXn4O6.js",
+  "component": "ZenRayJapanese-CGAqJoQD.js",
+  "componentSha256": "4b242c2b5eb01fb77ca790a49ed30cc2b59ecc100ea9887399fa2aadd5990de6",
   "exactCatalogue": true,
   "exactCoverage": true,
   "recordPathsRead": [
@@ -16,6 +16,18 @@
   "supplementarySearch": true,
   "learnerStateRead": true,
   "learnerWrites": 0,
+  "exactReferenceFiles": [
+    "kana.json",
+    "joyo.json",
+    "vocabulary/catalogue.json",
+    "vocabulary/N5.json",
+    "vocabulary/N4.json",
+    "vocabulary/N3.json",
+    "vocabulary/N2.json",
+    "vocabulary/N1.json",
+    "vocabulary/unclassified.json"
+  ],
+  "invalidNoteRejectedWithoutWrite": true,
   "unauthenticatedStatus": 401,
   "passed": true
 }
