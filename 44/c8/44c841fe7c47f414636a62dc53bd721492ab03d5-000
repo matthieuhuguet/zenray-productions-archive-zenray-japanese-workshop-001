@@ -1,0 +1,177 @@
+#!/usr/bin/env python3
+"""Test reference vocabulary joins, pinned sources and generated artifacts."""
+# 16 October 2026 13:48 Europe/Paris: test valid and deliberately corrupted source restrictions.
+import copy
+import json
+from pathlib import Path
+import tempfile
+import unittest
+
+import BuildVocabulary as build
+
+
+def fixture():
+    return {"id": "123", "kanji": [{"text": "甲", "common": True, "tags": []},
+                                     {"text": "乙", "common": False, "tags": []}],
+            "kana": [{"text": "こう", "common": True, "tags": [], "appliesToKanji": ["甲"]},
+                     {"text": "おつ", "common": False, "tags": [], "appliesToKanji": ["乙"]}],
+            "sense": [{"appliesToKanji": ["甲"], "appliesToKana": ["こう"], "partOfSpeech": ["n"],
+                       "gloss": [{"lang": "eng", "text": "first"}]},
+                      {"appliesToKanji": ["乙"], "appliesToKana": ["おつ"], "partOfSpeech": ["n"],
+                       "gloss": [{"lang": "fre", "text": "second", "gender": None, "type": None}]}]}
+
+
+class RestrictionTests(unittest.TestCase):
+    def setUp(self):
+        self.parameters = {"glossLanguage": "fre"}
+
+    def entry(self, word=None):
+        return build.make_entry(word or fixture(), ["N5", "N4"], [], self.parameters)
+
+    def test_exact_french_sense_is_bound_to_its_form_and_reading(self):
+        entry = self.entry()
+        self.assertEqual(entry["bindings"], [[0, 0, []], [1, 1, [0]]])
+        self.assertEqual(entry["senses"][0]["sourceSenseIndex"], 1)
+        self.assertEqual(entry["senses"][0]["gloss"], [{"lang": "fre", "text": "second"}])
+        build.verify_entry(entry)
+
+    def test_corrupted_pair_is_rejected(self):
+        entry = self.entry()
+        entry["bindings"][0][2] = [0]
+        with self.assertRaisesRegex(ValueError, "Corrupted bindings"):
+            build.verify_entry(entry)
+
+    def test_unknown_reading_restriction_is_rejected(self):
+        word = fixture()
+        word["sense"][1]["appliesToKana"] = ["invented"]
+        with self.assertRaisesRegex(ValueError, "Unknown restricted form"):
+            self.entry(word)
+
+    def test_nonintersecting_form_and_reading_is_rejected(self):
+        word = fixture()
+        word["sense"][1]["appliesToKana"] = ["こう"]
+        with self.assertRaisesRegex(ValueError, "no compatible"):
+            self.entry(word)
+
+    def test_empty_reading_restriction_is_kana_only(self):
+        word = fixture()
+        word["kana"][1]["appliesToKanji"] = []
+        word["sense"][1]["appliesToKanji"] = ["*"]
+        self.assertEqual(self.entry(word)["bindings"], [[0, 0, []], [-1, 1, [0]]])
+
+    def test_kana_only_entry_with_wildcards_is_valid(self):
+        word = fixture()
+        word["kanji"] = []
+        word["kana"] = word["kana"][1:]
+        word["kana"][0]["appliesToKanji"] = ["*"]
+        word["sense"][1]["appliesToKanji"] = ["*"]
+        self.assertEqual(self.entry(word)["bindings"], [[-1, 0, [0]]])
+
+    def test_missing_french_is_visible_without_translation(self):
+        word = fixture()
+        word["sense"] = word["sense"][:1]
+        entry = self.entry(word)
+        self.assertEqual(entry["frenchStatus"], "missing")
+        self.assertEqual(entry["senses"], [])
+        self.assertEqual(entry["memberships"], ["N5", "N4"])
+
+    def test_source_row_incompatible_with_french_stays_untranslated(self):
+        entry = build.make_entry(fixture(), ["N5"], [
+            {"level": "N5", "row": 2, "kanji": "甲", "kana": "こう"},
+            {"level": "N5", "row": 3, "kanji": "乙", "kana": "おつ"}], self.parameters)
+        self.assertFalse(entry["levelRows"][0]["hasCompatibleFrench"])
+        self.assertTrue(entry["levelRows"][1]["hasCompatibleFrench"])
+
+    def test_non_french_corruption_is_rejected(self):
+        entry = self.entry()
+        entry["senses"][0]["gloss"][0]["lang"] = "eng"
+        with self.assertRaisesRegex(ValueError, "Non-French"):
+            build.verify_entry(entry)
+
+    def test_corrupted_source_hash_is_rejected(self):
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "source.csv"
+            path.write_bytes(b"good")
+            checksum = build.digest(path.read_bytes())
+            self.assertEqual(build.checked_read(path, checksum), b"good")
+            path.write_bytes(b"bad")
+            with self.assertRaisesRegex(ValueError, "checksum mismatch"):
+                build.checked_read(path, checksum)
+
+
+class ArtifactTests(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        cls.parameters = json.loads(build.DEFAULT_PARAMETERS.read_bytes())
+        cls.output = build.local_path(cls.parameters, "outputDirectory")
+        cls.catalogue = json.loads((cls.output / "catalogue.json").read_bytes())
+        cls.entries = []
+        for item in cls.catalogue["files"]:
+            raw = (cls.output / item["path"]).read_bytes()
+            if build.digest(raw) != item["sha256"] or len(raw) != item["bytes"]:
+                raise ValueError("Generated file hash differs")
+            cls.entries.extend(json.loads(raw)["entries"])
+
+    def test_expected_counts_and_no_duplicate_ids(self):
+        expected = self.parameters["expected"]
+        self.assertEqual(self.catalogue["counts"], expected)
+        self.assertEqual(len(self.entries), expected["classifiedUnique"] + expected["unclassifiedFrench"])
+        self.assertEqual(len({entry["jmdictId"] for entry in self.entries}), len(self.entries))
+        for level, counts in expected["levels"].items():
+            members = [entry for entry in self.entries if level in entry["memberships"]]
+            self.assertEqual(len(members), counts["entries"])
+            self.assertEqual(sum(entry["frenchStatus"] == "missing" for entry in members), counts["missingFrench"])
+        self.assertEqual(sum(not entry["memberships"] for entry in self.entries), expected["unclassifiedFrench"])
+
+    def test_all_bindings_and_reference_boundary(self):
+        self.assertFalse(self.catalogue["officialJlptList"])
+        self.assertEqual(self.catalogue["status"], "source-imported-reference-only")
+        for entry in self.entries:
+            build.verify_entry(entry)
+            self.assertNotIn("lessonValidation", entry)
+            self.assertNotIn("learnerState", entry)
+            self.assertEqual(entry["level"], entry["memberships"][0] if entry["memberships"] else "unclassified")
+
+    def test_source_forms_and_every_french_sense_are_preserved_exactly(self):
+        dictionary = json.loads(build.checked_read(build.local_path(self.parameters, "dictionaryPath"),
+                                                  self.parameters["dictionarySha256"]))
+        index = {word["id"]: word for word in dictionary["words"]}
+        for entry in self.entries:
+            word = index[entry["jmdictId"]]
+            self.assertEqual(entry["kanji"], build.compact_fields(word["kanji"]))
+            self.assertEqual(entry["kana"], build.compact_fields(word["kana"]))
+            expected = []
+            for number, sense in enumerate(word["sense"]):
+                glosses = [gloss for gloss in sense["gloss"] if gloss["lang"] == "fre"]
+                if glosses:
+                    selected = copy.deepcopy(sense)
+                    selected["gloss"] = glosses
+                    selected["sourceSenseIndex"] = number
+                    expected.append(build.compact_fields(selected))
+            self.assertEqual(entry["senses"], expected)
+
+    def test_rebuild_is_byte_identical_to_disk(self):
+        artifacts, _ = build.serialize_reference(self.parameters)
+        for name, raw in artifacts.items():
+            self.assertEqual(raw, (self.output / name).read_bytes(), name)
+
+    def test_changed_expected_counts_are_rejected(self):
+        parameters = copy.deepcopy(self.parameters)
+        parameters["expected"]["classifiedUnique"] += 1
+        with self.assertRaisesRegex(ValueError, "Source counts differ"):
+            build.compile_reference(parameters)
+
+    def test_file_bounds_and_manifest_names(self):
+        self.assertEqual(set(self.catalogue["filesByLevel"]), {"N5", "N4", "N3", "N2", "N1", "unclassified"})
+        for file in self.catalogue["files"]:
+            self.assertLessEqual(file["bytes"], self.parameters["maxShardBytes"])
+            self.assertEqual(Path(file["path"]).name, file["path"])
+        expected = self.parameters["expectedSourceIssues"]
+        self.assertEqual(len(self.catalogue["unresolvedRows"]), expected["unresolvedRows"])
+        self.assertTrue(all(row["reason"] == "missing-id" for row in self.catalogue["unresolvedRows"]))
+        self.assertEqual(len(self.catalogue["unresolvedFormRows"]), expected["unresolvedFormRows"])
+        self.assertEqual(self.catalogue["rowsWithoutCompatibleFrench"], expected["rowsWithoutCompatibleFrench"])
+
+
+if __name__ == "__main__":
+    unittest.main(verbosity=2)

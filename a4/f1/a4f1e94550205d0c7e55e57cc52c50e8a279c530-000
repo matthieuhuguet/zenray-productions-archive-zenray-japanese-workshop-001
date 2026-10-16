@@ -1,0 +1,319 @@
+#!/usr/bin/env python3
+"""Build the French vocabulary reference from pinned source data."""
+# 16 October 2026 13:48 Europe/Paris: preserve source restrictions and reference-only status.
+import argparse
+import copy
+import csv
+import hashlib
+import io
+import json
+from collections import Counter, defaultdict
+from pathlib import Path
+import urllib.request
+import urllib.error
+
+ROOT = Path(__file__).resolve().parents[1]
+DEFAULT_PARAMETERS = ROOT / "research/VocabularyParameters.json"
+
+
+def encode(value):
+    return (json.dumps(value, ensure_ascii=False, separators=(",", ":")) + "\n").encode()
+
+
+def digest(raw):
+    return hashlib.sha256(raw).hexdigest()
+
+
+def checked_read(path, expected):
+    raw = Path(path).read_bytes()
+    if digest(raw) != expected:
+        raise ValueError(f"Source checksum mismatch: {path}")
+    return raw
+
+
+def local_path(parameters, key):
+    return ROOT / parameters[key]
+
+
+def fetch_sources(parameters):
+    directory = local_path(parameters, "sourceDirectory")
+    directory.mkdir(parents=True, exist_ok=True)
+    manifest = {"revisionDate": parameters["revisionDate"], "commit": parameters["sourceCommit"],
+                "files": [], "unavailableNotices": []}
+    for source in parameters["sources"] + parameters["notices"]:
+        path = directory / source["file"]
+        if path.exists():
+            raw = path.read_bytes()
+        else:
+            request = urllib.request.Request(source["url"], headers={"User-Agent": "ZenRayJapaneseReference/1.1"})
+            try:
+                with urllib.request.urlopen(request, timeout=45) as response:
+                    raw = response.read()
+            except urllib.error.URLError as error:
+                if not source.get("optionalNotice"):
+                    raise
+                manifest["unavailableNotices"].append({"file": source["file"], "url": source["url"],
+                                                       "status": "unavailable", "reason": str(error),
+                                                       "notice": "Attribution and grant remain in frozen converter README; primary page unavailable"})
+                continue
+        checksum = digest(raw)
+        if source.get("sha256") and checksum != source["sha256"]:
+            raise ValueError(f"Downloaded checksum mismatch: {source['file']}")
+        path.write_bytes(raw)
+        manifest["files"].append({"file": source["file"], "url": source["url"], "bytes": len(raw), "sha256": checksum})
+    (directory / "SourceManifest.json").write_bytes(encode(manifest))
+
+
+def compact_fields(value):
+    if isinstance(value, list):
+        return [compact_fields(item) for item in value]
+    if isinstance(value, dict):
+        return {key: compact_fields(item) for key, item in value.items()
+                if item is not None and (item != [] or key.startswith("appliesTo"))}
+    return value
+
+
+def restriction_allows(restriction, text):
+    return restriction == ["*"] or text in restriction
+
+
+def validate_restriction(restriction, names, label, allow_empty=False):
+    if not isinstance(restriction, list) or (not restriction and not allow_empty):
+        raise ValueError(f"Invalid restriction: {label}")
+    if restriction == ["*"]:
+        return
+    if any(not isinstance(name, str) or name not in names for name in restriction):
+        raise ValueError(f"Unknown restricted form: {label}: {restriction}")
+
+
+def bindings(word):
+    """Return [kanji index or -1, reading index, compatible French sense indexes]."""
+    spellings = word["kanji"]
+    readings = word["kana"]
+    kanji_names = {item["text"] for item in spellings}
+    kana_names = {item["text"] for item in readings}
+    if not readings or len(kana_names) != len(readings) or len(kanji_names) != len(spellings):
+        raise ValueError(f"Missing or duplicate forms: {word['id']}")
+    for sense in word["senses"]:
+        validate_restriction(sense["appliesToKanji"], kanji_names, "sense kanji")
+        validate_restriction(sense["appliesToKana"], kana_names, "sense kana")
+    result = []
+    for reading_index, reading in enumerate(readings):
+        restriction = reading["appliesToKanji"]
+        validate_restriction(restriction, kanji_names, "reading kanji", allow_empty=True)
+        candidates = [(index, spelling["text"]) for index, spelling in enumerate(spellings)
+                      if restriction_allows(restriction, spelling["text"])]
+        if not spellings or restriction == []:
+            candidates = [(-1, None)]
+        for spelling_index, spelling in candidates:
+            sense_indexes = [index for index, sense in enumerate(word["senses"])
+                             if restriction_allows(sense["appliesToKanji"], spelling)
+                             and restriction_allows(sense["appliesToKana"], reading["text"])]
+            result.append([spelling_index, reading_index, sense_indexes])
+    if any(not any(index in pair[2] for pair in result) for index in range(len(word["senses"]))):
+        raise ValueError(f"French sense has no compatible reading/spelling: {word['id']}")
+    return result
+
+
+def make_entry(word, memberships, rows, parameters):
+    senses = []
+    for index, sense in enumerate(word["sense"]):
+        glosses = [gloss for gloss in sense["gloss"] if gloss["lang"] == parameters["glossLanguage"]]
+        if glosses:
+            selected = copy.deepcopy(sense)
+            selected["gloss"] = glosses
+            selected["sourceSenseIndex"] = index
+            senses.append(compact_fields(selected))
+    entry = {"id": f"word-{word['id']}", "jmdictId": word["id"],
+             "level": memberships[0] if memberships else "unclassified", "memberships": memberships,
+             "kanji": compact_fields(word["kanji"]), "kana": compact_fields(word["kana"]),
+             "senses": senses, "frenchStatus": "available" if senses else "missing",
+             "sourceRefs": ["jmdict"] + [f"waller-{level}" for level in memberships]}
+    entry["bindings"] = bindings(entry)
+    if rows:
+        entry["levelRows"] = []
+        for row in rows:
+            pairs = [pair for pair in entry["bindings"]
+                     if entry["kana"][pair[1]]["text"] == row["kana"]
+                     and (not row["kanji"] or (pair[0] >= 0 and entry["kanji"][pair[0]]["text"] == row["kanji"]))]
+            entry["levelRows"].append({**row, "matchStatus": "compatible" if pairs else "unresolved-form",
+                                      "hasCompatibleFrench": any(pair[2] for pair in pairs)})
+    return entry
+
+
+def verify_entry(entry):
+    if entry["id"] != f"word-{entry['jmdictId']}" or not entry["jmdictId"].isdigit():
+        raise ValueError("Invalid stable ID")
+    if entry["bindings"] != bindings(entry):
+        raise ValueError(f"Corrupted bindings: {entry['id']}")
+    if entry["frenchStatus"] != ("available" if entry["senses"] else "missing"):
+        raise ValueError("Corrupted French status")
+    for sense in entry["senses"]:
+        if not sense["gloss"] or any(gloss.get("lang") != "fre" or not gloss.get("text") for gloss in sense["gloss"]):
+            raise ValueError("Non-French or empty gloss")
+
+
+def compile_reference(parameters):
+    dictionary_path = local_path(parameters, "dictionaryPath")
+    dictionary = json.loads(checked_read(dictionary_path, parameters["dictionarySha256"]))
+    words = dictionary["words"]
+    index = {word["id"]: word for word in words}
+    if len(index) != len(words):
+        raise ValueError("Duplicate dictionary IDs")
+    source_directory = local_path(parameters, "sourceDirectory")
+    manifest = json.loads((source_directory / "SourceManifest.json").read_bytes())
+    if manifest["commit"] != parameters["sourceCommit"]:
+        raise ValueError("Frozen source commit differs")
+    for source in manifest["files"]:
+        checked_read(source_directory / source["file"], source["sha256"])
+    rows_by_id = defaultdict(list)
+    level_ids = {}
+    level_counts = {}
+    unresolved_rows = []
+    for source in parameters["sources"]:
+        raw = checked_read(source_directory / source["file"], source["sha256"])
+        rows = list(csv.DictReader(io.StringIO(raw.decode("utf-8"))))
+        if not rows or set(rows[0]) != {"jmdict_seq", "kana", "kanji", "waller_definition"}:
+            raise ValueError("Unexpected CSV schema")
+        ids = set()
+        for number, row in enumerate(rows, 2):
+            word_id = row["jmdict_seq"]
+            if word_id not in index:
+                unresolved_rows.append({"level": source["level"], "row": number, **row,
+                                        "reason": "missing-id" if not word_id else "unknown-id"})
+                continue
+            ids.add(word_id)
+            rows_by_id[word_id].append({"level": source["level"], "row": number,
+                                       "kana": row["kana"], "kanji": row["kanji"]})
+        level_ids[source["level"]] = ids
+        french = sum(any(gloss["lang"] == "fre" for sense in index[word_id]["sense"]
+                         for gloss in sense["gloss"]) for word_id in ids)
+        level_counts[source["level"]] = {"rows": len(rows), "entries": len(ids),
+                                          "french": french, "missingFrench": len(ids) - french}
+    classified_ids = set().union(*level_ids.values())
+    french_ids = {word["id"] for word in words
+                  if any(gloss["lang"] == "fre" for sense in word["sense"] for gloss in sense["gloss"])}
+    counts = {"dictionaryEntries": len(words), "frenchEntries": len(french_ids),
+              "classifiedUnique": len(classified_ids), "classifiedFrench": len(classified_ids & french_ids),
+              "classifiedMissingFrench": len(classified_ids - french_ids),
+              "unclassifiedFrench": len(french_ids - classified_ids), "levels": level_counts}
+    if counts != parameters["expected"]:
+        raise ValueError(f"Source counts differ from pinned expectations: {counts}")
+    groups = {level: [] for level in parameters["levelOrder"] + ["unclassified"]}
+    for word_id in sorted(classified_ids | french_ids, key=int):
+        memberships = [level for level in parameters["levelOrder"] if word_id in level_ids[level]]
+        entry = make_entry(index[word_id], memberships, rows_by_id[word_id], parameters)
+        verify_entry(entry)
+        groups[entry["level"]].append(entry)
+    for level, entries in groups.items():
+        if level != "unclassified":
+            entries.sort(key=lambda entry: (min(row["row"] for row in entry["levelRows"] if row["level"] == level), int(entry["jmdictId"])))
+    return groups, counts, unresolved_rows, dictionary, manifest
+
+
+def serialize_reference(parameters):
+    groups, counts, unresolved_rows, dictionary, manifest = compile_reference(parameters)
+    artifacts = {}
+    files = []
+    group_counts = {}
+    form_issues = []
+    incompatible_french_rows = 0
+    for level, entries in groups.items():
+        group_counts[level] = {"count": len(entries), "withFrench": sum(bool(entry["senses"]) for entry in entries),
+                               "missingFrench": sum(not entry["senses"] for entry in entries)}
+        chunks = []
+        chunk = []
+        size = 256
+        for entry in entries:
+            entry_size = len(encode(entry))
+            if entry_size + 256 > parameters["maxShardBytes"]:
+                raise ValueError(f"Single entry exceeds shard limit: {entry['id']}")
+            if chunk and size + entry_size > parameters["maxShardBytes"]:
+                chunks.append(chunk)
+                chunk, size = [], 256
+            chunk.append(entry)
+            size += entry_size
+            for row in entry.get("levelRows", []):
+                if row["matchStatus"] != "compatible":
+                    form_issues.append({"id": entry["id"], **row})
+                if not row["hasCompatibleFrench"]:
+                    incompatible_french_rows += 1
+        chunks.append(chunk)
+        for number, chunk in enumerate(chunks, 1):
+            name = f"{level}.json" if number == 1 else f"{level}.{number:03}.json"
+            raw = encode({"schemaVersion": 1, "level": level, "entries": chunk})
+            if len(raw) > parameters["maxShardBytes"]:
+                raise ValueError("Shard limit exceeded")
+            artifacts[name] = raw
+            files.append({"path": name, "level": level, "count": len(chunk),
+                          "withFrench": sum(bool(entry["senses"]) for entry in chunk),
+                          "missingFrench": sum(not entry["senses"] for entry in chunk),
+                          "bytes": len(raw), "sha256": digest(raw)})
+    source_refs = {"jmdict": {"url": "https://www.edrdg.org/wiki/JMdict-EDICT_Dictionary_Project.html",
+                               "publisher": "EDRDG; French: Jean-Marc Desperrier and internationalization contributors",
+                               "version": dictionary["version"], "dictDate": dictionary["dictDate"],
+                               "sha256": parameters["dictionarySha256"],
+                               "rights": "Japanese/English CC BY-SA 4.0; French compiler copyrights retained separately",
+                               "rightsUrl": "https://www.edrdg.org/edrdg/licence.html"}}
+    for source in parameters["sources"]:
+        source_refs[source["id"]] = {**source, "publisher": "Jonathan Waller; JMdict ID conversion by Stephen McMahon",
+                                      "commit": parameters["sourceCommit"], "rights": "Waller CC BY; converter CC BY-SA 4.0",
+                                      "rightsUrl": "https://www.tanos.co.uk/jlpt/sharing/"}
+    catalogue = {"schemaVersion": 1, "revisionDate": parameters["revisionDate"],
+                 "basePath": "Japanese/Site/reference/vocabulary", "status": parameters["referenceStatus"],
+                 "officialJlptList": False, "levelOrder": parameters["levelOrder"] + ["unclassified"],
+                 "orderPolicy": parameters["orderPolicy"], "files": files,
+                 "filesByLevel": {level: [item["path"] for item in files if item["level"] == level] for level in groups},
+                 "counts": counts, "groups": group_counts, "totalEntries": sum(len(group) for group in groups.values()),
+                 "withFrench": counts["frenchEntries"], "missingFrench": counts["classifiedMissingFrench"],
+                 "sources": source_refs, "frozenSources": manifest,
+                 "tags": dictionary["tags"], "unresolvedRows": unresolved_rows, "unresolvedFormRows": form_issues,
+                 "rowsWithoutCompatibleFrench": incompatible_french_rows,
+                 "noticesFr": ["Référence dictionnaire importée, sans approbation pédagogique ni acquis déduits.",
+                               "N5 à N1 : inventaire communautaire Waller, non officiel et non exhaustif.",
+                               "Non classé : autres entrées françaises, sans niveau de difficulté attesté.",
+                               "Les lacunes françaises restent visibles ; aucune traduction automatique ajoutée."],
+                 "fieldContract": {"bindings": "[kanjiIndex or -1 for kana-only, kanaIndex, compatible indexes in senses]",
+                                   "sourceSenseIndex": "Zero-based index in the original multilingual JMdict sense array",
+                                   "omittedOptionalFields": "Empty optional arrays and null attributes omitted; restriction arrays always retained",
+                                   "levelRows": "CSV physical line, spelling and reading; French compatibility separately checked",
+                                   "memberships": "All matched source levels; each entry stored once under earliest level in levelOrder",
+                                   "gloss": "Only original fre gloss objects; no cross-language sense-position pairing"}}
+    artifacts["catalogue.json"] = encode(catalogue)
+    return artifacts, catalogue
+
+
+def write_reference(parameters):
+    artifacts, catalogue = serialize_reference(parameters)
+    output = local_path(parameters, "outputDirectory")
+    output.mkdir(parents=True, exist_ok=True)
+    old_files = []
+    if (output / "catalogue.json").exists():
+        old_files = [item["path"] for item in json.loads((output / "catalogue.json").read_bytes())["files"]]
+    for name, raw in artifacts.items():
+        (output / name).write_bytes(raw)
+    for name in set(old_files) - artifacts.keys():
+        if Path(name).name != name:
+            raise ValueError("Unsafe stale file name")
+        (output / name).unlink(missing_ok=True)
+    print(json.dumps({"outputDirectory": str(output), "files": len(artifacts), "bytes": sum(map(len, artifacts.values())),
+                      "targetTotalBytes": parameters["targetTotalBytes"], "totalEntries": catalogue["totalEntries"],
+                      "counts": catalogue["counts"], "groups": catalogue["groups"],
+                      "unresolvedRows": len(catalogue["unresolvedRows"]),
+                      "unresolvedFormRows": len(catalogue["unresolvedFormRows"]),
+                      "rowsWithoutCompatibleFrench": catalogue["rowsWithoutCompatibleFrench"]}, ensure_ascii=False, indent=2))
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--parameters", type=Path, default=DEFAULT_PARAMETERS)
+    parser.add_argument("--fetch", action="store_true", help="Freeze pinned CSVs and rights notices before building")
+    arguments = parser.parse_args()
+    parameters = json.loads(arguments.parameters.read_bytes())
+    if arguments.fetch:
+        fetch_sources(parameters)
+    write_reference(parameters)
+
+
+if __name__ == "__main__":
+    main()

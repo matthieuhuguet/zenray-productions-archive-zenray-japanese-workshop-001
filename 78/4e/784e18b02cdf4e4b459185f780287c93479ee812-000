@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "revisionDate": "16 October 2026",
+  "sourceCommit": "b062d4e38c4bdd0950ae1d4ec55f04b176182e03",
+  "sourceDirectory": "research/datasets/jlpt-vocabulary",
+  "dictionaryPath": "research/datasets/jmdict-all-3.6.2.json",
+  "dictionarySha256": "08f6c54030bfa94fbadebf9d5dc97cf3d4526f9e35e29c1b2b9bf2ac45f57d2b",
+  "outputDirectory": "/Users/zenray/.claude/Memory1/Japanese/Site/reference/vocabulary",
+  "levelOrder": [
+    "N5",
+    "N4",
+    "N3",
+    "N2",
+    "N1"
+  ],
+  "maxShardBytes": 5000000,
+  "targetTotalBytes": 10000000,
+  "glossLanguage": "fre",
+  "referenceStatus": "source-imported-reference-only",
+  "orderPolicy": "first-source-row-within-earliest-level; numeric-jmdict-id-for-unclassified",
+  "sources": [
+    {
+      "id": "waller-N5",
+      "level": "N5",
+      "file": "n5.csv",
+      "url": "https://raw.githubusercontent.com/stephenmk/yomitan-jlpt-vocab/b062d4e38c4bdd0950ae1d4ec55f04b176182e03/original_data/n5.csv",
+      "sha256": "07dc6f197b51cc076c65c3c9f23218d10c2b67f76545f5c1c4d9e3750495533a"
+    },
+    {
+      "id": "waller-N4",
+      "level": "N4",
+      "file": "n4.csv",
+      "url": "https://raw.githubusercontent.com/stephenmk/yomitan-jlpt-vocab/b062d4e38c4bdd0950ae1d4ec55f04b176182e03/original_data/n4.csv",
+      "sha256": "a14dcc7fdc02259b22331a486c6ff66df74c16472c8aeb5a0ebe7e5fa8ee8eb4"
+    },
+    {
+      "id": "waller-N3",
+      "level": "N3",
+      "file": "n3.csv",
+      "url": "https://raw.githubusercontent.com/stephenmk/yomitan-jlpt-vocab/b062d4e38c4bdd0950ae1d4ec55f04b176182e03/original_data/n3.csv",
+      "sha256": "bd4d68c59cfee861351e1bdf9d99818e434392201eabbed4d3657225fe53a3ac"
+    },
+    {
+      "id": "waller-N2",
+      "level": "N2",
+      "file": "n2.csv",
+      "url": "https://raw.githubusercontent.com/stephenmk/yomitan-jlpt-vocab/b062d4e38c4bdd0950ae1d4ec55f04b176182e03/original_data/n2.csv",
+      "sha256": "42a4413326e857d701dc9659b2711637ab612304a339fe0d09f4f0f042d3a214"
+    },
+    {
+      "id": "waller-N1",
+      "level": "N1",
+      "file": "n1.csv",
+      "url": "https://raw.githubusercontent.com/stephenmk/yomitan-jlpt-vocab/b062d4e38c4bdd0950ae1d4ec55f04b176182e03/original_data/n1.csv",
+      "sha256": "7a58f0584e9ec2b0299ccb9b109f3bd03e08b90d129a714307c0a1cb72f07b32"
+    }
+  ],
+  "expected": {
+    "dictionaryEntries": 218863,
+    "frenchEntries": 15336,
+    "classifiedUnique": 7747,
+    "classifiedFrench": 6997,
+    "classifiedMissingFrench": 750,
+    "unclassifiedFrench": 8339,
+    "levels": {
+      "N5": {
+        "rows": 684,
+        "entries": 667,
+        "french": 655,
+        "missingFrench": 12
+      },
+      "N4": {
+        "rows": 640,
+        "entries": 635,
+        "french": 629,
+        "missingFrench": 6
+      },
+      "N3": {
+        "rows": 1730,
+        "entries": 1710,
+        "french": 1691,
+        "missingFrench": 19
+      },
+      "N2": {
+        "rows": 1812,
+        "entries": 1794,
+        "french": 1773,
+        "missingFrench": 21
+      },
+      "N1": {
+        "rows": 3427,
+        "entries": 3399,
+        "french": 2699,
+        "missingFrench": 700
+      }
+    }
+  },
+  "notices": [
+    {
+      "file": "README.md",
+      "url": "https://raw.githubusercontent.com/stephenmk/yomitan-jlpt-vocab/b062d4e38c4bdd0950ae1d4ec55f04b176182e03/README.md"
+    },
+    {
+      "file": "LICENSE.txt",
+      "url": "https://raw.githubusercontent.com/stephenmk/yomitan-jlpt-vocab/b062d4e38c4bdd0950ae1d4ec55f04b176182e03/LICENSE.txt"
+    },
+    {
+      "file": "WallerRights.html",
+      "url": "https://www.tanos.co.uk/jlpt/sharing/",
+      "optionalNotice": true
+    },
+    {
+      "file": "EDRDGRights.html",
+      "url": "https://www.edrdg.org/edrdg/licence.html"
+    }
+  ],
+  "expectedSourceIssues": {
+    "unresolvedRows": 14,
+    "unresolvedFormRows": 11,
+    "rowsWithoutCompatibleFrench": 770
+  }
+}

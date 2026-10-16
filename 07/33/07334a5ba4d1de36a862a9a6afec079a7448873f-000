@@ -1,0 +1,27 @@
+# Vocabulary reference compilation (16 October 2026)
+
+- Output: `/Users/zenray/.claude/Memory1/Japanese/Site/reference/vocabulary`. Seven JSON files, 9242826 bytes in total, largest shard 4140051 bytes. No shard exceeds the configured 5000000-byte limit. (16 October 2026)
+- Generator: `/Users/zenray/.claude/tmp/tmp-zenray-japanese/Scripts/BuildVocabulary.py`; parameters: `/Users/zenray/.claude/tmp/tmp-zenray-japanese/research/VocabularyParameters.json`; tests: `/Users/zenray/.claude/tmp/tmp-zenray-japanese/Scripts/TestVocabulary.py`. (16 October 2026)
+- Offline reproduction: `python3 /Users/zenray/.claude/tmp/tmp-zenray-japanese/Scripts/BuildVocabulary.py`; verify: `python3 /Users/zenray/.claude/tmp/tmp-zenray-japanese/Scripts/TestVocabulary.py`. Source retrieval is an explicit additional `--fetch` action. No workflow launcher is used. (16 October 2026)
+- 16 tests pass in 18.041 seconds: valid and corrupted sense/form restrictions, kana-only readings, translation-language corruption, source checksums, expected counts, unique IDs, exact original French senses, all reading/spelling bindings, shard bounds, byte-identical reconstruction and no pedagogical or learner approval fields. (16 October 2026)
+- Entries: 16086 unique IDs, comprising 7747 IDs in the community JLPT lists and 8339 other French-bearing dictionary entries labelled unclassified. 15336 entries have French and 750 explicitly do not; these counts do not claim an official JLPT syllabus or French completeness. (16 October 2026)
+- One entry is physically stored once under its earliest membership in configured order N5,N4,N3,N2,N1. All original memberships survive in `memberships`; source-level counts and physical group counts are separate. A level page that includes every source membership must also filter entries in earlier files. (16 October 2026)
+- `bindings` stores [kanji index or -1 for kana-only, kana index, compatible French sense indexes]. `appliesToKanji` and `appliesToKana` remain exact; optional empty metadata arrays and null gloss attributes are omitted as documented. `sourceSenseIndex` is the zero-based sense index in the multilingual source. (16 October 2026)
+- Corpus catalogue, Japanese1.md, learner state, lessonValidation, kana, kanji and application code are untouched. Source rows and dictionary senses remain reference-only. (16 October 2026)
+
+| Physical file | Entries | French | Missing French | Bytes | SHA256 | Date |
+|---|---:|---:|---:|---:|---|---|
+| N5.json | 667 | 655 | 12 | 480019 | 39c5b2b0b795a65af66711f7d88a0b0fbe2239912fac8e357e00394768983b59 | 16 October 2026 |
+| N4.json | 630 | 624 | 6 | 442157 | fe2abb60485a6a01ffe3ee56b87483af52f93521ce38b4e0f207f5731f738669 | 16 October 2026 |
+| N3.json | 1651 | 1633 | 18 | 1112683 | b80792b14ef6174c76ab02ba20de7838022c892d7a8fc76fbba28260ad568e56 | 16 October 2026 |
+| N2.json | 1738 | 1717 | 21 | 1178905 | f9b5915380428c468e994ae311de3d0596c1c6c968f818e48b137d08daf0b90a | 16 October 2026 |
+| N1.json | 3061 | 2368 | 693 | 1868838 | fc61fbcaa4544e6806f92543541ab867fd70d4e1f0743a2c832b63d0d2a0f7eb | 16 October 2026 |
+| unclassified.json | 8339 | 8339 | 0 | 4140051 | 34035192adf9da48ab3c717e4a2b77ddfe9ae446d8727ff3ac6ec72173816e2e | 16 October 2026 |
+
+## Source issues preserved (16 October 2026)
+
+- Correction to the 15 October inventory: 14 source CSV rows have an empty JMdict ID, all N1. The prior count of one referred to one distinct empty ID value, not one row. They remain verbatim diagnostic rows in catalogue.unresolvedRows and are not invented dictionary entries. (16 October 2026)
+- Eleven rows have a spelling/reading combination absent from the pinned current JMdict entry; these remain catalogue.unresolvedFormRows. Membership metadata is retained, but no French sense is force-bound to those forms. A total of 770 matched source rows have no compatible French sense, a row count distinct from the 750 unique entries without any French. (16 October 2026)
+- Frozen CSVs, README, LICENSE and EDRDG notice are in research/datasets/jlpt-vocabulary, with SHA256 and bytes in SourceManifest.json. The CSV commit is b062d4e38c4bdd0950ae1d4ec55f04b176182e03. (16 October 2026)
+- Primary tanos.co.uk rights-page retrieval fails DNS and the web fetch returns502 on this date. The manifest explicitly records it as unavailable. The pinned producer README preserves its Waller attribution and CC BY grant; no substitute HTML snapshot is fabricated. EDRDG notice is fetched successfully. French compiler rights remain separately stated, without inventing a blanket licence. (16 October 2026)
+- catalogue.json SHA256: `94e812c15b64d70840d24564bd2577da296bfa6404cea99c066f14b66170a463`. (16 October 2026)

@@ -1,0 +1,540 @@
+{
+  "schemaVersion": 1,
+  "revisionDate": "16 October 2026",
+  "sourceDirectory": "research/datasets/kana",
+  "outputPath": "/Users/zenray/.claude/Memory1/Japanese/Site/reference/kana.json",
+  "scriptOrder": [
+    "hiragana",
+    "katakana"
+  ],
+  "categoryOrder": [
+    "base",
+    "dakuten",
+    "handakuten",
+    "yoon",
+    "small",
+    "sokuon",
+    "historical",
+    "rareYoon"
+  ],
+  "romanization": {
+    "id": "pedagogical-hepburn-jf-v1",
+    "descriptionFr": "Repères Hepburn pédagogiques suivant les tableaux Japan Foundation : shi, chi, tsu, fu, ji, zu ; を/ヲ est noté o. Les valeurs ne constituent pas une transcription phonétique de tous les contextes.",
+    "sourceRefs": [
+      "jf-hiragana",
+      "jf-katakana"
+    ],
+    "historicalNoteFr": "wi et we servent à distinguer les graphies historiques ; leur lecture moderne correspond généralement à i et e.",
+    "imeNoteFr": "Les saisies clavier di, du et wo ne sont pas les lectures retenues ici."
+  },
+  "expectedPerScript": {
+    "base": 46,
+    "dakuten": 20,
+    "handakuten": 5,
+    "yoon": 33,
+    "small": 8,
+    "sokuon": 1,
+    "historical": 2,
+    "rareYoon": 3
+  },
+  "expectedShared": {
+    "longVowelMark": 1
+  },
+  "baseRows": [
+    {
+      "row": "vowel",
+      "glyphs": "あいうえお",
+      "romaji": [
+        "a",
+        "i",
+        "u",
+        "e",
+        "o"
+      ],
+      "columns": [
+        "a",
+        "i",
+        "u",
+        "e",
+        "o"
+      ]
+    },
+    {
+      "row": "k",
+      "glyphs": "かきくけこ",
+      "romaji": [
+        "ka",
+        "ki",
+        "ku",
+        "ke",
+        "ko"
+      ],
+      "columns": [
+        "a",
+        "i",
+        "u",
+        "e",
+        "o"
+      ]
+    },
+    {
+      "row": "s",
+      "glyphs": "さしすせそ",
+      "romaji": [
+        "sa",
+        "shi",
+        "su",
+        "se",
+        "so"
+      ],
+      "columns": [
+        "a",
+        "i",
+        "u",
+        "e",
+        "o"
+      ]
+    },
+    {
+      "row": "t",
+      "glyphs": "たちつてと",
+      "romaji": [
+        "ta",
+        "chi",
+        "tsu",
+        "te",
+        "to"
+      ],
+      "columns": [
+        "a",
+        "i",
+        "u",
+        "e",
+        "o"
+      ]
+    },
+    {
+      "row": "n",
+      "glyphs": "なにぬねの",
+      "romaji": [
+        "na",
+        "ni",
+        "nu",
+        "ne",
+        "no"
+      ],
+      "columns": [
+        "a",
+        "i",
+        "u",
+        "e",
+        "o"
+      ]
+    },
+    {
+      "row": "h",
+      "glyphs": "はひふへほ",
+      "romaji": [
+        "ha",
+        "hi",
+        "fu",
+        "he",
+        "ho"
+      ],
+      "columns": [
+        "a",
+        "i",
+        "u",
+        "e",
+        "o"
+      ]
+    },
+    {
+      "row": "m",
+      "glyphs": "まみむめも",
+      "romaji": [
+        "ma",
+        "mi",
+        "mu",
+        "me",
+        "mo"
+      ],
+      "columns": [
+        "a",
+        "i",
+        "u",
+        "e",
+        "o"
+      ]
+    },
+    {
+      "row": "y",
+      "glyphs": "やゆよ",
+      "romaji": [
+        "ya",
+        "yu",
+        "yo"
+      ],
+      "columns": [
+        "a",
+        "u",
+        "o"
+      ]
+    },
+    {
+      "row": "r",
+      "glyphs": "らりるれろ",
+      "romaji": [
+        "ra",
+        "ri",
+        "ru",
+        "re",
+        "ro"
+      ],
+      "columns": [
+        "a",
+        "i",
+        "u",
+        "e",
+        "o"
+      ]
+    },
+    {
+      "row": "w",
+      "glyphs": "わを",
+      "romaji": [
+        "wa",
+        "o"
+      ],
+      "columns": [
+        "a",
+        "o"
+      ]
+    },
+    {
+      "row": "nasal",
+      "glyphs": "ん",
+      "romaji": [
+        "n"
+      ],
+      "columns": [
+        "n"
+      ]
+    }
+  ],
+  "voicedRows": [
+    {
+      "row": "g",
+      "baseRow": "k",
+      "glyphs": "がぎぐげご",
+      "romaji": [
+        "ga",
+        "gi",
+        "gu",
+        "ge",
+        "go"
+      ]
+    },
+    {
+      "row": "z",
+      "baseRow": "s",
+      "glyphs": "ざじずぜぞ",
+      "romaji": [
+        "za",
+        "ji",
+        "zu",
+        "ze",
+        "zo"
+      ]
+    },
+    {
+      "row": "d",
+      "baseRow": "t",
+      "glyphs": "だぢづでど",
+      "romaji": [
+        "da",
+        "ji",
+        "zu",
+        "de",
+        "do"
+      ]
+    },
+    {
+      "row": "b",
+      "baseRow": "h",
+      "glyphs": "ばびぶべぼ",
+      "romaji": [
+        "ba",
+        "bi",
+        "bu",
+        "be",
+        "bo"
+      ]
+    }
+  ],
+  "semiVoicedRow": {
+    "row": "p",
+    "baseRow": "h",
+    "glyphs": "ぱぴぷぺぽ",
+    "romaji": [
+      "pa",
+      "pi",
+      "pu",
+      "pe",
+      "po"
+    ]
+  },
+  "yoonRows": [
+    {
+      "base": "き",
+      "romaji": [
+        "kya",
+        "kyu",
+        "kyo"
+      ]
+    },
+    {
+      "base": "し",
+      "romaji": [
+        "sha",
+        "shu",
+        "sho"
+      ]
+    },
+    {
+      "base": "ち",
+      "romaji": [
+        "cha",
+        "chu",
+        "cho"
+      ]
+    },
+    {
+      "base": "に",
+      "romaji": [
+        "nya",
+        "nyu",
+        "nyo"
+      ]
+    },
+    {
+      "base": "ひ",
+      "romaji": [
+        "hya",
+        "hyu",
+        "hyo"
+      ]
+    },
+    {
+      "base": "み",
+      "romaji": [
+        "mya",
+        "myu",
+        "myo"
+      ]
+    },
+    {
+      "base": "り",
+      "romaji": [
+        "rya",
+        "ryu",
+        "ryo"
+      ]
+    },
+    {
+      "base": "ぎ",
+      "romaji": [
+        "gya",
+        "gyu",
+        "gyo"
+      ]
+    },
+    {
+      "base": "じ",
+      "romaji": [
+        "ja",
+        "ju",
+        "jo"
+      ]
+    },
+    {
+      "base": "び",
+      "romaji": [
+        "bya",
+        "byu",
+        "byo"
+      ]
+    },
+    {
+      "base": "ぴ",
+      "romaji": [
+        "pya",
+        "pyu",
+        "pyo"
+      ]
+    }
+  ],
+  "smallForms": [
+    {
+      "glyph": "ぁ",
+      "base": "あ",
+      "romaji": "a"
+    },
+    {
+      "glyph": "ぃ",
+      "base": "い",
+      "romaji": "i"
+    },
+    {
+      "glyph": "ぅ",
+      "base": "う",
+      "romaji": "u"
+    },
+    {
+      "glyph": "ぇ",
+      "base": "え",
+      "romaji": "e"
+    },
+    {
+      "glyph": "ぉ",
+      "base": "お",
+      "romaji": "o"
+    },
+    {
+      "glyph": "ゃ",
+      "base": "や",
+      "romaji": "ya"
+    },
+    {
+      "glyph": "ゅ",
+      "base": "ゆ",
+      "romaji": "yu"
+    },
+    {
+      "glyph": "ょ",
+      "base": "よ",
+      "romaji": "yo"
+    }
+  ],
+  "yoonSuffixes": [
+    "ゃ",
+    "ゅ",
+    "ょ"
+  ],
+  "historicalForms": [
+    {
+      "glyph": "ゐ",
+      "romaji": "wi",
+      "modernRomaji": "i"
+    },
+    {
+      "glyph": "ゑ",
+      "romaji": "we",
+      "modernRomaji": "e"
+    }
+  ],
+  "rareYoon": {
+    "base": "ぢ",
+    "romaji": [
+      "ja",
+      "ju",
+      "jo"
+    ],
+    "noteFr": "Graphies rares issues de ぢ, attestées par le tableau MEXT et gardées hors des 33 combinaisons usuelles."
+  },
+  "particleNotes": {
+    "は": {
+      "romaji": "wa",
+      "noteFr": "La particule は se lit wa ; le caractère conserve ha dans le tableau."
+    },
+    "へ": {
+      "romaji": "e",
+      "noteFr": "La particule へ se lit e ; le caractère conserve he dans le tableau."
+    },
+    "を": {
+      "romaji": "o",
+      "noteFr": "La particule を se lit o ; wo est notamment une convention de saisie clavier."
+    }
+  },
+  "specialNotes": {
+    "small": "Forme de petite taille destinée aux combinaisons ; ce repère romaji ne lui attribue pas une syllabe autonome dans chaque emploi.",
+    "sokuon": "Petit っ/ッ : marque de gémination, généralement transcrite par le redoublement de la consonne suivante ; aucune lecture isolée tsu ne lui est attribuée.",
+    "longVowelMark": "ー prolonge la voyelle précédente, surtout en katakana. Sa valeur dépend du contexte ; ce signe ne se lit pas comme un kana autonome."
+  },
+  "foreignCombinations": {
+    "included": false,
+    "reasonFr": "Les combinaisons de sons étrangers, dont ファ, ティ et ヴァ, ne font pas partie de ce fichier. Leurs deux tableaux Bunka demandent un inventaire distinct vérifié, sans génération combinatoire.",
+    "sourceRefs": [
+      "bunka-foreign"
+    ]
+  },
+  "excludedExtensionsFr": [
+    "Petits ゎ/ヮ et ゕ/ゖ/ヵ/ヶ hors de ce noyau de repérage.",
+    "ゔ/ヴ, signes de répétition, hentaigana et extensions pour l’aïnou hors de ce noyau."
+  ],
+  "sources": [
+    {
+      "id": "mext-chart",
+      "url": "https://tsunagarujp.mext.go.jp/assets/download/hiragana_katakana_ver202404.pdf",
+      "file": "MextKana202404.pdf",
+      "title": "Hiragana and katakana chart, April 2024",
+      "publisher": "MEXT",
+      "rights": "Source retained for evidence; original charts, illustrations and audio are not republished. Facts are organized in original JSON.",
+      "checkedAt": "16 October 2026"
+    },
+    {
+      "id": "jf-hiragana",
+      "url": "https://a1.marugotoweb.jp/en/hiragana.php",
+      "file": "JfHiragana.html",
+      "title": "MARUGOTO Plus Hiragana",
+      "publisher": "Japan Foundation",
+      "rights": "Source retained for evidence; original charts, illustrations and audio are not republished. Facts are organized in original JSON.",
+      "checkedAt": "16 October 2026"
+    },
+    {
+      "id": "jf-katakana",
+      "url": "https://a1.marugotoweb.jp/en/katakana.php",
+      "file": "JfKatakana.html",
+      "title": "MARUGOTO Plus Katakana",
+      "publisher": "Japan Foundation",
+      "rights": "Source retained for evidence; original charts, illustrations and audio are not republished. Facts are organized in original JSON.",
+      "checkedAt": "16 October 2026"
+    },
+    {
+      "id": "bunka-principles",
+      "url": "https://www.bunka.go.jp/kokugo_nihongo/sisaku/joho/joho/kijun/naikaku/gendaikana/honbun_dai1.html",
+      "file": "BunkaPrinciples.html",
+      "title": "Modern kana usage, principles",
+      "publisher": "Agency for Cultural Affairs",
+      "rights": "Source retained for evidence; original charts, illustrations and audio are not republished. Facts are organized in original JSON.",
+      "checkedAt": "16 October 2026"
+    },
+    {
+      "id": "bunka-exceptions",
+      "url": "https://www.bunka.go.jp/kokugo_nihongo/sisaku/joho/joho/kijun/naikaku/gendaikana/honbun_dai2.html",
+      "file": "BunkaExceptions.html",
+      "title": "Modern kana usage, conventional exceptions",
+      "publisher": "Agency for Cultural Affairs",
+      "rights": "Source retained for evidence; original charts, illustrations and audio are not republished. Facts are organized in original JSON.",
+      "checkedAt": "16 October 2026"
+    },
+    {
+      "id": "bunka-historical",
+      "url": "https://www.bunka.go.jp/kokugo_nihongo/sisaku/joho/joho/kijun/naikaku/gendaikana/huhyo_i.html",
+      "file": "BunkaHistorical.html",
+      "title": "Modern and historical kana comparison",
+      "publisher": "Agency for Cultural Affairs",
+      "rights": "Source retained for evidence; original charts, illustrations and audio are not republished. Facts are organized in original JSON.",
+      "checkedAt": "16 October 2026"
+    },
+    {
+      "id": "bunka-foreign",
+      "url": "https://www.bunka.go.jp/kokugo_nihongo/sisaku/joho/joho/kijun/naikaku/gairai/honbun06.html",
+      "file": "BunkaForeign.html",
+      "title": "Foreign-word spelling, nasal/geminate/long vowel notes",
+      "publisher": "Agency for Cultural Affairs",
+      "rights": "Source retained for evidence; original charts, illustrations and audio are not republished. Facts are organized in original JSON.",
+      "checkedAt": "16 October 2026"
+    }
+  ]
+}
