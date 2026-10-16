@@ -5,6 +5,7 @@ import assert from 'node:assert/strict'
 const root = '/Users/zenray/.claude/tmp/tmp-zenray-japanese'
 const dist = process.argv.find(value => value.startsWith('--dist='))?.slice(7) || '/Users/zenray/.codex/worktrees/japanese-progress/dist'
 const base = 'https://zenray-progress.pages.dev'
+const version = JSON.parse(await readFile('/Users/zenray/.codex/worktrees/japanese-progress/src/learn/data/JapaneseRelease.json','utf8')).version
 const credentials = await readFile('/Users/zenray/.claude/Memory1/AGENTS.md', 'utf8')
 const secret = credentials.match(/Mot de passe maître du drive ZenRayProgress\s*=\s*`([^`]+)`/)?.[1]
 assert(secret, 'Existing authentication unavailable')
@@ -34,7 +35,7 @@ assert.equal(assets.length, 1)
 const localCode = await readFile(dist + '/assets/' + assets[0])
 const liveCode = Buffer.from(await (await get('/assets/' + assets[0], false)).arrayBuffer())
 assert.equal(createHash('sha256').update(liveCode).digest('hex'), createHash('sha256').update(localCode).digest('hex'))
-assert(localCode.toString().includes('1.0.0'), 'Release version absent from deployed Japanese component')
+assert(localCode.toString().includes(version), 'Release version absent from deployed Japanese component')
 function bucket(value) { let hash = 2166136261; for (const character of value) hash = Math.imul(hash ^ character.codePointAt(0), 16777619) >>> 0; return hash % live.recordShards }
 const checked = []
 for (const id of [live.cards[0].id, live.cards.at(-1).id, 'kanji-0732b']) {
@@ -49,6 +50,13 @@ assert.equal(state.state?.schemaVersion, 1)
 assert(Array.isArray(state.state.eventIds) && Array.isArray(state.state.gaps) && state.state.progress)
 const denied = await fetch(base + '/api/japanese', { signal: AbortSignal.timeout(30000) })
 assert.equal(denied.status, 401)
-const report = { checkedAt: new Date().toISOString(), version: '1.0.0', release: live.release, cards: live.cards.length, entry, component: assets[0], componentSha256: createHash('sha256').update(liveCode).digest('hex'), exactCatalogue: true, exactCoverage: true, recordPathsRead: checked, supplementarySearch: true, learnerStateRead: true, learnerWrites: 0, unauthenticatedStatus: denied.status, passed: true }
+// 16 October 2026 14:25 Europe/Paris: verify exact reference datasets and reject an invalid note without committing learner data.
+const referenceFiles=['kana.json','joyo.json','vocabulary/catalogue.json','vocabulary/N5.json','vocabulary/N4.json','vocabulary/N3.json','vocabulary/N2.json','vocabulary/N1.json','vocabulary/unclassified.json']
+for(const file of referenceFiles) assert.deepEqual(await data('Site/reference/'+file),JSON.parse(await readFile('/Users/zenray/.claude/Memory1/Japanese/Site/reference/'+file,'utf8')))
+const invalidNote=await fetch(base+'/api/japanese',{method:'POST',headers:{'x-zr-auth':secret,'content-type':'application/json'},body:JSON.stringify({action:'note',eventId:'release110-invalid-note-check',noteId:'release-negative-check',title:'',text:'',topic:'japanese',archived:false,expectedRevision:0}),signal:AbortSignal.timeout(60000)})
+assert.equal(invalidNote.status,400)
+assert.match((await invalidNote.json()).error,/Note invalide/)
+assert.deepEqual((await (await get('/api/japanese')).json()).state,state.state)
+const report = { checkedAt: new Date().toISOString(), version, release: live.release, cards: live.cards.length, entry, component: assets[0], componentSha256: createHash('sha256').update(liveCode).digest('hex'), exactCatalogue: true, exactCoverage: true, recordPathsRead: checked, supplementarySearch: true, learnerStateRead: true, learnerWrites: 0, exactReferenceFiles: referenceFiles, invalidNoteRejectedWithoutWrite: true, unauthenticatedStatus: denied.status, passed: true }
 await writeFile(root + '/verification/ReleaseProductionReport.json', JSON.stringify(report, null, 2) + '\n')
 console.log(JSON.stringify(report))
