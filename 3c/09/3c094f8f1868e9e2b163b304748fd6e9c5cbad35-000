@@ -1,0 +1,66 @@
+// 16 October 2026 14:10 Europe/Paris: actual source data in isolated Chromium, with no learner writes.
+import { chromium } from '/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/node_modules/playwright/index.mjs'
+import { readFile, writeFile } from 'node:fs/promises'
+import assert from 'node:assert/strict'
+import { applyStudyEvent } from '/Users/zenray/.codex/worktrees/japanese-progress/server/japanese.js'
+const root='/Users/zenray/.claude/tmp/tmp-zenray-japanese/verification'
+const browser=await chromium.launch({headless:true,executablePath:'/Users/zenray/Library/Caches/ms-playwright/chromium_headless_shell-1234/chrome-headless-shell-mac-arm64/chrome-headless-shell'})
+const page=await browser.newPage({viewport:{width:1440,height:1000}}), errors=[]
+page.on('pageerror',error=>errors.push(error.message))
+await page.route('**/api/page?**',async route=>{try { const path=new URL(route.request().url()).searchParams.get('path');assert(path.startsWith('Memory/Japanese/'));const markdown=await readFile('/Users/zenray/.claude/Memory1/'+path.replace(/^Memory\//,''),'utf8');await route.fulfill({json:{markdown}}) } catch {await route.fulfill({status:404,json:{missing:true}})}})
+let state={schemaVersion:1,progress:{},eventIds:[],gaps:[],preferences:{}}
+await page.route('**/api/japanese',async route=>{ if(route.request().method()==='POST') state=applyStudyEvent(state,null,route.request().postDataJSON(),Date.now(),[]).state; await route.fulfill({json:{state}}) })
+try {
+ await page.goto('http://127.0.0.1:5174/scripts/JapaneseBrowserFixture.html')
+ await page.getByRole('button',{name:'Kana · vocabulaire · jōyō',exact:true}).click()
+ await page.getByText('667 résultats',{exact:true}).waitFor()
+ await page.getByLabel('Liste de vocabulaire').selectOption('N1')
+ await page.getByText('3 399 résultats',{exact:true}).waitFor()
+ await page.getByLabel('Rechercher en français ou japonais').fill('rencontrer')
+ assert(await page.locator('.jpr-grid button').count()>0)
+ await page.locator('.jpr-grid button').first().click()
+ await page.locator('.jpr-detail table').waitFor()
+ await page.getByLabel('Rechercher en français ou japonais').fill('')
+ await page.getByRole('button',{name:'Hiragana et katakana',exact:true}).click()
+ await page.getByText('46 résultats',{exact:true}).waitFor()
+ await page.screenshot({path:root+'/References-kana-desktop.png',fullPage:true})
+ await page.getByLabel('Écriture',{exact:true}).selectOption('katakana')
+ await page.getByRole('button',{name:'Les 2 136 jōyō',exact:true}).click()
+ await page.getByText('2 136 résultats',{exact:true}).waitFor()
+ await page.locator('.jpr-grid button').first().click()
+ await page.locator('.jpc-stroke img').waitFor()
+ await page.waitForFunction(()=>document.querySelector('.jpc-stroke img')?.naturalWidth>0)
+ await page.setViewportSize({width:375,height:900})
+ await page.screenshot({path:root+'/References-joyo-mobile.png',fullPage:true})
+ assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth))
+ await page.getByRole('button',{name:'Parcours',exact:true}).click()
+ await page.getByRole('button',{name:'Toutes les leçons',exact:true}).click()
+ await page.getByLabel('Rechercher une leçon').fill('relation conditionnelle')
+ await page.locator('.jps-grid button').first().click()
+ await page.getByLabel('Catégorie personnelle').fill('Conversation')
+ await page.getByRole('button',{name:'Enregistrer le classement'}).click()
+ await page.getByText('Enregistré dans Memory : classement ou note personnelle.',{exact:true}).waitFor()
+ assert.equal(Object.values(state.annotations)[0].category,'Conversation')
+ await page.getByRole('button',{name:'Revoir librement cette leçon'}).click()
+ while(await page.getByRole('button',{name:'Comparer ma réponse'}).count()) {
+  await page.getByRole('button',{name:'Comparer ma réponse'}).click()
+  await page.getByRole('button',{name:'Raté ou avec aide'}).click()
+ }
+ await page.getByText('Entraînement libre FINI. Les dates de révision et les acquis restent inchangés.',{exact:true}).waitFor()
+ await page.screenshot({path:root+'/Library-practice-mobile.png',fullPage:true})
+ await page.getByRole('button',{name:'Mon carnet',exact:true}).click()
+ await page.getByLabel('Titre de la note').fill('Question pour ma prochaine leçon')
+ await page.getByLabel('Texte de la note').fill('Comment utiliser 京都 dans une conversation ?')
+ await page.getByRole('button',{name:'Enregistrer la note',exact:true}).click()
+ await page.getByText('Note enregistrée dans Memory.',{exact:true}).waitFor()
+ assert.equal(Object.values(state.notes)[0].text,'Comment utiliser 京都 dans une conversation ?')
+ await page.reload()
+ await page.getByRole('button',{name:'Mon carnet',exact:true}).click()
+ await page.getByRole('button',{name:/Question pour ma prochaine leçon/}).click()
+ assert.equal(await page.getByLabel('Texte de la note').inputValue(),'Comment utiliser 京都 dans une conversation ?')
+ await page.screenshot({path:root+'/Notebook-mobile.png',fullPage:true})
+ assert.deepEqual(state.progress,{})
+ assert.deepEqual(errors,[])
+ await writeFile(root+'/ReferencesBrowserProof.json',JSON.stringify({checkedAt:'16 October 2026',actualLocalData:true,production:false,checks:['N5 667','N1 memberships3399','French search and compatible senses','kana46each','joyo2136 and realSVG','mobileNoOverflow'],errors},null,2))
+ console.log('Reference browser checks passed')
+}finally{await browser.close()}

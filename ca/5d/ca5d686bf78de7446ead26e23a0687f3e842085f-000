@@ -1,0 +1,14 @@
+{
+  "checkedAt": "16 October 2026",
+  "actualLocalData": true,
+  "production": false,
+  "checks": [
+    "N5 667",
+    "N1 memberships3399",
+    "French search and compatible senses",
+    "kana46each",
+    "joyo2136 and realSVG",
+    "mobileNoOverflow"
+  ],
+  "errors": []
+}

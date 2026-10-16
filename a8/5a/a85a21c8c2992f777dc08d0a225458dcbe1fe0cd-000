@@ -1,0 +1,127 @@
+#!/usr/bin/env python3
+"""Verify exact jōyō membership, source meanings, ordering and available stroke SVGs."""
+# 16 October 2026 14:00 Europe/Paris: reject corrupted canonical variants and source evidence.
+import copy
+import json
+from pathlib import Path
+import tempfile
+import unittest
+
+import BuildJoyo as build
+
+
+class JoyoTests(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        cls.parameters = json.loads(build.DEFAULT_PARAMETERS.read_bytes())
+        cls.data = json.loads(Path(cls.parameters["outputPath"]).read_bytes())
+        cls.official_set, cls.official_grades, _ = build.official_evidence(cls.parameters)
+
+    def test_exact_official_set_and_current_primary_grades(self):
+        build.verify_data(self.data, self.parameters, self.official_set, self.official_grades)
+        self.assertEqual(self.data["counts"], self.parameters["expected"])
+        self.assertEqual(len(self.official_set), 2136)
+        self.assertEqual(len(self.official_grades), 1026)
+
+    def test_dictionary_set_and_all_readings_meanings_are_exact(self):
+        source = json.loads(build.checked_read(build.ROOT / self.parameters["dictionaryPath"], self.parameters["dictionarySha256"]))
+        selected = {character["literal"]: character for character in source["characters"] if character["misc"]["grade"] in self.parameters["gradeOrder"]}
+        self.assertEqual(set(selected), {entry["character"] for entry in self.data["entries"]})
+        for entry in self.data["entries"]:
+            character = selected[entry["character"]]
+            groups = character.get("readingMeaning", {}).get("groups", [])
+            for field, type_name in [("onReadings", "ja_on"), ("kunReadings", "ja_kun")]:
+                expected = [reading for group in groups for reading in group["readings"] if reading["type"] == type_name]
+                self.assertEqual(entry[field], expected)
+            for field, language in [("meaningsFr", "fr"), ("meaningsEn", "en")]:
+                self.assertEqual(entry[field], [meaning["value"] for group in groups for meaning in group["meanings"] if meaning["lang"] == language])
+            self.assertEqual(entry["nanori"], character.get("readingMeaning", {}).get("nanori", []))
+            self.assertEqual(entry["radicals"], character["radicals"])
+            self.assertEqual(entry["strokeCounts"], character["misc"]["strokeCounts"])
+            self.assertEqual(entry["legacyJlptLevel"], character["misc"].get("jlptLevel"))
+            self.assertNotIn("level", entry)
+
+    def test_2136_contiguous_ranks_and_editorial_tie_break(self):
+        entries = self.data["entries"]
+        self.assertEqual([entry["order"] for entry in entries], list(range(1, 2137)))
+        self.assertEqual(entries, sorted(entries, key=lambda entry: build.sort_key(entry, self.parameters)))
+        self.assertEqual(entries[0]["character"], "一")
+        self.assertIn("éditorial", self.data["orderLabelFr"])
+
+    def test_canonical_supplementary_character_is_preserved(self):
+        by_character = {entry["character"]: entry for entry in self.data["entries"]}
+        for canonical, alternatives in self.parameters["canonicalVariants"].items():
+            self.assertIn(canonical, by_character)
+            self.assertEqual(by_character[canonical]["canonicalAlternatives"], alternatives)
+            self.assertTrue(all(variant not in by_character for variant in alternatives))
+        self.assertEqual(by_character["𠮟"]["id"], "kanji-20b9f")
+
+    def test_missing_french_is_not_fabricated(self):
+        missing = [entry for entry in self.data["entries"] if entry["frenchStatus"] == "missing"]
+        self.assertEqual(len(missing), 149)
+        self.assertTrue(all(entry["meaningsFr"] == [] for entry in missing))
+        self.assertTrue(any(entry["character"] == "𠮟" for entry in missing))
+
+    def test_all_published_svgs_have_source_hash_and_ordered_paths(self):
+        catalogue = json.loads(Path(self.parameters["corpusCataloguePath"]).read_bytes())
+        directory = Path(self.parameters["corpusCataloguePath"]).parent / "releases" / catalogue["release"]
+        self.assertEqual(catalogue["basePath"], self.data["corpusBasePath"])
+        self.assertEqual(catalogue["release"], self.data["corpusRelease"])
+        for entry in self.data["entries"]:
+            self.assertTrue(0 <= entry["recordShard"] < catalogue["recordShards"])
+            build.verify_svg((directory / entry["strokeFile"]).read_bytes(), entry["strokeSha256"])
+
+    def test_deterministic_build_matches_delivered_bytes(self):
+        self.assertEqual(build.encode(build.build_data(self.parameters)), Path(self.parameters["outputPath"]).read_bytes())
+
+    def test_reference_boundary_has_no_pedagogical_approval(self):
+        self.assertEqual(self.data["status"], "source-imported-reference-only")
+        for entry in self.data["entries"]:
+            self.assertNotIn("lessonValidation", entry)
+            self.assertNotIn("learnerState", entry)
+            self.assertNotIn(entry["grade"], [9, 10])
+
+    def test_corrupted_canonical_variant_is_rejected(self):
+        data = copy.deepcopy(self.data)
+        next(entry for entry in data["entries"] if entry["character"] == "𠮟")["character"] = "叱"
+        with self.assertRaisesRegex(ValueError, "membership differs"):
+            build.verify_data(data, self.parameters, self.official_set, self.official_grades)
+
+    def test_corrupted_grade_is_rejected(self):
+        data = copy.deepcopy(self.data)
+        data["entries"][0]["grade"] = 2
+        with self.assertRaisesRegex(ValueError, "grades differ"):
+            build.verify_data(data, self.parameters, self.official_set, self.official_grades)
+
+    def test_swapped_order_is_rejected(self):
+        data = copy.deepcopy(self.data)
+        data["entries"][0], data["entries"][1] = data["entries"][1], data["entries"][0]
+        for number, entry in enumerate(data["entries"], 1):
+            entry["order"] = number
+        with self.assertRaisesRegex(ValueError, "order differs"):
+            build.verify_data(data, self.parameters, self.official_set, self.official_grades)
+
+    def test_mixed_reading_types_are_rejected(self):
+        data = copy.deepcopy(self.data)
+        entry = next(entry for entry in data["entries"] if entry["onReadings"])
+        entry["onReadings"][0]["type"] = "ja_kun"
+        with self.assertRaisesRegex(ValueError, "types mixed"):
+            build.verify_data(data, self.parameters, self.official_set, self.official_grades)
+
+    def test_corrupted_svg_and_source_hash_are_rejected(self):
+        with self.assertRaisesRegex(ValueError, "no ordered paths"):
+            build.verify_svg(b'<svg xmlns="http://www.w3.org/2000/svg"/>')
+        with self.assertRaisesRegex(ValueError, "checksum mismatch"):
+            build.verify_svg(b'<svg/>', "bad")
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "source.pdf"
+            path.write_bytes(b"good")
+            checksum = build.digest(path.read_bytes())
+            self.assertEqual(build.checked_read(path, checksum), b"good")
+            path.write_bytes(b"corrupt")
+            with self.assertRaisesRegex(ValueError, "checksum mismatch"):
+                build.checked_read(path, checksum)
+
+
+if __name__ == "__main__":
+    unittest.main(verbosity=2)
