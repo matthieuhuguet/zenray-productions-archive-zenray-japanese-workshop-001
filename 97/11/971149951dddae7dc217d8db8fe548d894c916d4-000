@@ -1,0 +1,300 @@
+{
+  "checkedAt": "2026-10-17T21:26:36.358Z",
+  "productionWrites": 0,
+  "production": {
+    "entry": "/assets/index-DuyUbaBF.js",
+    "exactCatalogue": true,
+    "release": "9dd9165e4122a6ce",
+    "cards": 439,
+    "studyReadable": true,
+    "progressRecords": 0,
+    "notes": 0,
+    "component": "ZenRayJapanese-DTdlyo7k.js",
+    "componentSha256": "7520004dbd81ae111ac8cda8582dd5d452ba854b298c103ec3f75d477cc97b2e",
+    "versionMarker": "1.1.0"
+  },
+  "corpus": {
+    "release": "9dd9165e4122a6ce",
+    "cards": 439,
+    "approved": 439,
+    "grammarByLevel": {
+      "N5": 168,
+      "N4": 40,
+      "N3": 48,
+      "N2": 48,
+      "N1": 41
+    },
+    "counts": {
+      "grammar": 345,
+      "methodology": 2,
+      "curriculum": 2,
+      "pragmatics": 2,
+      "history": 24,
+      "arts": 23,
+      "religion": 12,
+      "food": 5,
+      "geography": 6,
+      "work": 1,
+      "seasons": 5,
+      "daily-life": 6,
+      "transport": 1,
+      "society": 3,
+      "administration": 1,
+      "safety": 1,
+      "dictionary": 218863,
+      "kanji": 13108,
+      "sentence": 43834
+    },
+    "coverage": {
+      "scope": "Editorial Bunpro benchmark only; not an official exhaustive JLPT syllabus or learner mastery.",
+      "counts": {
+        "covered": 88,
+        "open": 44
+      },
+      "completeCoverage": false
+    },
+    "vocabulary": {
+      "totalEntries": 16086,
+      "withFrench": 15336,
+      "missingFrench": 750,
+      "counts": {
+        "dictionaryEntries": 218863,
+        "frenchEntries": 15336,
+        "classifiedUnique": 7747,
+        "classifiedFrench": 6997,
+        "classifiedMissingFrench": 750,
+        "unclassifiedFrench": 8339,
+        "levels": {
+          "N5": {
+            "rows": 684,
+            "entries": 667,
+            "french": 655,
+            "missingFrench": 12
+          },
+          "N4": {
+            "rows": 640,
+            "entries": 635,
+            "french": 629,
+            "missingFrench": 6
+          },
+          "N3": {
+            "rows": 1730,
+            "entries": 1710,
+            "french": 1691,
+            "missingFrench": 19
+          },
+          "N2": {
+            "rows": 1812,
+            "entries": 1794,
+            "french": 1773,
+            "missingFrench": 21
+          },
+          "N1": {
+            "rows": 3427,
+            "entries": 3399,
+            "french": 2699,
+            "missingFrench": 700
+          }
+        }
+      }
+    },
+    "joyo": {
+      "total": 2136,
+      "primary": 1026,
+      "secondary": 1110,
+      "withFrench": 1987,
+      "missingFrench": 149,
+      "byGrade": {
+        "1": 80,
+        "2": 160,
+        "3": 200,
+        "4": 202,
+        "5": 193,
+        "6": 191,
+        "8": 1110
+      }
+    },
+    "kana": {
+      "total": 237,
+      "counts": {
+        "hiragana": {
+          "base": 46,
+          "dakuten": 20,
+          "handakuten": 5,
+          "yoon": 33,
+          "small": 8,
+          "sokuon": 1,
+          "historical": 2,
+          "rareYoon": 3
+        },
+        "katakana": {
+          "base": 46,
+          "dakuten": 20,
+          "handakuten": 5,
+          "yoon": 33,
+          "small": 8,
+          "sokuon": 1,
+          "historical": 2,
+          "rareYoon": 3
+        },
+        "shared": {
+          "longVowelMark": 1
+        }
+      }
+    }
+  },
+  "history": {
+    "resume": {
+      "tranches": 128,
+      "leconsDistinctes": 110,
+      "lignesVocabulaire": 359,
+      "motsDistincts": 346,
+      "pointsGrammaire": 29,
+      "fichesKanji": 137
+    },
+    "gaugeDate": "2026-08-16",
+    "gauge": [
+      {
+        "code": "N5",
+        "enseigne": 96,
+        "enseigneApprox": false,
+        "consolide": 55,
+        "consolideApprox": true,
+        "compteurs": [
+          {
+            "cle": "kanji",
+            "fait": 100,
+            "cible": 100,
+            "approx": false
+          },
+          {
+            "cle": "grammaire",
+            "fait": 38,
+            "cible": 38,
+            "approx": false
+          },
+          {
+            "cle": "vocabulaire",
+            "fait": 700,
+            "cible": 800,
+            "approx": true
+          }
+        ]
+      },
+      {
+        "code": "N4",
+        "enseigne": 22,
+        "enseigneApprox": false,
+        "consolide": null,
+        "compteurs": [
+          {
+            "cle": "kanji",
+            "fait": 37,
+            "cible": 200,
+            "approx": false
+          },
+          {
+            "cle": "grammaire",
+            "fait": 9,
+            "cible": 42,
+            "approx": true
+          },
+          {
+            "cle": "vocabulaire",
+            "fait": 700,
+            "cible": 1500,
+            "approx": true
+          }
+        ]
+      },
+      {
+        "code": "N3",
+        "enseigne": 2,
+        "enseigneApprox": true,
+        "consolide": null,
+        "compteurs": [
+          {
+            "cle": "kanji",
+            "fait": null,
+            "cible": null,
+            "approx": false
+          },
+          {
+            "cle": "grammaire",
+            "fait": null,
+            "cible": null,
+            "approx": false
+          },
+          {
+            "cle": "vocabulaire",
+            "fait": null,
+            "cible": null,
+            "approx": false
+          }
+        ]
+      },
+      {
+        "code": "N2",
+        "enseigne": 0,
+        "enseigneApprox": false,
+        "consolide": null,
+        "compteurs": [
+          {
+            "cle": "kanji",
+            "fait": null,
+            "cible": null,
+            "approx": false
+          },
+          {
+            "cle": "grammaire",
+            "fait": null,
+            "cible": null,
+            "approx": false
+          },
+          {
+            "cle": "vocabulaire",
+            "fait": null,
+            "cible": null,
+            "approx": false
+          }
+        ]
+      },
+      {
+        "code": "N1",
+        "enseigne": 0,
+        "enseigneApprox": false,
+        "consolide": null,
+        "compteurs": [
+          {
+            "cle": "kanji",
+            "fait": null,
+            "cible": null,
+            "approx": false
+          },
+          {
+            "cle": "grammaire",
+            "fait": null,
+            "cible": null,
+            "approx": false
+          },
+          {
+            "cle": "vocabulaire",
+            "fait": null,
+            "cible": null,
+            "approx": false
+          }
+        ],
+        "deduit": true
+      }
+    ],
+    "historicalCardOverlap": 0
+  },
+  "assets": {
+    "inventoryAt": "2026-10-17T21:26:34.217Z",
+    "selected": 47,
+    "currentReceiptMatches": 47,
+    "pending": [],
+    "error": null,
+    "limitation": "Receipt comparison only; does not establish remote binary loss or global backup completeness."
+  }
+}

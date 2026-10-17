@@ -1,0 +1,51 @@
+// 17 October 2026, 23:29 CEST: collect current corpus and read-only production evidence without learner writes.
+import { readFile, writeFile } from 'node:fs/promises'
+import { createHash } from 'node:crypto'
+import assert from 'node:assert/strict'
+const output = '/Users/zenray/.claude/tmp/tmp-zenray-japanese/audit/17-October-2026'
+const root = '/Users/zenray/.claude/Memory1/Japanese/Site/'
+const json = async path => JSON.parse(await readFile(path, 'utf8'))
+const catalogue = await json(root + 'corpus/catalogue.json')
+const coverage = await json(root + 'corpus/coverage.json')
+const vocabulary = await json(root + 'reference/vocabulary/catalogue.json')
+const joyo = await json(root + 'reference/joyo.json')
+const kana = await json(root + 'reference/kana.json')
+const history = await json(root + 'japanese.json')
+const grammarByLevel = Object.fromEntries(['N5','N4','N3','N2','N1'].map(level => [level,catalogue.cards.filter(card => card.domain === 'grammar' && card.level === level).length]))
+const state = await json('/Users/zenray/Library/Application Support/ZenRayAssets/Project-zenray-japanese.json')
+const selected = state.inventory.localFiles.filter(file => file.relativePath.startsWith('Site/reference/') || file.relativePath.startsWith('Release/1.1.0/') || file.relativePath === 'lessons/NextLesson-17-October-2026.md' || ['Project1.md','Release1.1.0.md','Release110ProductionProof.json','ResumeCorpus.md'].includes(file.relativePath))
+const pending = []
+for (const file of selected) {
+  const bytes = await readFile(file.localPath)
+  const hash = createHash('sha256').update(bytes).digest('hex')
+  if (state.backups[file.id]?.sha256 !== hash || state.backups[file.id]?.size !== bytes.length) pending.push(file.id)
+}
+const credentials = await readFile('/Users/zenray/.claude/Memory1/AGENTS.md', 'utf8')
+const secret = credentials.match(/Mot de passe maître du drive ZenRayProgress\s*=\s*`([^`]+)`/)?.[1]
+assert(secret)
+async function get(path, auth = true) {
+  const response = await fetch('https://zenray-progress.pages.dev' + path, { headers: auth ? { 'x-zr-auth': secret } : {}, signal: AbortSignal.timeout(30000), cache: 'no-store' })
+  assert(response.ok, 'Production read failed: ' + response.status)
+  return response
+}
+const html = await (await get('/', false)).text()
+const liveCatalogue = JSON.parse((await (await get('/api/page?action=read&raw=1&path=' + encodeURIComponent('Memory/Japanese/Site/corpus/catalogue.json'))).json()).markdown)
+assert.deepEqual(liveCatalogue, catalogue)
+const learner = (await (await get('/api/japanese')).json()).state
+assert(learner?.schemaVersion === 1)
+const entry = html.match(/src="([^\"]*\/assets\/index-[^\"]+\.js)"/)?.[1]
+assert(entry)
+const entryCode = await (await get(entry, false)).text()
+const component = entryCode.match(/ZenRayJapanese-[\w-]+\.js/)?.[0]
+assert(component)
+const componentCode = await (await get('/assets/' + component, false)).text()
+assert(componentCode.includes('1.1.0'))
+const report = {
+  checkedAt: new Date().toISOString(), productionWrites: 0,
+  production: { entry, component, componentSha256: createHash('sha256').update(componentCode).digest('hex'), versionMarker: '1.1.0', exactCatalogue: true, release: catalogue.release, cards: catalogue.cards.length, studyReadable: true, progressRecords: Object.keys(learner.progress).length, notes: Object.keys(learner.notes || {}).length },
+  corpus: { release: catalogue.release, cards: catalogue.cards.length, approved: catalogue.cards.filter(card => card.lessonValidation?.status === 'approved').length, grammarByLevel, counts: catalogue.counts, coverage: { scope: coverage.scope, counts: coverage.counts, completeCoverage: coverage.completeCoverage }, vocabulary: { totalEntries: vocabulary.totalEntries, withFrench: vocabulary.withFrench, missingFrench: vocabulary.missingFrench, counts: vocabulary.counts }, joyo: joyo.counts, kana: { total: kana.entries.length, counts: kana.counts } },
+  history: { resume: history.resume, gaugeDate: history.jauge.mesureLe, gauge: history.jauge.niveaux, historicalCardOverlap: history.lecons.filter(lesson => catalogue.cards.some(card => card.id === lesson.id)).length },
+  assets: { inventoryAt: state.inventory.checkedAt, selected: selected.length, currentReceiptMatches: selected.length - pending.length, pending, error: state.error, limitation: 'Receipt comparison only; does not establish remote binary loss or global backup completeness.' }
+}
+await writeFile(output + '/CurrentAudit.json', JSON.stringify(report, null, 2) + '\n')
+console.log(JSON.stringify(report))

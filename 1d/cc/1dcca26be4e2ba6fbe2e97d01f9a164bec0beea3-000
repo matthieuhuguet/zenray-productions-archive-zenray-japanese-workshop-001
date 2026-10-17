@@ -1,0 +1,64 @@
+# Audit de ZenRay Japanese 1.1.0 (17 October 2026)
+
+L’application permet de reprendre les leçons actuelles dans Learn → Japanese. Elle ne constitue pas un cursus complet N5 à N1 et au-delà. Verdict : utilisation possible pour la reprise accompagnée, avec corrections nécessaires avant de déclarer le produit terminé. Aucun pourcentage global de complétude n’est défendable. (17 October 2026)
+
+Le meilleur levier consiste à fiabiliser les sauvegardes et la reprise, puis à transformer les références déjà disponibles en exercices vérifiés ; ajouter des milliers d’entrées ne suffit pas à créer un parcours d’apprentissage. Cet audit ne modifie ni le code de l’application ni les résultats de l’apprenant. (17 October 2026)
+
+## État mesuré (17 October 2026)
+
+| Élément | Mesure | Portée et limite |
+|---|---|---|
+| Application en ligne | Marqueur 1.1.0, composant ZenRayJapanese-DTdlyo7k.js, catalogue distant identique | Lecture du site et de son API réelle à 23:26 CEST ; aucune écriture apprenant. (17 October 2026) |
+| Fiches éditoriales | 439 approuvées, dont 345 grammaticales | Revues adversariales par modèles liées aux empreintes ; aucune certification native ou humaine, aucune garantie d’absence absolue d’erreur. (17 October 2026) |
+| Grammaire par niveau | N5 168, N4 40, N3 48, N2 48, N1 41 | Classement éditorial, pas une liste officielle ni une mesure de maîtrise. (17 October 2026) |
+| Audit de couverture N5 | 88 points couverts, 44 ouverts sur 132 | Référentiel éditorial Bunpro seulement ; 66,7 % de ce référentiel précis, pas du japonais ni de l’application. (17 October 2026) |
+| Vocabulaire de référence | 16 086 entrées uniques, 15 336 avec français, 750 sans français | 7 747 entrées classées communautairement et 8 339 non classées ; non classé ne signifie pas au-delà du N1. (17 October 2026) |
+| Kana et jōyō | 237 éléments, dont 46 signes de base par écriture ; 2 136 jōyō | 149 jōyō sans sens français ; présence en référence distincte d’une leçon exercée. (17 October 2026) |
+| Historique personnel | 128 tranches, 110 identifiants de leçons historiques ; dernière leçon L111 | L’API de révision contient 0 fiche commencée et 0 note ; l’historique antérieur est bien une source séparée, pas une absence d’apprentissage. (17 October 2026) |
+| Vérification technique ciblée | 65 tests réussis, 7 fichiers ; zéro test échoué | Tests japonais sur le checkout 96b466ce, plus scénarios isolés ci-dessous. La suite globale de 2 585 tests appartient à la validation de livraison antérieure. (17 October 2026) |
+
+Le JLPT ne publie plus de liste exhaustive d’items de vocabulaire, de kanji et de grammaire depuis la refonte de 2010 ; il ne teste pas directement la conversation. La [FAQ officielle du JLPT](https://www.jlpt.jp/e/faq/index.html) confirme ces deux limites. Pour déclarer un cursus terminé, il faut donc un périmètre éditorial explicite et fini, comprenant aussi écoute, lecture et production orale, puis une vérification de chaque compétence. (17 October 2026)
+
+## Cinq améliorations prioritaires (17 October 2026)
+
+### 1. Compléter la couverture pédagogique et le français (17 October 2026)
+
+Constat : le référentiel N5 laisse 44 points ouverts ; les niveaux N4 à N1 ne disposent pas encore de la même preuve complète de couverture. Parmi les appartenances communautaires, N1 compte 700 entrées sans français sur 3 399 ; ce comptage peut recouper d’autres niveaux et ne s’ajoute pas aux 750 uniques. Les 149 jōyō sans français constituent une autre lacune. Sources : /Users/zenray/.claude/Memory1/Japanese/Site/corpus/coverage.json, /Users/zenray/.claude/Memory1/Japanese/Site/reference/vocabulary/catalogue.json et /Users/zenray/.claude/Memory1/Japanese/Site/reference/joyo.json. (17 October 2026)
+
+Correction proposée : terminer les points nommés N5, auditer ensuite N4, N3, N2, N1, puis définir une première extension finie au-delà du N1. Compléter les sens français depuis des sources compatibles avec chaque graphie, lecture et sens ; maintenir les lacunes visibles tant que la vérification manque. Critère de fin : chaque exigence du périmètre possède une leçon vérifiée et des exercices ; deux revues indépendantes concordent sur les empreintes actuelles, et un contenu volontairement altéré est refusé. (17 October 2026)
+
+### 2. Permettre de résoudre un conflit de note (17 October 2026)
+
+Défaut reproduit dans les composants réels avec un état personnel fictif : un brouillon fondé sur la révision 1 rencontre une note passée à la révision 2 ailleurs. Le serveur refuse correctement l’écrasement, mais recharger conserve la révision 1 dans le brouillon ; les deux tentatives soumettent donc [1, 1] et échouent. Le texte local est conservé, sa sauvegarde reste bloquée. Sources : /Users/zenray/.codex/worktrees/japanese-progress/src/learn/JapaneseNotebook.jsx:7, :11 et :17 ; /Users/zenray/.codex/worktrees/japanese-progress/server/japanesePersonal.js:8. (17 October 2026)
+
+Correction proposée : présenter le texte local et la version distante avec une résolution explicite, puis enregistrer sur la révision distante actuelle. Critère de fin : deux éditeurs modifient la même note ; l’interface conserve les deux textes et permet une révision 3 sans boucle d’erreur ni copier-coller de secours. Preuve actuelle : /Users/zenray/.claude/tmp/tmp-zenray-japanese/audit/17-October-2026/BrowserAudit.json et Note-conflict.png dans ce même dossier. (17 October 2026)
+
+### 3. Fiabiliser les reçus de sauvegarde entre services Assets (17 October 2026)
+
+Deux processus local-server sont observés : PID 1387 sur 3100 et PID 89877 sur 3000, avec le même répertoire d’état. La classe AssetsService sérialise save() par instance, mais une seconde instance peut enregistrer son ancien instantané après la première et remplacer un reçu récent. Ce comportement est reproduit avec la classe réelle dans un dossier isolé, sans réseau. Source : /Users/zenray/.codex/worktrees/japanese-progress/scripts/AssetsService.mjs:431. (17 October 2026)
+
+Observation réelle : 40 des 47 fichiers de livraison sélectionnés concordent avec leurs reçus à 23:26:21 CEST, puis 47 sur 47 à 23:26:36. La seconde lecture est positive pour cette sélection ; elle ne supprime pas le défaut de concurrence, ne prouve pas une perte de binaires distants et ne certifie pas l’archive globale. Correction proposée : assurer un propriétaire unique de l’état ou une coordination interprocessus avec relecture et contrôle de version avant écriture. Critère de fin : deux instances et un redémarrage conservent tous les reçus récents ; les manifestes distants et les octets restaurés correspondent aux sources actuelles. Preuve : /Users/zenray/.claude/tmp/tmp-zenray-japanese/audit/17-October-2026/StateConcurrencyAudit.json. (17 October 2026)
+
+### 4. Relier les références à une pratique orale et à des révisions (17 October 2026)
+
+Les 16 086 entrées, les kana et les jōyō sont consultables, mais la vue de référence ne permet pas de les inscrire directement dans des exercices de révision. Le parcours éditorial repose sur des réponses révélées et une autoévaluation ; il ne comporte pas de capture micro ni de boucle Kyoko intégrée. Le programme oral existe séparément dans /Users/zenray/.claude/Memory1/Japanese/Scripts/oral_loop.py. Sources UI : /Users/zenray/.codex/worktrees/japanese-progress/src/learn/JapaneseReferences.jsx:21 et /Users/zenray/.codex/worktrees/japanese-progress/src/learn/JapaneseStudy.jsx:80. (17 October 2026)
+
+Correction proposée : proposer des lots finis de mots et kanji avec contextes vérifiés, écoute sourcée, restitution et révision ; intégrer une boucle orale dont l’état et les échecs sont visibles. Critère de fin : une séance de 15 minutes puis 2 minutes de pause traverse écoute, réponse et reprise ; consulter ou s’entraîner librement ne crée aucun acquis. Les réponses réelles de l’apprenant restent nécessaires pour enregistrer une progression. (17 October 2026)
+
+### 5. Rendre la reprise immédiate et charger seulement les données utiles (17 October 2026)
+
+La progression des fiches éditoriales utilise des identifiants différents de L1 à L111 : 0 recouvrement mesuré. L’API de révision contient 0 fiche commencée, tandis que Japanese1 conserve 110 leçons distinctes. La jauge de l’index est datée du 16 August 2026 ; elle ne constitue pas un diagnostic actuel. La sélection de leçon et l’onglet ne portent pas de lien permanent. Sources : /Users/zenray/.codex/worktrees/japanese-progress/src/learn/JapaneseStudy.jsx:22 et :52 ; /Users/zenray/.codex/worktrees/japanese-progress/src/learn/ZenRayJapanese.jsx:213 ; /Users/zenray/.claude/Memory1/Japanese/Site/japanese.json. (17 October 2026)
+
+Le navigateur isolé reçoit 9 242 826 octets JSON de vocabulaire, catalogue compris, pour afficher initialement les 667 entrées N5 ; les 4 140 051 octets non classés sont chargés aussi. Ce sont les corps JSON mesurés, pas le trafic compressé ni une mesure de temps de chargement. Le chargeur parcourt tous les fichiers avant le filtrage : /Users/zenray/.codex/worktrees/japanese-progress/src/learn/japaneseReferenceModel.js:48. (17 October 2026)
+
+Correction proposée : ajouter une reprise explicite après L111, une date et une provenance à chaque jauge, un diagnostic sans maîtrise inventée, des liens de leçon stables et un chargement par niveau. Critère de fin : recharger retrouve la séance choisie ; le premier affichage N5 ne lit que son catalogue et les données N5, tandis que la recherche globale charge les autres ensembles à la demande. (17 October 2026)
+
+## Reprendre les leçons maintenant (17 October 2026)
+
+Au prochain prompt, « On reprend le japonais » suffit : ouvrir Japanese1 par japanese-context, repartir après L111, effectuer le retest oral, puis travailler ば et なら selon les réponses. La préparation existe dans /Users/zenray/.claude/tmp/tmp-zenray-japanese/lessons/NextLesson-17-October-2026.md ; aucune restitution ni nouvelle leçon personnelle n’est enregistrée par cet audit. Les améliorations ci-dessus ne sont pas un préalable à cette reprise accompagnée. (17 October 2026)
+
+## Rejouer les preuves (17 October 2026)
+
+Le dossier /Users/zenray/.claude/tmp/tmp-zenray-japanese/audit/17-October-2026 contient CurrentAudit.json pour les lectures réelles, FocusedTests.json pour les 65 tests, BrowserAudit.json et deux captures pour les scénarios UI isolés, StateConcurrencyAudit.json pour le conflit d’état isolé. Les données fictives restent hors de Japanese1 et de l’API de production. (17 October 2026)
+
+Les scripts sont /Users/zenray/.claude/tmp/tmp-zenray-japanese/Scripts/CollectJapaneseAudit.mjs, /Users/zenray/.claude/tmp/tmp-zenray-japanese/Scripts/AuditJapaneseBrowser.mjs et /Users/zenray/.claude/tmp/tmp-zenray-japanese/Scripts/AuditJapaneseStateConcurrency.mjs. Le script navigateur nécessite la fixture existante servie sur 127.0.0.1:5174 ; les autres s’exécutent directement avec Node. Une archive locale, un reçu Assets et une restauration distante vérifiée demeurent trois preuves distinctes. (17 October 2026)

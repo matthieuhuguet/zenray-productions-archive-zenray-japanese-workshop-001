@@ -1,0 +1,34 @@
+// 17 October 2026, 23:30 CEST: reproduce competing service snapshots using isolated state only.
+import { readFile, writeFile, mkdir } from 'node:fs/promises'
+import assert from 'node:assert/strict'
+import { AssetsService } from '/Users/zenray/.codex/worktrees/japanese-progress/scripts/AssetsService.mjs'
+
+const output = process.argv[2] || '/Users/zenray/.claude/tmp/tmp-zenray-japanese/audit/17-October-2026'
+const config = JSON.parse(await readFile('/Users/zenray/.codex/worktrees/japanese-progress/scripts/AssetsConfig.json', 'utf8'))
+config.storage.stateDir = output + '/StateSandbox'
+config.storage.preventIdleSleepDuringTransfers = false
+config.sceneAudit = { enabled: false }
+config.projects = []
+await mkdir(config.storage.stateDir, { recursive: true })
+const options = { getToken: async () => { throw new Error('Network forbidden in audit') }, runProcess: async () => { throw new Error('Processes forbidden in audit') } }
+const first = new AssetsService(config, options)
+const second = new AssetsService(config, options)
+const id = 'isolated-audit'
+const initial = { backups: { 'workshop:example.md': { sha256: 'old-receipt' } }, watched: false }
+for (const service of [first, second]) {
+  service.projects.set(id, { id })
+  service.states.set(id, structuredClone(initial))
+}
+const inspect = async () => JSON.parse(await readFile(first.statePath(id), 'utf8'))
+first.state(id).backups['workshop:example.md'].sha256 = 'new-receipt'
+await first.save(id)
+assert.equal((await inspect()).backups['workshop:example.md'].sha256, 'new-receipt')
+first.state(id).watched = true
+await first.save(id)
+assert.equal((await inspect()).backups['workshop:example.md'].sha256, 'new-receipt')
+second.state(id).watched = true
+await second.save(id)
+assert.equal((await inspect()).backups['workshop:example.md'].sha256, 'old-receipt')
+const report = { checkedAt: new Date().toISOString(), productionWrites: 0, sandbox: config.storage.stateDir, actualClass: 'AssetsService', sameInstanceRetainsNewReceipt: true, staleInstanceRestoresOldReceipt: true, networkRequests: 0, conclusion: 'A second service instance can overwrite newer receipts with its stale snapshot; remote binary loss is not established.' }
+await writeFile(output + '/StateConcurrencyAudit.json', JSON.stringify(report, null, 2) + '\n')
+console.log(JSON.stringify(report))

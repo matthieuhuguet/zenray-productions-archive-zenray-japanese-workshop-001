@@ -1,0 +1,60 @@
+// 17 October 2026 23:24 Europe/Paris: isolated actual UI audit, with synthetic personal state and no production writes.
+import { chromium } from '/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/node_modules/playwright/index.mjs'
+import { readFile, writeFile } from 'node:fs/promises'
+import assert from 'node:assert/strict'
+import { applyStudyEvent } from '/Users/zenray/.codex/worktrees/japanese-progress/server/japanese.js'
+import { emptyStudyState } from '/Users/zenray/.codex/worktrees/japanese-progress/src/learn/japaneseStudyModel.js'
+const output='/Users/zenray/.claude/tmp/tmp-zenray-japanese/audit/17-October-2026'
+const browser=await chromium.launch({headless:true,executablePath:'/Users/zenray/Library/Caches/ms-playwright/chromium_headless_shell-1234/chrome-headless-shell-mac-arm64/chrome-headless-shell'})
+const page=await browser.newPage({viewport:{width:1440,height:1000}})
+page.setDefaultTimeout(10000)
+page.on('dialog',dialog=>dialog.accept())
+const errors=[], referenceRequests=[], submittedRevisions=[]
+let state=emptyStudyState()
+state.notes={'audit-note':{title:'Note de test concurrence',text:'Texte initial',topic:'japanese',revision:1,archived:false,createdAt:1,updatedAt:1}}
+page.on('pageerror',error=>errors.push(error.message))
+await page.route('**/api/page?**',async route=>{
+ try {
+  const path=new URL(route.request().url()).searchParams.get('path');assert(path.startsWith('Memory/Japanese/'))
+  const markdown=await readFile('/Users/zenray/.claude/Memory1/'+path.replace(/^Memory\//,''),'utf8')
+  if(path.includes('/reference/vocabulary/')) referenceRequests.push({path,bytes:Buffer.byteLength(markdown)})
+  await route.fulfill({json:{markdown}})
+ }catch{await route.fulfill({status:404,json:{missing:true}})}
+})
+await page.route('**/api/japanese',async route=>{
+ try{
+  if(route.request().method()==='POST'){
+   const body=route.request().postDataJSON();submittedRevisions.push(body.expectedRevision)
+   state=applyStudyEvent(state,null,body,Date.now(),[]).state
+  }
+  await route.fulfill({json:{state}})
+ }catch(error){await route.fulfill({status:400,json:{error:error.message}})}
+})
+const report={date:'17 October 2026',surface:'actual components in isolated Chromium; actual reference files; synthetic note state',productionWrites:0,findings:{}}
+try{
+ await page.goto('http://127.0.0.1:5174/scripts/JapaneseBrowserFixture.html')
+ await page.getByRole('button',{name:'Mon carnet',exact:true}).click()
+ await page.getByRole('button',{name:'Note de test concurrence Japonais',exact:true}).click()
+ await page.getByLabel('Texte de la note').fill('Brouillon local à conserver')
+ state.notes['audit-note']={...state.notes['audit-note'],text:'Modification externe',revision:2,updatedAt:2}
+ await page.getByRole('button',{name:'Enregistrer la note',exact:true}).click()
+ await page.getByRole('alert').getByText(/Cette fiche a changé ailleurs/).waitFor()
+ const firstText=await page.getByLabel('Texte de la note').inputValue()
+ await page.reload()
+ await page.getByRole('button',{name:'Mon carnet',exact:true}).click()
+ assert.equal(await page.getByLabel('Texte de la note').inputValue(),firstText)
+ await page.getByRole('button',{name:'Enregistrer la note',exact:true}).click()
+ await page.getByRole('alert').getByText(/Cette fiche a changé ailleurs/).waitFor()
+ report.findings.noteConflict={reproduced:true,submittedRevisions,remoteRevision:state.notes['audit-note'].revision,draftPreserved:true,stillUnableToSaveAfterReload:submittedRevisions.length===2 && submittedRevisions.every(value=>value===1)}
+ await page.screenshot({path:output+'/Note-conflict.png',fullPage:true})
+ await page.getByRole('button',{name:'Kana · vocabulaire · jōyō',exact:true}).click()
+ await page.getByText('667 résultats',{exact:true}).waitFor()
+ report.findings.vocabularyLoading={initialLevel:'N5',displayed:667,filesRequested:referenceRequests.length,totalBytes:referenceRequests.reduce((sum,item)=>sum+item.bytes,0),includesUnclassified:referenceRequests.some(item=>item.path.endsWith('/unclassified.json')),requests:referenceRequests}
+ await page.screenshot({path:output+'/Vocabulary-N5.png',fullPage:true})
+ assert.equal(referenceRequests.length,7)
+ assert.equal(report.findings.vocabularyLoading.totalBytes,9242826)
+ assert.deepEqual(errors,[])
+ report.browserErrors=errors
+ await writeFile(output+'/BrowserAudit.json',JSON.stringify(report,null,2)+'\n')
+ console.log(JSON.stringify(report))
+}finally{await browser.close()}

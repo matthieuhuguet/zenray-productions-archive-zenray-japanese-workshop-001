@@ -1,0 +1,55 @@
+{
+  "date": "17 October 2026",
+  "surface": "actual components in isolated Chromium; actual reference files; synthetic note state",
+  "productionWrites": 0,
+  "findings": {
+    "noteConflict": {
+      "reproduced": true,
+      "submittedRevisions": [
+        1,
+        1
+      ],
+      "remoteRevision": 2,
+      "draftPreserved": true,
+      "stillUnableToSaveAfterReload": true
+    },
+    "vocabularyLoading": {
+      "initialLevel": "N5",
+      "displayed": 667,
+      "filesRequested": 7,
+      "totalBytes": 9242826,
+      "includesUnclassified": true,
+      "requests": [
+        {
+          "path": "Memory/Japanese/Site/reference/vocabulary/catalogue.json",
+          "bytes": 20173
+        },
+        {
+          "path": "Memory/Japanese/Site/reference/vocabulary/N5.json",
+          "bytes": 480019
+        },
+        {
+          "path": "Memory/Japanese/Site/reference/vocabulary/N4.json",
+          "bytes": 442157
+        },
+        {
+          "path": "Memory/Japanese/Site/reference/vocabulary/N3.json",
+          "bytes": 1112683
+        },
+        {
+          "path": "Memory/Japanese/Site/reference/vocabulary/N2.json",
+          "bytes": 1178905
+        },
+        {
+          "path": "Memory/Japanese/Site/reference/vocabulary/N1.json",
+          "bytes": 1868838
+        },
+        {
+          "path": "Memory/Japanese/Site/reference/vocabulary/unclassified.json",
+          "bytes": 4140051
+        }
+      ]
+    }
+  },
+  "browserErrors": []
+}

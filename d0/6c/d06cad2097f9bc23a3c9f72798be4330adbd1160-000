@@ -1,0 +1,10 @@
+{
+  "checkedAt": "2026-10-17T21:25:49.992Z",
+  "productionWrites": 0,
+  "sandbox": "/Users/zenray/.claude/tmp/tmp-zenray-japanese/audit/17-October-2026/StateSandbox",
+  "actualClass": "AssetsService",
+  "sameInstanceRetainsNewReceipt": true,
+  "staleInstanceRestoresOldReceipt": true,
+  "networkRequests": 0,
+  "conclusion": "A second service instance can overwrite newer receipts with its stale snapshot; remote binary loss is not established."
+}
