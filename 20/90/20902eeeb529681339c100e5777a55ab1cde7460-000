@@ -1,11 +1,11 @@
 {
-  "checkedAt": "2026-10-16T12:38:35.180Z",
+  "checkedAt": "2026-10-17T20:16:49.623Z",
   "version": "1.1.0",
   "release": "9dd9165e4122a6ce",
   "cards": 439,
-  "entry": "/assets/index-BoXXn4O6.js",
-  "component": "ZenRayJapanese-CGAqJoQD.js",
-  "componentSha256": "4b242c2b5eb01fb77ca790a49ed30cc2b59ecc100ea9887399fa2aadd5990de6",
+  "entry": "/assets/index-CZ8Y7GA6.js",
+  "component": "ZenRayJapanese-DNdFiB0M.js",
+  "componentSha256": "8b6be0bd080ddaeadb05110da24a0026da3ee08d24be09d694744acfd0a03a83",
   "exactCatalogue": true,
   "exactCoverage": true,
   "recordPathsRead": [
